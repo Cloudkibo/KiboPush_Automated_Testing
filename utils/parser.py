@@ -1,5 +1,5 @@
 from reader import get_test
-
+import string
 # Key = Language. Value = Action
 # Check for the given language string in the step, and if it contains that string
 # It assigns it the appropriate action
@@ -16,6 +16,20 @@ language_action = {
     "lands on webpage": "open_kibopush"
 }
 
+def get_param(action, step, language):
+	if action[-1] != '_':
+		return action
+	else:
+		# Gets the word after that language from the given step
+		param = step[step.find(language) + len(language):].split()[0]
+		# Remove any punctuation
+		param = param.translate(None,string.punctuation)
+		# adding param to previous action
+		action = action + param
+		return action
+
+
+
 
 
 def get_action(step):
@@ -27,6 +41,8 @@ def get_action(step):
     for language in language_action.keys():
         if language in step:
             action = language_action[language]
+            # For complex action with params
+            action = get_param(action,step,language)
             repeat = repeat + 1
         if repeat > 1:
             action = "Ambigous"
@@ -77,6 +93,6 @@ def parse_language():
     pruned_test = remove_incomplete(test_case)
 
     print("Length of Pruned Test: ", len(pruned_test))
-
+    # print pruned_test
 if __name__ == '__main__':
 	parse_language()
