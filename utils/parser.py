@@ -94,5 +94,7 @@ def parse_language():
 
     print("Length of Pruned Test: ", len(pruned_test))
     # print pruned_test
+
+    return pruned_test
 if __name__ == '__main__':
 	parse_language()

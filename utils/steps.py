@@ -9,18 +9,18 @@ prefs = {"profile.default_content_setting_values.notifications" : 2}
 chrome_options.add_experimental_option("prefs",prefs)
 
 if platform.system() == 'Darwin':
-    driver = webdriver.Chrome('../macos/chromedriver', chrome_options=chrome_options)
+    driver = webdriver.Chrome('../driver/macos/chromedriver', chrome_options=chrome_options)
 elif platform.system() == 'Linux':
-    driver = webdriver.Chrome('../linux/chromedriver', chrome_options=chrome_options)
+    driver = webdriver.Chrome('../driver/linux/chromedriver', chrome_options=chrome_options)
 elif platform.system() == 'Windows':
-    driver = webdriver.Chrome('../windows/chromedriver.exe', chrome_options=chrome_options)
+    driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
 WAIT_TIME = 5 # number of seconds to wait after clicking something
 
 def open_kibopush():
     driver.get('https://staging.kibopush.com/')
 
-def login(user, pw):
+def login(user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'):
     login_button = driver.find_element_by_class_name('btn-brand')
     login_button.click()
     time.sleep(WAIT_TIME)
@@ -67,7 +67,7 @@ if __name__ == "__main__":
     try:
         open_kibopush()
         time.sleep(WAIT_TIME)
-        login(<email>, <password>)
+        login('maria_rdhorxy_zerosub@tfbnw.net  ', 'cloudkibo123')
         time.sleep(WAIT_TIME)
         sidebar_click('Subscribe to Messenger')
         time.sleep(WAIT_TIME)
