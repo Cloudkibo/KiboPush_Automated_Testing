@@ -16,11 +16,12 @@ elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
 WAIT_TIME = 5 # number of seconds to wait after clicking something
+# user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def open_kibopush():
     driver.get('https://staging.kibopush.com/')
 
-def login(user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'):
+def login(user='ydezwdftsl_1514980669@tfbnw.net ', pw='kibo4321'):
     login_button = driver.find_element_by_class_name('btn-brand')
     login_button.click()
     time.sleep(WAIT_TIME)

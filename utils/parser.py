@@ -8,28 +8,26 @@ language_action = {
 
     "login": "login",
     "logout": "logout",
-    "click on ": "click_",
+    "click on ": "click.",
     "collapse sidebar": "sidebar_hamburger",
     "expand sidebar": "sidebar_hamburger",
-    "go to ": "sidebar_",
-    "choose ": "choose_",
+    "go to ": "sidebar.",
+    "choose ": "choose.",
     "lands on webpage": "open_kibopush"
 }
 
+
 def get_param(action, step, language):
-	if action[-1] != '_':
-		return action
-	else:
-		# Gets the word after that language from the given step
-		param = step[step.find(language) + len(language):].split()[0]
-		# Remove any punctuation
-		param = param.translate(None,string.punctuation)
-		# adding param to previous action
-		action = action + param
-		return action
-
-
-
+    if action[-1] != '.':
+        return action
+    else:
+        # Gets the word after that language from the given step
+        param = step[step.find(language) + len(language):]
+        # Remove any punctuation
+        param = param.translate(None, string.punctuation)
+        # adding param to previous action
+        action = action + param
+        return action
 
 
 def get_action(step):
@@ -42,11 +40,12 @@ def get_action(step):
         if language in step:
             action = language_action[language]
             # For complex action with params
-            action = get_param(action,step,language)
+            action = get_param(action, step, language)
             repeat = repeat + 1
         if repeat > 1:
             action = "Ambigous"
     return action
+
 
 def criteria(test):
     errors = ['Ambigous', 'Not Defined']
@@ -54,6 +53,7 @@ def criteria(test):
         if test[-1] == error:
             return False
     return True
+
 
 def remove_incomplete(all_test):
     pruned_list = [x for x in all_test if criteria(x)]
@@ -96,5 +96,7 @@ def parse_language():
     # print pruned_test
 
     return pruned_test
+
+
 if __name__ == '__main__':
-	parse_language()
+    parse_language()
