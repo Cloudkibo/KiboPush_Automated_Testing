@@ -21,7 +21,7 @@ WAIT_TIME = 5 # number of seconds to wait after clicking something
 def open_kibopush():
     driver.get('https://staging.kibopush.com/')
 
-def login(user='ydezwdftsl_1514980669@tfbnw.net ', pw='kibo4321'):
+def login(user='maria_rdhorxy_zerosub@tfbnw.net', pw='cloudkibo123'):
     login_button = driver.find_element_by_class_name('btn-brand')
     login_button.click()
     time.sleep(WAIT_TIME)
@@ -33,7 +33,8 @@ def login(user='ydezwdftsl_1514980669@tfbnw.net ', pw='kibo4321'):
     login.click()
 
 def click_on(name):
-    element = driver.find_element_by_xpath("//*[contains(text(), '%s')]" % name)
+    name = name.lower()
+    element = driver.find_element_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % name)
     element.click()
 
 def logout():
@@ -68,7 +69,7 @@ if __name__ == "__main__":
     try:
         open_kibopush()
         time.sleep(WAIT_TIME)
-        login('maria_rdhorxy_zerosub@tfbnw.net  ', 'cloudkibo123')
+        login('maria_rdhorxy_zerosub@tfbnw.net', 'cloudkibo123')
         time.sleep(WAIT_TIME)
         sidebar_click('Subscribe to Messenger')
         time.sleep(WAIT_TIME)

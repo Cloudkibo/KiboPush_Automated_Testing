@@ -5,7 +5,6 @@ from steps import *
 # . indicates parameter
 
 action_step = {
-
     "login": login,
     "logout": logout,
     "click.": click_on,
