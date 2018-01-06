@@ -30,7 +30,6 @@ for index, test_action in enumerate(test_actions):
     print('-------------------------------')
     for action in test_action:
         if last_action != "Success":
-            print('Test Failed')
             break;
         function = action
         if '.' in action:
