@@ -48,7 +48,7 @@ def click_on(name, scope=driver):
         elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
         for element in elements:
             if element.is_displayed():
-                element.click()
+                driver.execute_script("arguments[0].click();", element)
                 break
     except Exception, e:
         return "Error: " + str(e)
