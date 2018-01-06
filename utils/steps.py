@@ -19,61 +19,97 @@ WAIT_TIME = 5 # number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def open_kibopush():
-    driver.get('https://staging.kibopush.com/')
+    try:
+        driver.get('https://staging.kibopush.com/')
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
 
 def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
-    login_button = driver.find_element_by_class_name('btn-brand')
-    login_button.click()
-    time.sleep(WAIT_TIME)
-    email = driver.find_element_by_id('email')
-    password = driver.find_element_by_id('pass')
-    login = driver.find_element_by_id('loginbutton')
-    email.send_keys(user)
-    password.send_keys(pw)
-    login.click()
+    try:
+        login_button = driver.find_element_by_class_name('btn-brand')
+        login_button.click()
+        time.sleep(WAIT_TIME)
+        if ('facebook' in str(driver.current_url)):
+            email = driver.find_element_by_id('email')
+            password = driver.find_element_by_id('pass')
+            login = driver.find_element_by_id('loginbutton')
+            email.send_keys(user)
+            password.send_keys(pw)
+            login.click()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
 
 def click_on(name):
-    name = name.lower()
-    element = driver.find_element_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % name)
-    element.click()
+    try:
+        name = name.lower()
+        element = driver.find_element_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % name)
+        element.click()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
 
 def logout():
-    user_pic = driver.find_element_by_class_name('m-topbar__userpic')
-    user_pic.click()
-    click_on('Logout')
+    try:
+        user_pic = driver.find_element_by_class_name('m-topbar__userpic')
+        user_pic.click()
+        click_on('Logout')
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
 
 
 def sidebar_hamburger():
-    sidebar_hamburger = driver.find_element_by_id('m_aside_left_minimize_toggle')
-    sidebar_hamburger.click()
+    try:
+        sidebar_hamburger = driver.find_element_by_id('m_aside_left_minimize_toggle')
+        sidebar_hamburger.click()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+        
 
 def sidebar_click(sidebar_item):
-    sidebar = driver.find_element_by_class_name('m-menu__nav')
-    sidebar_element = sidebar.find_element_by_xpath("//*[contains(text(), '%s')]" % sidebar_item)
-    sidebar_element.click()
+    try:
+        sidebar = driver.find_element_by_class_name('m-menu__nav')
+        sidebar_element = sidebar.find_element_by_xpath("//*[contains(text(), '%s')]" % sidebar_item)
+        sidebar_element.click()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
 
 def choose_select(select_label, select_item):
-    label = driver.find_element_by_xpath("//*[contains(text(), '%s')]" % select_label)
-    label_parent = label.find_element_by_xpath("..")
-    select = label_parent.find_element_by_tag_name('select')
-    select.click()
-    item = select.find_element_by_xpath("//*[contains(text(), '%s')]" % select_item)
-    item.click()
+    try:
+        label = driver.find_element_by_xpath("//*[contains(text(), '%s')]" % select_label)
+        label_parent = label.find_element_by_xpath("..")
+        select = label_parent.find_element_by_tag_name('select')
+        select.click()
+        item = select.find_element_by_xpath("//*[contains(text(), '%s')]" % select_item)
+        item.click()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
 
 def add_broadcast_component(component_name):
-    click_on(component_name)
+    try:
+        click_on(component_name)
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
 
 
     
 if __name__ == "__main__":
     try:
-        open_kibopush()
+        print(open_kibopush())
         time.sleep(WAIT_TIME)
-        login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321')
+        print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
         time.sleep(WAIT_TIME)
-        sidebar_click('Subscribe to Messenger')
+        print(sidebar_click('Subscribe to Messenger'))
         time.sleep(WAIT_TIME)
-        choose_select('Choose Page', 'Test 2')
+        print(choose_select('Choose Page', 'Test 2'))
         time.sleep(WAIT_TIME)
     finally:
         driver.close()
