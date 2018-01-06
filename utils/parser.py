@@ -54,6 +54,13 @@ def criteria(test):
             return False
     return True
 
+def criteria_simple(test):
+    errors = ['Ambigous', 'Not Defined']
+    for error in errors:
+        if test == error:
+            return False
+    return True
+
 
 def remove_incomplete(all_test):
     pruned_list = [x for x in all_test if criteria(x)]
@@ -62,40 +69,46 @@ def remove_incomplete(all_test):
 
 def parse_language():
 
-    all_test = get_test()
+    all_test, expected_result = get_test()
+    print('======== PARSING TEST PLAN ========\n')
     unparsable = []
     ambigous = []
     test_actions = []
     test_case = []
     not_parsed = 0
 
-    for case in all_test:
-        for step in case:
+    for index, case in enumerate(all_test):
+        for step in case:	
             if step == '':
                 continue
             action = get_action(step)
             test_actions.append(action)
             if action == "Not Defined":
+            	expected_result[index] = "Not Defined"
                 unparsable.append(step)
                 not_parsed = not_parsed + 1
                 break
             elif action == "Ambigous":
+            	expected_result[index] = "Ambigous"
                 ambigous.append(step)
                 not_parsed = not_parsed + 1
                 break
         test_case.append(test_actions)
         test_actions = []
 
+    print('Test Plan Parsed sucessfully')
     print("Total Cases : ", len(all_test))
     print("Not Parsed : ", not_parsed)
     print("Ambigous:", ambigous)
 
     pruned_test = remove_incomplete(test_case)
+    pruned_result = [x for x in expected_result if criteria_simple(x)]
 
     print("Length of Pruned Test: ", len(pruned_test))
+    print('\n')
     # print pruned_test
 
-    return pruned_test
+    return pruned_test, pruned_result
 
 
 if __name__ == '__main__':

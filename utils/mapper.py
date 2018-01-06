@@ -14,9 +14,15 @@ action_step = {
     "open_kibopush": open_kibopush
 }
 
+did_login = False
 
-test_actions = parse_language()
-for test_action in test_actions:
+test_actions, expected_result = parse_language()
+print('======== STARTING TEST ========\n')
+for index, test_action in enumerate(test_actions):
+    print('\n')
+    print('======== TEST:', index+1, ' ========')
+    print("Expected Result: ", expected_result[index])
+    print('-------------------------------')
     for action in test_action:
         function = action
         if '.' in action:
@@ -26,7 +32,13 @@ for test_action in test_actions:
             print('Parameters:', param)
             action_step[function](param)
         else:
+            if('login' in action):
+                did_login = True
             print('Function called: ', action_step[function])
             action_step[function]()
-    print('Function called: logout')
-    action_step['logout']()
+
+    # To logout after every test
+    if did_login:
+        did_login = False
+        print('Function called: logout')
+        action_step['logout']()
