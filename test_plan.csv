@@ -1,252 +1,284 @@
-,Category,Description,Steps,Expected Results,Priority,Status,Remarks,Issue No.,Date,By
-AUTHENTICATION,,,,,,,,,,
+,Category,Description,Steps,Expected Results,User Type,Priority,Status,Remarks,Issue No.,Date,By
+AUTHENTICATION,,,,,,,,,,,
 1,User Authentication,User Authentication,"1- User lands on webpage 
-2- Click on Login
+2- Login
 3- Directed to Facebook login 
 4- User grants permission access 
-",Signup successful and user’s basic info is saved in Users table,High,Passed,,,6 Dec 2017,Ahsan
+",Signup successful and user’s basic info is saved in Users table,New,High,Passed,,,2 Jan 2018,Baqar
 2,User Authentication,Login,"1- User lands on webpage
 2- Login
-",Login successful,High,Passed,,,6 Dec 2017,Ahsan
+",Login successful,Repeat,High,Passed,,,2 Jan 2018,Baqar
 3,User Authentication,Faq Link,"1- User lands on webpage
 2- Click on ""Visit FAQ Page""
-",FAQ page opens into a new tab,Low,Passed,,,6 Dec 2017,Ahsan
-,,,,SIDEBAR,,,,,,
+",FAQ page opens into a new tab,All,Low,Passed,,,2 Jan 2018,Baqar
+,,,,SIDEBAR,,,,,,,
 3,SIDEBAR,Navigation,"1.Login
-2. Click on each link on the sidebar.
-",User is routed to correct route,High,Passed,,,4-Dec-2017,Ahsan
+2. Go to Dashboard
+3. Go to Broadcasts
+4. Go to Survey
+5. Go to Polls
+6. Go to Workflows
+7. Go to Live Chat
+8. Go to Autoposting
+9. Go to Persistent Menu
+10. Go to Manage Pages
+11. Go to Manage Subscriptions
+12. Go to Subscribe to Messenger
+13. Go to Messenger Link
+14. Go to Invite using phone number
+15. Go to Settings
+16. Go to User Guide",User is routed to correct route for each element on the sidebar,All,High,Passed,,,2-Jan-2018,Baqar
 ,SIDEBAR,Collapsing and Expanding,"1. Login.
 2. Collapse the side bar,
-3. Expand the sidebar",The sidbar collapse and expand as expected,High,Failed,It does not happen on all pages,#1070,5-Dec-2017,Ahsan
+3. Expand the sidebar",The sidbar collapse and expand as expected,All,High,Failed,Only works on the dashboard after immediately logging in or refreshing the page,#1070,2-Jan-2018,Baqar
 ,SIDEBAR,Icons,"1. Login
-2. Verify Icons of each Sidebar Item",Icons should be unique,Medium,Failed,"Icons are not unique for Dashboard and Operational Dashboard.
-For workflows and Main Menu",#1070,4-Dec-2017,Ahsan
-,,,,NAVBAR,,,,,,
-,NAVBAR,Logout,"1.Login
+2. Verify Icons of each Sidebar Item",Icons should be unique,All,Medium,Passed,,,2-Jan-2018,Baqar
+,,,,NAVBAR,,,,,,,
+,NAVBAR,Logout,"1. Login
 2. Logout through Navbar
-",User should log out,High,Failed,Sometimes the Buttons on NavBar do not respond to clicking,#1303,6-Dec-2017,Ahsan
-FACEBOOK PAGES,,,,,,,,,,
+",User should log out,All,High,Passed,,,26-Dec-2017,Baqar
+FACEBOOK PAGES,,,,,,,,,,,
 3,Facebook Pages,Display list of Facebook pages,"1- Login 
-2- Display list of Facebook pages
-",Display list of Facebook pages,High,Passed,,,6-Dec-2017,Ahsan
+2- Go to Manage Pages
+",Display list of Facebook pages,New,High,Passed,,,2-Jan-2018,Baqar
 ,Facebook Pages,Updating List of Facebook Pages,"1. Login
 2. Check the pages you can add.
 3. Make a Page / Or get admin privilige to a face on Facebook.
-4. New page is not shown in the list of add pages.",The page should be shown on the list,High,Failed,Currently only way to get list of new pages is by logging out and loggin in.,#1304,5-Dec-2017,Ahsan
+4. New page is not shown in the list of add pages.",The page should be shown on the list,All,High,Failed,Currently only way to get list of new pages is by logging out and loggin in.,#1304,2-Jan-2018,Baqar
 4,Facebook Pages,Add Facebook Page,"1- Login 
-2- Display list of Facebook pages 
-3- Go to Settings tab 
-4- Click on ‘Add new page’ button
-",Successfully added a new Facebook page,High,Passed,,,6-Dec-2017,Ahsan
+2- Go to Manage Pages
+3- Click on Connect
+4- Click on Done
+",Successfully added a new Facebook page,All,High,Passed,,,2-Jan-2018,Baqar
 5,Facebook Pages,Delete Facebook Page,"1- Login 
-2- Display list of Facebook pages 
-3- Go to Settings tab 
-4- Select the page 
-5. Click on ‘Delete’ button
-",The page is removed,High,Passed,,,6-Dec-2017,Ahsan
-BROADCASTS,,,,,,,,,,
-6,Broadcasts,Send a text message,"1- Login 
-2- Go to Broadcasts
-3- Click on Create Broadcast
-4- Write some text and send
-",Text mesage should broadcated to all the customers,High,Failed,Test broadcast not working,#1088,28-Nov-2017,Ahsan
+2- Go to Manage Pages
+3- Click on Disconnect
+4- Click on Done",The page is removed,All,High,Passed,,,2-Jan-2018,Baqar
+BROADCASTS,,,,,,,,,,,
+6,Broadcasts,Send a text message,"1. Login 
+2. Go to Broadcasts
+3. Click on Create New Broadcast
+4. Click on Text
+5. Click on Enter your text...
+6. Write ""This is sample broadcast""
+7. Click on Send Broadcast",Text mesage should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 7,Broadcasts,Send a message with image attached,"1- Login 
-2- Go to Broadcats
-3- Click on Create Broadcast
-4- Attach an image and send
-",Message should broadcated to all the customers,High,Failed,Test broadcast not working,#1088,28-Nov-2017,Ahsan
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4- Click on Image
+5. Upload Image
+6. Click on Send Broadcast
+",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a message with card attached,"1- Login 
-2- Go to Broadcats
-3- Click on Create Broadcast
-4- Attach an card and send
-",Message should broadcated to all the customers,High,,,,,
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4- Click on Card
+5. Upload Image
+6. Click on Enter Title
+7. Write ""Title""
+8. Click on Enter subtitle 
+9. Write ""Sample text""
+10. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Not working,,2-Jan-2018,Baqar
 ,Broadcasts,Send a message with Gallary attached,"1- Login 
-2- Go to Broadcats
-3- Click on Create Broadcast
-4- Attach an images (gallery) and send
-",Message should broadcated to all the customers,High,, ,,,
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4- Click on Gallery
+5. Upload Image
+6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
 9,Broadcasts,Send a message with audio attached,"1- Login 
-2- Go to Broadcats
-3- Click on Create Broadcast
-4- Attach an audeo and send
-",Message should broadcated to all the customers,High,Failed,Test broadcast not working,#1088,28-Nov-2017,Ahsan
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4- Click on Audio
+5. Upload Audio
+6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 8,Broadcasts,Send a message with video attached,"1- Login 
-2- Go to Broadcats
-3- Click on Create Broadcast
-4- Attach an video and send
-",Message should broadcated to all the customers,High,Failed,Test broadcast not working,#1088,28-Nov-2017,Ahsan
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4- Click on Video
+5. Upload Video
+6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a message with File attached,"1- Login 
-2- Go to Broadcats
-3- Click on Create Broadcast
-4- Attach an File and send
-",Message should broadcated to all the customers,High,,,,,
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4- Click on File
+5. Upload File
+6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
 10,Broadcasts,Send a message with link attached,"1- Login 
-2- Go to Broadcats
+2- Go to Broadcasts
 3- Click on Create Broadcast
 4- Attach an link and send
-",Message should broadcated to all the customers,High,Failed,Test broadcast not working,#1088,28-Nov-2017,Ahsan
+",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a mixed message,"1- Login 
-2- Go to Broadcats
-3- Click on Create Broadcast
-4- Make a message with mixed components
-",Message should broadcated to all the customers,High,Failed,The order of the multiple components are not preserved.,#1088,5 Dec 2017,Ahsan
-11,Broadcasts,Show list of Broadcasts,"1- Login
-2- Go to Broadcasts",List of Broadcats should be shown,High,Failed,There is issue with Seen and Sent reflecting the number of components.,#1088,28-Nov-2017,Ahsan
-12,Broadcasts,Edit Braodcast,"1- Login
 2- Go to Broadcasts
-3- Click on Edit",Broadcst should be edited,High,Failed,There is no option to edit Broadcast,#1088,28-Nov-2017,Ahsan
-SUBSCRIBERS,,,,,,,,,,
+3- Click on Create New Broadcast
+4- Click on File
+5. Upload File
+6. Click on Text
+7. Click on Enter your text...
+8. Write ""This is sample broadcast""
+9. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,The order of the multiple components are not preserved.,#1088,2-Jan-2018,Baqar
+11,Broadcasts,Show list of Broadcasts,"1- Login
+2- Go to Broadcasts",List of Broadcats should be shown,,High,Failed,There is issue with Seen and Sent reflecting the number of components.,#1088,2-Jan-2018,Baqar
+12,Broadcasts,Edit Broadcast,"1- Login
+2- Go to Broadcasts
+3- Click on Edit",Broadcst should be edited,,High,Failed,There is no option to edit Broadcast,#1088,28-Nov-2017,Ahsan
+SUBSCRIBERS,,,,,,,,,,,
 13,Subscribers,Subscribers List,"1- Login 
 2- Go to subscribers
 ","- Display list of subscribers
-- Filter and Search work",High,Failed,"- Even though a page is not connected through your own account (it is connected from some other admin), its subscribers are still shown.",#1081,6-Dec-2017,Baqar
+- Filter and Search work",,High,Passed,,,2-Jan-2018,Baqar
 ,Subscribers,Invite Subscribers,"1- Login 
 2- Go to subscribers
 3- Go to Invite Subscribers","- The url of selected page is displayed on text box
-- Alert is generated on Copying URL",High,Passed,,,6-Dec-2017,Ahsan
-SURVEYS,,,,,,,,,,
+- Alert is generated on Copying URL",,High,Failed,Url is incorrect,,2-Jan-2018,Baqar
+SURVEYS,,,,,,,,,,,
 14,Surveys,Create survey,"1- Login 
 2- Click on ‘Surveys’ tab 
 3- Click on ‘Create survey’ button 
-4- Fill the details in the form displayed and send",Survey should be created and sent,High,Failed,"- Creating a survey doesn’t the survey in the list of surveys until you refresh the page. Nor is there any notification if it was successfully created.
-",#1095,6-Dec-2017,Baqar
+4- Fill the details in the form displayed and send",Survey should be created and sent,,High,Passed,,,2-Jan-2018,Baqar
 15,Surveys,Survey List,"1- Login
-2- Go to Surveys",Survey list should be shown,High,Passed,,,6-Dec-2017,Baqar
+2- Go to Surveys",Survey list should be shown,,High,Passed,,,2-Jan-2018,Baqar
 16,Surveys,Send Survey,"Go to Survey tab
 Create Survey
 Click on Send button
 
-",Survey should be sent to subscribers in messanger,High,Passed,,,6-Dec-2017,Baqar
+",Survey should be sent to subscribers in messanger,,High,Passed,,,2-Jan-2018,Baqar
 17,Surveys,View Selected Survey,"1- Login
 2- Go to Surveys
-3- Select any survey and click on View",Selected survey info should be shown,High,Passed,,,6-Dec-2017,Baqar
+3- Select any survey and click on View",Selected survey info should be shown,,High,Passed,,,2-Jan-2018,Baqar
 18,Surveys,View Survey Report,"1- Login
 2- Go to Surveys
-3- Select any survey and click on Report",Selected survey report should be shown. If the question was multichoice question then chart should be shown and if the question was of type text then list of responses should be shown and when we hover over the response it should display the FB customer info.,High,Passed,,,6-Dec-2017,Baqar
-WORKFLOWS,,,,,,,,,,
+3- Select any survey and click on Report",Selected survey report should be shown. If the question was multichoice question then chart should be shown and if the question was of type text then list of responses should be shown and when we hover over the response it should display the FB customer info.,,High,Passed,,,2-Jan-2018,Baqar
+WORKFLOWS,,,,,,,,,,,
 19,Workflows,Workflows List,"1- Login
-2- Go to Workflows",List of workflows should be shown,High,Passed,,,6-Dec-2017,Ahsan
+2- Go to Workflows",List of workflows should be shown,,High,Passed,,,2-Jan-2018,Baqar
 20,Workflows,Create Workflow,"1- Login
 2- Go to Workflows
 3- Click on Create Workflow
-4. Enter information and click on submit",Workflow should be created,High,Passed,,,6-Dec-2017,Ahsan
-POLLS,,,,,,,,,,
+4. Enter information and click on submit",Workflow should be created,,High,Passed,,,2-Jan-2018,Baqar
+POLLS,,,,,,,,,,,
 21,Polls,Create poll message,"1- Login 
 2- Click on ‘Create Poll’ tab 
 3- Fill the details 
 4- Click on craete poll
-",Poll message successfully created,High,Failed,"
-- Creating a poll doesn’t show the poll in the list of polls until you refresh the page
-- On creating a poll, it says poll sent successfully instead of poll successfully created",#1091,6-Dec-2017,Baqar
+",Poll message successfully created,,High,Passed,,,2-Jan-2018,Baqar
 22,Polls,Send Polls,"Go to Polls tab
 Click on Send button
 
-",Poll message successfully sent,High,Passed,,,6-Dec-2017,Baqar
+",Poll message successfully sent,,High,Passed,,,2-Jan-2018,Baqar
 23,Polls,Poll list,"1- Login
-2- Go to Polls",List of polls should be shown,High,Passed,,,6-Dec-2017,Baqar
+2- Go to Polls",List of polls should be shown,,High,Passed,,,2-Jan-2018,Baqar
 24,Polls,Poll Result,"1- Login
 2- Go to Polls
-3- Select any poll and click on Result",Selected poll result with nice charts should be shown.,High,Failed,Report is in correct,#1091,6-Dec-2017,Baqar
-SUBSCRIBE TO MESSENGER,,,,,,,,,,
+3- Select any poll and click on Result",Selected poll result with nice charts should be shown.,,High,Passed,,,2-Jan-2018,Baqar
+SUBSCRIBE TO MESSENGER,,,,,,,,,,,
 25,Subscribe to Messenger,Subscribe to Messenger,"1- Login
 2- Go to Subscribe to Messenger
-3. Fill in the information and generate script",Genrated script should be delivered to Fb customer,High,Passed,,,6-Dec-2017,Ahsan
-ANALYTICS,,,,,,,,,,
+3. Fill in the information and generate script",Genrated script should be delivered to Fb customer,,High,Passed,,,6-Dec-2017,Ahsan
+ANALYTICS,,,,,,,,,,,
 26,Analytics,Display Analytics/ Statistics,"1- Login 
 2- Click on ‘Analytics’ tab 
 3- View Reports
-",View Reports/Analytics,High,NA,We haven't introduced this feature as of yet,,6-Dec-2017,Ahsan
-LIVE CHAT,,,,,,,,,,
+",View Reports/Analytics,,High,NA,We haven't introduced this feature as of yet,,6-Dec-2017,Ahsan
+LIVE CHAT,,,,,,,,,,,
 ,Live Chat,Screen,"1.Login
 2. Open Live Chat.","You get a preloader followed by chat if you have sessions.
-Else you are told that no chat sessions exist",High,Failed,On 0 subscriber. The live chat is stuck at the pre-loader,#1085,6-Dec-2017,Ahsan
+Else you are told that no chat sessions exist",,High,Failed,On 0 subscriber. The live chat is stuck at the pre-loader,#1085,6-Dec-2017,Ahsan
 31,Live Chat,Sending Messages,"1. Login
 2. Click on Live Chat.
 3. Reply to a pending message.
-",The testing account should receive the message.,High,Failed,Chats that are sent through workflows are not shown in live chat.,#1307,6-Dec-2017,Baqar
+",The testing account should receive the message.,,High,Failed,Chats that are sent through workflows are not shown in live chat.,#1307,6-Dec-2017,Baqar
 32,Live Chat,Receiving Messages,"1. From your facebook Account, Message your test page
 2. Login
 3. Click on Live Chat.
-4. Verify that message is being received.",Live Chat should have a pending message from the testing account,High,Failed,Only one attachment is recieved even though multiple are sent,#1307,6-Dec-2017,Baqar
+4. Verify that message is being received.",Live Chat should have a pending message from the testing account,,High,Failed,Only one attachment is recieved even though multiple are sent,#1307,6-Dec-2017,Baqar
 33,Live Chat,Sending Attachment,"1. Login
 2. Click on Live Chat.
 3. Reply to a pending message with an attachment.
-4. Verify that attachment is being received",Attachment should be received by the testing account,High,Failed,-Only one attachment is sent even though multiple are attached,#1307,6-Dec-2017,Baqar
+4. Verify that attachment is being received",Attachment should be received by the testing account,,High,Failed,-Only one attachment is sent even though multiple are attached,#1307,6-Dec-2017,Baqar
 34,Live Chat,Sending Stickers,"1. Login
 2. Click on Live Chat.
 3. Reply to a pending message with a Sticker.
-4. Verify that stickers being received",Sticker should be received by the testing account,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
+4. Verify that stickers being received",Sticker should be received by the testing account,,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
 35,Live Chat,Filters,"1. Login
 2. Click on Live Chat.
-3. Try out the filters on the customer list",The customer list should respond according to the applied filter,High,Failed,Filters are not working,#1071,6-Dec-2017,Ahsan
-MAIN MENU,,,,,,,,,,
+3. Try out the filters on the customer list",The customer list should respond according to the applied filter,,High,Failed,Filters are not working,#1071,6-Dec-2017,Ahsan
+MAIN MENU,,,,,,,,,,,
 36,Main Menu,Add Menu Items,"1. Login
 2. Click on Main Menu
-3. Try adding new Menu Options.",The new menu option should be added,High,NA,The feature has not been completed yet,,6-Dec-2017,Ahsan
-37,Main Menu,Adding Menu Action,"1. Login
-2. Click on Main Menu
-3. Try adding new Menu Action, for a given Menu Option",The new action should be added,High,NA,The feature has not been completed yet,,6-Dec-2017,Ahsan
+3. Click on the plus sign to add a menu item",The new menu option should be added,,High,NA,,#769,6-Dec-2017,Ahsan
+37,Main Menu,Add Web Url,"1. Login
+2. Click on Main Menu 
+3. Click on a input field i.e. a menu item 
+4. Click on Set web url 
+5. Enter a url 
+6. Click Done",The type of the menu item should be set to web_url and url should be saved,,High,NA,,#774,6-Dec-2017,Ahsan
 38,Main Menu,Add Nested Menus,"1. Login
 2. Click on Main Menu
-3. Try adding new Menu Options within a Menu Option.",The nested Menu Is added.,High,NA,The feature has not been completed yet,,6-Dec-2017,Ahsan
-39,Main Menu,Verifying Action,"1. Login
+3. Try adding new Menu Options within a Menu Option.",The nested Menu Is added.,,High,NA,,#772,6-Dec-2017,Ahsan
+39,Main Menu,Add Reply Message,"1. Login
 2. Click on Main Menu
-3. Choose Test page
-4. Make a Nested Menu, with Menu Action in the end.
-5. Verify the Menu on the test page",The test page reflects  the menu that was constructed,High,NA,The feature has not been completed yet,,6-Dec-2017,Ahsan
-AUTOPOSTING,,,,,,,,,,
+3. Click on the menu item and set its type to new message
+4. Set the reply message 
+5. Save the message",The type of the menu item should be set to postback and the reply message should be saved,,High,NA,,#776,6-Dec-2017,Ahsan
+,Main Menu,Edit Reply Message,"1. Login
+2. Click on Main Menu
+3. Click on the menu item and set its type to new message
+4. Edit the reply message 
+5. Save the message",The edited reply message should be saved,,High,,,,,
+AUTOPOSTING,,,,,,,,,,,
 40,Auto-Posting,Adding Twitter Channel,"1. Login
 2. Click onAutoposting
 3. click on Add Channel
-4. Add a Twitter Channel",The Twitter Accounts gets added,High,Passed,,,6-Dec-2017,Ahsan
+4. Add a Twitter Channel",The Twitter Accounts gets added,,High,Passed,,,6-Dec-2017,Ahsan
 41,Auto-Posting,Adding Faceook Channel,"1. Login
 2. Click onAutoposting
 3. click on Add Channel
-4. Add a Facebook Channel",The Facebook Accounts gets added,High,Failed,Facebook requires very specific string,#1089,6-Dec-2017,Ahsan
+4. Add a Facebook Channel",The Facebook Accounts gets added,,High,Failed,Facebook requires very specific string,#1089,6-Dec-2017,Ahsan
 42,Auto-Posting,Adding Youtube Channel,"1. Login
 2. Click onAutoposting
 3. click on Add Channel
-4. Add a Youtube Channel",The Youtube Accounts gets added,High,NA,Not implementing AutoPosting in Youtube right now,,6-Dec-2017,Ahsan
+4. Add a Youtube Channel",The Youtube Accounts gets added,,High,NA,Not implementing AutoPosting in Youtube right now,,6-Dec-2017,Ahsan
 43,Auto-Posting,Removing a Channel,"1. Login
 2. Click onAutoposting
-3. Delete any channel from the list of added channels",The Channel get removed from the list,High,Failed,The alerts do not work as they should,#1089,6-Dec-2017,Ahsan
+3. Delete any channel from the list of added channels",The Channel get removed from the list,,High,Failed,The alerts do not work as they should,#1089,6-Dec-2017,Ahsan
 44,Auto-Posting,AutoPosting to channel,"1. Login
 2. Broadcast a mesasge in convo for a test page
-3. Go to all added Channels for that test page",All Channels should reflect the broadcasted message,High,Passed,,,29-Nov-2017,Ahsan
-OPERATIONAL DASHBOARD,,,,,,,,,,
+3. Go to all added Channels for that test page",All Channels should reflect the broadcasted message,,High,Passed,,,29-Nov-2017,Ahsan
+OPERATIONAL DASHBOARD,,,,,,,,,,,
 45,Operational Dashboard,Downloading of CSV,"1. Login
 2. Go to Operational Dashboard
-3. Click Download button",The CSV of all clients should get downloaded,High,Failed,This feature was not complete in the previous template as well,#761,6-Dec-2017,Ahsan
+3. Click Download button",The CSV of all clients should get downloaded,,High,Failed,This feature was not complete in the previous template as well,#761,6-Dec-2017,Ahsan
 46,Operational Dashboard,Dashboard Display,"1. Login
 2. Go to Operational Dashboard
-3. Verify the statistics shown on Dashboard",The dashboard should reflect accurate statistics,High,Failed,"Not Working.
+3. Verify the statistics shown on Dashboard",The dashboard should reflect accurate statistics,,High,Failed,"Not Working.
 Percentages that are more than 100%, are being shown",#1306,6-Dec-2017,Ahsan
 47,Operational Dashboard,Users Search,"1. Login
 2. Go to Operational Dashboard
-3. In User section, type in a string in the filter",The dashboard should narrow down the users based on target string,High,Passed,,,7-Dec-2017,Ahsan
+3. In User section, type in a string in the filter",The dashboard should narrow down the users based on target string,,High,Passed,,,7-Dec-2017,Ahsan
 48,Operational Dashboard,User See More,"1. Login
 2. Go to Operational Dashboard
-3. In User section, click on see more button infront of a user",It should route to the page having details of the said user,High,Passed,,,7-Dec-2017,Ahsan
+3. In User section, click on see more button infront of a user",It should route to the page having details of the said user,,High,Passed,,,7-Dec-2017,Ahsan
 49,Operational Dashboard,User Page Subscriber,"1. Login
 2. Go to Operational Dashboard
 3. In User section, click on see more button infront of a user
-4. In User detail, click on ""Subscribers"" in front of any of the user's pages",It should route towards the page having list of subscribers for the said page,High,Passed,,,6-Dec-2017,Ahsan
+4. In User detail, click on ""Subscribers"" in front of any of the user's pages",It should route towards the page having list of subscribers for the said page,,High,Passed,,,6-Dec-2017,Ahsan
 50,Operational Dashboard,Search filter,"1. Login
 2. Go to Operational Dashboard
 3. In User section, click on see more button infront of a user
-4. In User detail, write a search string in the Poll, Broadcast or Conversation",The said list should narrow down based on the filter search string,High,Passed,,,6-Dec-2017,Ahsan
-SUBSCRIBE TO MESSENGER,,,,,,,,,,
+4. In User detail, write a search string in the Poll, Broadcast or Conversation",The said list should narrow down based on the filter search string,,High,Passed,,,6-Dec-2017,Ahsan
+SUBSCRIBE TO MESSENGER,,,,,,,,,,,
 51,Subscribe to Messenger,Get HTML code,"1. Login
 2. Go to Subscribe to Messenger
 3. Chose a Page, Color and Button Text
-4. Paste the code on the website",Button should be working,Medium,,,,,
-SHARE,,,,,,,,,,
+4. Paste the code on the website",Button should be working,,Medium,,,,,
+SHARE,,,,,,,,,,,
 ,Share,Copy the Page Messanger link,"1. Login
 2. Go to Share
 3. Choose a Page
-4. Copy & Paste the link",Messenger link should be working,Medium,,,,,
-CUSTOMER MATCHING,,,,,,,,,,
-,Customer Matching,,TBD,,High,,,,,
-,Customer Matching,,TBD,,High,,,,,
-,Customer Matching,,TBD,,High,,,,,
-,Customer Matching,,TBD,,High,,,,,
+4. Copy & Paste the link",Messenger link should be working,,Medium,,,,,
+CUSTOMER MATCHING,,,,,,,,,,,
+,Customer Matching,,TBD,,,High,,,,,
+,Customer Matching,,TBD,,,High,,,,,
+,Customer Matching,,TBD,,,High,,,,,
+,Customer Matching,,TBD,,,High,,,,,

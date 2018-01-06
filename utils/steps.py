@@ -21,7 +21,7 @@ WAIT_TIME = 5 # number of seconds to wait after clicking something
 def open_kibopush():
     driver.get('https://staging.kibopush.com/')
 
-def login(user='maria_rdhorxy_zerosub@tfbnw.net', pw='cloudkibo123'):
+def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
     login_button = driver.find_element_by_class_name('btn-brand')
     login_button.click()
     time.sleep(WAIT_TIME)
@@ -69,7 +69,7 @@ if __name__ == "__main__":
     try:
         open_kibopush()
         time.sleep(WAIT_TIME)
-        login('maria_rdhorxy_zerosub@tfbnw.net', 'cloudkibo123')
+        login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321')
         time.sleep(WAIT_TIME)
         sidebar_click('Subscribe to Messenger')
         time.sleep(WAIT_TIME)
