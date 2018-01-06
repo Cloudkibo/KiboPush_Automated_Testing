@@ -45,8 +45,11 @@ def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
 def click_on(name, scope=driver):
     try:
         name = name.lower()
-        element = scope.find_element_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
-        element.click()
+        elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        for element in elements:
+            if element.is_displayed():
+                element.click()
+                break
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
