@@ -51,6 +51,14 @@ def click_on(name, scope=driver):
         return "Error: " + str(e)
     return "Success"
 
+def press_enter():
+    try:
+        focused_element = driver.switch_to.active_element
+        focused_element.send_keys(Keys.ENTER)
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
 def logout():
     try:
         user_pic = driver.find_element_by_class_name('m-topbar__userpic')
@@ -86,8 +94,6 @@ def write(text):
         return "Error: " + str(e)
     return "Success"
 
-
-
 def choose_select(select_label, select_item=None):
     try:
         if select_item is not None:
@@ -99,6 +105,14 @@ def choose_select(select_label, select_item=None):
     except Exception, e:
          return "Error: " + str(e)
     return "Success"
+
+# def livechat_attachment():
+#     try:
+#         attachment = driver.find_element_by_xpath('//*[@data-tip="attachments"]')
+#         attachment.send_keys("sample.jpg")
+#     except Exception, e:
+#          return "Error: " + str(e)
+#     return "Success"
 
 
 def add_broadcast_component(component_name):
@@ -118,13 +132,12 @@ if __name__ == "__main__":
         print('login')
         print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
         time.sleep(WAIT_TIME)
-        print('going to Broadcasts')
-        print(sidebar_click('Broadcasts'))
+        print('going to Live Chat')
+        print(sidebar_click('live chat'))
         time.sleep(WAIT_TIME)
-        print('clicking on search broadcasts')
-        print(click_on("Search broadcasts"))
-        time.sleep(WAIT_TIME)
-        print(write('file'))
+        print(click_on("type here"))
+        print(write('hey'))
+        print(press_enter())
         time.sleep(WAIT_TIME)
     finally:
         driver.close()
