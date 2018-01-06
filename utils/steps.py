@@ -41,10 +41,11 @@ def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
         return "Error: " + str(e)
     return "Success"
 
-def click_on(name):
+
+def click_on(name, scope=driver):
     try:
         name = name.lower()
-        element = driver.find_element_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % name)
+        element = scope.find_element_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
         element.click()
     except Exception, e:
         return "Error: " + str(e)
@@ -72,20 +73,29 @@ def sidebar_hamburger():
 def sidebar_click(sidebar_item):
     try:
         sidebar = driver.find_element_by_class_name('m-menu__nav')
-        sidebar_element = sidebar.find_element_by_xpath("//*[contains(text(), '%s')]" % sidebar_item)
-        sidebar_element.click()
+        click_on(sidebar_item, scope=sidebar)
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
 
-def choose_select(select_label, select_item):
+def write(text):
     try:
-        label = driver.find_element_by_xpath("//*[contains(text(), '%s')]" % select_label)
-        label_parent = label.find_element_by_xpath("..")
-        select = label_parent.find_element_by_tag_name('select')
-        select.click()
-        item = select.find_element_by_xpath("//*[contains(text(), '%s')]" % select_item)
-        item.click()
+        focused_element = driver.switch_to.active_element
+        focused_element.send_keys(text)
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+
+
+def choose_select(select_label, select_item=None):
+    try:
+        if select_item is not None:
+            label = driver.find_element_by_xpath("//*[contains(text(), '%s')]" % select_label)
+            label_parent = label.find_element_by_xpath("..")
+            select = label_parent.find_element_by_tag_name('select')
+            select.click()
+            click_on(select_item, scope=select)
     except Exception, e:
          return "Error: " + str(e)
     return "Success"
@@ -105,11 +115,16 @@ if __name__ == "__main__":
     try:
         print(open_kibopush())
         time.sleep(WAIT_TIME)
+        print('login')
         print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
         time.sleep(WAIT_TIME)
-        print(sidebar_click('Subscribe to Messenger'))
+        print('going to Broadcasts')
+        print(sidebar_click('Broadcasts'))
         time.sleep(WAIT_TIME)
-        print(choose_select('Choose Page', 'Test 2'))
+        print('clicking on search broadcasts')
+        print(click_on("Search broadcasts"))
+        time.sleep(WAIT_TIME)
+        print(write('file'))
         time.sleep(WAIT_TIME)
     finally:
         driver.close()
