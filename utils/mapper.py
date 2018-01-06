@@ -11,7 +11,8 @@ action_step = {
     "sidebar_hamburger": sidebar_hamburger,
     "sidebar.": sidebar_click,
     "choose.": choose_select,
-    "open_kibopush": open_kibopush
+    "open_kibopush": open_kibopush,
+    "write.": write,
 }
 
 did_login = False
@@ -79,4 +80,3 @@ print("----------------")
 
 for action in failed_action:
     print action
-    

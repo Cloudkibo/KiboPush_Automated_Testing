@@ -13,7 +13,8 @@ language_action = {
     "expand sidebar": "sidebar_hamburger",
     "go to ": "sidebar.",
     "choose ": "choose.",
-    "lands on webpage": "open_kibopush"
+    "lands on webpage": "open_kibopush",
+    "write ": "write."
 }
 
 
