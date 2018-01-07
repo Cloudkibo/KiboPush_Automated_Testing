@@ -15,12 +15,16 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 5 # number of seconds to wait after clicking something
+WAIT_TIME = 2 # number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
+
+def wait():
+    time.sleep(WAIT_TIME)
 
 def open_kibopush():
     try:
         driver.get('https://staging.kibopush.com/')
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -37,6 +41,7 @@ def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
             email.send_keys(user)
             password.send_keys(pw)
             login.click()
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -48,8 +53,10 @@ def click_on(name, scope=driver):
         elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
         for element in elements:
             if element.is_displayed():
-                driver.execute_script("arguments[0].click();", element)
+                #driver.execute_script("arguments[0].click();", element)
+                element.click()
                 break
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -58,6 +65,7 @@ def press_enter():
     try:
         focused_element = driver.switch_to.active_element
         focused_element.send_keys(Keys.ENTER)
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -67,6 +75,7 @@ def logout():
         user_pic = driver.find_element_by_class_name('m-topbar__userpic')
         user_pic.click()
         click_on('Logout')
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -76,6 +85,7 @@ def sidebar_hamburger():
     try:
         sidebar_hamburger = driver.find_element_by_id('m_aside_left_minimize_toggle')
         sidebar_hamburger.click()
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -85,6 +95,7 @@ def sidebar_click(sidebar_item):
     try:
         sidebar = driver.find_element_by_class_name('m-menu__nav')
         click_on(sidebar_item, scope=sidebar)
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -93,6 +104,7 @@ def write(text):
     try:
         focused_element = driver.switch_to.active_element
         focused_element.send_keys(text)
+        wait()
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -105,6 +117,7 @@ def choose_select(select_label, select_item=None):
             select = label_parent.find_element_by_tag_name('select')
             select.click()
             click_on(select_item, scope=select)
+            wait()
     except Exception, e:
          return "Error: " + str(e)
     return "Success"
@@ -121,6 +134,7 @@ def choose_select(select_label, select_item=None):
 def add_broadcast_component(component_name):
     try:
         click_on(component_name)
+        wait()
     except Exception, e:
          return "Error: " + str(e)
     return "Success"
