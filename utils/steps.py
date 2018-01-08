@@ -18,8 +18,8 @@ elif platform.system() == 'Windows':
 WAIT_TIME = 2 # number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
-def wait():
-    time.sleep(WAIT_TIME)
+def wait(wait_time=WAIT_TIME):
+    time.sleep(wait_time)
 
 def open_kibopush():
     try:
@@ -51,6 +51,8 @@ def click_on(name, scope=driver):
     try:
         name = name.lower()
         elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        if len(elements) == 0:
+            return "Error: No element with " + name + " found"
         for element in elements:
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
