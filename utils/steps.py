@@ -3,6 +3,7 @@ import unicodecsv as csv
 import platform
 import time
 from selenium.webdriver.common.keys import Keys
+import os
 
 chrome_options = webdriver.ChromeOptions()
 prefs = {"profile.default_content_setting_values.notifications" : 2}
@@ -15,7 +16,7 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 3 # number of seconds to wait after clicking something
+WAIT_TIME = 1 # number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def wait(wait_time=WAIT_TIME):
@@ -67,7 +68,7 @@ def click_on(name, scope=driver):
                 return "Success"
         
         buttons = scope.find_elements_by_xpath("//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
-        print('buttons: ' + str(len(buttons)))
+        #print('buttons: ' + str(len(buttons)))
         for element in buttons:
             if element.is_displayed():
                 print('displayed button')
@@ -152,13 +153,14 @@ def choose_select(select_label, select_item=None):
          return "Error: " + str(e)
     return "Success"
 
-# def livechat_attachment():
-#     try:
-#         attachment = driver.find_element_by_xpath('//*[@data-tip="attachments"]')
-#         attachment.send_keys("sample.jpg")
-#     except Exception, e:
-#          return "Error: " + str(e)
-#     return "Success"
+def upload():
+    try:
+        attachment = driver.find_element_by_xpath('//input[@type="file"]')
+        attachment.send_keys(os.getcwd()+"/sample.jpg")
+        wait(wait_time=10)
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
 
 
 def add_broadcast_component(component_name):
@@ -177,9 +179,7 @@ if __name__ == "__main__":
         print(open_kibopush())
         print('login')
         print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
-        print(sidebar_click('surveys'))
-        print(click_on('create survey'))
-        print(click_on('create new survey'))
-        print(click_on('add questions'))
+        print(sidebar_click('live chat'))
+        print(upload())
     finally:
         driver.close()
