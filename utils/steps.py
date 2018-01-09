@@ -153,10 +153,10 @@ def choose_select(select_label, select_item=None):
          return "Error: " + str(e)
     return "Success"
 
-def upload():
+def upload(file_name="sample.jpg"):
     try:
         attachment = driver.find_element_by_xpath('//input[@type="file"]')
-        attachment.send_keys(os.getcwd()+"/sample.jpg")
+        attachment.send_keys(os.getcwd()+"/"+file_name)
         wait(wait_time=10)
     except Exception, e:
          return "Error: " + str(e)
