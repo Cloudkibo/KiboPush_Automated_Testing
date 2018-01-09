@@ -15,7 +15,7 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 2 # number of seconds to wait after clicking something
+WAIT_TIME = 3 # number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def wait(wait_time=WAIT_TIME):
@@ -50,16 +50,44 @@ def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
 def click_on(name, scope=driver):
     try:
         name = name.lower()
-        elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
-        if len(elements) == 0:
-            return "Error: No element with " + name + " found"
-        for element in elements:
+        # elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        # if len(elements) == 0:
+        #     return "Error: No element with " + name + " found"
+        # for element in elements:
+        #     if element.is_displayed():
+        #         #driver.execute_script("arguments[0].click();", element)
+        #         element.click()
+        #         break
+        links = scope.find_elements_by_xpath("//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        for element in links:
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
                 element.click()
-                break
-        wait()
+                wait()
+                return "Success"
+        
+        buttons = scope.find_elements_by_xpath("//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        print('buttons: ' + str(len(buttons)))
+        for element in buttons:
+            if element.is_displayed():
+                print('displayed button')
+                #driver.execute_script("arguments[0].click();", element)
+                element.click()
+                wait()
+                return "Success"
+        
+        remaining_elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        for element in remaining_elements:
+            if element.is_displayed():
+                #driver.execute_script("arguments[0].click();", element)
+                element.click()
+                wait()
+                return "Success"
+        if len(remaining_elements) == 0:
+            wait()
+            return "Error: no element with text '" + name +"' found"
     except Exception, e:
+        wait()
         return "Error: " + str(e)
     return "Success"
 
@@ -147,16 +175,11 @@ def add_broadcast_component(component_name):
 if __name__ == "__main__":
     try:
         print(open_kibopush())
-        time.sleep(WAIT_TIME)
         print('login')
         print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
-        time.sleep(WAIT_TIME)
-        print('going to Live Chat')
-        print(sidebar_click('live chat'))
-        time.sleep(WAIT_TIME)
-        print(click_on("type here"))
-        print(write('hey'))
-        print(press_enter())
-        time.sleep(WAIT_TIME)
+        print(sidebar_click('surveys'))
+        print(click_on('create survey'))
+        print(click_on('create new survey'))
+        print(click_on('add questions'))
     finally:
         driver.close()
