@@ -1,9 +1,17 @@
-,Category,Description,Steps,Expected Results,User Type,Priority,Status,Remarks,Issue No.,Date,By
-,,,"1. lands on webpage
-1. Login
-2. Go to Broadcasts
-3. Click on Create New Broadcast
-4. Click on Text
-5. Click on enter your text
-6. Write ABC
-7. Click on Send",Write a broadcast.,,,,,,,
+,Category,Description,Steps,Expected Results,User Type,Priority,Status,Remarks,Issue No.,Date,By,
+34,Live Chat,Sending Stickers,"1. Open KiboPush
+2. Login
+2. Go to Live Chat.
+3. Send Sticker",Sticker should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
+35,Live Chat,Sending Gifs,"1. Login
+2. Click on Live Chat.
+3. Send Gif",Gif should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
+36,Live Chat,Send Emoticon,"1. Login
+2. Go to Live Chat.
+4.. Select Emoji
+4. Press Enter",Send Emojis,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
+31,Live Chat,Sending Messages,"1. Login
+2. Go to Live Chat.
+3. Click on Type Here
+4. Write A sample message
+5. Press Enter",The testing account should receive the message.,Repeat,No,High,Failed,Chats that are sent through workflows are not shown in live chat.,#1307,6-Dec-2017,Baqar

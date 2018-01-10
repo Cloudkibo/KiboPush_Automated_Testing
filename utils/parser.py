@@ -14,15 +14,17 @@ language_action = {
     "go to ": "sidebar.",
     "choose ": "choose.",
     "lands on webpage": "open_kibopush",
+    "kibopush": "open_kibopush",
     "write ": "write.",
-    "press enter" : "enter",
-    "upload" : "upload.",
-    "select_emoji" : "select_emoji",
-    "send gif" : "send_gif",
-    "send sticker" : "send_sticker",
-    "verify table" : "verify_table",
-    "table exists" : "verify_table",
-    "verify alert" : "verify_alert"
+    "press enter": "enter",
+    "upload": "upload.",
+    "select emoji": "select_emoji",
+    "select emoticon": "select_emoji",
+    "send gif": "send_gif",
+    "send sticker": "send_sticker",
+    "verify table": "verify_table",
+    "table exists": "verify_table",
+    "verify alert": "verify_alert"
 
 }
 
@@ -64,6 +66,7 @@ def criteria(test):
             return False
     return True
 
+
 def criteria_simple(test):
     errors = ['Ambigous', 'Not Defined']
     for error in errors:
@@ -88,18 +91,18 @@ def parse_language():
     not_parsed = 0
 
     for index, case in enumerate(all_test):
-        for step in case:	
+        for step in case:
             if step == '':
                 continue
             action = get_action(step)
             test_actions.append(action)
             if action == "Not Defined":
-            	expected_result[index] = "Not Defined"
+                expected_result[index] = "Not Defined"
                 unparsable.append(step)
                 not_parsed = not_parsed + 1
                 break
             elif action == "Ambigous":
-            	expected_result[index] = "Ambigous"
+                expected_result[index] = "Ambigous"
                 ambigous.append(step)
                 not_parsed = not_parsed + 1
                 break
