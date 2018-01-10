@@ -231,6 +231,7 @@ def verify_GIF_sent(src):
 
 def verify_sticker_sent(src):
     try:
+        print(src)
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
         gif = messages[-1].find_element_by_tag_name('img')
         print(gif.get_attribute('src'))
@@ -278,9 +279,9 @@ def verify_alert():
 if __name__ == "__main__":
     try:
         print(open_kibopush())
-        print(login(user='bjafri5@msn.com', pw='iloveiba1'))
-        print(sidebar_click('auto posting'))
-        print(autopost_settings())
+        print(login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'))
+        print(sidebar_click('live chat'))
+        print(send_sticker())
         #print(remove_autoposting())
         #print(select_emoji())
     finally:
