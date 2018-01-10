@@ -12,7 +12,7 @@ AUTHENTICATION,,,,,,,,,,,
 2- Click on ""Visit FAQ Page""
 ",FAQ page opens into a new tab,All,Low,Passed,,,2 Jan 2018,Baqar
 ,,,,SIDEBAR,,,,,,,
-3,SIDEBAR,Navigation,"1.Login
+3,SIDEBAR,Navigation,"1. Login
 2. Go to Dashboard
 3. Go to Broadcasts
 4. Go to Survey
@@ -61,13 +61,13 @@ BROADCASTS,,,,,,,,,,,
 4. Click on Text
 5. Click on Enter your text...
 6. Write ""This is sample broadcast""
-7. Click on Send Broadcast",Text mesage should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+7. Click on Send",Text mesage should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 7,Broadcasts,Send a message with image attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4- Click on Image
 5. Upload Image
-6. Click on Send Broadcast
+6. Click on Send
 ",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a message with card attached,"1- Login 
 2- Go to Broadcasts
@@ -78,35 +78,36 @@ BROADCASTS,,,,,,,,,,,
 7. Write ""Title""
 8. Click on Enter subtitle 
 9. Write ""Sample text""
-10. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Not working,,2-Jan-2018,Baqar
+10. Click on Send",Message should broadcated to all the customers,Repeat,High,Failed,Not working,,2-Jan-2018,Baqar
 ,Broadcasts,Send a message with Gallary attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4- Click on Gallery
 5. Upload Image
-6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
+6. Click on Send",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
 9,Broadcasts,Send a message with audio attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4- Click on Audio
 5. Upload Audio
-6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+6. Click on Send",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 8,Broadcasts,Send a message with video attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4- Click on Video
 5. Upload Video
-6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+6. Click on Send",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a message with File attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4- Click on File
 5. Upload File
-6. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
+6. Click on Send",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
 10,Broadcasts,Send a message with link attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create Broadcast
-4- Attach an link and send
+4-  Write www.google.com
+5. Click on Send
 ",Message should broadcated to all the customers,Repeat,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a mixed message,"1- Login 
 2- Go to Broadcasts
@@ -116,7 +117,7 @@ BROADCASTS,,,,,,,,,,,
 6. Click on Text
 7. Click on Enter your text...
 8. Write ""This is sample broadcast""
-9. Click on Send Broadcast",Message should broadcated to all the customers,Repeat,High,Failed,The order of the multiple components are not preserved.,#1088,2-Jan-2018,Baqar
+9. Click on Send",Message should broadcated to all the customers,Repeat,High,Failed,The order of the multiple components are not preserved.,#1088,2-Jan-2018,Baqar
 11,Broadcasts,Show list of Broadcasts,"1- Login
 2- Go to Broadcasts",List of Broadcats should be shown,,High,Failed,There is issue with Seen and Sent reflecting the number of components.,#1088,2-Jan-2018,Baqar
 12,Broadcasts,Edit Broadcast,"1- Login
@@ -124,31 +125,45 @@ BROADCASTS,,,,,,,,,,,
 3- Click on Edit",Broadcst should be edited,,High,Failed,There is no option to edit Broadcast,#1088,28-Nov-2017,Ahsan
 SUBSCRIBERS,,,,,,,,,,,
 13,Subscribers,Subscribers List,"1- Login 
-2- Go to subscribers
+2- Go to Manage Subscriptions
 ","- Display list of subscribers
 - Filter and Search work",,High,Passed,,,2-Jan-2018,Baqar
 ,Subscribers,Invite Subscribers,"1- Login 
-2- Go to subscribers
-3- Go to Invite Subscribers","- The url of selected page is displayed on text box
+2- Go to Manage Subscriptions
+3- Click on Invite Subscribers","- The url of selected page is displayed on text box
 - Alert is generated on Copying URL",,High,Failed,Url is incorrect,,2-Jan-2018,Baqar
 SURVEYS,,,,,,,,,,,
 14,Surveys,Create survey,"1- Login 
-2- Click on ‘Surveys’ tab 
-3- Click on ‘Create survey’ button 
-4- Fill the details in the form displayed and send",Survey should be created and sent,,High,Passed,,,2-Jan-2018,Baqar
+2-  Go to Surveys
+3- Click on Create survey
+4. Click on Create New Survey
+5. Click on Add Questions
+6. Click on Enter form title here
+7. Write Title
+8. Click on Enter form description here
+9. Write desc
+10. Click on Enter question here 
+11. Write Question 1
+12. Click on choice 1
+13- Write first
+14. Click on choice 2
+15- Write second
+16. Click on choice 3
+17- Write third
+18. Click on Create Survey",Survey should be created and sent,,High,Passed,,,2-Jan-2018,Baqar
 15,Surveys,Survey List,"1- Login
 2- Go to Surveys",Survey list should be shown,,High,Passed,,,2-Jan-2018,Baqar
-16,Surveys,Send Survey,"Go to Survey tab
-Create Survey
-Click on Send button
+16,Surveys,Send Survey,"1. Login
+2. Go to Surveys
+3. Click on Send
 
 ",Survey should be sent to subscribers in messanger,,High,Passed,,,2-Jan-2018,Baqar
 17,Surveys,View Selected Survey,"1- Login
 2- Go to Surveys
-3- Select any survey and click on View",Selected survey info should be shown,,High,Passed,,,2-Jan-2018,Baqar
+3- Click on View",Selected survey info should be shown,,High,Passed,,,2-Jan-2018,Baqar
 18,Surveys,View Survey Report,"1- Login
 2- Go to Surveys
-3- Select any survey and click on Report",Selected survey report should be shown. If the question was multichoice question then chart should be shown and if the question was of type text then list of responses should be shown and when we hover over the response it should display the FB customer info.,,High,Passed,,,2-Jan-2018,Baqar
+3- Click on Report",Selected survey report should be shown. If the question was multichoice question then chart should be shown and if the question was of type text then list of responses should be shown and when we hover over the response it should display the FB customer info.,,High,Passed,,,2-Jan-2018,Baqar
 WORKFLOWS,,,,,,,,,,,
 19,Workflows,Workflows List,"1- Login
 2- Go to Workflows",List of workflows should be shown,,High,Passed,,,2-Jan-2018,Baqar
@@ -158,23 +173,26 @@ WORKFLOWS,,,,,,,,,,,
 4. Enter information and click on submit",Workflow should be created,,High,Passed,,,2-Jan-2018,Baqar
 POLLS,,,,,,,,,,,
 21,Polls,Create poll message,"1- Login 
-2- Click on ‘Create Poll’ tab 
+2- Go to Polls
 3- Fill the details 
-4- Click on craete poll
+4- Click on create poll
 ",Poll message successfully created,,High,Passed,,,2-Jan-2018,Baqar
-22,Polls,Send Polls,"Go to Polls tab
-Click on Send button
+22,Polls,Send Polls,"1. Login
+2. Go to Polls
+3. Click on Send
 
 ",Poll message successfully sent,,High,Passed,,,2-Jan-2018,Baqar
 23,Polls,Poll list,"1- Login
 2- Go to Polls",List of polls should be shown,,High,Passed,,,2-Jan-2018,Baqar
 24,Polls,Poll Result,"1- Login
 2- Go to Polls
-3- Select any poll and click on Result",Selected poll result with nice charts should be shown.,,High,Passed,,,2-Jan-2018,Baqar
+3- Click on Report",Selected poll result with nice charts should be shown.,,High,Passed,,,2-Jan-2018,Baqar
 SUBSCRIBE TO MESSENGER,,,,,,,,,,,
 25,Subscribe to Messenger,Subscribe to Messenger,"1- Login
 2- Go to Subscribe to Messenger
-3. Fill in the information and generate script",Genrated script should be delivered to Fb customer,,High,Passed,,,6-Dec-2017,Ahsan
+3. Choose page
+4. Choose colour
+",Genrated script should be delivered to Fb customer,,High,Passed,,,6-Dec-2017,Ahsan
 ANALYTICS,,,,,,,,,,,
 26,Analytics,Display Analytics/ Statistics,"1- Login 
 2- Click on ‘Analytics’ tab 

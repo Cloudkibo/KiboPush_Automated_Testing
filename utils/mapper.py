@@ -13,6 +13,13 @@ action_step = {
     "choose.": choose_select,
     "open_kibopush": open_kibopush,
     "write.": write,
+    "enter": press_enter,
+    "upload." : upload,
+    "select_emoji" : select_emoji,
+    "send_gif" : send_GIF,
+    "send_sticker" : send_sticker,
+    "verify_table" : verify_table,
+    "verify_alert" : verify_alert
 }
 
 did_login = False

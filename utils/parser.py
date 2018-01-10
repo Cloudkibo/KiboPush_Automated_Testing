@@ -14,7 +14,16 @@ language_action = {
     "go to ": "sidebar.",
     "choose ": "choose.",
     "lands on webpage": "open_kibopush",
-    "write ": "write."
+    "write ": "write.",
+    "press enter" : "enter",
+    "upload" : "upload.",
+    "select_emoji" : "select_emoji",
+    "send gif" : "send_gif",
+    "send sticker" : "send_sticker",
+    "verify table" : "verify_table",
+    "table exists" : "verify_table",
+    "verify alert" : "verify_alert"
+
 }
 
 
