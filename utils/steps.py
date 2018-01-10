@@ -227,17 +227,17 @@ def verify_GIF_sent(src):
         print(gif.get_attribute('src'))
         return gif.get_attribute('src')[:50] == src[:50]
     except Exception, e:
-        return "Error: " + str(e)
+        return False
 
 def verify_sticker_sent(src):
     try:
         print(src)
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
-        gif = messages[-1].find_element_by_tag_name('img')
-        print(gif.get_attribute('src'))
-        return gif.get_attribute('src') == src
+        sticker = messages[-1].find_element_by_tag_name('img')
+        print(sticker.get_attribute('src'))
+        return sticker.get_attribute('src') == src
     except Exception, e:
-        return "Error: " + str(e)
+        return False
 
 
 def send_GIF():
