@@ -16,7 +16,7 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 1 # number of seconds to wait after clicking something
+WAIT_TIME = 3# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def wait(wait_time=WAIT_TIME):
@@ -50,6 +50,7 @@ def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
 
 def click_on(name, scope=driver):
     try:
+        print('click_on')
         name = name.lower().strip()
         # elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
         # if len(elements) == 0:
@@ -123,13 +124,9 @@ def sidebar_hamburger():
         
 
 def sidebar_click(sidebar_item):
-    try:
-        sidebar = driver.find_element_by_class_name('m-menu__nav')
-        click_on(sidebar_item, scope=sidebar)
-        wait()
-    except Exception, e:
-        return "Error: " + str(e)
-    return "Success"
+    print('sidebar_click')
+    sidebar = driver.find_element_by_class_name('m-menu__nav')
+    return click_on(sidebar_item, scope=sidebar)
 
 def write(text):
     try:
@@ -153,11 +150,11 @@ def choose_select(select_label, select_item=None):
          return "Error: " + str(e)
     return "Success"
 
-def upload(file_name="sample.jpg"):
+def upload(file_name="sample.jpg", wait_time=10):
     try:
         attachment = driver.find_element_by_xpath('//input[@type="file"]')
         attachment.send_keys(os.getcwd()+"/"+file_name)
-        wait(wait_time=10)
+        wait(wait_time)
     except Exception, e:
          return "Error: " + str(e)
     return "Success"
@@ -171,15 +168,66 @@ def add_broadcast_component(component_name):
          return "Error: " + str(e)
     return "Success"
 
+def select_emoji():
+    try:
+        emoji_icon = driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div[5]/div[3]')
+        emoji_icon.click()
+        emojis = driver.find_elements_by_class_name('emoji-mart-emoji')
+        emojis[0].click()
+        wait()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
+def send_sticker():
+    try:
+        sticker_icon = driver.find_element_by_xpath('//*[@data-tip="stickers"]')
+        sticker_icon.click()
+        stickers = driver.find_elements_by_class_name('sticker')
+        stickers[0].click()
+        wait()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
+def send_GIF():
+    try:
+        gif_icon = driver.find_element_by_xpath('//*[@data-tip="GIF"]')
+        gif_icon.click()
+        gifs = driver.find_elements_by_class_name('giphy-gif')
+        gifs[0].click()
+        wait()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
+def close_browser():
+    driver.close()
+
+def verify_table():
+    try:
+        table = driver.find_element_by_tag_name('table')
+        entries = table.find_elements_by_class_name('m-datatable__row--even')
+        return len(entries) > 0
+    except Exception, e:
+         return False
 
 
-    
+def verify_alert():
+    try:
+        success_alert = driver.find_element_by_class_name('css-6bx4c3')
+        return True
+    except Exception, e:
+         return False
+
+
+
 if __name__ == "__main__":
     try:
         print(open_kibopush())
-        print('login')
         print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
-        print(sidebar_click('live chat'))
-        print(upload())
+        print(sidebar_click('broadcasts'))
+        print(verify_table())
+        #print(select_emoji())
     finally:
-        driver.close()
+        close_browser()
