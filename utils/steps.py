@@ -279,16 +279,27 @@ def download_phone_csv():
     try:
         csv = driver.find_element_by_xpath('//*[@class="fa-download"]')
         csv.click()
+        wait(wait_time=10)
     except Exception, e:
          return "Error: " + str(e)
     return "Success"
+
+def download_opdashboard_csv():
+    try:
+        csv = driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div[2]/div[2]')
+        csv.click()
+        wait(wait_time=10)
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
 
 if __name__ == "__main__":
     try:
         print(open_kibopush())
         print(login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'))
-        print(sidebar_click('live chat'))
-        print(send_sticker())
+        print(sidebar_click('operational'))
+        print(download_opdashboard_csv())
         #print(remove_autoposting())
         #print(select_emoji())
     finally:
