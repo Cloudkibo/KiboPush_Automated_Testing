@@ -150,10 +150,15 @@ def choose_select(select_label, select_item=None):
          return "Error: " + str(e)
     return "Success"
 
-def upload(file_name="sample.jpg", wait_time=10):
+def upload(type, wait_time=10):
     try:
         attachment = driver.find_element_by_xpath('//input[@type="file"]')
-        attachment.send_keys(os.getcwd()+"/"+file_name)
+        if type == 'image':
+            attachment.send_keys(os.getcwd()+"/sample.jpg")
+        elif type == 'audio':
+            attachment.send_keys(os.getcwd()+"/sample.mp3")
+        elif type == 'video':
+            attachment.send_keys(os.getcwd()+"/sample.mp4")
         wait(wait_time)
     except Exception, e:
          return "Error: " + str(e)
@@ -174,6 +179,7 @@ def select_emoji():
         emoji_icon.click()
         emojis = driver.find_elements_by_class_name('emoji-mart-emoji')
         emojis[0].click()
+        click_on('type here')
         wait()
     except Exception, e:
          return "Error: " + str(e)
@@ -183,23 +189,54 @@ def send_sticker():
     try:
         sticker_icon = driver.find_element_by_xpath('//*[@data-tip="stickers"]')
         sticker_icon.click()
+        wait(wait_time=10)
         stickers = driver.find_elements_by_class_name('sticker')
+        src = stickers[0].get_attribute('src')
         stickers[0].click()
         wait()
     except Exception, e:
          return "Error: " + str(e)
-    return "Success"
+    if verify_sticker_sent(src):
+        return "Success"
+    else:
+        return "Error: sticker wasn't sent"
+
+    
+
+def verify_GIF_sent(src):
+    try:
+        messages = driver.find_elements_by_class_name('m-messenger__message-content')
+        gif = messages[-1].find_element_by_tag_name('img')
+        print(gif.get_attribute('src'))
+        return gif.get_attribute('src')[:50] == src[:50]
+    except Exception, e:
+        return "Error: " + str(e)
+
+def verify_sticker_sent(src):
+    try:
+        messages = driver.find_elements_by_class_name('m-messenger__message-content')
+        gif = messages[-1].find_element_by_tag_name('img')
+        print(gif.get_attribute('src'))
+        return gif.get_attribute('src') == src
+    except Exception, e:
+        return "Error: " + str(e)
+
 
 def send_GIF():
     try:
         gif_icon = driver.find_element_by_xpath('//*[@data-tip="GIF"]')
         gif_icon.click()
+        wait(wait_time=10)
         gifs = driver.find_elements_by_class_name('giphy-gif')
+        src = gifs[0].get_attribute('src')
         gifs[0].click()
         wait()
     except Exception, e:
          return "Error: " + str(e)
-    return "Success"
+    if verify_GIF_sent(src):
+        return "Success"
+    else:
+        return "Error: GIF wasn't sent"
 
 def close_browser():
     driver.close()
@@ -215,19 +252,19 @@ def verify_table():
 
 def verify_alert():
     try:
-        success_alert = driver.find_element_by_class_name('css-6bx4c3')
+        success_alert = driver.find_element_by_xpath('//*[@class="css-6bx4c3" or @class="toast-title"]')
         return True
     except Exception, e:
          return False
-
 
 
 if __name__ == "__main__":
     try:
         print(open_kibopush())
         print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
-        print(sidebar_click('broadcasts'))
-        print(verify_table())
+        print(sidebar_click('surveys'))
+        print(click_on('send'))
+        print(verify_alert())
         #print(select_emoji())
     finally:
         close_browser()
