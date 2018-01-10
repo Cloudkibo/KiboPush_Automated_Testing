@@ -275,6 +275,13 @@ def verify_alert():
     except Exception, e:
          return False
 
+def download_phone_csv():
+    try:
+        csv = driver.find_element_by_xpath('//*[@class="fa-download"]')
+        csv.click()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
 
 if __name__ == "__main__":
     try:
