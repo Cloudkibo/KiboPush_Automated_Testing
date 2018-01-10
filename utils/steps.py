@@ -16,7 +16,7 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 3# number of seconds to wait after clicking something
+WAIT_TIME = 5# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def wait(wait_time=WAIT_TIME):
@@ -273,7 +273,7 @@ def verify_alert():
         success_alert = driver.find_element_by_xpath('//*[@class="css-6bx4c3" or @class="toast-title"]')
         return True
     except Exception, e:
-         return False
+        return False
 
 def download_phone_csv():
     try:
@@ -298,8 +298,11 @@ if __name__ == "__main__":
     try:
         print(open_kibopush())
         print(login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'))
-        print(sidebar_click('operational'))
-        print(download_opdashboard_csv())
+        print(sidebar_click('polls'))
+        print(click_on('send'))
+        print(verify_alert())
+        print(click_on('send'))
+        print(verify_alert())
         #print(remove_autoposting())
         #print(select_emoji())
     finally:
