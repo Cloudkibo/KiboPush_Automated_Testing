@@ -86,3 +86,5 @@ print("----------------")
 
 for action in failed_action:
     print action
+
+close_browser()

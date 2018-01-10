@@ -50,7 +50,7 @@ def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
 
 def click_on(name, scope=driver):
     try:
-        print('click_on')
+        #print('click_on')
         name = name.lower().strip()
         # elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
         # if len(elements) == 0:
@@ -72,7 +72,7 @@ def click_on(name, scope=driver):
         #print('buttons: ' + str(len(buttons)))
         for element in buttons:
             if element.is_displayed():
-                print('displayed button')
+                #print('displayed button')
                 #driver.execute_script("arguments[0].click();", element)
                 element.click()
                 wait()
@@ -124,7 +124,7 @@ def sidebar_hamburger():
         
 
 def sidebar_click(sidebar_item):
-    print('sidebar_click')
+    #print('sidebar_click')
     sidebar = driver.find_element_by_class_name('m-menu__nav')
     return click_on(sidebar_item, scope=sidebar)
 
@@ -224,17 +224,17 @@ def verify_GIF_sent(src):
     try:
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
         gif = messages[-1].find_element_by_tag_name('img')
-        print(gif.get_attribute('src'))
+        #print(gif.get_attribute('src'))
         return gif.get_attribute('src')[:50] == src[:50]
     except Exception, e:
         return False
 
 def verify_sticker_sent(src):
     try:
-        print(src)
+        #print(src)
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
         sticker = messages[-1].find_element_by_tag_name('img')
-        print(sticker.get_attribute('src'))
+        #print(sticker.get_attribute('src'))
         return sticker.get_attribute('src') == src
     except Exception, e:
         return False
