@@ -201,7 +201,24 @@ def send_sticker():
     else:
         return "Error: sticker wasn't sent"
 
-    
+def remove_autoposting():
+    try:
+        autopost_delete = driver.find_element_by_class_name('btn-outline-danger')
+        autopost_delete.click()
+        click_on('delete')
+        wait()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+def autopost_settings():
+    try:
+        autopost_settings = driver.find_element_by_class_name('btn-outline-brand')
+        autopost_settings.click()
+        wait()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
 
 def verify_GIF_sent(src):
     try:
@@ -261,10 +278,10 @@ def verify_alert():
 if __name__ == "__main__":
     try:
         print(open_kibopush())
-        print(login('mike_vrhkeqg_repeatuser@tfbnw.net', 'kibo54321'))
-        print(sidebar_click('surveys'))
-        print(click_on('send'))
-        print(verify_alert())
+        print(login(user='bjafri5@msn.com', pw='iloveiba1'))
+        print(sidebar_click('auto posting'))
+        print(autopost_settings())
+        #print(remove_autoposting())
         #print(select_emoji())
     finally:
         close_browser()
