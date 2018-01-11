@@ -1,17 +1,22 @@
 ,Category,Description,Steps,Expected Results,User Type,Priority,Status,Remarks,Issue No.,Date,By,
-34,Live Chat,Sending Stickers,"1. Open KiboPush
-2. Login
+33,Live Chat,Sending Attachment,"1. Open KiboPush
+1. Login
+2. Go to Live Chat.
+3. Upload image
+4. Press Enter",Attachment should be received by the testing account,Repeat,No,High,Failed,-Only one attachment is sent even though multiple are attached,#1307,6-Dec-2017,Baqar
+34,Live Chat,Sending Stickers,"1. Login
 2. Go to Live Chat.
 3. Send Sticker",Sticker should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
 35,Live Chat,Sending Gifs,"1. Login
-2. Click on Live Chat.
+2. Go to Live Chat.
 3. Send Gif",Gif should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
 36,Live Chat,Send Emoticon,"1. Login
 2. Go to Live Chat.
+3. Write Hello123
 4.. Select Emoji
-4. Press Enter",Send Emojis,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
-31,Live Chat,Sending Messages,"1. Login
+5. Click on Hello123
+4. Press Enter",Emojis should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
+37,Live Chat,Filters,"1. Login
 2. Go to Live Chat.
-3. Click on Type Here
-4. Write A sample message
-5. Press Enter",The testing account should receive the message.,Repeat,No,High,Failed,Chats that are sent through workflows are not shown in live chat.,#1307,6-Dec-2017,Baqar
+3. Click on Search
+4. Write xxxxx",The customer list should respond according to the applied filter,,Yes,High,Failed,Filters are not working,#1071,6-Dec-2017,Ahsan
