@@ -47,17 +47,17 @@ def open_kibopush():
 #         return "Error: " + str(e)
 #     return "Success"
 
-def login(domain, user, pw):
+def login(domain='www.kibopush.com', user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
     try:
         login_form = driver.find_element_by_class_name('m-login__wrapper')
 
-        domain = login_form.find_element_by_xpath('.//input[@type="text"]')
+        domain_input = login_form.find_element_by_xpath('.//input[@type="text"]')
         password = login_form.find_element_by_xpath('.//input[@type="password"]')
         email = login_form.find_element_by_xpath('.//input[@type="email"]')
 
         login_button = login_form.find_element_by_id('m_login_signup_submit')
         
-        domain.send_keys(domain)
+        domain_input.send_keys(domain)
         email.send_keys(user)
         password.send_keys(pw)
         login_button.click()
@@ -317,7 +317,7 @@ def download_opdashboard_csv():
 if __name__ == "__main__":
     try:
         print(open_kibopush())
-        print(login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'))
+        print(login(domain='www.kibopush.com', user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'))
         print(sidebar_click('polls'))
         print(click_on('send'))
         print(verify_alert())
