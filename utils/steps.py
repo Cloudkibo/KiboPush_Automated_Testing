@@ -30,18 +30,38 @@ def open_kibopush():
         return "Error: " + str(e)
     return "Success"
 
-def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
+# def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
+#     try:
+#         login_button = driver.find_element_by_class_name('btn-brand')
+#         login_button.click()
+#         time.sleep(WAIT_TIME)
+#         if ('facebook' in str(driver.current_url)):
+#             email = driver.find_element_by_id('email')
+#             password = driver.find_element_by_id('pass')
+#             login = driver.find_element_by_id('loginbutton')
+#             email.send_keys(user)
+#             password.send_keys(pw)
+#             login.click()
+#         wait()
+#     except Exception, e:
+#         return "Error: " + str(e)
+#     return "Success"
+
+def login(domain, user, pw):
     try:
-        login_button = driver.find_element_by_class_name('btn-brand')
+        login_form = driver.find_element_by_class_name('m-login__wrapper')
+
+        domain = login_form.find_element_by_xpath('.//input[@type="text"]')
+        password = login_form.find_element_by_xpath('.//input[@type="password"]')
+        email = login_form.find_element_by_xpath('.//input[@type="email"]')
+
+        login_button = login_form.find_element_by_id('m_login_signup_submit')
+        
+        domain.send_keys(domain)
+        email.send_keys(user)
+        password.send_keys(pw)
         login_button.click()
-        time.sleep(WAIT_TIME)
-        if ('facebook' in str(driver.current_url)):
-            email = driver.find_element_by_id('email')
-            password = driver.find_element_by_id('pass')
-            login = driver.find_element_by_id('loginbutton')
-            email.send_keys(user)
-            password.send_keys(pw)
-            login.click()
+     
         wait()
     except Exception, e:
         return "Error: " + str(e)
