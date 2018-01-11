@@ -270,7 +270,7 @@ def verify_table():
 
 def verify_alert():
     try:
-        success_alert = driver.find_element_by_xpath('//*[@class="css-6bx4c3" or @class="toast-title"]')
+        success_alert = driver.find_element_by_xpath('//*[@class="css-6bx4c3" or @class="toast-title" or @class="alert-success"]')
         return True
     except Exception, e:
         return False
