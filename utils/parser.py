@@ -24,7 +24,11 @@ language_action = {
     "send sticker": "send_sticker",
     "verify table": "verify_table",
     "table exists": "verify_table",
-    "verify alert": "verify_alert"
+    "verify alert": "verify_alert",
+    "remove channel": "remove_channel",
+    "channel setting": "setting_channel",
+    "download sample csv": "download_phone_csv",
+    "download user csv": "download_user_csv"
 
 }
 

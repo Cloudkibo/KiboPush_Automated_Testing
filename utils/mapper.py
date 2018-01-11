@@ -14,12 +14,16 @@ action_step = {
     "open_kibopush": open_kibopush,
     "write.": write,
     "enter": press_enter,
-    "upload." : upload,
-    "select_emoji" : select_emoji,
-    "send_gif" : send_GIF,
-    "send_sticker" : send_sticker,
-    "verify_table" : verify_table,
-    "verify_alert" : verify_alert
+    "upload.": upload,
+    "select_emoji": select_emoji,
+    "send_gif": send_GIF,
+    "send_sticker": send_sticker,
+    "verify_table": verify_table,
+    "verify_alert": verify_alert,
+    "remove_channel" : remove_autoposting,
+    "setting_channel": autopost_settings,
+    "download_phone_csv": download_phone_csv,
+    "download_user_csv": download_opdashboard_csv
 }
 
 did_login = False
@@ -32,7 +36,7 @@ print('======== STARTING TEST ========\n')
 for index, test_action in enumerate(test_actions):
     print('\n')
     last_action = 'Success'
-    print('======== TEST:', index+1, ' ========')
+    print('======== TEST:', index + 1, ' ========')
     print("Expected Result: ", expected_result[index])
     print('-------------------------------')
     for action in test_action:
@@ -44,7 +48,7 @@ for index, test_action in enumerate(test_actions):
             function = action.split('.')[0] + '.'
             print('Function called: ', action_step[function])
             print('Parameters:', param)
-            last_action =  action_step[function](param)
+            last_action = action_step[function](param)
         else:
             if('login' in action):
                 did_login = True
@@ -67,7 +71,7 @@ for index, test_action in enumerate(test_actions):
         print("----------------")
     else:
         failed = failed + 1
-        failed_action.append(function +' ' + param)
+        failed_action.append(function + ' ' + param)
         print("----------------")
         print("TEST FAILED")
         print("----------------")
