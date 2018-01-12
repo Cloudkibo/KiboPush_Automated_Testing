@@ -179,6 +179,8 @@ def upload(type, wait_time=10):
             attachment.send_keys(os.getcwd()+"/sample.mp3")
         elif type == 'video':
             attachment.send_keys(os.getcwd()+"/sample.mp4")
+        elif type == 'file':
+            attachment.send_keys(os.getcwd()+"/sample.pdf")
         wait(wait_time)
     except Exception, e:
          return "Error: " + str(e)
