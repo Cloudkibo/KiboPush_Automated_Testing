@@ -197,7 +197,7 @@ def remove_broadcast_component(component_number=1):
          return "Error: " + str(e)
     return "Success"
     
-def click_on_broadcast_component(component_number=1, text):
+def click_on_broadcast_component(text, component_number=1):
     try:
         component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
         return click_on(text, scope=component)
