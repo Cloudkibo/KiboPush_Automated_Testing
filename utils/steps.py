@@ -187,8 +187,11 @@ def upload(type, wait_time=10):
 
     return "Success"
 
-def remove_broadcast_component(component_number=1):
+def remove_broadcast_component(component_number=None):
     try:
+        if component_number == None:
+            components = driver.find_elements_by_xpath('//div[@data-id]')
+            component_number = len(components)
         component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
         remove = component.find_element_by_class_name('fa-stack')
         remove.click()
