@@ -184,7 +184,20 @@ def upload(type, wait_time=10):
         wait(wait_time)
     except Exception, e:
          return "Error: " + str(e)
+
     return "Success"
+
+def remove_broadcast_component(component_number=1):
+    try:
+        component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
+        remove = component.find_element_by_class_name('fa-stack')
+        remove.click()
+        wait()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+    
+
 
 
 def add_broadcast_component(component_name):
