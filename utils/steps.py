@@ -217,6 +217,24 @@ def add_broadcast_component(component_name):
          return "Error: " + str(e)
     return "Success"
 
+def gallery_next():
+    try:
+        next = driver.find_element_by_class_name('slick-next')
+        next.click()
+        wait()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
+def gallery_prev():
+    try:
+        prev = driver.find_element_by_class_name('slick-prev')
+        prev.click()
+        wait()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
 def select_emoji():
     try:
         emoji_icon = driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div[5]/div[3]')
