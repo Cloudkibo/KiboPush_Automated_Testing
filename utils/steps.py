@@ -86,8 +86,15 @@ def click_on(name, scope=driver):
                 element.click()
                 wait()
                 return "Success"
+
+        inputs = scope.find_elements_by_xpath(".//input[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        for element in inputs:
+            if element.is_displayed():
+                element.click()
+                wait()
+                return "Success"
         
-        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in remaining_elements:
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
@@ -99,6 +106,14 @@ def click_on(name, scope=driver):
             return "Error: no element with text '" + name +"' found"
     except Exception, e:
         wait()
+        return "Error: " + str(e)
+    return "Success"
+
+def click_on_broadcast_title():
+    try:
+        title = driver.find_element_by_id('convoTitle')
+        title.click()
+    except Exception, e:
         return "Error: " + str(e)
     return "Success"
 
@@ -165,7 +180,6 @@ def broadcast_upload(type, component_number=1):
         return upload(type, scope=component)
     except Exception, e:
         return "Error: " + str(e)
-    
 
 
 def upload(type, wait_time=10, scope=driver):
