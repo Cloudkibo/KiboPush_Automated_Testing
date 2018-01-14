@@ -181,6 +181,14 @@ def broadcast_upload(type, component_number=1):
     except Exception, e:
         return "Error: " + str(e)
 
+def gallery_upload(type, page_number=1):
+    try:
+        component = driver.find_element_by_xpath('//div[@data-index=%d]' % (page_number-1))
+        return upload(type, scope=component)
+    except Exception, e:
+        return "Error: " + str(e)
+
+
 
 def upload(type, wait_time=10, scope=driver):
     try:
@@ -345,9 +353,9 @@ def verify_table():
 def verify_alert():
     try:
         success_alert = driver.find_element_by_xpath('//*[@class="css-6bx4c3" or @class="toast-title" or @class="alert-success"]')
-        return "Success"
+        return True
     except Exception, e:
-        return "No Alert detected"
+        return False
 
 def download_phone_csv():
     try:
