@@ -94,7 +94,7 @@ def click_on(name, scope=driver):
                 wait()
                 return "Success"
         
-        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
         for element in remaining_elements:
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
