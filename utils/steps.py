@@ -174,8 +174,11 @@ def choose_select(select_label, select_item=None):
          return "Error: " + str(e)
     return "Success"
 
-def broadcast_upload(type, component_number=1):
+def broadcast_upload(type, component_number=None):
     try:
+        if component_number == None:
+            components = driver.find_elements_by_xpath('//div[@data-id]')
+            component_number = len(components)
         component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
         return upload(type, scope=component)
     except Exception, e:
@@ -221,8 +224,11 @@ def remove_broadcast_component(component_number=None):
          return "Error: " + str(e)
     return "Success"
     
-def click_on_broadcast_component(text, component_number=1):
+def click_on_broadcast_component(text, component_number=None):
     try:
+        if component_number == None:
+            components = driver.find_elements_by_xpath('//div[@data-id]')
+            component_number = len(components)
         component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
         return click_on(text, scope=component)
     except Exception, e:
