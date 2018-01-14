@@ -199,6 +199,7 @@ def upload(type, wait_time=10, scope=driver):
             attachment.send_keys(os.getcwd()+"/sample.mp3")
         elif type == 'video':
             attachment.send_keys(os.getcwd()+"/sample.mp4")
+            wait(wait_time)
         elif type == 'file':
             attachment.send_keys(os.getcwd()+"/sample.pdf")
         wait(wait_time)
@@ -345,9 +346,12 @@ def verify_table():
     try:
         table = driver.find_element_by_tag_name('table')
         entries = table.find_elements_by_class_name('m-datatable__row--even')
-        return len(entries) > 0
+        if len(entries) > 0:
+            return "Success"
+        else:
+            return "Error: No table entries"
     except Exception, e:
-         return False
+         return "Error: " + str(e)
 
 def verify_alert():
     try:
