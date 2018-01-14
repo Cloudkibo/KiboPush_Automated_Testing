@@ -8,16 +8,16 @@ language_action = {
 
     "login": "login",
     "logout": "logout",
-    "click on ": "click.",
+    "click on ": "click-",
     "collapse sidebar": "sidebar_hamburger",
     "expand sidebar": "sidebar_hamburger",
-    "go to ": "sidebar.",
-    "choose ": "choose.",
+    "go to ": "sidebar-",
+    "choose ": "choose-",
     "lands on webpage": "open_kibopush",
     "kibopush": "open_kibopush",
-    "write ": "write.",
+    "write ": "write-",
     "press enter": "enter",
-    "upload": "upload.",
+    "upload ": "upload-",
     "select emoji": "select_emoji",
     "select emoticon": "select_emoji",
     "send gif": "send_gif",
@@ -28,19 +28,25 @@ language_action = {
     "remove channel": "remove_channel",
     "channel setting": "setting_channel",
     "download sample csv": "download_phone_csv",
-    "download user csv": "download_user_csv"
+    "download user csv": "download_user_csv",
+    "add broadcast component ": "click-",
+    "remove component ": "remove_broadcast_component",
+    "click component ": "click_component-",
+    "next image": "next_gallery",
+    "previous image": "prev_gallery"
 
 }
 
 
 def get_param(action, step, language):
-    if action[-1] != '.':
+    if action[-1] != '-':
         return action
     else:
         # Gets the word after that language from the given step
         param = step[step.find(language) + len(language):]
         # Remove any punctuation
-        param = param.translate(None, string.punctuation)
+        if not 'write' in action:
+        	param = param.translate(None, string.punctuation)
         # adding param to previous action
         action = action + param
         return action

@@ -345,9 +345,9 @@ def verify_table():
 def verify_alert():
     try:
         success_alert = driver.find_element_by_xpath('//*[@class="css-6bx4c3" or @class="toast-title" or @class="alert-success"]')
-        return True
+        return "Success"
     except Exception, e:
-        return False
+        return "No Alert detected"
 
 def download_phone_csv():
     try:

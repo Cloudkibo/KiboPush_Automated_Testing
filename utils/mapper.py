@@ -7,23 +7,27 @@ from steps import *
 action_step = {
     "login": login,
     "logout": logout,
-    "click.": click_on,
+    "click-": click_on,
     "sidebar_hamburger": sidebar_hamburger,
-    "sidebar.": sidebar_click,
-    "choose.": choose_select,
+    "sidebar-": sidebar_click,
+    "choose-": choose_select,
     "open_kibopush": open_kibopush,
-    "write.": write,
+    "write-": write,
     "enter": press_enter,
-    "upload.": upload,
+    "upload-": upload,
     "select_emoji": select_emoji,
     "send_gif": send_GIF,
     "send_sticker": send_sticker,
     "verify_table": verify_table,
     "verify_alert": verify_alert,
-    "remove_channel" : remove_autoposting,
+    "remove_channel": remove_autoposting,
     "setting_channel": autopost_settings,
     "download_phone_csv": download_phone_csv,
-    "download_user_csv": download_opdashboard_csv
+    "download_user_csv": download_opdashboard_csv,
+    "remove_broadcast_component-": remove_broadcast_component,
+    "click_component-": click_on_broadcast_component,
+    "next_gallery": gallery_next,
+    "prev_gallery": gallery_prev
 }
 
 did_login = False
@@ -43,9 +47,9 @@ for index, test_action in enumerate(test_actions):
         if last_action != "Success":
             break
         function = action
-        if '.' in action:
-            param = action.split('.')[-1]
-            function = action.split('.')[0] + '.'
+        if '-' in action:
+            param = action.split('-')[-1]
+            function = action.split('-')[0] + '-'
             print('Function called: ', action_step[function])
             print('Parameters:', param)
             last_action = action_step[function](param)

@@ -1,22 +1,89 @@
-,Category,Description,Steps,Expected Results,User Type,Priority,Status,Remarks,Issue No.,Date,By,
-33,Live Chat,Sending Attachment,"1. Open KiboPush
-1. Login
-2. Go to Live Chat.
-3. Upload image
-4. Press Enter",Attachment should be received by the testing account,Repeat,No,High,Failed,-Only one attachment is sent even though multiple are attached,#1307,6-Dec-2017,Baqar
-34,Live Chat,Sending Stickers,"1. Login
-2. Go to Live Chat.
-3. Send Sticker",Sticker should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
-35,Live Chat,Sending Gifs,"1. Login
-2. Go to Live Chat.
-3. Send Gif",Gif should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
-36,Live Chat,Send Emoticon,"1. Login
-2. Go to Live Chat.
-3. Write Hello123
-4.. Select Emoji
-5. Click on Hello123
-4. Press Enter",Emojis should be received by the testing account,Repeat,No,High,Failed,Empty Pop up when choosing sticker or gif,#1085,6-Dec-2017,Ahsan
-37,Live Chat,Filters,"1. Login
-2. Go to Live Chat.
-3. Click on Search
-4. Write xxxxx",The customer list should respond according to the applied filter,,Yes,High,Failed,Filters are not working,#1071,6-Dec-2017,Ahsan
+,Category,Description,Steps,Expected Results,User Type,Automated,Priority,Status,Remarks,Issue No.,Date,By
+,Broadcasts,Send a message with card attached,"Open Kibopush
+1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+5- Click on Card
+6. Upload Image
+7. Click on Enter Title
+8. Write ""Title""
+9. Click on Enter subtitle 
+10. Write ""Sample text""
+11. Click component add button
+12. Click on enter title
+13. Write Card Title
+14. Click on Enter a link
+15. Write www.google.com
+16. Click on Done
+11. Click on Send
+12. Verify Alert",Card should broadcated to all the customers,Repeat,,High,Failed,Not working,,2-Jan-2018,Baqar
+,Broadcasts,Send a message with Gallary attached,"Open Kibopush
+1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+5- Click on Gallery
+6. Upload Image
+7. Click on Enter Title
+8. Write First Image
+9. Click on Enter subtitle 
+10. Write A sample image
+11. Next Image
+12. Upload Image
+13. Click on Enter Title
+14. Write First Image
+15. Click on Enter subtitle 
+16. Write A sample image
+17. Click component add button
+18. Click on enter title
+19. Write Card Title
+20. Click on Enter a link
+21. Write www.google.com
+22. Click on Done
+23. Click on Send
+24. Verify Alert",Gallery should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
+9,Broadcasts,Send a message with audio attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+4- Click on Audio
+5. Upload Audio
+6. Click on Send
+7. Verify Alert",Audio should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+8,Broadcasts,Send a message with video attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+4- Click on Video
+5. Upload Video
+6. Click on Send
+7. Verify Alert",Video should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+,Broadcasts,Send a message with File attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+4- Click on File
+5. Upload mp3
+6. Click on Send",File should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
+10,Broadcasts,Send a message with link attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create Broadcast
+4. Click on Create New Broadcast
+4- Write www.google.com
+5. Click on Send",Link should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+,Broadcasts,Send a mixed message,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+4- Click on File
+5. Upload File
+6. Click on Text
+7. Click on Enter your text...
+8. Write ""This is sample broadcast""
+9. Click on Send",Mixed message should broadcated to all the customers,Repeat,,High,Failed,The order of the multiple components are not preserved.,#1088,2-Jan-2018,Baqar
+11,Broadcasts,Show list of Broadcasts,"1- Login
+2- Go to Broadcasts",List of Broadcast should be shown,Repeat,,High,Failed,There is issue with Seen and Sent reflecting the number of components.,#1088,2-Jan-2018,Baqar
+12,Broadcasts,Edit Broadcast,"1- Login
+2- Go to Broadcasts
+3- Click on Edit",Broadcst should be edited,Repeat,,High,Failed,There is no option to edit Broadcast,#1088,28-Nov-2017,Ahsan
