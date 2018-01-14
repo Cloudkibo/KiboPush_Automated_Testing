@@ -16,7 +16,7 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 5# number of seconds to wait after clicking something
+WAIT_TIME = 2# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def wait(wait_time=WAIT_TIME):
@@ -72,15 +72,7 @@ def click_on(name, scope=driver):
     try:
         #print('click_on')
         name = name.lower().strip()
-        # elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
-        # if len(elements) == 0:
-        #     return "Error: No element with " + name + " found"
-        # for element in elements:
-        #     if element.is_displayed():
-        #         #driver.execute_script("arguments[0].click();", element)
-        #         element.click()
-        #         break
-        links = scope.find_elements_by_xpath("//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        links = scope.find_elements_by_xpath(".//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in links:
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
@@ -88,17 +80,14 @@ def click_on(name, scope=driver):
                 wait()
                 return "Success"
         
-        buttons = scope.find_elements_by_xpath("//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
-        #print('buttons: ' + str(len(buttons)))
+        buttons = scope.find_elements_by_xpath(".//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in buttons:
             if element.is_displayed():
-                #print('displayed button')
-                #driver.execute_script("arguments[0].click();", element)
                 element.click()
                 wait()
                 return "Success"
         
-        remaining_elements = scope.find_elements_by_xpath("//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
         for element in remaining_elements:
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
@@ -170,9 +159,18 @@ def choose_select(select_label, select_item=None):
          return "Error: " + str(e)
     return "Success"
 
-def upload(type, wait_time=10):
+def broadcast_upload(type, component_number=1):
     try:
-        attachment = driver.find_element_by_xpath('//input[@type="file"]')
+        component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
+        return upload(type, scope=component)
+    except Exception, e:
+        return "Error: " + str(e)
+    
+
+
+def upload(type, wait_time=10, scope=driver):
+    try:
+        attachment = scope.find_element_by_xpath('.//input[@type="file"]')
         if type == 'image':
             attachment.send_keys(os.getcwd()+"/sample.jpg")
         elif type == 'audio':
