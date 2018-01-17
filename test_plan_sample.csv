@@ -76,10 +76,11 @@
 8,Broadcasts,Send a message with video attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
-4- Click on Video
-5. Upload Video
-6. Click on Send
-7. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+4- Click on Create New Broadcast
+5- Click on Video
+6. Upload Video
+7. Click on Send
+8. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a message with File attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
