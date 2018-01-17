@@ -387,6 +387,16 @@ def download_opdashboard_csv():
          return "Error: " + str(e)
     return "Success"
 
+def livechat_thumbs_up():
+    try:
+        thumbs_up = driver.find_element_by_class_name('la-thumbs-o-up')
+        thumbs_up.click()
+        wait()
+    except Exception, e:
+         return "Error: " + str(e)
+    return "Success"
+
+
 
 if __name__ == "__main__":
     try:
