@@ -184,13 +184,14 @@ def broadcast_upload(type, component_number=None):
     except Exception, e:
         return "Error: " + str(e)
 
-def gallery_upload(type, page_number=None):
+def gallery_upload( page_number=None):
     try:
         if page_number == None:
             pages = driver.find_elements_by_xpath('//div[@data-index]')
             page_number = len(pages)
+        page_number = int(page_number)
         component = driver.find_element_by_xpath('//div[@data-index=%d]' % (page_number-1))
-        return upload(type, scope=component)
+        return upload('image', scope=component)
     except Exception, e:
         return "Error: " + str(e)
 

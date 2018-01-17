@@ -1,13 +1,93 @@
 ,Category,Description,Steps,Expected Results,User Type,Automated,Priority,Status,Remarks,Issue No.,Date,By
-8,Broadcasts,Send a message with video attached,"Open Kibopush
-1- Login 
+6,Broadcasts,Send a text message,"1. Open Kibopush
+1. Login 
+2. Go to Broadcasts
+3. Click on Create New Broadcast
+4. Click on Create New Broadcast
+5. Click on Text
+6. Click on Enter your text...
+7. Write ""This is sample broadcast""
+8. Click on Send
+9. Verify Alert",Text mesage should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+7,Broadcasts,Send a message with image attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4. Click on Create New Broadcast
+5- Click on Image
+6. Upload Image
+7. Click on Send
+8. Verify Alert",Image should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+,Broadcasts,Send a message with card attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+5- Click on Card
+6. Upload Image
+7. Click on Enter Title
+8. Write Card Title
+9. Click on Enter subtitle
+10. Write ""Sample text""
+11. Click component add button
+12. Click on enter button title
+13. Write Card Title
+14. Click on Enter link
+15. Write www.google.com
+16. Click on Done
+11. Click on Send
+12. Verify Alert",Card should broadcated to all the customers,Repeat,Yes,High,Failed,Not working,,2-Jan-2018,Baqar
+,Broadcasts,Send a message with Gallery attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+5- Click on Gallery
+6. gallery page 1
+7. Click on Enter Title
+8. Write First Image
+9. Click on Enter subtitle 
+10. Write A sample image
+11. Click component add button
+12. Click on enter button title
+13. Write First Image
+14. Click on Enter link
+15. Write www.google.com
+16. Click on Done
+17. Next Image
+18. gallery page 2
+19. Click on Enter Title
+20. Write Second Image
+21. Click on Enter subtitle 
+22. Write Another sample image
+23. Click component add button
+24. Click on enter button title
+25. Write Gallery button
+26. Click on Enter link
+27. Write www.google.com
+28. Click on Done
+29. Click on Send
+30. Verify Alert",Gallery should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
+9,Broadcasts,Send a message with audio attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+4- Click on Audio
+5. Upload Audio
+6. Click on Send
+7. Verify Alert",Audio should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+8,Broadcasts,Send a message with video attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
 4- Click on Video
 5. Upload Video
 6. Click on Send
-7. Verify Alert",Video should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+7. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+,Broadcasts,Send a message with File attached,"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+4- Click on File
+5. Upload file
+6. Click on Send
+7. Verify Alert",File should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
 10,Broadcasts,Send a message with link attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -15,13 +95,14 @@
 5. Click on Text
 6. Click on Enter your text...
 7- Write www.google.com
-8. Click on enter button title
-9. Write Google
-10. Click on Enter link
-11. Write www.google.com
-12. Click on Done
-13. Click on Send
-14. Verify Alert",Link should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
+8. Click component add button
+9. Click on enter button title
+10. Write Google
+11. Click on Enter link
+12. Write www.google.com
+13. Click on Done
+14. Click on Send
+15. Verify Alert",Link should broadcated to all the customers,Repeat,Yes,High,Failed,Test broadcast not working,#1088,2-Jan-2018,Baqar
 ,Broadcasts,Send a mixed message,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -30,37 +111,9 @@
 5. Upload File
 6. Click on Text
 7. Click on Enter your text...
-8. Write ""This is sample broadcast""
+8. Write This is sample broadcast
 9. Click on Send
-10. Verify Alert",Mixed message should broadcated to all the customers,Repeat,,High,Failed,The order of the multiple components are not preserved.,#1088,2-Jan-2018,Baqar
+10. Verify Alert",Mixed message should broadcated to all the customers,Repeat,Yes,High,Failed,The order of the multiple components are not preserved.,#1088,2-Jan-2018,Baqar
 11,Broadcasts,Show list of Broadcasts,"1- Login
 2- Go to Broadcasts
-3. Verify Table",List of Broadcast should be shown,Repeat,,High,Failed,There is issue with Seen and Sent reflecting the number of components.,#1088,2-Jan-2018,Baqar
-12,Broadcasts,Edit Broadcast,"1- Login
-2- Go to Broadcasts
-3- Click on Edit",Broadcst should be edited,Repeat,,High,Failed,There is no option to edit Broadcast,#1088,28-Nov-2017,Ahsan
-,Broadcasts,Send a message with Gallary attached,"Open Kibopush
-1- Login 
-2- Go to Broadcasts
-3- Click on Create New Broadcast
-4. Click on Create New Broadcast
-5- Click on Gallery
-6. Upload Image
-7. Click on Enter Title
-8. Write First Image
-9. Click on Enter subtitle 
-10. Write A sample image
-11. Next Image
-12. Upload Image
-13. Click on Enter Title
-14. Write First Image
-15. Click on Enter subtitle 
-16. Write A sample image
-17. Click component add button
-18. Click on enter button title
-19. Write Card Title
-20. Click on Enter a link
-21. Write www.google.com
-22. Click on Done
-23. Click on Send
-24. Verify Alert",Gallery should broadcated to all the customers,Repeat,,High,Failed,Test broadcast not working,,2-Jan-2018,Baqar
+3. Verify Table",List of Broadcast should be shown,Repeat,Yes,High,Failed,There is issue with Seen and Sent reflecting the number of components.,#1088,2-Jan-2018,Baqar

@@ -27,7 +27,8 @@ action_step = {
     "remove_broadcast_component-": remove_broadcast_component,
     "click_component-": click_on_broadcast_component,
     "next_gallery": gallery_next,
-    "prev_gallery": gallery_prev
+    "prev_gallery": gallery_prev,
+    "gallery_upload-": gallery_upload,
 }
 
 did_login = False

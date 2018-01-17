@@ -33,7 +33,8 @@ language_action = {
     "remove component ": "remove_broadcast_component",
     "click component ": "click_component-",
     "next image": "next_gallery",
-    "previous image": "prev_gallery"
+    "previous image": "prev_gallery",
+    "gallery page ": "gallery_upload-"
 
 }
 
