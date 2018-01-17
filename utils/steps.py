@@ -312,13 +312,18 @@ def autopost_settings():
         return "Error: " + str(e)
     return "Success"
 
-def verify_GIF_sent(src):
+def verify_GIF_sent(gif_ID):
     try:
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
         gif = messages[-1].find_element_by_tag_name('img')
-        #print(gif.get_attribute('src'))
-        return gif.get_attribute('src')[:50] == src[:50]
+        src = gif.get_attribute('src')
+        actual_gif_ID = src[src.index('media/') + len('media/'):]
+        actual_gif_ID = actual_gif_ID[:actual_gif_ID.index('/')]
+        #print(gif_ID)
+        #print(actual_gif_ID)
+        return gif_ID == actual_gif_ID
     except Exception, e:
+        #print(str(e))
         return False
 
 def verify_sticker_sent(src):
@@ -339,11 +344,13 @@ def send_GIF():
         wait(wait_time=10)
         gifs = driver.find_elements_by_class_name('giphy-gif')
         src = gifs[0].get_attribute('src')
+        gif_ID = src[src.index('media/') + len('media/'):]
+        gif_ID = gif_ID[:gif_ID.index('/')]
         gifs[0].click()
         wait()
     except Exception, e:
          return "Error: " + str(e)
-    if verify_GIF_sent(src):
+    if verify_GIF_sent(gif_ID):
         return "Success"
     else:
         return "Error: GIF wasn't sent"
