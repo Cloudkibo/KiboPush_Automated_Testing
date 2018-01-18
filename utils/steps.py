@@ -283,13 +283,16 @@ def send_sticker():
         sticker_icon = driver.find_element_by_xpath('//*[@data-tip="stickers"]')
         sticker_icon.click()
         wait(wait_time=10)
-        stickers = driver.find_elements_by_class_name('sticker')
+        sticker_pack = driver.find_element_by_class_name('sticker-pack')
+        stickers = sticker_pack.find_elements_by_class_name('sticker')
         src = stickers[0].get_attribute('src')
+        sticker_ID = src[src.index('sticker/') + len('sticker/'):]
+        sticker_ID = sticker_ID[:sticker_ID.index('_')]
         stickers[0].click()
         wait()
     except Exception, e:
          return "Error: " + str(e)
-    if verify_sticker_sent(src):
+    if verify_sticker_sent(sticker_ID):
         return "Success"
     else:
         return "Error: sticker wasn't sent"
@@ -327,14 +330,18 @@ def verify_GIF_sent(gif_ID):
         #print(str(e))
         return False
 
-def verify_sticker_sent(src):
+def verify_sticker_sent(sticker_ID):
     try:
-        #print(src)
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
         sticker = messages[-1].find_element_by_tag_name('img')
-        #print(sticker.get_attribute('src'))
-        return sticker.get_attribute('src') == src
+        src = sticker.get_attribute('src')
+        actual_sticker_ID = src[src.index('sticker/') + len('sticker/'):]
+        actual_sticker_ID = actual_sticker_ID[:actual_sticker_ID.index('_')]
+        # print(sticker_ID)
+        # print(actual_sticker_ID)
+        return sticker_ID == actual_sticker_ID
     except Exception, e:
+        #print(str(e))
         return False
 
 
