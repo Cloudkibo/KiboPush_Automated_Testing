@@ -34,7 +34,8 @@ language_action = {
     "click component ": "click_component-",
     "next image": "next_gallery",
     "previous image": "prev_gallery",
-    "gallery page ": "gallery_upload-"
+    "gallery page ": "gallery_upload-",
+    "send all broadcasts": "send_broadcast_templates"
 
 }
 
@@ -123,6 +124,7 @@ def parse_language():
     print('Test Plan Parsed sucessfully')
     print("Total Cases : ", len(all_test))
     print("Not Parsed : ", not_parsed)
+    print("UnParsed : ", unparsable)
     print("Ambigous:", ambigous)
 
     pruned_test = remove_incomplete(test_case)

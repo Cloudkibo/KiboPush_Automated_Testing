@@ -29,6 +29,7 @@ action_step = {
     "next_gallery": gallery_next,
     "prev_gallery": gallery_prev,
     "gallery_upload-": gallery_upload,
+    "send_broadcast_templates" , send_broadcast_templates
 }
 
 did_login = False
