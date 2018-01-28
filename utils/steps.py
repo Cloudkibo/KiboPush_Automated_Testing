@@ -16,7 +16,7 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 2# number of seconds to wait after clicking something
+WAIT_TIME = 1# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def wait(wait_time=WAIT_TIME):
@@ -57,12 +57,30 @@ def login(domain='www.kibopush.com', user='mike_vrhkeqg_repeatuser@tfbnw.net', p
 
         login_button = login_form.find_element_by_id('m_login_signup_submit')
         
-        domain_input.send_keys(domain)
+        domain_input.send_keys(domain) 
         email.send_keys(user)
         password.send_keys(pw)
         login_button.click()
-     
-        wait()
+        if verify_failure():
+            return "Error Invalid Login"        
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+def test_broadcast_templates():
+    try:
+        templates = driver.find_element_by_class_name('m-widget4')
+        template_buttons = templates.find_elements_by_class_name('m-btn')
+        for i in range(len(template_buttons)):
+            templates = driver.find_element_by_class_name('m-widget4')
+            button = templates.find_elements_by_class_name('m-btn')[i]
+            button.click()
+            wait()
+            click_on('send')
+            if verify_alert() == "Success":
+                click_on('back')
+            else:
+                return "Error: broadcast didn't send"
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
@@ -194,8 +212,6 @@ def gallery_upload( page_number=None):
         return upload('image', scope=component)
     except Exception, e:
         return "Error: " + str(e)
-
-
 
 def upload(type, wait_time=10, scope=driver):
     try:
@@ -379,10 +395,18 @@ def verify_table():
 
 def verify_alert():
     try:
-        success_alert = driver.find_element_by_xpath('//*[@class="css-6bx4c3" or @class="toast-title" or @class="alert-success"]')
+        success_alert = driver.find_element_by_xpath('//*[@class="css-rr2n0f" or @class="toast-title" or @class="alert-success"]')
         return "Success"
     except Exception, e:
         return "No Alert detected"
+
+def verify_failure():
+    try:
+        failure_alert = driver.find_element_by_class_name('css-1f1jd2h')
+        return "Success"
+    except Exception, e:
+        return "No Failure Alert"
+
 
 def download_phone_csv():
     try:
