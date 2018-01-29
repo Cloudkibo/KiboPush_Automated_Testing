@@ -47,17 +47,26 @@ def open_kibopush():
 #         return "Error: " + str(e)
 #     return "Success"
 
-def login(domain='www.kibopush.com', user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
+def login(account_type='agent', domain='www.kibopush.com', user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
     try:
+        team_account = account_type == 'agent' or account_type == 'admin' or account_type == 'buyer'
+        
+        if team_account:
+            click_on('team account')
+        else:
+            click_on('individual account')
+
         login_form = driver.find_element_by_class_name('m-login__wrapper')
 
-        domain_input = login_form.find_element_by_xpath('.//input[@type="text"]')
+        if team_account:
+            domain_input = login_form.find_element_by_xpath('.//input[@type="text"]')
         password = login_form.find_element_by_xpath('.//input[@type="password"]')
         email = login_form.find_element_by_xpath('.//input[@type="email"]')
 
         login_button = login_form.find_element_by_id('m_login_signup_submit')
         
-        domain_input.send_keys(domain) 
+        if team_account:
+            domain_input.send_keys(domain) 
         email.send_keys(user)
         password.send_keys(pw)
         login_button.click()
@@ -67,7 +76,7 @@ def login(domain='www.kibopush.com', user='mike_vrhkeqg_repeatuser@tfbnw.net', p
         return "Error: " + str(e)
     return "Success"
 
-def test_broadcast_templates():
+def send_broadcast_templates():
     try:
         templates = driver.find_element_by_class_name('m-widget4')
         template_buttons = templates.find_elements_by_class_name('m-btn')
