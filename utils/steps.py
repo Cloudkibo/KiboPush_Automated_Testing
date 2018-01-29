@@ -85,6 +85,36 @@ def test_broadcast_templates():
         return "Error: " + str(e)
     return "Success"
 
+def press_tab(times_to_press=1):
+    try:
+        for i in range(times_to_press):
+            focused_element = driver.switch_to.active_element
+            focused_element.send_keys(Keys.TAB)
+            wait()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+
+# def test_survey_templates():
+#     try:
+#         templates = driver.find_element_by_class_name('m-widget4')
+#         template_buttons = templates.find_elements_by_class_name('m-btn')
+#         for i in range(len(template_buttons)):
+#             templates = driver.find_element_by_class_name('m-widget4')
+#             button = templates.find_elements_by_class_name('m-btn')[i]
+#             button.click()
+#             wait()
+#             click_on('create survey')
+#             wait()
+#             if verify_alert() == "Success":
+#                 click_on('back')
+#             else:
+#                 return "Error: broadcast didn't send"
+#     except Exception, e:
+#         return "Error: " + str(e)
+#     return "Success"
+
 
 def click_on(name, scope=driver):
     try:
@@ -105,14 +135,14 @@ def click_on(name, scope=driver):
                 wait()
                 return "Success"
 
-        inputs = scope.find_elements_by_xpath(".//input[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        inputs = scope.find_elements_by_xpath(".//input[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in inputs:
             if element.is_displayed():
                 element.click()
                 wait()
                 return "Success"
         
-        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name))
+        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in remaining_elements:
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
@@ -124,6 +154,15 @@ def click_on(name, scope=driver):
             return "Error: no element with text '" + name +"' found"
     except Exception, e:
         wait()
+        return "Error: " + str(e)
+    return "Success"
+
+def clear_field():
+    try:
+        focused_element = driver.switch_to.active_element
+        focused_element.clear()
+        wait()
+    except Exception, e:
         return "Error: " + str(e)
     return "Success"
 
