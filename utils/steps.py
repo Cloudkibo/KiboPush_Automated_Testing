@@ -76,6 +76,35 @@ def login(account_type='agent', domain='www.kibopush.com', user='mike_vrhkeqg_re
         return "Error: " + str(e)
     return "Success"
 
+def close_menu(x):
+    try:
+        exes = driver.find_elements_by_class_name('fa-times')
+        num_of_menu_items = len(exes)
+        exes[x-1].click()
+        wait()
+        exes = driver.find_elements_by_class_name('fa-times')
+        if (len(exes) >= num_of_menu_items):
+            return "Error: menu didn't delete"
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+
+def add_menu(x):
+    try:
+        plus = driver.find_element_by_class_name('fa-plus')
+        exes = driver.find_elements_by_class_name('fa-times')
+        num_of_menu_items = len(exes)
+        plus.click()
+        wait()
+        pluses = driver.find_elements_by_class_name('fa-plus')
+        exes = driver.find_elements_by_class_name('fa-times')
+        if (len(exes) <= num_of_menu_items):
+            return "Error: menu didn't add"
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
 def send_broadcast_templates():
     try:
         templates = driver.find_element_by_class_name('m-widget4')
