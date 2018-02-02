@@ -79,7 +79,7 @@ def login(account_type='agent'):
         email.send_keys(user)
         password.send_keys(pw)
         login_button.click()
-        if verify_failure():
+        if verify_failure() == "Success":
             return "Error Invalid Login"        
     except Exception, e:
         return "Error: " + str(e)
@@ -482,14 +482,20 @@ def verify_table():
 def verify_alert():
     try:
         success_alert = driver.find_element_by_xpath('//*[@class="css-rr2n0f" or @class="toast-title" or @class="alert-success"]')
-        return "Success"
+        if (success_alert.is_displayed()):
+            return "Success"
+        else:
+            return "No Alert detected"
     except Exception, e:
         return "No Alert detected"
 
 def verify_failure():
     try:
         failure_alert = driver.find_element_by_class_name('css-1f1jd2h')
-        return "Success"
+        if (failure_alert.is_displayed()):
+            return "Success"
+        else:
+            return "No Failure Alert"
     except Exception, e:
         return "No Failure Alert"
 
@@ -536,3 +542,4 @@ if __name__ == "__main__":
         #print(select_emoji())
     finally:
         close_browser()
+
