@@ -47,10 +47,19 @@ def open_kibopush():
 #         return "Error: " + str(e)
 #     return "Success"
 
-def login(account_type='agent', domain='www.kibopush.com', user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
+def login(account_type='agent'):
     try:
         team_account = account_type == 'agent' or account_type == 'admin' or account_type == 'buyer'
-        
+
+        pw = 'kibo54321'
+        domain = 'fbteser'
+        if account_type == 'buyer':
+            user = 'a.hsan.tanweer.26@gmail.com'
+        elif account_type == 'agent':
+            user = 'ah.san.tanweer.26@gmail.com'
+        elif account_type == 'admin':
+            user = 'ahs.an.tanweer.26@gmail.com'
+
         if team_account:
             click_on('team account')
         else:
