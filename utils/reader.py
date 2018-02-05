@@ -6,7 +6,7 @@ def get_test():
     test_steps = []
     expected_results = []
     test_all = []
-    with open('../test_plan_sample.csv', 'rb') as f:
+    with open('../test_plan.csv', 'rb') as f:
         reader = csv.reader(f)
         for index, row in enumerate(reader):
 

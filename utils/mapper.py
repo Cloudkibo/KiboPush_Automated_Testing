@@ -1,6 +1,6 @@
 from parser import parse_language
 from steps import *
-
+from logger import *
 
 # . indicates parameter
 
@@ -36,18 +36,20 @@ did_login = False
 failed_action = []
 passed = 0
 failed = 0
-user_category = ['agent', 'admin', 'buyer']
+# user_category = ['agent', 'admin', 'buyer']
+user_category = ['buyer']
+clear_logs()
 
 test_actions, expected_result = parse_language()
-print('======== STARTING TEST ========\n')
+log('======== STARTING TEST ========\n')
 for index, test_action in enumerate(test_actions):
     for category in user_category:
-        print('======== Category :', category, ' ========')
-        print('\n')
+        log('\n')
+        log('======== Category :%s ========'% category)
         last_action = 'Success'
-        print('======== TEST:', index + 1, ' ========')
-        print("Expected Result: ", expected_result[index])
-        print('-------------------------------')
+        log('======== TEST: %s ========' % str(index+1))
+        log("Expected Result: %s" % expected_result[index])
+        log('-------------------------------')
         for action in test_action:
             if last_action != "Success":
                 break
@@ -55,49 +57,49 @@ for index, test_action in enumerate(test_actions):
             if '-' in action:
                 param = action.split('-')[-1]
                 function = action.split('-')[0] + '-'
-                print('Function called: ', action_step[function])
-                print('Parameters:', param)
+                log('Function called: %s' % action_step[function])
+                log('Parameters: %s' % param)
                 last_action = action_step[function](param)
             else:
                 if('login' in action):
                     did_login = True
-                print('Function called: ', action_step[function](category))
+                log('Function called: %s' % action_step[function])
                 last_action = action_step[function]()
 
-            print('Status: ', last_action)
+            log('Status: %s ' % last_action)
 
         # To logout after every test
         if did_login:
             did_login = False
-            print('Function called: logout')
+            log('Function called: logout')
             last_action_logout = action_step['logout']()
-            print('Status: ', last_action_logout)
+            log('Status: %s' % last_action_logout)
 
         if last_action == 'Success':
             passed = passed + 1
-            print("----------------")
-            print("TEST SUCCESSFUL")
-            print("----------------")
+            log("----------------")
+            log("TEST SUCCESSFUL")
+            log("----------------")
         else:
             failed = failed + 1
-            failed_action.append(function + ' ' + param)
-            print("----------------")
-            print("TEST FAILED")
-            print("----------------")
+            failed_action.append(action)
+            log("----------------")
+            log("TEST FAILED")
+            log("----------------")
 
 
-print("=================")
-print("SUMMARY")
-print("=================")
+log("=================")
+log("SUMMARY")
+log("=================")
 
-print("Total Passed:", passed)
-print("Total Failed:", failed)
+log("Total Passed: %s" % passed)
+log("Total Failed: %s" % failed)
 
-print("----------------")
-print("FAILED ACTIONS")
-print("----------------")
+log("----------------")
+log("FAILED ACTIONS")
+log("----------------")
 
 for action in failed_action:
-    print action
+    log(action)
 
 close_browser()

@@ -16,7 +16,7 @@ elif platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
-WAIT_TIME = 1# number of seconds to wait after clicking something
+WAIT_TIME = 0# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def wait(wait_time=WAIT_TIME):
