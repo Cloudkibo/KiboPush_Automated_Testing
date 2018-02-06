@@ -173,6 +173,7 @@ def click_on(name, scope=driver):
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
                 element.click()
+                print(element.text)
                 wait()
                 return "Success"
         
@@ -180,6 +181,7 @@ def click_on(name, scope=driver):
         for element in buttons:
             if element.is_displayed():
                 element.click()
+                print(element.text)
                 wait()
                 return "Success"
 
@@ -187,6 +189,7 @@ def click_on(name, scope=driver):
         for element in inputs:
             if element.is_displayed():
                 element.click()
+                print(element.text)
                 wait()
                 return "Success"
         
@@ -195,6 +198,7 @@ def click_on(name, scope=driver):
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
                 element.click()
+                print(element.text)
                 wait()
                 return "Success"
         if len(remaining_elements) == 0:
@@ -203,7 +207,7 @@ def click_on(name, scope=driver):
     except Exception, e:
         wait()
         return "Error: " + str(e)
-    return "Success"
+    return "Error: no element with text '" + name +"' found"
 
 def clear_field():
     try:
@@ -248,6 +252,7 @@ def sidebar_hamburger():
         sidebar_hamburger = driver.find_element_by_id('m_aside_left_minimize_toggle')
         sidebar_hamburger.click()
         wait()
+        collapsed = driver.find_element_by_class_name('m-brand__toggler--active')
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
