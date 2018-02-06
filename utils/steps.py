@@ -173,7 +173,7 @@ def click_on(name, scope=driver):
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
                 element.click()
-                print(element.text)
+                #print(element.text)
                 wait()
                 return "Success"
         
@@ -181,7 +181,7 @@ def click_on(name, scope=driver):
         for element in buttons:
             if element.is_displayed():
                 element.click()
-                print(element.text)
+                #print(element.text)
                 wait()
                 return "Success"
 
@@ -189,7 +189,7 @@ def click_on(name, scope=driver):
         for element in inputs:
             if element.is_displayed():
                 element.click()
-                print(element.text)
+                #print(element.text)
                 wait()
                 return "Success"
         
@@ -198,7 +198,7 @@ def click_on(name, scope=driver):
             if element.is_displayed():
                 #driver.execute_script("arguments[0].click();", element)
                 element.click()
-                print(element.text)
+                #print(element.text)
                 wait()
                 return "Success"
         if len(remaining_elements) == 0:
