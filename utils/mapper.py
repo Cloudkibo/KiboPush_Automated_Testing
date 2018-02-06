@@ -36,8 +36,8 @@ did_login = False
 failed_action = []
 passed = 0
 failed = 0
-# user_category = ['agent', 'admin', 'buyer']
-user_category = ['buyer']
+user_category = ['agent', 'admin', 'buyer']
+# user_category = ['buyer']
 clear_logs()
 
 test_actions, expected_result = parse_language()
@@ -63,6 +63,8 @@ for index, test_action in enumerate(test_actions):
             else:
                 if('login' in action):
                     did_login = True
+                    last_action = action_step[function](category)
+                    continue;
                 log('Function called: %s' % action_step[function])
                 last_action = action_step[function]()
 
