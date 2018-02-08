@@ -15,6 +15,8 @@ def get_test():
                 continue
             elif row[3] == '':
                 continue
+            elif row[6] != 'Yes':
+                continue
 
             test_steps.append(row[3])
             expected_results.append(row[4])
