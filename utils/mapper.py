@@ -39,6 +39,7 @@ failed = 0
 user_category = ['agent', 'admin', 'buyer']
 # user_category = ['buyer']
 clear_logs()
+close_popup = False
 
 test_actions, expected_result = parse_language()
 log('======== STARTING TEST ========\n')
@@ -62,6 +63,9 @@ for index, test_action in enumerate(test_actions):
                 last_action = action_step[function](param)
             else:
                 if('login' in action):
+                    if not close_popup:
+                        close_help_popup()
+                        close_popup = True
                     did_login = True
                     last_action = action_step[function](category)
                     continue;
