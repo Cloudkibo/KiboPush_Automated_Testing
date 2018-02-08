@@ -36,7 +36,7 @@ did_login = False
 failed_action = []
 passed = 0
 failed = 0
-user_category = ['agent', 'admin', 'buyer']
+user_category = ['agent', 'admin', 'buyer', 'individual']
 # user_category = ['buyer']
 clear_logs()
 close_popup = False
