@@ -47,6 +47,17 @@ def open_kibopush():
 #         return "Error: " + str(e)
 #     return "Success"
 
+def close_help_popup():
+    try:
+        driver.switch_to.frame(driver.find_element_by_xpath('.//iframe[@title="fb:customerchat Facebook Social Plugin"]'))
+        close_button = driver.find_element_by_class_name('closeButtonContainer')
+        close_button.click()
+        wait()
+        driver.switch_to.default_content()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
 def login(account_type='agent'):
     try:
         team_account = account_type == 'agent' or account_type == 'admin' or account_type == 'buyer'
