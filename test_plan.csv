@@ -56,17 +56,6 @@ User should be able to resend email verification link",All,No,,Passed,Passed,Pas
 2. Check the pages you can add.
 3. Page on Facebook
 4. New page should be shown on manage pages screen",The page should be shown on the list,All,No,High,Failed,Failed,Failed,Failed,Currently only way to get list of new pages is by logging out and loggin in.,#1304,9 Feb 2018,Ahsan
-14,Facebook Pages,Add Facebook Page,"1- Login 
-2- Go to Manage Pages
-3. Click on Add Pages
-4. Click on Connect
-5- Click on Done
-",Successfully added a new Facebook page,All,Yes,High,Failed,Failed,Passed,Passed,"Admin can't disconnect page that buyer has added, or vice versa",#1881,9 Feb 2018,Ahsan
-15,Facebook Pages,Delete Facebook Page,"1- Login 
-2- Go to Manage Pages
-3. Click on Add Pages
-4- Click on Disconnect
-5- Click on Done",The page is removed,All,Yes,High,Failed,Failed,Passed,Passed,"Manage page shows inconsistent options for admin and user, depending on who have added the page",#1881,9 Feb 2018,Ahsan
  BROADCASTS,,,,,,,,,,,,,,,
 16,Broadcasts,Send a text message,"1. Login 
 2. Go to Broadcasts

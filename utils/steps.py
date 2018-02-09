@@ -71,7 +71,7 @@ def login(account_type='agent'):
         elif account_type == 'admin':
             user = 'ahs.an.tanweer.26@gmail.com'
         elif account_type == 'individual':
-            user = 'joe_dwmhcui_lonely@tfbnw.net'
+            user = 'ahsa.n.tanweer.26@gmail.com'
 
         if team_account:
             click_on('team account')
@@ -97,7 +97,6 @@ def login(account_type='agent'):
             return "Error Invalid Login"        
     except Exception, e:
         return "Error: " + str(e)
-    close_help_popup()
     return "Success"
 
 def close_menu(x):
