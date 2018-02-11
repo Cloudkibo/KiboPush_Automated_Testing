@@ -1,12 +1,8 @@
  No.,Category,Description,Steps,Expected Results,User Type,Automated,Priority,Status,,,,Remarks,Issue No.,Date,By
 ,,,,,,,,Buyer,Admin,Agent,Individual,,,,
 AUTHENTICATION,,,,,,,,,,,,,,,
-1,User Authentication,User Authentication,"1- User lands on webpage 
-2- Login
-",Signup successful and user’s basic info is saved in Users table,New,Yes,High,Passed,Passed,Passed,Passed,,, ,Baqar
-2,User Authentication,Login,1. Login,Agent should be logged in,Repeat,Yes,,Passed,Passed,Passed,Passed,,, ,Baqar
-3,User Authentication,Logout,"1. Login
-",Agent should be logged out,Repeat,Yes,,Passed,Passed,Passed,Passed,,, ,Baqar
+2,User Authentication,Login,"1. User lands on webpage 
+2. Login",Agent should be logged in and logged out,Repeat,Yes,,Passed,Passed,Passed,Passed,,, ,Baqar
 4,User Authentication,Forgot Password,"1. Click on reset password
 2. Click on 
 3. Click on Submit","1. Password reset link should be sent to the provided email id
@@ -25,7 +21,7 @@ User should be able to resend email verification link",All,No,,Passed,Passed,Pas
 2. Go to Change password
 3. Enter old and new password
 4. Apply",This should change the password if old password entered is correct and new password is at least 6 characters long,Repeat,No,,Passed,Passed,Passed,Passed,,, ,Baqar
-,,,,SIDEBAR,,,,,,,,,, ,
+SIDEBAR,,,,,,,,,,,,,,,
 8,SIDEBAR,Navigation,"1. Login
 3. go to Dashboard
 5. go to Broadcasts
@@ -39,13 +35,13 @@ User should be able to resend email verification link",All,No,,Passed,Passed,Pas
 16. go to Subscribe to Messenger
 17. go to Invite using phone number
 18. go to Settings
-19. go to User Guide",User is routed to correct route for each element on the sidebar,All,Yes,High,Passed,Passed,Passed,Passed,,, ,Baqar
+19. go to User Guide",User is routed to correct route for each element on the sidebar,All,Yes,High,Passed,Passed,Failed,Passed,Need to make separate sidebar test for each account type,, ,Baqar
 9,SIDEBAR,Collapsing and Expanding,"1. Login.
 2. Collapse sidebar
 3. Expand sidebar",The sidbar collapse and expand as expected,All,Yes,High,Failed,Failed,Failed,Failed,Only works on the dashboard after immediately logging in or refreshing the page,#1070, ,Baqar
 10,SIDEBAR,Icons,"1. Login
 2. Verify Icons of each Sidebar Item",Icons should be unique,All,No,Medium,Passed,Passed,Passed,Passed,,, ,Baqar
-,,,,NAVBAR,,,,,,,,,,,
+NAVBAR,,,,,,,,,,,,,,,
 11,NAVBAR,Logout,"1. Login
 ",User should log out,All,Yes,High,Passed,Passed,Passed,Passed,,, ,Baqar
  PAGES,,,,,,,,,,,,,,,
@@ -66,6 +62,22 @@ User should be able to resend email verification link",All,No,,Passed,Passed,Pas
 7. Write ""This is sample broadcast""
 8. Click on Send
 9. Verify Alert",Text mesage should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,"Test broadcast not working for anyone
+No Broadcast being sent for Buyer, Admin or Agent, INdividual",#1843,9 Feb 2018,Automated
+16,Broadcasts,Send a text message with button,"1. Login 
+2. Go to Broadcasts
+3. Click on Create New Broadcast
+4. Click on Create New Broadcast
+5. Click on Text
+6. Click on Enter your text...
+7. Write ""This is sample broadcast""
+8. Click on Add Button
+9. Click on Enter button title
+10. Write Google
+11. Click on Enter link
+12. Write www.google.com
+13 Click on Done
+14. Click on Send
+15. Verify Alert",Text mesage with button should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,"Test broadcast not working for anyone
 No Broadcast being sent for Buyer, Admin or Agent, INdividual",#1843,9 Feb 2018,Automated
 17,Broadcasts,Send a message with image attached,"1- Login 
 2- Go to Broadcasts
@@ -347,7 +359,7 @@ MAIN MENU,,,,,,,,,,,,,,,
 6. Click Done",The type of the menu item should be set to web_url and url should be saved,,Not Verified,High,NA,NA,NA,Passed,,, ,Baqar
 56,Main Menu,Add Nested Menus,"1. Login
 2. Click on Main Menu
-3. Try adding new Menu Options within a Menu Option.",The nested Menu Is added.,,Not Verified,High,NA,NA,NA,Failed,Menu doesn't save if it has a nested menu,#1699, ,Baqar
+3. Try adding new Menu Options within a Menu Option.",The nested Menu Is added.,,Not Verified,High,NA,NA,NA,Passed,,, ,Baqar
 57,Main Menu,Add Reply Message,"1. Login
 2. Click on Main Menu
 3. Click on the menu item and set its type to new message

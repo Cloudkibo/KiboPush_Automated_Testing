@@ -64,10 +64,14 @@ for index, test_action in enumerate(test_actions):
             else:
                 if('login' in action):
                     if not close_popup:
-                        close_help_popup()
+                        log('Function called: close_help_popup')
+                        last_action = close_help_popup()
                         close_popup = True
+                        log('Status: %s' % last_action)
                     did_login = True
+                    log('Function called: login')
                     last_action = action_step[function](category)
+                    log('Status: %s' % last_action)
                     continue;
                 log('Function called: %s' % action_step[function])
                 last_action = action_step[function]()
