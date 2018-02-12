@@ -503,7 +503,7 @@ def verify_alert():
     try:
         success_alert = driver.find_element_by_xpath('//*[@class="css-rr2n0f" or @class="toast-title" or @class="alert-success"]')
         if (success_alert.is_displayed()):
-            wait(7)
+            #wait(7)
             return "Success"
         else:
             return "No Alert detected"
