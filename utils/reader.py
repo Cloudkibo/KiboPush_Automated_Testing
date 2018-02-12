@@ -6,6 +6,7 @@ def get_test():
     test_steps = []
     expected_results = []
     test_all = []
+    row_number = []
     with open('../test_plan.csv', 'rb') as f:
         reader = csv.reader(f)
         for index, row in enumerate(reader):
@@ -20,6 +21,7 @@ def get_test():
 
             test_steps.append(row[3])
             expected_results.append(row[4])
+            row_number.append(index)
 
         for item in test_steps:
             single_test = item.split('\n')
@@ -27,7 +29,7 @@ def get_test():
         # print '-------------'
         # print test_all
         print('Test Plan read successfully\n')
-        return test_all, expected_results
+        return test_all, expected_results, row_number
 
 
 if __name__ == '__main__':

@@ -94,7 +94,7 @@ def remove_incomplete(all_test):
 
 def parse_language():
 
-    all_test, expected_result = get_test()
+    all_test, expected_result, row_number = get_test()
     print('======== PARSING TEST PLAN ========\n')
     unparsable = []
     ambigous = []
@@ -110,11 +110,13 @@ def parse_language():
             test_actions.append(action)
             if action == "Not Defined":
                 expected_result[index] = "Not Defined"
+                row_number[index] = "Not Defined"
                 unparsable.append(step)
                 not_parsed = not_parsed + 1
                 break
             elif action == "Ambigous":
                 expected_result[index] = "Ambigous"
+                row_number[index] = "Ambigous"
                 ambigous.append(step)
                 not_parsed = not_parsed + 1
                 break
@@ -129,12 +131,13 @@ def parse_language():
 
     pruned_test = remove_incomplete(test_case)
     pruned_result = [x for x in expected_result if criteria_simple(x)]
+    pruned_row = [x for x in row_number if criteria_simple(x)]
 
     print("Length of Pruned Test: ", len(pruned_test))
     print('\n')
     # print pruned_test
 
-    return pruned_test, pruned_result
+    return pruned_test, pruned_result, pruned_row
 
 
 if __name__ == '__main__':

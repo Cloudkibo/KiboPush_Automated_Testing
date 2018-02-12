@@ -32,21 +32,32 @@ action_step = {
     "send_broadcast_templates": send_broadcast_templates
 }
 
+# "category" : [passed, failed]
+category_count = {
+    "buyer" : [0,0],
+    "admin" : [0,0],
+    "agent" : [0,0],
+    "individual" : [0,0]
+}
+
 did_login = False
 failed_action = []
 passed = 0
 failed = 0
+
+
+
 user_category = ['agent', 'admin', 'buyer', 'individual']
 # user_category = ['buyer']
 clear_logs()
 close_popup = False
 
-test_actions, expected_result = parse_language()
+test_actions, expected_result, row_number = parse_language()
 log('======== STARTING TEST ========\n')
 for index, test_action in enumerate(test_actions):
     for category in user_category:
         log('\n')
-        log('======== Category :%s ========'% category)
+        log('======== Category : %s ========'% category)
         last_action = 'Success'
         log('======== TEST: %s ========' % str(index+1))
         log("Expected Result: %s" % expected_result[index])
@@ -87,11 +98,13 @@ for index, test_action in enumerate(test_actions):
 
         if last_action == 'Success':
             passed = passed + 1
+            category_count[category][0]  = category_count[category][0] + 1
             log("----------------")
             log("TEST SUCCESSFUL")
             log("----------------")
         else:
             failed = failed + 1
+            category_count[category][1]  = category_count[category][1] + 1
             failed_action.append(action)
             log("----------------")
             log("TEST FAILED")
@@ -111,5 +124,9 @@ log("----------------")
 
 for action in failed_action:
     log(action)
+
+print row_number
+print category_count
+
 
 close_browser()
