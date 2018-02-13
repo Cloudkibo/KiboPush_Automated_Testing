@@ -19,6 +19,15 @@ elif platform.system() == 'Windows':
 WAIT_TIME = 1# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
+def open_new_window():
+    if platform.system() == 'Darwin':
+        new_driver = webdriver.Chrome('../driver/macos/chromedriver', chrome_options=chrome_options)
+    elif platform.system() == 'Linux':
+        new_driver = webdriver.Chrome('../driver/linux/chromedriver', chrome_options=chrome_options)
+    elif platform.system() == 'Windows':
+        new_driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
+    return new_driver
+
 def wait(wait_time=WAIT_TIME):
     time.sleep(wait_time)
 
@@ -30,13 +39,10 @@ def open_kibopush():
         return "Error: " + str(e)
     return "Success"
 
-def facebook_login(account_type='agent'):
+def open_facebook(account_type='agent'):
     try:
-        driver.execute_script("window.open()")
-
-        driver.switch_to.window(driver.window_handles[len(driver.window_handles)-1])
-
-        driver.get("https://www.facebook.com/")
+        facebook_driver = open_new_window()
+        facebook_driver.get("https://www.facebook.com/")
         pw = 'kibo54321'
         if account_type == 'buyer':
             user = 'mike_hxpmirj_buyer@tfbnw.net'
@@ -46,13 +52,12 @@ def facebook_login(account_type='agent'):
             user = 'tom_aopzkab_admin@tfbnw.net'
         elif account_type == 'individual':
             user = 'joe_dwmhcui_lonely@tfbnw.net'
-        if ('facebook' in str(driver.current_url)):
-            email = driver.find_element_by_id('email')
-            password = driver.find_element_by_id('pass')
-            login = driver.find_element_by_id('loginbutton')
-            email.send_keys(user)
-            password.send_keys(pw)
-            login.click()
+        email = facebook_driver.find_element_by_id('email')
+        password = facebook_driver.find_element_by_id('pass')
+        login = facebook_driver.find_element_by_id('loginbutton')
+        email.send_keys(user)
+        password.send_keys(pw)
+        login.click()
         wait()
     except Exception, e:
         return "Error: " + str(e)
