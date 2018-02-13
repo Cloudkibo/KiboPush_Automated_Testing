@@ -30,22 +30,34 @@ def open_kibopush():
         return "Error: " + str(e)
     return "Success"
 
-# def login(user='mike_vrhkeqg_repeatuser@tfbnw.net', pw='kibo54321'):
-#     try:
-#         login_button = driver.find_element_by_class_name('btn-brand')
-#         login_button.click()
-#         time.sleep(WAIT_TIME)
-#         if ('facebook' in str(driver.current_url)):
-#             email = driver.find_element_by_id('email')
-#             password = driver.find_element_by_id('pass')
-#             login = driver.find_element_by_id('loginbutton')
-#             email.send_keys(user)
-#             password.send_keys(pw)
-#             login.click()
-#         wait()
-#     except Exception, e:
-#         return "Error: " + str(e)
-#     return "Success"
+def facebook_login(account_type='agent'):
+    try:
+        driver.execute_script("window.open()")
+
+        driver.switch_to.window(driver.window_handles[len(driver.window_handles)-1])
+
+        driver.get("https://www.facebook.com/")
+        pw = 'kibo54321'
+        if account_type == 'buyer':
+            user = 'mike_hxpmirj_buyer@tfbnw.net'
+        elif account_type == 'agent':
+            user = 'charlie_mkqelmp_agent@tfbnw.net'
+        elif account_type == 'admin':
+            user = 'tom_aopzkab_admin@tfbnw.net'
+        elif account_type == 'individual':
+            user = 'joe_dwmhcui_lonely@tfbnw.net'
+        if ('facebook' in str(driver.current_url)):
+            email = driver.find_element_by_id('email')
+            password = driver.find_element_by_id('pass')
+            login = driver.find_element_by_id('loginbutton')
+            email.send_keys(user)
+            password.send_keys(pw)
+            login.click()
+        wait()
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
 
 def close_help_popup():
     try:
@@ -301,9 +313,9 @@ def choose_select(select_label, select_item=None):
 def broadcast_upload(type, component_number=None):
     try:
         if component_number == None:
-            components = driver.find_elements_by_xpath('//div[@data-id]')
-            component_number = len(components)
-        component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
+            broadcast_components = driver.find_elements_by_class_name('broadcast-component')
+            component_number = len(broadcast_components)-1
+        component = broadcast_components[component_number]
         return upload(type, scope=component)
     except Exception, e:
         return "Error: " + str(e)
@@ -340,9 +352,9 @@ def upload(type, wait_time=10, scope=driver):
 def remove_broadcast_component(component_number=None):
     try:
         if component_number == None:
-            components = driver.find_elements_by_xpath('//div[@data-id]')
-            component_number = len(components)
-        component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
+            broadcast_components = driver.find_elements_by_class_name('broadcast-component')
+            component_number = len(broadcast_components)-1
+        component = broadcast_components[component_number]
         remove = component.find_element_by_class_name('fa-stack')
         remove.click()
         wait()
@@ -353,9 +365,9 @@ def remove_broadcast_component(component_number=None):
 def click_on_broadcast_component(text, component_number=None):
     try:
         if component_number == None:
-            components = driver.find_elements_by_xpath('//div[@data-id]')
-            component_number = len(components)
-        component = driver.find_element_by_xpath('//div[@data-rank=%d]' % (component_number-1))
+            broadcast_components = driver.find_elements_by_class_name('broadcast-component')
+            component_number = len(broadcast_components)-1
+        component = broadcast_components[component_number]
         return click_on(text, scope=component)
     except Exception, e:
         return "Error: " + str(e)
@@ -499,6 +511,13 @@ def verify_table():
     except Exception, e:
          return "Error: " + str(e)
 
+def num_of_broadcast_components():
+    try:
+        broadcast_components = driver.find_elements_by_class_name('broadcast-component')
+        return len(broadcast_components)
+    except Exception, e:
+        return "No Broadcast components"
+
 def verify_alert():
     try:
         success_alert = driver.find_element_by_xpath('//*[@class="css-rr2n0f" or @class="toast-title" or @class="alert-success"]')
@@ -563,4 +582,5 @@ if __name__ == "__main__":
         #print(select_emoji())
     finally:
         close_browser()
+
 
