@@ -17,7 +17,10 @@ def generate_report(results, summary, file_name):
     <td>{description}</td>
     <td><pre>{steps}</pre></td>
     <td>{expected_results}</td>
-    <td>{status}</td>
+    <td>{buyer_status}</td>
+    <td>{admin_status}</td>
+    <td>{agent_status}</td>
+    <td>{individual_status}</td>
     <td>{remarks}</td>
   </tr>
   """.format(**result)
@@ -68,7 +71,7 @@ def generate_report(results, summary, file_name):
 
         <table class="table table-bordered s">
             <tr>
-                <th class="text-centered" style="font-size:20px;" colspan="7">Buyer</th>
+                <th class="text-centered" style="font-size:20px;" colspan="10">Buyer</th>
             </tr>
             <tr>
                 <th class="text-centered">Test</th>
@@ -76,7 +79,10 @@ def generate_report(results, summary, file_name):
                 <th class="text-centered">Description</th>
                 <th class="text-centered">Steps</th>
                 <th class="text-centered">Expected Results</th>
-                <th class="text-centered">Status</th>
+                <th class="text-centered">Buyer Status</th>
+                <th class="text-centered">Admin Status</th>
+                <th class="text-centered">Agent Status</th>
+                <th class="text-centered">Individual Status</th>
                 <th class="text-centered">Remarks</th>
             </tr>
             %s
@@ -125,18 +131,24 @@ if __name__ == "__main__":
           'description': 'Navigation',
           'steps': steps,
           'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'status': 'Failed',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
           'remarks': 'Step 7 failed'
       },
       {
-          'test': '#2',
+          'test': '#1',
           'category': 'Sidebar',
           'description': 'Navigation',
           'steps': steps,
           'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'status': 'Failed',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
           'remarks': 'Step 7 failed'
-      }
+      },
   ]
 
   summary_buyer = {
