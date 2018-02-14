@@ -6,10 +6,20 @@ def get_rows(row_number):
 
     with open('../'+test_plan, 'rb') as f:
         reader = csv.reader(f)
+        category = []
+        description = []
+        steps = []
+        expected_result = []
+
         for index, row in enumerate(reader):
             if index in row_number:
-                #Ideally send each column separately, instead of row
-                return row
+                # Category, Description, Steps, Expected Result, 
+                category.append(row[1])
+                description.append(row[2])
+                steps.append(row[3])
+                expected_result.append(row[4])
+
+    return category, description, steps, expected_result
 
 def get_test():
     print('======== READING TEST PLAN ========\n')

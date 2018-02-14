@@ -1,11 +1,32 @@
 import pdfkit
 import os
 import time
+from reader import get_rows
+from mapper import user_category
+
+
+def gather_report(test_status):
+  """Uses reader to get meta-data for report, and combines it with received test data, to generate report"""
+  category, description, steps, expected_result = get_rows(test_status.keys())
+  report_data = []
+  for k, v in test_status.iteritems():
+    temp = {}
+    temp['test'] = test.pop(0)
+    temp['category'] = category.pop(0)
+    temp['description'] = description.pop(0)
+    temp['steps'] = steps.pop(0)
+    temp['expected_results']
+    temp['buyer_status'] = v[user_category.index(buyer)]
+    temp['admin_status']= v[user_category.index(admin)]
+    temp['agent_status']= v[user_category.index(agent)]
+    temp['individual_status']= v[user_category.index(individual)]
+    temp['remarks'] = v[-1]
+    report_data.append(temp)
 
 def generate_report(results, summary, file_name):
   options = {
-    'page-size': 'A4',
-    'dpi': 300,
+      'page-size': 'A4',
+      'dpi': 300,
   }
 
   table_data = ''
@@ -27,7 +48,7 @@ def generate_report(results, summary, file_name):
 
     table_data += os.linesep
 
-  #print(table_data)
+  # print(table_data)
 
   summary = """
   <ul>
@@ -101,7 +122,7 @@ def generate_report(results, summary, file_name):
   """ % (time_stamp, table_data, summary)
 
   #pdfkit.from_file('sample.html', 'out.pdf', options=options)
-  pdfkit.from_string(html, file_name+'.pdf', options=options)
+  pdfkit.from_string(html, file_name + '.pdf', options=options)
 
 
 if __name__ == "__main__":
@@ -152,11 +173,11 @@ if __name__ == "__main__":
   ]
 
   summary_buyer = {
-    'tests_passed': 0,
-    'tests_failed': 2,
-    'failed_tests': [
-      '#1','#2'
-    ]
+      'tests_passed': 0,
+      'tests_failed': 2,
+      'failed_tests': [
+          '#1', '#2'
+      ]
   }
 
   generate_report(results_buyer, summary_buyer, 'results_buyer')

@@ -49,8 +49,8 @@ category_count = {
 test_status = {}
 # Would be filled like this: 
 # {
-# 1: ['Passed','Passed','Failed','Passed']
-# 3: ['Passed','Failed','Failed','Passed']
+# 1: ['Passed','Passed','Failed','Passed', Remarks]
+# 3: ['Passed','Failed','Failed','Passed', Agent: Failed at Step 2, Admin: Failed at step 4]
 # }
 did_login = False
 failed_action = []
@@ -68,6 +68,7 @@ test_actions, expected_result, row_number = parse_language()
 log('======== STARTING TEST ========\n')
 for index, test_action in enumerate(test_actions):
     test_status[row_number[index]] = []
+    temp_remarks = ''
     for category in user_category:
         log('\n')
         log('======== Category : %s ========'% category)
@@ -118,12 +119,14 @@ for index, test_action in enumerate(test_actions):
             log("----------------")
         else:
             test_status[row_number[index]].append('Failed')
+            temp_remarks = temp_remarks + str(category) + ": "+str(action)+'\n'
             failed = failed + 1
             category_count[category][1]  = category_count[category][1] + 1
             failed_action.append(action)
             log("----------------")
             log("TEST FAILED")
             log("----------------")
+    test_status[row_number[index]].append(temp_remarks)
 
 
 log("=================")
