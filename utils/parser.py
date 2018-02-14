@@ -17,6 +17,7 @@ language_action = {
     "kibopush": "open_kibopush",
     "write ": "write-",
     "press enter": "enter",
+    "press tab": "tab",
     "upload ": "upload-",
     "select emoji": "select_emoji",
     "select emoticon": "select_emoji",
@@ -35,7 +36,10 @@ language_action = {
     "next image": "next_gallery",
     "previous image": "prev_gallery",
     "gallery page ": "gallery_upload-",
-    "send all broadcasts": "send_broadcast_templates"
+    "send all broadcasts": "send_broadcast_templates",
+    "clear field" : "clear_field",
+    "add menu " : "add_menu-",
+    "close menu " : "close_menu-"
 
 }
 
