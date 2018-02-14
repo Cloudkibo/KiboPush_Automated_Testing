@@ -64,6 +64,69 @@ def open_facebook(account_type='agent'):
     return "Success"
 
 
+def delete_poll_templates():
+    try:
+        poll_templates = driver.find_element_by_class_name('poll-templates')
+        template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
+        for row in template_rows:
+            click_on('delete', scope=row)
+            popup = driver.find_element_by_class_name('narcissus_17w311v')
+            click_on('delete', scope=popup)
+            if verify_alert() != "Success":
+                return "Error: no delete alert"
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+def delete_survey_templates():
+     try:
+        survey_templates = driver.find_element_by_class_name('survey-templates')
+        template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
+        for row in template_rows:
+            click_on('delete', scope=row)
+            popup = driver.find_element_by_class_name('narcissus_17w311v')
+            click_on('delete', scope=popup)
+            if verify_alert() != "Success":
+                return "Error: no delete alert"
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+def delete_broadcast_templates():
+     try:
+        broadcast_templates = driver.find_element_by_class_name('broadcast-templates')
+        template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
+        for row in template_rows:
+            click_on('delete', scope=row)
+            popup = driver.find_element_by_class_name('narcissus_17w311v')
+            click_on('delete', scope=popup)
+            if verify_alert() != "Success":
+                return "Error: no delete alert"
+    except Exception, e:
+        return "Error: " + str(e)
+    return "Success"
+
+def verify_poll_templates_table():
+    try:
+        poll_templates = driver.find_element_by_class_name('poll-templates')
+        return verify_table(scope=poll_templates)
+    except Exception, e:
+        return "Error: " + str(e)
+
+def verify_survey_templates_table():
+    try:
+        survey_templates = driver.find_element_by_class_name('survey-templates')
+        return verify_table(scope=survey_templates)
+    except Exception, e:
+        return "Error: " + str(e)
+
+def verify_broadcast_templates_table():
+    try:
+        broadcast_templates = driver.find_element_by_class_name('broadcast-templates')
+        return verify_table(scope=broadcast_templates)
+    except Exception, e:
+        return "Error: " + str(e)
+
 def close_help_popup():
     try:
         driver.switch_to.frame(driver.find_element_by_xpath('.//iframe[@title="fb:customerchat Facebook Social Plugin"]'))
@@ -505,9 +568,9 @@ def send_GIF():
 def close_browser():
     driver.close()
 
-def verify_table():
+def verify_table(scope=driver):
     try:
-        table = driver.find_element_by_tag_name('table')
+        table = scope.find_element_by_tag_name('table')
         entries = table.find_elements_by_class_name('m-datatable__row--even')
         if len(entries) > 0:
             return "Success"
