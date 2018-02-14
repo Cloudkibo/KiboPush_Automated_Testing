@@ -79,7 +79,7 @@ def delete_poll_templates():
     return "Success"
 
 def delete_survey_templates():
-     try:
+    try:
         survey_templates = driver.find_element_by_class_name('survey-templates')
         template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
         for row in template_rows:
@@ -93,7 +93,7 @@ def delete_survey_templates():
     return "Success"
 
 def delete_broadcast_templates():
-     try:
+    try:
         broadcast_templates = driver.find_element_by_class_name('broadcast-templates')
         template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
         for row in template_rows:

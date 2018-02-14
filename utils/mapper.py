@@ -44,6 +44,14 @@ category_count = {
     "individual" : [0,0]
 }
 
+
+
+test_status = {}
+# Would be filled like this: 
+# {
+# 1: ['Passed','Passed','Failed','Passed']
+# 3: ['Passed','Failed','Failed','Passed']
+# }
 did_login = False
 failed_action = []
 passed = 0
@@ -59,6 +67,7 @@ close_popup = False
 test_actions, expected_result, row_number = parse_language()
 log('======== STARTING TEST ========\n')
 for index, test_action in enumerate(test_actions):
+    test_status[row_number[index]] = []
     for category in user_category:
         log('\n')
         log('======== Category : %s ========'% category)
@@ -101,12 +110,14 @@ for index, test_action in enumerate(test_actions):
             log('Status: %s' % last_action_logout)
 
         if last_action == 'Success':
+            test_status[row_number[index]].append('Passed')
             passed = passed + 1
             category_count[category][0]  = category_count[category][0] + 1
             log("----------------")
             log("TEST SUCCESSFUL")
             log("----------------")
         else:
+            test_status[row_number[index]].append('Failed')
             failed = failed + 1
             category_count[category][1]  = category_count[category][1] + 1
             failed_action.append(action)
@@ -129,7 +140,7 @@ log("----------------")
 for action in failed_action:
     log(action)
 
-print row_number
+print test_status
 print category_count
 
 

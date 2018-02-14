@@ -1,5 +1,15 @@
 import csv
 
+test_plan = 'test_plan_sample.csv'
+
+def get_rows(row_number):
+
+    with open('../'+test_plan, 'rb') as f:
+        reader = csv.reader(f)
+        for index, row in enumerate(reader):
+            if index in row_number:
+                #Ideally send each column separately, instead of row
+                return row
 
 def get_test():
     print('======== READING TEST PLAN ========\n')
@@ -7,7 +17,7 @@ def get_test():
     expected_results = []
     test_all = []
     row_number = []
-    with open('../test_plan.csv', 'rb') as f:
+    with open('../'+test_plan, 'rb') as f:
         reader = csv.reader(f)
         for index, row in enumerate(reader):
 
