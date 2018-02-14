@@ -264,8 +264,8 @@ def click_on(name, scope=driver):
         links = scope.find_elements_by_xpath(".//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in links:
             if element.is_displayed():
-                #driver.execute_script("arguments[0].click();", element)
-                element.click()
+                driver.execute_script("arguments[0].click();", element)
+                #element.click()
                 #print(element.text)
                 wait()
                 return "Success"
@@ -273,7 +273,8 @@ def click_on(name, scope=driver):
         buttons = scope.find_elements_by_xpath(".//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in buttons:
             if element.is_displayed():
-                element.click()
+                driver.execute_script("arguments[0].click();", element)
+                #element.click()
                 #print(element.text)
                 wait()
                 return "Success"
@@ -281,7 +282,8 @@ def click_on(name, scope=driver):
         inputs = scope.find_elements_by_xpath(".//input[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in inputs:
             if element.is_displayed():
-                element.click()
+                driver.execute_script("arguments[0].click();", element)
+                #element.click()
                 #print(element.text)
                 wait()
                 return "Success"
@@ -289,8 +291,8 @@ def click_on(name, scope=driver):
         remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in remaining_elements:
             if element.is_displayed():
-                #driver.execute_script("arguments[0].click();", element)
-                element.click()
+                driver.execute_script("arguments[0].click();", element)
+                #element.click()
                 #print(element.text)
                 wait()
                 return "Success"
