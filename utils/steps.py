@@ -140,6 +140,7 @@ def close_help_popup():
 
 def login(account_type='agent'):
     try:
+        click_on('login')
         team_account = account_type == 'agent' or account_type == 'admin' or account_type == 'buyer'
 
         pw = 'kibo54321'
