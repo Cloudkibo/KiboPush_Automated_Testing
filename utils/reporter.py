@@ -2,7 +2,6 @@ import pdfkit
 import os
 import time
 from reader import get_rows
-from mapper import user_category
 
 
 def generate_report(results, summary, file_name='report'):
@@ -13,17 +12,40 @@ def generate_report(results, summary, file_name='report'):
 
   table_data = ''
   for result in results:
+    failure_color = '#DC143C'
+    success_color = '#4BB543'
+    
+    if result['buyer_status'] == 'Passed':
+      result['buyer_color'] = success_color
+    else:
+      result['buyer_color'] = failure_color
+
+    if result['admin_status'] == 'Passed':
+      result['admin_color'] = success_color
+    else:
+      result['admin_color'] = failure_color
+
+    if result['agent_status'] == 'Passed':
+      result['agent_color'] = success_color
+    else:
+      result['agent_color'] = failure_color
+
+    if result['individual_status'] == 'Passed':
+      result['individual_color'] = success_color
+    else:
+      result['individual_color'] = failure_color
+
     table_data += """
     <tr>
     <td>{test}</td>
     <td>{category}</td>
     <td>{description}</td>
-    <td><pre>{steps}</pre></td>
+    <td style="white-space: pre-wrap; width:100%;">{steps}</td>
     <td>{expected_results}</td>
-    <td>{buyer_status}</td>
-    <td>{admin_status}</td>
-    <td>{agent_status}</td>
-    <td>{individual_status}</td>
+    <td bgcolor={buyer_color}>{buyer_status}</td>
+    <td bgcolor={admin_color}>{admin_status}</td>
+    <td bgcolor={agent_color}>{agent_status}</td>
+    <td bgcolor={individual_color}>{individual_status}</td>
     <td>{remarks}</td>
   </tr>
   """.format(**result)
@@ -110,28 +132,44 @@ def gather_report(test_status, summary):
     temp['remarks'] = v[-1]
     report_data.append(temp)
 
+    print("REPORT DATA:")
+    print(report_data)
+
+
   generate_report(report_data, summary )
 
 
 if __name__ == "__main__":
-  steps = """
-  1. Login
-  2. Go to Dashboard
-  3. Go to Broadcasts
-  4. Go to Survey
-  5. Go to Polls
-  6. Go to Workflows
-  7. Go to Live Chat
-  8. Go to Auto posting
-  9. Go to Persistent Menu
-  10. Go to Manage Pages
-  11. Go to Manage Subscriptions
-  12. Go to Subscribe to Messenger
-  13. Go to Messenger Link
-  14. Go to Invite using phone number
-  15. Go to Settings
-  16. Go to User Guide
-  """
+  steps = """1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast
+4. Click on Create New Broadcast
+5- Click on Gallery
+6. gallery page 1
+7. Click on Enter Title
+8. Write First Image
+9. Click on Enter subtitle 
+10. Write A sample image
+11. Click component add button
+12. Click on enter button title
+13. Write First Image
+14. Click on Enter link
+15. Write www.google.com
+16. Click on Done
+17. Next Image
+18. gallery page 2
+19. Click on Enter Title
+20. Write Second Image
+21. Click on Enter subtitle 
+22. Write Another sample image
+23. Click component add button
+24. Click on enter button title
+25. Write Gallery button
+26. Click on Enter link
+27. Write www.google.com
+28. Click on Done
+29. Click on Send
+30. Verify Alert"""
 
   results = [
       {
@@ -147,6 +185,116 @@ if __name__ == "__main__":
           'remarks': 'Step 7 failed'
       },
       {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Passed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
+          'test': '#1',
+          'category': 'Sidebar',
+          'description': 'Navigation',
+          'steps': steps,
+          'expected_results': 'User is routed to correct route for each element on the sidebar',
+          'buyer_status': 'Failed',
+          'admin_status': 'Failed',
+          'agent_status': 'Failed',
+          'individual_status': 'Failed',
+          'remarks': 'Step 7 failed'
+      },      {
           'test': '#1',
           'category': 'Sidebar',
           'description': 'Navigation',
