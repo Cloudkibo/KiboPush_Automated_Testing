@@ -345,10 +345,23 @@ def logout():
 
 def sidebar_hamburger():
     try:
+        collapsed = driver.find_element_by_class_name('m-aside-left--minimize')
+        collapsed = True
+    except Exception, e:
+        collapsed = False
+
+    try:
         sidebar_hamburger = driver.find_element_by_id('m_aside_left_minimize_toggle')
         sidebar_hamburger.click()
         wait()
-        collapsed = driver.find_element_by_class_name('m-brand__toggler--active')
+        if collapsed:
+            try:
+                driver.find_element_by_class_name('m-aside-left--minimize')
+            except Exception, e:
+                return "Success"
+        else:
+            driver.find_element_by_class_name('m-aside-left--minimize')
+            return "Success"    
     except Exception, e:
         return "Error: " + str(e)
     return "Success"
