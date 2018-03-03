@@ -1,9 +1,27 @@
 import csv
+import gspread
+from oauth2client.service_account import ServiceAccountCredentials
+test_plan = 'test_plan.csv'
 
-test_plan = 'test_plan_sample.csv'
+def get_csv_online():
+    """Uses Gspread API to get latest sheet"""
+    test_plan_url = 'https://docs.google.com/spreadsheets/d/1lJ-dZOSxjuLS7MJJBFrWcZkkjVvpIGWV3MwWss0UT5E/edit#gid=738044569'
+
+    credentials = ServiceAccountCredentials.from_json_keyfile_name(
+                    '../.env/Automated-Testing-0784bdff48f1.json',
+                    ['https://spreadsheets.google.com/feeds'])
+    client = gspread.authorize(credentials)
+
+    sheet = client.open_by_url(test_plan_url)
+    worksheet = sheet.get_worksheet(2)
+    exported_csv = worksheet.export(format='csv')
+    f = open('../'+test_plan, 'wb')
+    f.write(exported_csv)
+    f.close()
+
+
 
 def get_rows(row_number):
-
     with open('../'+test_plan, 'rb') as f:
         reader = csv.reader(f)
         category = []
@@ -22,6 +40,12 @@ def get_rows(row_number):
     return category, description, steps, expected_result
 
 def get_test():
+    try:
+        get_csv_online()
+        print('Fetched Latest CSV')
+    except:
+        print('Could not fetch latest CSV')
+        
     print('======== READING TEST PLAN ========\n')
     test_steps = []
     expected_results = []
