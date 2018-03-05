@@ -2,7 +2,7 @@ import pdfkit
 import os
 import time
 from reader import get_rows
-
+from mapper import user_category
 
 def generate_report(results, summary, file_name='report'):
   options = {
