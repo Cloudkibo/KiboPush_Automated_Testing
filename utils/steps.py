@@ -129,7 +129,7 @@ def verify_broadcast_templates_table():
 
 def close_help_popup():
     try:
-        driver.switch_to.frame(driver.find_element_by_xpath('.//iframe[@title="fb:customerchat Facebook Social Plugin"]'))
+        driver.switch_to.frame(driver.find_element_by_xpath('//iframe[contains(@src, "https://www.facebook.com/v2.12/plugins/customerchat")]'))
         close_button = driver.find_element_by_class_name('closeButtonContainer')
         close_button.click()
         wait()
@@ -220,7 +220,8 @@ def send_broadcast_templates():
             wait()
             click_on('send')
             if verify_alert() == "Success":
-                click_on('back')
+                driver.execute_script("window.history.go(-1)")
+                wait()
             else:
                 return "Error: broadcast didn't send"
     except Exception, e:
