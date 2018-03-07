@@ -15,14 +15,14 @@ def get_csv_online():
     sheet = client.open_by_url(test_plan_url)
     worksheet = sheet.get_worksheet(2)
     exported_csv = worksheet.export(format='csv')
-    f = open('../'+test_plan, 'wb')
+    f = open('../Test_Plan/'+test_plan, 'wb')
     f.write(exported_csv)
     f.close()
 
 
 
 def get_rows(row_number):
-    with open('../'+test_plan, 'rb') as f:
+    with open('../Test_Plan/'+test_plan, 'rb') as f:
         reader = csv.reader(f)
         category = []
         description = []
@@ -51,7 +51,7 @@ def get_test():
     expected_results = []
     test_all = []
     row_number = []
-    with open('../'+test_plan, 'rb') as f:
+    with open('../Test_Plan/'+test_plan, 'rb') as f:
         reader = csv.reader(f)
         for index, row in enumerate(reader):
 

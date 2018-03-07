@@ -31,23 +31,22 @@ SIDEBAR,,,,,,,,,,,,,,,
 10. go to Auto Posting
 11. go to Persistent Menu
 12. go to Manage Pages
-13. go to Manage Subscriptions
-16. go to Subscribe to Messenger
+13. go to Subscribers
 17. go to Invite using phone number
 18. go to Settings
-19. go to User Guide",User is routed to correct route for each element on the sidebar,All,Yes,High,Passed,Passed,NA,Passed,Need to make separate sidebar test for each account type,,11 Feb 2018,Automated
+19. go to User Guide",User is routed to correct route for each element on the sidebar,All,Yes,High,Passed,Passed,NA,Passed,Need to make separate sidebar test for each account type,,7 March 2018,Automated
 9,SIDEBAR,Collapsing and Expanding,"1. Login.
 2. Collapse sidebar
-3. Expand sidebar",The sidbar collapse and expand as expected,All,Yes,High,Failed,Failed,Failed,Failed,Only works on the dashboard after immediately logging in or refreshing the page,#1070,11 Feb 2018,Automated
+3. Expand sidebar",The sidbar collapse and expand as expected,All,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 10,SIDEBAR,Icons,"1. Login
 2. Verify Icons of each Sidebar Item",Icons should be unique,All,No,Medium,Passed,Passed,Passed,Passed,,, ,Baqar
 NAVBAR,,,,,,,,,,,,,,,
 11,NAVBAR,Logout,"1. Login
-",User should log out,All,Yes,High,Passed,Passed,Passed,Passed,,, ,Baqar
+",User should log out,All,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
  PAGES,,,,,,,,,,,,,,,
 12,Facebook Pages,Display list of Facebook pages,"1- Login 
 2- Go to Manage Pages
-",Display list of Facebook pages,New,Yes,High,Passed,Passed,NA,Passed,,,11 Feb 2018,Automated
+",Display list of Facebook pages,New,Yes,High,Passed,Passed,NA,Passed,,,7 Mar 2018,Automated
 13,Facebook Pages,Updating List of Facebook Pages,"1. Login
 2. Check the pages you can add.
 3. Page on Facebook
@@ -57,12 +56,12 @@ NAVBAR,,,,,,,,,,,,,,,
 3. Click on Add Pages
 4. Click on Connect
 5- Click on Done
-",Successfully added a new Facebook page,All,No,High,Failed,Failed,NA,Passed,"Admin can't disconnect page that buyer has added, or vice versa",#1881,9 Feb 2018,Ahsan
+",Successfully added a new Facebook page,All,No,High,Failed,Failed,NA,Passed,Page scrolls up when we connect or disconnect,#1881,7 Mar 2018,Ahsan
 15,Facebook Pages,Delete Facebook Page,"1- Login 
 2- Go to Manage Pages
 3. Click on Add Pages
 4- Click on Disconnect
-5- Click on Done",The page is removed,All,No,High,Failed,Failed,NA,Passed,"Manage page shows inconsistent options for admin and user, depending on who have added the page",#1881,9 Feb 2018,Ahsan
+5- Click on Done",The page is removed,All,No,High,Failed,Failed,NA,Passed,Page scrolls up when we connect or disconnect,#1881,7 Mar 2018,Ahsan
  BROADCASTS,,,,,,,,,,,,,,,
 16,Broadcasts,Send a text message,"1. Login 
 2. Go to Broadcasts
@@ -72,7 +71,7 @@ NAVBAR,,,,,,,,,,,,,,,
 6. Click on Enter your text...
 7. Write ""This is sample broadcast""
 8. Click on Send
-9. Verify Alert",Text mesage should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,No Broadcast being sent for Agent,#1843,11 Feb 2018,Automated
+9. Verify Alert",Text mesage should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 17,Broadcasts,Sent Test Broadcast,"1. Login 
 2. Go to Broadcasts
 3. Click on Create New Broadcast
@@ -81,8 +80,7 @@ NAVBAR,,,,,,,,,,,,,,,
 6. Click on Enter your text...
 7. Write ""This is sample broadcast""
 8. Click on Send Test
-9. Verify Alert",Test Broadcast should be sent,Repeat,No,,Failed,Failed,Failed,Failed,"Test broadcast not working everytime
-",#1088,,
+9. Verify Alert",Test Broadcast should be sent,Repeat,No,,Passed,Passed,Passed,Passed,,,7 Mar 2018,Ahsan
 16,Broadcasts,Send a text message with button,"1. Login 
 2. Go to Broadcasts
 3. Click on Create New Broadcast
@@ -97,7 +95,7 @@ NAVBAR,,,,,,,,,,,,,,,
 12. Write www.google.com
 13 Click on Done
 14. Click on Send
-15. Verify Alert",Text mesage with button should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+15. Verify Alert",Text mesage with button should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 17,Broadcasts,Send a message with image attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -105,7 +103,7 @@ NAVBAR,,,,,,,,,,,,,,,
 5- Click on Image
 6. Upload Image
 7. Click on Send
-8. Verify Alert",Image should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+8. Verify Alert",Image should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 18,Broadcasts,Send a message with card attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -123,7 +121,7 @@ NAVBAR,,,,,,,,,,,,,,,
 15. Write www.google.com
 16. Click on Done
 11. Click on Send
-12. Verify Alert",Card should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+12. Verify Alert",Card should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 19,Broadcasts,Send a message with Gallery attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -153,7 +151,7 @@ NAVBAR,,,,,,,,,,,,,,,
 27. Write www.google.com
 28. Click on Done
 29. Click on Send
-30. Verify Alert",Gallery should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+30. Verify Alert",Gallery should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Automated test has to be fixed,#49,7 Mar 2018,Automated
 20,Broadcasts,Send a message with audio attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -161,7 +159,7 @@ NAVBAR,,,,,,,,,,,,,,,
 4- Click on Audio
 5. Upload Audio
 6. Click on Send
-7. Verify Alert",Audio should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+7. Verify Alert",Audio should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 21,Broadcasts,Send a message with video attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -169,7 +167,7 @@ NAVBAR,,,,,,,,,,,,,,,
 4- Click on Video
 5. Upload Video
 6. Click on Send
-7. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+7. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 22,Broadcasts,Send a message with File attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -177,7 +175,7 @@ NAVBAR,,,,,,,,,,,,,,,
 4- Click on File
 5. Upload file
 6. Click on Send
-7. Verify Alert",File should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+7. Verify Alert",File should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Passed,Failed,Issue with file upload functionality,#50,7 Mar 2018,Automated
 23,Broadcasts,Send a message with link attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -192,7 +190,7 @@ NAVBAR,,,,,,,,,,,,,,,
 12. Write www.google.com
 13. Click on Done
 14. Click on Send
-15. Verify Alert",Link should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+15. Verify Alert",Link should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Issue with automated testing. Need to verify this.,#46,7 Mar 2018,Automated
 24,Broadcasts,Send a mixed message,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -204,31 +202,31 @@ NAVBAR,,,,,,,,,,,,,,,
 8. Write This is sample broadcast
 9. Click on Send
 10. Verify Alert
-",Mixed message should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+",Mixed message should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Automated test Issue at file upload,#50,7 Mar 2018,Automated
 25,Broadcasts,Show list of Broadcasts,"1- Login
 2- Go to Broadcasts
-3. Verify Table",List of Broadcast should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+3. Verify Table",List of Broadcast should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 26,Broadcasts,Show list of Broadcast Templates,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4. Click on Use Template
-",List of Broadcast Templates should be shown,,Yes,,Passed,Passed,Passed,Passed,,,,
+",List of Broadcast Templates should be shown,,Yes,,Failed,Failed,Failed,Failed,"Automated Testing Issue, when clicking on ""Use Template""",#51,7 Mar 2018,Automated
 27,Broadcasts,Send Template Broadcast,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4. Click on Use Template
-5. Send all Broadcasts",All Template Broadcast would be sent,Repeat,Yes,,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
- MANAGE SUBSCRIBERS,,,,,,,,,,,,,,,
+5. Send all Broadcasts",All Template Broadcast would be sent,Repeat,Yes,,Failed,Failed,Failed,Failed,"Automated Testing Issue, when clicking on ""Use Template""",#51,7 Mar 2018,Automated
+SUBSCRIBERS,,,,,,,,,,,,,,,
 28,Subscribers,Subscribers List,"1- Login 
-2- Go to Manage Subscriptions
+2- Go to Subscribers
 ","- Display list of subscribers
-- Filter and Search work",Repeat,Yes,High,Failed,Failed,Failed,Failed,Subscribers showing incorrectly,#2066,2 Mar 2018,Automated
+- Filter and Search work",Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 29,Subscribers,Invite Subscribers,"1- Login 
-2- Go to Manage Subscriptions
+2- Go to Subscribers
 3- Click on Invite Subscribers
 4. Click on Copy Link
 5. Verify Alert","- The url of selected page is displayed on text box
-- Alert is generated on Copying URL",All,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+- Alert is generated on Copying URL",All,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 SURVEYS,,,,,,,,,,,,,,,
 30,Surveys,Create survey,"1- Login 
 2-  Go to Surveys
@@ -248,34 +246,34 @@ SURVEYS,,,,,,,,,,,,,,,
 16. Click on choice 3
 17- Write third
 18. Click on Create Survey
-19. Click on Send",Survey should be created and sent,Repeat,Yes,High,NA,NA,NA,NA,wrong test steps,,,
+19. Click on Send",Survey should be created and sent,Repeat,Yes,High,Failed,Failed,Failed,Failed,No placeholder text,#2141,7 Mar 2018,Automated
 31,Surveys,Survey List,"1- Login
-2- Go to Surveys",Survey list should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+2- Go to Surveys",Survey list should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 32,Surveys,Send Survey,"1. Login
 2. Go to Surveys
 3. Click on Send
 
-",Survey should be sent to subscribers in messanger,Repeat,Yes,High,Passed,Passed,Failed,Passed,Survey not being sent for Admin and Agent,#1843,11 Feb 2018,Automated
+",Survey should be sent to subscribers in messanger,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 33,Surveys,View Selected Survey,"1- Login
 2- Go to Surveys
-3- Click on View",Selected survey info should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,12 Feb 2018,Automated
+3- Click on View",Selected survey info should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 34,Surveys,View Survey Report,"1- Login
 2- Go to Surveys
-3- Click on Report",Selected survey report should be shown. If the question was multichoice question then chart should be shown and if the question was of type text then list of responses should be shown and when we hover over the response it should display the FB customer info.,Repeat,No,High,Passed,Passed,Passed,Passed,,,,
+3- Click on Report",Selected survey report should be shown. If the question was multichoice question then chart should be shown and if the question was of type text then list of responses should be shown and when we hover over the response it should display the FB customer info.,Repeat,No,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Ahsan
 35,Surveys,Use template survey,"1- Login 
 2-  Go to Surveys
 3- Click on Create survey
 4. Click on Use template
 5. Click on Edit Template 
-6. Click on Create Survey",Survey should be created via Template,Repeat,Yes,High,Passed,Passed,Passed,Passed,,, ,Baqar
+6. Click on Create Survey",Survey should be created via Template,Repeat,Yes,High,Failed,Failed,Failed,Failed,"Automated Test Script cannot find ""Create Survey"" after Edit Template",#52,7 Mar 2018,Automated
 36,Surveys,View template survey,"1- Login 
 2-  Go to Surveys
 3- Click on Create survey
 4. Click on Use template
-5. Click on View Template ",Selected template survey info should be displayed,Repeat,Yes,High,Passed,Passed,Passed,Passed,,, ,Baqar
+5. Click on View Template ",Selected template survey info should be displayed,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 WORKFLOWS,,,,,,,,,,,,,,,
 37,Workflows,Workflows List,"1- Login
-2- Go to Workflows",List of workflows should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,9 Feb 2018,Automated
+2- Go to Workflows",List of workflows should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 38,Workflows,Create Workflow,"1- Login
 2- Go to Workflows
 3- Click on Create Workflow
@@ -286,7 +284,7 @@ WORKFLOWS,,,,,,,,,,,,,,,
 8. Write Yes We are available 24/7
 9. Click on Create
 10. Verify Alert
-",Workflow should be created,Repeat,No,High,Passed,Passed,Passed,Passed,,,9 Feb 2018,Automated
+",Workflow should be created,Repeat,No,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Ahsan
 POLLS,,,,,,,,,,,,,,,
 39,Polls,Create poll message,"1- Login 
 2- Go to Polls
@@ -301,29 +299,29 @@ POLLS,,,,,,,,,,,,,,,
 7. Click on Response 3
 8. Write C
 9. Click on Create Poll
-10. Click on Send",Poll message successfully created,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+10. Click on Send",Poll message successfully created,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 40,Polls,Send Polls,"1. Login
 2. Go to Polls
 3. Click on Send
 4. Verify Alert
 
-",Poll message successfully sent,Repeat,Yes,High,Passed,Passed,Failed,Passed,Poll not being sent for Admin or Agent,#1843,11 Feb 2018,Automated
+",Poll message successfully sent,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 41,Polls,Poll list,"1- Login
-2- Go to Polls",List of polls should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+2- Go to Polls",List of polls should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 42,Polls,Poll Result,"1- Login
 2- Go to Polls
-3- Click on Report",Selected poll result with nice charts should be shown.,Repeat,No,High,Passed,Passed,Passed,Passed,,,9 Feb 2018,Automated
+3- Click on Report",Selected poll result with nice charts should be shown.,Repeat,No,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 43,Polls,Use template poll,"1- Login 
 2- Go to Polls
 3- Click on Create Poll
 4- Click on Use Template
 5. Click on Edit Template
-6. Click on Save",Poll message successfully created,Repeat,Yes,High,NA,NA,NA,NA,Wrong Test steps,, ,Baqar
+6. Click on Save",Poll message successfully created,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Ahsan
 44,Polls,View template poll,"1- Login 
 2- Go to Polls
 3- Click on Create Poll
 4- Click on Use template
-5. Click on View Template",Selected poll template should be displayed,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+5. Click on View Template",Selected poll template should be displayed,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 ANALYTICS,,,,,,,,,,,,,,,
 45,Analytics,Display Analytics/ Statistics,"1- Login 
 2- Go to Analytics
@@ -367,7 +365,7 @@ Links don’t send properly",#1654, ,Baqar
 MAIN MENU,,,,,,,,,,,,,,,
 54,Main Menu,Add Menu Items,"1. Login
 2. Click on Main Menu
-3. Click on the plus sign to add a menu item",The new menu option should be added,,No,High,NA,NA,NA,Passed,,, ,Baqar
+3. Click on the plus sign to add a menu item",The new menu option should be added,,No,High,Failed,Failed,Failed,Failed,Alignment issue on button,#2083 , ,Baqar
 55,Main Menu,Add Web Url,"1. Login
 2. Click on Main Menu 
 3. Click on a input field i.e. a menu item 
@@ -406,25 +404,25 @@ MAIN MENU,,,,,,,,,,,,,,,
 AUTOPOSTING,,,,,,,,,,,,,,,
 62,Auto-Posting,Adding Twitter Channel,"1. Login
 2. Go to Auto posting
-3. Click on Add Channel
+3. Click on Add Feed
 4. Click on Twitter
 5. Click on Enter Twitter handle
 6. Write abc
-7. Click on Add Twitter Account",The Twitter Accounts gets added,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+7. Click on Add Twitter Account",The Twitter Accounts gets added,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 63,Auto-Posting,Adding Faceook Channel,"1. Login
 2. Go to Auto posting
-3. Click on Add Channel
+3. Click on Add Feed
 4. Click on Facebook
 5. Click on Enter FB url
-6. Write NYTimes
-7. Click on Add Facebook Account",The Facebook Accounts gets added,Repeat,Yes,High,Passed,Failed,Failed,Passed,Anything other than plain text doesn’t send messenger updates (including links),#1490, ,Baqar
+6. Write https://www.facebook.com/HumansOfLateCapitalism/
+7. Click on Add Facebook Account",The Facebook Accounts gets added,Repeat,Yes,High,NA,NA,NA,NA,"The test needs to be re-done with FB URL, not page name",,7 Mar 2018,Automated
 64,Auto-Posting,Adding Youtube Channel,"1. Login
 2. Go to Auto posting
-3. click on Add Channel
-4. Add a Youtube Channel",The Youtube Accounts gets added,Repeat,No,High,NA,NA,NA,NA,Not implementing AutoPosting in Youtube right now,, ,Baqar
+3. click on Add Feed
+4. Add a Youtube Channel",The Youtube Accounts gets added,Repeat,No,High,NA,NA,NA,NA,Not implementing AutoPosting in Youtube right now,, ,
 65,Auto-Posting,Removing a Channel,"1. Login
 2. Go to Auto posting
-3. Remove Channel",The Channel get removed from the list,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+3. Remove Channel",The Channel get removed from the list,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 66,Auto-Posting,AutoPosting to channel,"1. Login
 2. Go to Auto posting
 3. Channel Setting
@@ -432,26 +430,26 @@ AUTOPOSTING,,,,,,,,,,,,,,,
 5. Write female
 6. Press Enter
 7. Click on Save Changes
-8. Verify Alert",Channel Settings are accessible and it save changes.,Repeat,Yes,High,Passed,Passed,Passed,Passed,,, ,Baqar
+8. Verify Alert",Channel Settings are accessible and it save changes.,Repeat,Yes,High,Passed,Passed,Passed,Passed,Need to reorder tests. Not a bug,,7 Mar 2018,Baqar
 OPERATIONAL DASHBOARD,,,,,,,,,,,,,,,
 67,Operational Dashboard,Downloading of CSV,"1. Login
 2. Go to Operational Dashboard
-3. Download user csv",The CSV of all clients should get downloaded,,Yes,High,NA,NA,NA,Passed,,,11 Feb 2018,Automated
+3. Download user csv",The CSV of all clients should get downloaded,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 68,Operational Dashboard,Dashboard Display,"1. Login
 2. Go to Operational Dashboard
 3. Verify the statistics shown on Dashboard",The dashboard should reflect accurate statistics,,No,High,NA,NA,NA,NA,,,,
 69,Operational Dashboard,Users Search,"1. Login
 2. Go to Operational Dashboard
 3. Click on Search Users
-4. Write xxxxx",The dashboard should narrow down the users based on target string,,Yes,High,NA,NA,NA,Passed,,,11 Feb 2018,Automated
+4. Write xxxxx",The dashboard should narrow down the users based on target string,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 70,Operational Dashboard,User See More,"1. Login
 2. Go to Operational Dashboard
 3. Click on Search Users
-4. Write xxxxx",It should route to the page having details of the said user,,Yes,High,NA,NA,NA,Passed,,,11 Feb 2018,Automated
+4. Write xxxxx",It should route to the page having details of the said user,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 71,Operational Dashboard,User Page Subscriber,"1. Login
 2. Go to Operational Dashboard
 3. In User section, click on see more
-4. In User detail, click on see subscribers",It should route towards the page having list of subscribers for the said page,,Yes,High,NA,NA,NA,Passed,,,11 Feb 2018,Automated
+4. In User detail, click on see subscribers",It should route towards the page having list of subscribers for the said page,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 72,Operational Dashboard,Search filter,"1. Login
 2. Go to Operational Dashboard
 3. In User section, click on see more
@@ -460,9 +458,9 @@ OPERATIONAL DASHBOARD,,,,,,,,,,,,,,,
 6. Click on Search by title
 7. Write xxxx
 8. Click on Search by description
-9. Write xxxx",The said list should narrow down based on the filter search string,,Yes,,NA,NA,NA,Passed,,,11 Feb 2018,Automated
+9. Write xxxx",The said list should narrow down based on the filter search string,,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 TEMPLATES,,,,,,,,,,,,,,,
-73,Operational Dashboard,Create Template survey,"1. Login
+73,Templates,Create Template survey,"1. Login
 2. Go to Templates
 4. Click on Create Survey
 5. Click on Add Questions
@@ -480,8 +478,8 @@ TEMPLATES,,,,,,,,,,,,,,,
 17- Write second
 18. Click on choice 3
 19- Write third
-20. Click on Create Survey",The survey should be created,,Not Verified,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-74,Operational Dashboard,Edit template survey,"1- Login 
+20. Click on Create Survey",The survey should be created,,Not Verified,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+74,Templates,Edit template survey,"1- Login 
 2-  Go to templates
 4. Click on Edit in the surveys list
 5. Enter form title
@@ -491,15 +489,15 @@ TEMPLATES,,,,,,,,,,,,,,,
 9. Enter choice 1
 10. Enter choice 2
 11. Enter choice 3
-12. Click on Save",Survey should be edited and a success message should be displayed,Repeat,No,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-75,Operational Dashboard,Delete template survey,"1- Login 
+12. Click on Save",Survey should be edited and a success message should be displayed,Repeat,No,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+75,Templates,Delete template survey,"1- Login 
 2-  Go to templates
 4. Click on delete in the survey list
-5. Click on delete",The selected survey should be deleted,Repeat,Yes,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-76,Operational Dashboard,View template survey,"1- Login 
+5. Click on delete",The selected survey should be deleted,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+76,Templates,View template survey,"1- Login 
 2-  Go to templates
-4. Click on view in the surveys list",The info of the selected survey should be displayed,Repeat,Yes,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-77,Operational Dashboard,Create Template poll,"1. Login
+4. Click on view in the surveys list",The info of the selected survey should be displayed,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+77,Templates,Create Template poll,"1. Login
 2. Go to templates
 4. Click on Create Poll
 5. Click on Enter form title here
@@ -516,8 +514,8 @@ TEMPLATES,,,,,,,,,,,,,,,
 16. Write B
 17. Click on Response 3
 18. Write C
-19. Click on Create Poll",The poll should be created,,,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-78,Operational Dashboard,Edit template poll,"1- Login 
+19. Click on Create Poll",The poll should be created,,,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+78,Templates,Edit template poll,"1- Login 
 2-  Go to templates
 4. Click on Edit in the polls list
 5. Enter form title
@@ -532,41 +530,41 @@ TEMPLATES,,,,,,,,,,,,,,,
 14. Enter choice 1
 15. Enter choice 2
 16. Enter choice 3
-17. Click on Save",Poll should be edited and a success message should be displayed,Repeat,Yes,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-79,Operational Dashboard,Delete template poll,"1- Login 
+17. Click on Save",Poll should be edited and a success message should be displayed,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+79,Templates,Delete template poll,"1- Login 
 2-  Go to templates
 4. Click on delete in the polls list
-5. Click on delete",The selected poll should be deleted,Repeat,Yes,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-80,Operational Dashboard,View template poll,"1- Login 
+5. Click on delete",The selected poll should be deleted,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+80,Templates,View template poll,"1- Login 
 2-  Go to templates
-4. Click on view in the polls list",The info of the selected poll should be displayed,Repeat,Yes,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-81,Operational Dashboard,Create Template broadcast with a text message,"1. Login 
+4. Click on view in the polls list",The info of the selected poll should be displayed,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+81,Templates,Create Template broadcast with a text message,"1. Login 
 2. Go to Templates
 3. Click on Create Broadcast
 5. Click on Text
 6. Click on Enter your text...
 7. Write ""This is sample broadcast""
-8. Click on Create",The broadcast should be created,Repeat,Yes,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-82,Operational Dashboard,Create Template broadcast with image attached,"1- Login 
+8. Click on Create",The broadcast should be created,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+82,Templates,Create Template broadcast with image attached,"1- Login 
 2- Go to Templates
 3- Click on Create Broadcast
 4- Click on Image
 5. Upload Image
 6. Click on Create
-",The broadcast should be created,Repeat,Yes,,NA,NA,NA,Failed,The test steps have been changed,,11 Feb 2018,Automated
-SUBSCRIBE TO MESSENGER,,,,,,,,,,,,,,,
-83,Subscribe to Messenger,Get HTML code,"1. Login
-2. Go to Subscribe to Messenger
-3. Choose Choose Page
-4. Choose Choose Color
+",The broadcast should be created,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
+SETTINGS,,,,,,,,,,,,,,,
+83,Settings,Get HTML code,"1. Login
+2. Go to Settings
+3. Click on HTML Widget
+4. Choose Choose Page
 5. Click on Send on Messenger
-6. Write My button",Button HTML should be generated,Repeat,Yes,Medium,Passed,Passed,Passed,Passed,,,11-Feb-2018,Automated
+6. Write My button",Button HTML should be generated,Repeat,Yes,Medium,Passed,Passed,Passed,Passed,,,7 Mar 2018,Ahsan
 MESSENGER LINK,,,,,,,,,,,,,,,
 84,Share,Copy the Page Messanger link,"1. Login
-2. Go to Manage Subscriptions
+2. Go to Subscribers
 3. Click on Invite Subscribers
 3. Choose Change Page
-4. Click on Copy",Messenger link should be copied,Repeat,Yes,Medium,Passed,Passed,Passed,Passed,,,11 Feb 2018,Automated
+4. Click on Copy",Messenger link should be copied,Repeat,Yes,Medium,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 MEMBERSHIP,,,,,,,,,,,,,,,
 85,Membership,Invite agent to join KiboPush.,"1. Login
 2. Click on Invite Members

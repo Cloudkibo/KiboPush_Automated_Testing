@@ -138,7 +138,14 @@ def close_help_popup():
         return "Error: " + str(e)
     return "Success"
 
-def login(account_type='agent'):
+def screenshot(filename):
+    try:
+        driver.save_screenshot('../Screenshots/'+filename+'.png')
+    except:
+        return "Error: " + str(e)
+    return "Screenshot succesfully saved"
+
+def login(account_type='buyer'):
     try:
         click_on('login')
         team_account = account_type == 'agent' or account_type == 'admin' or account_type == 'buyer'
@@ -432,14 +439,14 @@ def upload(type, wait_time=10, scope=driver):
     try:
         attachment = scope.find_element_by_xpath('.//input[@type="file"]')
         if type == 'image':
-            attachment.send_keys(os.getcwd()+"/sample.jpg")
+            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.jpg")
         elif type == 'audio':
-            attachment.send_keys(os.getcwd()+"/sample.mp3")
+            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.mp3")
         elif type == 'video':
-            attachment.send_keys(os.getcwd()+"/sample.mp4")
+            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.mp4")
             wait(wait_time)
         elif type == 'file':
-            attachment.send_keys(os.getcwd()+"/sample.pdf")
+            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.pdf")
         wait(wait_time)
     except Exception, e:
          return "Error: " + str(e)

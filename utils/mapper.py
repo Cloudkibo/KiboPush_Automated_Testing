@@ -55,7 +55,7 @@ test_status = {}
 
 user_category = ['agent', 'admin', 'buyer', 'individual']
 # user_category = ['buyer']
-clear_logs()
+
 
 def mapping():
     failed_action = []
