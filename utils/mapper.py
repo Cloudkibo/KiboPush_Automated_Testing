@@ -1,7 +1,9 @@
+# Importing Reporter module after variables, to circumvent circular dependency
+# from reporter import *
+
 from parser import parse_language
 from steps import *
 from logger import *
-from reporter import *
 
 # - indicates parameter
 
@@ -55,6 +57,9 @@ test_status = {}
 
 user_category = ['agent', 'admin', 'buyer', 'individual']
 # user_category = ['buyer']
+
+# importing here to avoid circular dependency
+from reporter import *
 
 
 def mapping():
