@@ -1,9 +1,8 @@
-# Importing Reporter module after variables, to circumvent circular dependency
-# from reporter import *
-
+from reporter import *
 from parser import parse_language
 from steps import *
 from logger import *
+from config import user_category
 
 # - indicates parameter
 
@@ -35,54 +34,54 @@ action_step = {
     "gallery_upload-": gallery_upload,
     "send_broadcast_templates": send_broadcast_templates,
     "clear_field": clear_field,
-    "add_menu-" : add_menu,
-    "close_menu-" : add_menu
+    "add_menu-": add_menu,
+    "close_menu-": add_menu
 }
 
 
 category_count = {
-    "buyer" : [0,0],
-    "admin" : [0,0],
-    "agent" : [0,0],
-    "individual" : [0,0]
+    "buyer": [0, 0],
+    "admin": [0, 0],
+    "agent": [0, 0],
+    "individual": [0, 0]
 }
 # "category" : [passed, failed]
 
 test_status = {}
-# Would be filled like this: 
+# Would be filled like this:
 # {
 # 1: ['Passed','Passed','Failed','Passed', Remarks]
 # 3: ['Passed','Failed','Failed','Passed', Agent: Failed at Step 2, Admin: Failed at step 4]
 # }
 
-user_category = ['agent', 'admin', 'buyer', 'individual']
-# user_category = ['buyer']
-
-# importing here to avoid circular dependency
-from reporter import *
-
 
 def mapping():
     failed_action = []
-    failed_row= set()
+    failed_row = set()
     passed = 0
     failed = 0
     close_popup = False
     did_login = False
     test_actions, expected_result, row_number = parse_language()
+    # Opening KiboPush at the start
+    open_kibopush()
+
     log('======== STARTING TEST ========\n')
     for index, test_action in enumerate(test_actions):
         test_status[row_number[index]] = []
         temp_remarks = ''
         for category in user_category:
             log('\n')
-            log('======== Category : %s ========'% category)
+            log('======== Category : %s ========' % category)
             last_action = 'Success'
-            log('======== TEST: %s ========' % str(index+1))
+            log('======== TEST: %s ========' % str(index + 1))
             log("Expected Result: %s" % expected_result[index])
             log('-------------------------------')
             for action in test_action:
                 if last_action != "Success":
+                    screenshot_name = "%s_%s_%s" % (str(index), str(
+                        category), str(action_step[function])[10:-19])
+                    screenshot(screenshot_name)
                     break
                 function = action
                 if '-' in action:
@@ -102,7 +101,7 @@ def mapping():
                         log('Function called: login')
                         last_action = action_step[function](category)
                         log('Status: %s' % last_action)
-                        continue;
+                        continue
                     log('Function called: %s' % action_step[function])
                     last_action = action_step[function]()
 
@@ -118,22 +117,22 @@ def mapping():
             if last_action == 'Success':
                 test_status[row_number[index]].append('Passed')
                 passed = passed + 1
-                category_count[category][0]  = category_count[category][0] + 1
+                category_count[category][0] = category_count[category][0] + 1
                 log("----------------")
                 log("TEST SUCCESSFUL")
                 log("----------------")
             else:
                 test_status[row_number[index]].append('Failed')
-                temp_remarks = temp_remarks + str(category) + ": "+str(action)+'\n'
+                temp_remarks = temp_remarks + \
+                    str(category) + ": " + str(action) + '\n'
                 failed_row.add(row_number[index])
                 failed = failed + 1
-                category_count[category][1]  = category_count[category][1] + 1
+                category_count[category][1] = category_count[category][1] + 1
                 failed_action.append(action)
                 log("----------------")
                 log("TEST FAILED")
                 log("----------------")
         test_status[row_number[index]].append(temp_remarks)
-
 
     log("=================")
     log("SUMMARY")
@@ -155,13 +154,19 @@ def mapping():
     failed_test = list(failed_row)
 
     summary = {
-    'tests_passed': passed,
-    'tests_failed': failed,
-    'failed_tests': failed_test
+        'tests_passed': passed,
+        'tests_failed': failed,
+        'failed_tests': failed_test
     }
     close_browser()
     return test_status, summary
 
+
+def map_and_report():
+    test_status, summary = mapping()
+    gather_report(test_status, summary)
+
+
 if __name__ == "__main__":
     test_status, summary = mapping()
-    gather_report(test_status,summary)
+    gather_report(test_status, summary)

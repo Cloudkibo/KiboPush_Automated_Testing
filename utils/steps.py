@@ -10,22 +10,22 @@ prefs = {"profile.default_content_setting_values.notifications" : 2}
 chrome_options.add_experimental_option("prefs",prefs)
 
 if platform.system() == 'Darwin':
-    driver = webdriver.Chrome('../driver/macos/chromedriver', chrome_options=chrome_options)
+    driver = webdriver.Chrome('driver/macos/chromedriver', chrome_options=chrome_options)
 elif platform.system() == 'Linux':
-    driver = webdriver.Chrome('../driver/linux/chromedriver', chrome_options=chrome_options)
+    driver = webdriver.Chrome('driver/linux/chromedriver', chrome_options=chrome_options)
 elif platform.system() == 'Windows':
-    driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
+    driver = webdriver.Chrome('driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
 WAIT_TIME = 1# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
 def open_new_window():
     if platform.system() == 'Darwin':
-        new_driver = webdriver.Chrome('../driver/macos/chromedriver', chrome_options=chrome_options)
+        new_driver = webdriver.Chrome('driver/macos/chromedriver', chrome_options=chrome_options)
     elif platform.system() == 'Linux':
-        new_driver = webdriver.Chrome('../driver/linux/chromedriver', chrome_options=chrome_options)
+        new_driver = webdriver.Chrome('driver/linux/chromedriver', chrome_options=chrome_options)
     elif platform.system() == 'Windows':
-        new_driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
+        new_driver = webdriver.Chrome('driver/windows/chromedriver.exe', chrome_options=chrome_options)
     return new_driver
 
 def wait(wait_time=WAIT_TIME):
@@ -140,7 +140,7 @@ def close_help_popup():
 
 def screenshot(filename):
     try:
-        driver.save_screenshot('../Screenshots/'+filename+'.png')
+        driver.save_screenshot('Screenshots/'+filename+'.png')
     except:
         return "Error: " + str(e)
     return "Screenshot succesfully saved"
@@ -439,14 +439,14 @@ def upload(type, wait_time=10, scope=driver):
     try:
         attachment = scope.find_element_by_xpath('.//input[@type="file"]')
         if type == 'image':
-            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.jpg")
+            attachment.send_keys(os.getcwd()+"/Uploads/sample.jpg")
         elif type == 'audio':
-            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.mp3")
+            attachment.send_keys(os.getcwd()+"/Uploads/sample.mp3")
         elif type == 'video':
-            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.mp4")
+            attachment.send_keys(os.getcwd()+"/Uploads/sample.mp4")
             wait(wait_time)
         elif type == 'file':
-            attachment.send_keys(os.path.abspath('..')+"/Uploads/sample.pdf")
+            attachment.send_keys(os.getcwd()+"/Uploads/sample.pdf")
         wait(wait_time)
     except Exception, e:
          return "Error: " + str(e)
