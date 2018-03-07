@@ -132,8 +132,8 @@ def gather_report(test_status, summary):
     temp['remarks'] = v[-1]
     report_data.append(temp)
 
-    print("REPORT DATA:")
-    print(report_data)
+    # print("REPORT DATA:")
+    # print(report_data)
 
 
   generate_report(report_data, summary )
