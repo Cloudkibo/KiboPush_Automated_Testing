@@ -45,13 +45,16 @@ category_count = {
     "agent": [0, 0],
     "individual": [0, 0]
 }
+# Would be filled like this:
 # "category" : [passed, failed]
+# Example:
+# "admin" : [24 , 4]
 
 test_status = {}
 # Would be filled like this:
 # {
 # 1: ['Passed','Passed','Failed','Passed', Remarks]
-# 3: ['Passed','Failed','Failed','Passed', Agent: Failed at Step 2, Admin: Failed at step 4]
+# 3: ['Passed','Failed','Failed','Passed', Agent: Failed at Step 2 Admin: Failed at step 4]
 # }
 
 
@@ -79,7 +82,7 @@ def mapping():
             log('-------------------------------')
             for action in test_action:
                 if last_action != "Success":
-                    screenshot_name = "%s_%s_%s" % (str(index), str(
+                    screenshot_name = "%s_%s_%s" % (str(row_number[index]), str(
                         category), str(action_step[function])[10:-19])
                     screenshot(screenshot_name)
                     break
@@ -149,7 +152,7 @@ def mapping():
         log(action)
 
     print(test_status)
-    print(category_count)
+    # print(category_count)
 
     failed_test = list(failed_row)
 
