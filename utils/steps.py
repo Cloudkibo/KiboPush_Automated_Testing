@@ -5,30 +5,17 @@ import time
 from selenium.webdriver.common.keys import Keys
 import os
 
-try:
-    chrome_options = webdriver.ChromeOptions()
-    prefs = {"profile.default_content_setting_values.notifications" : 2}
-    chrome_options.add_experimental_option("prefs",prefs)
+chrome_options = webdriver.ChromeOptions()
+prefs = {"profile.default_content_setting_values.notifications" : 2}
+chrome_options.add_experimental_option("prefs",prefs)
 
 
-    if platform.system() == 'Darwin':
-        driver = webdriver.Chrome('driver/macos/chromedriver', chrome_options=chrome_options)
-    elif platform.system() == 'Linux':
-        driver = webdriver.Chrome('driver/linux/chromedriver', chrome_options=chrome_options)
-    elif platform.system() == 'Windows':
-        driver = webdriver.Chrome('driver/windows/chromedriver.exe', chrome_options=chrome_options)
-except:
-    chrome_options = webdriver.ChromeOptions()
-    prefs = {"profile.default_content_setting_values.notifications" : 2}
-    chrome_options.add_experimental_option("prefs",prefs)
-
-
-    if platform.system() == 'Darwin':
-        driver = webdriver.Chrome('../driver/macos/chromedriver', chrome_options=chrome_options)
-    elif platform.system() == 'Linux':
-        driver = webdriver.Chrome('../driver/linux/chromedriver', chrome_options=chrome_options)
-    elif platform.system() == 'Windows':
-        driver = webdriver.Chrome('../driver/windows/chromedriver.exe', chrome_options=chrome_options)
+if platform.system() == 'Darwin':
+    driver = webdriver.Chrome('driver/macos/chromedriver', chrome_options=chrome_options)
+elif platform.system() == 'Linux':
+    driver = webdriver.Chrome('driver/linux/chromedriver', chrome_options=chrome_options)
+elif platform.system() == 'Windows':
+    driver = webdriver.Chrome('driver/windows/chromedriver.exe', chrome_options=chrome_options)
 
 WAIT_TIME = 1# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'

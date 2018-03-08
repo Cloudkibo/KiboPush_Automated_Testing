@@ -2,6 +2,11 @@ import utils.mapper
 import argparse
 import utils.config
 import utils.mapper
+from utils.steps import *
+
+def interact():
+	import code
+	code.InteractiveConsole(locals=globals()).interact()
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -18,7 +23,14 @@ if __name__ == "__main__":
     parser.add_argument("-u", "--user", type=str.lower, choices=utils.config.user_category,
                         nargs='+', help="Specifies whatuser to test on")
 
+    parser.add_argument("-d", "--debug", action="store_true",
+                        help="Runs the script in debug mode to try different functions")
+
     args = parser.parse_args()
+
+    if args.debug:
+    	interact()
+
     if args.failed == args.passed == False:
         utils.config.test_failed = True
         utils.config.test_passed = True
