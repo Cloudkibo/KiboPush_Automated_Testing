@@ -20,7 +20,7 @@ categories = [
 ]
 
 
-user_category = ['agent', 'admin', 'buyer', 'individual']
+user_category = ['buyer', 'admin', 'agent', 'individual']
 
 test_failed = True
 test_passed = True

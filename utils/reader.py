@@ -36,6 +36,7 @@ def get_rows(row_number):
         description = []
         steps = []
         expected_result = []
+        row_no = []
 
         for index, row in enumerate(reader):
             if index in row_number:
@@ -44,8 +45,9 @@ def get_rows(row_number):
                 description.append(row[2])
                 steps.append(row[3])
                 expected_result.append(row[4])
+                row_no.append(index)
 
-    return category, description, steps, expected_result
+    return row_no, category, description, steps, expected_result
 
 
 def get_test():

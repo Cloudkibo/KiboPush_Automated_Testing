@@ -116,15 +116,18 @@ def generate_report(results, summary, file_name='report'):
 
 def gather_report(test_status, summary):
   """Uses reader to get meta-data for report, and combines it with received test data, to generate report"""
-  category, description, steps, expected_result = get_rows(test_status.keys())
+  row_no, category, description, steps, expected_result = get_rows(test_status.keys())
+  print 'test_status.keys()', test_status.keys()
   report_data = []
+  print 'printing keys'
   for k, v in test_status.iteritems():
+    print k
     temp = {}
-    temp['test'] = k
-    temp['category'] = category.pop(0)
-    temp['description'] = description.pop(0)
-    temp['steps'] = steps.pop(0)
-    temp['expected_results'] = expected_result.pop(0)
+    temp['test'] = k+1
+    temp['category'] = category[(row_no.index(k))]
+    temp['description'] = description[(row_no.index(k))]
+    temp['steps'] = steps[(row_no.index(k))]
+    temp['expected_results'] = expected_result[(row_no.index(k))]
     temp['buyer_status'] = v[user_category.index('buyer')]
     temp['admin_status']= v[user_category.index('admin')]
     temp['agent_status']= v[user_category.index('agent')]
