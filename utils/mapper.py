@@ -148,8 +148,8 @@ def mapping():
     for action in failed_action:
         log(action)
 
-    print test_status
-    print category_count
+    print(test_status)
+    print(category_count)
 
     failed_test = list(failed_row)
 

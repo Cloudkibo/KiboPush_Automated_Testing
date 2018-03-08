@@ -1,0 +1,5 @@
+selenium==3.7.0
+gspread==0.6.2
+google_api_python_client==1.6.5
+pdfkit==0.6.1
+unicodecsv==0.14.1

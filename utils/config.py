@@ -26,7 +26,7 @@ test_failed = True
 test_passed = True
 
 def print_config():
-	print "categories %s" % categories
-	print "user category %s" % user_category
-	print "test_failed %s" % test_failed
-	print "test_passed %s" % test_passed
+	print("categories %s" % categories)
+	print("user category %s" % user_category)
+	print("test_failed %s" % test_failed)
+	print("test_passed %s" % test_passed)

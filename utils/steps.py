@@ -35,7 +35,7 @@ def open_kibopush():
     try:
         driver.get('https://staging.kibopush.com/')
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -59,7 +59,7 @@ def open_facebook(account_type='agent'):
         password.send_keys(pw)
         login.click()
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -74,7 +74,7 @@ def delete_poll_templates():
             click_on('delete', scope=popup)
             if verify_alert() != "Success":
                 return "Error: no delete alert"
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -88,7 +88,7 @@ def delete_survey_templates():
             click_on('delete', scope=popup)
             if verify_alert() != "Success":
                 return "Error: no delete alert"
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -102,7 +102,7 @@ def delete_broadcast_templates():
             click_on('delete', scope=popup)
             if verify_alert() != "Success":
                 return "Error: no delete alert"
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -110,21 +110,21 @@ def verify_poll_templates_table():
     try:
         poll_templates = driver.find_element_by_class_name('poll-templates')
         return verify_table(scope=poll_templates)
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
 
 def verify_survey_templates_table():
     try:
         survey_templates = driver.find_element_by_class_name('survey-templates')
         return verify_table(scope=survey_templates)
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
 
 def verify_broadcast_templates_table():
     try:
         broadcast_templates = driver.find_element_by_class_name('broadcast-templates')
         return verify_table(scope=broadcast_templates)
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
 
 def close_help_popup():
@@ -134,7 +134,7 @@ def close_help_popup():
         close_button.click()
         wait()
         driver.switch_to.default_content()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -183,7 +183,7 @@ def login(account_type='buyer'):
         wait(wait_time=5)
         if verify_failure() == "Success":
             return "Error Invalid Login"        
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -196,7 +196,7 @@ def close_menu(x):
         exes = driver.find_elements_by_class_name('fa-times')
         if (len(exes) >= num_of_menu_items):
             return "Error: menu didn't delete"
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -212,7 +212,7 @@ def add_menu(x):
         exes = driver.find_elements_by_class_name('fa-times')
         if (len(exes) <= num_of_menu_items):
             return "Error: menu didn't add"
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -231,7 +231,7 @@ def send_broadcast_templates():
                 wait()
             else:
                 return "Error: broadcast didn't send"
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -241,7 +241,7 @@ def press_tab(times_to_press=1):
             focused_element = driver.switch_to.active_element
             focused_element.send_keys(Keys.TAB)
             wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -261,7 +261,7 @@ def press_tab(times_to_press=1):
 #                 click_on('back')
 #             else:
 #                 return "Error: broadcast didn't send"
-#     except Exception, e:
+#     except Exception as e:
 #         return "Error: " + str(e)
 #     return "Success"
 
@@ -320,7 +320,7 @@ def click_on(name, scope=driver):
         if len(remaining_elements) == 0:
             wait()
             return "Error: no element with text '" + name +"' found"
-    except Exception, e:
+    except Exception as e:
         wait()
         return "Error: " + str(e)
     return "Error: no element with text '" + name +"' found"
@@ -330,7 +330,7 @@ def clear_field():
         focused_element = driver.switch_to.active_element
         focused_element.clear()
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -338,7 +338,7 @@ def click_on_broadcast_title():
     try:
         title = driver.find_element_by_id('convoTitle')
         title.click()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -347,7 +347,7 @@ def press_enter():
         focused_element = driver.switch_to.active_element
         focused_element.send_keys(Keys.ENTER)
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -358,7 +358,7 @@ def logout():
         wait()
         click_on('Logout')
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -367,7 +367,7 @@ def sidebar_hamburger():
     try:
         collapsed = driver.find_element_by_class_name('m-aside-left--minimize')
         collapsed = True
-    except Exception, e:
+    except Exception as e:
         collapsed = False
 
     try:
@@ -377,12 +377,12 @@ def sidebar_hamburger():
         if collapsed:
             try:
                 driver.find_element_by_class_name('m-aside-left--minimize')
-            except Exception, e:
+            except Exception as e:
                 return "Success"
         else:
             driver.find_element_by_class_name('m-aside-left--minimize')
             return "Success"    
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
         
@@ -397,7 +397,7 @@ def write(text):
         focused_element = driver.switch_to.active_element
         focused_element.send_keys(text)
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -410,7 +410,7 @@ def choose_select(select_label, select_item=None):
             select.click()
             click_on(select_item, scope=select)
             wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
@@ -421,7 +421,7 @@ def broadcast_upload(type, component_number=None):
             component_number = len(broadcast_components)-1
         component = broadcast_components[component_number]
         return upload(type, scope=component)
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
 
 def gallery_upload( page_number=None):
@@ -432,7 +432,7 @@ def gallery_upload( page_number=None):
         page_number = int(page_number)
         component = driver.find_element_by_xpath('//div[@data-index=%d]' % (page_number-1))
         return upload('image', scope=component)
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
 
 def upload(type, wait_time=10, scope=driver):
@@ -448,7 +448,7 @@ def upload(type, wait_time=10, scope=driver):
         elif type == 'file':
             attachment.send_keys(os.getcwd()+"/Uploads/sample.pdf")
         wait(wait_time)
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
 
     return "Success"
@@ -462,7 +462,7 @@ def remove_broadcast_component(component_number=None):
         remove = component.find_element_by_class_name('fa-stack')
         remove.click()
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
     
@@ -473,7 +473,7 @@ def click_on_broadcast_component(text, component_number=None):
             component_number = len(broadcast_components)-1
         component = broadcast_components[component_number]
         return click_on(text, scope=component)
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
 
 
@@ -482,7 +482,7 @@ def add_broadcast_component(component_name):
     try:
         click_on(component_name)
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
@@ -491,7 +491,7 @@ def gallery_next():
         next = driver.find_element_by_class_name('slick-next')
         next.click()
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
@@ -500,7 +500,7 @@ def gallery_prev():
         prev = driver.find_element_by_class_name('slick-prev')
         prev.click()
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
@@ -512,7 +512,7 @@ def select_emoji():
         emojis[0].click()
         click_on('type here')
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
@@ -528,7 +528,7 @@ def send_sticker():
         sticker_ID = sticker_ID[:sticker_ID.index('_')]
         stickers[0].click()
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     if verify_sticker_sent(sticker_ID):
         return "Success"
@@ -541,7 +541,7 @@ def remove_autoposting():
         autopost_delete.click()
         click_on('delete')
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -550,7 +550,7 @@ def autopost_settings():
         autopost_settings = driver.find_element_by_class_name('btn-outline-brand')
         autopost_settings.click()
         wait()
-    except Exception, e:
+    except Exception as e:
         return "Error: " + str(e)
     return "Success"
 
@@ -564,7 +564,7 @@ def verify_GIF_sent(gif_ID):
         #print(gif_ID)
         #print(actual_gif_ID)
         return gif_ID == actual_gif_ID
-    except Exception, e:
+    except Exception as e:
         #print(str(e))
         return False
 
@@ -578,7 +578,7 @@ def verify_sticker_sent(sticker_ID):
         # print(sticker_ID)
         # print(actual_sticker_ID)
         return sticker_ID == actual_sticker_ID
-    except Exception, e:
+    except Exception as e:
         #print(str(e))
         return False
 
@@ -594,7 +594,7 @@ def send_GIF():
         gif_ID = gif_ID[:gif_ID.index('/')]
         gifs[0].click()
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     if verify_GIF_sent(gif_ID):
         return "Success"
@@ -612,14 +612,14 @@ def verify_table(scope=driver):
             return "Success"
         else:
             return "Error: No table entries"
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
 
 def num_of_broadcast_components():
     try:
         broadcast_components = driver.find_elements_by_class_name('broadcast-component')
         return len(broadcast_components)
-    except Exception, e:
+    except Exception as e:
         return "No Broadcast components"
 
 def verify_alert():
@@ -630,7 +630,7 @@ def verify_alert():
             return "Success"
         else:
             return "No Alert detected"
-    except Exception, e:
+    except Exception as e:
         return "No Alert detected"
 
 def verify_failure():
@@ -640,7 +640,7 @@ def verify_failure():
             return "Success"
         else:
             return "No Failure Alert"
-    except Exception, e:
+    except Exception as e:
         return "No Failure Alert"
 
 
@@ -649,7 +649,7 @@ def download_phone_csv():
         csv = driver.find_element_by_xpath('//*[@class="fa-download"]')
         csv.click()
         wait(wait_time=10)
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
@@ -658,7 +658,7 @@ def download_opdashboard_csv():
         csv = driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div[2]/div[2]')
         csv.click()
         wait(wait_time=10)
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
@@ -667,7 +667,7 @@ def send_thumbs_up():
         thumbs_up = driver.find_element_by_class_name('la-thumbs-o-up')
         thumbs_up.click()
         wait()
-    except Exception, e:
+    except Exception as e:
          return "Error: " + str(e)
     return "Success"
 
