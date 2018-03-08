@@ -5,7 +5,7 @@ The Tool is aimed at regression testing for KiboPush.
 ## Usage
 
 ```
-usage: test.py [-h] [-f] [-p]
+usage: test.py [-h] [-f] [-p] [-d]
                
                [-c [{
                user authentication,
@@ -39,7 +39,8 @@ optional arguments:
   -p, --passed          Runs only previously passed tests in Test Plan
   -c, --categories      Specifies what categories to test on
   -u, --users           Specifies whatuser to test on
-
+  -d, --debug           Runs the script in debug mode to try different
+                        functions
 ```
 
 The tool by default runs all the test cases present in the test plan, for all type of users.
