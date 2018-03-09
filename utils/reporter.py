@@ -1,8 +1,30 @@
 import pdfkit
 import os
 import time
+import requests
 from reader import get_rows
-from config import user_category
+from config import user_category, bot_token
+
+def publish_to_slack(summary):
+
+  passed = summary['tests_passed']
+  failed = summary['tests_failed']
+
+  message =  "An Automated Testing run was just completed. \nPASSED: %s \nFAILED: %s\nCheck report for details." % (passed, failed)
+
+  my_file = {
+    'file' : ('report.pdf', open('report.pdf', 'rb'), 'pdf')
+  }
+
+  payload={
+    "initial_comment": message,
+    "filename":"Report.pdf", 
+    "token": bot_token, 
+    "channels":['#automated-testing'], 
+  }
+
+  r = requests.post("https://slack.com/api/files.upload", params=payload, files=my_file)
+  print(r)
 
 def generate_report(results, summary, file_name='report'):
   options = {
@@ -17,7 +39,7 @@ def generate_report(results, summary, file_name='report'):
     
     if result['buyer_status'] == 'Passed':
       result['buyer_color'] = success_color
-    else:
+    else: 
       result['buyer_color'] = failure_color
 
     if result['admin_status'] == 'Passed':
@@ -113,6 +135,7 @@ def generate_report(results, summary, file_name='report'):
 
   #pdfkit.from_file('sample.html', 'out.pdf', options=options)
   pdfkit.from_string(html, file_name + '.pdf', options=options)
+  publish_to_slack(summary)
 
 def gather_report(test_status, summary):
   """Uses reader to get meta-data for report, and combines it with received test data, to generate report"""

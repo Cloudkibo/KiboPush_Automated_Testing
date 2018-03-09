@@ -25,6 +25,8 @@ user_category = ['buyer', 'admin', 'agent', 'individual']
 test_failed = True
 test_passed = True
 
+bot_token = 'xoxb-327586377413-ogIKqyzQG0T9o1RkV3fX45lQ'
+
 def print_config():
 	print("categories %s" % categories)
 	print("user category %s" % user_category)
