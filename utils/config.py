@@ -1,3 +1,15 @@
+import json
+
+
+with open('.env/credentials.json') as fd:
+     json_data = json.load(fd)
+
+
+
+# Bot token for slack
+bot_token = json_data['bot_token']
+
+
 
 # Whether tests are ran for certain categories only
 categorized = False
@@ -32,8 +44,6 @@ user_category = ['buyer', 'admin', 'agent', 'individual']
 test_failed = True
 test_passed = True
 
-# Bot token for slack
-bot_token = 'xoxb-327586377413-ogIKqyzQG0T9o1RkV3fX45lQ'
 
 # Current status of config can be known by calling this.
 def print_config():
