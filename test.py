@@ -40,6 +40,7 @@ if __name__ == "__main__":
 
     if args.categories != None:
         utils.config.categories = args.categories
+        utils.config.categorized = True
 
     if args.user != None:
         utils.config.user_category = args.user

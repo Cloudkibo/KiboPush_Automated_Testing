@@ -66,6 +66,7 @@ def get_test():
         reader = csv.reader(f)
 
         filtered = True
+
         if config.test_failed and config.test_passed:
             filtered = False
 
@@ -78,6 +79,9 @@ def get_test():
                 continue
             elif row[6] != 'Yes':
                 continue
+            elif config.categorized:
+                if not row[1].lower() in config.categories:
+                    continue
             elif filtered:
                 if config.test_passed:
                     passing = check_status(row[8],row[9],row[10],row[11], 'Passed')

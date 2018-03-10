@@ -1,4 +1,8 @@
 
+# Whether tests are ran for certain categories only
+categorized = False
+
+# Categories to filter. Defaults to all of them
 categories = [
 "user authentication",
 "sidebar",
@@ -16,19 +20,25 @@ categories = [
 "main menu",
 "auto-posting",
 "membership",
-"operational dashboard"
+"operational dashboard",
+"wizard",
+"welcome message"
 ]
 
-
+# Types of user categories ot test
 user_category = ['buyer', 'admin', 'agent', 'individual']
 
+# Whether to run only passing tests or failing tests
 test_failed = True
 test_passed = True
 
+# Bot token for slack
 bot_token = 'xoxb-327586377413-ogIKqyzQG0T9o1RkV3fX45lQ'
 
+# Current status of config can be known by calling this.
 def print_config():
 	print("categories %s" % categories)
+	print("categorized %s" % categorized)
 	print("user category %s" % user_category)
 	print("test_failed %s" % test_failed)
 	print("test_passed %s" % test_passed)
