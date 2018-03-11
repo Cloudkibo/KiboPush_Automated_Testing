@@ -37,8 +37,8 @@ categories = [
 "welcome message"
 ]
 
-# Types of user categories ot test
-user_category = ['buyer', 'admin', 'agent', 'individual']
+# Types of user categories to test
+user_category = ['buyer', 'admin', 'agent', 'individual', '0sub']
 
 # Whether to run only passing tests or failing tests
 test_failed = True
@@ -46,9 +46,10 @@ test_passed = True
 
 
 # Current status of config can be known by calling this.
+
 def print_config():
 	print("categories %s" % categories)
 	print("categorized %s" % categorized)
-	print("user category %s" % user_category)
+	print("user_category %s" % user_category)
 	print("test_failed %s" % test_failed)
 	print("test_passed %s" % test_passed)

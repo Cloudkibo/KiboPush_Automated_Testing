@@ -53,6 +53,7 @@ def open_facebook(account_type='agent'):
             user = 'tom_aopzkab_admin@tfbnw.net'
         elif account_type == 'individual':
             user = 'joe_dwmhcui_lonely@tfbnw.net'
+
         email = facebook_driver.find_element_by_id('email')
         password = facebook_driver.find_element_by_id('pass')
         login = facebook_driver.find_element_by_id('loginbutton')
@@ -161,6 +162,8 @@ def login(account_type='buyer'):
             user = 'ahs.an.tanweer.26@gmail.com'
         elif account_type == 'individual':
             user = 'ahsa.n.tanweer.26@gmail.com'
+        elif account_type == '0sub':
+            user = 'ahsan.t.anweer.26@gmail.com'
 
         if team_account:
             click_on('team account')

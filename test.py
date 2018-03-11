@@ -44,5 +44,8 @@ if __name__ == "__main__":
 
     if args.user != None:
         utils.config.user_category = args.user
+    else:
+    	utils.config.user_category = ['buyer', 'admin', 'agent', 'individual']
 
+    utils.config.print_config()
     utils.mapper.map_and_report()

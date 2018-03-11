@@ -2,7 +2,7 @@ from reporter import *
 from parser import parse_language
 from steps import *
 from logger import *
-from config import user_category
+import config
 
 # - indicates parameter
 
@@ -43,7 +43,8 @@ category_count = {
     "buyer": [0, 0],
     "admin": [0, 0],
     "agent": [0, 0],
-    "individual": [0, 0]
+    "individual": [0, 0],
+    "0sub" : [0,0]
 }
 # Would be filled like this:
 # "category" : [passed, failed]
@@ -73,7 +74,8 @@ def mapping():
     for index, test_action in enumerate(test_actions):
         test_status[row_number[index]] = []
         temp_remarks = ''
-        for category in user_category:
+        for category in config.user_category:
+            print category
             log('\n')
             log('======== Category : %s ========' % category)
             last_action = 'Success'
