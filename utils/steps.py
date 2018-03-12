@@ -261,7 +261,7 @@ def click_on(name, scope=driver):
     try:
         #print('click_on')
         name = name.lower().strip()
-        links = scope.find_elements_by_xpath(".//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        links = scope.find_elements_by_xpath(".//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in links:
             if element.is_displayed():
                 try:
@@ -271,9 +271,10 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
+                print("Link")
                 return "Success"
         
-        buttons = scope.find_elements_by_xpath(".//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        buttons = scope.find_elements_by_xpath(".//button[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in buttons:
             if element.is_displayed():
                 try:
@@ -283,9 +284,10 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
+                print("Button")
                 return "Success"
 
-        inputs = scope.find_elements_by_xpath(".//input[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
+        inputs = scope.find_elements_by_xpath(".//input[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in inputs:
             if element.is_displayed():
                 try:
@@ -295,9 +297,10 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
+                print("Input")
                 return "Success"
         
-        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
+        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in remaining_elements:
             if element.is_displayed():
                 try:
@@ -307,6 +310,7 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
+                print("Remaining")
                 return "Success"
         if len(remaining_elements) == 0:
             wait()
