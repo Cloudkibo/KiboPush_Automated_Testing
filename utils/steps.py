@@ -271,7 +271,7 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
-                print("Link")
+                #print("Link")
                 return "Success"
         
         buttons = scope.find_elements_by_xpath(".//button[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
@@ -284,7 +284,7 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
-                print("Button")
+                #print("Button")
                 return "Success"
 
         inputs = scope.find_elements_by_xpath(".//input[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
@@ -297,7 +297,7 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
-                print("Input")
+                #print("Input")
                 return "Success"
         
         remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
@@ -310,7 +310,7 @@ def click_on(name, scope=driver):
                 #element.click()
                 #print(element.text)
                 wait()
-                print("Remaining")
+                #print("Remaining")
                 return "Success"
         if len(remaining_elements) == 0:
             wait()
@@ -415,6 +415,9 @@ def broadcast_upload(type, component_number=None):
             broadcast_components = driver.find_elements_by_class_name('broadcast-component')
             component_number = len(broadcast_components)-1
         component = broadcast_components[component_number]
+        while not component.is_displayed() and component_number >= 0:
+            component_number -= 1
+            component = broadcast_components[component_number]
         return upload(type, scope=component)
     except Exception as e:
         return "Error: " + str(e)
@@ -467,7 +470,11 @@ def click_on_broadcast_component(text, component_number=None):
         if component_number == None:
             component_number = len(broadcast_components)-1
         component = broadcast_components[component_number]
+        while not component.is_displayed() and component_number >= 0:
+            component_number -= 1
+            component = broadcast_components[component_number]
         return click_on(text, scope=component)
+        
     except Exception as e:
         return "Error: " + str(e)
 
