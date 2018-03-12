@@ -216,6 +216,7 @@ def send_broadcast_templates():
             button = templates.find_elements_by_class_name('m-btn')[i]
             button.click()
             wait()
+            click_on('next')
             click_on('send')
             if verify_alert() == "Success":
                 driver.execute_script("window.history.go(-1)")
