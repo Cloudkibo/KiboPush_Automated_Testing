@@ -3,7 +3,7 @@ import os
 import time
 import requests
 from reader import get_rows
-from config import user_category, bot_token
+import config
 
 def publish_to_slack(summary):
 
@@ -19,7 +19,7 @@ def publish_to_slack(summary):
   payload={
     "initial_comment": message,
     "filename":"Report.pdf", 
-    "token": bot_token, 
+    "token": config.bot_token, 
     "channels":['#automated-testing'], 
   }
 
@@ -36,26 +36,40 @@ def generate_report(results, summary, file_name='report'):
   for result in results:
     failure_color = '#DC143C'
     success_color = '#4BB543'
+
+    result['statuses'] = ''
+    status_headings = ''
+    for category in config.user_category:
+      status_headings += '<th class="text-centered">%s status</th>' % category
+      
+      if result[category+'_status'] == 'Passed':
+        result[category+'_color'] = success_color
+      else:
+        result[category+'_color'] = failure_color
+        
+      result['statuses'] += '<td bgcolor=%s>%s</td>' % (result[category+'_color'], result[category+'_status'])
+
+
     
-    if result['buyer_status'] == 'Passed':
-      result['buyer_color'] = success_color
-    else: 
-      result['buyer_color'] = failure_color
+    # if 'buyer_status' in result and result['buyer_status'] == 'Passed':
+    #   result['buyer_color'] = success_color
+    # else: 
+    #   result['buyer_color'] = failure_color
 
-    if result['admin_status'] == 'Passed':
-      result['admin_color'] = success_color
-    else:
-      result['admin_color'] = failure_color
+    # if 'admin_status' in result and result['admin_status'] == 'Passed':
+    #   result['admin_color'] = success_color
+    # else:
+    #   result['admin_color'] = failure_color
 
-    if result['agent_status'] == 'Passed':
-      result['agent_color'] = success_color
-    else:
-      result['agent_color'] = failure_color
+    # if 'agent_status' in result and result['agent_status'] == 'Passed':
+    #   result['agent_color'] = success_color
+    # else:
+    #   result['agent_color'] = failure_color
 
-    if result['individual_status'] == 'Passed':
-      result['individual_color'] = success_color
-    else:
-      result['individual_color'] = failure_color
+    # if result['individual_status'] == 'Passed':
+    #   result['individual_color'] = success_color
+    # else:
+    #   result['individual_color'] = failure_color
 
     table_data += """
     <tr>
@@ -64,10 +78,7 @@ def generate_report(results, summary, file_name='report'):
     <td>{description}</td>
     <td style="white-space: pre-wrap; width:100%;">{steps}</td>
     <td>{expected_results}</td>
-    <td bgcolor={buyer_color}>{buyer_status}</td>
-    <td bgcolor={admin_color}>{admin_status}</td>
-    <td bgcolor={agent_color}>{agent_status}</td>
-    <td bgcolor={individual_color}>{individual_status}</td>
+    {statuses}
     <td>{remarks}</td>
   </tr>
   """.format(**result)
@@ -76,7 +87,7 @@ def generate_report(results, summary, file_name='report'):
 
   # print(table_data)
 
-  summary = """
+  summary_html = """
   <ul>
   <li><strong>Tests Passed</strong>: {tests_passed}</li>
   <li><strong>Tests Failed</strong>: {tests_failed}</li>
@@ -118,10 +129,7 @@ def generate_report(results, summary, file_name='report'):
                 <th class="text-centered">Description</th>
                 <th class="text-centered">Steps</th>
                 <th class="text-centered">Expected Results</th>
-                <th class="text-centered">Buyer Status</th>
-                <th class="text-centered">Admin Status</th>
-                <th class="text-centered">Agent Status</th>
-                <th class="text-centered">Individual Status</th>
+                %s
                 <th class="text-centered">Remarks</th>
             </tr>
             %s
@@ -131,7 +139,7 @@ def generate_report(results, summary, file_name='report'):
     </div>
   </body>
   </html>
-  """ % (time_stamp, table_data, summary)
+  """ % (time_stamp, status_headings, table_data, summary_html)
 
   #pdfkit.from_file('sample.html', 'out.pdf', options=options)
   pdfkit.from_string(html, file_name + '.pdf', options=options)
@@ -151,10 +159,14 @@ def gather_report(test_status, summary):
     temp['description'] = description[(row_no.index(k))]
     temp['steps'] = steps[(row_no.index(k))]
     temp['expected_results'] = expected_result[(row_no.index(k))]
-    temp['buyer_status'] = v[user_category.index('buyer')]
-    temp['admin_status']= v[user_category.index('admin')]
-    temp['agent_status']= v[user_category.index('agent')]
-    temp['individual_status']= v[user_category.index('individual')]
+
+    for user in config.user_category:
+      temp[user+'_status'] = v[config.user_category.index(user)]
+
+    # temp['buyer_status'] = v[user_category.index('buyer')]
+    # temp['admin_status']= v[user_category.index('admin')]
+    # temp['agent_status']= v[user_category.index('agent')]
+    # temp['individual_status']= v[user_category.index('individual')]
     temp['remarks'] = v[-1]
     report_data.append(temp)
 
@@ -205,9 +217,6 @@ if __name__ == "__main__":
           'steps': steps,
           'expected_results': 'User is routed to correct route for each element on the sidebar',
           'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
           'remarks': 'Step 7 failed'
       },
       {
@@ -217,9 +226,6 @@ if __name__ == "__main__":
           'steps': steps,
           'expected_results': 'User is routed to correct route for each element on the sidebar',
           'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Passed',
-          'individual_status': 'Failed',
           'remarks': 'Step 7 failed'
       },      {
           'test': '#1',
@@ -228,110 +234,8 @@ if __name__ == "__main__":
           'steps': steps,
           'expected_results': 'User is routed to correct route for each element on the sidebar',
           'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
           'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },      {
-          'test': '#1',
-          'category': 'Sidebar',
-          'description': 'Navigation',
-          'steps': steps,
-          'expected_results': 'User is routed to correct route for each element on the sidebar',
-          'buyer_status': 'Failed',
-          'admin_status': 'Failed',
-          'agent_status': 'Failed',
-          'individual_status': 'Failed',
-          'remarks': 'Step 7 failed'
-      },
+      }
   ]
 
   summary = {

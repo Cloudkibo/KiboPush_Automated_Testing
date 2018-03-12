@@ -22,7 +22,7 @@ User should be able to resend email verification link",All,No,,Passed,Passed,Pas
 3. Enter old and new password
 4. Apply",This should change the password if old password entered is correct and new password is at least 6 characters long,Repeat,No,,Passed,Passed,Passed,Passed,,, ,Baqar
 SIDEBAR,,,,,,,,,,,,,,,
-8,SIDEBAR,Navigation,"1. Login
+8,Sidebar,Navigation,"1. Login
 3. go to Dashboard
 5. go to Broadcasts
 6. go to Surveys
@@ -32,16 +32,63 @@ SIDEBAR,,,,,,,,,,,,,,,
 11. go to Persistent Menu
 12. go to Manage Pages
 13. go to Subscribers
+14. go to Invite Members
+15. go to Members
 17. go to Invite using phone number
 18. go to Settings
-19. go to User Guide",User is routed to correct route for each element on the sidebar,All,Yes,High,Passed,Passed,NA,Passed,Need to make separate sidebar test for each account type,,7 March 2018,Automated
-9,SIDEBAR,Collapsing and Expanding,"1. Login.
+19. go to User Guide",Buyer is routed to each sidebar item,All,Yes,High,Passed,NA,NA,NA,,,7 March 2018,Automated
+8,Sidebar,Navigation,"1. Login
+3. go to Dashboard
+5. go to Broadcasts
+6. go to Surveys
+7. go to Polls
+8. go to Workflows
+10. go to Auto Posting
+11. go to Persistent Menu
+12. go to Manage Pages
+13. go to Subscribers
+14. go to Members
+17. go to Invite using phone number
+18. go to Settings
+19. go to User Guide",Admin is routed to each sidebar item,All,Yes,High,NA,Passed,NA,NA,,,7 March 2018,Automated
+8,Sidebar,Navigation,"1. Login
+3. go to Dashboard
+5. go to Broadcasts
+6. go to Surveys
+7. go to Polls
+8. go to Workflows
+10. go to Auto Posting
+11. go to Persistent Menu
+12. go to Manage Pages
+13. go to Subscribers
+14. go to Members
+17. go to Invite using phone number
+18. go to Settings
+19. go to User Guide",Agent is routed to each sidebar item,All,Yes,High,NA,NA,Passed,NA,,,7 March 2018,Automated
+8,Sidebar,Navigation,"1. Login
+2. go to Operational Dashboard
+3. go to Dashboard
+5. go to Broadcasts
+6. go to Surveys
+7. go to Polls
+8. go to Workflows
+9. go to Live Chat
+10. go to Auto Posting
+11. go to Persistent Menu
+12. go to Manage Pages
+13. go to Subscribers
+14. go to Segment Subscribers
+15. go to Templates
+17. go to Invite using phone number
+18. go to Settings
+19. go to User Guide",Individual is routed to correct route for each element on the sidebar,All,Yes,High,NA,NA,NA,Passed,,,7 March 2018,Automated
+9,Sidebar,Collapsing and Expanding,"1. Login.
 2. Collapse sidebar
 3. Expand sidebar",The sidbar collapse and expand as expected,All,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
-10,SIDEBAR,Icons,"1. Login
+10,Sidebar,Icons,"1. Login
 2. Verify Icons of each Sidebar Item",Icons should be unique,All,No,Medium,Passed,Passed,Passed,Passed,,, ,Baqar
 NAVBAR,,,,,,,,,,,,,,,
-11,NAVBAR,Logout,"1. Login
+11,Navbar,Logout,"1. Login
 ",User should log out,All,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
  PAGES,,,,,,,,,,,,,,,
 12,Facebook Pages,Display list of Facebook pages,"1- Login 
@@ -56,12 +103,12 @@ NAVBAR,,,,,,,,,,,,,,,
 3. Click on Add Pages
 4. Click on Connect
 5- Click on Done
-",Successfully added a new Facebook page,All,No,High,Failed,Failed,NA,Passed,Page scrolls up when we connect or disconnect,#1881,7 Mar 2018,Ahsan
+",Successfully added a new Facebook page,All,No,High,Passed,Passed,NA,Passed,,,8 Mar 2018,Ahsan
 15,Facebook Pages,Delete Facebook Page,"1- Login 
 2- Go to Manage Pages
 3. Click on Add Pages
 4- Click on Disconnect
-5- Click on Done",The page is removed,All,No,High,Failed,Failed,NA,Passed,Page scrolls up when we connect or disconnect,#1881,7 Mar 2018,Ahsan
+5- Click on Done",The page is removed,All,No,High,Passed,Passed,NA,Passed,,,8 Mar 2018,Ahsan
  BROADCASTS,,,,,,,,,,,,,,,
 16,Broadcasts,Send a text message,"1. Login 
 2. Go to Broadcasts
@@ -70,6 +117,7 @@ NAVBAR,,,,,,,,,,,,,,,
 5. Click on Text
 6. Click on Enter your text...
 7. Write ""This is sample broadcast""
+8. Click on Next
 8. Click on Send
 9. Verify Alert",Text mesage should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 17,Broadcasts,Sent Test Broadcast,"1. Login 
@@ -94,6 +142,7 @@ NAVBAR,,,,,,,,,,,,,,,
 11. Click on Enter link
 12. Write www.google.com
 13 Click on Done
+8. Click on Next
 14. Click on Send
 15. Verify Alert",Text mesage with button should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 17,Broadcasts,Send a message with image attached,"1- Login 
@@ -102,6 +151,7 @@ NAVBAR,,,,,,,,,,,,,,,
 4. Click on Create New Broadcast
 5- Click on Image
 6. Upload Image
+8. Click on Next
 7. Click on Send
 8. Verify Alert",Image should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 18,Broadcasts,Send a message with card attached,"1- Login 
@@ -120,6 +170,7 @@ NAVBAR,,,,,,,,,,,,,,,
 14. Click on Enter link
 15. Write www.google.com
 16. Click on Done
+8. Click on Next
 11. Click on Send
 12. Verify Alert",Card should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 19,Broadcasts,Send a message with Gallery attached,"1- Login 
@@ -150,6 +201,7 @@ NAVBAR,,,,,,,,,,,,,,,
 26. Click on Enter link
 27. Write www.google.com
 28. Click on Done
+8. Click on Next
 29. Click on Send
 30. Verify Alert",Gallery should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Automated test has to be fixed,#49,7 Mar 2018,Automated
 20,Broadcasts,Send a message with audio attached,"1- Login 
@@ -158,6 +210,7 @@ NAVBAR,,,,,,,,,,,,,,,
 4. Click on Create New Broadcast
 4- Click on Audio
 5. Upload Audio
+8. Click on Next
 6. Click on Send
 7. Verify Alert",Audio should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 21,Broadcasts,Send a message with video attached,"1- Login 
@@ -166,6 +219,7 @@ NAVBAR,,,,,,,,,,,,,,,
 4. Click on Create New Broadcast
 4- Click on Video
 5. Upload Video
+8. Click on Next
 6. Click on Send
 7. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 22,Broadcasts,Send a message with File attached,"1- Login 
@@ -174,8 +228,9 @@ NAVBAR,,,,,,,,,,,,,,,
 4. Click on Create New Broadcast
 4- Click on File
 5. Upload file
+8. Click on Next
 6. Click on Send
-7. Verify Alert",File should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Passed,Failed,Issue with file upload functionality,#50,7 Mar 2018,Automated
+7. Verify Alert",File should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
 23,Broadcasts,Send a message with link attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -189,8 +244,9 @@ NAVBAR,,,,,,,,,,,,,,,
 11. Click on Enter link
 12. Write www.google.com
 13. Click on Done
+8. Click on Next
 14. Click on Send
-15. Verify Alert",Link should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Issue with automated testing. Need to verify this.,#46,7 Mar 2018,Automated
+15. Verify Alert",Link should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
 24,Broadcasts,Send a mixed message,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -200,9 +256,10 @@ NAVBAR,,,,,,,,,,,,,,,
 6. Click on Text
 7. Click on Enter your text...
 8. Write This is sample broadcast
+8. Click on Next
 9. Click on Send
 10. Verify Alert
-",Mixed message should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Automated test Issue at file upload,#50,7 Mar 2018,Automated
+",Mixed message should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
 25,Broadcasts,Show list of Broadcasts,"1- Login
 2- Go to Broadcasts
 3. Verify Table",List of Broadcast should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
@@ -210,7 +267,7 @@ NAVBAR,,,,,,,,,,,,,,,
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4. Click on Use Template
-",List of Broadcast Templates should be shown,,Yes,,Failed,Failed,Failed,Failed,"Automated Testing Issue, when clicking on ""Use Template""",#51,7 Mar 2018,Automated
+",List of Broadcast Templates should be shown,,Yes,,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
 27,Broadcasts,Send Template Broadcast,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -233,7 +290,7 @@ SURVEYS,,,,,,,,,,,,,,,
 3- Click on Create survey
 4. Click on Create New Survey
 5. Click on Add Questions
-6. Click on Enter your survey form title
+6. Click on Enter form title here
 7. Write Title
 8. Click on Enter your survey introduction
 9. Write introduction
@@ -265,7 +322,7 @@ SURVEYS,,,,,,,,,,,,,,,
 3- Click on Create survey
 4. Click on Use template
 5. Click on Edit Template 
-6. Click on Create Survey",Survey should be created via Template,Repeat,Yes,High,Failed,Failed,Failed,Failed,"Automated Test Script cannot find ""Create Survey"" after Edit Template",#52,7 Mar 2018,Automated
+6. Click on Create Survey",Survey should be created via Template,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 36,Surveys,View template survey,"1- Login 
 2-  Go to Surveys
 3- Click on Create survey
@@ -362,46 +419,79 @@ Links don’t send properly",#1654, ,Baqar
 2. Go to Live Chat.
 3. Click on Search
 4. Write xxxxx",The customer list should respond according to the applied filter,Repeat,Disabled,High,NA,NA,NA,NA,,, ,Baqar
-MAIN MENU,,,,,,,,,,,,,,,
-54,Main Menu,Add Menu Items,"1. Login
-2. Click on Main Menu
-3. Click on the plus sign to add a menu item",The new menu option should be added,,No,High,Failed,Failed,Failed,Failed,Alignment issue on button,#2083 , ,Baqar
-55,Main Menu,Add Web Url,"1. Login
-2. Click on Main Menu 
-3. Click on a input field i.e. a menu item 
+PERSISTENT MENU,,,,,,,,,,,,,,,
+54,Persistent Menu,Add Menu Items,"1. Login
+2. Go to Persistent Menu
+3. Add Menu 0
+4. Click on Save Menu",The new menu option should be added,Repeat,Yes,High,NA,NA,NA,Passed,,, ,Baqar
+59,Persistent Menu,Remove Menu Item,"1. Login
+2. Go to Persistent Menu
+3. Close Menu 0
+4. Click on Save Menu",Menu item should be removed,Repeat,Yes,,NA,NA,NA,Passed,,, ,Baqar
+55,Persistent Menu,Add Web Url,"1. Login
+2. Go to Persistent Menu
+3. Click on First Menu
+4. Clear field
+5. Write Google 
 4. Click on Set web url 
+5. Click on placeholder
 5. write www.google.com
-6. Click Done",The type of the menu item should be set to web_url and url should be saved,,Not Verified,High,NA,NA,NA,Passed,,, ,Baqar
-56,Main Menu,Add Nested Menus,"1. Login
-2. Click on Main Menu
-3. Try adding new Menu Options within a Menu Option.",The nested Menu Is added.,,Not Verified,High,NA,NA,NA,Passed,,, ,Baqar
-57,Main Menu,Add Reply Message,"1. Login
-2. Click on Main Menu
-3. Click on the menu item and set its type to new message
-4. Set the reply message 
-5. Save the message",The type of the menu item should be set to postback and the reply message should be saved,,No,High,NA,NA,NA,Passed,,, ,Baqar
-58,Main Menu,Edit Reply Message,"1. Login
-2. Click on Main Menu
-3. Click on the menu item and set its type to new message
-4. Edit the reply message 
-5. Save the message",The edited reply message should be saved,,Not Verified,High,NA,NA,NA,Passed,,, ,Baqar
-59,Main Menu,Remove Menu Item,"1. Login
+6. Click Done
+7. Click on Save Menu",The type of the menu item should be set to web_url and url should be saved,Repeat,Yes,High,Failed,Failed,Failed,Failed,placeholder required.,#60, ,Baqar
+56,Persistent Menu,Add Nested Menus,"1. Login
+2. Go to Persistent Menu
+3. Add Menu 0
+4. Click on Second Menu
+5. Clear field
+6. Write Layer 1
+7. Click on add sub menu
+8. Click on Sub Menu
+9. Clear field
+10. Write layer 2
+11. Click on Add Nested Menu
+12. Click on Nested Menu
+13. Click on Create New Message
+14. Click on text
+15. Click on Enter your text
+16. Write Nested Menu
+17. Click on save
+18 Click on Back
+19. Click on Save Menu",The nested Menu Is added.,Repeat,Yes,High,NA,NA,NA,Passed,,, ,Baqar
+57,Persistent Menu,Add Reply Message,"1. Login
+2. Go to Persistent Menu
+3. Click on Google
+4. Clear field
+5. Write repliez 
+6. Click on Create new message
+7. Click on text
+8. Click on Enter your text
+9. Write Original
+10. Click on Save
+11. Click on back
+12. Click on save menu",The type of the menu item should be set to postback and the reply message should be saved,Repeat,Yes,High,NA,NA,NA,Passed,,, ,Baqar
+58,Persistent Menu,Edit Reply Message,"1. Login
+2. Go to Persistent Menu
+3. Click on repliez
+4. Click on Edit Message
+5. Click on Original
+6. Write Edited
+7. Click on save
+8. Click on back
+9. Click on Save Menu",The edited reply message should be saved,Repeat,Yes,High,NA,NA,NA,Passed,,, ,Baqar
+61,Persistent Menu,Remove nested menu item,"1. Login
 2. Click on Persistent Menu
-3. Click on the plus sign to add a menu item
-4. Click on the x sign to remove that menu item",Menu item should be removed,,No,,NA,NA,NA,Passed,,, ,Baqar
-60,Main Menu,Remove submenu item,"1. Login
+3. Close Menu 0
+4. Close Menu 0
+5. Close Menu 0
+6. Click on Save Menu",Nested menu item should be removed,Repeat,Yes,,NA,NA,NA,Passed,,, ,Baqar
+60,Persistent Menu,Remove submenu item,"1. Login
 2. Click on Persistent Menu
-3. Click on a input field i.e. a menu item 
-4. Click on add submenu
-5. Click on the x sign of the submenu",Submenu item should be removed,,No,,NA,NA,NA,Passed,,, ,Baqar
-61,Main Menu,Remove nested menu item,"1. Login
-2. Click on Persistent Menu
-3. Click on a input field i.e. a menu item 
-4. Click on add submenu
-5. Click on a input field of submenu item 
-6. Click on add nested menu
-7. Click on the x sign of the nested menu",Nested menu item should be removed,,No,,NA,NA,NA,Passed,,, ,Baqar
+3. Close Menu 0
+4. Click on Save Menu",Submenu item should be removed,Repeat,Yes,,NA,NA,NA,Passed,,, ,Baqar
 AUTOPOSTING,,,,,,,,,,,,,,,
+65,Auto-Posting,Removing a Channel,"1. Login
+2. Go to Auto posting
+3. Remove Channel",The Channel get removed from the list,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 62,Auto-Posting,Adding Twitter Channel,"1. Login
 2. Go to Auto posting
 3. Click on Add Feed
@@ -420,9 +510,6 @@ AUTOPOSTING,,,,,,,,,,,,,,,
 2. Go to Auto posting
 3. click on Add Feed
 4. Add a Youtube Channel",The Youtube Accounts gets added,Repeat,No,High,NA,NA,NA,NA,Not implementing AutoPosting in Youtube right now,, ,
-65,Auto-Posting,Removing a Channel,"1. Login
-2. Go to Auto posting
-3. Remove Channel",The Channel get removed from the list,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 66,Auto-Posting,AutoPosting to channel,"1. Login
 2. Go to Auto posting
 3. Channel Setting
@@ -434,22 +521,22 @@ AUTOPOSTING,,,,,,,,,,,,,,,
 OPERATIONAL DASHBOARD,,,,,,,,,,,,,,,
 67,Operational Dashboard,Downloading of CSV,"1. Login
 2. Go to Operational Dashboard
-3. Download user csv",The CSV of all clients should get downloaded,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
+3. Download user csv",The CSV of all clients should get downloaded,Repeat,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 68,Operational Dashboard,Dashboard Display,"1. Login
 2. Go to Operational Dashboard
-3. Verify the statistics shown on Dashboard",The dashboard should reflect accurate statistics,,No,High,NA,NA,NA,NA,,,,
+3. Verify the statistics shown on Dashboard",The dashboard should reflect accurate statistics,Repeat,No,High,NA,NA,NA,NA,,,,
 69,Operational Dashboard,Users Search,"1. Login
 2. Go to Operational Dashboard
 3. Click on Search Users
-4. Write xxxxx",The dashboard should narrow down the users based on target string,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
+4. Write xxxxx",The dashboard should narrow down the users based on target string,Repeat,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 70,Operational Dashboard,User See More,"1. Login
 2. Go to Operational Dashboard
 3. Click on Search Users
-4. Write xxxxx",It should route to the page having details of the said user,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
+4. Write xxxxx",It should route to the page having details of the said user,Repeat,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 71,Operational Dashboard,User Page Subscriber,"1. Login
 2. Go to Operational Dashboard
 3. In User section, click on see more
-4. In User detail, click on see subscribers",It should route towards the page having list of subscribers for the said page,,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
+4. In User detail, click on see subscribers",It should route towards the page having list of subscribers for the said page,Repeat,Yes,High,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 72,Operational Dashboard,Search filter,"1. Login
 2. Go to Operational Dashboard
 3. In User section, click on see more
@@ -458,7 +545,7 @@ OPERATIONAL DASHBOARD,,,,,,,,,,,,,,,
 6. Click on Search by title
 7. Write xxxx
 8. Click on Search by description
-9. Write xxxx",The said list should narrow down based on the filter search string,,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Automated
+9. Write xxxx",The said list should narrow down based on the filter search string,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Automated
 TEMPLATES,,,,,,,,,,,,,,,
 73,Templates,Create Template survey,"1. Login
 2. Go to Templates
@@ -610,3 +697,95 @@ Email address field should be filled in this case.","User should be able to join
 
 User should not be able to use the used invitation link again. The link should expire after user has made an account
 ",Repeat,No,,Passed,Passed,Passed,NA,,,12-Feb-2018,Anisha
+Wizard,,,,,,,,,,,,,,,
+,Wizard,Connect Page,"1- Login 
+2- Click on Start
+3. Click on Connect
+4. Click on Next",Successfully added a new Facebook page,New,Yes,,NA,NA,NA,Passed,,,,
+,Wizard,Invite Subscribers,"1. Login 
+2. Click on Start
+3. Click on Next
+4. Click on Share Page",Successfully shared page of facebook,New,Yes,,NA,NA,NA,Passed,,,,
+,Wizard,Invite Subscribers,"1. Login
+2. Click on Start
+3. Click on Next
+4. Click on Share Page Link
+5. Click on Copy Link",Successfully copied messenger link,New,Yes,,NA,NA,NA,Passed,,,,
+14,Wizard,Greeting Text,"1- Login 
+2- Click on Start
+3. Click on Next
+4. Click on Next
+5. Click on Save",Successfully saved the greeting Message,New,Yes,,NA,NA,NA,Passed,,,,
+14,Wizard,Welcome Message,"1. Login 
+2. Click on Start
+3. Click on Next
+4. Click on Next
+5. Click on Next
+6. Click on Save ",Successfully saved the welcome message,New,Yes,,NA,NA,NA,Passed,,,,
+14,Wizard,Autoposting Feeds,"1. Login 
+2. Click on Start
+3. Click on Next
+4. Click on Next
+5. Click on Next
+6. Click on Next
+7. Click on Add Feeds
+8. Click on Enter FB Url
+9. Write https://www.facebook.com/HumansOfLateCapitalism/
+10. Click on Add Facebook Account",Successfully saved the autoposting feed,New,Yes,,NA,NA,NA,Passed,,,,
+14,Wizard,Autoposting Feeds,"1. Login 
+2. Click on Start
+3. Click on Next
+4. Click on Next
+5. Click on Next
+6. Click on Next
+7. Click on Add Feeds
+8. Click on Twitter
+9. Click on Enter Twitter handle
+10. Write abc
+11. Click on Add Twitter Account
+",Successfully saved the autoposting feed,New,Yes,,NA,NA,NA,Failed,,,,
+14,Wizard,Setup Workflows,"1. Login 
+2. Click on Start
+3. Click on Next
+4. Click on Next
+5. Click on Next
+6. Click on Next
+7. Click on Next
+8. Choose Rule
+9. Click on hi
+10. Write There?
+11. Click on Your reply here
+12. Write Yes We are available 24/7
+13. Click on Save
+",Successfully saved the workflow,New,Yes,,NA,NA,NA,Passed,,,,
+14,Wizard,Persistent Menu,"1. Login 
+2. Click on Start
+3. Click on Next
+4. Click on Next
+5. Click on Next
+6. Click on Next
+7. Click on Next
+8. Click on Next
+9. Click on First Menu
+10. Write www.google.com
+11. Click on Done 
+12. Click on Save",Successfully saved the persistent menu,New,Yes,,NA,NA,NA,Passed,,,,
+WELCOME MESSAGE,,,,,,,,,,,,,,,
+,Welcome Message,Welcome Message,"1. Login 
+2. Click on Settings on Main Menu
+3. Click on Welcome Message","User is able to see the switch of 
+enable and disable welcome message 
+for his connected pages. 
+He can see view and edit buttons for welcome message",New,,,,,,,,,,
+,Welcome Message,Edit Welcome Message,"1. Login 
+2. Click on Settings on Main Menu
+3. Click on Welcome Message
+4. Click on 'Edit Message'","User sees a default welcome message.
+User can edit or create a new welcome message
+Click on 'Save' to save welcome message
+Click on 'Back' to go back to settings screen - 'Welcome Message'",New,,,,,,,,,,
+,Welcome Message,View Welcome Message,"1. Login 
+2. Click on Settings on Main Menu
+3. Click on Welcome Message
+4. Click on 'View Message'","User is able to preview the welcome message for his page.
+'Back' takes user to Settings- Welcome Message screen.",New,,,,,,,,,,

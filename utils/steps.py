@@ -4,6 +4,7 @@ import platform
 import time
 from selenium.webdriver.common.keys import Keys
 import os
+import config
 
 chrome_options = webdriver.ChromeOptions()
 prefs = {"profile.default_content_setting_values.notifications" : 2}
@@ -44,21 +45,15 @@ def open_facebook(account_type='agent'):
     try:
         facebook_driver = open_new_window()
         facebook_driver.get("https://www.facebook.com/")
-        pw = 'kibo54321'
-        if account_type == 'buyer':
-            user = 'mike_hxpmirj_buyer@tfbnw.net'
-        elif account_type == 'agent':
-            user = 'charlie_mkqelmp_agent@tfbnw.net'
-        elif account_type == 'admin':
-            user = 'tom_aopzkab_admin@tfbnw.net'
-        elif account_type == 'individual':
-            user = 'joe_dwmhcui_lonely@tfbnw.net'
-
+       
         email = facebook_driver.find_element_by_id('email')
         password = facebook_driver.find_element_by_id('pass')
         login = facebook_driver.find_element_by_id('loginbutton')
-        email.send_keys(user)
-        password.send_keys(pw)
+
+        user_email = config.facebook_accounts[account_type]['facebook_email']
+        user_password = config.facebook_accounts[account_type]['password']
+        email.send_keys(user_email)
+        password.send_keys(user_password)
         login.click()
         wait()
     except Exception as e:
@@ -152,20 +147,12 @@ def login(account_type='buyer'):
         click_on('login')
         team_account = account_type == 'agent' or account_type == 'admin' or account_type == 'buyer'
 
-        pw = 'kibo54321'
-        domain = 'fbteser'
-        if account_type == 'buyer':
-            user = 'a.hsan.tanweer.26@gmail.com'
-        elif account_type == 'agent':
-            user = 'ah.san.tanweer.26@gmail.com'
-        elif account_type == 'admin':
-            user = 'ahs.an.tanweer.26@gmail.com'
-        elif account_type == 'individual':
-            user = 'ahsa.n.tanweer.26@gmail.com'
-        elif account_type == '0sub':
-            user = 'ahsan.t.anweer.26@gmail.com'
+        user_email = config.facebook_accounts[account_type]['login_email']
+        user_password = config.facebook_accounts[account_type]['password']
+
 
         if team_account:
+            user_domain = config.facebook_accounts[account_type]['domain']
             click_on('team account')
         else:
             click_on('individual account')
@@ -180,9 +167,9 @@ def login(account_type='buyer'):
         login_button = login_form.find_element_by_id('m_login_signup_submit')
         
         if team_account:
-            domain_input.send_keys(domain) 
-        email.send_keys(user)
-        password.send_keys(pw)
+            domain_input.send_keys(user_domain) 
+        email.send_keys(user_email)
+        password.send_keys(user_password)
         login_button.click()
         wait(wait_time=5)
         if verify_failure() == "Success":
@@ -472,8 +459,8 @@ def remove_broadcast_component(component_number=None):
     
 def click_on_broadcast_component(text, component_number=None):
     try:
+        broadcast_components = driver.find_elements_by_class_name('broadcast-component')
         if component_number == None:
-            broadcast_components = driver.find_elements_by_class_name('broadcast-component')
             component_number = len(broadcast_components)-1
         component = broadcast_components[component_number]
         return click_on(text, scope=component)

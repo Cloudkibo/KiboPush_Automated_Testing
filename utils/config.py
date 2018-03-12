@@ -9,6 +9,9 @@ with open('.env/credentials.json') as fd:
 # Bot token for slack
 bot_token = json_data['bot_token']
 
+#
+facebook_accounts = json_data['facebook_accounts']
+
 
 
 # Whether tests are ran for certain categories only
