@@ -35,7 +35,7 @@ action_step = {
     "send_broadcast_templates": send_broadcast_templates,
     "clear_field": clear_field,
     "add_menu-": add_menu,
-    "close_menu-": add_menu
+    "close_menu-": close_menu
 }
 
 
