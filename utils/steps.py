@@ -180,6 +180,7 @@ def login(account_type='buyer'):
 
 def close_menu(x):
     try:
+        x = int(x)
         exes = driver.find_elements_by_class_name('fa-times')
         num_of_menu_items = len(exes)
         exes[x-1].click()
@@ -194,6 +195,7 @@ def close_menu(x):
 
 def add_menu(x):
     try:
+        x = int(x)
         plus = driver.find_element_by_class_name('fa-plus')
         exes = driver.find_elements_by_class_name('fa-times')
         num_of_menu_items = len(exes)
@@ -262,7 +264,7 @@ def click_on(name, scope=driver):
     try:
         #print('click_on')
         name = name.lower().strip()
-        links = scope.find_elements_by_xpath(".//a[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        links = scope.find_elements_by_xpath(".//a[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in links:
             if element.is_displayed():
                 try:
@@ -275,7 +277,7 @@ def click_on(name, scope=driver):
                 #print("Link")
                 return "Success"
         
-        buttons = scope.find_elements_by_xpath(".//button[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
+        buttons = scope.find_elements_by_xpath(".//button[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name))
         for element in buttons:
             if element.is_displayed():
                 try:
@@ -288,7 +290,7 @@ def click_on(name, scope=driver):
                 #print("Button")
                 return "Success"
 
-        inputs = scope.find_elements_by_xpath(".//input[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
+        inputs = scope.find_elements_by_xpath(".//input[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in inputs:
             if element.is_displayed():
                 try:
@@ -301,7 +303,7 @@ def click_on(name, scope=driver):
                 #print("Input")
                 return "Success"
         
-        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
+        remaining_elements = scope.find_elements_by_xpath(".//*[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@placeholder, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s') or contains(translate(@value, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'), '%s')]" % (name, name, name))
         for element in remaining_elements:
             if element.is_displayed():
                 try:
@@ -415,6 +417,8 @@ def broadcast_upload(type, component_number=None):
         if component_number == None:
             broadcast_components = driver.find_elements_by_class_name('broadcast-component')
             component_number = len(broadcast_components)-1
+        else:
+            component_number = int(component_number)
         component = broadcast_components[component_number]
         while not component.is_displayed() and component_number >= 0:
             component_number -= 1
@@ -428,6 +432,8 @@ def gallery_upload( page_number=None):
         if page_number == None:
             pages = driver.find_elements_by_xpath('//div[@data-index]')
             page_number = len(pages)
+        else:
+            page_number = int(page_number)
         page_number = int(page_number)
         component = driver.find_element_by_xpath('//div[@data-index=%d]' % (page_number-1))
         return upload('image', scope=component)
@@ -457,6 +463,8 @@ def remove_broadcast_component(component_number=None):
         if component_number == None:
             broadcast_components = driver.find_elements_by_class_name('broadcast-component')
             component_number = len(broadcast_components)-1
+        else:
+            component_number = int(component_number)-1
         component = broadcast_components[component_number]
         remove = component.find_element_by_class_name('fa-stack')
         remove.click()
@@ -470,6 +478,8 @@ def click_on_broadcast_component(text, component_number=None):
         broadcast_components = driver.find_elements_by_class_name('broadcast-component')
         if component_number == None:
             component_number = len(broadcast_components)-1
+        else:
+            component_number = int(component_number)-1
         component = broadcast_components[component_number]
         while not component.is_displayed() and component_number >= 0:
             component_number -= 1
