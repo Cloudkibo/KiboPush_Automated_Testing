@@ -34,7 +34,7 @@ action_step = {
     "gallery_upload-": gallery_upload,
     "send_broadcast_templates": send_broadcast_templates,
     "clear_field": clear_field,
-    "add_menu-": add_menu,
+    "add_menu": add_menu,
     "close_menu-": close_menu
 }
 
@@ -75,7 +75,6 @@ def mapping():
         test_status[row_number[index]] = []
         temp_remarks = ''
         for category in config.user_category:
-            print category
             log('\n')
             log('======== Category : %s ========' % category)
             last_action = 'Success'

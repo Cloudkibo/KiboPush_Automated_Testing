@@ -10,7 +10,7 @@ def publish_to_slack(summary):
   passed = summary['tests_passed']
   failed = summary['tests_failed']
 
-  message =  "An Automated Testing run was just completed. \nPASSED: %s \nFAILED: %s\nCheck report for details." % (passed, failed)
+  message =  "An Automated Testing run was just completed.\n Categories: %s \n Account: %s \nPASSED: %s \nFAILED: %s\nCheck report for details." % (config.categories, config.user_category, passed, failed)
 
   my_file = {
     'file' : ('report.pdf', open('report.pdf', 'rb'), 'pdf')

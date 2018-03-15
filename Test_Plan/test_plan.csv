@@ -90,21 +90,24 @@ SIDEBAR,,,,,,,,,,,,,,,
 NAVBAR,,,,,,,,,,,,,,,
 11,Navbar,Logout,"1. Login
 ",User should log out,All,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
- PAGES,,,,,,,,,,,,,,,
-12,Facebook Pages,Display list of Facebook pages,"1- Login 
+12,Navbar,Open FAQ,"1. Login
+2. Click Profile
+3. Click FAQ",FAQs should open up in a new tab,All,Yes,,Failed,Failed,Failed,Failed,FAQs don't open in a new tab,#2203,13 March 2018,Ahsan
+MANAGE PAGES,,,,,,,,,,,,,,,
+12,Manage Pages,Display list of Facebook pages,"1- Login 
 2- Go to Manage Pages
 ",Display list of Facebook pages,New,Yes,High,Passed,Passed,NA,Passed,,,7 Mar 2018,Automated
-13,Facebook Pages,Updating List of Facebook Pages,"1. Login
+13,Manage Pages,Updating List of Facebook Pages,"1. Login
 2. Check the pages you can add.
 3. Page on Facebook
 4. New page should be shown on manage pages screen",The page should be shown on the list,All,No,High,Passed,Passed,NA,Passed,,,13 Feb 2018,Dayem
-14,Facebook Pages,Add Facebook Page,"1- Login 
+14,Manage Pages,Add Facebook Page,"1- Login 
 2- Go to Manage Pages
 3. Click on Add Pages
 4. Click on Connect
 5- Click on Done
 ",Successfully added a new Facebook page,All,No,High,Passed,Passed,NA,Passed,,,8 Mar 2018,Ahsan
-15,Facebook Pages,Delete Facebook Page,"1- Login 
+15,Manage Pages,Delete Facebook Page,"1- Login 
 2- Go to Manage Pages
 3. Click on Add Pages
 4- Click on Disconnect
@@ -119,7 +122,7 @@ NAVBAR,,,,,,,,,,,,,,,
 7. Write ""This is sample broadcast""
 8. Click on Next
 8. Click on Send
-9. Verify Alert",Text mesage should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+9. Verify Alert",Text mesage should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 17,Broadcasts,Sent Test Broadcast,"1. Login 
 2. Go to Broadcasts
 3. Click on Create New Broadcast
@@ -128,7 +131,7 @@ NAVBAR,,,,,,,,,,,,,,,
 6. Click on Enter your text...
 7. Write ""This is sample broadcast""
 8. Click on Send Test
-9. Verify Alert",Test Broadcast should be sent,Repeat,No,,Passed,Passed,Passed,Passed,,,7 Mar 2018,Ahsan
+9. Verify Alert",Test Broadcast should be sent,Repeat,No,,Passed,Passed,Passed,Passed,,,13 March 2018,Ahsan
 16,Broadcasts,Send a text message with button,"1. Login 
 2. Go to Broadcasts
 3. Click on Create New Broadcast
@@ -144,7 +147,7 @@ NAVBAR,,,,,,,,,,,,,,,
 13 Click on Done
 8. Click on Next
 14. Click on Send
-15. Verify Alert",Text mesage with button should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+15. Verify Alert",Text mesage with button should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 17,Broadcasts,Send a message with image attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -153,7 +156,7 @@ NAVBAR,,,,,,,,,,,,,,,
 6. Upload Image
 8. Click on Next
 7. Click on Send
-8. Verify Alert",Image should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+8. Verify Alert",Image should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 18,Broadcasts,Send a message with card attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -172,7 +175,7 @@ NAVBAR,,,,,,,,,,,,,,,
 16. Click on Done
 8. Click on Next
 11. Click on Send
-12. Verify Alert",Card should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+12. Verify Alert",Card should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Add button pop up menu,2215,13 March 2018,Automated
 19,Broadcasts,Send a message with Gallery attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -203,7 +206,7 @@ NAVBAR,,,,,,,,,,,,,,,
 28. Click on Done
 8. Click on Next
 29. Click on Send
-30. Verify Alert",Gallery should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Automated test has to be fixed,#49,7 Mar 2018,Automated
+30. Verify Alert",Gallery should broadcated to all the customers,Repeat,Yes,High,Failed,Failed,Failed,Failed,Add button pop menu is empty,2214,13 March 2018,Automated
 20,Broadcasts,Send a message with audio attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -212,7 +215,7 @@ NAVBAR,,,,,,,,,,,,,,,
 5. Upload Audio
 8. Click on Next
 6. Click on Send
-7. Verify Alert",Audio should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+7. Verify Alert",Audio should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 21,Broadcasts,Send a message with video attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -221,7 +224,7 @@ NAVBAR,,,,,,,,,,,,,,,
 5. Upload Video
 8. Click on Next
 6. Click on Send
-7. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+7. Verify Alert",Video should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 22,Broadcasts,Send a message with File attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -230,7 +233,7 @@ NAVBAR,,,,,,,,,,,,,,,
 5. Upload file
 8. Click on Next
 6. Click on Send
-7. Verify Alert",File should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
+7. Verify Alert",File should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 23,Broadcasts,Send a message with link attached,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -246,7 +249,7 @@ NAVBAR,,,,,,,,,,,,,,,
 13. Click on Done
 8. Click on Next
 14. Click on Send
-15. Verify Alert",Link should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
+15. Verify Alert",Link should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 24,Broadcasts,Send a mixed message,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
@@ -259,20 +262,36 @@ NAVBAR,,,,,,,,,,,,,,,
 8. Click on Next
 9. Click on Send
 10. Verify Alert
-",Mixed message should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
+",Mixed message should broadcated to all the customers,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 25,Broadcasts,Show list of Broadcasts,"1- Login
 2- Go to Broadcasts
-3. Verify Table",List of Broadcast should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+3. Verify Table",List of Broadcast should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 26,Broadcasts,Show list of Broadcast Templates,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4. Click on Use Template
-",List of Broadcast Templates should be shown,,Yes,,Passed,Passed,Passed,Passed,,,8 Mar 2018,Automated
+",List of Broadcast Templates should be shown,,Yes,,Passed,Passed,Passed,Passed,,,13 March 2018,Automated
 27,Broadcasts,Send Template Broadcast,"1- Login 
 2- Go to Broadcasts
 3- Click on Create New Broadcast
 4. Click on Use Template
 5. Send all Broadcasts",All Template Broadcast would be sent,Repeat,Yes,,Failed,Failed,Failed,Failed,"Automated Testing Issue, when clicking on ""Use Template""",#51,7 Mar 2018,Automated
+,Broadcasts,Send broadcast based on the target: 'Applying Basic Segmentation',"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast or Use Template
+4-Create Message
+5-Click Next
+6-Click on 'Apply Basic Segmentation'
+7-Select Gender
+8-Select Locale
+",Broadcasts should be sent to targetted subscribers based on gender and locale,,,,NA,NA,NA,NA,,,,
+,Broadcasts,Send broadcast based on the target: 'Use Segmented Subscribers List',"1- Login 
+2- Go to Broadcasts
+3- Click on Create New Broadcast or Use Template
+4-Create Message
+5-Click Next
+6-Click on 'Use Segmented Subscribers List'
+7-Select List",Broadcasts should be sent to the targetted subscribers in the list,,,,NA,NA,NA,NA,,,,
 SUBSCRIBERS,,,,,,,,,,,,,,,
 28,Subscribers,Subscribers List,"1- Login 
 2- Go to Subscribers
@@ -303,7 +322,7 @@ SURVEYS,,,,,,,,,,,,,,,
 16. Click on choice 3
 17- Write third
 18. Click on Create Survey
-19. Click on Send",Survey should be created and sent,Repeat,Yes,High,Failed,Failed,Failed,Failed,No placeholder text,#2141,7 Mar 2018,Automated
+19. Click on Send",Survey should be created and sent,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 31,Surveys,Survey List,"1- Login
 2- Go to Surveys",Survey list should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 32,Surveys,Send Survey,"1. Login
@@ -328,6 +347,20 @@ SURVEYS,,,,,,,,,,,,,,,
 3- Click on Create survey
 4. Click on Use template
 5. Click on View Template ",Selected template survey info should be displayed,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+,Surveys,Send Survey based on the target: 'Applying Basic Segmentation',"1- Login 
+2- Go to Surveys
+3- Click on Create survey
+4-Create new Survey or Use a Template
+5-Click on 'Apply Basic Segmentation'
+6-Select Gender
+7-Select Locale
+",Survey should be sent to targetted subscribers based on gender and locale,,,,,,,,,,,
+,Surveys,Send Survey based on the target: 'Use Segmented Subscribers List',"1- Login 
+2- Go to Surveys
+3- Click on Create survey
+4- Create new Survey or Use a Template
+5- Click on 'Use Segmented Subscribers List'
+6- Select List",Survey should be sent to the targetted subscribers in the list,,,,,,,,,,,
 WORKFLOWS,,,,,,,,,,,,,,,
 37,Workflows,Workflows List,"1- Login
 2- Go to Workflows",List of workflows should be shown,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
@@ -379,6 +412,26 @@ POLLS,,,,,,,,,,,,,,,
 3- Click on Create Poll
 4- Click on Use template
 5. Click on View Template",Selected poll template should be displayed,Repeat,Yes,High,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
+45,Polls,Send Poll based on the target: 'Applying Basic Segmentation',"1- Login 
+2- Go to Poll
+3- Click on Create Poll
+4-Click on Use a Template
+5- Click on Edit Template
+6. click on select pages
+7. press enter
+8. click on select gender
+9. press enter
+10. click on select locale
+11. press enter
+12. Click on Save
+13. Click on Send
+",Poll should be sent to targetted subscribers based on gender and locale,,,,,,,,,,,
+,Polls,Send Poll based on the target: 'Use Segmented Subscribers List',"1- Login 
+2- Go to Poll
+3- Click on Create Poll
+4- Create new Poll or Use a Template
+5- Click on 'Use Segmented Subscribers List'
+6- Select List",Pollshould be sent to the targetted subscribers in the list,,,,,,,,,,,
 ANALYTICS,,,,,,,,,,,,,,,
 45,Analytics,Display Analytics/ Statistics,"1- Login 
 2- Go to Analytics
@@ -422,25 +475,26 @@ Links don’t send properly",#1654, ,Baqar
 PERSISTENT MENU,,,,,,,,,,,,,,,
 54,Persistent Menu,Add Menu Items,"1. Login
 2. Go to Persistent Menu
-3. Add Menu 0
-4. Click on Save Menu",The new menu option should be added,Repeat,Yes,High,NA,NA,NA,Passed,,, ,Baqar
+3. Add Menu
+",The new menu option should be added,Repeat,Yes,High,NA,NA,NA,Passed,,, ,Baqar
 59,Persistent Menu,Remove Menu Item,"1. Login
 2. Go to Persistent Menu
+3. Add Menu
 3. Close Menu 0
-4. Click on Save Menu",Menu item should be removed,Repeat,Yes,,NA,NA,NA,Passed,,, ,Baqar
+",Menu item should be removed,Repeat,Yes,,NA,NA,NA,Passed,,, ,Baqar
 55,Persistent Menu,Add Web Url,"1. Login
 2. Go to Persistent Menu
 3. Click on First Menu
 4. Clear field
 5. Write Google 
 4. Click on Set web url 
-5. Click on placeholder
+5. Click on Enter URL
 5. write www.google.com
-6. Click Done
+6. Click on  Done
 7. Click on Save Menu",The type of the menu item should be set to web_url and url should be saved,Repeat,Yes,High,Failed,Failed,Failed,Failed,placeholder required.,#60, ,Baqar
 56,Persistent Menu,Add Nested Menus,"1. Login
 2. Go to Persistent Menu
-3. Add Menu 0
+3. Add Menu
 4. Click on Second Menu
 5. Clear field
 6. Write Layer 1
@@ -640,18 +694,42 @@ TEMPLATES,,,,,,,,,,,,,,,
 6. Click on Create
 ",The broadcast should be created,Repeat,Yes,,NA,NA,NA,Passed,,,7 Mar 2018,Ahsan
 SETTINGS,,,,,,,,,,,,,,,
+,Settings,Welcome Message,"1. Login 
+2. Go to Settings
+3. Click on Welcome Message
+4. Click on Disabled
+5. Click on Enabled","User is able to see the switch of 
+enable and disable welcome message 
+for his connected pages. 
+He can see view and edit buttons for welcome message",Repeat,Yes,,Passed,Passed,Passed,Passed,,,,
+,Settings,Edit Welcome Message,"1. Login 
+2. Go to Settings
+3. Click on Welcome Message
+4. Click on 'Edit Message'
+5. Click on Save
+6. Click on Back","User sees a default welcome message.
+User can edit or create a new welcome message
+Click on 'Save' to save welcome message
+Click on 'Back' to go back to settings screen - 'Welcome Message'",Repeat,Yes,,Passed,Passed,Passed,Passed,,,,
+,Settings,View Welcome Message,"1. Login 
+2. Go to Settings
+3. Click on Welcome Message
+4. Click on 'View Message'
+5. Click on Back","User is able to preview the welcome message for his page.
+'Back' takes user to Settings- Welcome Message screen.",Repeat,Yes,,Passed,Passed,Passed,Passed,,,,
+,Settings,Change Greeting text,"1. Login 
+2. Go to Settings
+3. Click on Greeting Text
+4. Click on getting started
+5. Clear Field
+6. Write Tap on getting started. Greeting text updated
+7. Click on Save",User can change greeting text and save it,Repeat,Yes,,Passed,Passed,Passed,Passed,,,,
 83,Settings,Get HTML code,"1. Login
 2. Go to Settings
 3. Click on HTML Widget
 4. Choose Choose Page
 5. Click on Send on Messenger
 6. Write My button",Button HTML should be generated,Repeat,Yes,Medium,Passed,Passed,Passed,Passed,,,7 Mar 2018,Ahsan
-MESSENGER LINK,,,,,,,,,,,,,,,
-84,Share,Copy the Page Messanger link,"1. Login
-2. Go to Subscribers
-3. Click on Invite Subscribers
-3. Choose Change Page
-4. Click on Copy",Messenger link should be copied,Repeat,Yes,Medium,Passed,Passed,Passed,Passed,,,7 Mar 2018,Automated
 MEMBERSHIP,,,,,,,,,,,,,,,
 85,Membership,Invite agent to join KiboPush.,"1. Login
 2. Click on Invite Members
@@ -770,22 +848,162 @@ Wizard,,,,,,,,,,,,,,,
 10. Write www.google.com
 11. Click on Done 
 12. Click on Save",Successfully saved the persistent menu,New,Yes,,NA,NA,NA,Passed,,,,
-WELCOME MESSAGE,,,,,,,,,,,,,,,
-,Welcome Message,Welcome Message,"1. Login 
-2. Click on Settings on Main Menu
-3. Click on Welcome Message","User is able to see the switch of 
-enable and disable welcome message 
-for his connected pages. 
-He can see view and edit buttons for welcome message",New,,,,,,,,,,
-,Welcome Message,Edit Welcome Message,"1. Login 
-2. Click on Settings on Main Menu
-3. Click on Welcome Message
-4. Click on 'Edit Message'","User sees a default welcome message.
-User can edit or create a new welcome message
-Click on 'Save' to save welcome message
-Click on 'Back' to go back to settings screen - 'Welcome Message'",New,,,,,,,,,,
-,Welcome Message,View Welcome Message,"1. Login 
-2. Click on Settings on Main Menu
-3. Click on Welcome Message
-4. Click on 'View Message'","User is able to preview the welcome message for his page.
-'Back' takes user to Settings- Welcome Message screen.",New,,,,,,,,,,
+Invite Using Phone Number,,,,,,,,,,,,,,,
+,Invite Using Phone Number,"Invite Customers by 
+Uploading CSV File","1. Login 
+2. Click on Invite Using Phone Number
+3. Change Page
+4. Click on Upload CSV File
+5. Choose a CSV file with columns 'names' and 'phone_numbers '
+6. Click on Invitation Message
+7. Change the Invitation Message
+8. Click on Submit","File Uploaded Successfully.
+Phone numbers will be sent 
+invitation message on facebook.",,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,"Invite Customers by 
+Uploading CSV File","1. Login 
+2. Click on Invite Using Phone Number
+3. Click on Upload CSV File
+4. Choose a csv file with columns: 'name' and 'phone_numbers'
+5. Click on Invitation Message
+6. Change the Invitation Message
+7. Click on Submit","1.Phone numbers will be sent 
+invitation message on facebook.
+2. New Customer List will be added",,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,"Invite Customers by 
+Uploading CSV File","1. Login 
+2. Click on Invite Using Phone Number
+3. Click on Upload CSV File
+4. Choose a file with a name similar to the file uploaded earlier
+5. Verify alert
+6. Click on Yes button for the alert 
+7. Change the Invitation Message
+8. Click on Submit","1.Phone numbers will be sent 
+ invitation message on facebook.
+2. Customer List with a similar name will be updated",,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,"Invite customers by
+manually entering phone
+numbers","1. Login 
+2. Click on Invite Using Phone Number
+3. Click on Enter Phone Number Manually
+4. Enter Phone Numbers
+5. Click on Invitation Message
+6. Change the Invitation Message
+7. Click on Submit","1.Phone numbers will be sent 
+invitation message on facebook.
+2. Customer List with name 'Other'
+will be updated.",,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,View customer lists,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on View Customers Lists","1. View all the lists user has uploaded
+2. Numbers manually written will be added in 'Other' list",,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,Export Records,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on 'Download Sample CSV file'
+","1. Sample file will be downloaded 
+showing names and phone numbers 
+columns",,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,View customer list details,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on View Customers Lists
+4. Click on View of a list
+","1.Susbcriber Information will be seen for numbers who have subscribed
+2. View customers information with pending subscription",,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,Delete customer list,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on View Customers Lists
+4. Click on Delete of a list
+",List entry will be deleted,,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,Search subscriber information,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on View Customers Lists
+4. Click on View of a list
+5. Enter xxx on Search
+",1.Subscriber data will be filtered,,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,Search non subscriber phone numbers,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on View Customers Lists
+4. Click on View of a list
+5. Enter <phone numbers> on Search
+",1.Pending Subscribers data will be filtered,,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,Export Records,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on View Customers Lists
+4. Click on View of a list
+5. Click on Export Records in CSV file
+",1.Record downloaded in csv file,,,,NA,NA,NA,NA,,,,
+,Invite Using Phone Number,Export Records,"1. Login 
+2. Click on Invite Using Phone Number
+3. Click on View Customers Lists
+4. Click on View of a list
+5. Click on Export Records in CSV file
+",1.Record downloaded in csv file,,,,NA,NA,NA,NA,,,,
+,Segment Subscribers,,,,,,,,,,,,,,
+,Segment Subscribers,"View user uploaded lists
+through customer matching","1. Login 
+2. Go to Segment Subscribers
+
+","1.The lists which were uploaded
+by the user using 'invite using phone numbers screen' and has subscribers will be shown.
+2. These lists can be viewed and deleted. But cannot be edited.",,Yes,,NA,NA,NA,NA,,,,
+,Segment Subscribers,View segmented subscribers list,"1. Login 
+2. Click on Segment Subscribers
+
+","1.User is able to see any list
+created earlier .
+2.User is able to see lists that were
+uploaded using 'Invite By Phone Numbers' 
+and has subscribers in it.",,No,,NA,NA,NA,NA,,,,
+,Segment Subscribers,Create a list by segmenting through all subscribers,"1. Login 
+2. Click on Segment Subscribers
+3. Click on Create Segmented Subscribers List
+4. Enter List Name
+5. Select Condition
+6. Select Criteria
+7. Enter Text 
+8. Add or Remove conditions
+9.Click Save","1.A new list will be created
+from all subscribers based on the condition.
+2. In case condition returns an empty list, an alert will be shown",,,,NA,NA,NA,NA,,,,
+,Segment Subscribers,Create a list by segmenting using an existing list,"1. Login 
+2. Click on Segment Subscribers
+3. Click on Segment an exisiting list
+4. Select List
+4. Enter List Name
+5. Select Condition
+6. Select Criteria
+7. Enter Text 
+8. Add or Remove conditions
+9.Click Save","1.A new list will be created
+from subscribers of the parent list, based on the condition.
+2. In case condition returns an empty list, an alert will be shown",,,,NA,NA,NA,NA,,,,
+,Segment Subscribers,View subscriber list details,"1. Login 
+2. Click on Segment Subscibers
+3. Click on View of a list
+","Susbcriber Information will be seen for the list
+",,,,NA,NA,NA,NA,,,,
+,Segment Subscribers,Delete subscriber list,". Login 
+2. Click on Segment Subscibers
+3. Click on Delete of a list",List entry will be deleted,,,,NA,NA,NA,NA,,,,
+,Segment Subscribers,Search subscriber information,"1. Login 
+2. Click on Segment Subscriber
+3. Click on View of a list
+4. Enter xxx on Search
+",Subscriber data will be filtered,,,,NA,NA,NA,NA,,,,
+,Segment Subscribers,Export Records,"1. Login 
+2. Click on Segment Subscriber
+3. Click on View of a list
+4. Click on Export Records in CSV file
+",Record downloaded in csv file,,,,NA,NA,NA,NA,,,,
+,Segment Subscribers,Edit a segmented subscriber list,"1. Login 
+2. Click on Segment Subscribers
+3. Click on Edit of a list
+4. Change List Name
+5. Change Condition
+6. Change Criteria
+7. Change Text 
+8. Add or Remove conditions
+9.Click Update
+","1.List will be updated
+from subscribers of the parent list, based on the condition.
+2. In case condition returns an empty list, an alert will be shown",,,,NA,NA,NA,NA,,,,

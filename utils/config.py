@@ -21,24 +21,26 @@ categorized = False
 categories = [
 "user authentication",
 "sidebar",
-"facebook pages",
+"navbar",
 "broadcasts",
 "subscribers",
 "surveys",
 "workflows",
 "polls",
 "settings",
+"wizard",
 "templates",
 "analytics",
-"navbar",
+"manage pages",
 "live chat",
-"main menu",
+"persistent menu",
 "auto-posting",
 "membership",
 "operational dashboard",
-"wizard",
-"welcome message"
+"segment subscribers",
+"invite using phone number"
 ]
+
 
 # Types of user categories to test
 user_category = ['buyer', 'admin', 'agent', 'individual', '0sub']

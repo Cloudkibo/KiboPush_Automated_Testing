@@ -38,7 +38,7 @@ language_action = {
     "gallery page ": "gallery_upload-",
     "send all broadcasts": "send_broadcast_templates",
     "clear field" : "clear_field",
-    "add menu " : "add_menu-",
+    "add menu" : "add_menu",
     "close menu " : "close_menu-"
 
 }

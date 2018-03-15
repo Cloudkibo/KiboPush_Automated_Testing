@@ -749,7 +749,7 @@ def verify_GIF_sent(gif_ID):
         return False
 
 def verify_sticker_sent(sticker_ID):
-     """
+    """
     Verifies whether the sticker was sent
 
     Parameters:
