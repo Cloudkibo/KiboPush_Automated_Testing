@@ -414,8 +414,8 @@ def choose_select(select_label, select_item=None):
 
 def broadcast_upload(type, component_number=None):
     try:
+        broadcast_components = driver.find_elements_by_class_name('broadcast-component')
         if component_number == None:
-            broadcast_components = driver.find_elements_by_class_name('broadcast-component')
             component_number = len(broadcast_components)-1
         else:
             component_number = int(component_number)-1
