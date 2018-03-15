@@ -21,7 +21,11 @@ elif platform.system() == 'Windows':
 WAIT_TIME = 1# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
 
+
 def open_new_window():
+    """
+    Opens a new chrome window
+    """
     if platform.system() == 'Darwin':
         new_driver = webdriver.Chrome('driver/macos/chromedriver', chrome_options=chrome_options)
     elif platform.system() == 'Linux':
@@ -31,9 +35,17 @@ def open_new_window():
     return new_driver
 
 def wait(wait_time=WAIT_TIME):
+    """
+    Suspends execution for the given number of seconds
+    Keyword arguments:
+    wait_time -- number of seconds to wait (default 1.0)
+    """
     time.sleep(wait_time)
 
 def open_kibopush():
+    """
+    Opens staging.kibopush.com
+    """
     try:
         driver.get('https://staging.kibopush.com/')
         wait()
@@ -41,7 +53,13 @@ def open_kibopush():
         return "Error: " + str(e)
     return "Success"
 
-def open_facebook(account_type='agent'):
+def open_facebook(account_type='buyer'):
+    """
+    Opens Facebook account for a given account type
+    Keyword arguments:
+    -----------------
+    account_type (string): could be 'agent', 'admin', 'buyer' or 'individual' (default 'buyer')
+    """
     try:
         facebook_driver = open_new_window()
         facebook_driver.get("https://www.facebook.com/")
@@ -62,6 +80,9 @@ def open_facebook(account_type='agent'):
 
 
 def delete_poll_templates():
+    """
+    Deletes all poll templates from templates page
+    """
     try:
         poll_templates = driver.find_element_by_class_name('poll-templates')
         template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
@@ -76,6 +97,9 @@ def delete_poll_templates():
     return "Success"
 
 def delete_survey_templates():
+    """
+    Deletes all survey templates from templates page
+    """
     try:
         survey_templates = driver.find_element_by_class_name('survey-templates')
         template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
@@ -90,6 +114,9 @@ def delete_survey_templates():
     return "Success"
 
 def delete_broadcast_templates():
+    """
+    Deletes all broadcast templates from templates page
+    """
     try:
         broadcast_templates = driver.find_element_by_class_name('broadcast-templates')
         template_rows = poll_templates.find_elements_by_class_name('m-datatable__row--even')
@@ -104,6 +131,9 @@ def delete_broadcast_templates():
     return "Success"
 
 def verify_poll_templates_table():
+    """
+    Verifies whether there are entries in poll templates (in templates page)
+    """
     try:
         poll_templates = driver.find_element_by_class_name('poll-templates')
         return verify_table(scope=poll_templates)
@@ -111,6 +141,9 @@ def verify_poll_templates_table():
         return "Error: " + str(e)
 
 def verify_survey_templates_table():
+    """
+    Verifies whether there are entries in survey templates (in templates page)
+    """
     try:
         survey_templates = driver.find_element_by_class_name('survey-templates')
         return verify_table(scope=survey_templates)
@@ -118,6 +151,9 @@ def verify_survey_templates_table():
         return "Error: " + str(e)
 
 def verify_broadcast_templates_table():
+    """
+    Verifies whether there are entries in broadcast templates (in templates page)
+    """
     try:
         broadcast_templates = driver.find_element_by_class_name('broadcast-templates')
         return verify_table(scope=broadcast_templates)
@@ -125,6 +161,9 @@ def verify_broadcast_templates_table():
         return "Error: " + str(e)
 
 def close_help_popup():
+    """
+    Closes messenger help popup
+    """
     try:
         driver.switch_to.frame(driver.find_element_by_xpath('//iframe[contains(@src, "https://www.facebook.com/v2.12/plugins/customerchat")]'))
         close_button = driver.find_element_by_class_name('closeButtonContainer')
@@ -136,6 +175,12 @@ def close_help_popup():
     return "Success"
 
 def screenshot(filename):
+    """
+    Screenshots the webpage
+    Parameters:
+    ----------
+    filename (string) : name which to save the screenshot file.
+    """
     try:
         driver.save_screenshot('Screenshots/'+filename+'.png')
     except:
@@ -143,6 +188,11 @@ def screenshot(filename):
     return "Screenshot succesfully saved"
 
 def login(account_type='buyer'):
+    """
+    Logs in a user of a particular account type (from initial login screen of KiboPush)
+    Keyword arguments:
+    account_type (string) : could be 'agent', 'admin', 'buyer' or 'individual' (default 'buyer')
+    """
     try:
         click_on('login')
         team_account = account_type == 'agent' or account_type == 'admin' or account_type == 'buyer'
@@ -179,6 +229,12 @@ def login(account_type='buyer'):
     return "Success"
 
 def close_menu(x):
+    """
+    Closes the xth menu (from top to down including submenus and nested menus) (from persistent menu page)
+    Parameters:
+    ----------
+    x (string) : number of the menu from top to bottom (starting from 1)
+    """
     try:
         x = int(x)
         exes = driver.find_elements_by_class_name('fa-times')
@@ -193,9 +249,11 @@ def close_menu(x):
     return "Success"
 
 
-def add_menu(x):
+def add_menu():
+    """
+    Adds a menu item (from persistent menu page)
+    """
     try:
-        x = int(x)
         plus = driver.find_element_by_class_name('fa-plus')
         exes = driver.find_elements_by_class_name('fa-times')
         num_of_menu_items = len(exes)
@@ -210,6 +268,9 @@ def add_menu(x):
     return "Success"
 
 def send_broadcast_templates():
+    """
+    Sends all broadcast templates
+    """
     try:
         templates = driver.find_element_by_class_name('m-widget4')
         template_buttons = templates.find_elements_by_class_name('m-btn')
@@ -230,6 +291,12 @@ def send_broadcast_templates():
     return "Success"
 
 def press_tab(times_to_press="1"):
+    """
+    Presses tab the specified number of times
+    Keyword Arguments:
+    -----------------
+    times_to_press (string): number of times to press tab (default '1')
+    """
     try:
         for i in range(int(times_to_press)):
             focused_element = driver.switch_to.active_element
@@ -240,27 +307,19 @@ def press_tab(times_to_press="1"):
     return "Success"
 
 
-# def test_survey_templates():
-#     try:
-#         templates = driver.find_element_by_class_name('m-widget4')
-#         template_buttons = templates.find_elements_by_class_name('m-btn')
-#         for i in range(len(template_buttons)):
-#             templates = driver.find_element_by_class_name('m-widget4')
-#             button = templates.find_elements_by_class_name('m-btn')[i]
-#             button.click()
-#             wait()
-#             click_on('create survey')
-#             wait()
-#             if verify_alert() == "Success":
-#                 click_on('back')
-#             else:
-#                 return "Error: broadcast didn't send"
-#     except Exception as e:
-#         return "Error: " + str(e)
-#     return "Success"
-
 
 def click_on(name, scope=driver):
+    """
+    Clicks on the element with specified text.
+    Preference is in the following order: anchor links, buttons, input placeholders, and then remaining element from the top of the page
+    Parameters:
+    ----------
+    name (string) : the text of what to click on
+
+    Keyword Arguments
+    -----------------
+    scope (WebElement): which element to search inside (default driver which is the entire page)
+    """
     try:
         #print('click_on')
         name = name.lower().strip()
@@ -324,6 +383,9 @@ def click_on(name, scope=driver):
     return "Error: no element with text '" + name +"' found"
 
 def clear_field():
+    """
+    Clears the content from the currently focused input field
+    """
     try:
         focused_element = driver.switch_to.active_element
         focused_element.clear()
@@ -333,6 +395,9 @@ def clear_field():
     return "Success"
 
 def click_on_broadcast_title():
+    """
+    Clicks on the edit broadcast title icon
+    """
     try:
         title = driver.find_element_by_id('convoTitle')
         title.click()
@@ -341,6 +406,9 @@ def click_on_broadcast_title():
     return "Success"
 
 def press_enter():
+    """
+    Presses enter on the currently focused element
+    """
     try:
         focused_element = driver.switch_to.active_element
         focused_element.send_keys(Keys.ENTER)
@@ -350,6 +418,9 @@ def press_enter():
     return "Success"
 
 def logout():
+    """
+    Logs out the currently logged in user
+    """
     try:
         user_pic = driver.find_element_by_class_name('m-topbar__userpic')
         user_pic.click()
@@ -362,6 +433,9 @@ def logout():
 
 
 def sidebar_hamburger():
+    """
+    Clicks on the collapse/expand icon at the top of the sidebar
+    """
     try:
         collapsed = driver.find_element_by_class_name('m-aside-left--minimize')
         collapsed = True
@@ -386,11 +460,25 @@ def sidebar_hamburger():
         
 
 def sidebar_click(sidebar_item):
+    """
+    Clicks on an element with a certain text in the sidebar
+
+    Parameters
+    ----------
+    sidebar_item (string) : the text of the element to click on
+    """
     #print('sidebar_click')
     sidebar = driver.find_element_by_class_name('m-menu__nav')
     return click_on(sidebar_item, scope=sidebar)
 
 def write(text):
+    """
+    writes text on the currently selected element
+
+    Parameters
+    ----------
+    text (string): the text to write
+    """
     try:
         focused_element = driver.switch_to.active_element
         focused_element.send_keys(text)
@@ -400,6 +488,17 @@ def write(text):
     return "Success"
 
 def choose_select(select_label, select_item=None):
+    """
+    Clicks on the select element with a certain label and selects a certain option from the select dropdown
+
+    Parameters:
+    ----------
+    select_label (string): the label associated with the select element
+
+    Keyword Arguments:
+    -----------------
+    select_item (string): the option inside the select dropdown (default will select first item)
+    """
     try:
         if select_item is not None:
             label = driver.find_element_by_xpath("//*[contains(text(), '%s')]" % select_label)
@@ -413,6 +512,13 @@ def choose_select(select_label, select_item=None):
     return "Success"
 
 def broadcast_upload(type, component_number=None):
+    """
+    Uploads a file to particular broadcast component (in broadcast creation)
+
+    Keyword Arguments:
+    -----------------
+    component_number (string): the component number (from top to bottom starting from 1)
+    """
     try:
         broadcast_components = driver.find_elements_by_class_name('broadcast-component')
         if component_number == None:
@@ -428,6 +534,13 @@ def broadcast_upload(type, component_number=None):
         return "Error: " + str(e)
 
 def gallery_upload(page_number=None):
+    """
+    Uploads a file to a particular page in a gallery component (in broadcast creation)
+
+    Keyword Arguments:
+    -----------------
+    page_number (string) : the page number which to upload a file
+    """
     try:
         if page_number == None:
             pages = driver.find_elements_by_xpath('//div[@data-index]')
@@ -441,6 +554,18 @@ def gallery_upload(page_number=None):
         return "Error: " + str(e)
 
 def upload(type, wait_time=10, scope=driver):
+    """
+    Uploads a file to the first file input component on the page
+
+    Parameters:
+    ----------
+    type (string) : can be 'image', 'audio', 'video', 'file'
+
+    Keyword Arguments:
+    -----------------
+    wait_time (int): number of seconds to wait after hitting upload (default 10 seconds)
+    scope (WebElement): which element to search inside (default driver which is the entire page)
+    """
     try:
         attachment = scope.find_element_by_xpath('.//input[@type="file"]')
         if type == 'image':
@@ -459,6 +584,12 @@ def upload(type, wait_time=10, scope=driver):
     return "Success"
 
 def remove_broadcast_component(component_number=None):
+    """
+    Removes a particular broadcast component
+     Keyword Arguments:
+    -----------------
+    component_number (string): the component number (from top to bottom starting from 1)
+    """
     try:
         if component_number == None:
             broadcast_components = driver.find_elements_by_class_name('broadcast-component')
@@ -474,6 +605,17 @@ def remove_broadcast_component(component_number=None):
     return "Success"
     
 def click_on_broadcast_component(text, component_number=None):
+    """
+    Clicks on the text of a particular broadcast component
+
+    Parameters:
+    ----------
+    text: the text of which to click on
+
+    Keyword Arguments:
+    -----------------
+    component_number (string): the component number (from top to bottom starting from 1)
+    """
     try:
         broadcast_components = driver.find_elements_by_class_name('broadcast-component')
         if component_number == None:
@@ -492,6 +634,13 @@ def click_on_broadcast_component(text, component_number=None):
 
 
 def add_broadcast_component(component_name):
+    """
+    add broadcast component of a particular type
+
+    Parameters:
+    ----------
+    component_name (string): the content type to add (e.g text, image, card, etc.)
+    """
     try:
         click_on(component_name)
         wait()
@@ -500,6 +649,9 @@ def add_broadcast_component(component_name):
     return "Success"
 
 def gallery_next():
+    """
+    Goes to the next page of the gallery component
+    """
     try:
         next = driver.find_element_by_class_name('slick-next')
         next.click()
@@ -509,6 +661,9 @@ def gallery_next():
     return "Success"
 
 def gallery_prev():
+    """
+    Goes to the previous page of the gallery component
+    """
     try:
         prev = driver.find_element_by_class_name('slick-prev')
         prev.click()
@@ -518,6 +673,8 @@ def gallery_prev():
     return "Success"
 
 def select_emoji():
+    """Selects an emoji and puts it in the input box (Live Chat)"""
+    Selects
     try:
         emoji_icon = driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div[5]/div[3]')
         emoji_icon.click()
@@ -530,6 +687,7 @@ def select_emoji():
     return "Success"
 
 def send_sticker():
+    """Sends the first sticker in the sticker menu""" 
     try:
         sticker_icon = driver.find_element_by_xpath('//*[@data-tip="stickers"]')
         sticker_icon.click()
@@ -549,6 +707,7 @@ def send_sticker():
         return "Error: sticker wasn't sent"
 
 def remove_autoposting():
+    """Removes the first autoposting channel"""
     try:
         autopost_delete = driver.find_element_by_class_name('btn-outline-danger')
         autopost_delete.click()
@@ -559,6 +718,7 @@ def remove_autoposting():
     return "Success"
 
 def autopost_settings():
+    """Clicks on the edit settings of the first autoposting channel"""
     try:
         autopost_settings = driver.find_element_by_class_name('btn-outline-brand')
         autopost_settings.click()
@@ -568,6 +728,13 @@ def autopost_settings():
     return "Success"
 
 def verify_GIF_sent(gif_ID):
+    """
+    Verifies whether the GIF was sent
+
+    Parameters:
+    ----------
+    gid_ID: the id of the GIF
+    """
     try:
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
         gif = messages[-1].find_element_by_tag_name('img')
@@ -582,6 +749,13 @@ def verify_GIF_sent(gif_ID):
         return False
 
 def verify_sticker_sent(sticker_ID):
+     """
+    Verifies whether the sticker was sent
+
+    Parameters:
+    ----------
+    gid_ID: the id of the sticker
+    """
     try:
         messages = driver.find_elements_by_class_name('m-messenger__message-content')
         sticker = messages[-1].find_element_by_tag_name('img')
@@ -597,6 +771,9 @@ def verify_sticker_sent(sticker_ID):
 
 
 def send_GIF():
+    """
+    Sends a GIF (Live Chat)
+    """
     try:
         gif_icon = driver.find_element_by_xpath('//*[@data-tip="GIF"]')
         gif_icon.click()
@@ -615,9 +792,19 @@ def send_GIF():
         return "Error: GIF wasn't sent"
 
 def close_browser():
+    """
+    Closes the currently running browser
+    """
     driver.close()
 
 def verify_table(scope=driver):
+    """
+    Verifies if the table element has entries
+
+    Keyword Arguments:
+    -----------------
+    scope (WebElement): which element to search inside (default driver which is the entire page)
+    """
     try:
         table = scope.find_element_by_tag_name('table')
         entries = table.find_elements_by_class_name('m-datatable__row--even')
@@ -629,6 +816,9 @@ def verify_table(scope=driver):
          return "Error: " + str(e)
 
 def num_of_broadcast_components():
+    """
+    Returns the number of broadcast components currently being used
+    """
     try:
         broadcast_components = driver.find_elements_by_class_name('broadcast-component')
         return len(broadcast_components)
@@ -636,6 +826,9 @@ def num_of_broadcast_components():
         return "No Broadcast components"
 
 def verify_alert():
+    """
+    Checks if a successful alert is being shown
+    """
     try:
         success_alert = driver.find_element_by_xpath('//*[@class="css-rr2n0f" or @class="toast-title" or @class="alert-success"]')
         if (success_alert.is_displayed()):
@@ -647,6 +840,9 @@ def verify_alert():
         return "No Alert detected"
 
 def verify_failure():
+    """
+    Checks if a failure alert is being shown
+    """
     try:
         failure_alert = driver.find_element_by_class_name('css-1f1jd2h')
         if (failure_alert.is_displayed()):
@@ -658,6 +854,9 @@ def verify_failure():
 
 
 def download_phone_csv():
+    """
+    Downloads csv of phone numbers (in Invite using Phone Numebers)
+    """
     try:
         csv = driver.find_element_by_xpath('//*[@class="fa-download"]')
         csv.click()
@@ -667,6 +866,9 @@ def download_phone_csv():
     return "Success"
 
 def download_opdashboard_csv():
+    """
+    Downloads csv of users (in Operational Dashboard)
+    """
     try:
         csv = driver.find_element_by_xpath('//*[@id="content"]/div/div/div/div[2]/div/div[3]/div[2]/div/div[2]/div/div[2]/div[2]')
         csv.click()
@@ -676,6 +878,9 @@ def download_opdashboard_csv():
     return "Success"
 
 def send_thumbs_up():
+    """
+    Sends a thumbs up in Live Chat
+    """
     try:
         thumbs_up = driver.find_element_by_class_name('la-thumbs-o-up')
         thumbs_up.click()
