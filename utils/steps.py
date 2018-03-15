@@ -229,9 +229,9 @@ def send_broadcast_templates():
         return "Error: " + str(e)
     return "Success"
 
-def press_tab(times_to_press=1):
+def press_tab(times_to_press="1"):
     try:
-        for i in range(times_to_press):
+        for i in range(int(times_to_press)):
             focused_element = driver.switch_to.active_element
             focused_element.send_keys(Keys.TAB)
             wait()
@@ -418,7 +418,7 @@ def broadcast_upload(type, component_number=None):
             broadcast_components = driver.find_elements_by_class_name('broadcast-component')
             component_number = len(broadcast_components)-1
         else:
-            component_number = int(component_number)
+            component_number = int(component_number)-1
         component = broadcast_components[component_number]
         while not component.is_displayed() and component_number >= 0:
             component_number -= 1
@@ -427,7 +427,7 @@ def broadcast_upload(type, component_number=None):
     except Exception as e:
         return "Error: " + str(e)
 
-def gallery_upload( page_number=None):
+def gallery_upload(page_number=None):
     try:
         if page_number == None:
             pages = driver.find_elements_by_xpath('//div[@data-index]')
