@@ -1,6 +1,25 @@
+'''
+The Parser module tries to parse the language into an action.
+It reads every step of the testcase, and tries to find out an action based on the step, using a predefined dictionary.
+So a series of steps are therefore converted into a series of actions, which would be further processed by mapper.
+
+example:
+
+<language>: <action>
+"table exists" : "verify_table"
+
+Some action have a parameter attached to them, the parameters are extracted from the same original test written.
+
+example:
+
+"click on ": "click-"
+
+by above, the language "click on Foo" would be translated to "click-Foo"
+
+'''
 from reader import get_test
 import string
-# Key = Language. Value = Action
+# Key = Language- Value = Action
 # Check for the given language string in the step, and if it contains that string
 # It assigns it the appropriate action
 
@@ -45,6 +64,9 @@ language_action = {
 
 
 def get_param(action, step, language):
+    ''' 
+    This function extracts parameter from the natural language of the test case
+    '''
     if action[-1] != '-':
         return action
     else:
@@ -59,6 +81,10 @@ def get_param(action, step, language):
 
 
 def get_action(step):
+    '''
+    This function converts language into an action.
+    Marks the non-convertible function into either "Ambigous" or "Not Defined"
+    '''
     step = step.lower()
     action = "Not Defined"
     # To check for ambiguity, whether one step is translated to multiple action
@@ -76,6 +102,9 @@ def get_action(step):
 
 
 def criteria(test):
+    '''
+    Removes Ambigious and Not Defined Tests
+    '''
     errors = ['Ambigous', 'Not Defined']
     for error in errors:
         if test[-1] == error:
@@ -84,6 +113,9 @@ def criteria(test):
 
 
 def criteria_simple(test):
+    '''
+    Removes Ambigious and Not Defined Tests
+    '''
     errors = ['Ambigous', 'Not Defined']
     for error in errors:
         if test == error:
@@ -92,6 +124,9 @@ def criteria_simple(test):
 
 
 def remove_incomplete(all_test):
+    '''
+    Takes a list, and prune it to remove Ambigous and Undefined test cases
+    '''
     pruned_list = [x for x in all_test if criteria(x)]
     return pruned_list
 

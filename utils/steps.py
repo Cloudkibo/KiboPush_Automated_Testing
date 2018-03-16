@@ -1,3 +1,13 @@
+'''
+This modules covers the detailed implementation of the functions being used to carry out the test cases.
+
+This modules provides an High level API to selenium way of interacting with the browser.
+The functions are general enough to accomodate an array of usage (click_on("String")),
+or sometimes designed for a specifc need, to cater a single purpose ( gallery_next() )
+
+The purpose and usage of functions are defined.
+'''
+
 from selenium import webdriver
 import unicodecsv as csv
 import platform

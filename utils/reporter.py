@@ -5,26 +5,30 @@ import requests
 from reader import get_rows
 import config
 
+
 def publish_to_slack(summary):
 
   passed = summary['tests_passed']
   failed = summary['tests_failed']
 
-  message =  "An Automated Testing run was just completed.\n Categories: %s \n Account: %s \nPASSED: %s \nFAILED: %s\nCheck report for details." % (config.categories, config.user_category, passed, failed)
+  message = "An Automated Testing run was just completed.\n Categories: %s \n Account: %s \nPASSED: %s \nFAILED: %s\nCheck report for details." % (
+      config.categories, config.user_category, passed, failed)
 
   my_file = {
-    'file' : ('report.pdf', open('report.pdf', 'rb'), 'pdf')
+      'file': ('report.pdf', open('report.pdf', 'rb'), 'pdf')
   }
 
-  payload={
-    "initial_comment": message,
-    "filename":"Report.pdf", 
-    "token": config.bot_token, 
-    "channels":['#automated-testing'], 
+  payload = {
+      "initial_comment": message,
+      "filename": "Report.pdf",
+      "token": config.bot_token,
+      "channels": ['#automated-testing'],
   }
 
-  r = requests.post("https://slack.com/api/files.upload", params=payload, files=my_file)
+  r = requests.post("https://slack.com/api/files.upload",
+                    params=payload, files=my_file)
   print(r)
+
 
 def generate_report(results, summary, file_name='report'):
   options = {
@@ -41,19 +45,18 @@ def generate_report(results, summary, file_name='report'):
     status_headings = ''
     for category in config.user_category:
       status_headings += '<th class="text-centered">%s status</th>' % category
-      
-      if result[category+'_status'] == 'Passed':
-        result[category+'_color'] = success_color
+
+      if result[category + '_status'] == 'Passed':
+        result[category + '_color'] = success_color
       else:
-        result[category+'_color'] = failure_color
-        
-      result['statuses'] += '<td bgcolor=%s>%s</td>' % (result[category+'_color'], result[category+'_status'])
+        result[category + '_color'] = failure_color
 
+      result['statuses'] += '<td bgcolor=%s>%s</td>' % (
+          result[category + '_color'], result[category + '_status'])
 
-    
     # if 'buyer_status' in result and result['buyer_status'] == 'Passed':
     #   result['buyer_color'] = success_color
-    # else: 
+    # else:
     #   result['buyer_color'] = failure_color
 
     # if 'admin_status' in result and result['admin_status'] == 'Passed':
@@ -145,23 +148,25 @@ def generate_report(results, summary, file_name='report'):
   pdfkit.from_string(html, file_name + '.pdf', options=options)
   publish_to_slack(summary)
 
+
 def gather_report(test_status, summary):
   """Uses reader to get meta-data for report, and combines it with received test data, to generate report"""
-  row_no, category, description, steps, expected_result = get_rows(test_status.keys())
+  row_no, category, description, steps, expected_result = get_rows(
+      test_status.keys())
   print 'test_status.keys()', test_status.keys()
   report_data = []
   print 'printing keys'
   for k, v in test_status.iteritems():
     print k
     temp = {}
-    temp['test'] = k+1
+    temp['test'] = k + 1
     temp['category'] = category[(row_no.index(k))]
     temp['description'] = description[(row_no.index(k))]
     temp['steps'] = steps[(row_no.index(k))]
     temp['expected_results'] = expected_result[(row_no.index(k))]
 
     for user in config.user_category:
-      temp[user+'_status'] = v[config.user_category.index(user)]
+      temp[user + '_status'] = v[config.user_category.index(user)]
 
     # temp['buyer_status'] = v[user_category.index('buyer')]
     # temp['admin_status']= v[user_category.index('admin')]
@@ -173,8 +178,7 @@ def gather_report(test_status, summary):
     # print("REPORT DATA:")
     # print(report_data)
 
-
-  generate_report(report_data, summary )
+  generate_report(report_data, summary)
 
 
 if __name__ == "__main__":
@@ -227,7 +231,7 @@ if __name__ == "__main__":
           'expected_results': 'User is routed to correct route for each element on the sidebar',
           'buyer_status': 'Failed',
           'remarks': 'Step 7 failed'
-      },      {
+      }, {
           'test': '#1',
           'category': 'Sidebar',
           'description': 'Navigation',
