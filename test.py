@@ -26,6 +26,9 @@ if __name__ == "__main__":
     parser.add_argument("-d", "--debug", action="store_true",
                         help="Runs the script in debug mode to try different functions")
 
+    parser.add_argument("-s", "--server", type=str.lower, choices=['production','staging'],
+                        help="Runs the script in the specified server")
+
     args = parser.parse_args()
 
     if args.debug:
@@ -46,6 +49,9 @@ if __name__ == "__main__":
         utils.config.user_category = args.user
     else:
     	utils.config.user_category = ['buyer', 'admin', 'agent', 'individual']
+
+    if args.server != None and args.server == 'production':
+        utils.config.change_account(args.server);
 
     utils.config.print_config()
     utils.mapper.map_and_report()

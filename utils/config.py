@@ -10,8 +10,8 @@ with open('.env/credentials.json') as fd:
 bot_token = json_data['bot_token']
 
 #
-facebook_accounts = json_data['facebook_accounts']
-
+facebook_accounts = json_data['stage_facebook_accounts']
+platform = 'staging'
 
 
 # Whether tests are ran for certain categories only
@@ -58,3 +58,12 @@ def print_config():
 	print("user_category %s" % user_category)
 	print("test_failed %s" % test_failed)
 	print("test_passed %s" % test_passed)
+
+def change_account(server):
+	global platform
+	platform = server
+	global facebook_accounts
+	if server == 'production':
+		facebook_accounts = json_data['prod_facebook_accounts']
+	else:
+		facebook_accounts = json_data['stage_facebook_accounts']

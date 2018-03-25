@@ -57,7 +57,10 @@ def open_kibopush():
     Opens staging.kibopush.com
     """
     try:
-        driver.get('https://staging.kibopush.com/')
+        if config.platform == 'staging':
+            driver.get('https://staging.kibopush.com/')
+        elif config.platform == 'production':
+            driver.get('https://app.kibopush.com/')
         wait()
     except Exception as e:
         return "Error: " + str(e)
