@@ -44,7 +44,7 @@ category_count = {
     "admin": [0, 0],
     "agent": [0, 0],
     "individual": [0, 0],
-    "0sub" : [0,0]
+    "0sub": [0, 0]
 }
 # Would be filled like this:
 # "category" : [passed, failed]
@@ -64,9 +64,9 @@ def mapping():
     failed_row = set()
     passed = 0
     failed = 0
-    close_popup = False
+    close_popup = True
     did_login = False
-    test_actions, expected_result, row_number = parse_language()
+    test_actions, expected_result, row_number, test_for = parse_language()
     # Opening KiboPush at the start
     open_kibopush()
 
@@ -118,7 +118,7 @@ def mapping():
                 last_action_logout = action_step['logout']()
                 log('Status: %s' % last_action_logout)
 
-            if last_action == 'Success':
+            if (last_action == 'Success' and test_for[index].lower() == 'all') or (last_action == 'Success' and category in test_for[index].lower()) or (last_action != 'Success' and category not in test_for[index].lower()):
                 test_status[row_number[index]].append('Passed')
                 passed = passed + 1
                 category_count[category][0] = category_count[category][0] + 1
@@ -164,11 +164,6 @@ def mapping():
     }
     close_browser()
     return test_status, summary
-
-
-def map_and_report():
-    test_status, summary = mapping()
-    gather_report(test_status, summary)
 
 
 if __name__ == "__main__":

@@ -3,6 +3,8 @@ import argparse
 import utils.config
 import utils.mapper
 from utils.steps import *
+import utils.reporter
+
 
 def interact():
 	import code
@@ -54,4 +56,6 @@ if __name__ == "__main__":
         utils.config.change_account(args.server);
 
     utils.config.print_config()
-    utils.mapper.map_and_report()
+    
+    test_status, summary = utils.mapper.mapping()
+    utils.reporter.gather_report(test_status,summary)

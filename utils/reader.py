@@ -62,6 +62,8 @@ def get_test():
     expected_results = []
     test_all = []
     row_number = []
+    test_for = []
+
     with open('Test_Plan/' + test_plan, 'rb') as f:
         reader = csv.reader(f)
 
@@ -75,14 +77,26 @@ def get_test():
             # Skipping the Header
             if not index:
                 continue
+
+            # skipping empty rows
             elif row[3] == '':
                 continue
+
+            # Skipping rows which aren't automated
             elif row[6] != 'Yes':
                 continue
-            elif config.categorized:
-                if not row[1].lower() in config.categories:
+
+            # Skipping categories which aren't specified
+            elif config.categorized and not row[1].lower() in config.categories:
                     continue
-            elif filtered:
+
+            # Making sure tests that do not apply to any user, are not forwarded
+            elif not row[12].lower() == 'all':
+                if not any(user in row[12].lower() for user in config.user_category):
+                    continue
+
+            # Skipping failed or passed tests, as written in config
+            if filtered:
                 if config.test_passed:
                     passing = check_status(row[8],row[9],row[10],row[11], 'Passed')
                     if not passing:
@@ -92,9 +106,11 @@ def get_test():
                     if not failing:
                         continue
 
+
             test_steps.append(row[3])
             expected_results.append(row[4])
             row_number.append(index)
+            test_for.append(row[12])
 
         for item in test_steps:
             single_test = item.split('\n')
@@ -102,7 +118,7 @@ def get_test():
         # print '-------------'
         # print test_all
         print('Test Plan read successfully\n')
-        return test_all, expected_results, row_number
+        return test_all, expected_results, row_number, test_for
 
 
 if __name__ == '__main__':
