@@ -30,7 +30,7 @@ elif platform.system() == 'Windows':
 
 WAIT_TIME = 1# number of seconds to wait after clicking something
 # user='maria_rdhorxy_zerosub@tfbnw.net ', pw='cloudkibo123'
-
+driver.implicitly_wait(WAIT_TIME)
 
 def open_new_window():
     """
@@ -50,7 +50,8 @@ def wait(wait_time=WAIT_TIME):
     Keyword arguments:
     wait_time -- number of seconds to wait (default 1.0)
     """
-    time.sleep(wait_time)
+    # time.sleep(wait_time)
+    pass
 
 def open_kibopush():
     """
