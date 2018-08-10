@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create broadcast button (From braodcast template)</description>
+   <name>TC0127</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75619d50-6914-411b-91fe-4aa8e15ddff9</testCaseGuid>
+</TestCaseEntity>

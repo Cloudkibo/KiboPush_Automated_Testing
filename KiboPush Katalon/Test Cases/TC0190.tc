@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test change title</description>
+   <name>TC0190</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1b720d3-0766-48dd-a2ee-8884929d1cf1</testCaseGuid>
+</TestCaseEntity>

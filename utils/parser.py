@@ -25,7 +25,7 @@ import string
 
 language_action = {
 
-    "login": "login",
+    "login to kibopush": "login",
     "logout": "logout",
     "click on ": "click-",
     "collapse sidebar": "sidebar_hamburger",
@@ -33,7 +33,7 @@ language_action = {
     "go to ": "sidebar-",
     "choose ": "choose-",
     "lands on webpage": "open_kibopush",
-    "kibopush": "open_kibopush",
+    "open kibopush": "open_kibopush",
     "write ": "write-",
     "press enter": "enter",
     "press tab": "tab",
@@ -86,12 +86,15 @@ def get_action(step):
     Marks the non-convertible function into either "Ambigous" or "Not Defined"
     '''
     step = step.lower()
+    print('getting action')
+    print(step)
     action = "Not Defined"
     # To check for ambiguity, whether one step is translated to multiple action
     repeat = 0
     # print language_action.keys()
     for language in language_action.keys():
         if language in step:
+            print('language in step', language, step)
             action = language_action[language]
             # For complex action with params
             action = get_param(action, step, language)

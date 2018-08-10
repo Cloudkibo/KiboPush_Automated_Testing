@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by type list</description>
+   <name>TC0117</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>256bdcda-c843-4ca7-99cc-1ba515b71dd9</testCaseGuid>
+</TestCaseEntity>

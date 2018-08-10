@@ -53,7 +53,7 @@ if __name__ == "__main__":
     	utils.config.user_category = ['buyer', 'admin', 'agent', 'individual']
 
     if args.server != None and args.server == 'production':
-        utils.config.change_account(args.server);
+        utils.config.change_account(args.server)
 
     utils.config.print_config()
     

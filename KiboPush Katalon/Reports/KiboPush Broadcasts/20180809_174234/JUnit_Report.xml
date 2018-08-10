@@ -1,0 +1,1577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="KiboPush Broadcasts" time="538" tests="12" failures="2" errors="0">
+   <testsuite name="KiboPush Broadcasts" tests="12" failures="2" errors="0" time="538" timestamp="2018-08-09 17:42:46" hostname="baqarjafri - 192.168.10.16" id="Test Suites/KiboPush Broadcasts">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/baqarjafri/Katalon Studio/KiboPush/Reports/KiboPush Broadcasts/20180809_174234"/>
+         <property name="logFiles" value="/Users/baqarjafri/Katalon Studio/KiboPush/Reports/KiboPush Broadcasts/20180809_174234/execution0.log"/>
+         <property name="attachments" value="/Users/baqarjafri/Katalon Studio/KiboPush/Reports/KiboPush Broadcasts/20180809_174234/1533818969421.png, /Users/baqarjafri/Katalon Studio/KiboPush/Reports/KiboPush Broadcasts/20180809_174234/1533819018357.png"/>
+         <property name="hostName" value="baqarjafri - 192.168.10.16"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.10.16"/>
+         <property name="sessionId" value="e741ff4d4808d67998a5cc1109d907a8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/TC0124" classname="Test Cases/TC0124" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:42:47 - [TEST_CASE][PASSED] - Test Cases/TC0124: Test Cases/TC0124
+
+2018-08-09 17:42:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:42:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:42:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:43:06 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:43:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:43:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:43:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:43:07 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:43:07 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:43:07 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:43:08 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:43:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:43:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:43:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:43:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:43:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-09 17:43:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-09 17:43:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_4' is clicked on
+
+2018-08-09 17:43:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_4' is clicked on
+
+2018-08-09 17:43:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-09 17:43:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - date_page4 = getFirstRowDate(): null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_previous' is clicked on
+
+2018-08-09 17:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_previous' is clicked on
+
+2018-08-09 17:43:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-09 17:43:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-09 17:43:17 - [TEST_STEP][PASSED] - Statement - date_page3 = getFirstRowDate(): null
+
+2018-08-09 17:43:17 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:17 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:17 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:18 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:18 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:18 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:18 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_previous' is clicked on
+
+2018-08-09 17:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_previous' is clicked on
+
+2018-08-09 17:43:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:43:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - date_page2 = getFirstRowDate(): null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Fri Jun 29 2018 6:51 AM' are not matched 
+
+2018-08-09 17:43:19 - [MESSAGE][PASSED] - Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Fri Jun 29 2018 6:51 AM' are not matched 
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Thu Jul 19 2018 8:25 AM' are not matched 
+
+2018-08-09 17:43:19 - [MESSAGE][PASSED] - Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Thu Jul 19 2018 8:25 AM' are not matched 
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Fri Jun 29 2018 6:51 AM' and expected text 'Thu Jul 19 2018 8:25 AM' are not matched 
+
+2018-08-09 17:43:19 - [MESSAGE][PASSED] - Actual text 'Fri Jun 29 2018 6:51 AM' and expected text 'Thu Jul 19 2018 8:25 AM' are not matched 
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:43:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0125" classname="Test Cases/TC0125" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:43:19 - [TEST_CASE][PASSED] - Test Cases/TC0125: Test Cases/TC0125
+
+2018-08-09 17:43:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:43:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:43:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:43:39 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:43:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:43:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:43:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:43:39 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:43:40 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:43:40 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:43:40 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:43:40 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:43:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:43:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:43:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:43:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:43:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:43:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:43:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - date_page1 = getFirstRowDate(): null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_2' is clicked on
+
+2018-08-09 17:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_2' is clicked on
+
+2018-08-09 17:43:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:43:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - date_page2 = getFirstRowDate(): null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_4' is clicked on
+
+2018-08-09 17:43:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_4' is clicked on
+
+2018-08-09 17:43:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-09 17:43:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - date_page4 = getFirstRowDate(): null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - Statement - println("Testing next pages"): null
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Wed Aug 08 2018 11:47 AM' and expected text 'Thu Jul 19 2018 8:25 AM' are not matched 
+
+2018-08-09 17:43:48 - [MESSAGE][PASSED] - Actual text 'Wed Aug 08 2018 11:47 AM' and expected text 'Thu Jul 19 2018 8:25 AM' are not matched 
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Wed Aug 08 2018 11:47 AM' and expected text 'Fri Jun 29 2018 6:41 AM' are not matched 
+
+2018-08-09 17:43:48 - [MESSAGE][PASSED] - Actual text 'Wed Aug 08 2018 11:47 AM' and expected text 'Fri Jun 29 2018 6:41 AM' are not matched 
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Thu Jul 19 2018 8:25 AM' and expected text 'Fri Jun 29 2018 6:41 AM' are not matched 
+
+2018-08-09 17:43:48 - [MESSAGE][PASSED] - Actual text 'Thu Jul 19 2018 8:25 AM' and expected text 'Fri Jun 29 2018 6:41 AM' are not matched 
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_3' is clicked on
+
+2018-08-09 17:43:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_3' is clicked on
+
+2018-08-09 17:43:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-09 17:43:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - date_page3 = getFirstRowDate(): null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_1' is clicked on
+
+2018-08-09 17:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_1' is clicked on
+
+2018-08-09 17:43:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-08-09 17:43:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - date_page1 = getFirstRowDate(): null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - Statement - println("Testing previous pages"): null
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Fri Jun 29 2018 6:51 AM' are not matched 
+
+2018-08-09 17:43:52 - [MESSAGE][PASSED] - Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Fri Jun 29 2018 6:51 AM' are not matched 
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Wed Aug 08 2018 11:47 AM' are not matched 
+
+2018-08-09 17:43:52 - [MESSAGE][PASSED] - Actual text 'Fri Jun 29 2018 6:41 AM' and expected text 'Wed Aug 08 2018 11:47 AM' are not matched 
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Fri Jun 29 2018 6:51 AM' and expected text 'Wed Aug 08 2018 11:47 AM' are not matched 
+
+2018-08-09 17:43:52 - [MESSAGE][PASSED] - Actual text 'Fri Jun 29 2018 6:51 AM' and expected text 'Wed Aug 08 2018 11:47 AM' are not matched 
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:43:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0132" classname="Test Cases/TC0132" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:43:52 - [TEST_CASE][PASSED] - Test Cases/TC0132: Test Cases/TC0132
+
+2018-08-09 17:43:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:43:53 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-08-09 17:43:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:43:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:43:54 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:44:07 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:44:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:44:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:44:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:44:07 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:44:08 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:44:08 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:44:08 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:44:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:44:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:44:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:44:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:44:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:44:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:44:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:12 - [TEST_STEP][PASSED] - custom.newKeyword.clickUsingJS: custom.newKeyword.clickUsingJS is PASSED
+
+2018-08-09 17:44:12 - [MESSAGE][PASSED] - custom.newKeyword.clickUsingJS is PASSED
+
+2018-08-09 17:44:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2018-08-09 17:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2018-08-09 17:44:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text cannot be empty' is clicked on
+
+2018-08-09 17:44:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text cannot be empty' is clicked on
+
+2018-08-09 17:44:12 - [TEST_STEP][PASSED] - setText: Text 'X' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_hoverbordersolid form (1)'
+
+2018-08-09 17:44:12 - [MESSAGE][PASSED] - Text 'X' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_hoverbordersolid form (1)'
+
+2018-08-09 17:44:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:44:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0133" classname="Test Cases/TC0133" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:44:13 - [TEST_CASE][PASSED] - Test Cases/TC0133: Test Cases/TC0133
+
+2018-08-09 17:44:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:44:13 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-08-09 17:44:13 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:44:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:44:14 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:44:45 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:44:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:44:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:44:45 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:44:45 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:44:45 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:44:46 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:44:46 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:44:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:44:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:44:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:44:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:44:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:44:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:44:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:44:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text' is clicked on
+
+2018-08-09 17:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text' is clicked on
+
+2018-08-09 17:44:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:44:52 - [TEST_STEP][PASSED] - setText: Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control (9)'
+
+2018-08-09 17:44:53 - [MESSAGE][PASSED] - Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control (9)'
+
+2018-08-09 17:44:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website (5)' is clicked on
+
+2018-08-09 17:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website (5)' is clicked on
+
+2018-08-09 17:44:53 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1 (5)'
+
+2018-08-09 17:44:53 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1 (5)'
+
+2018-08-09 17:44:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done (5)' is clicked on
+
+2018-08-09 17:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done (5)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0137" classname="Test Cases/TC0137" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:44:53 - [TEST_CASE][PASSED] - Test Cases/TC0137: Test Cases/TC0137
+
+2018-08-09 17:44:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:44:53 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-08-09 17:44:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:44:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-09 17:44:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:44:55 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:45:11 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:45:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:45:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:45:12 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:45:12 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:45:12 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:45:12 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:45:12 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:45:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:45:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:45:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:45:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:45:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:45:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:45:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:16 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:45:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:45:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Image (2)' is clicked on
+
+2018-08-09 17:45:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Image (2)' is clicked on
+
+2018-08-09 17:45:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:45:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:45:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Image_1' is clicked on
+
+2018-08-09 17:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Image_1' is clicked on
+
+2018-08-09 17:45:18 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:45:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0141" classname="Test Cases/TC0141" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:45:18 - [TEST_CASE][PASSED] - Test Cases/TC0141: Test Cases/TC0141
+
+2018-08-09 17:45:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:45:19 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-08-09 17:45:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:45:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:45:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:45:35 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:45:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:45:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:45:35 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:45:36 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:45:36 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:45:36 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:45:36 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:45:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:45:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:45:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:45:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:45:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:45:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:45:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:45:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card' is clicked on
+
+2018-08-09 17:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card' is clicked on
+
+2018-08-09 17:45:41 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_KiboPush  Create Broadcast/div_ui-block hoverbordersolid' is present
+
+2018-08-09 17:45:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KiboPush  Create Broadcast/div_ui-block hoverbordersolid' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0143" classname="Test Cases/TC0143" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:45:41 - [TEST_CASE][PASSED] - Test Cases/TC0143: Test Cases/TC0143
+
+2018-08-09 17:45:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:45:41 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-08-09 17:45:41 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:45:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-09 17:45:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:45:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:45:54 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:45:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:45:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:45:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:45:54 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:45:55 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:45:55 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:45:55 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:45:55 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:45:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:45:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:45:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:45:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:46:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:46:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card' is clicked on
+
+2018-08-09 17:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card' is clicked on
+
+2018-08-09 17:46:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:46:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:46:01 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2018-08-09 17:46:01 - [TEST_STEP][PASSED] - uploadFile: File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:46:01 - [MESSAGE][PASSED] - File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:46:01 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_KiboPush  Create Broadcast/img' is present
+
+2018-08-09 17:46:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KiboPush  Create Broadcast/img' is present
+
+2018-08-09 17:46:04 - [TEST_STEP][PASSED] - setText: Text 'Card Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_form-control'
+
+2018-08-09 17:46:04 - [MESSAGE][PASSED] - Text 'Card Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_form-control'
+
+2018-08-09 17:46:04 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:46:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:46:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2018-08-09 17:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2018-08-09 17:46:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card must have a Title' is clicked on
+
+2018-08-09 17:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card must have a Title' is clicked on
+
+2018-08-09 17:46:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:46:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0144" classname="Test Cases/TC0144" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:46:05 - [TEST_CASE][PASSED] - Test Cases/TC0144: Test Cases/TC0144
+
+2018-08-09 17:46:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:46:05 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2018-08-09 17:46:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:46:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:46:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:46:31 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:46:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:46:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:46:31 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:46:31 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:46:31 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:46:32 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:46:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:46:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:46:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:46:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:46:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login' successfully
+
+2018-08-09 17:46:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:46:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:46:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:46:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:46:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:46:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:46:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:46:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card (3)' is clicked on
+
+2018-08-09 17:46:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card (3)' is clicked on
+
+2018-08-09 17:46:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:46:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:46:39 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2018-08-09 17:46:39 - [TEST_STEP][PASSED] - uploadFile: File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:46:39 - [MESSAGE][PASSED] - File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:46:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_KiboPush  Create Broadcast/img' is present
+
+2018-08-09 17:46:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KiboPush  Create Broadcast/img' is present
+
+2018-08-09 17:46:42 - [TEST_STEP][PASSED] - setText: Text 'Card Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control (4)'
+
+2018-08-09 17:46:43 - [MESSAGE][PASSED] - Text 'Card Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control (4)'
+
+2018-08-09 17:46:43 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:46:43 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:46:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next (4)' is clicked on
+
+2018-08-09 17:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next (4)' is clicked on
+
+2018-08-09 17:46:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card must have a subtitle' is clicked on
+
+2018-08-09 17:46:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card must have a subtitle' is clicked on
+
+2018-08-09 17:46:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:46:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0145" classname="Test Cases/TC0145" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:46:43 - [TEST_CASE][PASSED] - Test Cases/TC0145: Test Cases/TC0145
+
+2018-08-09 17:46:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:46:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:46:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:46:59 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:46:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:47:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:47:10 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:47:10 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:47:10 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:47:11 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:47:11 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:47:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:47:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:47:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:47:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:47:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:47:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:47:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:47:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:47:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:47:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:47:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:47:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card (3) (1)' is clicked on
+
+2018-08-09 17:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card (3) (1)' is clicked on
+
+2018-08-09 17:47:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:47:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:47:42 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-08-09 17:47:42 - [TEST_STEP][PASSED] - Statement - upload = driver.findElement(org.openqa.selenium.By.xpath("//input[@type='file']")): null
+
+2018-08-09 17:47:42 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2018-08-09 17:47:42 - [TEST_STEP][PASSED] - Statement - upload.sendKeys(img): null
+
+2018-08-09 17:47:42 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-08-09 17:47:47 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-08-09 17:47:47 - [TEST_STEP][PASSED] - setText: Text 'Card Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control (4) (1)'
+
+2018-08-09 17:47:47 - [MESSAGE][PASSED] - Text 'Card Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control (4) (1)'
+
+2018-08-09 17:47:47 - [TEST_STEP][PASSED] - setText: Text 'Card Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_form-control'
+
+2018-08-09 17:47:48 - [MESSAGE][PASSED] - Text 'Card Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_form-control'
+
+2018-08-09 17:47:48 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:47:48 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:47:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next (4) (1)' is clicked on
+
+2018-08-09 17:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next (4) (1)' is clicked on
+
+2018-08-09 17:47:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card must have at least on' is clicked on
+
+2018-08-09 17:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card must have at least on' is clicked on
+
+2018-08-09 17:47:58 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:47:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0146" classname="Test Cases/TC0146" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:47:58 - [TEST_CASE][PASSED] - Test Cases/TC0146: Test Cases/TC0146
+
+2018-08-09 17:47:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:47:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:47:59 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:48:30 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:48:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:48:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:48:30 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:48:30 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:48:30 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:48:31 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:48:31 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:48:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:48:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:48:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:48:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:48:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:48:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:48:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:48:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:48:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:48:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card (3) (1)' is clicked on
+
+2018-08-09 17:48:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card (3) (1)' is clicked on
+
+2018-08-09 17:48:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:48:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:48:39 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2018-08-09 17:48:39 - [TEST_STEP][PASSED] - uploadFile: File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:48:39 - [MESSAGE][PASSED] - File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:48:39 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_KiboPush  Create Broadcast/img' is present
+
+2018-08-09 17:48:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KiboPush  Create Broadcast/img' is present
+
+2018-08-09 17:48:43 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-08-09 17:48:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0153" classname="Test Cases/TC0153" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6198bfc2a459e02f19ce5de6710947e5
+*** Element info: {Using=xpath, value=})"/>
+         <system-out><![CDATA[2018-08-09 17:48:43 - [TEST_CASE][FAILED] - Test Cases/TC0153: Test Cases/TC0153 FAILED because (of) Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6198bfc2a459e02f19ce5de6710947e5
+*** Element info: {Using=xpath, value=})
+
+2018-08-09 17:48:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:48:43 - [TEST_CASE][PASSED] - Test Cases/TC0150: Test Cases/TC0150
+
+2018-08-09 17:48:43 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:48:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:48:44 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:49:13 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:49:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:49:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:49:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:49:13 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:49:13 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:49:13 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:49:14 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:49:14 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:49:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:49:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:49:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:49:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:49:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:49:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:49:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:49:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:49:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:49:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:49:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:49:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:49:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:49:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:49:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:49:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:49:22 - [TEST_STEP][PASSED] - setText: Text 'Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_S'
+
+2018-08-09 17:49:23 - [MESSAGE][PASSED] - Text 'Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_S'
+
+2018-08-09 17:49:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:49:23 - [TEST_STEP][PASSED] - setText: Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1'
+
+2018-08-09 17:49:23 - [MESSAGE][PASSED] - Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1'
+
+2018-08-09 17:49:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2018-08-09 17:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2018-08-09 17:49:23 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_2'
+
+2018-08-09 17:49:24 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_2'
+
+2018-08-09 17:49:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on
+
+2018-08-09 17:49:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on
+
+2018-08-09 17:49:24 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2018-08-09 17:49:24 - [TEST_STEP][PASSED] - uploadFile: File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:49:24 - [MESSAGE][PASSED] - File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:49:24 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6198bfc2a459e02f19ce5de6710947e5
+*** Element info: {Using=xpath, value=})
+
+2018-08-09 17:49:30 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6198bfc2a459e02f19ce5de6710947e5
+*** Element info: {Using=xpath, value=})
+[[ATTACHMENT|/Users/baqarjafri/Katalon Studio/KiboPush/Reports/KiboPush Broadcasts/20180809_174234/1533818969421.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-09 17:48:43 - [TEST_CASE][FAILED] - Test Cases/TC0153: Test Cases/TC0153 FAILED because (of) Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6198bfc2a459e02f19ce5de6710947e5
+*** Element info: {Using=xpath, value=})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0154" classname="Test Cases/TC0154" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0469b72d2e4fd13bbd28e76e8ea343b
+*** Element info: {Using=xpath, value=})"/>
+         <system-out><![CDATA[2018-08-09 17:49:30 - [TEST_CASE][FAILED] - Test Cases/TC0154: Test Cases/TC0154 FAILED because (of) Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0469b72d2e4fd13bbd28e76e8ea343b
+*** Element info: {Using=xpath, value=})
+
+2018-08-09 17:49:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:49:30 - [TEST_CASE][PASSED] - Test Cases/TC0150: Test Cases/TC0150
+
+2018-08-09 17:49:30 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:49:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-09 17:49:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:49:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:49:57 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:49:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:49:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:49:57 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:49:57 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:49:57 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:49:57 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:49:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:49:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:49:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:49:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:50:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:50:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:50:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:50:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:50:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:50:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:50:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:50:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:50:11 - [TEST_STEP][PASSED] - setText: Text 'Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2018-08-09 17:50:11 - [MESSAGE][PASSED] - Text 'Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2018-08-09 17:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:50:12 - [TEST_STEP][PASSED] - setText: Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1'
+
+2018-08-09 17:50:12 - [MESSAGE][PASSED] - Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1'
+
+2018-08-09 17:50:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2018-08-09 17:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2018-08-09 17:50:12 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_2'
+
+2018-08-09 17:50:12 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_2'
+
+2018-08-09 17:50:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on
+
+2018-08-09 17:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on
+
+2018-08-09 17:50:12 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2018-08-09 17:50:12 - [TEST_STEP][PASSED] - uploadFile: File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:50:13 - [MESSAGE][PASSED] - File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:50:13 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0469b72d2e4fd13bbd28e76e8ea343b
+*** Element info: {Using=xpath, value=})
+
+2018-08-09 17:50:19 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0469b72d2e4fd13bbd28e76e8ea343b
+*** Element info: {Using=xpath, value=})
+[[ATTACHMENT|/Users/baqarjafri/Katalon Studio/KiboPush/Reports/KiboPush Broadcasts/20180809_174234/1533819018357.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-09 17:49:30 - [TEST_CASE][FAILED] - Test Cases/TC0154: Test Cases/TC0154 FAILED because (of) Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: c0469b72d2e4fd13bbd28e76e8ea343b
+*** Element info: {Using=xpath, value=})]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0155" classname="Test Cases/TC0155" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:50:19 - [TEST_CASE][PASSED] - Test Cases/TC0155: Test Cases/TC0155
+
+2018-08-09 17:50:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:50:19 - [TEST_CASE][PASSED] - Test Cases/TC0150: Test Cases/TC0150
+
+2018-08-09 17:50:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:50:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-09 17:50:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:50:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:50:47 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:50:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:50:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:50:47 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:50:48 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:50:48 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:50:48 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:50:48 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:50:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:50:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:50:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:50:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:50:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:50:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:50:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:50:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:50:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:50:57 - [TEST_STEP][PASSED] - setText: Text 'Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2018-08-09 17:50:57 - [MESSAGE][PASSED] - Text 'Title' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2018-08-09 17:50:57 - [TEST_STEP][PASSED] - setText: Text 'Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_form-control'
+
+2018-08-09 17:50:58 - [MESSAGE][PASSED] - Text 'Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_form-control'
+
+2018-08-09 17:50:58 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2018-08-09 17:50:58 - [TEST_STEP][PASSED] - uploadFile: File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:50:58 - [MESSAGE][PASSED] - File '/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2018-08-09 17:50:58 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:50:58 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2018-08-09 17:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2018-08-09 17:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2018-08-09 17:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card in gallery must have (3)' is clicked on
+
+2018-08-09 17:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Card in gallery must have (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC0157" classname="Test Cases/TC0157" status="PASSED">
+         <system-out><![CDATA[2018-08-09 17:50:58 - [TEST_CASE][PASSED] - Test Cases/TC0157: Test Cases/TC0157
+
+2018-08-09 17:50:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:50:58 - [TEST_CASE][PASSED] - Test Cases/TC0150: Test Cases/TC0150
+
+2018-08-09 17:50:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-09 17:50:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-08-09 17:51:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-09 17:51:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:51:34 - [MESSAGE][PASSED] - Navigate to 'https://staging.kibopush.com/' successfully
+
+2018-08-09 17:51:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/a_Login' is clicked on
+
+2018-08-09 17:51:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Team Account' is clicked on
+
+2018-08-09 17:51:34 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:51:34 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input'
+
+2018-08-09 17:51:34 - [TEST_STEP][PASSED] - setText: Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:51:35 - [MESSAGE][PASSED] - Text 'bjafri5@gmail.com' is set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_1'
+
+2018-08-09 17:51:35 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:51:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_KiboPush  Sign In/input_form-control m-input_2'
+
+2018-08-09 17:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:51:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sign In/button_Sign In' is clicked on
+
+2018-08-09 17:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2018-08-09 17:51:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:51:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2018-08-09 17:51:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2018-08-09 17:51:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:51:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2018-08-09 17:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)' is clicked on
+
+2018-08-09 17:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)' is clicked on
+
+2018-08-09 17:51:41 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:51:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)' is clicked on
+
+2018-08-09 17:51:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC0150' successfully
+
+2018-08-09 17:51:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-08-09 17:51:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-08-09 17:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2018-08-09 17:51:44 - [TEST_STEP][PASSED] - setText: Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2018-08-09 17:51:44 - [MESSAGE][PASSED] - Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2018-08-09 17:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2018-08-09 17:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2018-08-09 17:51:44 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1'
+
+2018-08-09 17:51:45 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1'
+
+2018-08-09 17:51:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on
+
+2018-08-09 17:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-09 17:42:46 - [TEST_SUITE][FAILED] - KiboPush Broadcasts: Test Cases/TC0153 FAILED because (of) Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6198bfc2a459e02f19ce5de6710947e5
+*** Element info: {Using=xpath, value=})]]></system-out>
+      <system-err><![CDATA[2018-08-09 17:42:46 - [TEST_SUITE][FAILED] - KiboPush Broadcasts: Test Cases/TC0153 FAILED because (of) Unable to verify object 'Object Repository/Page_KiboPush  Create Broadcast/gallery_image' is present (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.35.528157 (4429ca2590d6988c0745c24c8858745aaaec01ef),platform=Mac OS X 10.13.1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Baqars-MacBook-Pro.local', ip: 'fe80:0:0:0:86b:36f2:e832:f5d1%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528157 (4429ca2590d698..., userDataDir: /var/folders/d9/974yd97x407...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 6198bfc2a459e02f19ce5de6710947e5
+*** Element info: {Using=xpath, value=})]]></system-err>
+   </testsuite>
+</testsuites>

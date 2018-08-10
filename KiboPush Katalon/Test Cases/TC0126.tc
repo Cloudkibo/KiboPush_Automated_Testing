@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create broadcast button</description>
+   <name>TC0126</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fe4bc94b-f042-41b7-8811-d20fc372d9af</testCaseGuid>
+</TestCaseEntity>

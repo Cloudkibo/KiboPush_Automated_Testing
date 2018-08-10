@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test card validation (button)</description>
+   <name>TC0155</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>626c57d8-f7de-4099-9637-b34909081393</testCaseGuid>
+</TestCaseEntity>

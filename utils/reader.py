@@ -21,7 +21,7 @@ def get_csv_online():
     client = gspread.authorize(credentials)
 
     sheet = client.open_by_url(test_plan_url)
-    worksheet = sheet.get_worksheet(2)
+    worksheet = sheet.get_worksheet(3)
     exported_csv = worksheet.export(format='csv')
     f = open('Test_Plan/' + test_plan, 'wb')
     f.write(exported_csv)
@@ -74,25 +74,29 @@ def get_test():
 
         for index, row in enumerate(reader):
 
+            #print(row)
             # Skipping the Header
             if not index:
                 continue
 
             # skipping empty rows
-            elif row[3] == '':
+            elif row[4] == '':
+                #print('no steps')
                 continue
 
             # Skipping rows which aren't automated
-            elif row[6] != 'Yes':
+            elif row[6] != 'Automated':
+                #print('not automated')
                 continue
 
             # Skipping categories which aren't specified
             elif config.categorized and not row[1].lower() in config.categories:
-                    continue
+                #print('not correct category')
+                continue
 
             # Making sure tests that do not apply to any user, are not forwarded
-            elif not row[12].lower() == 'all':
-                if not any(user in row[12].lower() for user in config.user_category):
+            elif not row[3].lower() == 'any':
+                if not any(user in row[3].lower() for user in config.user_category):
                     continue
 
             # Skipping failed or passed tests, as written in config
@@ -107,16 +111,17 @@ def get_test():
                         continue
 
 
-            test_steps.append(row[3])
-            expected_results.append(row[4])
+
+            test_steps.append(row[4])
+            expected_results.append(row[5])
             row_number.append(index)
-            test_for.append(row[12])
+            test_for.append(row[3])
 
         for item in test_steps:
             single_test = item.split('\n')
             test_all.append(single_test)
         # print '-------------'
-        # print test_all
+        print test_all
         print('Test Plan read successfully\n')
         return test_all, expected_results, row_number, test_for
 

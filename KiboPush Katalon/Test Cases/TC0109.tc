@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test search broadcast</description>
+   <name>TC0109</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6c32c4d4-8b16-4ec8-9d93-f3a8258ce8e1</testCaseGuid>
+</TestCaseEntity>

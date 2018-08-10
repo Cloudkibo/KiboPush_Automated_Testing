@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove card component</description>
+   <name>TC0184</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a21782bf-516c-4475-a0d9-2ab6e77ea4f6</testCaseGuid>
+</TestCaseEntity>
