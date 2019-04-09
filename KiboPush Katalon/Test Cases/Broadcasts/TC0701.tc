@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add list with edit button with unsubscribe to sequence</description>
+   <name>TC0701</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9c9d79e3-ef3f-4552-9324-ba020f90e980</testCaseGuid>
+</TestCaseEntity>

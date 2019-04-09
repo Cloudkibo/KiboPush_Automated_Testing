@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tutorial</name>
+   <tag></tag>
+   <elementGuidId>cbcb55dc-f7d0-43d4-bf75-1fcd7c683e11</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-cqdcva</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tutorial</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;___gatsby&quot;)/div[@class=&quot;css-190hivd&quot;]/div[@class=&quot;css-1tv5sxm css-15lkjjo&quot;]/div[@class=&quot;css-5v0gxc css-95xunl&quot;]/div[@class=&quot;css-12vsfho&quot;]/div[@class=&quot;css-tctv7l&quot;]/div[@class=&quot;css-j4q8zh&quot;]/div[@class=&quot;css-1kbu8hg&quot;]/div[1]/div[@class=&quot;css-3ao3zf&quot;]/div[@class=&quot;css-p72dfi&quot;]/nav[@class=&quot;css-7stz2q css-1aai96l&quot;]/div[1]/button[@class=&quot;css-1j8jxus&quot;]/div[@class=&quot;css-cqdcva&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

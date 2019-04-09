@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test search broadcast templates</description>
+   <name>TC0763</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5183c52b-9db1-4c80-bda7-18116fa5c048</testCaseGuid>
+</TestCaseEntity>

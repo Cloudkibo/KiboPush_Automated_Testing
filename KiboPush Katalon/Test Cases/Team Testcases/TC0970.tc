@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test delete button in teams list</description>
+   <name>TC0970</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca0543c1-0f31-4027-8668-083f1feeb4c9</testCaseGuid>
+</TestCaseEntity>

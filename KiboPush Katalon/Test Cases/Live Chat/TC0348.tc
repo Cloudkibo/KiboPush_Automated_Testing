@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assign to agent (buyer)</description>
+   <name>TC0348</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b144ae88-2015-443f-b804-acd3bc31048b</testCaseGuid>
+</TestCaseEntity>

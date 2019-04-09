@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Operational Dashboard link</description>
+   <name>TC0054</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ceaf1fc8-c2ad-4fc5-8e33-0ad30343c851</testCaseGuid>
+</TestCaseEntity>

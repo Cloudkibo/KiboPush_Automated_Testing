@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create survey with title, introduction, question and empty choices</description>
+   <name>TC0883</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3fd059c-381e-4e7f-806f-e366f9bf47b2</testCaseGuid>
+</TestCaseEntity>

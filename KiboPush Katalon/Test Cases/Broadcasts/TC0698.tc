@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add list with edit button (enter button title and link)</description>
+   <name>TC0698</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f4906e19-e07c-461d-8a80-5187bf2e8ddd</testCaseGuid>
+</TestCaseEntity>

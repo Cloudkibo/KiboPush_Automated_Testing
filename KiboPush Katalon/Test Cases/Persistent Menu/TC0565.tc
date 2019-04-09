@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test set gallery component as reply</description>
+   <name>TC0565</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ccec6bae-c555-461b-b633-8a4edb5678ea</testCaseGuid>
+</TestCaseEntity>

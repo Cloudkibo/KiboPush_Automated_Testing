@@ -42,19 +42,19 @@ WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/div_Filter by type...textimage (3)'))
 
 String date_page1 = getFirstRowDate()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_next (1)'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage_3'))
 
 String date_page2 = getFirstRowDate()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_next (1)'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage_4'))
 
 String date_page3 = getFirstRowDate()
 

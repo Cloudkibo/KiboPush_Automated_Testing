@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test persistent menu link</description>
+   <name>TC0063</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f5cda634-57e7-4148-93c3-f20c1a2c2e0e</testCaseGuid>
+</TestCaseEntity>

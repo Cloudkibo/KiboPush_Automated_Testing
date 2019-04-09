@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test logout</description>
+   <name>TC0100</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dacc2013-a2e3-4955-b71d-949e7529589d</testCaseGuid>
+</TestCaseEntity>

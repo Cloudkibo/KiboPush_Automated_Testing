@@ -4,6 +4,12 @@
    <name>button_Create New Broadcast</name>
    <tag></tag>
    <elementGuidId>937f8ef1-1589-4836-8115-dcef503fc620</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Create New' or . = 'Create New')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

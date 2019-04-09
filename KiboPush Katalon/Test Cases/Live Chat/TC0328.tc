@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Close record audio popup</description>
+   <name>TC0328</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c05c787b-dd20-4fad-b980-8b8de60df312</testCaseGuid>
+</TestCaseEntity>

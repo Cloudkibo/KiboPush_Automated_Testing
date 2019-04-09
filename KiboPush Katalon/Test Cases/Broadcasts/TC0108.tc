@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test view broadcast</description>
+   <name>TC0108</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb45c8eb-f766-4a4c-9fd4-68c593be5277</testCaseGuid>
+</TestCaseEntity>

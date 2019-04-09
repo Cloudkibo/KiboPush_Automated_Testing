@@ -22,7 +22,20 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.util.KeywordUtil
+
+String getFirstRowDate() {
+	WebDriver driver = DriverFactory.getWebDriver()
+	try {
+		WebElement Table = driver.findElement(By.xpath("//table/tbody"))
+		List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+		String dates = new ArrayList<String>()
+		date  = rows_table.get(0).findElement(By.xpath('.//td[@data-field="datetime"]')).getText()
+		return date
+	} catch (Exception e) {
+		KeywordUtil.markFailed('ERROR: No Table Present')
+	}
+}
 
 WebUI.openBrowser('')
 
@@ -42,17 +55,17 @@ WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage'))
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_4'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 String date_page4 = getFirstRowDate()
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_previous'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 String date_page3 = getFirstRowDate()
 
@@ -63,29 +76,8 @@ WebUI.delay(1)
 String date_page2 = getFirstRowDate()
 
 WebUI.verifyNotMatch(date_page4, date_page3, false)
-
 WebUI.verifyNotMatch(date_page4, date_page2, false)
-
 WebUI.verifyNotMatch(date_page3, date_page2, false)
 
 WebUI.closeBrowser()
-
-String getFirstRowDate() {
-    WebDriver driver = DriverFactory.getWebDriver()
-
-    try {
-        WebElement Table = driver.findElement(By.xpath('//table/tbody'))
-
-        List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-
-        String dates = new ArrayList<String>()
-
-        date = rows_table.get(0).findElement(By.xpath('.//td[@data-field="datetime"]')).getText()
-
-        return date
-    }
-    catch (Exception e) {
-        KeywordUtil.markFailed('ERROR: No Table Present')
-    } 
-}
 

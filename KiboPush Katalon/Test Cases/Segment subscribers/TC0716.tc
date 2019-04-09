@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create list with condition firstname is</description>
+   <name>TC0716</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3c665f4-a618-45ff-8e42-acd5d8c6cb66</testCaseGuid>
+</TestCaseEntity>

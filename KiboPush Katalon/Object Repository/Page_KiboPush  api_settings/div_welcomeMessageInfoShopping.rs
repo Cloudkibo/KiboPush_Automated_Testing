@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_welcomeMessageInfoShopping</name>
+   <tag></tag>
+   <elementGuidId>3c01a4d8-7d4d-4cdd-858e-1d1301622e41</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>html5-video-player ad-created playing-mode ytp-autohide</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>player_uid_347981759_1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-version</name>
+      <type>Main</type>
+      <value>/yts/jsbin/player-vflkUTZn2/en_US/base.js</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>YouTube Video Player</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>welcomeMessageInfoShoppingTap to unmuteIf playback doesn't begin shortly, try restarting your device.Watch on youtube.comMore videosSleep Music 24/7: Fall Asleep Fast, Relaxing Music, Deep Sleeping Music, Beat InsomniaSoothing Relaxation • 2.7K watchingMore videosAdvertisementUp NextCancelAutoplay is pausedShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Switch camera0:002:480:10 / 2:48Live</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;player_uid_347981759_1&quot;)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_KiboPush  api_settings/iframe_widget2</value>
+   </webElementProperties>
+</WebElementEntity>

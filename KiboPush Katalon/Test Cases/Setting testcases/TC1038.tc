@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit Welcome message</description>
+   <name>TC1038</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6863e02-dd75-4d5b-9469-810042a16ac1</testCaseGuid>
+</TestCaseEntity>

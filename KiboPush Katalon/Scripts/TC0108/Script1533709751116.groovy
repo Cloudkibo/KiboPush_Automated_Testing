@@ -43,12 +43,11 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
 WebUI.delay(1)
 
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage'))
+
 WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
-
+WebElement Table = driver.findElement(By.xpath("//table/tbody"))
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-
 int rows_count = rows_table.size()
 
 WebUI.verifyEqual(rows_count.toString(), '10')

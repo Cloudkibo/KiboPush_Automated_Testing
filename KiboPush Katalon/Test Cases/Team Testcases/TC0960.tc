@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create team button with empty description, agents and pages</description>
+   <name>TC0960</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b3b295e0-d916-4d71-a0e4-c0db254727a5</testCaseGuid>
+</TestCaseEntity>

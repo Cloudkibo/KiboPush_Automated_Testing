@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test edit broadcast template</description>
+   <name>TC0863</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81c05b51-1ac2-4914-bd2c-2fbedda3ef98</testCaseGuid>
+</TestCaseEntity>

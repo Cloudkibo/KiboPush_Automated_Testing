@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test view poll</description>
+   <name>TC0260</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d794ad26-52e7-421f-8afb-baedefd291b2</testCaseGuid>
+</TestCaseEntity>

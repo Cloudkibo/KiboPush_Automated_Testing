@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create broadcast template (video component)</description>
+   <name>TC0808</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6328c174-5908-4d89-bb91-7666f9a0cc83</testCaseGuid>
+</TestCaseEntity>

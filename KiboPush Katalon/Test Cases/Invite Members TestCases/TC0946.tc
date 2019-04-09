@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test invite without selecting role</description>
+   <name>TC0946</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a288ec2c-b2d1-4efe-ae75-e07210501e5f</testCaseGuid>
+</TestCaseEntity>

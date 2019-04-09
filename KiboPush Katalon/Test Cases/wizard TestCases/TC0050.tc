@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test finish wizard</description>
+   <name>TC0050</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edc59784-5d12-4c5d-9ae4-fd5b13dd1152</testCaseGuid>
+</TestCaseEntity>

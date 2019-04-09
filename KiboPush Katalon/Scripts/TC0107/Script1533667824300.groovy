@@ -21,19 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://staging.kibopush.com/')
-
-WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login'))
-
-WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Team Account'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input'), 'kibopush.com')
-
-WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_1'), 'bjafri5@gmail.com')
-
-WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_2'), 'enuyVqMnQm89k6F/ESuVQA==')
-
-WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
@@ -46,4 +34,6 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_ytp-youtube-button ytp-bu
 WebUI.switchToWindowTitle('Broadcasts - YouTube')
 
 WebUI.click(findTestObject('Object Repository/Page_Broadcasts - YouTube/yt-formatted-string_Broadcasts'))
+
+WebUI.closeBrowser()
 

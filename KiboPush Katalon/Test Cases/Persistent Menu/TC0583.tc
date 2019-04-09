@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test media validation</description>
+   <name>TC0583</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61710b48-a196-4f14-bdbc-1eae2728530d</testCaseGuid>
+</TestCaseEntity>

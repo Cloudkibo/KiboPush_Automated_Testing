@@ -19,7 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://staging.kibopush.com/')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login'))
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Team Account'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input'), 'kibopush.com')
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_1'), 'bjafri5@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_2'), 'enuyVqMnQm89k6F/ESuVQA==')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
@@ -33,11 +47,13 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Text'))
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_ Add Button'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control (9)'), 'KiboPush')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control'), 'kibopush.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Open a website (5)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Open a website'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control_1 (5)'), 'kibopush.com')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control_1'), 'kibopush.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Done (5)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Done'))
+
+WebUI.closeBrowser()
 

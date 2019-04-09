@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add media component</description>
+   <name>TC0582</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac2fae10-c4f1-4095-a1e5-94e9d33a9717</testCaseGuid>
+</TestCaseEntity>

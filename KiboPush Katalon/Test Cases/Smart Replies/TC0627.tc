@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Create Button</description>
+   <name>TC0627</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba3f0c97-fca2-461a-8b97-d3800c95cb15</testCaseGuid>
+</TestCaseEntity>

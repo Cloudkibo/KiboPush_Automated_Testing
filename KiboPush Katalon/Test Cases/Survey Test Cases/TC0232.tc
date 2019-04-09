@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test cancel button</description>
+   <name>TC0232</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fecacdd-cd4b-468a-8939-99c2d62c15c3</testCaseGuid>
+</TestCaseEntity>

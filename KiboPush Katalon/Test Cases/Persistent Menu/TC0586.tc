@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test set media component as reply</description>
+   <name>TC0586</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd5f5ce2-e69b-4b47-8419-6b75fecb38ce</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Visit FAQ Page link</description>
+   <name>TC0012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f686c8a-e2cb-474c-a9eb-d66d33a40668</testCaseGuid>
+</TestCaseEntity>

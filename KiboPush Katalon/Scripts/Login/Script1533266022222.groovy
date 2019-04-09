@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://staging.kibopush.com/')
 
 WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login'))
@@ -34,4 +36,6 @@ WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_
 WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_2'), 'enuyVqMnQm89k6F/ESuVQA==')
 
 WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Dashboard'))
 

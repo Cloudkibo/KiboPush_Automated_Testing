@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add List with empty fields</description>
+   <name>TC0839</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>da413d2d-7c46-4778-bd9f-1890c4d558e2</testCaseGuid>
+</TestCaseEntity>

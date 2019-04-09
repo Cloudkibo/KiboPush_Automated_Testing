@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test view button in surveys list</description>
+   <name>TC0241</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a86e325b-8f96-4efa-8884-1eac068eca4c</testCaseGuid>
+</TestCaseEntity>

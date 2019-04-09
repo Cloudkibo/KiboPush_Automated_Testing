@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create survey with empty fields</description>
+   <name>TC0879</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba3d4b0e-33dc-494a-889a-9d1ea658f1ef</testCaseGuid>
+</TestCaseEntity>

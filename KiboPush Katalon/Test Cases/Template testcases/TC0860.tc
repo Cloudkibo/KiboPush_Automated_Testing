@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back button</description>
+   <name>TC0860</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7b95bc9-1cb9-48d0-a596-2c24017f60ad</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test set video component as reply</description>
+   <name>TC0577</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9dfb906-f429-459b-a94f-0cf5636e5f42</testCaseGuid>
+</TestCaseEntity>

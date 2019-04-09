@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Filter by Page...ALLTes (4)</name>
+   <tag></tag>
+   <elementGuidId>148ede36-0b85-443a-b403-c0c69f97cb66</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>m_form_type</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-98</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Filter by Page...ALLTest5Education123Test4Test3Test1Test_kibo</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[2]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-12 col-lg-12  col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;m-portlet m-portlet--mobile&quot;]/div[@class=&quot;m-portlet__body&quot;]/div[1]/div[@class=&quot;m-form m-form--label-align-right m--margin-top-20 m--margin-bottom-30&quot;]/div[@class=&quot;row align-items-center&quot;]/div[@class=&quot;col-xl-12 order-2 order-xl-1&quot;]/div[@class=&quot;row filters&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;m-form__group m-form__group--inline&quot;]/div[@class=&quot;m-form__control&quot;]/select[@id=&quot;m_form_type&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

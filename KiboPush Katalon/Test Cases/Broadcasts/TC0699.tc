@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add list with edit button (cancel button)</description>
+   <name>TC0699</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a108a68-49ab-481c-80f1-7c4e61245109</testCaseGuid>
+</TestCaseEntity>

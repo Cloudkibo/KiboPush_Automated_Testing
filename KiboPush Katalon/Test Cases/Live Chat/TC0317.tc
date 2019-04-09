@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reopen chat session</description>
+   <name>TC0317</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2e2c5ee-e18b-447f-9a0a-5481648d6f7f</testCaseGuid>
+</TestCaseEntity>

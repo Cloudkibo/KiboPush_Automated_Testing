@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>assign_to_agent</name>
+   <tag></tag>
+   <elementGuidId>74f4bac2-545b-4e7c-a942-98e3862874c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]/div/div/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div/div[2]/div/div[2]/div/span[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]/div/div/div/div[2]/div[2]/div/div[2]/div[3]/div[2]/div/div/div[2]/div/div[2]/div/span[3]</value>
+   </webElementProperties>
+</WebElementEntity>

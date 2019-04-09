@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test gallery validation (image)</description>
+   <name>TC0152</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d57fca2-ab52-4eb1-ab03-ea4201701e06</testCaseGuid>
+</TestCaseEntity>

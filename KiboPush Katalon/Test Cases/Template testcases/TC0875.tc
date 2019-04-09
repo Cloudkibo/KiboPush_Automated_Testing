@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Remove Question when multiple questions are added</description>
+   <name>TC0875</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d411d6aa-7b9d-499e-872c-fb911c6b9b83</testCaseGuid>
+</TestCaseEntity>

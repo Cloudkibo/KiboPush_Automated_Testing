@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add list with title, subtitle,image and action</description>
+   <name>TC0853</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>802ae663-7ef4-4718-853e-9739b39f7203</testCaseGuid>
+</TestCaseEntity>

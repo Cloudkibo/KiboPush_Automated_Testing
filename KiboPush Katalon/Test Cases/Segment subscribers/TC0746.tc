@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create list with multiple conditions (all of the following)</description>
+   <name>TC0746</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ecf6905-d89b-4a01-9575-dd3cd0226e0b</testCaseGuid>
+</TestCaseEntity>

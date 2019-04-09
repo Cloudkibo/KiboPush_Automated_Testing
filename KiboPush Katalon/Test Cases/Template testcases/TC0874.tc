@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Remove Question when only one question is added</description>
+   <name>TC0874</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82e84b90-be06-4d17-8df0-ddc264aaf333</testCaseGuid>
+</TestCaseEntity>

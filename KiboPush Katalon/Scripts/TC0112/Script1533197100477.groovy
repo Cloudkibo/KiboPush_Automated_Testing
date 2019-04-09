@@ -43,3 +43,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_card'))
 
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/i_fa fa-chevron-down'))
+
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Logout'))
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add card component</description>
+   <name>TC0548</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b7dd774-5668-45ef-991b-e4959bdd2440</testCaseGuid>
+</TestCaseEntity>

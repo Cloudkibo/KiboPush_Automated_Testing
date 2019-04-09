@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test set text component with multiple buttons</description>
+   <name>TC0543</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>98661598-f8d2-41cc-a397-f4a5f6043f86</testCaseGuid>
+</TestCaseEntity>

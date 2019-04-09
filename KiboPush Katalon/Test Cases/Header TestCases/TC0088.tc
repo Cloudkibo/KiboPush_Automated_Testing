@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test view notification</description>
+   <name>TC0088</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc33cf62-7391-4d19-bab8-31cab4e3e676</testCaseGuid>
+</TestCaseEntity>

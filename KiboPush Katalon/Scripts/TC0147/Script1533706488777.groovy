@@ -43,15 +43,19 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Card (4)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_ Add Button'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button (2)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control'), 'KiboPush')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control (5)'), 'kibopush.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Open a website'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Open a website (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control_1'), 'kibopush.com')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control_1 (1)'), 'kibopush.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Done'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Done (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_kibopush.com'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Done (1)'))
 

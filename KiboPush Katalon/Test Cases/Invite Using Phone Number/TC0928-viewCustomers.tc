@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test view customers list</description>
+   <name>TC0928-viewCustomers</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>99122543-3589-4d05-9eb5-2b902b7ee0b0</testCaseGuid>
+</TestCaseEntity>

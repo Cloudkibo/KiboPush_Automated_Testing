@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Resolve assign to team session</description>
+   <name>TC0353</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>465bbfc4-42da-4b8b-8627-6a820ccf1d90</testCaseGuid>
+</TestCaseEntity>

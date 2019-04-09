@@ -6,12 +6,11 @@
    <elementGuidId>897a3a2f-7c4e-4e7d-a72c-76c3de17cd02</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;List1&quot;]/div/div/div[3]/div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>id(&quot;tab_1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-sm-12 col-xs-12&quot;]/div[@class=&quot;ui-block&quot;]/div[@class=&quot;broadcast-component&quot;]/div[@class=&quot;ui-block hoverborder&quot;]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

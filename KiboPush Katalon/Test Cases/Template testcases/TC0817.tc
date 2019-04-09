@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create broadcast template (media component)</description>
+   <name>TC0817</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e33075e4-81f6-49e9-876e-b3fa8bba1679</testCaseGuid>
+</TestCaseEntity>

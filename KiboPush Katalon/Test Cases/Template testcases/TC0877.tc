@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Remove Choice when there are two choices</description>
+   <name>TC0877</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d83e7dee-c2c4-48a5-bd73-a6cd36d6b193</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test upload media</description>
+   <name>TC0816</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c0b644e-d1e4-43ca-a572-c32d2c10509f</testCaseGuid>
+</TestCaseEntity>

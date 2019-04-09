@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test delete button in surveys list</description>
+   <name>TC0244</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb72f601-2a4d-4370-9ffe-8815dd0e4d2b</testCaseGuid>
+</TestCaseEntity>

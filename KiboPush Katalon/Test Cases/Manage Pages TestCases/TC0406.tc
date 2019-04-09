@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test pagination (next page)</description>
+   <name>TC0406</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9d8c66b-d9df-4285-b640-7dfa86f987ba</testCaseGuid>
+</TestCaseEntity>

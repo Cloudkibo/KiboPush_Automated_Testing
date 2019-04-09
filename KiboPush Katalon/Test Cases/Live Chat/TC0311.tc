@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>See last 50 chat</description>
+   <name>TC0311</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>926d7f6f-5fff-41ea-a97c-8f1f89266bee</testCaseGuid>
+</TestCaseEntity>

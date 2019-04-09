@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add button without title</description>
+   <name>TC0828</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c70788f5-66c5-4f26-874c-419e2a3805b9</testCaseGuid>
+</TestCaseEntity>

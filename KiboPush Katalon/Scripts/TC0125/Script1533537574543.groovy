@@ -42,7 +42,7 @@ WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/div_Filter by type...textimage (2)'))
 
 date_page1 = getFirstRowDate()
 
@@ -54,7 +54,7 @@ date_page2 = getFirstRowDate()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_4'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 date_page4 = getFirstRowDate()
 
@@ -68,13 +68,13 @@ WebUI.verifyNotMatch(date_page2, date_page4, false)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_3'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage'))
 
 date_page3 = getFirstRowDate()
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_1'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage'))
 
 date_page1 = getFirstRowDate()
 

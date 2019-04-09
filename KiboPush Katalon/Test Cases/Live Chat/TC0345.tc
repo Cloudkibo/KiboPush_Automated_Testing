@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assign to team (buyer)</description>
+   <name>TC0345</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b43d7857-50fd-4b44-8a8c-56e4f51f8489</testCaseGuid>
+</TestCaseEntity>

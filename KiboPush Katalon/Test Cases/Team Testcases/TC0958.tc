@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create new team button</description>
+   <name>TC0958</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd09f1eb-e2f4-4073-9a56-0d821a530736</testCaseGuid>
+</TestCaseEntity>

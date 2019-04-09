@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by type image</description>
+   <name>TC0110</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>757af20f-bda7-4b13-b426-7e68c88a689b</testCaseGuid>
+</TestCaseEntity>

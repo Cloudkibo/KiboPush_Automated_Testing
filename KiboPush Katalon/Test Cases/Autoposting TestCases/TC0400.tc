@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test autoposting profile pic for twitter account</description>
+   <name>TC0400</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>44f7d499-f928-4122-ab6c-7a33c8dc932d</testCaseGuid>
+</TestCaseEntity>

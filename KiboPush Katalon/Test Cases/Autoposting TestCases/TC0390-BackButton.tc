@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back button on autoposting settings page</description>
+   <name>TC0390-BackButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6ac54cb-399e-4c1b-98b9-da863d753055</testCaseGuid>
+</TestCaseEntity>

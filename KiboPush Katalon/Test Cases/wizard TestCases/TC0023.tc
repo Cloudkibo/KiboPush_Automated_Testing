@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test connect page functionality</description>
+   <name>TC0023</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>61912bf5-184f-4860-9c8b-ec70f64c7794</testCaseGuid>
+</TestCaseEntity>

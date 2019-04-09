@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by n days</description>
+   <name>TC0208</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3220ac8-cb18-4a30-8077-cbd2204a0470</testCaseGuid>
+</TestCaseEntity>

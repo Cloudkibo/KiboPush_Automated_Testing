@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test delete broadcast template</description>
+   <name>TC0862</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9ce72626-883a-4acc-9b22-157e17b649dd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test invite someone</description>
+   <name>TC0943</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>acd163e0-296e-4b1d-8a6e-218e5a8b455d</testCaseGuid>
+</TestCaseEntity>

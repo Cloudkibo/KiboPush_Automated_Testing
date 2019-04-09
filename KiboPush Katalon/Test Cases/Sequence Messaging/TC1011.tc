@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add message with a button in the message</description>
+   <name>TC1011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e3f509e9-a344-4670-bc99-7866d648f87e</testCaseGuid>
+</TestCaseEntity>

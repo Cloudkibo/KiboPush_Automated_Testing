@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test autopostig feeds by facebook page url on which user is not admin</description>
+   <name>TC0038</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73357133-9e49-4bba-a1cb-5b942a2eeae0</testCaseGuid>
+</TestCaseEntity>

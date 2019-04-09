@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>List_AddButton1</name>
+   <tag></tag>
+   <elementGuidId>14287469-a446-4c61-8b6d-247b8ccc7e65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tab_1&quot;]/div/div[2]/div[2]/div/div[3]/div[1]/div/div[3]/div[1]/div/div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;buttonTarget-1535524332112-1&quot;]/h6</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;tab_1&quot;]/div/div[2]/div[2]/div/div[3]/div[1]/div/div[3]/div[1]/div/div</value>
+   </webElementProperties>
+</WebElementEntity>
