@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Default greeting text</description>
+   <name>TC1028</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0dd83711-8c35-4f8c-9919-20250c41e549</testCaseGuid>
+</TestCaseEntity>

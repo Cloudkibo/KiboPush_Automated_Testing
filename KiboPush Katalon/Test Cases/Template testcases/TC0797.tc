@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create broadcast template (gallery component with multiple buttons)</description>
+   <name>TC0797</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0228924-3724-428e-8b50-b9393a30ffd2</testCaseGuid>
+</TestCaseEntity>

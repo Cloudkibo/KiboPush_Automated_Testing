@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Main menu (edit message)</description>
+   <name>TC0604</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1166834-1aca-4282-94b2-5313e8de19f4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back button in poll report</description>
+   <name>TC0290</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6f7cf64-90c3-4805-95f5-ce66122203b3</testCaseGuid>
+</TestCaseEntity>

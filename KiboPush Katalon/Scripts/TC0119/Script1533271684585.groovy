@@ -45,3 +45,21 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Broadcast/select_Filter
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Miscellaneous'))
 
+//WebDriver driver = DriverFactory.getWebDriver()
+//WebElement Table = driver.findElement(By.xpath("//table/tbody"))
+//List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+//int rows_count = rows_table.size()
+//println(rows_count)
+//
+//List<String> columns_row = new ArrayList<String>();
+//for (int row = 0; row < rows_count; row++) {
+//	columns_row.add(rows_table.get(row).findElement(By.xpath('.//td[@data-field="datetime"]')).getText())
+//}
+//
+//println(columns_row.get(0))
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/i_fa fa-chevron-down'))
+
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Logout'))
+
+WebUI.closeBrowser()
+

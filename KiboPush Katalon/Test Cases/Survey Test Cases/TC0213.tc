@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create survey button (From survey template)</description>
+   <name>TC0213</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4088bd5-0a9e-4e19-b302-8f9d8770411a</testCaseGuid>
+</TestCaseEntity>

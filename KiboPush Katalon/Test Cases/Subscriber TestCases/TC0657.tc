@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filtrer by tags</description>
+   <name>TC0657</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f568e148-027b-47ba-b397-031565b8c28a</testCaseGuid>
+</TestCaseEntity>

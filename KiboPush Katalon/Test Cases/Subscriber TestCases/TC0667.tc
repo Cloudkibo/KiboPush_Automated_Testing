@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test cancel edit tag</description>
+   <name>TC0667</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18ac4e7e-7793-4896-8b2a-a278b6ed5cd0</testCaseGuid>
+</TestCaseEntity>

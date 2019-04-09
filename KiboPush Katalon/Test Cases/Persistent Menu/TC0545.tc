@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test image validation</description>
+   <name>TC0545</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55123e57-ebcb-4ef7-b6e7-421e06dac7d0</testCaseGuid>
+</TestCaseEntity>

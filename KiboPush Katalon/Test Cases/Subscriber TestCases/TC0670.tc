@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test view subscriber's details</description>
+   <name>TC0670</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42a656a8-1816-401f-9627-fa7f23eb63c3</testCaseGuid>
+</TestCaseEntity>

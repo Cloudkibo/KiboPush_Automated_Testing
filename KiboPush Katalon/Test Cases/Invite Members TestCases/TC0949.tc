@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test cancel invitation</description>
+   <name>TC0949</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e95e3662-23dd-456c-a86e-b6fdeb324289</testCaseGuid>
+</TestCaseEntity>

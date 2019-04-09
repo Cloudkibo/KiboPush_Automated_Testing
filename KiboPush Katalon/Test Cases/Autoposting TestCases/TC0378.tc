@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test autoposting feeds wordpress integration guide</description>
+   <name>TC0378</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12cd7495-bd1a-4543-9dfa-6ce667cf92d4</testCaseGuid>
+</TestCaseEntity>

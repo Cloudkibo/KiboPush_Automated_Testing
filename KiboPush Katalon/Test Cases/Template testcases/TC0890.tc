@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test edit survey template button</description>
+   <name>TC0890</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>261f559f-f0fc-4a11-b0d7-1ceaffba644f</testCaseGuid>
+</TestCaseEntity>

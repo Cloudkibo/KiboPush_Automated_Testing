@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>image_src</name>
+   <tag></tag>
+   <elementGuidId>4b07194a-285c-4498-a2bc-8ff223ab82ee</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//img[@src=&quot;https://staging.kibopush.com/api/broadcasts/download/fceafe0ac8f201883071527.jpg&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@src=&quot;https://staging.kibopush.com/api/broadcasts/download/fceafe0ac8f201883071527.jpg&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

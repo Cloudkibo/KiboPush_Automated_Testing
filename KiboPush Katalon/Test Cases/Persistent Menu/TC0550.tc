@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test card validation (title)</description>
+   <name>TC0550</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d0164b41-123c-42dc-9c98-10a1bf8d3509</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View all pages</description>
+   <name>TC0404</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e12d9670-c98f-4338-91a1-b670290203ae</testCaseGuid>
+</TestCaseEntity>

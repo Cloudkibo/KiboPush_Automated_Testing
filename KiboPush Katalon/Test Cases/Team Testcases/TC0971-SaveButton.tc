@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test save button in edit screen</description>
+   <name>TC0971-SaveButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7af818c6-9906-4f4b-9e5e-e001b13e591b</testCaseGuid>
+</TestCaseEntity>

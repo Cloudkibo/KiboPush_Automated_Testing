@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test delete autoposting feed</description>
+   <name>TC0380</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cf46162e-f1bb-44c3-97cb-0367419b66f0</testCaseGuid>
+</TestCaseEntity>

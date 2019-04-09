@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View all segmented lists</description>
+   <name>TC0708</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>685e4fa2-e43b-4cdc-85c7-77245cb2e024</testCaseGuid>
+</TestCaseEntity>

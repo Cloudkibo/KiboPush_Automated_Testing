@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test view segmented list button</description>
+   <name>TC0929</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f1aab207-2076-4aec-b724-1655c852b674</testCaseGuid>
+</TestCaseEntity>

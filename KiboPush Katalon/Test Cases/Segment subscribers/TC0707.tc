@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test video tutorial</description>
+   <name>TC0707</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2f7bc1f1-2c89-4d8a-9a9f-4afb6cab2724</testCaseGuid>
+</TestCaseEntity>

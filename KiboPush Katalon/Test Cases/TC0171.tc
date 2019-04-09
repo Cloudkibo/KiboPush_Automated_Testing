@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test add file component</description>
-   <name>TC0171</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5d70d6a3-5e87-40b8-92cc-81158a0fb4e9</testCaseGuid>
-</TestCaseEntity>

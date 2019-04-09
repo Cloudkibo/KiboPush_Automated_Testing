@@ -37,9 +37,15 @@ WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast (3) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/h3_Create Broadcast (1) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/h3_Create Broadcast'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/p_To create a new broadcast fr (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/p_To create a new broadcast fr'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Broadcast TargetingTextIma'))
+
+WebUI.closeBrowser()
 

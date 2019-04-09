@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add list with edit button with subribe to seq</description>
+   <name>TC0850</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f369a992-ca90-4a74-9a9e-4024df1d492a</testCaseGuid>
+</TestCaseEntity>

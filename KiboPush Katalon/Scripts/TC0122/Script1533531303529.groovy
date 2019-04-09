@@ -42,21 +42,23 @@ WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage'))
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+WebElement Table = driver.findElement(By.xpath("//table/tbody"))
 
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
 int rows_count_before = rows_table.size()
 
-WebUI.setText(findTestObject('Page_KiboPush  Broadcast/input_example-text-input'), '7')
+WebUI.setText(findTestObject('Page_KiboPush  Broadcast/input_example-text-input'), '1')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-Table = driver.findElement(By.xpath('//table/tbody'))
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/div_Filter by type...textimage_1'))
+
+Table = driver.findElement(By.xpath("//table/tbody"))
 
 rows_table = Table.findElements(By.tagName('tr'))
 

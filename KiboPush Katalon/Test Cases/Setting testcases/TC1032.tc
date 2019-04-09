@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add user name</description>
+   <name>TC1032</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebf3b599-dcf0-49de-888c-c53ddc8eb455</testCaseGuid>
+</TestCaseEntity>

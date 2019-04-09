@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update Message Segmentation- Gender</description>
+   <name>TC1005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d362ea97-2fdd-4781-9c37-d0e0391485e2</testCaseGuid>
+</TestCaseEntity>

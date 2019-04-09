@@ -19,7 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://staging.kibopush.com/')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login'))
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Team Account'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input'), 'kibopush.com')
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_1'), 'bjafri5@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_2'), 'enuyVqMnQm89k6F/ESuVQA==')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
@@ -31,5 +45,17 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Edit Template'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/broadcast_component'), 5)
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control (1)'), 'TitleX')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/textarea_.... (1)'), '...')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/textarea_...'), '..')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/textarea_..'), '.')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/textarea_.'), '')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/textarea_form-control'), 'X')
+
+WebUI.closeBrowser()
 

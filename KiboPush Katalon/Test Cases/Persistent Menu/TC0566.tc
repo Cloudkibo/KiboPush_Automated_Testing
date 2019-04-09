@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test set gallery component with multiple buttons as reply</description>
+   <name>TC0566</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f72dc251-9940-4254-8f34-bcc8d653e77b</testCaseGuid>
+</TestCaseEntity>

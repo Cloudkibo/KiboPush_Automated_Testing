@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test make agent button (only if role is admin)</description>
+   <name>TC0977</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e508a3a2-3628-4c5c-a637-a324a89f621b</testCaseGuid>
+</TestCaseEntity>

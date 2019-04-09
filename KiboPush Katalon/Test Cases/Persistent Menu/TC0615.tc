@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove menu</description>
+   <name>TC0615</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87a6f523-b384-454f-9977-314333b9b0f7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Cancel_1</name>
+   <tag></tag>
+   <elementGuidId>dba8d6e5-3447-4344-9472-ae7e1f38be4f</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn m-btn--pill btn-secondary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m_login&quot;)/div[@class=&quot;m-grid__item m-grid__item--order-tablet-and-mobile-2 m-login__aside&quot;]/div[@class=&quot;m-stack m-stack--hor m-stack--desktop&quot;]/div[@class=&quot;m-stack__item m-stack__item--fluid&quot;]/div[@class=&quot;m-login__wrapper&quot;]/div[@class=&quot;m-login__signin&quot;]/div[@class=&quot;m-login__form m-form&quot;]/center[1]/a[@class=&quot;btn m-btn--pill btn-secondary&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

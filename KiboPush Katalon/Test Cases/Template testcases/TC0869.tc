@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test survey templates pagination (previous page)</description>
+   <name>TC0869</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e7285dc-d6c0-42cd-b052-6a5cebcd7eba</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test invite teams link</description>
+   <name>TC0068</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>83e17d64-f24a-4687-8e77-45aa1d321f29</testCaseGuid>
+</TestCaseEntity>

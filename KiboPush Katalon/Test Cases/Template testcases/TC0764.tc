@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter broadcast template</description>
+   <name>TC0764</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d8f30f5-e066-4ca8-82aa-8bbed6e75b59</testCaseGuid>
+</TestCaseEntity>

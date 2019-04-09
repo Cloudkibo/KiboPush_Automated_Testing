@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test search comment capture</description>
+   <name>TC0508</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd3bd864-3d95-487c-a127-f4167dc62101</testCaseGuid>
+</TestCaseEntity>

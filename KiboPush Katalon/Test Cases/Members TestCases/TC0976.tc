@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test cross button of delete dialogue box</description>
+   <name>TC0976</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc5dd9be-31ec-4381-be19-5e6c2e701272</testCaseGuid>
+</TestCaseEntity>

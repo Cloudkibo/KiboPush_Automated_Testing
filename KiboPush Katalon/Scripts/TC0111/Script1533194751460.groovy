@@ -41,3 +41,7 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Broadcast/select_Filter
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_text'))
 
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Baqar'))
+
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Logout'))
+

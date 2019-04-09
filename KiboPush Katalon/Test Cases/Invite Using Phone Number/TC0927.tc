@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test reset button</description>
+   <name>TC0927</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0755e98-5142-474e-a71d-9fa66b99ea9a</testCaseGuid>
+</TestCaseEntity>

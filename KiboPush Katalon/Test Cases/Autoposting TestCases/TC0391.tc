@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View autopostig messages</description>
+   <name>TC0391</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5775b21-6392-4a22-9b87-eefc4db52783</testCaseGuid>
+</TestCaseEntity>

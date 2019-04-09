@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test save menu</description>
+   <name>TC0613</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7dabd68-1859-42bc-9c24-4ce81342bf7f</testCaseGuid>
+</TestCaseEntity>

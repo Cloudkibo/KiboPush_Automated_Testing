@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create poll with empty fields</description>
+   <name>TC0272</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3926c40f-d84c-40a9-a068-cf6adb0749e9</testCaseGuid>
+</TestCaseEntity>

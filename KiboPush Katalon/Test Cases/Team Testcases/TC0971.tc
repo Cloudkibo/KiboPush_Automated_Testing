@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test edit button in teams list</description>
+   <name>TC0971</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e4fb96cf-7a8a-42d6-b3ac-d90c05442668</testCaseGuid>
+</TestCaseEntity>

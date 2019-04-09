@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by type gallery</description>
+   <name>TC0113</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5d22ce46-55f9-47d0-9ee9-95a2821fb5b9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test invite subscribers button</description>
+   <name>TC0409</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6f3ad661-ac12-431d-9242-00b461228a1b</testCaseGuid>
+</TestCaseEntity>

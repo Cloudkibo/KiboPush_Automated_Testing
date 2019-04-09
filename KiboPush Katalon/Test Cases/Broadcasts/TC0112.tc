@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by type card</description>
+   <name>TC0112</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ffc2fe7c-9abf-4497-ba3f-7b0bec55c3ea</testCaseGuid>
+</TestCaseEntity>

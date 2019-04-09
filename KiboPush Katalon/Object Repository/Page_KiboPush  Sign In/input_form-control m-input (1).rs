@@ -3,7 +3,7 @@
    <description></description>
    <name>input_form-control m-input (1)</name>
    <tag></tag>
-   <elementGuidId>892cbdd3-ab2e-434a-a32d-1aba8f769b45</elementGuidId>
+   <elementGuidId>818c409a-b471-423c-b72a-ddde509843b4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Workspace name e.g. mycompany</value>
+      <value>Email</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test submit with empty inviation message</description>
+   <name>TC0926</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e9b4360-f4c8-4208-86ca-88e203cc4f54</testCaseGuid>
+</TestCaseEntity>

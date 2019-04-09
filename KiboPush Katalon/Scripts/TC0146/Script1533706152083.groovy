@@ -52,9 +52,15 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card (3) (1)'))
 
 WebUI.delay(1)
 
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement upload = driver.findElement(By.xpath('//input[@type=\'file\']'))
+
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_file'), img)
+upload.sendKeys(img)
+
+WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/img'), 10)
 

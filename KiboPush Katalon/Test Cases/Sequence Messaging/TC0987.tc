@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update Sequence Trigger</description>
+   <name>TC0987</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e9866390-9c15-46c5-9732-9ffdbfa89407</testCaseGuid>
+</TestCaseEntity>

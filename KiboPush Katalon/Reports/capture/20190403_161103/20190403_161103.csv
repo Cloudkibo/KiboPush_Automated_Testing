@@ -1,0 +1,65 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+capture,Chrome 73.0.3683.75,,2019-04-03 16:11:04,2019-04-03 16:33:42,22m - 37.889s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0505,Chrome 73.0.3683.75,Test documentation link,2019-04-03 16:11:04,2019-04-03 16:13:49,2m - 44.814s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:11:05,2019-04-03 16:13:49,2m - 44.579s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0507,Chrome 73.0.3683.75,Test view comment capture,2019-04-03 16:13:49,2019-04-03 16:16:22,2m - 33.039s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:13:49,2019-04-03 16:16:22,2m - 32.911s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0508,Chrome 73.0.3683.75,Test search comment capture,2019-04-03 16:16:22,2019-04-03 16:19:34,3m - 12.048s,ERROR
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:16:22,2019-04-03 16:19:30,3m - 7.791s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-03 16:19:30,2019-04-03 16:19:32,2.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/input_form-control""), ""hi"")",Chrome 73.0.3683.75,,2019-04-03 16:19:32,2019-04-03 16:19:32,0.106s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-03 16:19:32,2019-04-03 16:19:34,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-03 16:19:34,2019-04-03 16:19:34,0.005s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody/tr[1]/td[1]/span""))",Chrome 73.0.3683.75,,2019-04-03 16:19:34,2019-04-03 16:19:34,0.042s,ERROR
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0509,Chrome 73.0.3683.75,Test pagination (next page),2019-04-03 16:19:34,2019-04-03 16:21:26,1m - 51.424s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:19:35,2019-04-03 16:21:26,1m - 51.289s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0510,Chrome 73.0.3683.75,Test pagination (previous page),2019-04-03 16:21:26,2019-04-03 16:23:43,2m - 16.951s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:21:26,2019-04-03 16:23:43,2m - 16.854s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0511,Chrome 73.0.3683.75,Test pagination (Jump to page n),2019-04-03 16:23:43,2019-04-03 16:25:10,1m - 26.753s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:23:43,2019-04-03 16:25:10,1m - 26.673s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0512,Chrome 73.0.3683.75,Test delete button in posts list,2019-04-03 16:25:10,2019-04-03 16:26:49,1m - 39.230s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:25:10,2019-04-03 16:26:49,1m - 39.183s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0513,Chrome 73.0.3683.75,Test cross of delete dialogue box,2019-04-03 16:26:49,2019-04-03 16:29:36,2m - 46.928s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:26:49,2019-04-03 16:29:36,2m - 46.876s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0514,Chrome 73.0.3683.75,Test New Facebook Post button,2019-04-03 16:29:36,2019-04-03 16:31:56,2m - 20.456s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:29:36,2019-04-03 16:31:56,2m - 20.291s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/span_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-04-03 16:31:56,2019-04-03 16:31:56,0.105s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0515,Chrome 73.0.3683.75,Test Choose Page,2019-04-03 16:31:56,2019-04-03 16:33:27,1m - 31.040s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:31:56,2019-04-03 16:33:27,1m - 30.960s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0522,Chrome 73.0.3683.75,Test overriding of image with video,2019-04-03 16:33:27,2019-04-03 16:33:29,2.047s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:27,2019-04-03 16:33:29,1.978s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0523,Chrome 73.0.3683.75,Test overriding of video with image,2019-04-03 16:33:29,2019-04-03 16:33:30,1.103s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:29,2019-04-03 16:33:30,1.032s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0524,Chrome 73.0.3683.75,Test Post on facebook button (without a reply),2019-04-03 16:33:30,2019-04-03 16:33:31,1.095s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:30,2019-04-03 16:33:31,1.018s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0526,Chrome 73.0.3683.75,Test Post on facebook button (with empty fields ),2019-04-03 16:33:31,2019-04-03 16:33:33,1.198s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:32,2019-04-03 16:33:33,1.105s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0527,Chrome 73.0.3683.75,Test reset button,2019-04-03 16:33:33,2019-04-03 16:33:34,1.263s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:33,2019-04-03 16:33:34,1.170s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0528,Chrome 73.0.3683.75,Test back button,2019-04-03 16:33:34,2019-04-03 16:33:35,1.329s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:34,2019-04-03 16:33:35,1.252s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0529,Chrome 73.0.3683.75,Test Edit,2019-04-03 16:33:35,2019-04-03 16:33:36,1.216s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:35,2019-04-03 16:33:36,1.108s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0530,Chrome 73.0.3683.75,Test Save,2019-04-03 16:33:36,2019-04-03 16:33:41,4.215s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:37,2019-04-03 16:33:41,4.154s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0531,Chrome 73.0.3683.75,Test back button,2019-04-03 16:33:41,2019-04-03 16:33:42,1.362s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-03 16:33:41,2019-04-03 16:33:42,1.306s,FAILED

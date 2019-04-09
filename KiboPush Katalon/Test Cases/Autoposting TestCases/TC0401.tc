@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test autoposting profile pic for wordpress account</description>
+   <name>TC0401</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a88eee7-5406-4ee3-8aa6-74c39105a50d</testCaseGuid>
+</TestCaseEntity>

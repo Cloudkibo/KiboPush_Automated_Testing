@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Post on facebook button (with empty fields )</description>
+   <name>TC0526</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2fbec9a5-afc3-4aa9-acf3-f8e78ae2e540</testCaseGuid>
+</TestCaseEntity>

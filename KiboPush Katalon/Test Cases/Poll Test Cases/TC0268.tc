@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test poll templates filter by category</description>
+   <name>TC0268</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d834b3a8-83dc-4972-9a83-b87ec1809c20</testCaseGuid>
+</TestCaseEntity>

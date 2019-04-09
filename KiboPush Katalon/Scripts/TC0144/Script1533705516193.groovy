@@ -24,7 +24,21 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://staging.kibopush.com/')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login'))
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Team Account'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input'), 'kibopush.com')
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_1'), 'bjafri5@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_2'), 'enuyVqMnQm89k6F/ESuVQA==')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
@@ -38,11 +52,15 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/di
 
 WebUI.delay(1)
 
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement upload = driver.findElement(By.xpath('//input[@type=\'file\']'))
+
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_file'), img)
+upload.sendKeys(img)
 
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/img'), 10)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control (4)'), 'Card Title')
 

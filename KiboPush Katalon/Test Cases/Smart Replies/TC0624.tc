@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Question Delete Button</description>
+   <name>TC0624</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a6aa5b8-d14e-415c-a27d-4a33fe124cfe</testCaseGuid>
+</TestCaseEntity>

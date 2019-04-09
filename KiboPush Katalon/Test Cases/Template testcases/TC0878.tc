@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add choices when there are two choices</description>
+   <name>TC0878</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d40787a0-b695-4f7e-939f-868a51fb97a8</testCaseGuid>
+</TestCaseEntity>

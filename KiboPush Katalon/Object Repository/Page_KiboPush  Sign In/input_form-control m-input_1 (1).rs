@@ -3,7 +3,7 @@
    <description></description>
    <name>input_form-control m-input_1 (1)</name>
    <tag></tag>
-   <elementGuidId>d02b76d3-4a24-4517-86e5-85a5e4728c67</elementGuidId>
+   <elementGuidId>447d4a13-244a-4e71-8ee7-aa81367b80e9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -32,7 +32,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Email</value>
+      <value>Password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back button on team login page</description>
+   <name>TC0018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d19f0bc8-d6c7-46c9-9ff3-15d4165b03d8</testCaseGuid>
+</TestCaseEntity>

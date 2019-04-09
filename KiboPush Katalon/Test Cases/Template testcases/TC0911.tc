@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test edit poll template</description>
+   <name>TC0911</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9eb2c7d9-2c52-472b-8505-c2e625c85a3f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove image component</description>
+   <name>TC0590</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7eb23fdf-fb6f-4e00-a32d-9a8a0ba9345b</testCaseGuid>
+</TestCaseEntity>

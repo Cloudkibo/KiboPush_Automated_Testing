@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update Message Segmentation- Page</description>
+   <name>TC1004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa48e3f1-2a18-4594-9b97-40e4d4956421</testCaseGuid>
+</TestCaseEntity>

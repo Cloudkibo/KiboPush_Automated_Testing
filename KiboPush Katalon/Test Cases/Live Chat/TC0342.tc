@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create new tag</description>
+   <name>TC0342</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2840cdd9-78fc-4c58-81f1-dc59b7bb06da</testCaseGuid>
+</TestCaseEntity>

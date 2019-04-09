@@ -39,7 +39,9 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Broadcast/select_Filter by type...textim'), 'image', true)
 
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_image'))
+
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/i_fa fa-chevron-down'))
+
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Logout'))
 

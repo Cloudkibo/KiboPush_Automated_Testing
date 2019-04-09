@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test send new poll link</description>
+   <name>TC0092</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>675fbdde-c21b-4ec5-a5fa-f40960bb0d93</testCaseGuid>
+</TestCaseEntity>

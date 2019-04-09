@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Remove card in List</description>
+   <name>TC0836</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c4953c83-f42e-4b03-b6d9-6a1a35889ea5</testCaseGuid>
+</TestCaseEntity>

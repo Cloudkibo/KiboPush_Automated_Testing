@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test invite with empty fields</description>
+   <name>TC0944</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2d1fc87-ebf6-4d1d-8848-abda1500906b</testCaseGuid>
+</TestCaseEntity>

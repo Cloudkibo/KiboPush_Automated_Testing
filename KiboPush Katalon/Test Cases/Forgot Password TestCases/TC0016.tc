@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Cancel button on forgot password</description>
+   <name>TC0016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>371beb61-b619-4a99-8b86-62a1e289d565</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test delete survey template</description>
+   <name>TC0891</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6b9a7de-8fc6-4dfb-bfe0-cef567b16ed0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create poll button</description>
+   <name>TC0265</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea609d8f-cf13-49ca-84fd-0ca6dabcc480</testCaseGuid>
+</TestCaseEntity>

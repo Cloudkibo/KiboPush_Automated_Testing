@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test broadcast templates pagination (next page)</description>
+   <name>TC0765</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>441a6891-adb6-4b29-88ad-9dcdc675811c</testCaseGuid>
+</TestCaseEntity>

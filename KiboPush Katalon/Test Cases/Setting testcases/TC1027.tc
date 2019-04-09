@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Greeting text video tutorial</description>
+   <name>TC1027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8fce467-73cf-46ab-a4ec-bdaf78121689</testCaseGuid>
+</TestCaseEntity>

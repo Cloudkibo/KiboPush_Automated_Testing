@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Unassign tag</description>
+   <name>TC0344</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>417d0645-129d-4d51-a86c-f6bb55a3db44</testCaseGuid>
+</TestCaseEntity>

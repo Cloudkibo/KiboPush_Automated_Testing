@@ -4,6 +4,12 @@
    <name>span_Create New Broadcast</name>
    <tag></tag>
    <elementGuidId>3f32a1ea-9ea5-4e18-be2e-6b38c6155b4d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Create New' or . = 'Create New')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create New Broadcast</value>
+      <value>Create New</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

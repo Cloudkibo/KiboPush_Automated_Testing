@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test close subscriber's details dialogue</description>
+   <name>TC0676</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8cb3e3e-614d-455d-a246-80ad754617ea</testCaseGuid>
+</TestCaseEntity>

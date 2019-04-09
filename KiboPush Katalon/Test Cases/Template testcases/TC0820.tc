@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove text component</description>
+   <name>TC0820</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb5327da-8a62-4920-b458-63aacc8452f3</testCaseGuid>
+</TestCaseEntity>

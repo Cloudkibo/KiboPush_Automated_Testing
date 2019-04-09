@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Team Account (1)</name>
    <tag></tag>
-   <elementGuidId>07f274f2-90e4-4971-9e8b-826c04cef15d</elementGuidId>
+   <elementGuidId>fac15d11-71ec-4f80-abec-706aa356d21f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

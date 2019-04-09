@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Update Message Segmentation</description>
+   <name>TC1002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6fdb75a0-54dd-4233-9388-fed9c1dcfdf6</testCaseGuid>
+</TestCaseEntity>

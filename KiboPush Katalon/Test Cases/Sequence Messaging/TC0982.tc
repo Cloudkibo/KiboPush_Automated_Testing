@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Create Sequence Button</description>
+   <name>TC0982</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>972158b4-82f3-4701-893d-2bfd3984ce58</testCaseGuid>
+</TestCaseEntity>

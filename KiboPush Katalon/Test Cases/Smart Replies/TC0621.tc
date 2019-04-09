@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Add Question Functionality</description>
+   <name>TC0621</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>073660de-3128-4bff-8aab-f97a2487e5ee</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>View welcome message</description>
+   <name>TC1037</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4b9b504-1d57-4e59-b890-a783352e351f</testCaseGuid>
+</TestCaseEntity>

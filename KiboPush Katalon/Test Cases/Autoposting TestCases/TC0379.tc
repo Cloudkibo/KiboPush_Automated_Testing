@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test autoposting feeds without entering any url</description>
+   <name>TC0379</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b88f65d6-e3ca-4691-bb06-a35a5d270b69</testCaseGuid>
+</TestCaseEntity>

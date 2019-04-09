@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove card in gallery component</description>
+   <name>TC0568</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db5c9ae4-fad6-4c39-a382-e455cd962dc2</testCaseGuid>
+</TestCaseEntity>

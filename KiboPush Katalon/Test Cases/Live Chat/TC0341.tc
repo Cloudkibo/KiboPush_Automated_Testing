@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test unsubscribe (agent)</description>
+   <name>TC0341</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8443d9f4-4684-4f93-9911-c97ba34ac6a6</testCaseGuid>
+</TestCaseEntity>

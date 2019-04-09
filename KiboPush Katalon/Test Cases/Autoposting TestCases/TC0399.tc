@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test autoposting profile pic for Facebook page</description>
+   <name>TC0399</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb519210-bac4-4156-af63-6ffa2fb7915a</testCaseGuid>
+</TestCaseEntity>

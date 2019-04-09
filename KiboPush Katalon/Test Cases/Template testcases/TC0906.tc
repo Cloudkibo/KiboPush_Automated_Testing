@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add category</description>
+   <name>TC0906</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfa465e4-d57c-4d98-a65d-a0047523c72d</testCaseGuid>
+</TestCaseEntity>

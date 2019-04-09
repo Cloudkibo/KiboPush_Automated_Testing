@@ -19,7 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://staging.kibopush.com/')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login'))
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Team Account'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input'), 'kibopush.com')
+
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_1'), 'bjafri5@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_2'), 'enuyVqMnQm89k6F/ESuVQA==')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasts'))
 
@@ -29,15 +43,11 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Gallery (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Gallery'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_New Gallery Component Adde (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_New Gallery Component Adde'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/span_slick-arrow slick-next (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/span_slick-arrow slick-next'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/span_slick-arrow slick-prev (1) (1)'))
-
-WebUI.delay(1)
+WebUI.closeBrowser()
 

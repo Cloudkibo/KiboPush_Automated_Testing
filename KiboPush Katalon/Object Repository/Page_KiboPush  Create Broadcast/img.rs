@@ -7,15 +7,15 @@
    <imagePath>/Users/baqarjafri/Katalon Studio/KiboPush/sample.jpg</imagePath>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;List1&quot;]/div/div/div[3]/div/input</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>id(&quot;tab_1&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-6 col-md-6 col-sm-12 col-xs-12&quot;]/div[@class=&quot;ui-block&quot;]/div[@class=&quot;broadcast-component&quot;]/div[@class=&quot;ui-block hoverborder&quot;]/div[1]/img[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;tab_1&quot;]/div/div[2]/div[2]/div/div[3]/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

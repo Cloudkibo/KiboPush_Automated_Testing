@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test create poll with title and two responses</description>
+   <name>TC0275</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ee31eedb-48a1-48ba-9ae6-e0245a4632c4</testCaseGuid>
+</TestCaseEntity>

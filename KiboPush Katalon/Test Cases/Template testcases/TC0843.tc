@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add list without Add button on both cards</description>
+   <name>TC0843</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcf2ee96-611d-4e00-9509-e3c7e1ea089b</testCaseGuid>
+</TestCaseEntity>
