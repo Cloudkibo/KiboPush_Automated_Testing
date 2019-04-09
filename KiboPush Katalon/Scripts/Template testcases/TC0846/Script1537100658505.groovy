@@ -33,7 +33,7 @@ WebUI.delay(2)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement button = driver.findElement(By.xpath('/html/body/div[5]/div/div/div/div/div[2]/button[1]'))
+WebElement button = driver.findElement(By.xpath('/html/body/div[5]/div/div/div/div/div[3]/button[1]'))
 
 if(button.isEnabled())
 {

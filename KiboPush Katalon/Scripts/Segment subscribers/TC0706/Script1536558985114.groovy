@@ -23,5 +23,13 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Segment 
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Click Here'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/a_Click Here'))
+
+WebUI.switchToWindowTitle('Segmented Subscribers – The Marketing Newsletter')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_Segmented Subscribers  The Marketing Newsletter/h2_User Guide'))
+
+WebUI.click(findTestObject('Object Repository/Page_Segmented Subscribers  The Marketing Newsletter/h2_Segmented Subscribers'))
 

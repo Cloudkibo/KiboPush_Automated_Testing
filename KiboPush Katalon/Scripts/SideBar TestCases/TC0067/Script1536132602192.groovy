@@ -21,15 +21,17 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasting'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Templates'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Templates'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasting (4)'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Templates (2)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Templates/h3_Broadcasts'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Templates/h3_Surveys'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Templates/h3_Polls'))
 

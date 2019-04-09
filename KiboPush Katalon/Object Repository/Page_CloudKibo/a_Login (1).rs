@@ -3,21 +3,7 @@
    <description></description>
    <name>a_Login (1)</name>
    <tag></tag>
-   <elementGuidId>b02d1372-906a-42e0-adaf-a763a88e5464</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@href = '/login?continue=http://kibolite.cloudkibo.com' and (text() = '
-                                Login
-                            ' or . = '
-                                Login
-                            ')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='m_login']/div/div/div/div[2]/div/a</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>3568895a-fc6e-424d-b506-fb163f392fc2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/login?continue=http://kibolite.cloudkibo.com</value>
+      <value>/login?continue=https://kiboengage.cloudkibo.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -91,7 +77,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '/login?continue=http://kibolite.cloudkibo.com')]</value>
+      <value>//a[contains(@href, '/login?continue=https://kiboengage.cloudkibo.com')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

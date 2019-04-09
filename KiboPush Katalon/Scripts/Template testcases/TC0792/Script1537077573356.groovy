@@ -24,31 +24,29 @@ WebUI.callTestCase(findTestCase('Template testcases/TC0788'), [:], FailureHandli
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/gal_img (1) (1)'), img)
+WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/gal_img (1)'), img)
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast Template/svg (5) (1)'))
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (4) (1)'), 'hello')
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (4) (1) (1)'), 'hello')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Open a website (1) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16) (3)'), 'google')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Open a website (1) (1) (1)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8) (3)'), 'www.google.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (1) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (1) (1)'))
 
 WebUI.delay(1)
 
-WebUI.scrollToPosition(0, 0)
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (15)'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast Template/button_Create (7)'))
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (4) (1)'), 'hello')
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have a subtitle (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (15)'))
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Card in gallery must have (1)'))
 

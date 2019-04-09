@@ -1,0 +1,64 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,Chrome 73.0.3683.86,,2019-03-25 14:42:07,2019-03-25 14:44:57,2m - 49.294s,PASSED
+,,,,,,
+Test Cases/Login Test Cases/TC0001,Chrome 73.0.3683.86,Test Login Functionality by entering right credentials,2019-03-25 14:42:07,2019-03-25 14:42:59,51.916s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 14:42:08,2019-03-25 14:42:10,1.943s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-25 14:42:10,2019-03-25 14:42:10,0.123s,PASSED
+"navigateToUrl(""https://kibochat.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-03-25 14:42:10,2019-03-25 14:42:22,11.755s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:42:22,2019-03-25 14:42:22,0.533s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Login (10)""))",Chrome 73.0.3683.86,,2019-03-25 14:42:22,2019-03-25 14:42:23,0.834s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (11)""), ""individual@cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:42:23,2019-03-25 14:42:23,0.202s,PASSED
+"setEncryptedText(findTestObject(""Page_KiboPush/input_password (10)""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 73.0.3683.86,,2019-03-25 14:42:23,2019-03-25 14:42:23,0.146s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (11)""))",Chrome 73.0.3683.86,,2019-03-25 14:42:23,2019-03-25 14:42:23,0.094s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (58)""))",Chrome 73.0.3683.86,,2019-03-25 14:42:23,2019-03-25 14:42:56,32.933s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-25 14:42:56,2019-03-25 14:42:59,3.032s,PASSED
+,,,,,,
+Test Cases/Login Test Cases/TC0002,Chrome 73.0.3683.86,Test Login Functionality by entering right credentials,2019-03-25 14:42:59,2019-03-25 14:43:39,39.271s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 14:42:59,2019-03-25 14:43:00,0.494s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-25 14:43:00,2019-03-25 14:43:00,0.115s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-03-25 14:43:00,2019-03-25 14:43:10,9.700s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:43:10,2019-03-25 14:43:10,0.481s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Login (12) (2)""))",Chrome 73.0.3683.86,,2019-03-25 14:43:10,2019-03-25 14:43:11,0.813s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (13) (2)""), ""team@cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:43:11,2019-03-25 14:43:11,0.134s,PASSED
+"setEncryptedText(findTestObject(""Page_KiboPush/input_password (12) (2)""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 73.0.3683.86,,2019-03-25 14:43:11,2019-03-25 14:43:11,0.094s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CloudKibo/input_password""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 73.0.3683.86,,2019-03-25 14:43:11,2019-03-25 14:43:11,0.062s,PASSED
+"click(findTestObject(""Object Repository/Page_CloudKibo/button_Sign In""))",Chrome 73.0.3683.86,,2019-03-25 14:43:11,2019-03-25 14:43:11,0.068s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/h3_Dashboard""))",Chrome 73.0.3683.86,,2019-03-25 14:43:11,2019-03-25 14:43:39,27.181s,PASSED
+,,,,,,
+Test Cases/Login Test Cases/TC0003,Chrome 73.0.3683.86,Test Login Functionality by entering wrong email,2019-03-25 14:43:39,2019-03-25 14:43:56,17.193s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 14:43:39,2019-03-25 14:43:40,1.494s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-25 14:43:40,2019-03-25 14:43:40,0.128s,PASSED
+"navigateToUrl(""https://kibochat.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-03-25 14:43:40,2019-03-25 14:43:54,13.108s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:43:54,2019-03-25 14:43:54,0.509s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Login (10) (1)""))",Chrome 73.0.3683.86,,2019-03-25 14:43:54,2019-03-25 14:43:55,0.869s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (11) (1)""), ""individua@cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:43:55,2019-03-25 14:43:55,0.170s,PASSED
+"setEncryptedText(findTestObject(""Page_KiboPush/input_password (10) (1)""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 73.0.3683.86,,2019-03-25 14:43:55,2019-03-25 14:43:55,0.083s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (11) (1)""))",Chrome 73.0.3683.86,,2019-03-25 14:43:55,2019-03-25 14:43:55,0.069s,PASSED
+"click(findTestObject(""Page_KiboPush/div_No account found with this (1)""))",Chrome 73.0.3683.86,,2019-03-25 14:43:55,2019-03-25 14:43:56,0.601s,PASSED
+,,,,,,
+Test Cases/Login Test Cases/TC0004,Chrome 73.0.3683.86,Test Login Functionality by entering wrong email,2019-03-25 14:43:56,2019-03-25 14:44:16,20.625s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 14:43:56,2019-03-25 14:43:58,1.740s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-25 14:43:58,2019-03-25 14:43:58,0.117s,PASSED
+"navigateToUrl(""https://kibochat.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-03-25 14:43:58,2019-03-25 14:44:13,15.479s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:44:13,2019-03-25 14:44:14,0.613s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Login (10) (1) (1)""))",Chrome 73.0.3683.86,,2019-03-25 14:44:14,2019-03-25 14:44:15,1.165s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (11) (1) (1)""), ""individua@cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:44:15,2019-03-25 14:44:16,0.395s,PASSED
+"setEncryptedText(findTestObject(""Page_KiboPush/input_password (10) (1) (1)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.86,,2019-03-25 14:44:16,2019-03-25 14:44:16,0.200s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (11) (1) (1)""))",Chrome 73.0.3683.86,,2019-03-25 14:44:16,2019-03-25 14:44:16,0.146s,PASSED
+"click(findTestObject(""Page_KiboPush/div_No account found with this (2)""))",Chrome 73.0.3683.86,,2019-03-25 14:44:16,2019-03-25 14:44:16,0.588s,PASSED
+,,,,,,
+Test Cases/Login Test Cases/TC0005,Chrome 73.0.3683.86,Test Login Functionality without entering any credentials,2019-03-25 14:44:16,2019-03-25 14:44:32,15.681s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 14:44:17,2019-03-25 14:44:17,0.705s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-25 14:44:17,2019-03-25 14:44:17,0.129s,PASSED
+"navigateToUrl(""https://kibochat.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-03-25 14:44:17,2019-03-25 14:44:30,12.892s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:44:30,2019-03-25 14:44:31,0.548s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Login (10)""))",Chrome 73.0.3683.86,,2019-03-25 14:44:31,2019-03-25 14:44:32,1.010s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (11)""))",Chrome 73.0.3683.86,,2019-03-25 14:44:32,2019-03-25 14:44:32,0.128s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush/div_Email is required.""))",Chrome 73.0.3683.86,,2019-03-25 14:44:32,2019-03-25 14:44:32,0.167s,PASSED
+,,,,,,
+Test Cases/Login Test Cases/TC0012,Chrome 73.0.3683.86,Test Visit FAQ Page link,2019-03-25 14:44:32,2019-03-25 14:44:56,24.258s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-03-25 14:44:32,2019-03-25 14:44:33,0.999s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-03-25 14:44:33,2019-03-25 14:44:33,0.114s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-03-25 14:44:33,2019-03-25 14:44:49,16.020s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-03-25 14:44:49,2019-03-25 14:44:50,0.665s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush/a_Visit FAQ page""))",Chrome 73.0.3683.86,,2019-03-25 14:44:50,2019-03-25 14:44:56,6.302s,PASSED

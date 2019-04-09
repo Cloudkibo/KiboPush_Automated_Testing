@@ -37,11 +37,7 @@ WebUI.click(findTestObject('Page_KiboPush/button_Sign In (10) (1)'))
 
 WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/dashboard')
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (57)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)'))
 
 WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Messenger'))
 

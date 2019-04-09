@@ -21,23 +21,23 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0788'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (4) (2)'), 'hello')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (4)'), 'hello')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (3) (1)'), 'h')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)'), 'h')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1) (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16) (1)'), 'google')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Open a website (1) (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Open a website (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8) (1)'), 'www.google.com')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (1) (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Done (1)'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (8) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (8)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have an image'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Card in gallery must have'))
 

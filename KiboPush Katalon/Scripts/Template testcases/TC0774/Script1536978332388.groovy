@@ -18,20 +18,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0771'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[2]/textarea'))
-
-textArea.sendKeys('h')
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (8)'))
 

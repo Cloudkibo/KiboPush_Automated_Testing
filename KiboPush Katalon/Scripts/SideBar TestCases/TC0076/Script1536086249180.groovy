@@ -18,12 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Settings'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Settings (2)'))
 
-WebUI.click(findTestObject('Page_KiboPush  api_settings/h3_Settings'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Api Settings/span_Change Password'))
 

@@ -21,18 +21,21 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo (3)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (6)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (4) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (9)'))
+WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (2) (1) (2)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_4 (2)'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_4 (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/span_Add Feeds (3)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Autoposting/input_form-control (2)'), 'https://www.facebook.com/Test-3-146690295986803')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Autoposting/input_form-control (2)'), 'https://www.facebook.com/Testing-Page-2117904648459079')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account (2)'))
 

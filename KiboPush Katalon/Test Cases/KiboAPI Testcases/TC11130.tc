@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Existing Developer account</description>
+   <name>TC11130</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>835559b3-8100-458a-8256-f8319d8f7fbf</testCaseGuid>
+</TestCaseEntity>

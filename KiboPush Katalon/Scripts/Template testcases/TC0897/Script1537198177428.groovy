@@ -35,7 +35,7 @@ WebElement next = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/di
 
 next.click()
 
-WebElement previous = driver.findElement(By.xpath('//*[@id="ajax_data"]/ul/li[1]/a'))
+WebElement previous = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/ul/li[1]/a'))
  
  previous.click()
  

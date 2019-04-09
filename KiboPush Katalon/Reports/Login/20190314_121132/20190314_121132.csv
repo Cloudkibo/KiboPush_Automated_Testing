@@ -1,0 +1,32 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2019-03-14 12:11:34,2019-03-14 12:11:36,1.916s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0001,,Test Login Functionality by entering right credentials,2019-03-14 12:11:34,2019-03-14 12:11:35,0.644s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:35,2019-03-14 12:11:35,0.388s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0002,,Test Login Functionality by entering right credentials,2019-03-14 12:11:35,2019-03-14 12:11:35,0.106s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:35,2019-03-14 12:11:35,0.012s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0003,,Test Login Functionality by entering wrong email,2019-03-14 12:11:35,2019-03-14 12:11:35,0.089s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:35,2019-03-14 12:11:35,0.011s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0004,,Test Login Functionality by entering wrong email,2019-03-14 12:11:35,2019-03-14 12:11:35,0.118s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:35,2019-03-14 12:11:35,0.032s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0005,,Test Login Functionality without entering any credentials,2019-03-14 12:11:35,2019-03-14 12:11:36,0.115s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:36,2019-03-14 12:11:36,0.008s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0006,,Test Login Functionality by entering wrong domain,2019-03-14 12:11:36,2019-03-14 12:11:36,0.116s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:36,2019-03-14 12:11:36,0.007s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0012,,Test Visit FAQ Page link,2019-03-14 12:11:36,2019-03-14 12:11:36,0.092s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:36,2019-03-14 12:11:36,0.014s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0013,,Test cancel button on login,2019-03-14 12:11:36,2019-03-14 12:11:36,0.090s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:36,2019-03-14 12:11:36,0.009s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0017,,Test back button on individual login page,2019-03-14 12:11:36,2019-03-14 12:11:36,0.119s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:36,2019-03-14 12:11:36,0.012s,FAILED
+,,,,,,
+Test Cases/Login Test Cases/TC0018,,Test back button on team login page,2019-03-14 12:11:36,2019-03-14 12:11:36,0.096s,FAILED
+"openBrowser("""")",,,2019-03-14 12:11:36,2019-03-14 12:11:36,0.010s,FAILED

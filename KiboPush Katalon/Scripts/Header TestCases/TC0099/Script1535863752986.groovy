@@ -18,12 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Header TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo (2) (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Settings'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Settings (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/h3_Settings'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Api Settings/span_Delete Information'))
 
