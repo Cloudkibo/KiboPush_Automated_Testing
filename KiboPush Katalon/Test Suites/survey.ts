@@ -4,7 +4,6 @@
    <name>survey</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-05T11:50:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -70,12 +69,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0214</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>526604fa-57af-4d3c-8f14-be17156a6ace</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Survey Test Cases/TC0215</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>460f94b9-fbc7-4edc-abbd-9c6cb1d33cc9</guid>

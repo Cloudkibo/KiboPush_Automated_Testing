@@ -14,29 +14,39 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0542'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button2')
+WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button (2)'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro (3)'), 'Button2')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website (3)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.kibopush.com')
+WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro (3)'), 'www.kibopush.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button3')
+WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done (7)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button (2)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.dawn.com')
+WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro (3)'), 'Button3')
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Save'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website (3)'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro (3)'), 'www.dawn.com')
+
+WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done (7)'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/button_Save (1) (1)'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Message Saved Successfully (1)'))
 

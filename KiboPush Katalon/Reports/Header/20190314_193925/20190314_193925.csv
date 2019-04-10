@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Header,Chrome 73.0.3683.75,,2019-03-14 19:39:27,2019-03-14 19:52:34,13m - 7.843s,FAILED
+,,,,,,
+Test Cases/Header TestCases/TC0088,Chrome 73.0.3683.75,Test view notification,2019-03-14 19:39:27,2019-03-14 19:39:58,31.075s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:39:27,2019-03-14 19:39:57,29.649s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_m-nav__link-icon""))",Chrome 73.0.3683.75,,2019-03-14 19:39:57,2019-03-14 19:39:58,1.104s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_No New""))",Chrome 73.0.3683.75,,2019-03-14 19:39:58,2019-03-14 19:39:58,0.067s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0090,Chrome 73.0.3683.75,Test recycle icon dropdown,2019-03-14 19:39:58,2019-03-14 19:41:09,1m - 11.433s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:39:58,2019-03-14 19:41:09,1m - 11.036s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_m-nav__link-icon (1)""))",Chrome 73.0.3683.75,,2019-03-14 19:41:09,2019-03-14 19:41:09,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Send New Broadcast""))",Chrome 73.0.3683.75,,2019-03-14 19:41:09,2019-03-14 19:41:09,0.114s,PASSED
+"click(findTestObject(""Page_KiboPush  Broadcast/h3_Manage Broadcasts""))",Chrome 73.0.3683.75,,2019-03-14 19:41:09,2019-03-14 19:41:09,0.088s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0091,Chrome 73.0.3683.75,Test create send new broadcasts link,2019-03-14 19:41:09,2019-03-14 19:42:06,56.799s,PASSED
+"callTestCase(findTestCase(""Header TestCases/TC0090""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:41:09,2019-03-14 19:42:06,56.735s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0092,Chrome 73.0.3683.75,Test send new poll link,2019-03-14 19:42:06,2019-03-14 19:43:28,1m - 21.675s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:42:06,2019-03-14 19:43:27,1m - 21.319s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_m-nav__link-icon (1) (1)""))",Chrome 73.0.3683.75,,2019-03-14 19:43:27,2019-03-14 19:43:28,0.089s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Send New Poll""))",Chrome 73.0.3683.75,,2019-03-14 19:43:28,2019-03-14 19:43:28,0.120s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/h3_Manage Polls""))",Chrome 73.0.3683.75,,2019-03-14 19:43:28,2019-03-14 19:43:28,0.067s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0093,Chrome 73.0.3683.75,Test Send new survey link,2019-03-14 19:43:28,2019-03-14 19:44:52,1m - 24.697s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:43:28,2019-03-14 19:44:50,1m - 22.393s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-14 19:44:50,2019-03-14 19:44:52,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_m-nav__link-icon (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:44:52,2019-03-14 19:44:52,0.066s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Send New Survey""))",Chrome 73.0.3683.75,,2019-03-14 19:44:52,2019-03-14 19:44:52,0.113s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Survey/h3_Manage Surveys""))",Chrome 73.0.3683.75,,2019-03-14 19:44:52,2019-03-14 19:44:52,0.058s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0094,Chrome 73.0.3683.75,Test user profile pic,2019-03-14 19:44:52,2019-03-14 19:45:40,47.753s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:44:52,2019-03-14 19:45:40,47.541s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:45:40,2019-03-14 19:45:40,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_cloudkibo_1""))",Chrome 73.0.3683.75,,2019-03-14 19:45:40,2019-03-14 19:45:40,0.069s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0095,Chrome 73.0.3683.75,Test profile dropdown,2019-03-14 19:45:40,2019-03-14 19:46:34,53.438s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:45:40,2019-03-14 19:46:33,53.188s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:46:33,2019-03-14 19:46:34,0.091s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Individual Premium Accoun""))",Chrome 73.0.3683.75,,2019-03-14 19:46:34,2019-03-14 19:46:34,0.075s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0096,Chrome 73.0.3683.75,Test setup wizard link,2019-03-14 19:46:34,2019-03-14 19:47:30,56.237s,FAILED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:46:34,2019-03-14 19:47:29,55.496s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:47:29,2019-03-14 19:47:29,0.093s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Setup Using Wizard (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:47:29,2019-03-14 19:47:29,0.173s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Pages/a_Continue (2) (1)""))",Chrome 73.0.3683.75,,2019-03-14 19:47:29,2019-03-14 19:47:30,0.134s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Getting Started/div_Invite Subscribers""))",Chrome 73.0.3683.75,,2019-03-14 19:47:30,2019-03-14 19:47:30,0.273s,FAILED
+,,,,,,
+Test Cases/Header TestCases/TC0097,Chrome 73.0.3683.75,Test messages link,2019-03-14 19:47:30,2019-03-14 19:48:26,56.586s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:47:30,2019-03-14 19:48:26,56.222s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:48:26,2019-03-14 19:48:26,0.147s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Messages""))",Chrome 73.0.3683.75,,2019-03-14 19:48:26,2019-03-14 19:48:26,0.102s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0098,Chrome 73.0.3683.75,Test FAQ link,2019-03-14 19:48:26,2019-03-14 19:49:11,44.958s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:48:26,2019-03-14 19:49:09,42.732s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-14 19:49:09,2019-03-14 19:49:11,2.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:49:11,2019-03-14 19:49:11,0.072s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_FAQ""))",Chrome 73.0.3683.75,,2019-03-14 19:49:11,2019-03-14 19:49:11,0.087s,PASSED
+,,,,,,
+Test Cases/Header TestCases/TC0099,Chrome 73.0.3683.75,Test settings link,2019-03-14 19:49:11,2019-03-14 19:50:04,52.179s,FAILED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:49:11,2019-03-14 19:50:03,51.677s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)""))",Chrome 73.0.3683.75,,2019-03-14 19:50:03,2019-03-14 19:50:03,0.083s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-03-14 19:50:03,2019-03-14 19:50:03,0.129s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  api_settings/h3_Settings""))",Chrome 73.0.3683.75,,2019-03-14 19:50:03,2019-03-14 19:50:04,0.222s,FAILED
+,,,,,,
+Test Cases/Header TestCases/TC0100,Chrome 73.0.3683.75,Test logout,2019-03-14 19:50:04,2019-03-14 19:51:32,1m - 28.815s,FAILED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:50:04,2019-03-14 19:51:32,1m - 28.753s,FAILED
+,,,,,,
+Test Cases/Header TestCases/TC0101,Chrome 73.0.3683.75,Test documentation link,2019-03-14 19:51:32,2019-03-14 19:52:34,1m - 1.913s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-14 19:51:32,2019-03-14 19:52:34,1m - 1.805s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (44)""))",Chrome 73.0.3683.75,,2019-03-14 19:52:34,2019-03-14 19:52:34,0.059s,PASSED

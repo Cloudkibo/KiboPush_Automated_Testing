@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0769'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (17)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Text cannot be empty'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Please select a category'))
 

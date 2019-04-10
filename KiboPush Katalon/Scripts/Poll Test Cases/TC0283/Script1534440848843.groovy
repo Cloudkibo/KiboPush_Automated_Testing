@@ -21,8 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1)'))
-
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1) (1)'))
 

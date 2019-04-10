@@ -41,5 +41,5 @@ WebElement previous = driver.findElement(By.xpath('//*[@id="ajax_data"]/ul/li[1]
  
  List <WebElement> rows = driver.findElements(By.xpath('//*[@id="ajax_data"]/table/tbody/tr'))
   
- WebUI.verifyEqual(rows.size(), 1)
+ WebUI.verifyEqual(rows.size(), 5)
  

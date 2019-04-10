@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0801'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_Text (2) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Text (2)'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_New Text Component Added (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/button_Create'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (9)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Select an audio file'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Select an audio file'))
 

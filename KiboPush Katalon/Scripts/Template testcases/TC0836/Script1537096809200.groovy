@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/i_Broadcast Title_fa fa-times-circle-o'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/i_fa fa-times-circle-o (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_A List must have atleast 2 elements'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_A List must have atleast 2_1'))
 

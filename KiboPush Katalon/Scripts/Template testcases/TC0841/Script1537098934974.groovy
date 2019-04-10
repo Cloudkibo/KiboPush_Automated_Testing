@@ -21,10 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_New List Component Added'))
+
+
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (4)'), 'hello')
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)'), 'h')
 
+
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create'))
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_A list must have atleast 2 (2)'))
+

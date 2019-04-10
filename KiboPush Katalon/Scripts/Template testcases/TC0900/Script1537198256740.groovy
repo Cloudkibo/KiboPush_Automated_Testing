@@ -18,11 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0899'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control (1) (1)'), 'hi')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control (1)'), 'hi')
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/polls_category'))
 
@@ -30,17 +29,15 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/textarea_form-control (5)'), 'q1')
+WebUI.setText(findTestObject('Page_KiboPush  Create Poll/textarea_form-control'), 'q1')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control_1 (1) (1)'), '1')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control_1 (1)'), '1')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control_2 (1) (1)'), '2')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control_2 (1)'), '2')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control_3 (1)'), '3')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control_3'), '3')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Poll/button_Create Poll (2) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/button_Create Poll (2)'))
 
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Templates/h3_Broadcasts'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/h3_Templates'))
 

@@ -25,8 +25,11 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DateFormat as DateFormat
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Segment subscribers/TC0712'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(0)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/input_segmentationType (4) (1)'))
 
@@ -38,6 +41,7 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select CriteriaonBefore (1)'), 'on', true)
 
 WebDriver driver = DriverFactory.getWebDriver()
+
 WebElement date = driver.findElement(By.xpath('.//*[@id="text"]'))
 
 date.sendKeys('02/07/2018')
@@ -45,3 +49,4 @@ date.sendKeys('02/07/2018')
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Save'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully'))
+
