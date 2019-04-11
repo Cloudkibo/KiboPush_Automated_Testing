@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Autoposting feeds will be displayed in kiboengage wizard and response method will display in kibochat wizard</description>
-   <name>TC11020</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bb49d5d5-875f-4555-83c2-80f14e88cfef</testCaseGuid>
-</TestCaseEntity>

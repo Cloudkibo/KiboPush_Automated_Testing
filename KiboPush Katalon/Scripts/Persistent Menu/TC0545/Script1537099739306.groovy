@@ -16,9 +16,11 @@ WebUI.callTestCase(findTestCase('Persistent Menu/TC0544'), [:], FailureHandling.
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (1) (2)'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/div_Text'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Select a valid image'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/button_Save'))
+
+WebUI.delay(2)
 

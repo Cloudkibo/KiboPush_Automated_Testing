@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test API key reset credentials</description>
-   <name>TC11132</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>dfadb021-0563-4401-8c85-658a0cc8ce2e</testCaseGuid>
-</TestCaseEntity>

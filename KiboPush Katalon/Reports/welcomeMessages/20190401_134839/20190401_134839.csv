@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+welcomeMessages,Chrome 73.0.3683.75,,2019-04-01 13:48:40,2019-04-01 13:52:10,3m - 30.046s,FAILED
+,,,,,,
+Test Cases/Welcome messages/TC1034,Chrome 73.0.3683.75,Welcome message documentation link,2019-04-01 13:48:41,2019-04-01 13:49:12,31.512s,FAILED
+"callTestCase(findTestCase(""Setting testcases/TC1014""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-01 13:48:41,2019-04-01 13:49:12,31.312s,FAILED
+,,,,,,
+Test Cases/Welcome messages/TC1035,Chrome 73.0.3683.75,Welcome message video tutorial,2019-04-01 13:49:12,2019-04-01 13:49:45,32.486s,FAILED
+"callTestCase(findTestCase(""Setting testcases/TC1014""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-01 13:49:12,2019-04-01 13:49:45,32.356s,FAILED
+,,,,,,
+Test Cases/Welcome messages/TC1036,Chrome 73.0.3683.75,Welcome messages list,2019-04-01 13:49:45,2019-04-01 13:50:24,39.797s,FAILED
+"callTestCase(findTestCase(""Setting testcases/TC1014""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-01 13:49:45,2019-04-01 13:50:24,39.726s,FAILED
+,,,,,,
+Test Cases/Welcome messages/TC1037,Chrome 73.0.3683.75,View welcome message,2019-04-01 13:50:24,2019-04-01 13:50:59,34.861s,FAILED
+"callTestCase(findTestCase(""Setting testcases/TC1036""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-01 13:50:24,2019-04-01 13:50:59,34.798s,FAILED
+,,,,,,
+Test Cases/Welcome messages/TC1038,Chrome 73.0.3683.75,Edit Welcome message,2019-04-01 13:50:59,2019-04-01 13:51:32,33.159s,FAILED
+"callTestCase(findTestCase(""Setting testcases/TC1036""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-01 13:50:59,2019-04-01 13:51:32,33.089s,FAILED
+,,,,,,
+Test Cases/Welcome messages/TC1039,Chrome 73.0.3683.75,Test back button,2019-04-01 13:51:32,2019-04-01 13:52:10,37.952s,FAILED
+"callTestCase(findTestCase(""Setting testcases/TC1038""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-01 13:51:32,2019-04-01 13:52:10,37.888s,FAILED

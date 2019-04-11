@@ -21,25 +21,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.maximizeWindow()
+WebUI.navigateToUrl('staging.kibopush.com')
 
-WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://staging.kibopush.com/')
 
-WebUI.click(findTestObject('Page_CloudKibo/a_Login (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login (10)'))
 
-WebUI.setText(findTestObject('Page_CloudKibo/input_Sign In_email'), 'arveenkumar55@gmail.com')
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Team Account (2)'))
 
-WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password'), 'Sq3Tv/oKKfDNGi1QgSywNA==')
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input (7)'), 'kibopush.com')
 
-WebUI.click(findTestObject('Page_CloudKibo/button_Sign In (4)'))
+WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_1 (5)'), 'arveenkumar55@gmail.com')
+
+WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_2 (2)'), 'Sq3Tv/oKKfDNGi1QgSywNA==')
+
+WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In (6)'))
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Organization'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Invite Members'))
 
 WebUI.delay(2)
 

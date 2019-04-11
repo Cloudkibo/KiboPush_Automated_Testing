@@ -4,6 +4,7 @@
    <name>Team</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-02-15T18:01:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

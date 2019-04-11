@@ -21,27 +21,24 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo (3)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (4) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (9)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (2) (1) (2)'))
-
-WebUI.delay(3)
+WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (10)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_4 (3)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Feeds (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Add Feeds'))
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_WordPress (3)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_WordPress'))
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_View Integration Guidel (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_View Integration Guidel'))
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/a_WordPresscom (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/a_WordPress.com'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/h4_Guielines for integrating WordPress blogs'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/div_If you have admin rights o'))
 

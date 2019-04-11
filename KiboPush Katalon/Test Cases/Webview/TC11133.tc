@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Webview Default Action on Cards (Welcome Message)</description>
-   <name>TC11133</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>dae19115-8769-4951-ba22-a6e4c824faa9</testCaseGuid>
-</TestCaseEntity>

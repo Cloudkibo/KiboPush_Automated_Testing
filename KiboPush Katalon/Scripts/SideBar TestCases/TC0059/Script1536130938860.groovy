@@ -23,11 +23,13 @@ WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasting (3)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasting'))
+
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Polls'))
+
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Manage Polls'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Polls'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Polls/h3_Manage Polls'))
 

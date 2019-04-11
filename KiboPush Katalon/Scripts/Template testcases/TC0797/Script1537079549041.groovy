@@ -28,6 +28,10 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/gal_img'), 
 
 WebUI.delay(10)
 
+WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast Template/svg (5) (1) (1)'))
+
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (4)'), 'hello')
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)'), 'h')
@@ -55,6 +59,8 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Done (1)'))
 
 WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
 

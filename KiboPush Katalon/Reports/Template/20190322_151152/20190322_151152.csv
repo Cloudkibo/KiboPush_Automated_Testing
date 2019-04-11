@@ -1,0 +1,1291 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Template,Chrome 73.0.3683.75,,2019-03-22 15:11:54,2019-03-22 17:28:00,2h - 16m - 6.012s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0760,Chrome 73.0.3683.75,Test view broadcasts,2019-03-22 15:11:54,2019-03-22 15:12:35,41.496s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:11:54,2019-03-22 15:12:35,41.181s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:12:35,2019-03-22 15:12:35,0.005s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""local_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 15:12:35,2019-03-22 15:12:35,0.026s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-03-22 15:12:35,2019-03-22 15:12:35,0.003s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 15:12:35,2019-03-22 15:12:35,0.005s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0761,Chrome 73.0.3683.75,Test view surveys,2019-03-22 15:12:35,2019-03-22 15:13:13,37.732s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:12:35,2019-03-22 15:13:13,37.604s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:13:13,2019-03-22 15:13:13,0.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 15:13:13,2019-03-22 15:13:13,0.017s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-03-22 15:13:13,2019-03-22 15:13:13,0.001s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 15:13:13,2019-03-22 15:13:13,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0762,Chrome 73.0.3683.75,Test view polls,2019-03-22 15:13:13,2019-03-22 15:13:54,41.384s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:13:13,2019-03-22 15:13:54,41.291s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:13:54,2019-03-22 15:13:54,0.000s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 15:13:54,2019-03-22 15:13:54,0.015s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-03-22 15:13:54,2019-03-22 15:13:54,0.000s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 15:13:54,2019-03-22 15:13:54,0.000s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0763,Chrome 73.0.3683.75,Test search broadcast templates,2019-03-22 15:13:54,2019-03-22 15:14:43,48.038s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:13:55,2019-03-22 15:14:40,45.436s,PASSED
+"setText(findTestObject(""Page_KiboPush  Dashboard/input_form-control m-input m-i""), ""Social Message Template"")",Chrome 73.0.3683.75,,2019-03-22 15:14:40,2019-03-22 15:14:41,0.476s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:14:41,2019-03-22 15:14:43,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:14:43,2019-03-22 15:14:43,0.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""local_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 15:14:43,2019-03-22 15:14:43,0.022s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-03-22 15:14:43,2019-03-22 15:14:43,0.001s,PASSED
+"verifyEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 15:14:43,2019-03-22 15:14:43,0.007s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0764,Chrome 73.0.3683.75,Test filter broadcast template,2019-03-22 15:14:43,2019-03-22 15:15:55,1m - 12.881s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:14:43,2019-03-22 15:15:25,41.941s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Templates/select_filter_template_broadcast_templates""), ""Research"", true)",Chrome 73.0.3683.75,,2019-03-22 15:15:25,2019-03-22 15:15:55,30.843s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0765,Chrome 73.0.3683.75,Test broadcast templates pagination (next page),2019-03-22 15:15:55,2019-03-22 15:16:38,42.875s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:15:56,2019-03-22 15:16:36,40.690s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_next""))",Chrome 73.0.3683.75,,2019-03-22 15:16:36,2019-03-22 15:16:36,0.079s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:16:36,2019-03-22 15:16:38,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:16:38,2019-03-22 15:16:38,0.000s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""local_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 15:16:38,2019-03-22 15:16:38,0.017s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-03-22 15:16:38,2019-03-22 15:16:38,0.000s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 15:16:38,2019-03-22 15:16:38,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0766,Chrome 73.0.3683.75,Test broadcast templates pagination (previous page),2019-03-22 15:16:38,2019-03-22 15:17:24,45.368s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:16:38,2019-03-22 15:17:21,43.099s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_next""))",Chrome 73.0.3683.75,,2019-03-22 15:17:21,2019-03-22 15:17:22,0.080s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_previous""))",Chrome 73.0.3683.75,,2019-03-22 15:17:22,2019-03-22 15:17:22,0.075s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:17:22,2019-03-22 15:17:24,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:17:24,2019-03-22 15:17:24,0.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""local_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 15:17:24,2019-03-22 15:17:24,0.016s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-03-22 15:17:24,2019-03-22 15:17:24,0.000s,PASSED
+"verifyEqual(rows_table.size(), 5)",Chrome 73.0.3683.75,,2019-03-22 15:17:24,2019-03-22 15:17:24,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0767,Chrome 73.0.3683.75,Test broadcast templates pagination (Jump to page n),2019-03-22 15:17:24,2019-03-22 15:18:06,42.633s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:17:24,2019-03-22 15:18:04,40.448s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_3""))",Chrome 73.0.3683.75,,2019-03-22 15:18:04,2019-03-22 15:18:04,0.081s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:18:04,2019-03-22 15:18:06,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:18:06,2019-03-22 15:18:06,0.000s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""local_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 15:18:06,2019-03-22 15:18:06,0.019s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-03-22 15:18:06,2019-03-22 15:18:06,0.000s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 15:18:06,2019-03-22 15:18:06,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0768,Chrome 73.0.3683.75,Test create new broadcast template button,2019-03-22 15:18:06,2019-03-22 15:18:53,46.960s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:18:06,2019-03-22 15:18:53,46.732s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Create New""))",Chrome 73.0.3683.75,,2019-03-22 15:18:53,2019-03-22 15:18:53,0.105s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h3_Create Broadcast Template""))",Chrome 73.0.3683.75,,2019-03-22 15:18:53,2019-03-22 15:18:53,0.066s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0769,Chrome 73.0.3683.75,Test add text component,2019-03-22 15:18:53,2019-03-22 15:19:35,41.753s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:18:53,2019-03-22 15:19:33,39.492s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_Text (4)""))",Chrome 73.0.3683.75,,2019-03-22 15:19:33,2019-03-22 15:19:33,0.106s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_New text component added""))",Chrome 73.0.3683.75,,2019-03-22 15:19:33,2019-03-22 15:19:33,0.096s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:19:33,2019-03-22 15:19:35,2.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0770,Chrome 73.0.3683.75,Test text validation,2019-03-22 15:19:35,2019-03-22 15:20:22,46.796s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:19:35,2019-03-22 15:20:22,46.595s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (17)""))",Chrome 73.0.3683.75,,2019-03-22 15:20:22,2019-03-22 15:20:22,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_Text cannot be empty""))",Chrome 73.0.3683.75,,2019-03-22 15:20:22,2019-03-22 15:20:22,0.068s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0771,Chrome 73.0.3683.75,Test add button in text component,2019-03-22 15:20:22,2019-03-22 15:21:08,46.601s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:20:22,2019-03-22 15:21:06,43.714s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (6)""))",Chrome 73.0.3683.75,,2019-03-22 15:21:06,2019-03-22 15:21:06,0.107s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (11)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:21:06,2019-03-22 15:21:06,0.155s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website (4)""))",Chrome 73.0.3683.75,,2019-03-22 15:21:06,2019-03-22 15:21:06,0.077s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (5)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:21:06,2019-03-22 15:21:06,0.277s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (5)""))",Chrome 73.0.3683.75,,2019-03-22 15:21:06,2019-03-22 15:21:06,0.076s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:21:06,2019-03-22 15:21:08,2.002s,PASSED
+"verifyTextPresent(""google"", false)",Chrome 73.0.3683.75,,2019-03-22 15:21:08,2019-03-22 15:21:08,0.138s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0772,Chrome 73.0.3683.75,Test create broadcast template (text component),2019-03-22 15:21:08,2019-03-22 15:22:05,56.231s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:21:08,2019-03-22 15:22:03,54.251s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:22:03,2019-03-22 15:22:04,1.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:22:04,2019-03-22 15:22:04,0.000s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[2]/textarea""))",Chrome 73.0.3683.75,,2019-03-22 15:22:04,2019-03-22 15:22:04,0.017s,PASSED
+"textArea.sendKeys(""h"")",Chrome 73.0.3683.75,,2019-03-22 15:22:04,2019-03-22 15:22:04,0.048s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:22:04,2019-03-22 15:22:04,0.102s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:22:04,2019-03-22 15:22:04,0.086s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:22:04,2019-03-22 15:22:04,0.084s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:22:04,2019-03-22 15:22:05,0.571s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0773,Chrome 73.0.3683.75,Test create broadcast template (text component with button),2019-03-22 15:22:05,2019-03-22 15:22:53,48.248s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0771""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:22:05,2019-03-22 15:22:51,46.322s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:22:51,2019-03-22 15:22:52,1.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:22:52,2019-03-22 15:22:52,0.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[2]/textarea""))",Chrome 73.0.3683.75,,2019-03-22 15:22:52,2019-03-22 15:22:52,0.017s,PASSED
+"textArea.sendKeys(""h"")",Chrome 73.0.3683.75,,2019-03-22 15:22:52,2019-03-22 15:22:52,0.041s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 15:22:52,2019-03-22 15:22:52,0.084s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 15:22:52,2019-03-22 15:22:52,0.073s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:22:52,2019-03-22 15:22:52,0.069s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 15:22:52,2019-03-22 15:22:53,0.572s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0774,Chrome 73.0.3683.75,Test create broadcast template (text component with multiple buttons),2019-03-22 15:22:53,2019-03-22 15:23:52,59.449s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0771""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:22:53,2019-03-22 15:23:50,56.970s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:23:50,2019-03-22 15:23:51,1.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:51,0.000s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[2]/textarea""))",Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:51,0.015s,PASSED
+"textArea.sendKeys(""h"")",Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:51,0.034s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (8)""))",Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:51,0.067s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (7)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:51,0.118s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website (6)""))",Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:51,0.070s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_2 (2)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:51,0.217s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Done""))",Chrome 73.0.3683.75,,2019-03-22 15:23:51,2019-03-22 15:23:52,0.071s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 15:23:52,2019-03-22 15:23:52,0.083s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 15:23:52,2019-03-22 15:23:52,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:23:52,2019-03-22 15:23:52,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 15:23:52,2019-03-22 15:23:52,0.567s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0775,Chrome 73.0.3683.75,Test add image component,2019-03-22 15:23:52,2019-03-22 15:24:36,43.471s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:23:52,2019-03-22 15:24:36,43.132s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Create New""))",Chrome 73.0.3683.75,,2019-03-22 15:24:36,2019-03-22 15:24:36,0.105s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_Image (2)""))",Chrome 73.0.3683.75,,2019-03-22 15:24:36,2019-03-22 15:24:36,0.106s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_New image component added""))",Chrome 73.0.3683.75,,2019-03-22 15:24:36,2019-03-22 15:24:36,0.068s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0776,Chrome 73.0.3683.75,Test image validation,2019-03-22 15:24:36,2019-03-22 15:25:15,39.116s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0775""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:24:36,2019-03-22 15:25:15,38.883s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (2)""))",Chrome 73.0.3683.75,,2019-03-22 15:25:15,2019-03-22 15:25:15,0.087s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Select a valid image""))",Chrome 73.0.3683.75,,2019-03-22 15:25:15,2019-03-22 15:25:15,0.095s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0777,Chrome 73.0.3683.75,Test upload image,2019-03-22 15:25:15,2019-03-22 15:26:30,1m - 15.287s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0775""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:25:15,2019-03-22 15:26:17,1m - 1.838s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:26:17,2019-03-22 15:26:17,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:26:17,2019-03-22 15:26:17,0.048s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:26:17,2019-03-22 15:26:27,10.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 15:26:27,2019-03-22 15:26:27,0.068s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:26:27,2019-03-22 15:26:28,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 15:26:28,2019-03-22 15:26:28,0.087s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:26:28,2019-03-22 15:26:28,0.091s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:26:28,2019-03-22 15:26:30,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 15:26:30,2019-03-22 15:26:30,0.056s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0778,Chrome 73.0.3683.75,Test create broadcast template (image component),2019-03-22 15:26:30,2019-03-22 15:27:24,54.067s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0777""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:26:30,2019-03-22 15:27:24,54.014s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0779,Chrome 73.0.3683.75,Test add card component,2019-03-22 15:27:24,2019-03-22 15:28:17,52.512s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:27:24,2019-03-22 15:28:17,52.299s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_Card (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:28:17,2019-03-22 15:28:17,0.097s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_New card component added""))",Chrome 73.0.3683.75,,2019-03-22 15:28:17,2019-03-22 15:28:17,0.063s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0780,Chrome 73.0.3683.75,Test card validation (image),2019-03-22 15:28:17,2019-03-22 15:28:59,42.571s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:28:17,2019-03-22 15:28:59,41.973s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (1)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:28:59,2019-03-22 15:28:59,0.197s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/textarea_form-control""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:28:59,2019-03-22 15:28:59,0.161s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (3)""))",Chrome 73.0.3683.75,,2019-03-22 15:28:59,2019-03-22 15:28:59,0.108s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Card must have an image""))",Chrome 73.0.3683.75,,2019-03-22 15:28:59,2019-03-22 15:28:59,0.064s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0781,Chrome 73.0.3683.75,Test card validation (title),2019-03-22 15:28:59,2019-03-22 15:29:57,57.183s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:28:59,2019-03-22 15:29:41,41.658s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:29:41,2019-03-22 15:29:41,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:29:41,2019-03-22 15:29:41,0.077s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:29:41,2019-03-22 15:29:51,10.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/svg""))",Chrome 73.0.3683.75,,2019-03-22 15:29:51,2019-03-22 15:29:51,0.066s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:29:51,2019-03-22 15:29:54,3.001s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:29:54,2019-03-22 15:29:55,1.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:29:55,2019-03-22 15:29:55,0.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div[2]/textarea""))",Chrome 73.0.3683.75,,2019-03-22 15:29:55,2019-03-22 15:29:55,0.018s,PASSED
+"textArea.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:29:55,2019-03-22 15:29:55,0.104s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:29:55,2019-03-22 15:29:56,1.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:29:56,2019-03-22 15:29:56,0.016s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (3)""))",Chrome 73.0.3683.75,,2019-03-22 15:29:56,2019-03-22 15:29:56,0.071s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card must have a Title""))",Chrome 73.0.3683.75,,2019-03-22 15:29:56,2019-03-22 15:29:57,0.074s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0782,Chrome 73.0.3683.75,Test card validation (subtitle),2019-03-22 15:29:57,2019-03-22 15:30:58,1m - 1.765s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:29:57,2019-03-22 15:30:43,46.244s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:30:43,2019-03-22 15:30:43,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:30:43,2019-03-22 15:30:43,0.053s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:30:43,2019-03-22 15:30:53,10.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/svg""))",Chrome 73.0.3683.75,,2019-03-22 15:30:53,2019-03-22 15:30:53,0.068s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:30:53,2019-03-22 15:30:56,3.001s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:30:56,2019-03-22 15:30:57,1.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:30:57,2019-03-22 15:30:57,0.000s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div[1]/div/div[3]/div[2]/input""))",Chrome 73.0.3683.75,,2019-03-22 15:30:57,2019-03-22 15:30:57,0.018s,PASSED
+"textArea.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:30:57,2019-03-22 15:30:57,0.114s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:30:57,2019-03-22 15:30:58,1.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:30:58,2019-03-22 15:30:58,0.011s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (3)""))",Chrome 73.0.3683.75,,2019-03-22 15:30:58,2019-03-22 15:30:58,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Card must have a subtitle""))",Chrome 73.0.3683.75,,2019-03-22 15:30:58,2019-03-22 15:30:58,0.101s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0783,Chrome 73.0.3683.75,Test card validation (button),2019-03-22 15:30:58,2019-03-22 15:31:58,59.855s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:30:58,2019-03-22 15:31:43,44.186s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:31:43,2019-03-22 15:31:43,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:31:43,2019-03-22 15:31:43,0.063s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:31:43,2019-03-22 15:31:53,10.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/svg""))",Chrome 73.0.3683.75,,2019-03-22 15:31:53,2019-03-22 15:31:53,0.068s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:31:53,2019-03-22 15:31:56,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:31:56,2019-03-22 15:31:56,0.001s,PASSED
+"title = driver.findElement(By.xpath(""//*[@id=""List1""]/div[1]/div/div[3]/div[2]/input""))",Chrome 73.0.3683.75,,2019-03-22 15:31:56,2019-03-22 15:31:56,0.018s,PASSED
+"title.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:31:56,2019-03-22 15:31:56,0.123s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:31:56,2019-03-22 15:31:57,1.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div[2]/textarea""))",Chrome 73.0.3683.75,,2019-03-22 15:31:57,2019-03-22 15:31:57,0.013s,PASSED
+"textArea.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:31:57,2019-03-22 15:31:57,0.093s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:31:57,2019-03-22 15:31:58,1.002s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:31:58,2019-03-22 15:31:58,0.016s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (3)""))",Chrome 73.0.3683.75,,2019-03-22 15:31:58,2019-03-22 15:31:58,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Card must have at least on""))",Chrome 73.0.3683.75,,2019-03-22 15:31:58,2019-03-22 15:31:58,0.093s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0784,Chrome 73.0.3683.75,Test upload card image,2019-03-22 15:31:58,2019-03-22 15:32:51,52.409s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:31:58,2019-03-22 15:32:41,42.267s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:32:41,2019-03-22 15:32:41,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:32:41,2019-03-22 15:32:41,0.082s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:32:41,2019-03-22 15:32:51,10.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0785,Chrome 73.0.3683.75,Test add button in card component,2019-03-22 15:32:51,2019-03-22 15:33:44,53.026s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:32:51,2019-03-22 15:33:41,50.174s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:33:41,2019-03-22 15:33:41,0.135s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:33:41,2019-03-22 15:33:41,0.142s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)""))",Chrome 73.0.3683.75,,2019-03-22 15:33:41,2019-03-22 15:33:41,0.070s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:33:41,2019-03-22 15:33:41,0.214s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (8)""))",Chrome 73.0.3683.75,,2019-03-22 15:33:41,2019-03-22 15:33:41,0.084s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:33:41,2019-03-22 15:33:43,2.001s,PASSED
+"verifyTextPresent(""google"", false)",Chrome 73.0.3683.75,,2019-03-22 15:33:43,2019-03-22 15:33:44,0.157s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0786,Chrome 73.0.3683.75,Test create broadcast template (card component),2019-03-22 15:33:44,2019-03-22 15:34:41,57.204s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:33:44,2019-03-22 15:34:22,38.146s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:34:22,2019-03-22 15:34:22,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:34:22,2019-03-22 15:34:22,0.058s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:34:22,2019-03-22 15:34:32,10.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/svg""))",Chrome 73.0.3683.75,,2019-03-22 15:34:32,2019-03-22 15:34:32,0.066s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:34:32,2019-03-22 15:34:35,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:34:35,2019-03-22 15:34:35,0.000s,PASSED
+"title = driver.findElement(By.xpath(""//*[@id=""List1""]/div[1]/div/div[3]/div[2]/input""))",Chrome 73.0.3683.75,,2019-03-22 15:34:35,2019-03-22 15:34:35,0.014s,PASSED
+"title.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:34:35,2019-03-22 15:34:35,0.102s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:34:35,2019-03-22 15:34:36,1.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div[2]/textarea""))",Chrome 73.0.3683.75,,2019-03-22 15:34:36,2019-03-22 15:34:36,0.012s,PASSED
+"textArea.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:34:36,2019-03-22 15:34:36,0.098s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:34:36,2019-03-22 15:34:37,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:34:37,2019-03-22 15:34:37,0.091s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:34:37,2019-03-22 15:34:37,0.115s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)""))",Chrome 73.0.3683.75,,2019-03-22 15:34:37,2019-03-22 15:34:37,0.085s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:34:37,2019-03-22 15:34:38,0.219s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (8)""))",Chrome 73.0.3683.75,,2019-03-22 15:34:38,2019-03-22 15:34:38,0.066s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:34:38,2019-03-22 15:34:40,2.001s,PASSED
+"verifyTextPresent(""google"", false)",Chrome 73.0.3683.75,,2019-03-22 15:34:40,2019-03-22 15:34:40,0.173s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:34:40,2019-03-22 15:34:40,0.008s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:34:40,2019-03-22 15:34:40,0.109s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:34:40,2019-03-22 15:34:40,0.088s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:34:40,2019-03-22 15:34:40,0.079s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:34:40,2019-03-22 15:34:41,0.589s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0787,Chrome 73.0.3683.75,Test create broadcast template (card component with multiple buttons),2019-03-22 15:34:41,2019-03-22 15:36:07,1m - 26.519s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:34:41,2019-03-22 15:35:45,1m - 3.805s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:35:45,2019-03-22 15:35:45,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:35:45,2019-03-22 15:35:45,0.054s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:35:45,2019-03-22 15:35:55,10.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/svg""))",Chrome 73.0.3683.75,,2019-03-22 15:35:55,2019-03-22 15:35:55,0.067s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:35:55,2019-03-22 15:35:58,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:35:58,2019-03-22 15:35:58,0.002s,PASSED
+"title = driver.findElement(By.xpath(""//*[@id=""List1""]/div[1]/div/div[3]/div[2]/input""))",Chrome 73.0.3683.75,,2019-03-22 15:35:58,2019-03-22 15:35:58,0.016s,PASSED
+"title.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:35:58,2019-03-22 15:35:58,0.109s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:35:58,2019-03-22 15:35:59,1.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div[2]/textarea""))",Chrome 73.0.3683.75,,2019-03-22 15:35:59,2019-03-22 15:35:59,0.016s,PASSED
+"textArea.sendKeys(""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:35:59,2019-03-22 15:35:59,0.100s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:35:59,2019-03-22 15:36:00,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:00,2019-03-22 15:36:00,0.111s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:36:00,2019-03-22 15:36:00,0.127s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:00,2019-03-22 15:36:00,0.086s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:36:00,2019-03-22 15:36:01,0.227s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (8)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:01,2019-03-22 15:36:01,0.075s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:36:01,2019-03-22 15:36:03,2.002s,PASSED
+"verifyTextPresent(""google"", false)",Chrome 73.0.3683.75,,2019-03-22 15:36:03,2019-03-22 15:36:03,0.149s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:36:03,2019-03-22 15:36:04,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:04,2019-03-22 15:36:04,0.062s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""gmail"")",Chrome 73.0.3683.75,,2019-03-22 15:36:04,2019-03-22 15:36:04,0.127s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:04,2019-03-22 15:36:04,0.078s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.gmail.com"")",Chrome 73.0.3683.75,,2019-03-22 15:36:04,2019-03-22 15:36:04,0.202s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (8)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:04,2019-03-22 15:36:04,0.066s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:36:04,2019-03-22 15:36:06,2.001s,PASSED
+"verifyTextPresent(""gmail"", false)",Chrome 73.0.3683.75,,2019-03-22 15:36:06,2019-03-22 15:36:07,0.112s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:36:07,2019-03-22 15:36:07,0.028s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:07,2019-03-22 15:36:07,0.072s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:07,2019-03-22 15:36:07,0.073s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:07,2019-03-22 15:36:07,0.080s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:07,2019-03-22 15:36:07,0.566s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0788,Chrome 73.0.3683.75,Test add gallery component,2019-03-22 15:36:07,2019-03-22 15:36:46,39.085s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:36:07,2019-03-22 15:36:46,38.714s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_Gallery (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:36:46,2019-03-22 15:36:46,0.170s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_New gallery component added""))",Chrome 73.0.3683.75,,2019-03-22 15:36:46,2019-03-22 15:36:46,0.147s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0789,Chrome 73.0.3683.75,Test gallery validation (cards),2019-03-22 15:36:46,2019-03-22 15:37:57,1m - 10.169s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:36:46,2019-03-22 15:37:26,39.180s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (7) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:37:26,2019-03-22 15:37:26,0.129s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have at least title Substitle image and button""))",Chrome 73.0.3683.75,,2019-03-22 15:37:26,2019-03-22 15:37:57,30.807s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0790,Chrome 73.0.3683.75,Test gallery validation (image),2019-03-22 15:37:57,2019-03-22 15:39:11,1m - 14.648s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:37:57,2019-03-22 15:38:38,41.728s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (4) (2)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:38:38,2019-03-22 15:38:39,0.238s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/textarea_form-control (3) (1)""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 15:38:39,2019-03-22 15:38:39,0.103s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1) (2)""))",Chrome 73.0.3683.75,,2019-03-22 15:38:39,2019-03-22 15:38:39,0.113s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16) (1)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:38:39,2019-03-22 15:38:39,0.149s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Open a website (1) (2)""))",Chrome 73.0.3683.75,,2019-03-22 15:38:39,2019-03-22 15:38:39,0.088s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8) (1)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:38:39,2019-03-22 15:38:39,0.218s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (1) (2)""))",Chrome 73.0.3683.75,,2019-03-22 15:38:39,2019-03-22 15:38:39,0.094s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:38:39,2019-03-22 15:38:40,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (8) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:38:40,2019-03-22 15:38:40,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have an image""))",Chrome 73.0.3683.75,,2019-03-22 15:38:40,2019-03-22 15:39:11,30.788s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0791,Chrome 73.0.3683.75,Test gallery validation (title),2019-03-22 15:39:11,2019-03-22 15:40:05,54.054s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:39:11,2019-03-22 15:39:50,38.833s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:39:50,2019-03-22 15:39:50,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/gal_img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:39:50,2019-03-22 15:39:50,0.099s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:39:50,2019-03-22 15:40:00,10.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/svg""))",Chrome 73.0.3683.75,,2019-03-22 15:40:00,2019-03-22 15:40:00,0.066s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:40:00,2019-03-22 15:40:03,3.001s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 15:40:03,2019-03-22 15:40:03,0.108s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:40:03,2019-03-22 15:40:04,0.106s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:40:04,2019-03-22 15:40:04,0.135s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Open a website (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:40:04,2019-03-22 15:40:04,0.095s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:40:04,2019-03-22 15:40:04,0.225s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:40:04,2019-03-22 15:40:04,0.093s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:40:04,2019-03-22 15:40:05,1.000s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create""))",Chrome 73.0.3683.75,,2019-03-22 15:40:05,2019-03-22 15:40:05,0.233s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0792,Chrome 73.0.3683.75,Test gallery validation (subtitle),2019-03-22 15:40:05,2019-03-22 15:41:42,1m - 36.506s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:40:05,2019-03-22 15:40:56,50.502s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:40:56,2019-03-22 15:40:56,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/gal_img (1) (1)""), img)",Chrome 73.0.3683.75,,2019-03-22 15:40:56,2019-03-22 15:40:56,0.082s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:40:56,2019-03-22 15:41:06,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/svg (5) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:41:06,2019-03-22 15:41:06,0.079s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:41:06,2019-03-22 15:41:09,3.001s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (4) (1) (1)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:41:09,2019-03-22 15:41:09,0.203s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:41:09,2019-03-22 15:41:09,0.126s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16) (3)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:41:09,2019-03-22 15:41:09,0.146s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Open a website (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:41:09,2019-03-22 15:41:10,0.090s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8) (3)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:41:10,2019-03-22 15:41:10,0.237s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:41:10,2019-03-22 15:41:10,0.071s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:41:10,2019-03-22 15:41:11,1.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:41:11,2019-03-22 15:41:11,0.010s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/button_Create (7)""))",Chrome 73.0.3683.75,,2019-03-22 15:41:11,2019-03-22 15:41:11,0.090s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have a subtitle (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:41:11,2019-03-22 15:41:42,30.818s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0793,Chrome 73.0.3683.75,Test card validation (button),2019-03-22 15:41:42,2019-03-22 15:43:10,1m - 28.629s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:41:42,2019-03-22 15:42:25,43.131s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:42:25,2019-03-22 15:42:25,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/gal_img (3) (1)""), img)",Chrome 73.0.3683.75,,2019-03-22 15:42:25,2019-03-22 15:42:25,0.131s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:42:25,2019-03-22 15:42:35,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/svg (5) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:42:35,2019-03-22 15:42:35,0.067s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:42:35,2019-03-22 15:42:38,3.001s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (3) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 15:42:38,2019-03-22 15:42:38,0.135s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/textarea_form-control (5)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:42:38,2019-03-22 15:42:39,0.200s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:42:39,2019-03-22 15:42:39,0.009s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:42:39,2019-03-22 15:42:40,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (19)""))",Chrome 73.0.3683.75,,2019-03-22 15:42:40,2019-03-22 15:42:40,0.092s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have at least one button (2)""))",Chrome 73.0.3683.75,,2019-03-22 15:42:40,2019-03-22 15:43:10,30.812s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0794,Chrome 73.0.3683.75,Test upload gallery image,2019-03-22 15:43:10,2019-03-22 15:44:00,49.693s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:43:10,2019-03-22 15:43:50,39.533s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:43:50,2019-03-22 15:43:50,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/gal_img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:43:50,2019-03-22 15:43:50,0.113s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:43:50,2019-03-22 15:44:00,10.000s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0795,Chrome 73.0.3683.75,Test add button in gallery component,2019-03-22 15:44:00,2019-03-22 15:44:41,41.066s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:44:00,2019-03-22 15:44:38,38.182s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:44:38,2019-03-22 15:44:39,0.136s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:44:39,2019-03-22 15:44:39,0.157s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Open a website (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:44:39,2019-03-22 15:44:39,0.064s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:44:39,2019-03-22 15:44:39,0.198s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:44:39,2019-03-22 15:44:39,0.089s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:44:39,2019-03-22 15:44:41,2.001s,PASSED
+"verifyTextPresent(""google"", false)",Chrome 73.0.3683.75,,2019-03-22 15:44:41,2019-03-22 15:44:41,0.172s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0796,Chrome 73.0.3683.75,Test create broadcast template (gallery component),2019-03-22 15:44:41,2019-03-22 15:46:08,1m - 26.878s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:44:41,2019-03-22 15:45:19,37.712s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:45:19,2019-03-22 15:45:19,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/gal_img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:45:19,2019-03-22 15:45:19,0.074s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:45:19,2019-03-22 15:45:29,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/svg (5) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:45:29,2019-03-22 15:45:29,0.068s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:45:29,2019-03-22 15:45:32,3.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (4)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:45:32,2019-03-22 15:45:32,0.185s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 15:45:32,2019-03-22 15:45:32,0.094s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:45:32,2019-03-22 15:45:33,0.110s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:45:33,2019-03-22 15:45:33,0.155s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Open a website (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:45:33,2019-03-22 15:45:33,0.086s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:45:33,2019-03-22 15:45:33,0.215s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Done (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:45:33,2019-03-22 15:45:33,0.087s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:45:33,2019-03-22 15:45:34,1.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:45:34,2019-03-22 15:45:34,0.009s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 15:45:34,2019-03-22 15:45:34,0.080s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:45:34,2019-03-22 15:45:35,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 15:45:35,2019-03-22 15:45:35,0.076s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:45:35,2019-03-22 15:45:35,0.069s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:45:35,2019-03-22 15:45:37,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 15:45:37,2019-03-22 15:46:08,30.796s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0797,Chrome 73.0.3683.75,Test create broadcast template (gallery component with multiple buttons),2019-03-22 15:46:08,2019-03-22 15:48:05,1m - 57.265s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:46:08,2019-03-22 15:47:15,1m - 6.678s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 15:47:15,2019-03-22 15:47:15,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/gal_img""), img)",Chrome 73.0.3683.75,,2019-03-22 15:47:15,2019-03-22 15:47:15,0.106s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:47:15,2019-03-22 15:47:25,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/svg (5) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:25,2019-03-22 15:47:25,0.090s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 15:47:25,2019-03-22 15:47:28,3.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (4)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 15:47:28,2019-03-22 15:47:28,0.182s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 15:47:28,2019-03-22 15:47:28,0.097s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:28,2019-03-22 15:47:28,0.099s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control_1 (1)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:47:28,2019-03-22 15:47:29,0.123s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Open a website (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:29,2019-03-22 15:47:29,0.109s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control_2""), ""google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:47:29,2019-03-22 15:47:29,0.169s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Done (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:29,2019-03-22 15:47:29,0.082s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:47:29,2019-03-22 15:47:30,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:30,2019-03-22 15:47:30,0.062s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control_1 (1)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 15:47:30,2019-03-22 15:47:30,0.112s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Open a website (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:30,2019-03-22 15:47:30,0.061s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control_2""), ""google.com"")",Chrome 73.0.3683.75,,2019-03-22 15:47:30,2019-03-22 15:47:30,0.158s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Done (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:30,2019-03-22 15:47:30,0.060s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:47:30,2019-03-22 15:47:31,1.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 15:47:31,2019-03-22 15:47:31,0.016s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 15:47:31,2019-03-22 15:47:31,0.076s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:47:31,2019-03-22 15:47:32,1.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 15:47:32,2019-03-22 15:47:33,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:47:33,2019-03-22 15:47:33,0.079s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:47:33,2019-03-22 15:47:35,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 15:47:35,2019-03-22 15:48:05,30.758s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0798,Chrome 73.0.3683.75,Test add card in gallery component,2019-03-22 15:48:05,2019-03-22 15:48:58,53.021s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:48:05,2019-03-22 15:48:54,48.825s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:48:54,2019-03-22 15:48:56,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:48:56,2019-03-22 15:48:56,0.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div/div[2]/div/div""))",Chrome 73.0.3683.75,,2019-03-22 15:48:56,2019-03-22 15:48:56,0.017s,PASSED
+rows_count_before = rows_table.size(),Chrome 73.0.3683.75,,2019-03-22 15:48:56,2019-03-22 15:48:56,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/span_Add""))",Chrome 73.0.3683.75,,2019-03-22 15:48:56,2019-03-22 15:48:56,0.103s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:48:56,2019-03-22 15:48:58,2.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div/div[2]/div/div""))",Chrome 73.0.3683.75,,2019-03-22 15:48:58,2019-03-22 15:48:58,0.014s,PASSED
+rows_count_after = rows_table.size(),Chrome 73.0.3683.75,,2019-03-22 15:48:58,2019-03-22 15:48:58,0.001s,PASSED
+"verifyEqual(rows_count_before + 1, rows_count_after)",Chrome 73.0.3683.75,,2019-03-22 15:48:58,2019-03-22 15:48:58,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0799,Chrome 73.0.3683.75,Test remove card in gallery component,2019-03-22 15:48:58,2019-03-22 15:49:50,51.413s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:48:58,2019-03-22 15:49:48,49.213s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 15:49:48,2019-03-22 15:49:48,0.000s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div/div[2]/div/div""))",Chrome 73.0.3683.75,,2019-03-22 15:49:48,2019-03-22 15:49:48,0.012s,PASSED
+rows_count_before = rows_table.size(),Chrome 73.0.3683.75,,2019-03-22 15:49:48,2019-03-22 15:49:48,0.000s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/span_Remove""))",Chrome 73.0.3683.75,,2019-03-22 15:49:48,2019-03-22 15:49:48,0.097s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:49:48,2019-03-22 15:49:50,2.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div/div[2]/div/div""))",Chrome 73.0.3683.75,,2019-03-22 15:49:50,2019-03-22 15:49:50,0.012s,PASSED
+rows_count_after = rows_table.size(),Chrome 73.0.3683.75,,2019-03-22 15:49:50,2019-03-22 15:49:50,0.000s,PASSED
+"verifyEqual(rows_count_before - 1, rows_count_after)",Chrome 73.0.3683.75,,2019-03-22 15:49:50,2019-03-22 15:49:50,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0801,Chrome 73.0.3683.75,Test add audio component,2019-03-22 15:49:50,2019-03-22 15:50:31,40.907s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:49:50,2019-03-22 15:50:31,40.684s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_Audio (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:50:31,2019-03-22 15:50:31,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_New audio component added""))",Chrome 73.0.3683.75,,2019-03-22 15:50:31,2019-03-22 15:50:31,0.071s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0802,Chrome 73.0.3683.75,Test audio validation,2019-03-22 15:50:31,2019-03-22 15:51:21,50.792s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0801""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:50:31,2019-03-22 15:51:20,49.439s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_Text (2) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:51:20,2019-03-22 15:51:20,0.087s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:51:20,2019-03-22 15:51:21,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/button_Create""))",Chrome 73.0.3683.75,,2019-03-22 15:51:21,2019-03-22 15:51:21,0.124s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_Select an audio file""))",Chrome 73.0.3683.75,,2019-03-22 15:51:21,2019-03-22 15:51:21,0.063s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0803,Chrome 73.0.3683.75,Test upload audio,2019-03-22 15:51:21,2019-03-22 15:52:24,1m - 2.386s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0801""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:51:22,2019-03-22 15:52:14,52.273s,PASSED
+"audio = getProjectDir() + ""/audio.mp3""",Chrome 73.0.3683.75,,2019-03-22 15:52:14,2019-03-22 15:52:14,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/audio_file""), audio)",Chrome 73.0.3683.75,,2019-03-22 15:52:14,2019-03-22 15:52:14,0.044s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 15:52:14,2019-03-22 15:52:24,10.000s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0804,Chrome 73.0.3683.75,Test create broadcast templete (audio component),2019-03-22 15:52:24,2019-03-22 15:53:21,57.533s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0803""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:52:24,2019-03-22 15:53:17,53.156s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:53:17,2019-03-22 15:53:18,1.000s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 15:53:18,2019-03-22 15:53:18,0.076s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:53:18,2019-03-22 15:53:19,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 15:53:19,2019-03-22 15:53:19,0.112s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:53:19,2019-03-22 15:53:19,0.082s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:53:19,2019-03-22 15:53:21,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 15:53:21,2019-03-22 15:53:21,0.058s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0805,Chrome 73.0.3683.75,Test add video component,2019-03-22 15:53:21,2019-03-22 15:54:04,42.236s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:53:21,2019-03-22 15:54:03,41.967s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h3_Create Broadcast Template (5) (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:54:03,2019-03-22 15:54:03,0.066s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_Video (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:54:03,2019-03-22 15:54:04,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_New video component added""))",Chrome 73.0.3683.75,,2019-03-22 15:54:04,2019-03-22 15:54:04,0.061s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0806,Chrome 73.0.3683.75,Test video validation,2019-03-22 15:54:04,2019-03-22 15:54:46,42.213s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0805""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:54:04,2019-03-22 15:54:46,41.867s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Text (3)""))",Chrome 73.0.3683.75,,2019-03-22 15:54:46,2019-03-22 15:54:46,0.113s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (10)""))",Chrome 73.0.3683.75,,2019-03-22 15:54:46,2019-03-22 15:54:46,0.104s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Select a video file""))",Chrome 73.0.3683.75,,2019-03-22 15:54:46,2019-03-22 15:54:46,0.064s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0807,Chrome 73.0.3683.75,Test upload video,2019-03-22 15:54:46,2019-03-22 15:55:56,1m - 9.991s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0805""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:54:46,2019-03-22 15:55:41,54.849s,PASSED
+"video = getProjectDir() + ""/video.mp4""",Chrome 73.0.3683.75,,2019-03-22 15:55:41,2019-03-22 15:55:41,0.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/video_file""), video)",Chrome 73.0.3683.75,,2019-03-22 15:55:41,2019-03-22 15:55:41,0.071s,PASSED
+delay(15),Chrome 73.0.3683.75,,2019-03-22 15:55:41,2019-03-22 15:55:56,15.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0808,Chrome 73.0.3683.75,Test create broadcast template (video component),2019-03-22 15:55:56,2019-03-22 15:57:46,1m - 50.510s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0807""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:55:56,2019-03-22 15:57:43,1m - 47.177s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 15:57:43,2019-03-22 15:57:43,0.074s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 15:57:43,2019-03-22 15:57:44,1.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 15:57:44,2019-03-22 15:57:44,0.073s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 15:57:44,2019-03-22 15:57:44,0.068s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 15:57:44,2019-03-22 15:57:46,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 15:57:46,2019-03-22 15:57:46,0.057s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0809,Chrome 73.0.3683.75,Test add file component,2019-03-22 15:57:46,2019-03-22 15:58:32,45.875s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:57:46,2019-03-22 15:58:32,45.671s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_File (2)""))",Chrome 73.0.3683.75,,2019-03-22 15:58:32,2019-03-22 15:58:32,0.086s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_New file component added""))",Chrome 73.0.3683.75,,2019-03-22 15:58:32,2019-03-22 15:58:32,0.065s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0810,Chrome 73.0.3683.75,Test file validation,2019-03-22 15:58:32,2019-03-22 15:59:15,42.696s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0809""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:58:32,2019-03-22 15:59:15,42.433s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (11)""))",Chrome 73.0.3683.75,,2019-03-22 15:59:15,2019-03-22 15:59:15,0.070s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Select a valid file""))",Chrome 73.0.3683.75,,2019-03-22 15:59:15,2019-03-22 15:59:15,0.125s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0811,Chrome 73.0.3683.75,Test upload file,2019-03-22 15:59:15,2019-03-22 16:00:24,1m - 9.099s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0809""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 15:59:15,2019-03-22 16:00:14,59.002s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 16:00:14,2019-03-22 16:00:14,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/image_file""), img)",Chrome 73.0.3683.75,,2019-03-22 16:00:14,2019-03-22 16:00:14,0.041s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 16:00:14,2019-03-22 16:00:24,10.002s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0812,Chrome 73.0.3683.75,Test create broadcast template (file component),2019-03-22 16:00:24,2019-03-22 16:02:15,1m - 50.989s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0811""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:00:24,2019-03-22 16:02:13,1m - 48.611s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 16:02:13,2019-03-22 16:02:13,0.076s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 16:02:13,2019-03-22 16:02:14,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 16:02:14,2019-03-22 16:02:14,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:02:14,2019-03-22 16:02:14,0.099s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 16:02:14,2019-03-22 16:02:15,1.076s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0813,Chrome 73.0.3683.75,Test add media component,2019-03-22 16:02:15,2019-03-22 16:03:04,49.282s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:02:15,2019-03-22 16:03:04,49.229s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0814,Chrome 73.0.3683.75,Test media validation,2019-03-22 16:03:04,2019-03-22 16:04:01,56.242s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0813""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:03:04,2019-03-22 16:04:00,56.031s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (12) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:04:00,2019-03-22 16:04:00,0.100s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Select an image or video""))",Chrome 73.0.3683.75,,2019-03-22 16:04:00,2019-03-22 16:04:01,0.070s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0815,Chrome 73.0.3683.75,Test add button in media component,2019-03-22 16:04:01,2019-03-22 16:04:49,48.603s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0813""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:04:01,2019-03-22 16:04:46,45.710s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:04:46,2019-03-22 16:04:46,0.128s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:04:46,2019-03-22 16:04:47,0.149s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website""))",Chrome 73.0.3683.75,,2019-03-22 16:04:47,2019-03-22 16:04:47,0.074s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:04:47,2019-03-22 16:04:47,0.235s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done""))",Chrome 73.0.3683.75,,2019-03-22 16:04:47,2019-03-22 16:04:47,0.082s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:04:47,2019-03-22 16:04:49,2.001s,PASSED
+"verifyTextPresent(""google"", false)",Chrome 73.0.3683.75,,2019-03-22 16:04:49,2019-03-22 16:04:49,0.154s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0816,Chrome 73.0.3683.75,Test upload media,2019-03-22 16:04:49,2019-03-22 16:05:36,46.799s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0813""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:04:49,2019-03-22 16:05:36,46.744s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0817,Chrome 73.0.3683.75,Test create broadcast template (media component),2019-03-22 16:05:36,2019-03-22 16:06:21,44.695s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0816""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:05:36,2019-03-22 16:06:21,44.648s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0818,Chrome 73.0.3683.75,Test create broadcast template (media component with button),2019-03-22 16:06:21,2019-03-22 16:07:36,1m - 15.548s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0817""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:06:21,2019-03-22 16:07:19,58.005s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:07:19,2019-03-22 16:07:22,3.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Media""))",Chrome 73.0.3683.75,,2019-03-22 16:07:22,2019-03-22 16:07:22,0.121s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 16:07:22,2019-03-22 16:07:22,0.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/media_file""), img)",Chrome 73.0.3683.75,,2019-03-22 16:07:22,2019-03-22 16:07:22,0.045s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 16:07:22,2019-03-22 16:07:32,10.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:07:32,2019-03-22 16:07:32,0.103s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:07:32,2019-03-22 16:07:32,0.129s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website""))",Chrome 73.0.3683.75,,2019-03-22 16:07:32,2019-03-22 16:07:32,0.071s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:07:32,2019-03-22 16:07:32,0.214s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done""))",Chrome 73.0.3683.75,,2019-03-22 16:07:32,2019-03-22 16:07:32,0.066s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:07:32,2019-03-22 16:07:34,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 16:07:34,2019-03-22 16:07:35,0.062s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 16:07:35,2019-03-22 16:07:36,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 16:07:36,2019-03-22 16:07:36,0.057s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:07:36,2019-03-22 16:07:36,0.062s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 16:07:36,2019-03-22 16:07:36,0.551s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0819,Chrome 73.0.3683.75,Test create broadcast template (media component with multiple buttons),2019-03-22 16:07:36,2019-03-22 16:08:57,1m - 20.641s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0817""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:07:36,2019-03-22 16:08:37,1m - 0.393s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:08:37,2019-03-22 16:08:40,3.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Media""))",Chrome 73.0.3683.75,,2019-03-22 16:08:40,2019-03-22 16:08:40,0.073s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 16:08:40,2019-03-22 16:08:40,0.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Create Broadcast Tem/media_file""), img)",Chrome 73.0.3683.75,,2019-03-22 16:08:40,2019-03-22 16:08:40,0.036s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-03-22 16:08:40,2019-03-22 16:08:50,10.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:08:50,2019-03-22 16:08:50,0.117s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:08:50,2019-03-22 16:08:50,0.149s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website""))",Chrome 73.0.3683.75,,2019-03-22 16:08:50,2019-03-22 16:08:50,0.086s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:08:50,2019-03-22 16:08:50,0.246s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done""))",Chrome 73.0.3683.75,,2019-03-22 16:08:50,2019-03-22 16:08:50,0.102s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:08:50,2019-03-22 16:08:52,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:08:52,2019-03-22 16:08:53,0.071s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:08:53,2019-03-22 16:08:53,0.136s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website""))",Chrome 73.0.3683.75,,2019-03-22 16:08:53,2019-03-22 16:08:53,0.065s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:08:53,2019-03-22 16:08:53,0.216s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done""))",Chrome 73.0.3683.75,,2019-03-22 16:08:53,2019-03-22 16:08:53,0.063s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:08:53,2019-03-22 16:08:55,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 16:08:55,2019-03-22 16:08:55,0.086s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 16:08:55,2019-03-22 16:08:56,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 16:08:56,2019-03-22 16:08:56,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:08:56,2019-03-22 16:08:56,0.078s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 16:08:56,2019-03-22 16:08:57,0.582s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0820,Chrome 73.0.3683.75,Test remove text component,2019-03-22 16:08:57,2019-03-22 16:09:46,48.843s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:08:57,2019-03-22 16:09:46,48.767s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0821,Chrome 73.0.3683.75,Test remove image component,2019-03-22 16:09:46,2019-03-22 16:10:28,42.101s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0775""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:09:46,2019-03-22 16:10:26,39.944s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.75,,2019-03-22 16:10:26,2019-03-22 16:10:26,0.075s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:10:26,2019-03-22 16:10:28,2.003s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:10:28,2019-03-22 16:10:28,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""send""]""))",Chrome 73.0.3683.75,,2019-03-22 16:10:28,2019-03-22 16:10:28,0.018s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:10:28,2019-03-22 16:10:28,0.008s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:10:28,2019-03-22 16:10:28,0.000s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0822,Chrome 73.0.3683.75,Test remove card component,2019-03-22 16:10:28,2019-03-22 16:11:17,49.063s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0779""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:10:28,2019-03-22 16:11:17,49.000s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0823,Chrome 73.0.3683.75,Test remove gallery component,2019-03-22 16:11:17,2019-03-22 16:12:06,48.858s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0788""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:11:17,2019-03-22 16:12:06,48.804s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0824,Chrome 73.0.3683.75,Test remove audio component,2019-03-22 16:12:06,2019-03-22 16:12:54,47.966s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0801""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:12:06,2019-03-22 16:12:52,45.752s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.75,,2019-03-22 16:12:52,2019-03-22 16:12:52,0.113s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:12:52,2019-03-22 16:12:54,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:12:54,2019-03-22 16:12:54,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""send""]""))",Chrome 73.0.3683.75,,2019-03-22 16:12:54,2019-03-22 16:12:54,0.014s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:12:54,2019-03-22 16:12:54,0.009s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:12:54,2019-03-22 16:12:54,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0825,Chrome 73.0.3683.75,Test remove video component,2019-03-22 16:12:54,2019-03-22 16:13:55,1m - 1.284s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0805""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:12:54,2019-03-22 16:13:53,59.039s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.75,,2019-03-22 16:13:53,2019-03-22 16:13:53,0.128s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:13:53,2019-03-22 16:13:55,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:13:55,2019-03-22 16:13:55,0.001s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""send""]""))",Chrome 73.0.3683.75,,2019-03-22 16:13:55,2019-03-22 16:13:55,0.016s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:13:55,2019-03-22 16:13:55,0.008s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:13:55,2019-03-22 16:13:55,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0826,Chrome 73.0.3683.75,Test remove file component,2019-03-22 16:13:55,2019-03-22 16:14:50,54.920s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0809""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:13:55,2019-03-22 16:14:48,52.776s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.75,,2019-03-22 16:14:48,2019-03-22 16:14:48,0.066s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:14:48,2019-03-22 16:14:50,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:14:50,2019-03-22 16:14:50,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""send""]""))",Chrome 73.0.3683.75,,2019-03-22 16:14:50,2019-03-22 16:14:50,0.014s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:14:50,2019-03-22 16:14:50,0.010s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:14:50,2019-03-22 16:14:50,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0827,Chrome 73.0.3683.75,Test remove media component,2019-03-22 16:14:50,2019-03-22 16:15:44,53.875s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0813""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:14:50,2019-03-22 16:15:42,51.698s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x (3)""))",Chrome 73.0.3683.75,,2019-03-22 16:15:42,2019-03-22 16:15:42,0.091s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:15:42,2019-03-22 16:15:44,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:15:44,2019-03-22 16:15:44,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""send""]""))",Chrome 73.0.3683.75,,2019-03-22 16:15:44,2019-03-22 16:15:44,0.016s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:15:44,2019-03-22 16:15:44,0.008s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:15:44,2019-03-22 16:15:44,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0828,Chrome 73.0.3683.75,Test add button without title,2019-03-22 16:15:44,2019-03-22 16:16:31,47.606s,ERROR
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:15:44,2019-03-22 16:16:29,44.901s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:16:29,2019-03-22 16:16:29,0.093s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website""))",Chrome 73.0.3683.75,,2019-03-22 16:16:29,2019-03-22 16:16:29,0.072s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:16:29,2019-03-22 16:16:29,0.231s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:16:29,2019-03-22 16:16:31,2.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast Template/input_Open Website_form-control""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:16:31,2019-03-22 16:16:31,0.243s,PASSED
+"button = findTestObject(""Page_KiboEngage  Create Broadcast Template/button_Done (2)"")",Chrome 73.0.3683.75,,2019-03-22 16:16:31,2019-03-22 16:16:31,0.003s,ERROR
+,,,,,,
+Test Cases/Template testcases/TC0829,Chrome 73.0.3683.75,Test add button without action,2019-03-22 16:16:31,2019-03-22 16:17:27,55.895s,ERROR
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:16:31,2019-03-22 16:17:25,53.523s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:17:25,2019-03-22 16:17:25,0.129s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:17:25,2019-03-22 16:17:25,0.150s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:17:25,2019-03-22 16:17:27,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:17:27,2019-03-22 16:17:27,0.001s,PASSED
+"button = driver.findElement(By.xpath(""/html/body/div[5]/div/div/div/div/div[3]/button[1]""))",Chrome 73.0.3683.75,,2019-03-22 16:17:27,2019-03-22 16:17:27,0.020s,ERROR
+,,,,,,
+Test Cases/Template testcases/TC0830,Chrome 73.0.3683.75,Test edit button,2019-03-22 16:17:27,2019-03-22 16:18:18,51.226s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:17:27,2019-03-22 16:18:18,51.151s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0831,Chrome 73.0.3683.75,Test cancel button,2019-03-22 16:18:18,2019-03-22 16:19:11,52.522s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:18:19,2019-03-22 16:19:08,49.048s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_ Add Button (3)""))",Chrome 73.0.3683.75,,2019-03-22 16:19:08,2019-03-22 16:19:08,0.124s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Cancel""))",Chrome 73.0.3683.75,,2019-03-22 16:19:08,2019-03-22 16:19:08,0.099s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:19:08,2019-03-22 16:19:11,3.001s,PASSED
+"verifyTextNotPresent(""Edit Button"", false)",Chrome 73.0.3683.75,,2019-03-22 16:19:11,2019-03-22 16:19:11,0.197s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0832,Chrome 73.0.3683.75,Test remove button,2019-03-22 16:19:11,2019-03-22 16:20:15,1m - 3.940s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:19:11,2019-03-22 16:20:15,1m - 3.871s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0833,Chrome 73.0.3683.75,Test reset button,2019-03-22 16:20:15,2019-03-22 16:20:59,44.124s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0769""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:20:15,2019-03-22 16:20:56,40.542s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Image (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:20:56,2019-03-22 16:20:56,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Reset""))",Chrome 73.0.3683.75,,2019-03-22 16:20:56,2019-03-22 16:20:56,0.134s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Yes""))",Chrome 73.0.3683.75,,2019-03-22 16:20:56,2019-03-22 16:20:56,0.144s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:20:56,2019-03-22 16:20:59,3.002s,PASSED
+"verifyTextNotPresent(""Add Button"", false)",Chrome 73.0.3683.75,,2019-03-22 16:20:59,2019-03-22 16:20:59,0.154s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0834,Chrome 73.0.3683.75,Test add List component,2019-03-22 16:20:59,2019-03-22 16:21:49,49.906s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:20:59,2019-03-22 16:21:49,49.842s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0835,Chrome 73.0.3683.75,Remove List component,2019-03-22 16:21:49,2019-03-22 16:22:42,52.840s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:21:49,2019-03-22 16:22:40,50.642s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.75,,2019-03-22 16:22:40,2019-03-22 16:22:40,0.117s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:22:40,2019-03-22 16:22:42,2.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:22:42,2019-03-22 16:22:42,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""send""]""))",Chrome 73.0.3683.75,,2019-03-22 16:22:42,2019-03-22 16:22:42,0.018s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:22:42,2019-03-22 16:22:42,0.008s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:22:42,2019-03-22 16:22:42,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0836,Chrome 73.0.3683.75,Remove card in List,2019-03-22 16:22:42,2019-03-22 16:23:27,45.152s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:22:42,2019-03-22 16:23:27,45.055s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0837,Chrome 73.0.3683.75,Remove List component,2019-03-22 16:23:27,2019-03-22 16:24:13,45.875s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:23:27,2019-03-22 16:24:11,43.485s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_List""))",Chrome 73.0.3683.75,,2019-03-22 16:24:11,2019-03-22 16:24:11,0.182s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.75,,2019-03-22 16:24:11,2019-03-22 16:24:11,0.135s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:24:11,2019-03-22 16:24:13,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:24:13,2019-03-22 16:24:13,0.000s,PASSED
+"list = driver.findElements(By.xpath(""//*[@id=""List1""]/div""))",Chrome 73.0.3683.75,,2019-03-22 16:24:13,2019-03-22 16:24:13,0.017s,PASSED
+"verifyEqual(list.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 16:24:13,2019-03-22 16:24:13,0.000s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0838,Chrome 73.0.3683.75,Add list with Only title,2019-03-22 16:24:13,2019-03-22 16:25:02,49.223s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:24:13,2019-03-22 16:25:02,49.146s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0839,Chrome 73.0.3683.75,Add List with empty fields,2019-03-22 16:25:02,2019-03-22 16:25:44,41.544s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:25:02,2019-03-22 16:25:43,41.298s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (14) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:25:43,2019-03-22 16:25:44,0.096s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_A list must have atleast 2 (2)""))",Chrome 73.0.3683.75,,2019-03-22 16:25:44,2019-03-22 16:25:44,0.086s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0840,Chrome 73.0.3683.75,Add list with only subtitle,2019-03-22 16:25:44,2019-03-22 16:26:25,41.586s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:25:44,2019-03-22 16:26:24,40.710s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/textarea_form-control""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 16:26:24,2019-03-22 16:26:25,0.156s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.000s,PASSED
+"subTitle1 = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div[1]/div/div[3]/div[1]/center/textarea""))",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.018s,PASSED
+"subTitle1.sendKeys(""abc"")",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.122s,PASSED
+"subTitle2 = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div[2]/div/div[3]/div[1]/center/textarea""))",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.025s,PASSED
+"subTitle2.sendKeys(""abc"")",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.164s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.073s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create""))",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.115s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Element in list must have""))",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:26:25,0.102s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0841,Chrome 73.0.3683.75,Add list,2019-03-22 16:26:25,2019-03-22 16:27:12,46.882s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:26:25,2019-03-22 16:27:12,46.791s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0842,Chrome 73.0.3683.75,"Add list without image
+on both cards",2019-03-22 16:27:12,2019-03-22 16:27:59,47.351s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:27:12,2019-03-22 16:27:55,43.025s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (4)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 16:27:55,2019-03-22 16:27:55,0.189s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 16:27:55,2019-03-22 16:27:55,0.097s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:27:55,2019-03-22 16:27:55,0.000s,PASSED
+"subTitle = driver.findElement(By.xpath(""//*[@id=""List1""]/div[1]/div/div[3]/div[2]/div/div[3]/div[1]/center/textarea""))",Chrome 73.0.3683.75,,2019-03-22 16:27:55,2019-03-22 16:27:55,0.013s,PASSED
+"subTitle.sendKeys(""abc"")",Chrome 73.0.3683.75,,2019-03-22 16:27:55,2019-03-22 16:27:56,0.086s,PASSED
+"title = driver.findElement(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div[2]/div/div[3]/div[1]/center/input""))",Chrome 73.0.3683.75,,2019-03-22 16:27:56,2019-03-22 16:27:56,0.015s,PASSED
+"title.sendKeys(""abc"")",Chrome 73.0.3683.75,,2019-03-22 16:27:56,2019-03-22 16:27:56,0.067s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 16:27:56,2019-03-22 16:27:56,0.006s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:27:56,2019-03-22 16:27:58,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/category""))",Chrome 73.0.3683.75,,2019-03-22 16:27:58,2019-03-22 16:27:58,0.076s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 16:27:58,2019-03-22 16:27:59,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 16:27:59,2019-03-22 16:27:59,0.065s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create""))",Chrome 73.0.3683.75,,2019-03-22 16:27:59,2019-03-22 16:27:59,0.085s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf""))",Chrome 73.0.3683.75,,2019-03-22 16:27:59,2019-03-22 16:27:59,0.570s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0843,Chrome 73.0.3683.75,Add list without Add button on both cards,2019-03-22 16:27:59,2019-03-22 16:29:12,1m - 12.158s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0842""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:27:59,2019-03-22 16:29:12,1m - 12.107s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0844,Chrome 73.0.3683.75,"Add list with image
+on both cards",2019-03-22 16:29:12,2019-03-22 16:30:04,51.987s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:29:12,2019-03-22 16:30:04,51.934s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0845,Chrome 73.0.3683.75,Add list with Add button on both cards,2019-03-22 16:30:04,2019-03-22 16:30:54,50.628s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:30:04,2019-03-22 16:30:53,49.470s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button (9) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:53,2019-03-22 16:30:53,0.122s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16) (4) (1) (1)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:30:53,2019-03-22 16:30:53,0.099s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website (8) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:53,2019-03-22 16:30:53,0.059s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8) (4) (1) (1)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:30:53,2019-03-22 16:30:54,0.161s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Done (9) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.073s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_ Add Button (2) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.079s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16) (4) (1) (1)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.093s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/h7_Open a website (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.049s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/input_Open Website_form-control (1) (1)""), ""google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.152s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/button_Done (3) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.057s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.006s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Create (20) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.066s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast Template/div_A list must have atleast 2 elements (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:30:54,0.061s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0846,Chrome 73.0.3683.75,Add list with edit button,2019-03-22 16:30:54,2019-03-22 16:31:58,1m - 3.390s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:30:54,2019-03-22 16:31:55,1m - 1.034s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:31:55,2019-03-22 16:31:55,0.136s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:31:55,2019-03-22 16:31:56,0.136s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:31:56,2019-03-22 16:31:58,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:31:58,2019-03-22 16:31:58,0.000s,PASSED
+"button = driver.findElement(By.xpath(""/html/body/div[5]/div/div/div/div/div[2]/button[1]""))",Chrome 73.0.3683.75,,2019-03-22 16:31:58,2019-03-22 16:31:58,0.017s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:31:58,2019-03-22 16:31:58,0.009s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:31:58,2019-03-22 16:31:58,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0847,Chrome 73.0.3683.75,Add list with edit button,2019-03-22 16:31:58,2019-03-22 16:32:51,53.551s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:31:58,2019-03-22 16:32:49,51.057s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:32:49,2019-03-22 16:32:49,0.117s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website""))",Chrome 73.0.3683.75,,2019-03-22 16:32:49,2019-03-22 16:32:49,0.075s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:32:49,2019-03-22 16:32:49,0.210s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:32:49,2019-03-22 16:32:51,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:32:51,2019-03-22 16:32:51,0.001s,PASSED
+"button = driver.findElement(By.xpath(""/html/body/div[5]/div/div/div/div/div[2]/button[1]""))",Chrome 73.0.3683.75,,2019-03-22 16:32:51,2019-03-22 16:32:51,0.015s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:32:51,2019-03-22 16:32:51,0.010s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:32:51,2019-03-22 16:32:51,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0848,Chrome 73.0.3683.75,Add list with edit button(enter button title and link),2019-03-22 16:32:51,2019-03-22 16:33:54,1m - 2.682s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:32:51,2019-03-22 16:33:51,1m - 0.037s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:33:51,2019-03-22 16:33:51,0.115s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:33:51,2019-03-22 16:33:52,0.140s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h7_Open a website""))",Chrome 73.0.3683.75,,2019-03-22 16:33:52,2019-03-22 16:33:52,0.079s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)""), ""www.google.com"")",Chrome 73.0.3683.75,,2019-03-22 16:33:52,2019-03-22 16:33:52,0.218s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:33:52,2019-03-22 16:33:54,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:33:54,2019-03-22 16:33:54,0.000s,PASSED
+"button = driver.findElement(By.xpath(""/html/body/div[5]/div/div/div/div/div[2]/button[1]""))",Chrome 73.0.3683.75,,2019-03-22 16:33:54,2019-03-22 16:33:54,0.018s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:33:54,2019-03-22 16:33:54,0.010s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0849,Chrome 73.0.3683.75,Add list with edit button(cancel button),2019-03-22 16:33:54,2019-03-22 16:34:36,41.921s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:33:54,2019-03-22 16:34:33,39.502s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:34:33,2019-03-22 16:34:34,0.128s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Cancel""))",Chrome 73.0.3683.75,,2019-03-22 16:34:34,2019-03-22 16:34:34,0.079s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:34:34,2019-03-22 16:34:36,2.001s,PASSED
+"verifyTextNotPresent(""Cancel"", false)",Chrome 73.0.3683.75,,2019-03-22 16:34:36,2019-03-22 16:34:36,0.161s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0850,Chrome 73.0.3683.75,Add list with edit button with subribe to seq,2019-03-22 16:34:36,2019-03-22 16:35:24,47.810s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:34:36,2019-03-22 16:35:24,47.756s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0851,Chrome 73.0.3683.75,Add list with edit button with unsubribe to seq,2019-03-22 16:35:24,2019-03-22 16:36:06,42.840s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:35:24,2019-03-22 16:36:06,42.579s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h6_ Add Button""))",Chrome 73.0.3683.75,,2019-03-22 16:36:06,2019-03-22 16:36:06,0.097s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (16)""), ""google"")",Chrome 73.0.3683.75,,2019-03-22 16:36:06,2019-03-22 16:36:06,0.122s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0852,Chrome 73.0.3683.75,Add list with add element,2019-03-22 16:36:06,2019-03-22 16:36:55,48.102s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:36:06,2019-03-22 16:36:52,45.900s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h6_ Add Element""))",Chrome 73.0.3683.75,,2019-03-22 16:36:52,2019-03-22 16:36:53,0.115s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:36:53,2019-03-22 16:36:55,2.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:36:55,2019-03-22 16:36:55,0.000s,PASSED
+"element = driver.findElements(By.xpath(""//*[@id=""List1""]/div/div/div[3]/div""))",Chrome 73.0.3683.75,,2019-03-22 16:36:55,2019-03-22 16:36:55,0.015s,PASSED
+"verifyEqual(element.size(), 5)",Chrome 73.0.3683.75,,2019-03-22 16:36:55,2019-03-22 16:36:55,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0853,Chrome 73.0.3683.75,"Add list with title, subtitle,image and action",2019-03-22 16:36:55,2019-03-22 16:38:00,1m - 5.173s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0834""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:36:55,2019-03-22 16:38:00,1m - 5.111s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0856,Chrome 73.0.3683.75,Test add category,2019-03-22 16:38:00,2019-03-22 16:38:45,45.007s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:38:00,2019-03-22 16:38:44,44.587s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Add category (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:38:44,2019-03-22 16:38:44,0.089s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Broadcast Tem/input_form-control (9) (1)""), ""facebook"")",Chrome 73.0.3683.75,,2019-03-22 16:38:44,2019-03-22 16:38:45,0.144s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Save (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:38:45,2019-03-22 16:38:45,0.144s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0857,Chrome 73.0.3683.75,Test back button,2019-03-22 16:38:45,2019-03-22 16:39:40,55.271s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:38:45,2019-03-22 16:39:40,54.972s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h3_Create Broadcast Template (9) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:39:40,2019-03-22 16:39:40,0.034s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/a_Back (2)""))",Chrome 73.0.3683.75,,2019-03-22 16:39:40,2019-03-22 16:39:40,0.114s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 16:39:40,2019-03-22 16:39:40,0.006s,PASSED
+"click(findTestObject(""Page_KiboEngage  Templates/h3_Templates (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:39:40,2019-03-22 16:39:40,0.052s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0858,Chrome 73.0.3683.75,Change broadcast template title,2019-03-22 16:39:40,2019-03-22 16:40:29,49.360s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0768""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:39:40,2019-03-22 16:40:29,49.303s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0859,Chrome 73.0.3683.75,Test view broadcast template,2019-03-22 16:40:29,2019-03-22 16:41:07,37.942s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:40:29,2019-03-22 16:41:07,37.749s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_View""))",Chrome 73.0.3683.75,,2019-03-22 16:41:07,2019-03-22 16:41:07,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/p_Category Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 16:41:07,2019-03-22 16:41:07,0.065s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0860,Chrome 73.0.3683.75,Test back button,2019-03-22 16:41:07,2019-03-22 16:41:50,42.841s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0859""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:41:07,2019-03-22 16:41:50,42.588s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_Back""))",Chrome 73.0.3683.75,,2019-03-22 16:41:50,2019-03-22 16:41:50,0.110s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 16:41:50,2019-03-22 16:41:50,0.012s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Templates""))",Chrome 73.0.3683.75,,2019-03-22 16:41:50,2019-03-22 16:41:50,0.081s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0861,Chrome 73.0.3683.75,Test edit broadcast template button,2019-03-22 16:41:50,2019-03-22 16:42:29,38.989s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:41:50,2019-03-22 16:42:29,38.640s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_Edit""))",Chrome 73.0.3683.75,,2019-03-22 16:42:29,2019-03-22 16:42:29,0.222s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/h3_Edit Broadcast Template""))",Chrome 73.0.3683.75,,2019-03-22 16:42:29,2019-03-22 16:42:29,0.073s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0862,Chrome 73.0.3683.75,Test delete broadcast template,2019-03-22 16:42:29,2019-03-22 16:43:22,52.651s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:42:29,2019-03-22 16:43:20,50.355s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Delete (2)""))",Chrome 73.0.3683.75,,2019-03-22 16:43:20,2019-03-22 16:43:20,0.090s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/delete_broadcast""))",Chrome 73.0.3683.75,,2019-03-22 16:43:20,2019-03-22 16:43:20,0.086s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:43:20,2019-03-22 16:43:22,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/div_Broadcast template deleted""))",Chrome 73.0.3683.75,,2019-03-22 16:43:22,2019-03-22 16:43:22,0.057s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0863,Chrome 73.0.3683.75,Test edit broadcast template,2019-03-22 16:43:22,2019-03-22 16:43:59,37.702s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0861""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:43:22,2019-03-22 16:43:59,36.977s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/button_Update""))",Chrome 73.0.3683.75,,2019-03-22 16:43:59,2019-03-22 16:43:59,0.100s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast updated successf""))",Chrome 73.0.3683.75,,2019-03-22 16:43:59,2019-03-22 16:43:59,0.573s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0864,Chrome 73.0.3683.75,Test reset button,2019-03-22 16:43:59,2019-03-22 16:44:38,38.841s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0861""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:44:00,2019-03-22 16:44:36,36.375s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h3_Edit Broadcast Template (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:44:36,2019-03-22 16:44:36,0.091s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Reset (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:44:36,2019-03-22 16:44:36,0.128s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/button_Yes (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:44:36,2019-03-22 16:44:36,0.140s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:44:36,2019-03-22 16:44:38,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:44:38,2019-03-22 16:44:38,0.001s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""send""]""))",Chrome 73.0.3683.75,,2019-03-22 16:44:38,2019-03-22 16:44:38,0.020s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 16:44:38,2019-03-22 16:44:38,0.014s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 16:44:38,2019-03-22 16:44:38,0.003s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0865,Chrome 73.0.3683.75,Test back button,2019-03-22 16:44:38,2019-03-22 16:45:19,40.884s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0861""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:44:38,2019-03-22 16:45:19,40.524s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h3_Edit Broadcast Template (2)""))",Chrome 73.0.3683.75,,2019-03-22 16:45:19,2019-03-22 16:45:19,0.077s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/a_Back (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:45:19,2019-03-22 16:45:19,0.150s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 16:45:19,2019-03-22 16:45:19,0.007s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/h3_Templates (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:45:19,2019-03-22 16:45:19,0.057s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0866,Chrome 73.0.3683.75,Test search survey templates,2019-03-22 16:45:19,2019-03-22 16:46:06,47.158s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:45:19,2019-03-22 16:46:03,43.595s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:46:03,2019-03-22 16:46:03,0.000s,PASSED
+"input = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/input""))",Chrome 73.0.3683.75,,2019-03-22 16:46:03,2019-03-22 16:46:03,0.012s,PASSED
+"input.sendKeys(""Customer Satisfaction Survey"")",Chrome 73.0.3683.75,,2019-03-22 16:46:03,2019-03-22 16:46:03,0.432s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:46:03,2019-03-22 16:46:06,3.001s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody/tr[1]/td[1]""))",Chrome 73.0.3683.75,,2019-03-22 16:46:06,2019-03-22 16:46:06,0.027s,PASSED
+println(element.getText()),Chrome 73.0.3683.75,,2019-03-22 16:46:06,2019-03-22 16:46:06,0.019s,PASSED
+"verifyEqual(element.getText(), ""Customer Satisfaction Survey"")",Chrome 73.0.3683.75,,2019-03-22 16:46:06,2019-03-22 16:46:06,0.013s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0867,Chrome 73.0.3683.75,Test filter survey template,2019-03-22 16:46:06,2019-03-22 16:46:47,41.039s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:46:06,2019-03-22 16:46:45,38.833s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:46:45,2019-03-22 16:46:45,0.001s,PASSED
+"dropdown = new org.openqa.selenium.support.ui.Select(driver.findElement(org.openqa.selenium.By.xpath(//*[@id=""content""]/div/div/div/div[2]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[3]/select)))",Chrome 73.0.3683.75,,2019-03-22 16:46:45,2019-03-22 16:46:45,0.022s,PASSED
+"dropdown.selectByVisibleText(""Research"")",Chrome 73.0.3683.75,,2019-03-22 16:46:45,2019-03-22 16:46:45,0.056s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:46:45,2019-03-22 16:46:47,2.001s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody/tr[1]/td[3]""))",Chrome 73.0.3683.75,,2019-03-22 16:46:47,2019-03-22 16:46:47,0.014s,PASSED
+println(element.getText()),Chrome 73.0.3683.75,,2019-03-22 16:46:47,2019-03-22 16:46:47,0.016s,PASSED
+"verifyEqual(element.getText(), ""Research,Customer Behavior"")",Chrome 73.0.3683.75,,2019-03-22 16:46:47,2019-03-22 16:46:47,0.011s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0868,Chrome 73.0.3683.75,Test survey templates pagination (next page),2019-03-22 16:46:47,2019-03-22 16:47:36,48.409s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:46:47,2019-03-22 16:47:33,45.211s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:47:33,2019-03-22 16:47:36,3.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:47:36,2019-03-22 16:47:36,0.001s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/ul/li[4]/a""))",Chrome 73.0.3683.75,,2019-03-22 16:47:36,2019-03-22 16:47:36,0.039s,PASSED
+element.click(),Chrome 73.0.3683.75,,2019-03-22 16:47:36,2019-03-22 16:47:36,0.071s,PASSED
+"rows = driver.findElements(By.xpath(""//*[@id=""ajax_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 16:47:36,2019-03-22 16:47:36,0.016s,PASSED
+"verifyGreaterThanOrEqual(rows.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 16:47:36,2019-03-22 16:47:36,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0869,Chrome 73.0.3683.75,Test survey templates pagination (previous page),2019-03-22 16:47:36,2019-03-22 16:48:22,46.031s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:47:36,2019-03-22 16:48:19,42.793s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:48:19,2019-03-22 16:48:22,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:48:22,0.000s,PASSED
+"next = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/ul/li[4]/a""))",Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:48:22,0.017s,PASSED
+next.click(),Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:48:22,0.067s,PASSED
+"previous = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/ul/li[1]/a""))",Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:48:22,0.013s,PASSED
+previous.click(),Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:48:22,0.049s,PASSED
+"rows = driver.findElements(By.xpath(""//*[@id=""ajax_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:48:22,0.015s,PASSED
+"verifyEqual(rows.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:48:22,0.002s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0870,Chrome 73.0.3683.75,Test survey templates pagination (Jump to page n),2019-03-22 16:48:22,2019-03-22 16:49:10,48.165s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:48:22,2019-03-22 16:49:07,44.892s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:49:07,2019-03-22 16:49:10,3.003s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:49:10,2019-03-22 16:49:10,0.000s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/ul/li[3]/a""))",Chrome 73.0.3683.75,,2019-03-22 16:49:10,2019-03-22 16:49:10,0.017s,PASSED
+element.click(),Chrome 73.0.3683.75,,2019-03-22 16:49:10,2019-03-22 16:49:10,0.083s,PASSED
+"rows = driver.findElements(By.xpath(""//*[@id=""ajax_data""]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 16:49:10,2019-03-22 16:49:10,0.017s,PASSED
+"verifyGreaterThanOrEqual(rows.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 16:49:10,2019-03-22 16:49:10,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0871,Chrome 73.0.3683.75,Test create new survey template button,2019-03-22 16:49:10,2019-03-22 16:50:01,50.896s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:49:10,2019-03-22 16:49:57,46.662s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 16:49:57,2019-03-22 16:50:00,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:50:00,2019-03-22 16:50:00,0.000s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[2]/div[2]/div/div[1]/div[2]/a/button""))",Chrome 73.0.3683.75,,2019-03-22 16:50:00,2019-03-22 16:50:00,0.017s,PASSED
+element.click(),Chrome 73.0.3683.75,,2019-03-22 16:50:00,2019-03-22 16:50:00,0.066s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 16:50:00,2019-03-22 16:50:00,0.004s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 16:50:00,2019-03-22 16:50:01,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/h3_Create Template Survey""))",Chrome 73.0.3683.75,,2019-03-22 16:50:01,2019-03-22 16:50:01,0.059s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0872,Chrome 73.0.3683.75,Test create survey template,2019-03-22 16:50:01,2019-03-22 16:50:55,54.190s,ERROR
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:50:01,2019-03-22 16:50:54,53.360s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 16:50:54,2019-03-22 16:50:54,0.073s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/textarea_form-control""), ""bye"")",Chrome 73.0.3683.75,,2019-03-22 16:50:54,2019-03-22 16:50:54,0.080s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Add Questions""))",Chrome 73.0.3683.75,,2019-03-22 16:50:54,2019-03-22 16:50:55,0.076s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control_1""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:50:55,0.169s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control input-sm""), ""1"")",Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:50:55,0.087s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control input-sm_1""), ""2"")",Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:50:55,0.110s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control input-sm_2""), ""3"")",Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:50:55,0.106s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:50:55,0.000s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""desc""]/div/div/span/span[1]/span/ul/li/input""))",Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:50:55,0.016s,PASSED
+element.click(),Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:50:55,0.051s,ERROR
+,,,,,,
+Test Cases/Template testcases/TC0873,Chrome 73.0.3683.75,Test Add Questions,2019-03-22 16:50:55,2019-03-22 16:51:43,47.500s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:50:55,2019-03-22 16:51:42,47.315s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Add Questions""))",Chrome 73.0.3683.75,,2019-03-22 16:51:42,2019-03-22 16:51:43,0.078s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 16:51:43,2019-03-22 16:51:43,0.000s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""question0""]/input""))",Chrome 73.0.3683.75,,2019-03-22 16:51:43,2019-03-22 16:51:43,0.015s,PASSED
+"verifyEqual(element.getText(), """")",Chrome 73.0.3683.75,,2019-03-22 16:51:43,2019-03-22 16:51:43,0.017s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0874,Chrome 73.0.3683.75,Test Remove Question when only one question is added,2019-03-22 16:51:43,2019-03-22 16:52:32,49.547s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:51:43,2019-03-22 16:52:32,49.307s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Add Questions (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:52:32,2019-03-22 16:52:32,0.063s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/span_fa fa-times""))",Chrome 73.0.3683.75,,2019-03-22 16:52:32,2019-03-22 16:52:32,0.069s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/div_A survey form requires atl""))",Chrome 73.0.3683.75,,2019-03-22 16:52:32,2019-03-22 16:52:32,0.058s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0875,Chrome 73.0.3683.75,Test Remove Question when multiple questions are added,2019-03-22 16:52:32,2019-03-22 16:53:20,47.516s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:52:32,2019-03-22 16:53:20,47.437s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0876,Chrome 73.0.3683.75,Test Remove Choice when there are three choices,2019-03-22 16:53:20,2019-03-22 16:54:07,47.299s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:53:20,2019-03-22 16:54:05,45.011s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Add Questions (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:54:05,2019-03-22 16:54:05,0.111s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/span_fa fa-times (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:54:05,2019-03-22 16:54:05,0.095s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:54:05,2019-03-22 16:54:07,2.001s,PASSED
+try,Chrome 73.0.3683.75,,2019-03-22 16:54:07,2019-03-22 16:54:07,0.018s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0877,Chrome 73.0.3683.75,Test Remove Choice when there are two choices,2019-03-22 16:54:07,2019-03-22 16:54:53,46.042s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0876""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:54:07,2019-03-22 16:54:53,45.986s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0878,Chrome 73.0.3683.75,Test add choices when there are two choices,2019-03-22 16:54:53,2019-03-22 16:55:45,52.443s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0876""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:54:53,2019-03-22 16:55:43,50.278s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Add Choices""))",Chrome 73.0.3683.75,,2019-03-22 16:55:43,2019-03-22 16:55:43,0.093s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 16:55:43,2019-03-22 16:55:45,2.001s,PASSED
+try,Chrome 73.0.3683.75,,2019-03-22 16:55:45,2019-03-22 16:55:45,0.012s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0879,Chrome 73.0.3683.75,Test create survey with empty fields,2019-03-22 16:55:45,2019-03-22 16:56:29,43.574s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:55:45,2019-03-22 16:56:29,43.310s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/h3_Create Template Survey (3)""))",Chrome 73.0.3683.75,,2019-03-22 16:56:29,2019-03-22 16:56:29,0.065s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Create Survey (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:56:29,2019-03-22 16:56:29,0.088s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/div_Please add a title""))",Chrome 73.0.3683.75,,2019-03-22 16:56:29,2019-03-22 16:56:29,0.070s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0880,Chrome 73.0.3683.75,Test create survey with title only,2019-03-22 16:56:29,2019-03-22 16:57:14,44.949s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:56:29,2019-03-22 16:57:14,44.542s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/h3_Create Template Survey (4)""))",Chrome 73.0.3683.75,,2019-03-22 16:57:14,2019-03-22 16:57:14,0.047s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 16:57:14,2019-03-22 16:57:14,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Create Survey (2)""))",Chrome 73.0.3683.75,,2019-03-22 16:57:14,2019-03-22 16:57:14,0.139s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/div_Please add a description""))",Chrome 73.0.3683.75,,2019-03-22 16:57:14,2019-03-22 16:57:14,0.075s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0881,Chrome 73.0.3683.75,Test create survey with title and introduction,2019-03-22 16:57:14,2019-03-22 16:57:59,45.074s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:57:14,2019-03-22 16:57:59,44.547s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/h3_Create Template Survey (4) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:57:59,2019-03-22 16:57:59,0.040s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 16:57:59,2019-03-22 16:57:59,0.083s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/textarea_form-control (1)""), ""bye"")",Chrome 73.0.3683.75,,2019-03-22 16:57:59,2019-03-22 16:57:59,0.094s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Create Survey (3)""))",Chrome 73.0.3683.75,,2019-03-22 16:57:59,2019-03-22 16:57:59,0.125s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/div_Please select a category""))",Chrome 73.0.3683.75,,2019-03-22 16:57:59,2019-03-22 16:57:59,0.128s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0882,Chrome 73.0.3683.75,"Test create survey with title, introduction and empty question and empty choices",2019-03-22 16:57:59,2019-03-22 16:58:48,48.513s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:57:59,2019-03-22 16:58:48,48.410s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0883,Chrome 73.0.3683.75,"Test create survey with title, introduction, question and empty choices",2019-03-22 16:58:48,2019-03-22 16:59:34,46.100s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:58:48,2019-03-22 16:59:33,45.429s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/h3_Create Template Survey (4) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:59:33,2019-03-22 16:59:33,0.047s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 16:59:33,2019-03-22 16:59:33,0.075s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/textarea_form-control (1) (1) (1)""), ""bye"")",Chrome 73.0.3683.75,,2019-03-22 16:59:33,2019-03-22 16:59:33,0.098s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/button_Add Questions (2) (1)""))",Chrome 73.0.3683.75,,2019-03-22 16:59:33,2019-03-22 16:59:33,0.110s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control (2)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 16:59:33,2019-03-22 16:59:33,0.129s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/button_Create Survey (5)""))",Chrome 73.0.3683.75,,2019-03-22 16:59:33,2019-03-22 16:59:34,0.091s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/div_Please select a category (2)""))",Chrome 73.0.3683.75,,2019-03-22 16:59:34,2019-03-22 16:59:34,0.077s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0884,Chrome 73.0.3683.75,"Test create survey with title, introduction, question and one choice only",2019-03-22 16:59:34,2019-03-22 17:00:33,59.347s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 16:59:34,2019-03-22 17:00:32,58.705s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/h3_Create Template Survey (4) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:00:32,2019-03-22 17:00:32,0.043s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control (1) (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:00:32,2019-03-22 17:00:33,0.100s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/textarea_form-control (1) (1) (1) (1)""), ""bye"")",Chrome 73.0.3683.75,,2019-03-22 17:00:33,2019-03-22 17:00:33,0.077s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/button_Add Questions (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:00:33,2019-03-22 17:00:33,0.064s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control (2) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:00:33,2019-03-22 17:00:33,0.093s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control input-sm (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:00:33,2019-03-22 17:00:33,0.085s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/button_Create Survey (6)""))",Chrome 73.0.3683.75,,2019-03-22 17:00:33,2019-03-22 17:00:33,0.077s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/div_Please select a category (3)""))",Chrome 73.0.3683.75,,2019-03-22 17:00:33,2019-03-22 17:00:33,0.050s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0885,Chrome 73.0.3683.75,"Test create survey with title, introduction, question and two choices",2019-03-22 17:00:33,2019-03-22 17:01:20,46.541s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:00:33,2019-03-22 17:01:19,45.594s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/h3_Create Template Survey (4) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.034s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control (1) (1) (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.113s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/textarea_form-control (1) (1) (1) (1) (1)""), ""bye"")",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.088s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/button_Add Questions (2) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.087s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control (2) (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.104s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control input-sm (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.187s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control input-sm (2)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.122s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/button_Create Survey (7)""))",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:19,0.106s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/div_Please select a category (4)""))",Chrome 73.0.3683.75,,2019-03-22 17:01:19,2019-03-22 17:01:20,0.063s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0886,Chrome 73.0.3683.75,Test cancel button,2019-03-22 17:01:20,2019-03-22 17:02:09,49.144s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:01:20,2019-03-22 17:02:09,49.082s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0887,Chrome 73.0.3683.75,Test add category,2019-03-22 17:02:09,2019-03-22 17:03:29,1m - 20.581s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0871""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:02:09,2019-03-22 17:02:58,49.308s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Add category""))",Chrome 73.0.3683.75,,2019-03-22 17:02:58,2019-03-22 17:02:58,0.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Survey/input_form-control (3)""), ""hyzsbhsjh"")",Chrome 73.0.3683.75,,2019-03-22 17:02:58,2019-03-22 17:02:58,0.271s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/button_Save""))",Chrome 73.0.3683.75,,2019-03-22 17:02:58,2019-03-22 17:02:59,0.118s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/div_Category added successfull""))",Chrome 73.0.3683.75,,2019-03-22 17:02:59,2019-03-22 17:03:29,30.768s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0888,Chrome 73.0.3683.75,Test view survey template,2019-03-22 17:03:29,2019-03-22 17:04:14,44.403s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:03:29,2019-03-22 17:04:13,44.086s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:04:13,2019-03-22 17:04:13,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody/tr[1]/td[5]/span/a[1]""))",Chrome 73.0.3683.75,,2019-03-22 17:04:13,2019-03-22 17:04:13,0.020s,PASSED
+button.click(),Chrome 73.0.3683.75,,2019-03-22 17:04:13,2019-03-22 17:04:14,0.146s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/h4_Survey Questions""))",Chrome 73.0.3683.75,,2019-03-22 17:04:14,2019-03-22 17:04:14,0.080s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0889,Chrome 73.0.3683.75,Test back button,2019-03-22 17:04:14,2019-03-22 17:04:59,45.185s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0888""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:04:14,2019-03-22 17:04:59,44.864s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Back""))",Chrome 73.0.3683.75,,2019-03-22 17:04:59,2019-03-22 17:04:59,0.174s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 17:04:59,2019-03-22 17:04:59,0.012s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Templates (2)""))",Chrome 73.0.3683.75,,2019-03-22 17:04:59,2019-03-22 17:04:59,0.058s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0890,Chrome 73.0.3683.75,Test edit survey template button,2019-03-22 17:04:59,2019-03-22 17:05:44,45.090s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:04:59,2019-03-22 17:05:42,43.566s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:05:42,2019-03-22 17:05:42,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody/tr[1]/td[5]/span/a[2]""))",Chrome 73.0.3683.75,,2019-03-22 17:05:42,2019-03-22 17:05:43,0.067s,PASSED
+button.click(),Chrome 73.0.3683.75,,2019-03-22 17:05:43,2019-03-22 17:05:43,0.272s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 17:05:43,2019-03-22 17:05:43,0.009s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 17:05:43,2019-03-22 17:05:44,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/h3_Edit Template Survey""))",Chrome 73.0.3683.75,,2019-03-22 17:05:44,2019-03-22 17:05:44,0.106s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0891,Chrome 73.0.3683.75,Test delete survey template,2019-03-22 17:05:44,2019-03-22 17:06:34,49.913s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:05:44,2019-03-22 17:06:34,49.815s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0892,Chrome 73.0.3683.75,Test edit survey template,2019-03-22 17:06:34,2019-03-22 17:07:33,58.965s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0890""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:06:34,2019-03-22 17:07:32,57.963s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/h3_Edit Template Survey (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:07:32,2019-03-22 17:07:32,0.059s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Survey/input_form-control (4)""), ""1"")",Chrome 73.0.3683.75,,2019-03-22 17:07:32,2019-03-22 17:07:32,0.137s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/button_Save (2)""))",Chrome 73.0.3683.75,,2019-03-22 17:07:32,2019-03-22 17:07:32,0.175s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Survey/div_Survey edited successfully""))",Chrome 73.0.3683.75,,2019-03-22 17:07:32,2019-03-22 17:07:33,0.589s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0893,Chrome 73.0.3683.75,Test back button,2019-03-22 17:07:33,2019-03-22 17:08:19,45.686s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0890""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:07:33,2019-03-22 17:08:18,45.382s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/a_Back""))",Chrome 73.0.3683.75,,2019-03-22 17:08:18,2019-03-22 17:08:18,0.134s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 17:08:18,2019-03-22 17:08:18,0.008s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Survey/h3_Templates (2)""))",Chrome 73.0.3683.75,,2019-03-22 17:08:18,2019-03-22 17:08:19,0.060s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0894,Chrome 73.0.3683.75,Test search poll templates,2019-03-22 17:08:19,2019-03-22 17:09:03,44.043s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0762""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:08:19,2019-03-22 17:08:59,40.509s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:08:59,2019-03-22 17:08:59,0.001s,PASSED
+"input = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[1]/div[1]/input""))",Chrome 73.0.3683.75,,2019-03-22 17:08:59,2019-03-22 17:08:59,0.014s,PASSED
+"input.sendKeys(""Audience Response"")",Chrome 73.0.3683.75,,2019-03-22 17:08:59,2019-03-22 17:09:00,0.406s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 17:09:00,2019-03-22 17:09:03,3.001s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[1]""))",Chrome 73.0.3683.75,,2019-03-22 17:09:03,2019-03-22 17:09:03,0.018s,PASSED
+println(element.getText()),Chrome 73.0.3683.75,,2019-03-22 17:09:03,2019-03-22 17:09:03,0.014s,PASSED
+"verifyEqual(element.getText(), ""Audience Response"")",Chrome 73.0.3683.75,,2019-03-22 17:09:03,2019-03-22 17:09:03,0.014s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0895,Chrome 73.0.3683.75,Test filter poll template,2019-03-22 17:09:03,2019-03-22 17:09:50,47.418s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:09:03,2019-03-22 17:09:50,47.340s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0896,Chrome 73.0.3683.75,Test poll templates pagination (next page),2019-03-22 17:09:50,2019-03-22 17:10:39,48.699s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:09:50,2019-03-22 17:10:35,44.507s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 17:10:35,2019-03-22 17:10:38,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:10:38,2019-03-22 17:10:38,0.000s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/ul/li[4]/a""))",Chrome 73.0.3683.75,,2019-03-22 17:10:38,2019-03-22 17:10:38,0.016s,PASSED
+element.click(),Chrome 73.0.3683.75,,2019-03-22 17:10:38,2019-03-22 17:10:38,0.087s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 17:10:38,2019-03-22 17:10:39,1.001s,PASSED
+"rows = driver.findElements(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 17:10:39,2019-03-22 17:10:39,0.017s,PASSED
+"verifyGreaterThanOrEqual(rows.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 17:10:39,2019-03-22 17:10:39,0.001s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0897,Chrome 73.0.3683.75,Test poll templates pagination (previous page),2019-03-22 17:10:39,2019-03-22 17:11:26,47.542s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:10:39,2019-03-22 17:11:23,44.339s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 17:11:23,2019-03-22 17:11:26,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:11:26,0.001s,PASSED
+"next = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/ul/li[4]/a""))",Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:11:26,0.018s,PASSED
+next.click(),Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:11:26,0.058s,PASSED
+"previous = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/ul/li[1]/a""))",Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:11:26,0.011s,PASSED
+previous.click(),Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:11:26,0.038s,PASSED
+"rows = driver.findElements(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:11:26,0.012s,PASSED
+"verifyEqual(rows.size(), 5)",Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:11:26,0.001s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0898,Chrome 73.0.3683.75,Test poll templates pagination (Jump to page n),2019-03-22 17:11:26,2019-03-22 17:12:11,45.128s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:11:26,2019-03-22 17:12:08,41.966s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 17:12:08,2019-03-22 17:12:11,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:12:11,2019-03-22 17:12:11,0.000s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/ul/li[3]/a""))",Chrome 73.0.3683.75,,2019-03-22 17:12:11,2019-03-22 17:12:11,0.017s,PASSED
+element.click(),Chrome 73.0.3683.75,,2019-03-22 17:12:11,2019-03-22 17:12:11,0.068s,PASSED
+"rows = driver.findElements(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr""))",Chrome 73.0.3683.75,,2019-03-22 17:12:11,2019-03-22 17:12:11,0.014s,PASSED
+"verifyGreaterThanOrEqual(rows.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 17:12:11,2019-03-22 17:12:11,0.002s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0899,Chrome 73.0.3683.75,Test create new poll template button,2019-03-22 17:12:11,2019-03-22 17:12:56,45.133s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0761""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:12:11,2019-03-22 17:12:54,42.834s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 17:12:54,2019-03-22 17:12:55,1.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:12:55,2019-03-22 17:12:55,0.001s,PASSED
+"element = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[1]/div[2]/a/button""))",Chrome 73.0.3683.75,,2019-03-22 17:12:55,2019-03-22 17:12:55,0.019s,PASSED
+element.click(),Chrome 73.0.3683.75,,2019-03-22 17:12:55,2019-03-22 17:12:55,0.120s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 17:12:55,2019-03-22 17:12:55,0.025s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 17:12:55,2019-03-22 17:12:56,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/h3_Create Template Poll""))",Chrome 73.0.3683.75,,2019-03-22 17:12:56,2019-03-22 17:12:56,0.073s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0900,Chrome 73.0.3683.75,Test create poll template,2019-03-22 17:12:56,2019-03-22 17:13:44,47.869s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0899""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:12:57,2019-03-22 17:13:42,45.585s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:13:42,2019-03-22 17:13:42,0.072s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/polls_category""))",Chrome 73.0.3683.75,,2019-03-22 17:13:42,2019-03-22 17:13:42,0.063s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-03-22 17:13:42,2019-03-22 17:13:43,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Broadcast Tem/li_Customer Behavior""))",Chrome 73.0.3683.75,,2019-03-22 17:13:43,2019-03-22 17:13:43,0.122s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/textarea_form-control (5)""), ""q1"")",Chrome 73.0.3683.75,,2019-03-22 17:13:43,2019-03-22 17:13:43,0.088s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control_1 (1) (1)""), ""1"")",Chrome 73.0.3683.75,,2019-03-22 17:13:43,2019-03-22 17:13:44,0.070s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control_2 (1) (1)""), ""2"")",Chrome 73.0.3683.75,,2019-03-22 17:13:44,2019-03-22 17:13:44,0.073s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control_3 (1)""), ""3"")",Chrome 73.0.3683.75,,2019-03-22 17:13:44,2019-03-22 17:13:44,0.069s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/button_Create Poll (2) (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:13:44,2019-03-22 17:13:44,0.064s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 17:13:44,2019-03-22 17:13:44,0.007s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Templates/h3_Broadcasts""))",Chrome 73.0.3683.75,,2019-03-22 17:13:44,2019-03-22 17:13:44,0.576s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0901,Chrome 73.0.3683.75,Test create poll with empty fields,2019-03-22 17:13:44,2019-03-22 17:14:28,43.220s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0899""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:13:44,2019-03-22 17:14:27,42.995s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/button_Create Poll (3)""))",Chrome 73.0.3683.75,,2019-03-22 17:14:27,2019-03-22 17:14:28,0.115s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/div_Please add a title""))",Chrome 73.0.3683.75,,2019-03-22 17:14:28,2019-03-22 17:14:28,0.064s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0902,Chrome 73.0.3683.75,Test create poll with question only,2019-03-22 17:14:28,2019-03-22 17:15:09,41.223s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0899""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:14:28,2019-03-22 17:15:08,40.539s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/h3_Create Template Poll (3)""))",Chrome 73.0.3683.75,,2019-03-22 17:15:08,2019-03-22 17:15:08,0.073s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Poll/input_form-control (2)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:15:08,2019-03-22 17:15:08,0.097s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/textarea_form-control""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 17:15:08,2019-03-22 17:15:09,0.188s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/button_Create Poll (4)""))",Chrome 73.0.3683.75,,2019-03-22 17:15:09,2019-03-22 17:15:09,0.146s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/div_Please select a category""))",Chrome 73.0.3683.75,,2019-03-22 17:15:09,2019-03-22 17:15:09,0.125s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0903,Chrome 73.0.3683.75,Test create poll with title and one response,2019-03-22 17:15:09,2019-03-22 17:15:49,40.073s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0899""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:15:09,2019-03-22 17:15:48,39.250s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control (2) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:15:48,2019-03-22 17:15:48,0.101s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/textarea_form-control (3)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 17:15:48,2019-03-22 17:15:48,0.205s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control (3)""), ""1"")",Chrome 73.0.3683.75,,2019-03-22 17:15:48,2019-03-22 17:15:49,0.146s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/button_Create Poll (5)""))",Chrome 73.0.3683.75,,2019-03-22 17:15:49,2019-03-22 17:15:49,0.140s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/div_Please select a category (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:15:49,2019-03-22 17:15:49,0.161s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0904,Chrome 73.0.3683.75,Test create poll with title and two responses,2019-03-22 17:15:49,2019-03-22 17:16:34,44.981s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0899""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:15:49,2019-03-22 17:16:33,44.131s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control (2) (1) (1)""), ""hi"")",Chrome 73.0.3683.75,,2019-03-22 17:16:33,2019-03-22 17:16:33,0.099s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/textarea_form-control (3) (1)""), ""hello"")",Chrome 73.0.3683.75,,2019-03-22 17:16:33,2019-03-22 17:16:33,0.202s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control (3) (1)""), ""1"")",Chrome 73.0.3683.75,,2019-03-22 17:16:33,2019-03-22 17:16:33,0.110s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/input_form-control (4)""), ""2"")",Chrome 73.0.3683.75,,2019-03-22 17:16:33,2019-03-22 17:16:34,0.128s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/button_Create Poll (6)""))",Chrome 73.0.3683.75,,2019-03-22 17:16:34,2019-03-22 17:16:34,0.106s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/div_Please select a category (2)""))",Chrome 73.0.3683.75,,2019-03-22 17:16:34,2019-03-22 17:16:34,0.132s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0905,Chrome 73.0.3683.75,Test cancel button,2019-03-22 17:16:34,2019-03-22 17:17:15,41.482s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0899""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:16:34,2019-03-22 17:17:15,41.057s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/h3_Create Template Poll (4)""))",Chrome 73.0.3683.75,,2019-03-22 17:17:15,2019-03-22 17:17:15,0.049s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/a_Cancel (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:17:15,2019-03-22 17:17:15,0.136s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 17:17:15,2019-03-22 17:17:15,0.007s,PASSED
+"click(findTestObject(""Page_KiboPush  Create Poll/h3_Templates (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:17:15,2019-03-22 17:17:15,0.103s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0906,Chrome 73.0.3683.75,Test add category,2019-03-22 17:17:15,2019-03-22 17:18:15,1m - 0.114s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0899""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:17:15,2019-03-22 17:18:13,57.529s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/button_ Add category""))",Chrome 73.0.3683.75,,2019-03-22 17:18:13,2019-03-22 17:18:13,0.106s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Create Poll/input_form-control (5)""), ""hellooo"")",Chrome 73.0.3683.75,,2019-03-22 17:18:13,2019-03-22 17:18:13,0.220s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/button_Save (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:18:13,2019-03-22 17:18:13,0.137s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 17:18:13,2019-03-22 17:18:15,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Create Poll/div_Category added successfull""))",Chrome 73.0.3683.75,,2019-03-22 17:18:15,2019-03-22 17:18:15,0.063s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0907,Chrome 73.0.3683.75,Test view poll template,2019-03-22 17:18:15,2019-03-22 17:18:58,42.952s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:18:16,2019-03-22 17:18:58,42.788s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:18:58,2019-03-22 17:18:58,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]/span/a[1]""))",Chrome 73.0.3683.75,,2019-03-22 17:18:58,2019-03-22 17:18:58,0.018s,PASSED
+button.click(),Chrome 73.0.3683.75,,2019-03-22 17:18:58,2019-03-22 17:18:58,0.071s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0908,Chrome 73.0.3683.75,Test back button,2019-03-22 17:18:58,2019-03-22 17:19:42,43.128s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0907""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:18:58,2019-03-22 17:19:41,42.854s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  View Poll/button_Back""))",Chrome 73.0.3683.75,,2019-03-22 17:19:41,2019-03-22 17:19:41,0.124s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 17:19:41,2019-03-22 17:19:41,0.006s,PASSED
+"click(findTestObject(""Page_KiboEngage  Templates/h3_Templates (3)""))",Chrome 73.0.3683.75,,2019-03-22 17:19:41,2019-03-22 17:19:42,0.090s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0909,Chrome 73.0.3683.75,Test edit poll template button,2019-03-22 17:19:42,2019-03-22 17:20:27,45.954s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:19:42,2019-03-22 17:20:27,45.755s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:20:27,2019-03-22 17:20:27,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]/span/a[2]""))",Chrome 73.0.3683.75,,2019-03-22 17:20:27,2019-03-22 17:20:27,0.020s,PASSED
+button.click(),Chrome 73.0.3683.75,,2019-03-22 17:20:27,2019-03-22 17:20:27,0.105s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0910,Chrome 73.0.3683.75,Test delete poll template,2019-03-22 17:20:27,2019-03-22 17:21:10,42.909s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:20:28,2019-03-22 17:21:06,38.524s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:21:06,2019-03-22 17:21:06,0.001s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""m-datatable--27866229129""]/tbody/tr[2]/td[4]/span/button""))",Chrome 73.0.3683.75,,2019-03-22 17:21:06,2019-03-22 17:21:06,0.018s,PASSED
+button.click(),Chrome 73.0.3683.75,,2019-03-22 17:21:06,2019-03-22 17:21:06,0.083s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-03-22 17:21:06,2019-03-22 17:21:09,3.003s,PASSED
+"delete = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/button""))",Chrome 73.0.3683.75,,2019-03-22 17:21:09,2019-03-22 17:21:09,0.030s,PASSED
+delete.click(),Chrome 73.0.3683.75,,2019-03-22 17:21:09,2019-03-22 17:21:09,0.093s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/div_Poll template deleted""))",Chrome 73.0.3683.75,,2019-03-22 17:21:09,2019-03-22 17:21:10,1.087s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0911,Chrome 73.0.3683.75,Test edit poll template,2019-03-22 17:21:10,2019-03-22 17:22:18,1m - 8.027s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0909""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:21:10,2019-03-22 17:22:18,1m - 7.985s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0912,Chrome 73.0.3683.75,Test back button,2019-03-22 17:22:18,2019-03-22 17:23:05,46.259s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0909""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:22:18,2019-03-22 17:23:05,46.203s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0913,Chrome 73.0.3683.75,Test category button,2019-03-22 17:23:05,2019-03-22 17:23:45,40.061s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Template""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:23:05,2019-03-22 17:23:45,39.824s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_Category""))",Chrome 73.0.3683.75,,2019-03-22 17:23:45,2019-03-22 17:23:45,0.104s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/h3_Categories""))",Chrome 73.0.3683.75,,2019-03-22 17:23:45,2019-03-22 17:23:45,0.091s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0914,Chrome 73.0.3683.75,View category list,2019-03-22 17:23:45,2019-03-22 17:24:32,47.523s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0913""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:23:45,2019-03-22 17:24:32,47.455s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0915,Chrome 73.0.3683.75,Add category,2019-03-22 17:24:32,2019-03-22 17:25:48,1m - 16.200s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0913""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:24:32,2019-03-22 17:25:17,44.930s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Add New""))",Chrome 73.0.3683.75,,2019-03-22 17:25:17,2019-03-22 17:25:17,0.103s,PASSED
+"setText(findTestObject(""Page_KiboPush  Dashboard/input_form-control""), ""helwq"")",Chrome 73.0.3683.75,,2019-03-22 17:25:17,2019-03-22 17:25:17,0.109s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Save (5)""))",Chrome 73.0.3683.75,,2019-03-22 17:25:17,2019-03-22 17:25:18,0.091s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/div_Category added successfull""))",Chrome 73.0.3683.75,,2019-03-22 17:25:18,2019-03-22 17:25:48,30.929s,FAILED
+,,,,,,
+Test Cases/Template testcases/TC0916,Chrome 73.0.3683.75,Edit category,2019-03-22 17:25:48,2019-03-22 17:26:34,45.749s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0913""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:25:49,2019-03-22 17:26:34,45.139s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Categories (1) (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:26:34,2019-03-22 17:26:34,0.042s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Edit (1)""))",Chrome 73.0.3683.75,,2019-03-22 17:26:34,2019-03-22 17:26:34,0.095s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Categories/input_form""), ""Research-1"")",Chrome 73.0.3683.75,,2019-03-22 17:26:34,2019-03-22 17:26:34,0.309s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Categories/button_Save""))",Chrome 73.0.3683.75,,2019-03-22 17:26:34,2019-03-22 17:26:34,0.102s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0917,Chrome 73.0.3683.75,Delete category,2019-03-22 17:26:34,2019-03-22 17:27:14,39.717s,PASSED
+"callTestCase(findTestCase(""Template testcases/TC0913""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:26:34,2019-03-22 17:27:13,38.790s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Delete (5)""))",Chrome 73.0.3683.75,,2019-03-22 17:27:13,2019-03-22 17:27:13,0.134s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 17:27:13,2019-03-22 17:27:13,0.000s,PASSED
+"button = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/button""))",Chrome 73.0.3683.75,,2019-03-22 17:27:13,2019-03-22 17:27:13,0.021s,PASSED
+button.click(),Chrome 73.0.3683.75,,2019-03-22 17:27:13,2019-03-22 17:27:13,0.105s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/div_Category deleted successfu""))",Chrome 73.0.3683.75,,2019-03-22 17:27:13,2019-03-22 17:27:14,0.580s,PASSED
+,,,,,,
+Test Cases/Template testcases/TC0918,Chrome 73.0.3683.75,Test back button,2019-03-22 17:27:14,2019-03-22 17:28:00,45.695s,FAILED
+"callTestCase(findTestCase(""Template testcases/TC0913""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 17:27:14,2019-03-22 17:28:00,45.644s,FAILED

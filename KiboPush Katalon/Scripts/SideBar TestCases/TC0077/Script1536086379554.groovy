@@ -21,9 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_User Guide (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_User Guide'))
 
-WebUI.navigateToUrl('https://kibopush.com/user-guide/')
+WebUI.switchToWindowTitle('Getting Started - KiboPush')
 
-WebUI.click(findTestObject('Object Repository/Page_User Guide  The Marketing Newsletter/h2_User Guide'))
+WebUI.navigateToUrl('http://kibopush.com/user-guide/')
+
+WebUI.click(findTestObject('Page_Getting Started - KiboPush/h1_Getting Started'))
 

@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_View (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_View'))
 
 WebUI.scrollToPosition(0, 0)
 

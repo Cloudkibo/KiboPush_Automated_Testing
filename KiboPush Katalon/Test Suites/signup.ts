@@ -4,6 +4,7 @@
    <name>signup</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-02-18T14:06:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -15,5 +16,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/SignUp Test Cases/TC0009</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0ee153f2-94f1-4098-ba3c-904fb3897c29</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp Test Cases/TC0019</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>67af60d5-7122-4f00-baec-4f3e4e41ed0e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SignUp Test Cases/TC0020</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

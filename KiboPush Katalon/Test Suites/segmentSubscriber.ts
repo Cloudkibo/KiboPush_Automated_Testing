@@ -4,6 +4,7 @@
    <name>segmentSubscriber</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-02-22T14:25:35</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

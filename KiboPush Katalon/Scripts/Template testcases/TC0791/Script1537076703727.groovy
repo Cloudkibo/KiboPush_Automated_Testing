@@ -28,6 +28,10 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/gal_img'), 
 
 WebUI.delay(10)
 
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/svg'))
+
+WebUI.delay(3)
+
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (3)'), 'h')
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (1)'))
@@ -44,5 +48,6 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Card in gallery must have'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have a title'))
+
 

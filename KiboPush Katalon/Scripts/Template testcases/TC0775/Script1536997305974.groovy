@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Template
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Image'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_Image (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_New Image Component Added'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_New image component added'))
 

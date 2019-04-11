@@ -29,7 +29,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Invite Members'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Page_KiboPush  Invitations/h3_Invitations'))
+
+
 

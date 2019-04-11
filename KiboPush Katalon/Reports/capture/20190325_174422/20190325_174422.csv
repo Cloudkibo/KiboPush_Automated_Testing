@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+capture,Chrome 73.0.3683.75,,2019-03-25 17:44:24,2019-03-25 17:45:23,59.249s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0505,Chrome 73.0.3683.75,Test documentation link,2019-03-25 17:44:24,2019-03-25 17:45:08,44.125s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:44:24,2019-03-25 17:45:08,43.925s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0507,Chrome 73.0.3683.75,Test view comment capture,2019-03-25 17:45:08,2019-03-25 17:45:09,0.904s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:08,2019-03-25 17:45:09,0.800s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0508,Chrome 73.0.3683.75,Test search comment capture,2019-03-25 17:45:09,2019-03-25 17:45:10,0.857s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:09,2019-03-25 17:45:10,0.785s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0509,Chrome 73.0.3683.75,Test pagination (next page),2019-03-25 17:45:10,2019-03-25 17:45:11,0.913s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:10,2019-03-25 17:45:11,0.682s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0510,Chrome 73.0.3683.75,Test pagination (previous page),2019-03-25 17:45:11,2019-03-25 17:45:12,0.902s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:11,2019-03-25 17:45:12,0.781s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0511,Chrome 73.0.3683.75,Test pagination (Jump to page n),2019-03-25 17:45:12,2019-03-25 17:45:13,0.846s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:12,2019-03-25 17:45:13,0.720s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0512,Chrome 73.0.3683.75,Test delete button in posts list,2019-03-25 17:45:13,2019-03-25 17:45:13,0.830s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:13,2019-03-25 17:45:13,0.782s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0513,Chrome 73.0.3683.75,Test cross of delete dialogue box,2019-03-25 17:45:13,2019-03-25 17:45:14,0.765s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:13,2019-03-25 17:45:14,0.713s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0514,Chrome 73.0.3683.75,Test New Facebook Post button,2019-03-25 17:45:14,2019-03-25 17:45:15,0.767s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:14,2019-03-25 17:45:15,0.719s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0515,Chrome 73.0.3683.75,Test Choose Page,2019-03-25 17:45:15,2019-03-25 17:45:16,0.762s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:15,2019-03-25 17:45:16,0.717s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0522,Chrome 73.0.3683.75,Test overriding of image with video,2019-03-25 17:45:16,2019-03-25 17:45:17,0.817s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:16,2019-03-25 17:45:16,0.734s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0523,Chrome 73.0.3683.75,Test overriding of video with image,2019-03-25 17:45:17,2019-03-25 17:45:17,0.796s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:17,2019-03-25 17:45:17,0.735s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0524,Chrome 73.0.3683.75,Test Post on facebook button (without a reply),2019-03-25 17:45:17,2019-03-25 17:45:18,0.799s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:17,2019-03-25 17:45:18,0.740s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0526,Chrome 73.0.3683.75,Test Post on facebook button (with empty fields ),2019-03-25 17:45:18,2019-03-25 17:45:19,0.775s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:18,2019-03-25 17:45:19,0.705s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0527,Chrome 73.0.3683.75,Test reset button,2019-03-25 17:45:19,2019-03-25 17:45:20,0.829s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:19,2019-03-25 17:45:20,0.760s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0528,Chrome 73.0.3683.75,Test back button,2019-03-25 17:45:20,2019-03-25 17:45:21,0.810s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:20,2019-03-25 17:45:21,0.741s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0529,Chrome 73.0.3683.75,Test Edit,2019-03-25 17:45:21,2019-03-25 17:45:21,0.799s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:21,2019-03-25 17:45:21,0.738s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0530,Chrome 73.0.3683.75,Test Save,2019-03-25 17:45:21,2019-03-25 17:45:22,0.830s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:21,2019-03-25 17:45:22,0.778s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0531,Chrome 73.0.3683.75,Test back button,2019-03-25 17:45:22,2019-03-25 17:45:23,0.786s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-25 17:45:22,2019-03-25 17:45:23,0.698s,FAILED

@@ -28,5 +28,3 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Invite Using Phone Number'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Invite using Phone Number ('))
-

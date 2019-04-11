@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h3_Create Broadcast Template (5)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h3_Create Broadcast Template (5) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Video'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_Video (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_New Video Component Added'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_New video component added'))
 

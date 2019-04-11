@@ -1,0 +1,154 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+capture,Chrome 73.0.3683.75,,2019-03-22 14:18:48,2019-03-22 14:36:18,17m - 30.542s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0505,Chrome 73.0.3683.75,Test documentation link,2019-03-22 14:18:48,2019-03-22 14:20:19,1m - 31.268s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:18:48,2019-03-22 14:20:19,1m - 31.089s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0507,Chrome 73.0.3683.75,Test view comment capture,2019-03-22 14:20:19,2019-03-22 14:21:45,1m - 25.813s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:20:19,2019-03-22 14:21:40,1m - 20.643s,PASSED
+delay(5),Chrome 73.0.3683.75,,2019-03-22 14:21:40,2019-03-22 14:21:45,5.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:21:45,2019-03-22 14:21:45,0.005s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody""))",Chrome 73.0.3683.75,,2019-03-22 14:21:45,2019-03-22 14:21:45,0.026s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.75,,2019-03-22 14:21:45,2019-03-22 14:21:45,0.016s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-03-22 14:21:45,2019-03-22 14:21:45,0.005s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0508,Chrome 73.0.3683.75,Test search comment capture,2019-03-22 14:21:45,2019-03-22 14:23:13,1m - 28.064s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:21:45,2019-03-22 14:23:13,1m - 27.990s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0509,Chrome 73.0.3683.75,Test pagination (next page),2019-03-22 14:23:13,2019-03-22 14:24:03,50.369s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:23:13,2019-03-22 14:23:56,43.132s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 14:23:56,2019-03-22 14:23:58,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:23:58,2019-03-22 14:23:58,0.001s,PASSED
+"Table1 = driver.findElement(By.xpath(""//table/tbody/tr[1]/td[4]/span""))",Chrome 73.0.3683.75,,2019-03-22 14:23:58,2019-03-22 14:23:58,0.015s,PASSED
+date_page1 = Table1.getText(),Chrome 73.0.3683.75,,2019-03-22 14:23:58,2019-03-22 14:23:58,0.014s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/a_next""))",Chrome 73.0.3683.75,,2019-03-22 14:23:58,2019-03-22 14:23:58,0.067s,PASSED
+delay(5),Chrome 73.0.3683.75,,2019-03-22 14:23:58,2019-03-22 14:24:03,5.002s,PASSED
+"Table2 = driver.findElement(By.xpath(""//table/tbody/tr[1]/td[4]/span""))",Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.013s,PASSED
+date_page2 = Table2.getText(),Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.011s,PASSED
+"dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.007s,PASSED
+date1 = dateFormat.parse(date_page1),Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.002s,PASSED
+date2 = dateFormat.parse(date_page2),Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.001s,PASSED
+println(date1),Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.004s,PASSED
+println(date2),Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.001s,PASSED
+"verifyMatch(""1"", compareTo(date2).toString(), false)",Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:03,0.009s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0510,Chrome 73.0.3683.75,Test pagination (previous page),2019-03-22 14:24:03,2019-03-22 14:25:00,56.943s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:24:03,2019-03-22 14:24:53,49.684s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 14:24:53,2019-03-22 14:24:55,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:24:55,2019-03-22 14:24:55,0.000s,PASSED
+"Table1 = driver.findElement(By.xpath(""//table/tbody/tr[1]/td[4]/span""))",Chrome 73.0.3683.75,,2019-03-22 14:24:55,2019-03-22 14:24:55,0.019s,PASSED
+date_page1 = Table1.getText(),Chrome 73.0.3683.75,,2019-03-22 14:24:55,2019-03-22 14:24:55,0.014s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/a_next (1)""))",Chrome 73.0.3683.75,,2019-03-22 14:24:55,2019-03-22 14:24:55,0.062s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/a_previous""))",Chrome 73.0.3683.75,,2019-03-22 14:24:55,2019-03-22 14:24:55,0.057s,PASSED
+delay(5),Chrome 73.0.3683.75,,2019-03-22 14:24:55,2019-03-22 14:25:00,5.002s,PASSED
+"Table2 = driver.findElement(By.xpath(""//table/tbody/tr[1]/td[4]/span""))",Chrome 73.0.3683.75,,2019-03-22 14:25:00,2019-03-22 14:25:00,0.013s,PASSED
+date_page2 = Table2.getText(),Chrome 73.0.3683.75,,2019-03-22 14:25:00,2019-03-22 14:25:00,0.010s,PASSED
+"verifyEqual(date_page1, date_page2)",Chrome 73.0.3683.75,,2019-03-22 14:25:00,2019-03-22 14:25:00,0.003s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0511,Chrome 73.0.3683.75,Test pagination (Jump to page n),2019-03-22 14:25:00,2019-03-22 14:26:47,1m - 46.256s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:25:00,2019-03-22 14:26:14,1m - 13.364s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 14:26:14,2019-03-22 14:26:16,2.003s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:26:16,2019-03-22 14:26:16,0.000s,PASSED
+"Table1 = driver.findElement(By.xpath(""//table/tbody/tr[1]/td[4]/span""))",Chrome 73.0.3683.75,,2019-03-22 14:26:16,2019-03-22 14:26:16,0.014s,PASSED
+date_page1 = Table1.getText(),Chrome 73.0.3683.75,,2019-03-22 14:26:16,2019-03-22 14:26:16,0.014s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/a_2""))",Chrome 73.0.3683.75,,2019-03-22 14:26:16,2019-03-22 14:26:47,30.779s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0512,Chrome 73.0.3683.75,Test delete button in posts list,2019-03-22 14:26:47,2019-03-22 14:27:27,40.006s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:26:47,2019-03-22 14:27:23,36.156s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/button_Delete""))",Chrome 73.0.3683.75,,2019-03-22 14:27:23,2019-03-22 14:27:24,1.113s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 14:27:24,2019-03-22 14:27:26,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/button_delete_object""))",Chrome 73.0.3683.75,,2019-03-22 14:27:26,2019-03-22 14:27:26,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/div_Post has been deleted""))",Chrome 73.0.3683.75,,2019-03-22 14:27:26,2019-03-22 14:27:27,0.572s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0513,Chrome 73.0.3683.75,Test cross of delete dialogue box,2019-03-22 14:27:27,2019-03-22 14:28:07,40.486s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:27:27,2019-03-22 14:28:04,37.180s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/button_Delete (1)""))",Chrome 73.0.3683.75,,2019-03-22 14:28:04,2019-03-22 14:28:05,1.107s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/cross_button""))",Chrome 73.0.3683.75,,2019-03-22 14:28:05,2019-03-22 14:28:05,0.067s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 14:28:05,2019-03-22 14:28:05,0.013s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 14:28:05,2019-03-22 14:28:07,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/h3_Comment Capture""))",Chrome 73.0.3683.75,,2019-03-22 14:28:07,2019-03-22 14:28:07,0.046s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0514,Chrome 73.0.3683.75,Test New Facebook Post button,2019-03-22 14:28:07,2019-03-22 14:28:48,41.305s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:28:07,2019-03-22 14:28:48,41.126s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/span_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:28:48,2019-03-22 14:28:48,0.132s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0515,Chrome 73.0.3683.75,Test Choose Page,2019-03-22 14:28:48,2019-03-22 14:29:21,32.708s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:28:48,2019-03-22 14:29:21,32.544s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/span_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:29:21,2019-03-22 14:29:21,0.110s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0522,Chrome 73.0.3683.75,Test overriding of image with video,2019-03-22 14:29:21,2019-03-22 14:30:33,1m - 11.897s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:29:21,2019-03-22 14:29:57,35.868s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/span_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:29:57,2019-03-22 14:29:57,0.115s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.75,,2019-03-22 14:29:57,2019-03-22 14:29:57,0.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Comment Capture/img""), img)",Chrome 73.0.3683.75,,2019-03-22 14:29:57,2019-03-22 14:29:57,0.052s,PASSED
+delay(5),Chrome 73.0.3683.75,,2019-03-22 14:29:57,2019-03-22 14:30:02,5.002s,PASSED
+"video = getProjectDir() + ""/video.mp4""",Chrome 73.0.3683.75,,2019-03-22 14:30:02,2019-03-22 14:30:02,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Comment Capture/Video""), video)",Chrome 73.0.3683.75,,2019-03-22 14:30:02,2019-03-22 14:30:33,30.784s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0523,Chrome 73.0.3683.75,Test overriding of video with image,2019-03-22 14:30:33,2019-03-22 14:31:39,1m - 6.248s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:30:33,2019-03-22 14:31:08,35.269s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/span_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:31:08,2019-03-22 14:31:08,0.110s,PASSED
+"video = getProjectDir() + ""/video.mp4""",Chrome 73.0.3683.75,,2019-03-22 14:31:08,2019-03-22 14:31:08,0.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Comment Capture/Video""), video)",Chrome 73.0.3683.75,,2019-03-22 14:31:08,2019-03-22 14:31:39,30.800s,FAILED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0524,Chrome 73.0.3683.75,Test Post on facebook button (without a reply),2019-03-22 14:31:39,2019-03-22 14:32:31,51.913s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:31:39,2019-03-22 14:32:29,49.611s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/a_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:32:29,2019-03-22 14:32:29,0.114s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-03-22 14:32:29,2019-03-22 14:32:31,2.011s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  New Facebook Post/textarea_postTextArea""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 14:32:31,2019-03-22 14:32:31,0.083s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:32:31,2019-03-22 14:32:31,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div/div/div/div[3]/div/button[2]""))",Chrome 73.0.3683.75,,2019-03-22 14:32:31,2019-03-22 14:32:31,0.021s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 14:32:31,2019-03-22 14:32:31,0.013s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 14:32:31,2019-03-22 14:32:31,0.001s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0526,Chrome 73.0.3683.75,Test Post on facebook button (with empty fields ),2019-03-22 14:32:31,2019-03-22 14:33:06,35.362s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:32:31,2019-03-22 14:33:06,35.155s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/a_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:33:06,2019-03-22 14:33:06,0.105s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:33:06,2019-03-22 14:33:06,0.001s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[3]/div/div/div/div[3]/div/button[2]""))",Chrome 73.0.3683.75,,2019-03-22 14:33:06,2019-03-22 14:33:06,0.016s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-03-22 14:33:06,2019-03-22 14:33:06,0.012s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 14:33:06,2019-03-22 14:33:06,0.001s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0527,Chrome 73.0.3683.75,Test reset button,2019-03-22 14:33:06,2019-03-22 14:33:42,35.800s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:33:07,2019-03-22 14:33:42,35.231s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/span_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.113s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  New Facebook Post/textarea_postTextArea (1)""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.091s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  New Facebook Post/textarea_replyTextArea""), ""h"")",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  New Facebook Post/button_Reset""))",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.084s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.001s,PASSED
+"Table1 = driver.findElement(By.xpath(""//*[@id=""postTextArea""]""))",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.026s,PASSED
+"Table2 = driver.findElement(By.xpath(""//*[@id=""replyTextArea""]""))",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.017s,PASSED
+println(Table1.getText()),Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.024s,PASSED
+println(Table2.getText()),Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.014s,PASSED
+"verifyEqual(Table1.getText(), Table2.getText())",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:33:42,0.025s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0528,Chrome 73.0.3683.75,Test back button,2019-03-22 14:33:42,2019-03-22 14:34:27,44.276s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:33:42,2019-03-22 14:34:26,43.937s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/span_Create New Facebook Post""))",Chrome 73.0.3683.75,,2019-03-22 14:34:26,2019-03-22 14:34:26,0.115s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  New Facebook Post/a_Back""))",Chrome 73.0.3683.75,,2019-03-22 14:34:26,2019-03-22 14:34:26,0.095s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 14:34:26,2019-03-22 14:34:26,0.007s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/h3_Comment Capture""))",Chrome 73.0.3683.75,,2019-03-22 14:34:26,2019-03-22 14:34:27,0.053s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0529,Chrome 73.0.3683.75,Test Edit,2019-03-22 14:34:27,2019-03-22 14:35:08,41.270s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:34:27,2019-03-22 14:35:07,40.052s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Comment Capture/a_Edit""))",Chrome 73.0.3683.75,,2019-03-22 14:35:07,2019-03-22 14:35:08,1.118s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-03-22 14:35:08,2019-03-22 14:35:08,0.000s,PASSED
+"postTextArea = driver.findElement(By.xpath(""//*[@id=""postTextArea""]""))",Chrome 73.0.3683.75,,2019-03-22 14:35:08,2019-03-22 14:35:08,0.014s,PASSED
+"replyTextArea = driver.findElement(By.xpath(""//*[@id=""replyTextArea""]""))",Chrome 73.0.3683.75,,2019-03-22 14:35:08,2019-03-22 14:35:08,0.012s,PASSED
+"if (postTextArea.isEnabled() && replyTextArea.isEnabled() && postTextArea.getText() == """" && replyTextArea.getText() == """")",Chrome 73.0.3683.75,,2019-03-22 14:35:08,2019-03-22 14:35:08,0.009s,PASSED
+else,Chrome 73.0.3683.75,,2019-03-22 14:35:08,2019-03-22 14:35:08,0.001s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0530,Chrome 73.0.3683.75,Test Save,2019-03-22 14:35:08,2019-03-22 14:35:45,37.146s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:35:08,2019-03-22 14:35:43,35.114s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/a_Edit""))",Chrome 73.0.3683.75,,2019-03-22 14:35:43,2019-03-22 14:35:44,1.113s,PASSED
+"setText(findTestObject(""Page_KiboPush  New Facebook Post/input_form-control m-input m-i""), ""exclude"")",Chrome 73.0.3683.75,,2019-03-22 14:35:44,2019-03-22 14:35:44,0.132s,PASSED
+"click(findTestObject(""Page_KiboPush  New Facebook Post/button_Save""))",Chrome 73.0.3683.75,,2019-03-22 14:35:44,2019-03-22 14:35:44,0.097s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 14:35:44,2019-03-22 14:35:44,0.019s,PASSED
+"click(findTestObject(""Page_KiboPush  New Facebook Post/div_Changes saved successfully""))",Chrome 73.0.3683.75,,2019-03-22 14:35:44,2019-03-22 14:35:45,0.624s,PASSED
+,,,,,,
+Test Cases/Comment Capture TestCases/TC0531,Chrome 73.0.3683.75,Test back button,2019-03-22 14:35:45,2019-03-22 14:36:18,33.136s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-22 14:35:45,2019-03-22 14:36:17,31.835s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/a_Edit""))",Chrome 73.0.3683.75,,2019-03-22 14:36:17,2019-03-22 14:36:18,1.115s,PASSED
+"click(findTestObject(""Page_KiboPush  New Facebook Post/a_Back""))",Chrome 73.0.3683.75,,2019-03-22 14:36:18,2019-03-22 14:36:18,0.077s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-03-22 14:36:18,2019-03-22 14:36:18,0.007s,PASSED
+"click(findTestObject(""Page_KiboPush  Comment Capture/h3_Comment Capture""))",Chrome 73.0.3683.75,,2019-03-22 14:36:18,2019-03-22 14:36:18,0.054s,PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+InviteSubscribers,Chrome 73.0.3683.75,,2019-03-27 12:54:40,2019-03-27 12:59:20,4m - 39.357s,FAILED
+,,,,,,
+Test Cases/Invite subscribers/TC0678,Chrome 73.0.3683.75,Test invite subscribers button,2019-03-27 12:54:40,2019-03-27 12:55:18,37.435s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Subscriber""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-27 12:54:41,2019-03-27 12:55:18,37.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers""))",Chrome 73.0.3683.75,,2019-03-27 12:55:18,2019-03-27 12:55:18,0.138s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers""))",Chrome 73.0.3683.75,,2019-03-27 12:55:18,2019-03-27 12:55:18,0.077s,PASSED
+,,,,,,
+Test Cases/Invite subscribers/TC0679,Chrome 73.0.3683.75,Test documentation link,2019-03-27 12:55:18,2019-03-27 12:55:57,39.576s,PASSED
+"callTestCase(findTestCase(""Subscriber TestCases/TC0678""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-27 12:55:18,2019-03-27 12:55:57,39.378s,PASSED
+"click(findTestObject(""Page_KiboPush  Invite Subscribers/a_Click Here""))",Chrome 73.0.3683.75,,2019-03-27 12:55:57,2019-03-27 12:55:57,0.105s,PASSED
+,,,,,,
+Test Cases/Invite subscribers/TC0680,Chrome 73.0.3683.75,Test video tutorial,2019-03-27 12:55:57,2019-03-27 12:57:21,1m - 23.547s,FAILED
+"callTestCase(findTestCase(""Subscriber TestCases/TC0678""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-27 12:55:58,2019-03-27 12:57:21,1m - 23.464s,FAILED
+,,,,,,
+Test Cases/Invite subscribers/TC0681,Chrome 73.0.3683.75,Test share page,2019-03-27 12:57:21,2019-03-27 12:58:12,51.211s,FAILED
+"callTestCase(findTestCase(""Subscriber TestCases/TC0678""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-27 12:57:21,2019-03-27 12:58:12,51.146s,FAILED
+,,,,,,
+Test Cases/Invite subscribers/TC0682,Chrome 73.0.3683.75,Test copy link,2019-03-27 12:58:12,2019-03-27 12:59:20,1m - 7.313s,PASSED
+"callTestCase(findTestCase(""Subscriber TestCases/TC0678""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-03-27 12:58:12,2019-03-27 12:59:19,1m - 7.046s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers (2)""))",Chrome 73.0.3683.75,,2019-03-27 12:59:19,2019-03-27 12:59:19,0.046s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invite Subscribers/button_Copy Link (1)""))",Chrome 73.0.3683.75,,2019-03-27 12:59:19,2019-03-27 12:59:19,0.085s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invite Subscribers/div_Link Copied Successfully""))",Chrome 73.0.3683.75,,2019-03-27 12:59:19,2019-03-27 12:59:20,0.077s,PASSED

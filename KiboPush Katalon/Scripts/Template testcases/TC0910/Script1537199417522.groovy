@@ -26,13 +26,13 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Template
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement button = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[4]/span/button'))
+WebElement button = driver.findElement(By.xpath('//*[@id="m-datatable--27866229129"]/tbody/tr[2]/td[4]/span/button'))
 
 button.click()
 
 WebUI.delay(3)
 
-WebElement delete = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/button'))
+WebElement delete = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/button'))
  
  delete.click()
 

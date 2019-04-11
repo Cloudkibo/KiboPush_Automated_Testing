@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Webview Default Action on Lists (Welcome Message)</description>
-   <name>TC11135</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cf73d3e0-c23c-4d42-b30d-3c497187e443</testCaseGuid>
-</TestCaseEntity>

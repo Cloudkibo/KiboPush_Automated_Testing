@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Sending a webview button in broadcast</description>
-   <name>TC1090</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9af4d261-c543-45e8-99fd-6b194ff627d6</testCaseGuid>
-</TestCaseEntity>

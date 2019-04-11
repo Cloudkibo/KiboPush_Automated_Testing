@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+KiboLite,Chrome 73.0.3683.75,,2019-04-11 12:42:26,2019-04-11 12:49:25,6m - 59.467s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11077,Chrome 73.0.3683.75,Test Sign in to KiboLite,2019-04-11 12:42:26,2019-04-11 12:43:15,48.826s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:42:26,2019-04-11 12:43:15,48.610s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11078,Chrome 73.0.3683.75,,2019-04-11 12:43:15,2019-04-11 12:44:05,50.051s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:43:15,2019-04-11 12:44:05,49.862s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11079,Chrome 73.0.3683.75,,2019-04-11 12:44:05,2019-04-11 12:44:47,42.020s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:44:05,2019-04-11 12:44:47,41.940s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11081,Chrome 73.0.3683.75,,2019-04-11 12:44:47,2019-04-11 12:45:30,42.633s,FAILED
+"callTestCase(findTestCase(""KiboLite/TC11079""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:44:47,2019-04-11 12:45:30,42.558s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11085,Chrome 73.0.3683.75,,2019-04-11 12:45:30,2019-04-11 12:46:17,47.716s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:45:30,2019-04-11 12:46:17,47.628s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11086,Chrome 73.0.3683.75,,2019-04-11 12:46:17,2019-04-11 12:47:01,43.393s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:46:17,2019-04-11 12:47:01,43.321s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11087,Chrome 73.0.3683.75,,2019-04-11 12:47:01,2019-04-11 12:47:52,50.931s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:47:01,2019-04-11 12:47:52,50.862s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11090,Chrome 73.0.3683.75,,2019-04-11 12:47:52,2019-04-11 12:48:42,50.522s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:47:52,2019-04-11 12:48:42,50.452s,FAILED
+,,,,,,
+Test Cases/KiboLite/TC11091,Chrome 73.0.3683.75,,2019-04-11 12:48:42,2019-04-11 12:49:25,43.101s,FAILED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 12:48:42,2019-04-11 12:49:25,43.044s,FAILED
