@@ -23,10 +23,6 @@ WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandli
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_TextImageCardGalleryAudioV'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)'))
-
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)'))
@@ -34,7 +30,6 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a websit
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (8)'))
-
 
 WebUI.delay(2)
 

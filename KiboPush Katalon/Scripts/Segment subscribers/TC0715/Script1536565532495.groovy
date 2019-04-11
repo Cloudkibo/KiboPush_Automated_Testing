@@ -19,18 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
-
 WebUI.callTestCase(findTestCase('Segment subscribers/TC0712'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Create SubList of Subscribe (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_segmentationType (1)'))
 
-Random rand = new Random()
-string listname = rand.toString()
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_listName'), listname)
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_listName'), '15')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Save (2)'))
 

@@ -18,26 +18,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Segment subscribers/TC0712'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Create SubList of Subscribe (10) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Create SubList of Subscribe (10) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/input_segmentationType (12) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/input_segmentationType (12) (1) (1)'))
+WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName (12) (1)'), '34')
 
-WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName (12) (1) (1)'), '34')
+WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select ConditionFirst N (11) (1)'), 'tag', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select ConditionFirst N (11) (1) (1)'), 'tag', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select Criteriais (4) (1)'), 'is', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select Criteriais (4) (1) (1)'), 'is', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Create Sublist/select_Select a Taghello'), 
+    '5c36e51d77fdf0747f872e3b', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Create Sublist/select_Select a Taghello'), 'hello', true)
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Sublist/button_Save'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Sublist/div_List created successfully'))
-
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Save (15)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully (7)'))

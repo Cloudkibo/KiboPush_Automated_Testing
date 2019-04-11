@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+KiboLite,Chrome 73.0.3683.75,,2019-04-11 13:48:18,2019-04-11 13:55:57,7m - 38.705s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11077,Chrome 73.0.3683.75,Test Sign in to KiboLite,2019-04-11 13:48:19,2019-04-11 13:49:27,1m - 8.903s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:48:19,2019-04-11 13:49:27,1m - 8.490s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11078,Chrome 73.0.3683.75,,2019-04-11 13:49:27,2019-04-11 13:50:35,1m - 7.658s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:49:28,2019-04-11 13:50:33,1m - 5.241s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:50:33,2019-04-11 13:50:35,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_ Dashboard/span_Broadcast""))",Chrome 73.0.3683.75,,2019-04-11 13:50:35,2019-04-11 13:50:35,0.154s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-11 13:50:35,2019-04-11 13:50:35,0.012s,PASSED
+"Select = driver.findElements(By.xpath(""//*[@id=""tab_1""]/div/div[2]/div/select/option""))",Chrome 73.0.3683.75,,2019-04-11 13:50:35,2019-04-11 13:50:35,0.035s,PASSED
+println(Select.size()),Chrome 73.0.3683.75,,2019-04-11 13:50:35,2019-04-11 13:50:35,0.008s,PASSED
+"verifyGreaterThanOrEqual(Select.size(), 1)",Chrome 73.0.3683.75,,2019-04-11 13:50:35,2019-04-11 13:50:35,0.009s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11079,Chrome 73.0.3683.75,,2019-04-11 13:50:35,2019-04-11 13:51:23,48.030s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:50:35,2019-04-11 13:51:11,35.679s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:51:11,2019-04-11 13:51:13,2.002s,PASSED
+"click(findTestObject(""Page_ Dashboard/span_Broadcast""))",Chrome 73.0.3683.75,,2019-04-11 13:51:13,2019-04-11 13:51:13,0.158s,PASSED
+"csv = getProjectDir() + ""/sampleFile.csv""",Chrome 73.0.3683.75,,2019-04-11 13:51:13,2019-04-11 13:51:13,0.001s,PASSED
+"uploadFile(findTestObject(""Object Repository/Page_ Business Gateway/h4_sampleFilecsv""), csv)",Chrome 73.0.3683.75,,2019-04-11 13:51:13,2019-04-11 13:51:13,0.091s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-11 13:51:13,2019-04-11 13:51:23,10.002s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11081,Chrome 73.0.3683.75,,2019-04-11 13:51:23,2019-04-11 13:52:14,51.198s,PASSED
+"callTestCase(findTestCase(""KiboLite/TC11079""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:51:23,2019-04-11 13:52:14,50.922s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/input_names_names""))",Chrome 73.0.3683.75,,2019-04-11 13:52:14,2019-04-11 13:52:14,0.128s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/input_phone_numbers_phone_numbers""))",Chrome 73.0.3683.75,,2019-04-11 13:52:14,2019-04-11 13:52:14,0.068s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11085,Chrome 73.0.3683.75,,2019-04-11 13:52:14,2019-04-11 13:52:52,37.810s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:52:14,2019-04-11 13:52:50,35.188s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:52:50,2019-04-11 13:52:52,2.002s,PASSED
+"click(findTestObject(""Page_ Dashboard/span_Broadcast (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:52:52,2019-04-11 13:52:52,0.188s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/a_Create Push Message""))",Chrome 73.0.3683.75,,2019-04-11 13:52:52,2019-04-11 13:52:52,0.105s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h3_Push Message""))",Chrome 73.0.3683.75,,2019-04-11 13:52:52,2019-04-11 13:52:52,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/span_Back""))",Chrome 73.0.3683.75,,2019-04-11 13:52:52,2019-04-11 13:52:52,0.077s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/label_Change Page""))",Chrome 73.0.3683.75,,2019-04-11 13:52:52,2019-04-11 13:52:52,0.070s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11086,Chrome 73.0.3683.75,,2019-04-11 13:52:52,2019-04-11 13:53:32,40.209s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:52:52,2019-04-11 13:53:28,35.633s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:53:28,2019-04-11 13:53:30,2.002s,PASSED
+"click(findTestObject(""Page_ Dashboard/span_Broadcast (1) (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:53:30,2019-04-11 13:53:30,0.159s,PASSED
+"click(findTestObject(""Page_ Business Gateway/a_Target Customers (1) (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:53:30,2019-04-11 13:53:30,0.111s,PASSED
+"click(findTestObject(""Page_ Business Gateway/span_Condition (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:53:30,2019-04-11 13:53:30,0.071s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:53:30,2019-04-11 13:53:32,2.001s,PASSED
+"click(findTestObject(""Page_ Business Gateway/button_Back""))",Chrome 73.0.3683.75,,2019-04-11 13:53:32,2019-04-11 13:53:32,0.091s,PASSED
+"click(findTestObject(""Page_ Business Gateway/h3_Push Message (2)""))",Chrome 73.0.3683.75,,2019-04-11 13:53:32,2019-04-11 13:53:32,0.073s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11087,Chrome 73.0.3683.75,,2019-04-11 13:53:32,2019-04-11 13:54:15,42.813s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:53:32,2019-04-11 13:54:11,38.516s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:54:11,2019-04-11 13:54:13,2.001s,PASSED
+"click(findTestObject(""Page_ Dashboard/span_Broadcast (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:54:13,2019-04-11 13:54:13,0.197s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/a_Create Push Message (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:54:13,2019-04-11 13:54:13,0.109s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_Image""))",Chrome 73.0.3683.75,,2019-04-11 13:54:13,2019-04-11 13:54:13,0.136s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New image component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:13,2019-04-11 13:54:14,0.077s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_Card""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.134s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New card component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.099s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_Gallery""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.215s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New gallery component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_Audio""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.128s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New audio component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.100s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_Video""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.107s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New video component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:14,0.097s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_File""))",Chrome 73.0.3683.75,,2019-04-11 13:54:14,2019-04-11 13:54:15,0.127s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New file component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:15,2019-04-11 13:54:15,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_List""))",Chrome 73.0.3683.75,,2019-04-11 13:54:15,2019-04-11 13:54:15,0.149s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New list component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:15,2019-04-11 13:54:15,0.063s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/h6_Media""))",Chrome 73.0.3683.75,,2019-04-11 13:54:15,2019-04-11 13:54:15,0.183s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/div_New media component added""))",Chrome 73.0.3683.75,,2019-04-11 13:54:15,2019-04-11 13:54:15,0.088s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11090,Chrome 73.0.3683.75,,2019-04-11 13:54:15,2019-04-11 13:55:00,44.432s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:54:15,2019-04-11 13:54:57,42.023s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:54:57,2019-04-11 13:54:59,2.002s,PASSED
+"click(findTestObject(""Page_ Dashboard/span_Broadcast (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:54:59,2019-04-11 13:55:00,0.168s,PASSED
+"click(findTestObject(""Page_ Business Gateway/a_Target Customers (2)""))",Chrome 73.0.3683.75,,2019-04-11 13:55:00,2019-04-11 13:55:00,0.090s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-11 13:55:00,2019-04-11 13:55:00,0.000s,PASSED
+"Select = driver.findElements(By.xpath(""//*[@id=""m-datatable--27866229129""]/tbody/tr/td[2]/select/option""))",Chrome 73.0.3683.75,,2019-04-11 13:55:00,2019-04-11 13:55:00,0.026s,PASSED
+println(Select.size()),Chrome 73.0.3683.75,,2019-04-11 13:55:00,2019-04-11 13:55:00,0.001s,PASSED
+"verifyGreaterThanOrEqual(Select.size(), 3)",Chrome 73.0.3683.75,,2019-04-11 13:55:00,2019-04-11 13:55:00,0.001s,PASSED
+,,,,,,
+Test Cases/KiboLite/TC11091,Chrome 73.0.3683.75,,2019-04-11 13:55:00,2019-04-11 13:55:57,57.301s,PASSED
+"callTestCase(findTestCase(""KiboLite/login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-11 13:55:00,2019-04-11 13:55:55,54.863s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-11 13:55:55,2019-04-11 13:55:57,2.002s,PASSED
+"click(findTestObject(""Page_ Dashboard/span_Broadcast (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:55:57,2019-04-11 13:55:57,0.149s,PASSED
+"click(findTestObject(""Object Repository/Page_ Business Gateway/a_Target Customers (2) (1)""))",Chrome 73.0.3683.75,,2019-04-11 13:55:57,2019-04-11 13:55:57,0.085s,PASSED
+"setText(findTestObject(""Object Repository/Page_ Business Gateway/input_Value_text""), ""1212"")",Chrome 73.0.3683.75,,2019-04-11 13:55:57,2019-04-11 13:55:57,0.134s,PASSED

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Adding Webview as Button Option in Welcome Message</description>
-   <name>TC11128</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>facb1fa1-8543-41ad-9cf5-2990f1c899b2</testCaseGuid>
-</TestCaseEntity>

@@ -19,13 +19,7 @@ WebUI.delay(3)
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.delay(3)
-
 WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file'), img)
 
 WebUI.delay(10)
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/button_Save (2)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Message Saved Successfully (3)'))
 

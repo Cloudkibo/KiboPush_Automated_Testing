@@ -4,6 +4,12 @@
    <name>h3_Templates</name>
    <tag></tag>
    <elementGuidId>a6b0988f-8ded-49b9-8c92-95877cd37eb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h3[(text() = 'Templates' or . = 'Templates')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

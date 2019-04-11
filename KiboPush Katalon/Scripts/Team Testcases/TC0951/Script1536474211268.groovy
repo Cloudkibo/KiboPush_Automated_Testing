@@ -1,3 +1,7 @@
+
+
+
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -18,11 +22,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Team Testcases/TC0958'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
 
 WebUI.setText(findTestObject('Page_KiboPush  Broadcast/input_form-control (2) (1) (1) (1) (1) (1) (1)'), 'TeamX')
 

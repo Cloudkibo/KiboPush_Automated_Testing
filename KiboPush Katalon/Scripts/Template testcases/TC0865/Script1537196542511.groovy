@@ -18,12 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0861'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h3_Edit Broadcast Template (2)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/a_Back (1)'))
+
+WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h3_Templates (1)'))
 

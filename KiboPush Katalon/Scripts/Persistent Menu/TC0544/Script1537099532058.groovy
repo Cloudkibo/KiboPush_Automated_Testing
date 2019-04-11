@@ -14,11 +14,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_Image'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/h6_Image'))
 
 WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New image component added'))
 

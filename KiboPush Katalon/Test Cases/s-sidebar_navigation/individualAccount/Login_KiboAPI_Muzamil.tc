@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Sign in to kiboAPI using Muzamil's Credentials</description>
-   <name>Login_KiboAPI_Muzamil</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>47638fe6-3369-4869-8ddc-b59dec67eee5</testCaseGuid>
-</TestCaseEntity>

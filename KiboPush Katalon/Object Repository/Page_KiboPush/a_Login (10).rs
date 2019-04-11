@@ -4,6 +4,16 @@
    <name>a_Login (10)</name>
    <tag></tag>
    <elementGuidId>ca61b2f3-bf22-427c-9a62-741a0d848f38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/login?continue=https://skibochat.cloudkibo.com' and (text() = '
+                                Login
+                            ' or . = '
+                                Login
+                            ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/login?continue=https://kibochat.cloudkibo.com</value>
+      <value>/login?continue=https://skibochat.cloudkibo.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

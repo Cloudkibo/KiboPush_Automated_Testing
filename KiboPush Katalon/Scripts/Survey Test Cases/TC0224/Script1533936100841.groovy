@@ -23,8 +23,8 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.logging.KeywordLogger
+
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -34,8 +34,6 @@ WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New (4) (1)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey (2) (1)'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Add Questions (1) (1)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Add Survey/span_fa fa-times fa-inverse'))
@@ -43,13 +41,12 @@ WebUI.click(findTestObject('Page_KiboPush  Add Survey/span_fa fa-times fa-invers
 WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Add Choices'))
 
 try {
-    WebDriver driver = DriverFactory.getWebDriver()
-
-    List<WebElement> Table = driver.findElements(By.xpath('.//*[@id="identity"]/div[1]/div[4]/div/div/div[2]/div[2]/fieldset/div/div/div/div'))
-
-    WebUI.verifyEqual(Table.size().toString(), '3')
+	WebDriver driver = DriverFactory.getWebDriver()
+  List<WebElement> Table = driver.findElements(By.xpath('.//*[@id="identity"]/div[1]/div[4]/div/div/div[2]/div[2]/fieldset/div/div/div/div'))
+  WebUI.verifyEqual(Table.size().toString(), '3')
+  
+  
+} catch (Exception e) {
+  e.printStackTrace()
 }
-catch (Exception e) {
-    e.printStackTrace()
-} 
 
