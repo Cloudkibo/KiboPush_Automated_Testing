@@ -18,23 +18,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/')
+WebUI.navigateToUrl('https://skiboengage.cloudkibo.com/')
 
-WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
 
-WebUI.click(findTestObject('Page_KiboPush/a_Login (13)'))
+WebUI.click(findTestObject('Object Repository/Page_CloudKibo/a_Login (4) (1)'))
 
+WebUI.click(findTestObject('Page_KiboPush/a_Forgot Password (1) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush/a_Forgot Password (1)'))
+WebUI.setText(findTestObject('Page_KiboPush/input_email (14) (2)'), 'muzamil.bukhari.39@gmail.com')
 
-WebUI.setText(findTestObject('Page_KiboPush/input_email (14)'), 'arveenkumar55@gmail.com')
+WebUI.click(findTestObject('Page_KiboPush/button_Request (2) (2)'))
 
-WebUI.click(findTestObject('Page_KiboPush/button_Request (2)'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush/div_Password Reset Link has be (1)'))
+WebUI.click(findTestObject('Page_KiboPush/div_Password Reset Link has be (1) (1)'))
 

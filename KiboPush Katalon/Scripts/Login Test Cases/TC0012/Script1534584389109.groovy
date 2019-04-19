@@ -23,9 +23,13 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/')
+WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
 
-WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush/a_Visit FAQ page'))
+WebUI.click(findTestObject('Object Repository/Page_CloudKibo/a_Visit FAQ page'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_Faq  The Marketing Newsletter/h2_Do you have a question'))
 

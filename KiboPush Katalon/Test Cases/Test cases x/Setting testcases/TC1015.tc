@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enable API</description>
+   <name>TC1015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a66c41d-1d97-4eb2-af1f-884be546045f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,43 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+inviteMember,Chrome 73.0.3683.86,,2019-03-25 15:26:37,2019-03-25 15:27:57,1m - 20.016s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0939,Chrome 73.0.3683.86,Test list of invite members,2019-03-25 15:26:37,2019-03-25 15:27:09,31.743s,PASSED
+"callTestCase(findTestCase(""Invite Members TestCases/TC0943""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:26:37,2019-03-25 15:27:06,29.494s,PASSED
+"setText(findTestObject(""Page_KiboPush  Invite Member/input_exampleInputReply""), ""arveenkumar"")",Chrome 73.0.3683.86,,2019-03-25 15:27:06,2019-03-25 15:27:07,0.122s,PASSED
+"setText(findTestObject(""Page_KiboPush  Invite Member/input_exampleInputReply_1""), ""arveenkumar@gmail.com"")",Chrome 73.0.3683.86,,2019-03-25 15:27:07,2019-03-25 15:27:07,0.179s,PASSED
+"click(findTestObject(""Page_KiboPush  Invite Member/label_Agent""))",Chrome 73.0.3683.86,,2019-03-25 15:27:07,2019-03-25 15:27:07,0.067s,PASSED
+"click(findTestObject(""Page_KiboPush  Invite Member/button_Invite (1)""))",Chrome 73.0.3683.86,,2019-03-25 15:27:07,2019-03-25 15:27:07,0.095s,PASSED
+"click(findTestObject(""Page_KiboPush  Invite Member/div_Invitation email sent""), STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:07,2019-03-25 15:27:09,1.602s,PASSED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0940,Chrome 73.0.3683.86,Test pagination (next page),2019-03-25 15:27:09,2019-03-25 15:27:09,0.884s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/TeamAccount/InviteMembers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:09,2019-03-25 15:27:09,0.785s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0941,Chrome 73.0.3683.86,Test pagination (previous page),2019-03-25 15:27:09,2019-03-25 15:27:10,0.873s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/TeamAccount/InviteMembers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:10,2019-03-25 15:27:10,0.777s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0942,Chrome 73.0.3683.86,Test pagination (Jump to page n),2019-03-25 15:27:10,2019-03-25 15:27:11,0.867s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/TeamAccount/InviteMembers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:10,2019-03-25 15:27:11,0.783s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0943,Chrome 73.0.3683.86,Test invite someone,2019-03-25 15:27:11,2019-03-25 15:27:12,0.808s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/TeamAccount/InviteMembers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:11,2019-03-25 15:27:12,0.804s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0944,Chrome 73.0.3683.86,Test invite with empty fields,2019-03-25 15:27:12,2019-03-25 15:27:13,0.958s,FAILED
+"callTestCase(findTestCase(""Invite Members TestCases/TC0943""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:12,2019-03-25 15:27:13,0.863s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0945,Chrome 73.0.3683.86,Test invite with name only,2019-03-25 15:27:13,2019-03-25 15:27:14,0.883s,FAILED
+"callTestCase(findTestCase(""Invite Members TestCases/TC0943""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:13,2019-03-25 15:27:14,0.816s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0946,Chrome 73.0.3683.86,Test invite without selecting role,2019-03-25 15:27:14,2019-03-25 15:27:15,0.920s,FAILED
+"callTestCase(findTestCase(""Invite Members TestCases/TC0943""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:14,2019-03-25 15:27:15,0.869s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0947,Chrome 73.0.3683.86,Test invite,2019-03-25 15:27:15,2019-03-25 15:27:16,0.861s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/TeamAccount/InviteMembers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:15,2019-03-25 15:27:16,0.800s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0948,Chrome 73.0.3683.86,Test cancel button,2019-03-25 15:27:16,2019-03-25 15:27:17,0.886s,FAILED
+"callTestCase(findTestCase(""Invite Members TestCases/TC0943""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:16,2019-03-25 15:27:17,0.836s,FAILED
+,,,,,,
+Test Cases/Invite Members TestCases/TC0949,Chrome 73.0.3683.86,Test cancel invitation,2019-03-25 15:27:17,2019-03-25 15:27:57,39.843s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/TeamAccount/InviteMembers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:27:17,2019-03-25 15:27:55,38.521s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Invite Members (2)""))",Chrome 73.0.3683.86,,2019-03-25 15:27:55,2019-03-25 15:27:55,0.110s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invitations/button_Cancel Invitation (1)""))",Chrome 73.0.3683.86,,2019-03-25 15:27:55,2019-03-25 15:27:56,0.586s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invitations/div_Invitation Cancelled Succe""))",Chrome 73.0.3683.86,,2019-03-25 15:27:56,2019-03-25 15:27:57,0.568s,PASSED

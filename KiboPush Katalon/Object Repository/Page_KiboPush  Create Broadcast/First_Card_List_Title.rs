@@ -6,11 +6,11 @@
    <elementGuidId>e0f263e9-0575-434f-9296-fc9b94696166</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tab_1&quot;]/div/div[2]/div[2]/div/div[3]/div[1]/div/div[3]/div[1]/center/input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;List1&quot;]/div/div/div[3]/div[1]/div/div[3]/div[1]/center/input</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

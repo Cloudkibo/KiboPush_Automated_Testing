@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Sign in to KiboAPI</description>
+   <name>TC11128</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e452d37a-2429-4684-9e68-130a4dd83551</testCaseGuid>
+</TestCaseEntity>

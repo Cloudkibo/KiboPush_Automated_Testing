@@ -21,9 +21,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (27)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (27) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Operational Dashboard'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Operational Dashboard (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Operational Dashboar/h3_Pages Info'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts By Days/h3_Autoposting Details'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts By Days/h3_Reports'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts By Days/h3_Top 10 Pages'))
 

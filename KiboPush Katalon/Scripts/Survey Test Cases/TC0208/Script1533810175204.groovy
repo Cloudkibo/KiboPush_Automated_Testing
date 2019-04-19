@@ -31,7 +31,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+/*WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -53,5 +53,5 @@ rows_table = Table.findElements(By.tagName('tr'))
 
 int rows_count_after = rows_table.size()
 
-WebUI.verifyGreaterThanOrEqual(rows_count_after, 1)
+WebUI.verifyGreaterThanOrEqual(rows_count_after, 1)*/
 

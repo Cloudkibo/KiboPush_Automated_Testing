@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+KiboAPI,Chrome 73.0.3683.86,,2019-03-25 15:18:48,2019-03-25 15:19:51,1m - 3.258s,FAILED
+,,,,,,
+Test Cases/KiboAPI Testcases/TC11128,Chrome 73.0.3683.86,Test Sign in to KiboAPI,2019-03-25 15:18:48,2019-03-25 15:19:16,28.299s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_KiboAPI_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:18:48,2019-03-25 15:19:16,28.118s,PASSED
+,,,,,,
+Test Cases/KiboAPI Testcases/TC11130,Chrome 73.0.3683.86,Test Existing Developer account,2019-03-25 15:19:16,2019-03-25 15:19:17,0.780s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_KiboAPI_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:19:16,2019-03-25 15:19:17,0.700s,FAILED
+,,,,,,
+Test Cases/KiboAPI Testcases/TC11131,Chrome 73.0.3683.86,Test API key and API Secret fields,2019-03-25 15:19:17,2019-03-25 15:19:18,0.794s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_KiboAPI_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:19:17,2019-03-25 15:19:18,0.720s,FAILED
+,,,,,,
+Test Cases/KiboAPI Testcases/TC11132,Chrome 73.0.3683.86,Test API key reset credentials,2019-03-25 15:19:18,2019-03-25 15:19:19,0.849s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_KiboAPI_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:19:18,2019-03-25 15:19:19,0.748s,FAILED
+,,,,,,
+Test Cases/KiboAPI Testcases/TC11135,Chrome 73.0.3683.86,Test Documentation Button,2019-03-25 15:19:19,2019-03-25 15:19:49,30.569s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_KiboAPI_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:19:19,2019-03-25 15:19:40,20.898s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-25 15:19:40,2019-03-25 15:19:42,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboAPI/a_Documentation""))",Chrome 73.0.3683.86,,2019-03-25 15:19:42,2019-03-25 15:19:42,0.077s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-25 15:19:42,2019-03-25 15:19:44,2.002s,PASSED
+"switchToWindowTitle(""Swagger UI"")",Chrome 73.0.3683.86,,2019-03-25 15:19:44,2019-03-25 15:19:44,0.041s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-03-25 15:19:44,2019-03-25 15:19:49,5.002s,PASSED
+"click(findTestObject(""Page_Swagger UI/h2_KiboPush API v1 (1)""))",Chrome 73.0.3683.86,,2019-03-25 15:19:49,2019-03-25 15:19:49,0.483s,PASSED
+,,,,,,
+Test Cases/KiboAPI Testcases/TC11136,Chrome 73.0.3683.86,Test User Guide Link,2019-03-25 15:19:49,2019-03-25 15:19:50,0.794s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_KiboAPI_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:19:49,2019-03-25 15:19:50,0.698s,FAILED
+,,,,,,
+Test Cases/KiboAPI Testcases/TC11137,Chrome 73.0.3683.86,Test Logout,2019-03-25 15:19:50,2019-03-25 15:19:51,0.737s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_KiboAPI_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-25 15:19:50,2019-03-25 15:19:51,0.660s,FAILED

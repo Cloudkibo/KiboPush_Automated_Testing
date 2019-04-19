@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove condition</description>
+   <name>TC0745</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db522c8a-05c0-41f6-93df-570199d5be61</testCaseGuid>
+</TestCaseEntity>

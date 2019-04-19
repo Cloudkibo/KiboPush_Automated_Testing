@@ -18,38 +18,30 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (9) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16) (4) (1) (1)'), 'google')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (8) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8) (4) (1) (1)'), 'www.google.com')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (9) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_ Add Button (2) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16) (4) (1) (1)'), 'google')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/h7_Open a website (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Open a website'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/input_Open Website_form-control (1) (1)'), 
-    'google.com')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/button_Done (3) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done'))
 
-WebUI.scrollToPosition(0, 0)
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (20) (1) (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_A list must have atleast 2 elements (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Element in list must have'))
 

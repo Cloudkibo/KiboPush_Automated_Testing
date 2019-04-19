@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add condition</description>
+   <name>TC0744</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c5f703b-0079-45f8-9e77-2d386d8ce32c</testCaseGuid>
+</TestCaseEntity>

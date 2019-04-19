@@ -18,7 +18,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -27,8 +26,6 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/but
 WebUI.click(findTestObject('Page_KiboPush  Comment Capture/cross_button'))
 
 WebUI.scrollToPosition(0, 0)
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/h3_Comment Capture'))
 

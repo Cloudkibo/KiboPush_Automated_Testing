@@ -21,17 +21,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New'))
+WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New (4) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Add Survey/button_Add Questions (5)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Add Survey/button_Create Survey (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey (2) (1)'))
 
 WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Add Survey/div_Please fill all the fields'))
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Add Survey/button_Next (1)'))
 

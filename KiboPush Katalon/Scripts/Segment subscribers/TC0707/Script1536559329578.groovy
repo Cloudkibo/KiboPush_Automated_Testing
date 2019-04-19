@@ -21,8 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Segment subsciber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_video tutorial'))
-
 WebUI.delay(2)
 
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/a_video tutorial'))
+
+WebUI.delay(2)
 

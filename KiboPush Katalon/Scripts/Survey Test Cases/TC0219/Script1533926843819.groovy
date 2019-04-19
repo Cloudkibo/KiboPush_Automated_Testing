@@ -27,7 +27,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New'))
+/*WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New'))
 
 WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey'))
 
@@ -51,5 +51,5 @@ try {
 }
 catch (Exception e) {
     e.printStackTrace()
-} 
+} */
 

@@ -4,31 +4,12 @@
    <name>menu</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-12T17:07:54</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>dc56c19b-3e46-4226-b3bb-449511843407</testSuiteGuid>
-   <testCaseLink>
-      <guid>7991d3eb-f2ee-4408-8f31-4b1ee1d23bcf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Persistent Menu/Go_to_menu_item</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f2c2e355-0e69-4cf6-acbb-85fa5961b62f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Persistent Menu/Login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2cc55230-aaa6-48fa-b77a-57b34f4e939b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Persistent Menu/open_popover</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>df166734-a530-4f67-b425-79f6414c5cf4</guid>
       <isReuseDriver>false</isReuseDriver>

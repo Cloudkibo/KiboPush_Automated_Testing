@@ -1,0 +1,76 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+header,Chrome 73.0.3683.86,,2019-04-16 14:05:50,2019-04-16 14:24:33,18m - 42.994s,FAILED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC11051,Chrome 73.0.3683.86,,2019-04-16 14:05:50,2019-04-16 14:06:46,55.598s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:05:51,2019-04-16 14:06:46,55.162s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0096,Chrome 73.0.3683.86,Test setup wizard link,2019-04-16 14:06:46,2019-04-16 14:07:19,33.348s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:06:46,2019-04-16 14:07:19,33.226s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0100,Chrome 73.0.3683.86,Test logout,2019-04-16 14:07:19,2019-04-16 14:08:10,50.246s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:07:20,2019-04-16 14:08:10,50.126s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0101,Chrome 73.0.3683.86,Test documentation link,2019-04-16 14:08:10,2019-04-16 14:10:43,2m - 32.917s,FAILED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:08:10,2019-04-16 14:10:43,2m - 32.861s,FAILED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0081,Chrome 73.0.3683.86,Test Advanced Mode (when inactive),2019-04-16 14:10:43,2019-04-16 14:11:29,46.682s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:10:43,2019-04-16 14:11:27,44.605s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-16 14:11:27,2019-04-16 14:11:29,2.001s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC11053,Chrome 73.0.3683.86,,2019-04-16 14:11:29,2019-04-16 14:12:01,31.760s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:11:29,2019-04-16 14:12:01,31.692s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0094,Chrome 73.0.3683.86,Test user profile pic,2019-04-16 14:12:01,2019-04-16 14:12:41,39.620s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:12:01,2019-04-16 14:12:41,39.531s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0088,Chrome 73.0.3683.86,Test view notification,2019-04-16 14:12:41,2019-04-16 14:13:13,32.230s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:12:41,2019-04-16 14:13:13,32.175s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0080,Chrome 73.0.3683.86,Test Advanced Mode (when active),2019-04-16 14:13:13,2019-04-16 14:13:51,37.945s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:13:13,2019-04-16 14:13:51,37.877s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0095,Chrome 73.0.3683.86,Test profile dropdown,2019-04-16 14:13:51,2019-04-16 14:14:44,52.721s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:13:51,2019-04-16 14:14:44,52.639s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC11052,Chrome 73.0.3683.86,,2019-04-16 14:14:44,2019-04-16 14:15:21,37.168s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login-KiboChat""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:14:44,2019-04-16 14:15:21,37.075s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0092,Chrome 73.0.3683.86,Test send new poll link,2019-04-16 14:15:21,2019-04-16 14:15:54,33.348s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:15:21,2019-04-16 14:15:54,33.258s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/Login,Chrome 73.0.3683.86,,2019-04-16 14:15:54,2019-04-16 14:16:33,38.417s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil - Staging""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:15:54,2019-04-16 14:16:33,38.305s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0099,Chrome 73.0.3683.86,Test settings link,2019-04-16 14:16:33,2019-04-16 14:17:52,1m - 19.458s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:16:33,2019-04-16 14:17:52,1m - 19.307s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0091,Chrome 73.0.3683.86,Test create send new broadcasts link,2019-04-16 14:17:52,2019-04-16 14:18:25,32.677s,PASSED
+"callTestCase(findTestCase(""Header TestCases/TC0090""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:17:52,2019-04-16 14:18:25,32.589s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0084,Chrome 73.0.3683.86,Test Advanced Mode (select all),2019-04-16 14:18:25,2019-04-16 14:19:11,46.803s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-16 14:18:25,2019-04-16 14:18:25,0.679s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-16 14:18:25,2019-04-16 14:18:26,0.122s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-04-16 14:18:26,2019-04-16 14:18:38,12.832s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-16 14:18:38,2019-04-16 14:18:39,0.583s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Login (12)""))",Chrome 73.0.3683.86,,2019-04-16 14:18:39,2019-04-16 14:18:40,0.948s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (13)""), ""team@cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-16 14:18:40,2019-04-16 14:18:40,0.269s,PASSED
+"setEncryptedText(findTestObject(""Page_KiboPush/input_password (12)""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 73.0.3683.86,,2019-04-16 14:18:40,2019-04-16 14:18:40,0.151s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (13)""))",Chrome 73.0.3683.86,,2019-04-16 14:18:40,2019-04-16 14:19:11,31.109s,FAILED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0093,Chrome 73.0.3683.86,Test Send new survey link,2019-04-16 14:19:11,2019-04-16 14:20:34,1m - 22.135s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:19:12,2019-04-16 14:20:34,1m - 22.018s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0097,Chrome 73.0.3683.86,Test messages link,2019-04-16 14:20:34,2019-04-16 14:21:29,55.356s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:20:34,2019-04-16 14:21:29,55.259s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0082,Chrome 73.0.3683.86,Test Advanced Mode (when customer chat),2019-04-16 14:21:29,2019-04-16 14:22:06,37.007s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:21:29,2019-04-16 14:22:06,36.928s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0098,Chrome 73.0.3683.86,Test FAQ link,2019-04-16 14:22:06,2019-04-16 14:23:16,1m - 10.280s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:22:06,2019-04-16 14:23:16,1m - 10.210s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0083,Chrome 73.0.3683.86,Test Advanced Mode (when customerEngagement),2019-04-16 14:23:16,2019-04-16 14:23:59,43.001s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:23:16,2019-04-16 14:23:59,42.955s,PASSED
+,,,,,,
+Test Cases/Test cases x/Header TestCases/TC0090,Chrome 73.0.3683.86,Test recycle icon dropdown,2019-04-16 14:23:59,2019-04-16 14:24:33,33.853s,PASSED
+"callTestCase(findTestCase(""Header TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-16 14:23:59,2019-04-16 14:24:33,33.804s,PASSED

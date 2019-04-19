@@ -22,13 +22,12 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-
 WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (7) (1)'), 'hi')
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (4) (1)'), 'b')
+
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (4)'))
 
@@ -42,36 +41,37 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (3)'
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_ Add Button (2) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (4)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16) (4) (1) (1)'), 'google')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (8)'), 'google')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/h7_Open a website (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/input_Open Website_form-control (1) (1)'), 
-    'google.com')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (3)'), 'google.com')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/button_Done (3) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (3)'))
+
+
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement subTitle = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/div/div[3]/div[1]/center/textarea'))
+WebElement   subTitle = driver.findElement(By.xpath('//*[@id="List1"]/div[1]/div/div[3]/div[2]/div/div[2]/div[1]/center/textarea'))
 
-subTitle.sendKeys('abc')
+subTitle.sendKeys("abc")
 
-WebElement title = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/div/div[3]/div[1]/center/input'))
-
-title.sendKeys('abc')
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
+WebElement   title = driver.findElement(By.xpath('//*[@id="List1"]/div[1]/div/div[3]/div[2]/div/div[2]/div[1]/center/input'))
+ 
+ title.sendKeys("abc")
+ 
+ 
+ 
+ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
+ 
+ WebUI.delay(1)
+ 
+ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
+ 
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create'))
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
-

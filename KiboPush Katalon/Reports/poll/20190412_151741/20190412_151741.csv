@@ -1,0 +1,153 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+poll,Chrome 73.0.3683.86,,2019-04-12 15:17:48,2019-04-12 15:29:03,11m - 15.174s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0258,Chrome 73.0.3683.86,Test documentation link,2019-04-12 15:17:48,2019-04-12 15:19:35,1m - 47.471s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:17:48,2019-04-12 15:19:35,1m - 47.087s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_documentation (2) (1)""))",Chrome 73.0.3683.86,,2019-04-12 15:19:35,2019-04-12 15:19:35,0.137s,PASSED
+,,,,,,
+Test Cases/Poll Test Cases/TC0259,Chrome 73.0.3683.86,Test video tutorial,2019-04-12 15:19:35,2019-04-12 15:20:30,54.469s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:19:35,2019-04-12 15:20:30,54.214s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_video tutorial""))",Chrome 73.0.3683.86,,2019-04-12 15:20:30,2019-04-12 15:20:30,0.130s,PASSED
+,,,,,,
+Test Cases/Poll Test Cases/TC0260,Chrome 73.0.3683.86,Test view poll,2019-04-12 15:20:30,2019-04-12 15:21:22,52.378s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:20:30,2019-04-12 15:21:21,51.134s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-12 15:21:21,2019-04-12 15:21:22,1.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-12 15:21:22,2019-04-12 15:21:22,0.006s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody""))",Chrome 73.0.3683.86,,2019-04-12 15:21:22,2019-04-12 15:21:22,0.026s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.86,,2019-04-12 15:21:22,2019-04-12 15:21:22,0.016s,PASSED
+rows_count = rows_table.size(),Chrome 73.0.3683.86,,2019-04-12 15:21:22,2019-04-12 15:21:22,0.001s,PASSED
+"verifyGreaterThanOrEqual(rows_count, 1)",Chrome 73.0.3683.86,,2019-04-12 15:21:22,2019-04-12 15:21:22,0.006s,PASSED
+,,,,,,
+Test Cases/Poll Test Cases/TC0261,Chrome 73.0.3683.86,Test filter by n days,2019-04-12 15:21:22,2019-04-12 15:22:34,1m - 11.742s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:21:22,2019-04-12 15:22:33,1m - 10.502s,PASSED
+"setText(findTestObject(""Page_KiboPush  Survey/input_example-text-input""), ""5"")",Chrome 73.0.3683.86,,2019-04-12 15:22:33,2019-04-12 15:22:33,0.115s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-12 15:22:33,2019-04-12 15:22:34,1.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-12 15:22:34,2019-04-12 15:22:34,0.000s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody""))",Chrome 73.0.3683.86,,2019-04-12 15:22:34,2019-04-12 15:22:34,0.016s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.86,,2019-04-12 15:22:34,2019-04-12 15:22:34,0.012s,PASSED
+rows_count = rows_table.size(),Chrome 73.0.3683.86,,2019-04-12 15:22:34,2019-04-12 15:22:34,0.000s,PASSED
+"verifyGreaterThanOrEqual(rows_count, 1)",Chrome 73.0.3683.86,,2019-04-12 15:22:34,2019-04-12 15:22:34,0.001s,PASSED
+,,,,,,
+Test Cases/Poll Test Cases/TC0262,Chrome 73.0.3683.86,Test pagination (next page),2019-04-12 15:22:34,2019-04-12 15:23:36,1m - 1.876s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:22:34,2019-04-12 15:23:25,51.496s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-12 15:23:25,2019-04-12 15:23:30,5.002s,PASSED
+date_page1 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-12 15:23:30,2019-04-12 15:23:30,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-12 15:23:30,2019-04-12 15:23:30,0.004s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-12 15:23:30,2019-04-12 15:23:31,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_next""))",Chrome 73.0.3683.86,,2019-04-12 15:23:31,2019-04-12 15:23:31,0.072s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-12 15:23:31,2019-04-12 15:23:36,5.002s,PASSED
+date_page2 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:23:36,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:23:36,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:23:36,0.064s,PASSED
+"dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:23:36,0.007s,PASSED
+date1 = dateFormat.parse(date_page1),Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:23:36,0.002s,PASSED
+date2 = dateFormat.parse(date_page2),Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:23:36,0.001s,PASSED
+"verifyMatch(""1"", compareTo(date2).toString(), false)",Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:23:36,0.018s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0263,Chrome 73.0.3683.86,Test pagination (previous page),2019-04-12 15:23:36,2019-04-12 15:24:43,1m - 7.555s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:23:36,2019-04-12 15:24:36,1m - 0.168s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-12 15:24:36,2019-04-12 15:24:38,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_next (1)""))",Chrome 73.0.3683.86,,2019-04-12 15:24:38,2019-04-12 15:24:38,0.065s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-12 15:24:38,2019-04-12 15:24:40,2.003s,PASSED
+date_page1 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-12 15:24:40,2019-04-12 15:24:40,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-12 15:24:40,2019-04-12 15:24:40,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-12 15:24:40,2019-04-12 15:24:40,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_previous""))",Chrome 73.0.3683.86,,2019-04-12 15:24:40,2019-04-12 15:24:40,0.072s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-12 15:24:40,2019-04-12 15:24:43,3.002s,PASSED
+date_page2 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:24:43,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:24:43,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:24:43,0.041s,PASSED
+"dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:24:43,0.000s,PASSED
+date1 = dateFormat.parse(date_page1),Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:24:43,0.001s,PASSED
+date2 = dateFormat.parse(date_page2),Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:24:43,0.000s,PASSED
+"verifyMatch(""-1"", compareTo(date2).toString(), false)",Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:24:43,0.003s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0264,Chrome 73.0.3683.86,Test pagination (Jump to page n),2019-04-12 15:24:43,2019-04-12 15:26:27,1m - 43.736s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:24:43,2019-04-12 15:25:49,1m - 5.551s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-12 15:25:49,2019-04-12 15:25:52,3.002s,PASSED
+date_page1 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-12 15:25:52,2019-04-12 15:25:52,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-12 15:25:52,2019-04-12 15:25:52,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-12 15:25:52,2019-04-12 15:25:52,0.059s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/a_2""))",Chrome 73.0.3683.86,,2019-04-12 15:25:52,2019-04-12 15:26:27,35.026s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0265,Chrome 73.0.3683.86,Test create poll button,2019-04-12 15:26:27,2019-04-12 15:26:28,0.938s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:26:27,2019-04-12 15:26:28,0.858s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0266,Chrome 73.0.3683.86,Test create poll button (From poll template),2019-04-12 15:26:28,2019-04-12 15:26:29,0.842s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:26:28,2019-04-12 15:26:29,0.792s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0267,Chrome 73.0.3683.86,Test list of poll templates,2019-04-12 15:26:29,2019-04-12 15:26:30,0.917s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:26:29,2019-04-12 15:26:30,0.845s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0269,Chrome 73.0.3683.86,Test use template,2019-04-12 15:26:30,2019-04-12 15:26:31,0.910s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:26:30,2019-04-12 15:26:31,0.826s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0270,Chrome 73.0.3683.86,Test create poll and save,2019-04-12 15:26:31,2019-04-12 15:26:32,0.867s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:26:31,2019-04-12 15:26:32,0.816s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0272,Chrome 73.0.3683.86,Test create poll with empty fields,2019-04-12 15:26:32,2019-04-12 15:26:32,0.882s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:26:32,2019-04-12 15:26:32,0.821s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0273,Chrome 73.0.3683.86,Test create poll with question only,2019-04-12 15:26:32,2019-04-12 15:27:21,48.284s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:26:32,2019-04-12 15:27:16,43.872s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-12 15:27:16,2019-04-12 15:27:16,0.086s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Create New Poll (1) (1)""))",Chrome 73.0.3683.86,,2019-04-12 15:27:16,2019-04-12 15:27:17,0.137s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-12 15:27:17,2019-04-12 15:27:19,2.002s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/textarea_form-control""), ""h"")",Chrome 73.0.3683.86,,2019-04-12 15:27:19,2019-04-12 15:27:19,0.085s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-12 15:27:19,2019-04-12 15:27:19,0.010s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-12 15:27:19,2019-04-12 15:27:21,2.001s,PASSED
+"verifyElementNotClickable(findTestObject(""Object Repository/Page_KiboEngage  Create Poll/button_Next""))",Chrome 73.0.3683.86,,2019-04-12 15:27:21,2019-04-12 15:27:21,0.035s,PASSED
+,,,,,,
+Test Cases/Poll Test Cases/TC0274,Chrome 73.0.3683.86,Test create poll with title and one response,2019-04-12 15:27:21,2019-04-12 15:27:22,0.806s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:27:21,2019-04-12 15:27:21,0.758s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0275,Chrome 73.0.3683.86,Test create poll with title and two responses,2019-04-12 15:27:22,2019-04-12 15:27:22,0.887s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:27:22,2019-04-12 15:27:22,0.831s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0276,Chrome 73.0.3683.86,Test cancel button,2019-04-12 15:27:22,2019-04-12 15:27:23,0.937s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:27:22,2019-04-12 15:27:23,0.870s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0283,Chrome 73.0.3683.86,Test See Segmentation Here link,2019-04-12 15:27:23,2019-04-12 15:27:24,0.968s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:27:23,2019-04-12 15:27:24,0.891s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0285,Chrome 73.0.3683.86,Test view button in polls list,2019-04-12 15:27:24,2019-04-12 15:28:09,44.780s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:27:24,2019-04-12 15:28:09,44.577s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_View (1)""))",Chrome 73.0.3683.86,,2019-04-12 15:28:09,2019-04-12 15:28:09,0.084s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-12 15:28:09,2019-04-12 15:28:09,0.009s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  View Poll/h3_View Poll""))",Chrome 73.0.3683.86,,2019-04-12 15:28:09,2019-04-12 15:28:09,0.060s,PASSED
+,,,,,,
+Test Cases/Poll Test Cases/TC0286,Chrome 73.0.3683.86,Test back button in view poll,2019-04-12 15:28:09,2019-04-12 15:28:10,0.900s,FAILED
+"callTestCase(findTestCase(""Poll Test Cases/TC0285""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:28:09,2019-04-12 15:28:10,0.850s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0288,Chrome 73.0.3683.86,Test delete button in polls list,2019-04-12 15:28:10,2019-04-12 15:28:11,0.847s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:28:10,2019-04-12 15:28:11,0.798s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0289,Chrome 73.0.3683.86,Test report button in polls list,2019-04-12 15:28:11,2019-04-12 15:28:12,0.825s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:28:11,2019-04-12 15:28:12,0.776s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC0290,Chrome 73.0.3683.86,Test back button in poll report,2019-04-12 15:28:12,2019-04-12 15:28:13,0.899s,FAILED
+"callTestCase(findTestCase(""Poll Test Cases/TC0289""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:28:12,2019-04-12 15:28:13,0.850s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC11046,Chrome 73.0.3683.86,,2019-04-12 15:28:13,2019-04-12 15:28:13,0.897s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:28:13,2019-04-12 15:28:13,0.832s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC11047,Chrome 73.0.3683.86,,2019-04-12 15:28:13,2019-04-12 15:28:14,0.874s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:28:14,2019-04-12 15:28:14,0.823s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC11287,Chrome 73.0.3683.86,Test create poll with title and three responses,2019-04-12 15:28:14,2019-04-12 15:29:01,46.732s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:28:14,2019-04-12 15:28:56,42.067s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Create New (1) (3)""))",Chrome 73.0.3683.86,,2019-04-12 15:28:56,2019-04-12 15:28:57,0.080s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Create New Poll (1) (1) (3)""))",Chrome 73.0.3683.86,,2019-04-12 15:28:57,2019-04-12 15:28:57,0.134s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-12 15:28:57,2019-04-12 15:28:59,2.002s,PASSED
+"setText(findTestObject(""Page_KiboPush  Create Poll/textarea_form-control""), ""h"")",Chrome 73.0.3683.86,,2019-04-12 15:28:59,2019-04-12 15:28:59,0.078s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Poll/input_Response1_form-control""), ""1"")",Chrome 73.0.3683.86,,2019-04-12 15:28:59,2019-04-12 15:28:59,0.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Poll/input_Response2_form-control""), ""2"")",Chrome 73.0.3683.86,,2019-04-12 15:28:59,2019-04-12 15:28:59,0.080s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Poll/input_Response3_form-control (1)""), ""3"")",Chrome 73.0.3683.86,,2019-04-12 15:28:59,2019-04-12 15:28:59,0.075s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-12 15:28:59,2019-04-12 15:29:01,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Poll/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-12 15:29:01,2019-04-12 15:29:01,0.077s,PASSED
+,,,,,,
+Test Cases/Poll Test Cases/TC11288,Chrome 73.0.3683.86,,2019-04-12 15:29:01,2019-04-12 15:29:02,0.803s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:29:01,2019-04-12 15:29:02,0.747s,FAILED
+,,,,,,
+Test Cases/Poll Test Cases/TC11289,Chrome 73.0.3683.86,Test Previous button,2019-04-12 15:29:02,2019-04-12 15:29:03,0.828s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Polls""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:29:02,2019-04-12 15:29:03,0.772s,FAILED

@@ -4,12 +4,6 @@
    <name>select_Filter by Category...Al (4)</name>
    <tag></tag>
    <elementGuidId>0bb6c182-cadc-4482-adbb-a5cd907d136c</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//select[@id = 'm_form_status' and (text() = 'Filter by Category...AllResearchProduct UseCustomer BehaviorFeedbackEntertain and EngagePromotion UpdatesPlan EventsCustomer SatisfactionGreetingsSocial MessagePromotionsInformationFollow UpWelcomeGeneralreseachhellhelwq' or . = 'Filter by Category...AllResearchProduct UseCustomer BehaviorFeedbackEntertain and EngagePromotion UpdatesPlan EventsCustomer SatisfactionGreetingsSocial MessagePromotionsInformationFollow UpWelcomeGeneralreseachhellhelwq')]</value>
-      </entry>
-   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
