@@ -21,35 +21,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1)'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/textarea_form-control'), 'h')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control'), '1')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control_1'), '2')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control_2'), '3')
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/button_Create Poll'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/textarea_form-control (5)'), 'h')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control (7)'), '1')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control_1 (3)'), '2')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control_2 (2)'), '3')
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/button_Save'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Next'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Create Poll (2)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Save (1)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Polls/h3_Polls'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/h3_Polls'))
 

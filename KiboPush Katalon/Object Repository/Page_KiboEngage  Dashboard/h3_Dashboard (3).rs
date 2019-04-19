@@ -3,7 +3,7 @@
    <description></description>
    <name>h3_Dashboard (3)</name>
    <tag></tag>
-   <elementGuidId>eb2bab72-bebf-4125-8b10-bec10db1501f</elementGuidId>
+   <elementGuidId>490c214c-08c3-4c5e-a62c-87b8716543c5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -34,34 +34,4 @@
       <type>Main</type>
       <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-subheader&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[@class=&quot;mr-auto&quot;]/h3[@class=&quot;m-subheader__title&quot;]</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <value>//div[@id='content']/div/div/div/div[2]/div/div/div/h3</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Guide'])[1]/following::h3[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::h3[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='documentation'])[1]/preceding::h3[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//h3</value>
-   </webElementXpaths>
 </WebElementEntity>

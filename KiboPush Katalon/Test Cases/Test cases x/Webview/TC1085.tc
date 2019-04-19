@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Adding Webview as Button Option in Broadcast Components</description>
-   <name>TC1085</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>42d37674-3b7f-4a87-bf22-81efb498082c</testCaseGuid>
-</TestCaseEntity>

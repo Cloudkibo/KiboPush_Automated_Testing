@@ -18,6 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0871'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -35,7 +39,11 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Survey/inp
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Survey/input_form-control input-sm_2'), '3')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category_servey'))
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement element = driver.findElement(By.xpath('//*[@id="desc"]/div/div/span/span[1]/span/ul/li/input'))
+
+element.click()
 
 WebUI.delay(1)
 

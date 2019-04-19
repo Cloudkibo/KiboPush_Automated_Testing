@@ -23,17 +23,17 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://skiboengage.cloudkibo.com/')
+WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/')
 
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
 
-WebUI.click(findTestObject('Page_CloudKibo/a_Login (4) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Login (13) (1) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush/a_Forgot Password (1) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Forgot Password (1)'))
 
-WebUI.click(findTestObject('Page_CloudKibo/a_Cancel'))
+WebUI.setText(findTestObject('Page_KiboPush/input_email (14) (1) (1)'), 'arveenkumar5@gmail.com')
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboPush/button_Request (2) (1) (1)'))
 
-WebUI.click(findTestObject('Page_CloudKibo/h3_Welcome To KiboPush (1)'))
+WebUI.click(findTestObject('Page_KiboPush/div_Sorry No such account or c (1)'))
 

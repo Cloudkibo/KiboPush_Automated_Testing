@@ -29,7 +29,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
-/*WebUI.delay(2)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_next (1)'))
 
@@ -70,5 +70,5 @@ String getFirstRowDate() {
 
         KeywordUtil.markFailed('ERROR: No Table Present')
     } 
-}*/
+}
 

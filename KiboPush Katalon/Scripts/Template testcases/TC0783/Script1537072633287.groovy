@@ -19,6 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -28,11 +33,27 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/img'), img)
 
 WebUI.delay(10)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (3)'), 'hi')
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/svg'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control'), 'hello')
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (6)'))
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement title = driver.findElement(By.xpath('//*[@id="List1"]/div[1]/div/div[3]/div[2]/input'))
+
+title.sendKeys('hello')
+
+WebUI.delay(1)
+
+WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/textarea'))
+
+textArea.sendKeys('hello')
+
+WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (3)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Card must have at least on'))
 

@@ -21,7 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/small_Subscribers'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Subscribers/h3_Manage Subscribers (4)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/h3_Subscribes'))
 

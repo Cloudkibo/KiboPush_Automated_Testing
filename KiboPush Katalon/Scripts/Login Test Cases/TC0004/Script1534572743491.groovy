@@ -18,25 +18,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://kibochat.cloudkibo.com/')
 
-WebUI.delay(2)
+WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com')
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/a_Login (4) (2) (2)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Login (10) (1) (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CloudKibo/input_Sign In_email (5)'), 'muzamil.abbas@khi.iba.edu.pk')
+WebUI.setText(findTestObject('Page_KiboPush/input_email (11) (1) (1)'), 'individua@cloudkibo.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CloudKibo/input_Sign In_password (6)'), 'GMQllEmfdY/HHKodjIYgDA==')
+WebUI.setEncryptedText(findTestObject('Page_KiboPush/input_password (10) (1) (1)'), 'qeJ0sjJnwEs=')
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/button_Sign In (10)'))
+WebUI.click(findTestObject('Page_KiboPush/button_Sign In (11) (1) (1)'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/div_This password is not correct'))
+WebUI.click(findTestObject('Page_KiboPush/div_No account found with this (2)'))
 

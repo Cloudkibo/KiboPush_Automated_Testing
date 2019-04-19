@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Template testcases/TC0871'), [:], FailureHandli
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/button_Add category'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Survey/input_form-control (3)'), 'reseach')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Survey/input_form-control (3)'), 'hyzsbhsjh')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/button_Save'))
 

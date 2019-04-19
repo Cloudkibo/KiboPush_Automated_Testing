@@ -14,8 +14,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0557'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
 WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Page1x_form-control'), 'Main')
 
 WebUI.delay(2)
@@ -30,9 +28,11 @@ WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.kibopush.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Save (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/button_Save'))
+
+WebUI.delay(2)
 

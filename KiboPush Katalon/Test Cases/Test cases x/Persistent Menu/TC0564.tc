@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test add button in gallery component</description>
-   <name>TC0564</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>aa07b055-94f3-4bfc-bfa6-ea7de98d5e5f</testCaseGuid>
-</TestCaseEntity>

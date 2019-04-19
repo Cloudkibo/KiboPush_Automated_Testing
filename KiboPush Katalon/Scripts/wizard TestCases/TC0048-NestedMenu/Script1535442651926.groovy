@@ -21,15 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo (3)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (4) (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (2) (1) (2)'))
-
-WebUI.delay(3)
+WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue'))
 
 WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_5'))
 
@@ -48,4 +44,3 @@ WebUI.click(findTestObject('Page_KiboPush  Menu/button_ Add Nested Menu'))
 WebUI.delay(2)
 
 WebUI.verifyTextNotPresent('+ Add Nested Menu', false)
-

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Edit Webview (Welcome Message)</description>
-   <name>TC11131</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2b193923-a59d-41cf-819e-6585aa779829</testCaseGuid>
-</TestCaseEntity>

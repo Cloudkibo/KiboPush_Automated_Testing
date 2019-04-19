@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Edit Webview Default Action on Cards</description>
-   <name>TC1092</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>2518ea8b-dbc6-4966-8673-7a3fecebe2e9</testCaseGuid>
-</TestCaseEntity>

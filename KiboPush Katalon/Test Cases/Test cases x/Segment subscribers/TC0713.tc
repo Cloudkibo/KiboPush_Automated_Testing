@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create list with empty fields</description>
-   <name>TC0713</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c7664cd7-7957-4fca-ba57-c071ca8079aa</testCaseGuid>
-</TestCaseEntity>

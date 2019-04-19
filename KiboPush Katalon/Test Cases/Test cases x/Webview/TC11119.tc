@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Adding Webview as Button Option in Landing Pages</description>
-   <name>TC11119</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>805d4eee-faee-4e3b-a8fb-c044081620b3</testCaseGuid>
-</TestCaseEntity>

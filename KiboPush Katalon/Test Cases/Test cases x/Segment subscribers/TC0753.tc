@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test pagination (Jump to page n)</description>
-   <name>TC0753</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c827db1b-da81-4de9-bed2-c3dd94a40628</testCaseGuid>
-</TestCaseEntity>

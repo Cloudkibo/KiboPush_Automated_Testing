@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Webview Option in Messenger Ads</description>
-   <name>TC1100</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>af9d204d-8230-4c85-9e5a-59f91072ff10</testCaseGuid>
-</TestCaseEntity>

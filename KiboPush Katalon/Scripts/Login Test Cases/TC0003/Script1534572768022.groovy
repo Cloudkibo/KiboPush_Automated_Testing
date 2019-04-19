@@ -23,19 +23,17 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://kibochat.cloudkibo.com/')
 
-WebUI.delay(2)
+WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com')
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/a_Login (4) (2) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Login (10) (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_CloudKibo/input_Sign In_email (4) (1)'), 'muzamil@khi.iba.edu.pk')
+WebUI.setText(findTestObject('Page_KiboPush/input_email (11) (1)'), 'individua@cloudkibo.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CloudKibo/input_Sign In_password (4) (1)'), 'ZOMPkeJIpHVS6OGLcNHjig==')
+WebUI.setEncryptedText(findTestObject('Page_KiboPush/input_password (10) (1)'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/button_Sign In (9)'))
+WebUI.click(findTestObject('Page_KiboPush/button_Sign In (11) (1)'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/div_No account found with this email address'))
+WebUI.click(findTestObject('Page_KiboPush/div_No account found with this (1)'))
 

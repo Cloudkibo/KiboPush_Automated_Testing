@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create list with condition lastname contains</description>
-   <name>TC0718</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>caa97a8d-4a65-4462-b92f-42ee14a10496</testCaseGuid>
-</TestCaseEntity>

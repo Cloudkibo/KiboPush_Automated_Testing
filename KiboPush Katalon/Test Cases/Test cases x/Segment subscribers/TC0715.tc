@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create list without any conditions</description>
-   <name>TC0715</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bca6a79e-dd01-4bc8-8dc8-8dff9e63e2fb</testCaseGuid>
-</TestCaseEntity>

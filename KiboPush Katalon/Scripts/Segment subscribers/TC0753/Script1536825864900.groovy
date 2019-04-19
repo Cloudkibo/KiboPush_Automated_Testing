@@ -28,8 +28,6 @@ import java.text.DateFormat as DateFormat
 
 WebUI.callTestCase(findTestCase('Segment subscribers/TC0708'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_View'))
 
 WebUI.delay(1)

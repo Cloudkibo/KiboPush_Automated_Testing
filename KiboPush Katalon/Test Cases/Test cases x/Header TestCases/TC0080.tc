@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Advanced Mode (when active)</description>
-   <name>TC0080</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9aba6a41-5393-45ea-959a-ad150fd60cc2</testCaseGuid>
-</TestCaseEntity>

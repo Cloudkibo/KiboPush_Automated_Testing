@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test unsubscribes link</description>
-   <name>TC0105</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>e1dee488-6106-4487-aab0-3e03b0b01165</testCaseGuid>
-</TestCaseEntity>

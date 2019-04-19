@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test remove button</description>
-   <name>TC0601</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cd70a5a0-3d2a-49a8-b8fe-8e97f5a3c4f8</testCaseGuid>
-</TestCaseEntity>
