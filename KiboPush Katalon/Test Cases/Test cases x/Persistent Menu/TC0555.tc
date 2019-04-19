@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test setcard component as reply</description>
+   <name>TC0555</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bcec9ce2-3fef-4010-8359-84f1ba0a44d3</testCaseGuid>
+</TestCaseEntity>

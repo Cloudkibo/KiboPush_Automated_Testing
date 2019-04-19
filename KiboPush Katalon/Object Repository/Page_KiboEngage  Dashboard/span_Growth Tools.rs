@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Growth Tools</name>
    <tag></tag>
-   <elementGuidId>4f38101b-5282-474e-b316-2f8b12496588</elementGuidId>
+   <elementGuidId>3391305d-4556-4319-8a10-20f9f60586ad</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -38,19 +38,19 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='mCSB_2_container']/ul/li[5]/a/span</value>
+      <value>//div[@id='mCSB_2_container']/ul/li[6]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autoposting'])[1]/following::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sequence Messaging'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation'])[2]/following::span[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autoposting'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +68,6 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[5]/a/span</value>
+      <value>//div/div/div/div/div/ul/li[6]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

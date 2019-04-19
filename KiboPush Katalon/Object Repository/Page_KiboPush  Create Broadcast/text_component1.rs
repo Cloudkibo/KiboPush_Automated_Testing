@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;List1&quot;]/div[2]/div/div[2]/textarea</value>
+         <value>//*[@id=&quot;tab_1&quot;]/div/div[2]/div[2]/div[2]/div[2]/textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

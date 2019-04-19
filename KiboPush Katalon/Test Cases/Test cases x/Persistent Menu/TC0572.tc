@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test upload audio</description>
+   <name>TC0572</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f059a3d8-b875-4e02-affd-15330d58e7f4</testCaseGuid>
+</TestCaseEntity>

@@ -4,12 +4,6 @@
    <name>h3_Invite using Phone Number ( (3)</name>
    <tag></tag>
    <elementGuidId>ab757ca4-66ad-4ab9-9609-ef8b7abfbaff</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//span[(text() = 'Invite Using Phone Numbers (Experimental Feature)' or . = 'Invite Using Phone Numbers (Experimental Feature)')]</value>
-      </entry>
-   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -17,7 +11,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Invite Using Phone Numbers (Experimental Feature)</value>
+      <value>Invite using Phone Number (Experimental Feature)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

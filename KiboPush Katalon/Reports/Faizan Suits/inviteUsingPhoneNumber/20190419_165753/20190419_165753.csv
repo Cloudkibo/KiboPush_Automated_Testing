@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+inviteUsingPhoneNumber,Chrome 73.0.3683.75,,2019-04-19 16:57:55,2019-04-19 16:58:50,54.960s,FAILED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-19 16:57:55,2019-04-19 16:58:27,32.235s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-19 16:57:55,2019-04-19 16:57:57,1.546s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-19 16:57:57,2019-04-19 16:57:57,0.134s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-19 16:57:57,2019-04-19 16:58:11,14.002s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-19 16:58:11,2019-04-19 16:58:11,0.480s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-19 16:58:11,2019-04-19 16:58:12,0.744s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-19 16:58:12,2019-04-19 16:58:12,0.207s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-19 16:58:12,2019-04-19 16:58:13,0.204s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-19 16:58:13,2019-04-19 16:58:13,0.102s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-19 16:58:13,2019-04-19 16:58:24,11.203s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-19 16:58:24,2019-04-19 16:58:24,0.081s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-19 16:58:24,2019-04-19 16:58:27,3.015s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-19 16:58:27,2019-04-19 16:58:27,0.125s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-19 16:58:27,2019-04-19 16:58:27,0.106s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0929,Chrome 73.0.3683.75,Test view segmented list button,2019-04-19 16:58:27,2019-04-19 16:58:34,6.908s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Growth Tools""))",Chrome 73.0.3683.75,,2019-04-19 16:58:27,2019-04-19 16:58:27,0.112s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:58:27,2019-04-19 16:58:28,1.004s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:58:28,2019-04-19 16:58:33,4.418s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:58:33,2019-04-19 16:58:34,1.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_View Customers Lists (1)""))",Chrome 73.0.3683.75,,2019-04-19 16:58:34,2019-04-19 16:58:34,0.138s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Customer Lists (1)""))",Chrome 73.0.3683.75,,2019-04-19 16:58:34,2019-04-19 16:58:34,0.087s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0930,Chrome 73.0.3683.75,View segmented lists,2019-04-19 16:58:34,2019-04-19 16:58:42,7.768s,FAILED
+"callTestCase(findTestCase(""Invite Using Phone Number/TC0928-viewCustomers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:58:34,2019-04-19 16:58:42,7.595s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-19 16:58:42,2019-04-19 16:58:42,0.007s,PASSED
+"Table = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 73.0.3683.75,,2019-04-19 16:58:42,2019-04-19 16:58:42,0.026s,PASSED
+"verifyGreaterThanOrEqual(Table.size(), 5)",Chrome 73.0.3683.75,,2019-04-19 16:58:42,2019-04-19 16:58:42,0.015s,FAILED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0938,Chrome 73.0.3683.75,Test back button,2019-04-19 16:58:42,2019-04-19 16:58:50,7.753s,FAILED
+"callTestCase(findTestCase(""Invite Using Phone Number/TC0930""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:58:42,2019-04-19 16:58:50,7.662s,FAILED

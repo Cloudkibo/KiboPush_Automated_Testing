@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back button in view team</description>
+   <name>TC0969-BackButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a91c865b-bb57-4172-8f4a-275adb28a853</testCaseGuid>
+</TestCaseEntity>

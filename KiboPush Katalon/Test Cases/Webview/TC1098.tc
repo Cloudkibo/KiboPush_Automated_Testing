@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing Webview Option in Sequence Messaging</description>
+   <name>TC1098</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4ea1dd5d-01d3-4c66-83fa-08d22ccabf2b</testCaseGuid>
+</TestCaseEntity>

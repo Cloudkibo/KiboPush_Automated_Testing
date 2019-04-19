@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>472f6909-0bc2-4000-94b1-8a069456c109</testSuiteGuid>
    <testCaseLink>
+      <guid>97634d87-c34c-4296-b540-5ac5cbf62246</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>87914276-357c-4e20-a165-d857456ca367</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -69,18 +75,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Comment Capture TestCases/TC0515</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>879757ff-c2ab-45e0-a52f-f35896ab0de9</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Comment Capture TestCases/TC0522</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>643703d0-8d45-446d-8ff5-e119136623a8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Comment Capture TestCases/TC0523</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>85a40bb0-8883-4eb8-bd76-2c5ed1f8d13b</guid>

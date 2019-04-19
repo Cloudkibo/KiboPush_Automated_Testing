@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change greeting text (empty text)</description>
+   <name>TC1030</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>05919166-4b8b-496b-9aa4-f166499e31a9</testCaseGuid>
+</TestCaseEntity>

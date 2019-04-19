@@ -4,6 +4,12 @@
    <name>a_Edit</name>
    <tag></tag>
    <elementGuidId>60de54b7-5d3b-42e0-bc9c-a3b373664d11</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/editPost' and (text() = 'Edit' or . = 'Edit')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/createPost</value>
+      <value>/editPost</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

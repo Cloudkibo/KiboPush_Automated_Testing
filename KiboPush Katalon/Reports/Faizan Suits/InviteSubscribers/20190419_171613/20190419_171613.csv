@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+InviteSubscribers,Chrome 73.0.3683.75,,2019-04-19 17:16:15,2019-04-19 17:17:10,55.552s,PASSED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-19 17:16:15,2019-04-19 17:17:02,47.034s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-19 17:16:15,2019-04-19 17:16:16,0.932s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-19 17:16:16,2019-04-19 17:16:16,0.126s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-19 17:16:16,2019-04-19 17:16:33,16.796s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-19 17:16:33,2019-04-19 17:16:33,0.494s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-19 17:16:33,2019-04-19 17:16:34,0.813s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-19 17:16:34,2019-04-19 17:16:34,0.160s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-19 17:16:34,2019-04-19 17:16:35,0.135s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-19 17:16:35,2019-04-19 17:16:35,0.075s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-19 17:16:35,2019-04-19 17:16:58,23.793s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-19 17:16:58,2019-04-19 17:16:58,0.097s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-19 17:16:58,2019-04-19 17:17:02,3.032s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-19 17:17:02,2019-04-19 17:17:02,0.154s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-19 17:17:02,2019-04-19 17:17:02,0.109s,PASSED
+,,,,,,
+Test Cases/Invite subscribers/open growth tools,Chrome 73.0.3683.75,,2019-04-19 17:17:02,2019-04-19 17:17:03,1.419s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)""))",Chrome 73.0.3683.75,,2019-04-19 17:17:02,2019-04-19 17:17:02,0.230s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 17:17:02,2019-04-19 17:17:03,1.002s,PASSED
+,,,,,,
+Test Cases/Invite subscribers/TC0681,Chrome 73.0.3683.75,Test share page,2019-04-19 17:17:03,2019-04-19 17:17:07,3.698s,PASSED
+"callTestCase(findTestCase(""Subscriber TestCases/TC0678""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 17:17:03,2019-04-19 17:17:07,3.286s,PASSED
+"click(findTestObject(""Page_KiboPush  Invite Subscribers/span_Share Page""))",Chrome 73.0.3683.75,,2019-04-19 17:17:07,2019-04-19 17:17:07,0.215s,PASSED
+,,,,,,
+Test Cases/Invite subscribers/TC0682,Chrome 73.0.3683.75,Test copy link,2019-04-19 17:17:07,2019-04-19 17:17:10,3.063s,PASSED
+"callTestCase(findTestCase(""Subscriber TestCases/TC0678""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 17:17:07,2019-04-19 17:17:10,2.593s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers (2)""))",Chrome 73.0.3683.75,,2019-04-19 17:17:10,2019-04-19 17:17:10,0.059s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invite Subscribers/button_Copy Link (1)""))",Chrome 73.0.3683.75,,2019-04-19 17:17:10,2019-04-19 17:17:10,0.107s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Invite Subscribers/div_Link Copied Successfully""))",Chrome 73.0.3683.75,,2019-04-19 17:17:10,2019-04-19 17:17:10,0.089s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Testing Edit Webview on Main Menu</description>
+   <name>TC1096</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c9d1235-fcc6-412e-9424-c323b22b80b0</testCaseGuid>
+</TestCaseEntity>

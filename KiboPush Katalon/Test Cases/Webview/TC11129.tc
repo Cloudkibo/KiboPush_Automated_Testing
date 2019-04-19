@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test link on Button Popover (Welcome Message)</description>
+   <name>TC11129</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f94958e5-edbf-4657-8684-101a56281aa0</testCaseGuid>
+</TestCaseEntity>

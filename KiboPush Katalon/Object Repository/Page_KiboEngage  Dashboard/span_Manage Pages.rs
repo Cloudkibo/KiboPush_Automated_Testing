@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Manage Pages</name>
    <tag></tag>
-   <elementGuidId>122bc38e-dbe4-4324-b331-b4fb5e5dee6d</elementGuidId>
+   <elementGuidId>6a433a0c-58fa-457c-b088-0a9f5cb342a0</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
