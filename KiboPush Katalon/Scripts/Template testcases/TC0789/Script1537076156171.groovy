@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0788'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (7)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (7) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_All cards in a gallery can'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have at least title Substitle image and button'))
 

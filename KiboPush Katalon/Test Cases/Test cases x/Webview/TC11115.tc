@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Webview Default Action on Cards (Persistent Menu)</description>
-   <name>TC11115</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>79f6b4f9-24dc-44f6-bef4-6286dabf15a8</testCaseGuid>
-</TestCaseEntity>

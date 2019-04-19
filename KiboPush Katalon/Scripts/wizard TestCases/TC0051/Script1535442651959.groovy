@@ -21,19 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo (9)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (7) (6)'))
+WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (7) (1) (6)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Getting Started/span_7'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboEngage  Getting Started/span_6'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Wizard/button_Finish'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Getting Started/span_Finish'))
 
 WebUI.click(findTestObject('Page_KiboPush  Getting Started/a_Join Our Community'))
 

@@ -4,6 +4,7 @@
    <name>forgotPassword</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-02-21T17:38:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

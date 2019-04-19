@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create segmented subscribers list button</description>
-   <name>TC0712</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1417a053-0e70-4a15-b03d-237cba780422</testCaseGuid>
-</TestCaseEntity>

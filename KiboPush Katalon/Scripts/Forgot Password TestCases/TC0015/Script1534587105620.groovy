@@ -18,25 +18,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://skiboengage.cloudkibo.com/')
+WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/')
 
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
 
-WebUI.click(findTestObject('Page_CloudKibo/a_Login (4) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Login (13) (1) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush/a_Forgot Password (1) (1) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Forgot Password (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush/input_email (14) (2) (1)'), 'muzamil.bukhari.391@gmail.com')
+WebUI.setText(findTestObject('Page_KiboPush/input_email (14) (1) (1)'), 'arveenkumar5@gmail.com')
 
-WebUI.click(findTestObject('Page_KiboPush/button_Request (2) (2) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/button_Request (2) (1) (1)'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_CloudKibo/div_Sorry No such account or company exists in our database'))
+WebUI.click(findTestObject('Page_KiboPush/div_Sorry No such account or c (1)'))
 

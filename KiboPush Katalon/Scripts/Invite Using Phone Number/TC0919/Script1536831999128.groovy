@@ -21,7 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Invite using Phone Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Invite using Phone Number ( (3)'))
-
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_documentation (3)'))
 

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test add agents dropdown</description>
-   <name>TC0963</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>89129377-2284-4b8a-8868-439689435d07</testCaseGuid>
-</TestCaseEntity>

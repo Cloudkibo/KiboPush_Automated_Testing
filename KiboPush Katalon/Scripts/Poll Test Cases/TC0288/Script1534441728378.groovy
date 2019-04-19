@@ -23,5 +23,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'),
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Delete (8)'))
 
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Delete (7)'))
+
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_Poll deleted successfully (2)'))
 

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test remove video component</description>
-   <name>TC0594</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9fc888d1-8747-4a5f-8d48-60de775052ba</testCaseGuid>
-</TestCaseEntity>

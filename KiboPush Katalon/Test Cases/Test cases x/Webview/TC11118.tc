@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Edit Webview Default Action on Lists (Persistent Menu)</description>
-   <name>TC11118</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1383563d-66fd-4230-9b43-a987fd23e624</testCaseGuid>
-</TestCaseEntity>

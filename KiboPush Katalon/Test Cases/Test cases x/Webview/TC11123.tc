@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Remove Webview (Landing Pages)</description>
-   <name>TC11123</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c99e0466-c912-4ef0-be8a-e57c30cfb541</testCaseGuid>
-</TestCaseEntity>

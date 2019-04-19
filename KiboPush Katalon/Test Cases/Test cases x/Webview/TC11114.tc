@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Remove Webview (Persistent Menu)</description>
-   <name>TC11114</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>423b1813-f315-4fcd-bcce-5158deb302a9</testCaseGuid>
-</TestCaseEntity>

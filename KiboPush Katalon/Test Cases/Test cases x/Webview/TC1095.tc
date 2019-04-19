@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Webview on Main Menu</description>
-   <name>TC1095</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>884d1d7f-7672-4588-9f26-84f563375035</testCaseGuid>
-</TestCaseEntity>

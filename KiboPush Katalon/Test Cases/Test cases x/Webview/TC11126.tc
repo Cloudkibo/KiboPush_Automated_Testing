@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Webview Default Action on Lists (Landing Pages)</description>
-   <name>TC11126</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fe14f1df-5886-4bef-b4dd-6feece0a5348</testCaseGuid>
-</TestCaseEntity>

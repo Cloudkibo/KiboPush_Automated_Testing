@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Testing Webview Option in Templates</description>
-   <name>TC1099</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3b6a2d31-ecf7-41cb-ba6e-10cb22b7c23f</testCaseGuid>
-</TestCaseEntity>

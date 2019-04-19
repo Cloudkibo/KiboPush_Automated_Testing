@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create list with condition email is</description>
-   <name>TC0720</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>329bd919-5e29-4a93-9a95-5aaab72ebf86</testCaseGuid>
-</TestCaseEntity>

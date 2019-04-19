@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test view button in teams list</description>
-   <name>TC0969</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a6570a40-0073-402c-bd0c-d4841fee10d5</testCaseGuid>
-</TestCaseEntity>

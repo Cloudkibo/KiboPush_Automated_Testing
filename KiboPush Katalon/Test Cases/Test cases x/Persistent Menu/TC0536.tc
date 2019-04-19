@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Set up main menu item 1 (Open submenu)</description>
-   <name>TC0536</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1924f80d-8b78-448f-9b28-d74775efca69</testCaseGuid>
-</TestCaseEntity>

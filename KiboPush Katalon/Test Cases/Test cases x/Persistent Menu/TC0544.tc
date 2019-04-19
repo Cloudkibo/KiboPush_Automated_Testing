@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test add image component</description>
-   <name>TC0544</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>bc9617c6-bc9d-4369-896a-807cd374f7b5</testCaseGuid>
-</TestCaseEntity>

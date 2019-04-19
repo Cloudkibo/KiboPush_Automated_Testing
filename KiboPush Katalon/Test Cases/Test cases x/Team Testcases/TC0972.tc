@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test save button in edit screen with empty fields</description>
-   <name>TC0972</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fadab03b-58e7-4d3e-8497-b79df095c42b</testCaseGuid>
-</TestCaseEntity>

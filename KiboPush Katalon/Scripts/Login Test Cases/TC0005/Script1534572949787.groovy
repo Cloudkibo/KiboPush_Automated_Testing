@@ -23,13 +23,14 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://kibochat.cloudkibo.com/')
 
-WebUI.delay(2)
+WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com')
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/a_Login (4) (2) (2) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Login (10)'))
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/button_Sign In (10) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/div_Email is required'))
+WebUI.click(findTestObject('Page_KiboPush/button_Sign In (11)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush/div_Email is required.'))
 

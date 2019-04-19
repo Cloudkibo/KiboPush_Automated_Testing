@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Edit Webview (Persistent Menu)</description>
-   <name>TC11113</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>97a92463-b97a-4fe8-b444-dc77bb83740f</testCaseGuid>
-</TestCaseEntity>

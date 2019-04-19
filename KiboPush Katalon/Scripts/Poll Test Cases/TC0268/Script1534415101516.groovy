@@ -24,7 +24,6 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -32,10 +31,21 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New (1) (1)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_Use Template (1) (1) (1)'))
 
-WebUI.delay(2)
+WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Show Templates/select_Filter by Category...Al (1)'), 'Customer Behavior', 
+    true)
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Show Templates/select_Filter by CategoryAllCustomer BehaviorFeedbackEntertain and EngagePromotion UpdatesPlan EventsCustomer SatisfactionGreetingsSocial MessagePromotionsInformationFollow UpWelcomeGeneralreseachhellhelwqfacebookHoliday'), 
-    'Feedback', true)
+try {
+	WebElement data = driver.findElement(By.xpath('.//*[@id="m_widget4_tab1_content"]/div/div[1]/div[1]/span[2]'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Show Templates/span_Category Feedback'))
+	String[] arr = data.getText().split(',')
+
+	println(arr[0])
+
+	WebUI.verifyEqual(arr[0], 'Category: Customer Behavior')
+}
+catch (Exception e) {
+	e.printStackTrace()
+}
+
 

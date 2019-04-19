@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Adding Webview as Button Option in Persistent Menu Components</description>
-   <name>TC11110</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>5ecec7b9-9885-4462-a829-e7f1b5ee4c1d</testCaseGuid>
-</TestCaseEntity>

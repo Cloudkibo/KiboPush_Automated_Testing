@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create list with condition subscribed before</description>
-   <name>TC0739</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d8b9a8ea-518a-4a1a-9406-e01ceb540e69</testCaseGuid>
-</TestCaseEntity>

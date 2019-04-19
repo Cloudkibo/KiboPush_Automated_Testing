@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create list with condition phonenumber is</description>
-   <name>TC0726</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>b0dc312e-1087-4a9f-a4c2-450ec4dcdf1d</testCaseGuid>
-</TestCaseEntity>

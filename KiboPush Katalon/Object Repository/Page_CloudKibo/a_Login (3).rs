@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Login (3)</name>
    <tag></tag>
-   <elementGuidId>a34d6f12-5ace-49dc-812e-e423881ae058</elementGuidId>
+   <elementGuidId>158036eb-750e-457d-9aab-259b0236c764</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/login?continue=https://kiboapi.cloudkibo.com</value>
+      <value>/login?continue=http://skibolite.cloudkibo.com</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '/login?continue=https://kiboapi.cloudkibo.com')]</value>
+      <value>//a[contains(@href, '/login?continue=http://skibolite.cloudkibo.com')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

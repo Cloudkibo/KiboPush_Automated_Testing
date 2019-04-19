@@ -4,6 +4,7 @@
    <name>poll</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-03-05T10:23:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -71,6 +72,12 @@
       <testCaseId>Test Cases/Poll Test Cases/TC0267</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>4c210400-9c5d-4322-9079-dc3153421eac</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Poll Test Cases/TC0268</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>fb309a3c-c944-448f-8bf0-e7821928f23c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -119,6 +126,12 @@
       <testCaseId>Test Cases/Poll Test Cases/TC0283</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>815f5451-bc5e-46a4-a4ca-d6c1d9eab6ad</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Poll Test Cases/TC0284</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>be2a5429-c6ee-44b5-ab39-6b46693563ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -147,35 +160,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Poll Test Cases/TC0290</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c0f62a2d-43d8-490f-acbe-ba63e8378e85</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Poll Test Cases/TC11046</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>918b7224-6246-474a-b712-37e4c9baf1ba</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Poll Test Cases/TC11047</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a0f6f68c-77b6-4f8e-8b0f-b65c2330aea3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Poll Test Cases/TC11287</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>86421baf-eb7a-4f87-9aed-e491317e1814</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Poll Test Cases/TC11288</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6c056886-a0da-4518-b80a-53c17204e526</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Poll Test Cases/TC11289</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

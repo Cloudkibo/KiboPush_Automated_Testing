@@ -4,6 +4,7 @@
    <name>survey</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-03-05T11:50:28</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -69,6 +70,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0214</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>526604fa-57af-4d3c-8f14-be17156a6ace</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Survey Test Cases/TC0215</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>460f94b9-fbc7-4edc-abbd-9c6cb1d33cc9</guid>
@@ -173,6 +180,12 @@
       <testCaseId>Test Cases/Survey Test Cases/TC0239</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>28020958-1944-4879-8d4b-8f2ef573ff97</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Survey Test Cases/TC0240</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9a563f35-c41a-4741-9417-4e969ad03ec4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -201,23 +214,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0256</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c321d643-28a2-4368-8c41-b1d7179d9c66</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Survey Test Cases/TC11284</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>831f360a-d56e-49bb-88ef-e48371012d29</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Survey Test Cases/TC11285</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c02849a2-1547-42ea-b79d-ca4bdac6b9ea</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Survey Test Cases/TC11286</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

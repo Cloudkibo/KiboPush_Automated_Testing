@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Change Password (Same)</description>
-   <name>TC1023</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8daad4fe-c139-45b6-a3eb-370d8ada3bb8</testCaseGuid>
-</TestCaseEntity>

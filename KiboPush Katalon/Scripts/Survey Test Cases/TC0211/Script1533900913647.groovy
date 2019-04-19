@@ -22,7 +22,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-/*WebUI.delay(3)
+WebUI.delay(3)
 
 String date_page1 = getFirstRowDate()
 
@@ -71,5 +71,5 @@ String getFirstRowDate() {
     catch (Exception e) {
         KeywordUtil.markFailed('ERROR: No Table Present')
     } 
-}*/
+}
 

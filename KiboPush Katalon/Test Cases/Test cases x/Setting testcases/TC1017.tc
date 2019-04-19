@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Hide API secret</description>
-   <name>TC1017</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>67ff799f-f258-48b3-8df0-400914d43ae9</testCaseGuid>
-</TestCaseEntity>

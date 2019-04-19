@@ -14,8 +14,6 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0535'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
 WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Select a page_item-0'), 'Kibopush')
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/button_ Add Sub Menu'))

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test sequence messaging link</description>
-   <name>TC0066</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>236f354e-1ba8-417a-8bb3-097c65c5cc9a</testCaseGuid>
-</TestCaseEntity>

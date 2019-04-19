@@ -51,5 +51,10 @@ Date date1 = dateFormat.parse(date_page1)
 
 Date date2 = dateFormat.parse(date_page2)
 
+println(date1)
+println(date2)
+
+
+
 WebUI.verifyMatch('1', date1.compareTo(date2).toString(), false)
 

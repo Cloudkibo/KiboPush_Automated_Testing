@@ -21,15 +21,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboEngage  Polls/button_Create New'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_Use Template'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Use Template'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Show Templates/a_Create New Poll (3) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Create New Poll'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Poll/label_Ask something (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Poll/h3_Create Poll'))
 

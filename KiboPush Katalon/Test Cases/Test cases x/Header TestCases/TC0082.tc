@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Advanced Mode (when customer chat)</description>
-   <name>TC0082</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8166f99e-d69a-4cdc-ad08-5e75ecf98e75</testCaseGuid>
-</TestCaseEntity>

@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="inviteUsingPhoneNumber" time="452" tests="8" failures="2" errors="0">
+   <testsuite name="inviteUsingPhoneNumber" tests="8" failures="2" errors="0" time="452" timestamp="2019-04-11 11:45:06" hostname="cloudkibo-faizan - cloudkibo-faizan" id="Test Suites/inviteUsingPhoneNumber">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/cloudkibo-faizan/Drive/Katalon/Staging/Reports/inviteUsingPhoneNumber/20190411_114504"/>
+         <property name="logFiles" value="/home/cloudkibo-faizan/Drive/Katalon/Staging/Reports/inviteUsingPhoneNumber/20190411_114504/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cloudkibo-faizan - cloudkibo-faizan"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 73.0.3683.75"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="e343f695e53c075f76f26b39c3093038"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0919" classname="Test Cases/Invite Using Phone Number/TC0919" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:45:06 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0919: Test Cases/Invite Using Phone Number/TC0919
+
+2019-04-11 11:45:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:45:06 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:45:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:45:06 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:45:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:45:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:45:07 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-11 11:45:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:45:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:45:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:45:08 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:45:23 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:45:23 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:45:23 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:45:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:45:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:45:24 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:45:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:45:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:45:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:45:25 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:45:44 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:45:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:45:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:45:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:45:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:45:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:45:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:45:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:45:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:45:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:45:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_documentation (3)")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_documentation (3)' is clicked on
+
+2019-04-11 11:45:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_documentation (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0920" classname="Test Cases/Invite Using Phone Number/TC0920" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:45:48 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0920: Test Cases/Invite Using Phone Number/TC0920
+
+2019-04-11 11:45:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:45:49 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:45:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:45:49 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:45:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:45:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:45:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:45:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:45:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:45:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:45:49 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:45:59 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:45:59 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:46:00 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:46:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:46:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:46:01 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:46:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:46:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:46:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:46:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:46:01 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:46:20 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:46:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:46:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:46:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:46:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:46:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:46:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:46:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:46:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:46:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:46:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:46:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:46:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:46:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:46:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:46:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:46:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_video tutorial")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_video tutorial' is clicked on
+
+2019-04-11 11:46:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_video tutorial' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0921" classname="Test Cases/Invite Using Phone Number/TC0921" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:46:26 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0921: Test Cases/Invite Using Phone Number/TC0921
+
+2019-04-11 11:46:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:46:26 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:46:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:46:26 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:46:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:46:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:46:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:46:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:46:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:46:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:46:27 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:46:37 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:46:37 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:46:38 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:46:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:46:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:46:39 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:46:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:46:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:46:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:46:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:46:39 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:47:05 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:47:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:47:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:47:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:47:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:47:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:47:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:47:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:47:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:47:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:47:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:47:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:47:10 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-11 11:47:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-11 11:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/button_Enter phone numbers man (3)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (3)' is clicked on
+
+2019-04-11 11:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (3)' is clicked on
+
+2019-04-11 11:47:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush  Dashboard/input_form-control m-input m-i (4)"), "+923340226849"): Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4)'
+
+2019-04-11 11:47:12 - [MESSAGE][PASSED] - Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4)'
+
+2019-04-11 11:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/button_Submit (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Submit (1)' is clicked on
+
+2019-04-11 11:47:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Submit (1)' is clicked on
+
+2019-04-11 11:47:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/div_Contacts were invited to y (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/div_Contacts were invited to y (1)' is clicked on
+
+2019-04-11 11:47:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Contacts were invited to y (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0926" classname="Test Cases/Invite Using Phone Number/TC0926" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:47:13 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0926: Test Cases/Invite Using Phone Number/TC0926
+
+2019-04-11 11:47:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:47:13 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:47:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:47:13 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:47:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:47:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:47:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:47:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:47:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:47:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:47:14 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:47:25 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:47:25 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:47:26 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:47:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:47:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:47:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:47:27 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:47:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:47:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:47:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:47:27 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:47:58 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:47:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:47:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:48:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:48:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:48:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:48:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:48:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:48:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:48:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:48:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:48:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:48:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:48:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/button_Enter phone numbers man (1) (1) (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (1) (1) (1)' is clicked on
+
+2019-04-11 11:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (1) (1) (1)' is clicked on
+
+2019-04-11 11:48:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush  Dashboard/input_form-control m-input m-i (4) (1) (1)"), "+923340226849"): Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4) (1) (1)'
+
+2019-04-11 11:48:03 - [MESSAGE][PASSED] - Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4) (1) (1)'
+
+2019-04-11 11:48:03 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush  Dashboard/textarea_exampleTextarea (1)"), ""): Text '' is set on object 'Object Repository/Page_KiboPush  Dashboard/textarea_exampleTextarea (1)'
+
+2019-04-11 11:48:03 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_KiboPush  Dashboard/textarea_exampleTextarea (1)'
+
+2019-04-11 11:48:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:48:04 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0927" classname="Test Cases/Invite Using Phone Number/TC0927" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:48:04 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0927: Test Cases/Invite Using Phone Number/TC0927
+
+2019-04-11 11:48:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:48:05 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:48:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:48:05 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:48:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:48:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:48:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:48:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:48:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:48:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:48:05 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:48:18 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:48:18 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:48:18 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:48:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:48:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:48:19 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:48:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:48:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:48:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:48:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:48:19 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:48:59 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:48:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:49:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:49:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:49:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:49:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:49:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:49:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:49:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:49:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (2)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (2)' is clicked on
+
+2019-04-11 11:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (2)' is clicked on
+
+2019-04-11 11:49:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (2)"), "+923403630780"): Text '+923403630780' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (2)'
+
+2019-04-11 11:49:05 - [MESSAGE][PASSED] - Text '+923403630780' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (2)'
+
+2019-04-11 11:49:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Reset")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Reset' is clicked on
+
+2019-04-11 11:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Reset' is clicked on
+
+2019-04-11 11:49:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-11 11:49:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-11 11:49:07 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-11 11:49:07 - [TEST_STEP][PASSED] - button = driver.findElement(By.xpath("//*[@id="content"]/div/div/div/div[2]/div[4]/div[3]/div/div/div[2]/div[4]/div/div/div/button[2]")): null
+
+2019-04-11 11:49:07 - [TEST_STEP][PASSED] - if (button.isEnabled()): null
+
+2019-04-11 11:49:07 - [TEST_STEP][PASSED] - else: Actual object '0' and expected object '0' are equal
+
+2019-04-11 11:49:07 - [TEST_STEP][PASSED] - verifyEqual("0", "0"): Actual object '0' and expected object '0' are equal
+
+2019-04-11 11:49:07 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0928-viewCustomers" classname="Test Cases/Invite Using Phone Number/TC0928-viewCustomers" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:49:07 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928-viewCustomers: Test Cases/Invite Using Phone Number/TC0928-viewCustomers
+
+2019-04-11 11:49:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:49:07 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:49:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:49:08 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:49:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:49:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:49:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:49:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:49:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:49:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:49:08 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:49:22 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:49:22 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:49:22 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:49:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:49:23 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:49:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:49:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:49:23 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:49:37 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:49:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:49:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:49:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:49:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:49:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:49:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:49:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:49:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:49:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:49:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-11 11:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-11 11:49:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-11 11:49:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-11 11:49:44 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-11 11:49:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-11 11:49:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists")): Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-11 11:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0928" classname="Test Cases/Invite Using Phone Number/TC0928" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:49:44 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928: Test Cases/Invite Using Phone Number/TC0928
+
+2019-04-11 11:49:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:49:44 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:49:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:49:44 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:49:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:49:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:49:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:49:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:49:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:49:45 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:49:45 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:49:58 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:49:58 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:49:58 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:49:59 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:49:59 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:49:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:50:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:50:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:50:00 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:50:14 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:50:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:50:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:50:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:50:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:50:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:50:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:50:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:50:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:50:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:50:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:50:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:50:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Download Sample CSV fil")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Download Sample CSV fil' is clicked on
+
+2019-04-11 11:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Download Sample CSV fil' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0929" classname="Test Cases/Invite Using Phone Number/TC0929" status="PASSED">
+         <system-out><![CDATA[2019-04-11 11:50:19 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0929: Test Cases/Invite Using Phone Number/TC0929
+
+2019-04-11 11:50:19 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:50:20 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:50:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:50:20 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:50:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:50:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:50:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:50:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:50:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:50:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:50:20 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:50:31 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:50:31 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:50:32 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:50:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:50:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:50:33 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:50:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:50:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:50:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:50:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:50:33 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:50:50 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:50:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:50:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:50:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:50:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:50:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:50:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:50:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:50:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:50:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:50:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists (1)' is clicked on
+
+2019-04-11 11:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists (1)' is clicked on
+
+2019-04-11 11:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Customer Lists (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Customer Lists (1)' is clicked on
+
+2019-04-11 11:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Customer Lists (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0930" classname="Test Cases/Invite Using Phone Number/TC0930" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Invite Using Phone Number/TC0930 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-11 11:50:55 - [TEST_CASE][FAILED] - Test Cases/Invite Using Phone Number/TC0930: Test Cases/Invite Using Phone Number/TC0930 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+
+
+2019-04-11 11:50:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Invite Using Phone Number/TC0928-viewCustomers"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-11 11:50:55 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928-viewCustomers: Test Cases/Invite Using Phone Number/TC0928-viewCustomers
+
+2019-04-11 11:50:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:50:55 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:50:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:50:55 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:50:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:50:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:50:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:50:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:50:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:50:56 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:50:56 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:51:05 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:51:05 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:51:05 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:51:06 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:51:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:51:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:51:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:51:07 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:51:28 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:51:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:51:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:51:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:51:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:51:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:51:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:51:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:51:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:51:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:51:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:51:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-11 11:51:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-11 11:51:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-11 11:51:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-11 11:51:36 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists")): Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-11 11:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-11 11:51:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - Table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-11 11:51:36 - [TEST_STEP][FAILED] - verifyGreaterThanOrEqual(Table.size(), 5): verifyGreaterThanOrEqual(Table.size(), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+
+
+2019-04-11 11:51:36 - [MESSAGE][FAILED] - Unable to verify actual number '1' greater than or equal with expected number '5' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+)
+
+2019-04-11 11:51:36 - [MESSAGE][FAILED] - verifyGreaterThanOrEqual(Table.size(), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-11 11:50:55 - [TEST_CASE][FAILED] - Test Cases/Invite Using Phone Number/TC0930: Test Cases/Invite Using Phone Number/TC0930 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0938" classname="Test Cases/Invite Using Phone Number/TC0938" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Invite Using Phone Number/TC0938 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+"/>
+         <system-out><![CDATA[2019-04-11 11:51:36 - [TEST_CASE][FAILED] - Test Cases/Invite Using Phone Number/TC0938: Test Cases/Invite Using Phone Number/TC0938 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2019-04-11 11:51:36 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Invite Using Phone Number/TC0930"), [:], STOP_ON_FAILURE): callTestCase(findTestCase("Invite Using Phone Number/TC0930"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+
+
+2019-04-11 11:51:36 - [TEST_CASE][FAILED] - Test Cases/Invite Using Phone Number/TC0930: Test Cases/Invite Using Phone Number/TC0930 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Invite Using Phone Number/TC0928-viewCustomers"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-11 11:51:36 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928-viewCustomers: Test Cases/Invite Using Phone Number/TC0928-viewCustomers
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:51:36 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Login-KiboEngage"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:51:36 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage: Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage
+
+2019-04-11 11:51:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-11 11:51:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-11 11:51:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-11 11:51:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-11 11:51:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-11 11:51:37 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-11 11:51:37 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/"): Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:51:48 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/' successfully
+
+2019-04-11 11:51:48 - [TEST_STEP][PASSED] - navigateToUrl("https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com"): Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:51:49 - [MESSAGE][PASSED] - Navigate to 'https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com' successfully
+
+2019-04-11 11:51:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1)' is clicked on
+
+2019-04-11 11:51:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizanrasheed4@gmail.com"): Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:51:50 - [MESSAGE][PASSED] - Text 'faizanrasheed4@gmail.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-11 11:51:50 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (2)"), "GYDmRgS5yd5PL6pQTxDpCg=="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:51:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (2)'
+
+2019-04-11 11:51:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-11 11:51:50 - [TEST_STEP][PASSED] - navigateToUrl("https://skiboengage.cloudkibo.com/dashboard"): Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:52:30 - [MESSAGE][PASSED] - Navigate to 'https://skiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-11 11:52:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-11 11:52:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-11 11:52:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-11 11:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)' is clicked on
+
+2019-04-11 11:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)' is clicked on
+
+2019-04-11 11:52:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Login-KiboEngage' successfully
+
+2019-04-11 11:52:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Growth Tools")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:52:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools' is clicked on
+
+2019-04-11 11:52:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:52:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:52:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-11 11:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-11 11:52:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-11 11:52:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-11 11:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-11 11:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-11 11:52:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-11 11:52:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-11 11:52:38 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-11 11:52:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-11 11:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists")): Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-11 11:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-11 11:52:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-11 11:52:38 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-11 11:52:38 - [TEST_STEP][PASSED] - Table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-11 11:52:38 - [TEST_STEP][FAILED] - verifyGreaterThanOrEqual(Table.size(), 5): verifyGreaterThanOrEqual(Table.size(), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+
+
+2019-04-11 11:52:38 - [MESSAGE][FAILED] - Unable to verify actual number '1' greater than or equal with expected number '5' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+)
+
+2019-04-11 11:52:38 - [MESSAGE][FAILED] - verifyGreaterThanOrEqual(Table.size(), 5) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+
+
+2019-04-11 11:52:38 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Invite Using Phone Number/TC0930' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+)
+
+2019-04-11 11:52:38 - [MESSAGE][FAILED] - callTestCase(findTestCase("Invite Using Phone Number/TC0930"), [:], STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-out>
+         <system-err><![CDATA[2019-04-11 11:51:36 - [TEST_CASE][FAILED] - Test Cases/Invite Using Phone Number/TC0938: Test Cases/Invite Using Phone Number/TC0938 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at TC0938.run(TC0938:23)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:114)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-11 11:45:06 - [TEST_SUITE][FAILED] - inviteUsingPhoneNumber: Test Cases/Invite Using Phone Number/TC0930 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-11 11:45:06 - [TEST_SUITE][FAILED] - inviteUsingPhoneNumber: Test Cases/Invite Using Phone Number/TC0930 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual number '1' is NOT greater than or equal to expected number '5'
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.doCall(VerifyGreaterThanOrEqualKeyword.groovy:54)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword$_verifyGreaterThanOrEqual_closure1.call(VerifyGreaterThanOrEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:66)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.verifyGreaterThanOrEqual(VerifyGreaterThanOrEqualKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyGreaterThanOrEqualKeyword.execute(VerifyGreaterThanOrEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyGreaterThanOrEqual(BuiltinKeywords.groovy:230)
+	at TC0930.run(TC0930:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554965104706.run(TempTestSuite1554965104706.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

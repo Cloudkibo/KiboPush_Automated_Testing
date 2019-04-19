@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Remove Webview (Welcome Message)</description>
-   <name>TC11132</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c60e3830-d5ef-4700-baa7-3908a6ec5912</testCaseGuid>
-</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test create list with condition page is</description>
-   <name>TC0723</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c56b8e4f-9959-47d0-a95a-a6e1822a91e2</testCaseGuid>
-</TestCaseEntity>

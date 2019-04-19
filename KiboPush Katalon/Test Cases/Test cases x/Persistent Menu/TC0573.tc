@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test set audio component as reply</description>
-   <name>TC0573</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6e547488-5a1b-4c31-9237-b63533fbf01a</testCaseGuid>
-</TestCaseEntity>
