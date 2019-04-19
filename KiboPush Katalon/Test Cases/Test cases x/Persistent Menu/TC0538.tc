@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add text component</description>
+   <name>TC0538</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca20d1a4-a896-4e68-b4c1-612f19413aea</testCaseGuid>
+</TestCaseEntity>

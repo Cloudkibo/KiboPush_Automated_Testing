@@ -11,21 +11,33 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>786e9e58-2aa0-496c-ae8a-b8906557d7b6</testSuiteGuid>
    <testCaseLink>
-      <guid>ab133317-45e2-43ca-9cde-9d12982e3c06</guid>
+      <guid>c2941151-bbfc-4984-a1a4-ac67d9ec798a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91090906-f497-4e3c-8ef6-a015e20dac93</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Invite subscribers/open growth tools</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab133317-45e2-43ca-9cde-9d12982e3c06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Invite subscribers/TC0678</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>22a3daa9-86e2-4202-b2a3-50e68284eac0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Invite subscribers/TC0679</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9bd9f158-b5b1-430a-9f68-8b09b91036a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Invite subscribers/TC0680</testCaseId>
    </testCaseLink>
    <testCaseLink>

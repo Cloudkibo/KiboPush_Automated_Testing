@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/but
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Comment Capture/button_delete_object'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/div_Post has been deleted'))
+//WebUI.click(findTestObject('Page_KiboPush  Comment Capture/button_delete_object'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/div_Post has been deleted'))
 

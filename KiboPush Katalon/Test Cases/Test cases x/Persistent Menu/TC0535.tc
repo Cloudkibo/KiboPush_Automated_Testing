@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Set up main menu item 1 (Change title)</description>
+   <name>TC0535</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f486f42c-bf7c-46d9-a2be-b754bec4994a</testCaseGuid>
+</TestCaseEntity>

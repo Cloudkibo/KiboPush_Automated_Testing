@@ -21,7 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Subscriber TestCases/TC0678'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Invite Subscribers/h3_Invite Subscribers'))
-
 WebUI.click(findTestObject('Page_KiboPush  Invite Subscribers/span_Share Page'))
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Cancel Button on Webview option in Button Popover (Welcome Message)</description>
+   <name>TC11130</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ab8177f-4490-45e0-b688-d970ed22e1ab</testCaseGuid>
+</TestCaseEntity>

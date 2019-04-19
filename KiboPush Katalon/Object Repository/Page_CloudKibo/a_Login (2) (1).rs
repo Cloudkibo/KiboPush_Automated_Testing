@@ -3,11 +3,11 @@
    <description></description>
    <name>a_Login (2) (1)</name>
    <tag></tag>
-   <elementGuidId>685002a8-60d8-4246-b937-6a047ee6cd49</elementGuidId>
+   <elementGuidId>e37d2777-8368-41e4-8b65-81bf7d68dc86</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = '/login?continue=https://skiboengage.cloudkibo.com' and (text() = '
+         <value>//a[@class = 'btn btn-focus m-btn m-btn--pill m-btn--custom m-btn--air' and (text() = '
                                 Login
                             ' or . = '
                                 Login
@@ -24,14 +24,14 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/login?continue=https://skiboengage.cloudkibo.com</value>
+      <value>/login?continue=https://kiboengage.cloudkibo.com</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -87,7 +87,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
-      <value>//a[contains(@href, '/login?continue=https://skiboengage.cloudkibo.com')]</value>
+      <value>//a[contains(@href, '/login?continue=https://kiboengage.cloudkibo.com')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

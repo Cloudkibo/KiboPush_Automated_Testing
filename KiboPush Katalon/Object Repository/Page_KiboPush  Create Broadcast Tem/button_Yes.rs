@@ -4,17 +4,6 @@
    <name>button_Yes</name>
    <tag></tag>
    <elementGuidId>9bd730ee-64bf-4b7b-9d53-caa55b4a9f06</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[5]/div/div[2]/div/button[1]
-</value>
-      </entry>
-   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

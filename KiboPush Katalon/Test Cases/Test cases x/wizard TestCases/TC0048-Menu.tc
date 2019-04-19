@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add main menu items</description>
+   <name>TC0048-Menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f8a91232-5e05-463c-b407-93aa5d1e3a37</testCaseGuid>
+</TestCaseEntity>

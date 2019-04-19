@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Remove Webview</description>
+   <name>TC1089</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b1a6ce9f-f514-484b-823c-469db2981356</testCaseGuid>
+</TestCaseEntity>

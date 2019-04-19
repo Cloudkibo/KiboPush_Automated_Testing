@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Remove nested menu</description>
+   <name>TC0612</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82c4dbf7-bd2e-4302-a01b-2df4a6c0e134</testCaseGuid>
+</TestCaseEntity>

@@ -19,7 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Growth Tools'))
+
+WebUI.delay(1)
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Invite using Phone Number'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_View Customers Lists (1)'))
 
