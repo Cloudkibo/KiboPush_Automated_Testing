@@ -14,6 +14,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/open_popover'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Page_KiboPush  Menu/input_Open a submenu_replyWith'))
 
 WebUI.delay(1)

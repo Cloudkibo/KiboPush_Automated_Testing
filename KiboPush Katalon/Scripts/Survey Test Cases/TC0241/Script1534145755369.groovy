@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Survey/button_View (2)'))
+/*WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Survey/button_View'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Survey/b_Description'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  View Survey Details/b_Description'))*/
 

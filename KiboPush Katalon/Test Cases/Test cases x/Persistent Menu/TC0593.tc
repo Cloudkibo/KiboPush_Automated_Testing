@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove audio component</description>
+   <name>TC0593</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19a6c02f-aacd-4959-b290-75a91d8508f3</testCaseGuid>
+</TestCaseEntity>

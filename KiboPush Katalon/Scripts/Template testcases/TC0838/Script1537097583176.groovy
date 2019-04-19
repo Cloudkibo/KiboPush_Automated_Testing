@@ -22,7 +22,6 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,15 +29,10 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast 
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement title1 = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[1]/div/div[3]/div[1]/center/input'))
+WebElement   title = driver.findElement(By.xpath('//*[@id="List1"]/div[1]/div/div[3]/div[2]/div/div[2]/div[1]/center/input'))
 
-title1.sendKeys('abc')
-
-WebElement title2 = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/div/div[3]/div[1]/center/input'))
-
-title2.sendKeys('abc')
-
-WebUI.scrollToPosition(0, 0)
+title.sendKeys("abc")
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (13)'))
+
 

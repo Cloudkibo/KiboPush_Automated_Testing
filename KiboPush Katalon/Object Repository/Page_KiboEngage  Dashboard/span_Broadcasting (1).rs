@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Broadcasting (1)</name>
    <tag></tag>
-   <elementGuidId>b31e1828-f143-49da-8121-12c83df2dcaa</elementGuidId>
+   <elementGuidId>bbadcc9b-5f6e-4c36-a3ae-0837b94c9877</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

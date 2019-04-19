@@ -21,21 +21,18 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New'))
+WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New (4) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey'))
+WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey (2) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/input_form-control'), 'hi')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/textarea_form-control'), 'b')
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1) (1)'), 'hi')
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/textarea_b'), 'by')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/textarea_by'), 'bye')
-
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Add Questions'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Create Survey'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/div_Please fill all the fields'))
+WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Add Questions (2)'))
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Add Survey/button_Next (1)'))
 

@@ -19,11 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -33,62 +28,46 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/img'), img)
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/svg'))
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (3)'), 'hi')
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control'), 'hello')
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement title = driver.findElement(By.xpath('//*[@id="List1"]/div[1]/div/div[3]/div[2]/input'))
-
-title.sendKeys('hello')
-
-WebUI.delay(1)
-
-WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/textarea'))
-
-textArea.sendKeys('hello')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (8)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website'))
+
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done'))
+
+WebUI.delay(2)
+
 
 WebUI.verifyTextPresent('google', false)
 
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
+
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'gmail')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.gmail.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (8)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
 
 WebUI.delay(2)
-
-WebUI.verifyTextPresent('gmail', false)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
 
 

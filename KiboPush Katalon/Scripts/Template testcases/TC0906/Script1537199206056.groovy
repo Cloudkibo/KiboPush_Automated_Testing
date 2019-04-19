@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Template testcases/TC0899'), [:], FailureHandli
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/button_ Add category'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control (5)'), 'hellooo')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Poll/input_form-control (5)'), 'hell')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/button_Save (1)'))
 

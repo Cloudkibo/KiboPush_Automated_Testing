@@ -1,0 +1,113 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sidebar,Chrome 73.0.3683.86,,2019-04-12 15:05:46,2019-04-12 15:11:25,5m - 39.000s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11059,Chrome 73.0.3683.86,,2019-04-12 15:05:46,2019-04-12 15:07:05,1m - 18.972s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:05:46,2019-04-12 15:07:05,1m - 18.819s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0067,Chrome 73.0.3683.86,Test Templates link,2019-04-12 15:07:05,2019-04-12 15:07:06,0.885s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:05,2019-04-12 15:07:06,0.815s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0076,Chrome 73.0.3683.86,Test settings link,2019-04-12 15:07:06,2019-04-12 15:07:07,0.831s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:06,2019-04-12 15:07:07,0.766s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11062,Chrome 73.0.3683.86,,2019-04-12 15:07:07,2019-04-12 15:07:07,0.839s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:07,2019-04-12 15:07:07,0.784s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0055,Chrome 73.0.3683.86,Test Dahboard link,2019-04-12 15:07:07,2019-04-12 15:07:55,47.609s,PASSED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:07,2019-04-12 15:07:55,47.553s,PASSED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0075,Chrome 73.0.3683.86,Test Members link,2019-04-12 15:07:55,2019-04-12 15:07:56,0.812s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:55,2019-04-12 15:07:56,0.754s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0065,Chrome 73.0.3683.86,Test subscribers link,2019-04-12 15:07:56,2019-04-12 15:07:57,0.863s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:56,2019-04-12 15:07:57,0.803s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0061,Chrome 73.0.3683.86,Test live chat link,2019-04-12 15:07:57,2019-04-12 15:07:57,0.762s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login-KiboChat""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:57,2019-04-12 15:07:57,0.713s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11056,Chrome 73.0.3683.86,,2019-04-12 15:07:57,2019-04-12 15:07:58,0.836s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:57,2019-04-12 15:07:58,0.789s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0077,Chrome 73.0.3683.86,Test User Guide link,2019-04-12 15:07:58,2019-04-12 15:07:59,0.782s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:58,2019-04-12 15:07:59,0.735s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0064,Chrome 73.0.3683.86,Test manage pages link,2019-04-12 15:07:59,2019-04-12 15:08:00,0.737s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:07:59,2019-04-12 15:08:00,0.685s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0073,Chrome 73.0.3683.86,Test Teams link,2019-04-12 15:08:00,2019-04-12 15:08:01,0.776s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:00,2019-04-12 15:08:01,0.726s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0062,Chrome 73.0.3683.86,Test autoposting link,2019-04-12 15:08:01,2019-04-12 15:08:01,0.796s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:01,2019-04-12 15:08:01,0.741s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0056,Chrome 73.0.3683.86,Test Broadcasts link,2019-04-12 15:08:01,2019-04-12 15:08:32,30.980s,PASSED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:01,2019-04-12 15:08:32,30.938s,PASSED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0057,Chrome 73.0.3683.86,Test comment capture link,2019-04-12 15:08:32,2019-04-12 15:08:33,0.811s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:32,2019-04-12 15:08:33,0.761s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11060,Chrome 73.0.3683.86,,2019-04-12 15:08:33,2019-04-12 15:08:34,0.812s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:33,2019-04-12 15:08:34,0.767s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/Login,Chrome 73.0.3683.86,,2019-04-12 15:08:34,2019-04-12 15:08:35,0.748s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil - Staging""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:34,2019-04-12 15:08:35,0.700s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0060,Chrome 73.0.3683.86,Test smart replies link,2019-04-12 15:08:35,2019-04-12 15:08:35,0.721s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login-KiboChat""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:35,2019-04-12 15:08:35,0.678s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11108,Chrome 73.0.3683.86,,2019-04-12 15:08:35,2019-04-12 15:09:17,41.413s,PASSED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:08:35,2019-04-12 15:09:17,41.370s,PASSED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11057,Chrome 73.0.3683.86,,2019-04-12 15:09:17,2019-04-12 15:09:18,0.797s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:09:17,2019-04-12 15:09:18,0.736s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0074,Chrome 73.0.3683.86,Test Member link,2019-04-12 15:09:18,2019-04-12 15:09:18,0.714s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Team-Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:09:18,2019-04-12 15:09:18,0.670s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/Team-Login,Chrome 73.0.3683.86,,2019-04-12 15:09:18,2019-04-12 15:09:19,0.600s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-12 15:09:18,2019-04-12 15:09:19,0.338s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-12 15:09:19,2019-04-12 15:09:19,0.218s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0063,Chrome 73.0.3683.86,Test persistent menu link,2019-04-12 15:09:19,2019-04-12 15:09:20,0.786s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:09:19,2019-04-12 15:09:20,0.736s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0072,Chrome 73.0.3683.86,Test Teams link,2019-04-12 15:09:20,2019-04-12 15:09:20,0.709s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Team-Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:09:20,2019-04-12 15:09:20,0.663s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0058,Chrome 73.0.3683.86,Test surveys link,2019-04-12 15:09:20,2019-04-12 15:10:00,39.676s,PASSED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:09:21,2019-04-12 15:10:00,39.629s,PASSED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11054,Chrome 73.0.3683.86,,2019-04-12 15:10:00,2019-04-12 15:10:01,0.797s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:00,2019-04-12 15:10:01,0.750s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11058,Chrome 73.0.3683.86,,2019-04-12 15:10:01,2019-04-12 15:10:02,0.795s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:01,2019-04-12 15:10:02,0.743s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0069,Chrome 73.0.3683.86,Test invite teams link,2019-04-12 15:10:02,2019-04-12 15:10:02,0.657s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-12 15:10:02,2019-04-12 15:10:02,0.373s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-12 15:10:02,2019-04-12 15:10:02,0.230s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0068,Chrome 73.0.3683.86,Test invite teams link,2019-04-12 15:10:02,2019-04-12 15:10:32,29.134s,PASSED
+"callTestCase(findTestCase(""SideBar TestCases/Team-Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:02,2019-04-12 15:10:32,29.094s,PASSED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11055,Chrome 73.0.3683.86,,2019-04-12 15:10:32,2019-04-12 15:10:32,0.777s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:32,2019-04-12 15:10:32,0.727s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0071,Chrome 73.0.3683.86,Test invite teams link,2019-04-12 15:10:32,2019-04-12 15:10:33,0.739s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:32,2019-04-12 15:10:33,0.694s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC11061,Chrome 73.0.3683.86,,2019-04-12 15:10:33,2019-04-12 15:10:34,0.797s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:33,2019-04-12 15:10:34,0.748s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0054,Chrome 73.0.3683.86,Test Operational Dashboard link,2019-04-12 15:10:34,2019-04-12 15:10:35,0.838s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:34,2019-04-12 15:10:35,0.797s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0070,Chrome 73.0.3683.86,Test invite teams link,2019-04-12 15:10:35,2019-04-12 15:10:35,0.690s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-12 15:10:35,2019-04-12 15:10:35,0.427s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-12 15:10:35,2019-04-12 15:10:35,0.219s,FAILED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0059,Chrome 73.0.3683.86,Test polls link,2019-04-12 15:10:35,2019-04-12 15:11:24,48.397s,PASSED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:10:35,2019-04-12 15:11:24,48.355s,PASSED
+,,,,,,
+Test Cases/Test cases x/SideBar TestCases/TC0066,Chrome 73.0.3683.86,Test sequence messaging link,2019-04-12 15:11:24,2019-04-12 15:11:25,0.789s,FAILED
+"callTestCase(findTestCase(""SideBar TestCases/Login""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-12 15:11:24,2019-04-12 15:11:25,0.723s,FAILED

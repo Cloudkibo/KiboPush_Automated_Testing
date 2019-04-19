@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Messenger Code</name>
    <tag></tag>
-   <elementGuidId>d0fafc69-5be4-4e70-a39f-515adb381d16</elementGuidId>
+   <elementGuidId>f39a293e-bd4f-407f-96a5-cefa803c2108</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -38,7 +38,7 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='mCSB_2_container']/ul/li[5]/div/ul/li[5]/a/span</value>
+      <value>//div[@id='mCSB_2_container']/ul/li[6]/div/ul/li[5]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,12 +62,12 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Messenger Ref URL'])[1]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Landing Pages'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//li[5]/div/ul/li[5]/a/span</value>
+      <value>//li[6]/div/ul/li[5]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -27,7 +27,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Create New (2)'))
+/*WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Create New (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Use Template (1) (1) (1) (1)'))
 
@@ -45,5 +45,5 @@ try {
 }
 catch (Exception e) {
 	e.printStackTrace()
-}
+}*/
 

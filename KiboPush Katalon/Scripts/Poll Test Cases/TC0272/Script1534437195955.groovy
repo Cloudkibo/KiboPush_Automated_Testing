@@ -18,14 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/button_Create Poll (1)'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/div_You have either left one o'))
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Next'))
 

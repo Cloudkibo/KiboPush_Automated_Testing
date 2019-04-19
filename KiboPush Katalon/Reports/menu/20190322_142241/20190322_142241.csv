@@ -1,0 +1,360 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+menu,Chrome 73.0.3683.86,,2019-03-22 14:22:43,2019-03-22 14:47:34,24m - 51.258s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0533,Chrome 73.0.3683.86,Test documentation link,2019-03-22 14:22:43,2019-03-22 14:23:28,45.126s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/Go_to_menu_item""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:22:43,2019-03-22 14:23:23,39.678s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:23:23,2019-03-22 14:23:26,3.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Menu/a_documentation""))",Chrome 73.0.3683.86,,2019-03-22 14:23:26,2019-03-22 14:23:26,0.136s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:23:26,2019-03-22 14:23:28,2.002s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0534,Chrome 73.0.3683.86,Test video tutorial,2019-03-22 14:23:28,2019-03-22 14:24:48,1m - 19.699s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/Go_to_menu_item""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:23:28,2019-03-22 14:24:11,42.435s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:24:11,2019-03-22 14:24:14,3.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/a_video tutorial""))",Chrome 73.0.3683.86,,2019-03-22 14:24:14,2019-03-22 14:24:14,0.140s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:24:14,2019-03-22 14:24:17,3.006s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/div_Powered by_narcissus_17w311v""))",Chrome 73.0.3683.86,,2019-03-22 14:24:17,2019-03-22 14:24:48,31.040s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0535,Chrome 73.0.3683.86,Set up main menu item 1 (Change title),2019-03-22 14:24:48,2019-03-22 14:25:33,45.485s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:24:48,2019-03-22 14:25:30,42.238s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:25:30,2019-03-22 14:25:33,3.002s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/input_Select a page_item-0""), ""Kibopush"")",Chrome 73.0.3683.86,,2019-03-22 14:25:33,2019-03-22 14:25:33,0.163s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0536,Chrome 73.0.3683.86,Set up main menu item 1 (Open submenu),2019-03-22 14:25:33,2019-03-22 14:26:27,53.237s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0535""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:25:33,2019-03-22 14:26:22,48.826s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:26:22,2019-03-22 14:26:24,2.002s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/input_Select a page_item-0""), ""Kibopush"")",Chrome 73.0.3683.86,,2019-03-22 14:26:24,2019-03-22 14:26:24,0.234s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_ Add Sub Menu""))",Chrome 73.0.3683.86,,2019-03-22 14:26:24,2019-03-22 14:26:25,0.109s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:26:25,2019-03-22 14:26:27,2.002s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0537,Chrome 73.0.3683.86,Set up main menu item 1 (Go to create message),2019-03-22 14:26:27,2019-03-22 14:27:30,1m - 3.178s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:26:27,2019-03-22 14:27:24,56.928s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:27:24,2019-03-22 14:27:27,3.004s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/input_Open a submenu_replyWith""))",Chrome 73.0.3683.86,,2019-03-22 14:27:27,2019-03-22 14:27:27,0.071s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-03-22 14:27:27,2019-03-22 14:27:28,1.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/a_Create Message""))",Chrome 73.0.3683.86,,2019-03-22 14:27:28,2019-03-22 14:27:28,0.105s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:27:28,2019-03-22 14:27:30,2.002s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0538,Chrome 73.0.3683.86,Test add text component,2019-03-22 14:27:30,2019-03-22 14:28:22,52.692s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:27:30,2019-03-22 14:28:20,50.475s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:28:20,2019-03-22 14:28:22,2.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Menu/div_Text""))",Chrome 73.0.3683.86,,2019-03-22 14:28:22,2019-03-22 14:28:22,0.110s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0539,Chrome 73.0.3683.86,Test text validation,2019-03-22 14:28:22,2019-03-22 14:29:14,51.747s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:28:22,2019-03-22 14:29:12,49.460s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:29:12,2019-03-22 14:29:14,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Save""))",Chrome 73.0.3683.86,,2019-03-22 14:29:14,2019-03-22 14:29:14,0.108s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Text cannot be empty""))",Chrome 73.0.3683.86,,2019-03-22 14:29:14,2019-03-22 14:29:14,0.091s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0540,Chrome 73.0.3683.86,Test add button in text component,2019-03-22 14:29:14,2019-03-22 14:30:20,1m - 6.300s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:29:14,2019-03-22 14:30:12,57.441s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:30:12,2019-03-22 14:30:14,2.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Menu/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-03-22 14:30:14,2019-03-22 14:30:14,0.142s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:30:14,2019-03-22 14:30:16,2.006s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/input_Button Title_form-contro""), ""Button1"")",Chrome 73.0.3683.86,,2019-03-22 14:30:16,2019-03-22 14:30:16,0.160s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Menu/h7_Open a website""))",Chrome 73.0.3683.86,,2019-03-22 14:30:16,2019-03-22 14:30:16,0.105s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:30:16,2019-03-22 14:30:18,2.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/input_Open Website_form-contro""), ""www.google.com"")",Chrome 73.0.3683.86,,2019-03-22 14:30:18,2019-03-22 14:30:18,0.255s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Menu/button_Done""))",Chrome 73.0.3683.86,,2019-03-22 14:30:18,2019-03-22 14:30:18,0.100s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:30:18,2019-03-22 14:30:20,2.001s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0541,Chrome 73.0.3683.86,Test set text component as reply,2019-03-22 14:30:20,2019-03-22 14:31:24,1m - 3.815s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:30:21,2019-03-22 14:31:19,58.386s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:31:19,2019-03-22 14:31:21,2.003s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/Text Component Text""), ""hello"")",Chrome 73.0.3683.86,,2019-03-22 14:31:21,2019-03-22 14:31:21,0.211s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:31:21,2019-03-22 14:31:23,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Save (1)""))",Chrome 73.0.3683.86,,2019-03-22 14:31:23,2019-03-22 14:31:23,0.086s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-03-22 14:31:23,2019-03-22 14:31:24,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Message Saved Successfully""))",Chrome 73.0.3683.86,,2019-03-22 14:31:24,2019-03-22 14:31:24,0.061s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0542,Chrome 73.0.3683.86,Test settext component with button as reply,2019-03-22 14:31:24,2019-03-22 14:32:29,1m - 4.876s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:31:24,2019-03-22 14:32:17,52.551s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:32:17,2019-03-22 14:32:19,2.025s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/Text Component Text (1)""), ""hello"")",Chrome 73.0.3683.86,,2019-03-22 14:32:19,2019-03-22 14:32:19,0.204s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:32:19,2019-03-22 14:32:21,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-03-22 14:32:21,2019-03-22 14:32:21,0.098s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:32:21,2019-03-22 14:32:23,2.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/input_Button Title_form-contro (1)""), ""Button1"")",Chrome 73.0.3683.86,,2019-03-22 14:32:23,2019-03-22 14:32:23,0.153s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h7_Open a website""))",Chrome 73.0.3683.86,,2019-03-22 14:32:23,2019-03-22 14:32:24,0.124s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:32:24,2019-03-22 14:32:26,2.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/input_Open Website_form-contro (1)""), ""www.google.com"")",Chrome 73.0.3683.86,,2019-03-22 14:32:26,2019-03-22 14:32:26,0.320s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_Done""))",Chrome 73.0.3683.86,,2019-03-22 14:32:26,2019-03-22 14:32:26,0.154s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:32:26,2019-03-22 14:32:28,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Save (1)""))",Chrome 73.0.3683.86,,2019-03-22 14:32:28,2019-03-22 14:32:28,0.077s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-03-22 14:32:28,2019-03-22 14:32:29,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Message Saved Successfully""))",Chrome 73.0.3683.86,,2019-03-22 14:32:29,2019-03-22 14:32:29,0.055s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0543,Chrome 73.0.3683.86,Test set text component with multiple buttons,2019-03-22 14:32:29,2019-03-22 14:33:46,1m - 16.620s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0542""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:32:29,2019-03-22 14:33:34,1m - 5.122s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:33:34,2019-03-22 14:33:36,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h6_ Add Button (2)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:36,2019-03-22 14:33:36,0.111s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/input_Button Title_form-contro (3)""), ""Button2"")",Chrome 73.0.3683.86,,2019-03-22 14:33:36,2019-03-22 14:33:37,0.170s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:33:37,2019-03-22 14:33:39,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h7_Open a website (3)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:39,2019-03-22 14:33:39,0.078s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/input_Open Website_form-contro (3)""), ""www.kibopush.com"")",Chrome 73.0.3683.86,,2019-03-22 14:33:39,2019-03-22 14:33:39,0.231s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_Done (7)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:39,2019-03-22 14:33:39,0.066s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:33:39,2019-03-22 14:33:41,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h6_ Add Button (2)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:41,2019-03-22 14:33:41,0.075s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/input_Button Title_form-contro (3)""), ""Button3"")",Chrome 73.0.3683.86,,2019-03-22 14:33:41,2019-03-22 14:33:41,0.150s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:33:41,2019-03-22 14:33:43,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h7_Open a website (3)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:43,2019-03-22 14:33:43,0.092s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/input_Open Website_form-contro (3)""), ""www.dawn.com"")",Chrome 73.0.3683.86,,2019-03-22 14:33:43,2019-03-22 14:33:44,0.232s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_Done (7)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:44,2019-03-22 14:33:44,0.082s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-03-22 14:33:44,2019-03-22 14:33:45,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Save (1) (1)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:45,2019-03-22 14:33:45,0.077s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-03-22 14:33:45,2019-03-22 14:33:46,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Message Saved Successfully (1)""))",Chrome 73.0.3683.86,,2019-03-22 14:33:46,2019-03-22 14:33:46,0.055s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0544,Chrome 73.0.3683.86,Test add image component,2019-03-22 14:33:46,2019-03-22 14:34:40,54.505s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:33:46,2019-03-22 14:34:35,49.270s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:34:35,2019-03-22 14:34:37,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h6_Image""))",Chrome 73.0.3683.86,,2019-03-22 14:34:37,2019-03-22 14:34:37,0.104s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:34:37,2019-03-22 14:34:40,3.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_New image component added""))",Chrome 73.0.3683.86,,2019-03-22 14:34:40,2019-03-22 14:34:40,0.070s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0545,Chrome 73.0.3683.86,Test image validation,2019-03-22 14:34:40,2019-03-22 14:35:32,51.748s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0544""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:34:40,2019-03-22 14:35:28,47.498s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:35:28,2019-03-22 14:35:30,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Save (1) (2)""))",Chrome 73.0.3683.86,,2019-03-22 14:35:30,2019-03-22 14:35:30,0.103s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:35:30,2019-03-22 14:35:32,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Select a valid image""))",Chrome 73.0.3683.86,,2019-03-22 14:35:32,2019-03-22 14:35:32,0.082s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0546,Chrome 73.0.3683.86,Test upload image,2019-03-22 14:35:32,2019-03-22 14:36:42,1m - 10.027s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0544""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:35:32,2019-03-22 14:36:26,53.696s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:36:26,2019-03-22 14:36:29,3.001s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-03-22 14:36:29,2019-03-22 14:36:29,0.001s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:36:29,2019-03-22 14:36:32,3.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Menu/upload_file""), img)",Chrome 73.0.3683.86,,2019-03-22 14:36:32,2019-03-22 14:36:32,0.065s,PASSED
+delay(10),Chrome 73.0.3683.86,,2019-03-22 14:36:32,2019-03-22 14:36:42,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Save (2)""))",Chrome 73.0.3683.86,,2019-03-22 14:36:42,2019-03-22 14:36:42,0.081s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Message Saved Successfully (3)""))",Chrome 73.0.3683.86,,2019-03-22 14:36:42,2019-03-22 14:36:42,0.083s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0547,Chrome 73.0.3683.86,Test set image component as reply,2019-03-22 14:36:42,2019-03-22 14:38:21,1m - 39.439s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0546""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:36:42,2019-03-22 14:37:46,1m - 3.497s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:37:46,2019-03-22 14:37:48,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_Save (1) (1)""))",Chrome 73.0.3683.86,,2019-03-22 14:37:48,2019-03-22 14:38:21,33.865s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0548,Chrome 73.0.3683.86,Test add card component,2019-03-22 14:38:21,2019-03-22 14:38:22,0.961s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:22,2019-03-22 14:38:22,0.909s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0549,Chrome 73.0.3683.86,Test card validation (image),2019-03-22 14:38:22,2019-03-22 14:38:24,1.317s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:23,2019-03-22 14:38:24,1.267s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0550,Chrome 73.0.3683.86,Test card validation (title),2019-03-22 14:38:24,2019-03-22 14:38:25,1.345s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:24,2019-03-22 14:38:25,1.294s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0551,Chrome 73.0.3683.86,Test card validation (subtitle),2019-03-22 14:38:25,2019-03-22 14:38:26,1.342s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:25,2019-03-22 14:38:26,1.289s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0552,Chrome 73.0.3683.86,Test card validation (button),2019-03-22 14:38:26,2019-03-22 14:38:28,1.335s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:27,2019-03-22 14:38:28,1.281s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0553,Chrome 73.0.3683.86,Test upload card image,2019-03-22 14:38:28,2019-03-22 14:38:29,1.333s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:28,2019-03-22 14:38:29,1.282s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0554,Chrome 73.0.3683.86,Test add button in card component,2019-03-22 14:38:29,2019-03-22 14:38:30,1.339s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:29,2019-03-22 14:38:30,1.295s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0555,Chrome 73.0.3683.86,Test setcard component as reply,2019-03-22 14:38:30,2019-03-22 14:38:32,1.263s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:31,2019-03-22 14:38:32,1.211s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0556,Chrome 73.0.3683.86,,2019-03-22 14:38:32,2019-03-22 14:38:33,1.277s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:32,2019-03-22 14:38:33,1.226s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0557,Chrome 73.0.3683.86,Test add gallery component,2019-03-22 14:38:33,2019-03-22 14:38:34,1.019s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:33,2019-03-22 14:38:34,0.968s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0558,Chrome 73.0.3683.86,Test gallery validation (cards),2019-03-22 14:38:34,2019-03-22 14:38:35,1.421s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:34,2019-03-22 14:38:35,1.377s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0559,Chrome 73.0.3683.86,Test gallery validation (image),2019-03-22 14:38:35,2019-03-22 14:38:37,1.381s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:36,2019-03-22 14:38:37,1.334s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0560,Chrome 73.0.3683.86,Test gallery validation (title),2019-03-22 14:38:37,2019-03-22 14:38:38,1.348s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:37,2019-03-22 14:38:38,1.299s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0561,Chrome 73.0.3683.86,Test gallery validation (subtitle),2019-03-22 14:38:38,2019-03-22 14:38:40,1.352s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:38,2019-03-22 14:38:40,1.305s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0562,Chrome 73.0.3683.86,Test gallery validation (button),2019-03-22 14:38:40,2019-03-22 14:38:41,1.240s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:40,2019-03-22 14:38:41,1.192s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0563,Chrome 73.0.3683.86,Test upload gallery image,2019-03-22 14:38:41,2019-03-22 14:38:42,1.250s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:41,2019-03-22 14:38:42,1.194s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0564,Chrome 73.0.3683.86,Test add button in gallery component,2019-03-22 14:38:42,2019-03-22 14:38:43,1.315s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:42,2019-03-22 14:38:43,1.270s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0565,Chrome 73.0.3683.86,Test set gallery component as reply,2019-03-22 14:38:43,2019-03-22 14:38:45,1.308s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:43,2019-03-22 14:38:45,1.253s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0566,Chrome 73.0.3683.86,Test set gallery component with multiple buttons as reply,2019-03-22 14:38:45,2019-03-22 14:39:54,1m - 9.815s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:38:45,2019-03-22 14:39:36,51.312s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:39:36,2019-03-22 14:39:38,2.002s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-03-22 14:39:38,2019-03-22 14:39:38,0.000s,PASSED
+"uploadFile(findTestObject(""Page_KiboPush  Menu/upload_file""), img)",Chrome 73.0.3683.86,,2019-03-22 14:39:38,2019-03-22 14:39:38,0.042s,PASSED
+delay(7),Chrome 73.0.3683.86,,2019-03-22 14:39:38,2019-03-22 14:39:45,7.002s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/input_Page1x_form-control""), ""Main"")",Chrome 73.0.3683.86,,2019-03-22 14:39:45,2019-03-22 14:39:45,0.145s,PASSED
+"setText(findTestObject(""Page_KiboPush  Menu/Gallery Subtitle""), ""Subtitle"")",Chrome 73.0.3683.86,,2019-03-22 14:39:45,2019-03-22 14:39:45,0.230s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:39:45,2019-03-22 14:39:47,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-03-22 14:39:47,2019-03-22 14:39:54,7.034s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0567,Chrome 73.0.3683.86,Test add card in gallery component,2019-03-22 14:39:54,2019-03-22 14:39:56,1.241s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:39:55,2019-03-22 14:39:56,1.199s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0568,Chrome 73.0.3683.86,Test remove card in gallery component,2019-03-22 14:39:56,2019-03-22 14:39:57,1.601s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0558""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:39:56,2019-03-22 14:39:57,1.318s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0570,Chrome 73.0.3683.86,Test add audio component,2019-03-22 14:39:57,2019-03-22 14:39:58,1.027s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:39:57,2019-03-22 14:39:58,0.981s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0571,Chrome 73.0.3683.86,Test audio validation,2019-03-22 14:39:58,2019-03-22 14:40:00,1.206s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0570""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:39:58,2019-03-22 14:40:00,1.156s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0572,Chrome 73.0.3683.86,Test upload audio,2019-03-22 14:40:00,2019-03-22 14:40:52,52.783s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0570""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:40:00,2019-03-22 14:40:50,50.739s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:40:50,2019-03-22 14:40:52,2.001s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0573,Chrome 73.0.3683.86,Test set audio component as reply,2019-03-22 14:40:52,2019-03-22 14:40:54,1.574s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0572""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:40:52,2019-03-22 14:40:54,1.264s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0574,Chrome 73.0.3683.86,Test add video component,2019-03-22 14:40:54,2019-03-22 14:40:55,1.025s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:40:54,2019-03-22 14:40:55,0.974s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0575,Chrome 73.0.3683.86,Test video validation,2019-03-22 14:40:55,2019-03-22 14:40:56,1.364s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0574""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:40:55,2019-03-22 14:40:56,1.321s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0576,Chrome 73.0.3683.86,Test upload video,2019-03-22 14:40:56,2019-03-22 14:40:58,1.331s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0574""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:40:56,2019-03-22 14:40:58,1.285s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0577,Chrome 73.0.3683.86,Test set video component as reply,2019-03-22 14:40:58,2019-03-22 14:42:25,1m - 27.827s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0576""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:40:58,2019-03-22 14:41:52,54.125s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_Save""))",Chrome 73.0.3683.86,,2019-03-22 14:41:52,2019-03-22 14:42:25,33.660s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0578,Chrome 73.0.3683.86,Test add file component,2019-03-22 14:42:25,2019-03-22 14:42:26,0.995s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:42:26,2019-03-22 14:42:26,0.950s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0579,Chrome 73.0.3683.86,Test file validation,2019-03-22 14:42:26,2019-03-22 14:42:28,1.282s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0578""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:42:27,2019-03-22 14:42:28,1.238s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0580,Chrome 73.0.3683.86,Test upload file,2019-03-22 14:42:28,2019-03-22 14:42:29,1.279s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0578""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:42:28,2019-03-22 14:42:29,1.224s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0581,Chrome 73.0.3683.86,Test set file component as reply,2019-03-22 14:42:29,2019-03-22 14:42:31,1.608s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0580""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:42:29,2019-03-22 14:42:30,1.351s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0582,Chrome 73.0.3683.86,Test add media component,2019-03-22 14:42:31,2019-03-22 14:43:31,59.992s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:42:31,2019-03-22 14:43:28,56.850s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:43:28,2019-03-22 14:43:31,3.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Menu/h6_Media""))",Chrome 73.0.3683.86,,2019-03-22 14:43:31,2019-03-22 14:43:31,0.097s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0583,Chrome 73.0.3683.86,Test media validation,2019-03-22 14:43:31,2019-03-22 14:43:32,1.240s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0582""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:43:31,2019-03-22 14:43:32,1.194s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0584,Chrome 73.0.3683.86,Test add button in media component,2019-03-22 14:43:32,2019-03-22 14:43:33,1.310s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0582""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:43:32,2019-03-22 14:43:33,1.248s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0585,Chrome 73.0.3683.86,Test upload media,2019-03-22 14:43:33,2019-03-22 14:43:35,1.396s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0582""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:43:33,2019-03-22 14:43:35,1.348s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0586,Chrome 73.0.3683.86,Test set media component as reply,2019-03-22 14:43:35,2019-03-22 14:44:38,1m - 3.890s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0585""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:43:35,2019-03-22 14:44:38,1m - 3.845s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0587,Chrome 73.0.3683.86,Test set media component with button as reply,2019-03-22 14:44:38,2019-03-22 14:44:40,1.533s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0585""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:44:39,2019-03-22 14:44:40,1.244s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0588,Chrome 73.0.3683.86,Test set media component with multiple buttons as reply,2019-03-22 14:44:40,2019-03-22 14:44:42,1.602s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0585""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:44:40,2019-03-22 14:44:41,1.294s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0589,Chrome 73.0.3683.86,Test remove text component,2019-03-22 14:44:42,2019-03-22 14:45:33,51.383s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:44:42,2019-03-22 14:45:29,47.251s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:45:29,2019-03-22 14:45:31,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/i_Message_fa fa-times fa-stack""))",Chrome 73.0.3683.86,,2019-03-22 14:45:31,2019-03-22 14:45:31,0.080s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:45:31,2019-03-22 14:45:33,2.000s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0590,Chrome 73.0.3683.86,Test remove image component,2019-03-22 14:45:33,2019-03-22 14:45:34,1.193s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0544""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:33,2019-03-22 14:45:34,1.143s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0591,Chrome 73.0.3683.86,Test remove card component,2019-03-22 14:45:34,2019-03-22 14:45:35,1.279s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0548""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:34,2019-03-22 14:45:35,1.237s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0592,Chrome 73.0.3683.86,Test remove gallery component,2019-03-22 14:45:35,2019-03-22 14:45:37,1.350s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0557""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:36,2019-03-22 14:45:37,1.306s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0593,Chrome 73.0.3683.86,Test remove audio component,2019-03-22 14:45:37,2019-03-22 14:45:38,1.325s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0570""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:37,2019-03-22 14:45:38,1.281s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0594,Chrome 73.0.3683.86,Test remove video component,2019-03-22 14:45:38,2019-03-22 14:45:39,1.324s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0574""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:38,2019-03-22 14:45:39,1.281s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0595,Chrome 73.0.3683.86,Test remove file component,2019-03-22 14:45:39,2019-03-22 14:45:41,1.347s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0578""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:40,2019-03-22 14:45:41,1.305s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0596,Chrome 73.0.3683.86,Test remove media component,2019-03-22 14:45:41,2019-03-22 14:45:42,1.307s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0582""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:41,2019-03-22 14:45:42,1.265s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0597,Chrome 73.0.3683.86,Test add button without title,2019-03-22 14:45:42,2019-03-22 14:45:43,1.284s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:42,2019-03-22 14:45:43,1.242s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0598,Chrome 73.0.3683.86,Test add button without action,2019-03-22 14:45:43,2019-03-22 14:45:45,1.298s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:43,2019-03-22 14:45:45,1.248s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0599,Chrome 73.0.3683.86,Test edit button,2019-03-22 14:45:45,2019-03-22 14:46:40,55.195s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:45:45,2019-03-22 14:46:34,49.603s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-03-22 14:46:34,2019-03-22 14:46:34,0.071s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/input_Button Title_form-contro (2)""), ""Button1"")",Chrome 73.0.3683.86,,2019-03-22 14:46:34,2019-03-22 14:46:35,0.105s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/h7_Open a website""))",Chrome 73.0.3683.86,,2019-03-22 14:46:35,2019-03-22 14:46:35,0.067s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/input_Open Website_form-contro (2)""), ""www.google.com"")",Chrome 73.0.3683.86,,2019-03-22 14:46:35,2019-03-22 14:46:35,0.157s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_Done""))",Chrome 73.0.3683.86,,2019-03-22 14:46:35,2019-03-22 14:46:35,0.058s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-03-22 14:46:35,2019-03-22 14:46:38,3.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/button_Button1""))",Chrome 73.0.3683.86,,2019-03-22 14:46:38,2019-03-22 14:46:38,0.065s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-03-22 14:46:38,2019-03-22 14:46:40,2.001s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0600,Chrome 73.0.3683.86,Test cancel button,2019-03-22 14:46:40,2019-03-22 14:46:41,1.230s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:40,2019-03-22 14:46:41,1.184s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0601,Chrome 73.0.3683.86,Test remove button,2019-03-22 14:46:41,2019-03-22 14:46:42,1.336s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0538""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:41,2019-03-22 14:46:42,1.294s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0602,Chrome 73.0.3683.86,Test back button,2019-03-22 14:46:42,2019-03-22 14:46:43,1.016s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0537""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:43,2019-03-22 14:46:43,0.967s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0603,Chrome 73.0.3683.86,Test main menu (open website),2019-03-22 14:46:43,2019-03-22 14:46:44,0.823s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:44,2019-03-22 14:46:44,0.782s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0604,Chrome 73.0.3683.86,Test Main menu (edit message),2019-03-22 14:46:44,2019-03-22 14:46:46,1.598s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0542""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:44,2019-03-22 14:46:46,1.298s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0605,Chrome 73.0.3683.86,Test Main menu (change url),2019-03-22 14:46:46,2019-03-22 14:46:47,1.008s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0603""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:46,2019-03-22 14:46:47,0.965s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0606,Chrome 73.0.3683.86,Test Main menu (cancel),2019-03-22 14:46:47,2019-03-22 14:46:48,0.892s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:47,2019-03-22 14:46:48,0.849s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0607,Chrome 73.0.3683.86,Add menu,2019-03-22 14:46:48,2019-03-22 14:47:27,39.024s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/Go_to_menu_item""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:46:48,2019-03-22 14:47:27,38.748s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Menu/button_ Add Menu""))",Chrome 73.0.3683.86,,2019-03-22 14:47:27,2019-03-22 14:47:27,0.063s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Menu/input_ Add Sub Menu_item-1""), ""Second Menu"")",Chrome 73.0.3683.86,,2019-03-22 14:47:27,2019-03-22 14:47:27,0.171s,PASSED
+,,,,,,
+Test Cases/Persistent Menu/TC0608,Chrome 73.0.3683.86,Add submenu,2019-03-22 14:47:27,2019-03-22 14:47:28,0.815s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/Go_to_menu_item""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:27,2019-03-22 14:47:28,0.773s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0609,Chrome 73.0.3683.86,Add nested menu,2019-03-22 14:47:28,2019-03-22 14:47:29,0.845s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/Go_to_menu_item""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:28,2019-03-22 14:47:29,0.793s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0610,Chrome 73.0.3683.86,Remove main menu,2019-03-22 14:47:29,2019-03-22 14:47:29,0.873s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0607""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:29,2019-03-22 14:47:29,0.825s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0611,Chrome 73.0.3683.86,Remove submenu,2019-03-22 14:47:29,2019-03-22 14:47:30,0.823s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/Go_to_menu_item""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:29,2019-03-22 14:47:30,0.762s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0612,Chrome 73.0.3683.86,Remove nested menu,2019-03-22 14:47:30,2019-03-22 14:47:31,0.915s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0609""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:30,2019-03-22 14:47:31,0.870s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0613,Chrome 73.0.3683.86,Test save menu,2019-03-22 14:47:31,2019-03-22 14:47:32,0.867s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:31,2019-03-22 14:47:32,0.816s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0614,Chrome 73.0.3683.86,Test preview,2019-03-22 14:47:32,2019-03-22 14:47:33,1.014s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0613""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:32,2019-03-22 14:47:33,0.968s,FAILED
+,,,,,,
+Test Cases/Persistent Menu/TC0615,Chrome 73.0.3683.86,Test remove menu,2019-03-22 14:47:33,2019-03-22 14:47:34,0.975s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/TC0613""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-03-22 14:47:33,2019-03-22 14:47:34,0.932s,FAILED

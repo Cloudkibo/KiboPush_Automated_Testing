@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enable NGP Integration</description>
+   <name>TC1024</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9590c373-05ac-4490-a2d3-7dfa95f0be6e</testCaseGuid>
+</TestCaseEntity>

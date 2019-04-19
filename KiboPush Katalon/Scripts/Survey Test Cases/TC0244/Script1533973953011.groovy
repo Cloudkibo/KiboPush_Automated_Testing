@@ -21,13 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Delete'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Survey/button_Delete'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Survey/button_Delete'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_delete1'))
-
-WebUI.click(findTestObject('Page_KiboPush  Survey/div_Survey deleted successfull'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Survey/div_Survey deleted successfully'))
 

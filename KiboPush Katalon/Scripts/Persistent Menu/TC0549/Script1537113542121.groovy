@@ -14,15 +14,19 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0548'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Message_form-control'), 'Main')
+WebUI.delay(2)
+
+WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Message_form-control (1)'), 'Main')
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/Card Sub Title'), 'Sub')
+WebUI.setText(findTestObject('Page_KiboPush  Menu/Card Sub Title (1)'), 'Sub')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (3)'))
 
-WebUI.delay(2)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Card must have an image'))
 

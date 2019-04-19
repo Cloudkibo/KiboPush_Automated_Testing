@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Connect already connect page</description>
+   <name>TC0024</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ab1dfca6-e685-448c-ae26-cf24006c3e27</testCaseGuid>
+</TestCaseEntity>

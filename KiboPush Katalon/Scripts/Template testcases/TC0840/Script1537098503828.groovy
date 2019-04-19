@@ -22,23 +22,15 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-
 WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control'), 'hi')
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement subTitle1 = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[1]/div/div[3]/div[1]/center/textarea'))
+WebElement   subTitle = driver.findElement(By.xpath('//*[@id="List1"]/div[1]/div/div[3]/div[2]/div/div[2]/div[1]/center/textarea'))
 
-subTitle1.sendKeys('abc')
-
-WebElement subTitle2 = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/div/div[3]/div[1]/center/textarea'))
-
-subTitle2.sendKeys('abc')
-
-WebUI.scrollToPosition(0, 0)
+subTitle.sendKeys("abc")
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create'))
 

@@ -1,0 +1,678 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Webview,Chrome 73.0.3683.86,,2019-04-09 12:15:18,2019-04-09 13:05:10,49m - 52.445s,FAILED
+,,,,,,
+Test Cases/Webview/TC1085,Chrome 73.0.3683.86,Test Adding Webview as Button Option in Broadcast Components,2019-04-09 12:15:18,2019-04-09 12:16:11,53.215s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:15:18,2019-04-09 12:15:48,29.686s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:15:48,2019-04-09 12:15:50,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasting (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:15:50,2019-04-09 12:15:50,0.135s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:50,2019-04-09 12:15:51,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.86,,2019-04-09 12:15:51,2019-04-09 12:15:51,0.107s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:51,2019-04-09 12:15:52,1.003s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New""))",Chrome 73.0.3683.86,,2019-04-09 12:15:52,2019-04-09 12:15:52,0.141s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:15:52,2019-04-09 12:15:53,0.259s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:53,2019-04-09 12:15:54,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_Text""))",Chrome 73.0.3683.86,,2019-04-09 12:15:54,2019-04-09 12:15:54,0.129s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:54,2019-04-09 12:15:55,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:15:55,2019-04-09 12:15:55,0.099s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Button Title_form-control""), ""test"")",Chrome 73.0.3683.86,,2019-04-09 12:15:55,2019-04-09 12:15:55,0.116s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a webview""))",Chrome 73.0.3683.86,,2019-04-09 12:15:55,2019-04-09 12:15:55,0.098s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Url_form-control""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:15:55,2019-04-09 12:15:56,0.431s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Done""))",Chrome 73.0.3683.86,,2019-04-09 12:15:56,2019-04-09 12:15:56,0.082s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:56,2019-04-09 12:15:57,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_test""))",Chrome 73.0.3683.86,,2019-04-09 12:15:57,2019-04-09 12:15:57,0.094s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:57,2019-04-09 12:15:58,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/strong_Edit Button""))",Chrome 73.0.3683.86,,2019-04-09 12:15:58,2019-04-09 12:15:58,0.065s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Remove""))",Chrome 73.0.3683.86,,2019-04-09 12:15:58,2019-04-09 12:15:58,0.109s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:58,2019-04-09 12:15:59,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/i_Broadcast Title_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.86,,2019-04-09 12:15:59,2019-04-09 12:15:59,0.077s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:15:59,2019-04-09 12:16:00,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_Card""))",Chrome 73.0.3683.86,,2019-04-09 12:16:00,2019-04-09 12:16:00,0.113s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:16:00,2019-04-09 12:16:00,0.089s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Button Title_form-control""), ""test2"")",Chrome 73.0.3683.86,,2019-04-09 12:16:00,2019-04-09 12:16:00,0.182s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a webview""))",Chrome 73.0.3683.86,,2019-04-09 12:16:00,2019-04-09 12:16:00,0.073s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Url_form-control""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:16:00,2019-04-09 12:16:01,0.453s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Done""))",Chrome 73.0.3683.86,,2019-04-09 12:16:01,2019-04-09 12:16:01,0.073s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:16:01,2019-04-09 12:16:02,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_test2""))",Chrome 73.0.3683.86,,2019-04-09 12:16:02,2019-04-09 12:16:02,0.100s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/strong_Edit Button""))",Chrome 73.0.3683.86,,2019-04-09 12:16:02,2019-04-09 12:16:02,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Remove""))",Chrome 73.0.3683.86,,2019-04-09 12:16:02,2019-04-09 12:16:02,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/i_Broadcast Title_fa fa-times fa-stack-2x_1""))",Chrome 73.0.3683.86,,2019-04-09 12:16:02,2019-04-09 12:16:02,0.079s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:16:02,2019-04-09 12:16:04,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_Gallery""))",Chrome 73.0.3683.86,,2019-04-09 12:16:04,2019-04-09 12:16:05,0.163s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:16:05,2019-04-09 12:16:05,0.090s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Button Title_form-control""), ""test3"")",Chrome 73.0.3683.86,,2019-04-09 12:16:05,2019-04-09 12:16:05,0.160s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_Open a webview""))",Chrome 73.0.3683.86,,2019-04-09 12:16:05,2019-04-09 12:16:05,0.157s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Url_form-control""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:16:05,2019-04-09 12:16:05,0.492s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Done""))",Chrome 73.0.3683.86,,2019-04-09 12:16:05,2019-04-09 12:16:05,0.085s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:16:05,2019-04-09 12:16:06,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_test3""))",Chrome 73.0.3683.86,,2019-04-09 12:16:06,2019-04-09 12:16:07,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/strong_Edit Button""))",Chrome 73.0.3683.86,,2019-04-09 12:16:07,2019-04-09 12:16:07,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Remove""))",Chrome 73.0.3683.86,,2019-04-09 12:16:07,2019-04-09 12:16:07,0.080s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/i_Broadcast Title_fa fa-times fa-stack-2x_2""))",Chrome 73.0.3683.86,,2019-04-09 12:16:07,2019-04-09 12:16:07,0.069s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:16:07,2019-04-09 12:16:09,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_List""))",Chrome 73.0.3683.86,,2019-04-09 12:16:09,2019-04-09 12:16:09,0.154s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:16:09,2019-04-09 12:16:09,0.104s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Button Title_form-control""), ""test4"")",Chrome 73.0.3683.86,,2019-04-09 12:16:09,2019-04-09 12:16:09,0.242s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a webview""))",Chrome 73.0.3683.86,,2019-04-09 12:16:09,2019-04-09 12:16:09,0.079s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Url_form-control""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:16:09,2019-04-09 12:16:10,0.495s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Done""))",Chrome 73.0.3683.86,,2019-04-09 12:16:10,2019-04-09 12:16:10,0.071s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:16:10,2019-04-09 12:16:11,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_test4""))",Chrome 73.0.3683.86,,2019-04-09 12:16:11,2019-04-09 12:16:11,0.105s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/strong_Edit Button""))",Chrome 73.0.3683.86,,2019-04-09 12:16:11,2019-04-09 12:16:11,0.071s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Remove""))",Chrome 73.0.3683.86,,2019-04-09 12:16:11,2019-04-09 12:16:11,0.105s,PASSED
+,,,,,,
+Test Cases/Webview/TC1086,Chrome 73.0.3683.86,Test link on Button Popover,2019-04-09 12:16:11,2019-04-09 12:17:12,1m - 0.449s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:16:11,2019-04-09 12:16:58,46.884s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:16:58,2019-04-09 12:17:00,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:17:00,2019-04-09 12:17:00,0.084s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:00,2019-04-09 12:17:01,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.86,,2019-04-09 12:17:01,2019-04-09 12:17:01,0.105s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:01,2019-04-09 12:17:02,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:17:02,2019-04-09 12:17:03,0.123s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:03,2019-04-09 12:17:04,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:17:04,2019-04-09 12:17:04,0.178s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:04,2019-04-09 12:17:05,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_Text (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:17:05,2019-04-09 12:17:05,0.136s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:05,2019-04-09 12:17:06,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:17:06,2019-04-09 12:17:06,0.103s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:06,2019-04-09 12:17:07,1.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Button Title_form-control (1)""), ""test"")",Chrome 73.0.3683.86,,2019-04-09 12:17:07,2019-04-09 12:17:07,0.240s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:07,2019-04-09 12:17:08,1.006s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a webview (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:17:08,2019-04-09 12:17:08,0.088s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:08,2019-04-09 12:17:09,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/a_Whitelist url domains to open in-app browser""))",Chrome 73.0.3683.86,,2019-04-09 12:17:09,2019-04-09 12:17:10,0.129s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:10,2019-04-09 12:17:11,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  api_settings/span_Whitelist Domains""))",Chrome 73.0.3683.86,,2019-04-09 12:17:11,2019-04-09 12:17:11,0.071s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:17:11,2019-04-09 12:17:12,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Whitelist Domains/span_Whitelist Domains""))",Chrome 73.0.3683.86,,2019-04-09 12:17:12,2019-04-09 12:17:12,0.117s,PASSED
+,,,,,,
+Test Cases/Webview/TC1087,Chrome 73.0.3683.86,Test Cancel Button on Webview option in Button Popover,2019-04-09 12:17:12,2019-04-09 12:18:13,1m - 0.848s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:17:12,2019-04-09 12:18:00,48.360s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:18:00,2019-04-09 12:18:02,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:02,2019-04-09 12:18:02,0.103s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:02,2019-04-09 12:18:03,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.86,,2019-04-09 12:18:03,2019-04-09 12:18:04,0.096s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:04,2019-04-09 12:18:05,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:05,2019-04-09 12:18:05,0.136s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:05,2019-04-09 12:18:06,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:06,2019-04-09 12:18:06,0.175s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:06,2019-04-09 12:18:07,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_Text (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:07,2019-04-09 12:18:07,0.162s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:07,2019-04-09 12:18:08,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:08,2019-04-09 12:18:08,0.096s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:08,2019-04-09 12:18:09,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Button Title_form-control (1) (1)""), ""test"")",Chrome 73.0.3683.86,,2019-04-09 12:18:09,2019-04-09 12:18:09,0.180s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:09,2019-04-09 12:18:10,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a webview (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:10,2019-04-09 12:18:10,0.097s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:10,2019-04-09 12:18:11,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Cancel""))",Chrome 73.0.3683.86,,2019-04-09 12:18:11,2019-04-09 12:18:11,0.061s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:11,2019-04-09 12:18:12,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:18:12,2019-04-09 12:18:13,0.068s,PASSED
+,,,,,,
+Test Cases/Webview/TC1088,Chrome 73.0.3683.86,Test Edit Webview,2019-04-09 12:18:13,2019-04-09 12:19:00,47.347s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:18:13,2019-04-09 12:18:50,37.475s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:18:50,2019-04-09 12:18:52,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:52,2019-04-09 12:18:52,0.084s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:52,2019-04-09 12:18:53,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.86,,2019-04-09 12:18:53,2019-04-09 12:18:53,0.098s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:53,2019-04-09 12:18:54,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New""))",Chrome 73.0.3683.86,,2019-04-09 12:18:54,2019-04-09 12:18:54,0.138s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:54,2019-04-09 12:18:55,0.208s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:55,2019-04-09 12:18:56,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/div_Text (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:56,2019-04-09 12:18:56,0.090s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:56,2019-04-09 12:18:57,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:57,2019-04-09 12:18:57,0.093s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Button Title_form-control (2)""), ""test"")",Chrome 73.0.3683.86,,2019-04-09 12:18:57,2019-04-09 12:18:57,0.148s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a webview (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:57,2019-04-09 12:18:57,0.083s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/input_Url_form-control (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:18:57,2019-04-09 12:18:57,0.415s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Done (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:57,2019-04-09 12:18:58,0.095s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:58,2019-04-09 12:18:59,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_test (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:18:59,2019-04-09 12:18:59,0.079s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:18:59,2019-04-09 12:19:00,1.001s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/select_COMPACTTALLFULL""), ""COMPACT"", true)",Chrome 73.0.3683.86,,2019-04-09 12:19:00,2019-04-09 12:19:00,0.183s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Broadcast/button_Done (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:00,2019-04-09 12:19:00,0.071s,PASSED
+,,,,,,
+Test Cases/Webview/TC1089,Chrome 73.0.3683.86,Test Remove Webview,2019-04-09 12:19:00,2019-04-09 12:19:55,55.219s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:19:00,2019-04-09 12:19:44,44.342s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:19:44,2019-04-09 12:19:46,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:46,2019-04-09 12:19:46,0.103s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:19:46,2019-04-09 12:19:47,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.86,,2019-04-09 12:19:47,2019-04-09 12:19:48,0.121s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:19:48,2019-04-09 12:19:49,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New""))",Chrome 73.0.3683.86,,2019-04-09 12:19:49,2019-04-09 12:19:49,0.139s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:49,2019-04-09 12:19:49,0.214s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:19:49,2019-04-09 12:19:50,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/div_Text (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:50,2019-04-09 12:19:50,0.091s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:19:50,2019-04-09 12:19:51,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/h6_ Add Button (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:51,2019-04-09 12:19:51,0.089s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Button Title_form-control (2) (1)""), ""test"")",Chrome 73.0.3683.86,,2019-04-09 12:19:51,2019-04-09 12:19:51,0.137s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/h7_Open a webview (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:51,2019-04-09 12:19:51,0.098s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Url_form-control (1) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:19:51,2019-04-09 12:19:52,0.421s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_Done (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:52,2019-04-09 12:19:52,0.075s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:19:52,2019-04-09 12:19:53,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_test (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:53,2019-04-09 12:19:53,0.085s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:19:53,2019-04-09 12:19:54,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_Remove (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:19:54,2019-04-09 12:19:54,0.084s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:19:54,2019-04-09 12:19:55,1.001s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_KiboEngage  Create Broadcast/button_test (2)""), 0)",Chrome 73.0.3683.86,,2019-04-09 12:19:55,2019-04-09 12:19:55,0.131s,PASSED
+,,,,,,
+Test Cases/Webview/TC1090,Chrome 73.0.3683.86,Sending a webview button in broadcast,2019-04-09 12:19:55,2019-04-09 12:20:55,59.529s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:19:55,2019-04-09 12:20:55,59.342s,FAILED
+,,,,,,
+Test Cases/Webview/TC1091,Chrome 73.0.3683.86,Testing Webview Default Action on Cards,2019-04-09 12:20:55,2019-04-09 12:22:02,1m - 6.921s,PASSED
+"callTestCase(findTestCase(""Webview/TC1090""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:20:55,2019-04-09 12:22:02,1m - 6.869s,PASSED
+,,,,,,
+Test Cases/Webview/TC1092,Chrome 73.0.3683.86,Testing Edit Webview Default Action on Cards,2019-04-09 12:22:02,2019-04-09 12:23:22,1m - 19.976s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:22:02,2019-04-09 12:22:51,48.978s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:22:51,2019-04-09 12:22:53,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:22:53,2019-04-09 12:22:53,0.092s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:22:53,2019-04-09 12:22:54,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.86,,2019-04-09 12:22:54,2019-04-09 12:22:54,0.120s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:22:54,2019-04-09 12:22:55,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New""))",Chrome 73.0.3683.86,,2019-04-09 12:22:55,2019-04-09 12:22:55,0.113s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:22:55,2019-04-09 12:22:56,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:22:56,2019-04-09 12:22:56,0.155s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:22:56,2019-04-09 12:22:57,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/div_Card (1) (1) (2) (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:22:57,2019-04-09 12:22:57,0.116s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:22:57,2019-04-09 12:22:58,1.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Broadcast Title_form-control (1) (2) (2) (1) (1)""), ""test"")",Chrome 73.0.3683.86,,2019-04-09 12:22:58,2019-04-09 12:22:58,0.230s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:22:58,2019-04-09 12:22:59,1.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/textarea_Broadcast Title_form-control (1) (2) (2) (1) (1)""), ""subtitle"")",Chrome 73.0.3683.86,,2019-04-09 12:22:59,2019-04-09 12:23:00,0.228s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:23:00,2019-04-09 12:23:01,1.003s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/h6_ Add Button (3) (1) (2) (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:23:01,2019-04-09 12:23:01,0.094s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Button Title_form-control (5) (2) (1) (1)""), ""test"")",Chrome 73.0.3683.86,,2019-04-09 12:23:01,2019-04-09 12:23:01,0.110s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/h7_Open a webview (5) (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:23:01,2019-04-09 12:23:01,0.092s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Url_form-control (4) (2) (1) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:23:01,2019-04-09 12:23:01,0.393s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:23:01,2019-04-09 12:23:02,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_Done (2) (1) (2) (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:23:02,2019-04-09 12:23:02,0.075s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:23:02,2019-04-09 12:23:03,1.002s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 12:23:03,2019-04-09 12:23:03,0.000s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 12:23:03,2019-04-09 12:23:06,3.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload Image (1) (2) (1) (1) (1)""), img)",Chrome 73.0.3683.86,,2019-04-09 12:23:06,2019-04-09 12:23:07,0.053s,PASSED
+delay(10),Chrome 73.0.3683.86,,2019-04-09 12:23:07,2019-04-09 12:23:17,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/h4_KIBOPUSH""))",Chrome 73.0.3683.86,,2019-04-09 12:23:17,2019-04-09 12:23:17,0.065s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:23:17,2019-04-09 12:23:19,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/a_Add Action""))",Chrome 73.0.3683.86,,2019-04-09 12:23:19,2019-04-09 12:23:19,0.077s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/h7_Open a webview (7) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:23:19,2019-04-09 12:23:19,0.080s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Url_form-control (6) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:23:19,2019-04-09 12:23:19,0.434s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_Done (5) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:23:19,2019-04-09 12:23:19,0.073s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:23:19,2019-04-09 12:23:21,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/a_Edit Action""))",Chrome 73.0.3683.86,,2019-04-09 12:23:21,2019-04-09 12:23:22,0.276s,FAILED
+,,,,,,
+Test Cases/Webview/TC1093,Chrome 73.0.3683.86,Testing Webview Default Action on Lists,2019-04-09 12:23:22,2019-04-09 12:24:57,1m - 35.142s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:23:22,2019-04-09 12:24:12,49.918s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:24:12,2019-04-09 12:24:14,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1) (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:24:14,2019-04-09 12:24:14,0.101s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:24:14,2019-04-09 12:24:15,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasts (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:24:15,2019-04-09 12:24:15,0.124s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:24:15,2019-04-09 12:24:16,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New""))",Chrome 73.0.3683.86,,2019-04-09 12:24:16,2019-04-09 12:24:16,0.133s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:24:16,2019-04-09 12:24:17,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:24:17,2019-04-09 12:24:17,0.162s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:24:17,2019-04-09 12:24:18,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/div_List (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:24:18,2019-04-09 12:24:18,0.129s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Broadcast Title_form-control (2)""), ""Title1"")",Chrome 73.0.3683.86,,2019-04-09 12:24:18,2019-04-09 12:24:19,0.341s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/TextArea-ListItem1""), ""SubTitle1"")",Chrome 73.0.3683.86,,2019-04-09 12:24:19,2019-04-09 12:24:19,0.295s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/Input_Add_Title_Item_2""), ""title2"")",Chrome 73.0.3683.86,,2019-04-09 12:24:19,2019-04-09 12:24:19,0.343s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/TextArea_ListItem2""), ""Subtitle2"")",Chrome 73.0.3683.86,,2019-04-09 12:24:19,2019-04-09 12:24:20,0.377s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/a_Add Action (3)""))",Chrome 73.0.3683.86,,2019-04-09 12:24:20,2019-04-09 12:24:20,0.135s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/div_Open a webview (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:24:20,2019-04-09 12:24:20,0.154s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Url_form-control (7)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:24:20,2019-04-09 12:24:21,0.716s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_Done (6)""))",Chrome 73.0.3683.86,,2019-04-09 12:24:21,2019-04-09 12:24:21,0.195s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:24:21,2019-04-09 12:24:23,2.001s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 12:24:23,2019-04-09 12:24:23,0.001s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 12:24:23,2019-04-09 12:24:26,3.002s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload_Image_List_Item1""), img)",Chrome 73.0.3683.86,,2019-04-09 12:24:26,2019-04-09 12:24:57,30.921s,FAILED
+,,,,,,
+Test Cases/Webview/TC1094,Chrome 73.0.3683.86,,2019-04-09 12:24:57,2019-04-09 12:26:35,1m - 38.269s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:24:57,2019-04-09 12:25:48,51.158s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:25:48,2019-04-09 12:25:50,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1) (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:50,2019-04-09 12:25:50,0.091s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:25:50,2019-04-09 12:25:51,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasts (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:51,2019-04-09 12:25:51,0.108s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:25:51,2019-04-09 12:25:52,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/span_Create New (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:52,2019-04-09 12:25:52,0.120s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:25:52,2019-04-09 12:25:53,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcast/button_Create New Broadcast (1) (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:53,2019-04-09 12:25:53,0.167s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:25:53,2019-04-09 12:25:54,1.003s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/div_List (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:54,2019-04-09 12:25:55,0.146s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Broadcast Title_form-control (2) (1)""), ""Title1"")",Chrome 73.0.3683.86,,2019-04-09 12:25:55,2019-04-09 12:25:55,0.252s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/TextArea-ListItem1 (1)""), ""SubTitle1"")",Chrome 73.0.3683.86,,2019-04-09 12:25:55,2019-04-09 12:25:55,0.247s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/Input_Add_Title_Item_2 (1)""), ""title2"")",Chrome 73.0.3683.86,,2019-04-09 12:25:55,2019-04-09 12:25:55,0.199s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/TextArea_ListItem2 (1)""), ""Subtitle2"")",Chrome 73.0.3683.86,,2019-04-09 12:25:55,2019-04-09 12:25:56,0.260s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/a_Add Action (3) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:56,2019-04-09 12:25:56,0.108s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/div_Open a webview (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:56,2019-04-09 12:25:56,0.100s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Url_form-control (7) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:25:56,2019-04-09 12:25:56,0.499s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_Done (6) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:56,2019-04-09 12:25:56,0.081s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:25:56,2019-04-09 12:25:58,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/a_Add Action_1 (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:58,2019-04-09 12:25:58,0.085s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/h7_Open a webview (9) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:58,2019-04-09 12:25:59,0.095s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Broadcast/input_Url_form-control (7) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:25:59,2019-04-09 12:25:59,0.427s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast/button_Done (6) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:25:59,2019-04-09 12:25:59,0.077s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:25:59,2019-04-09 12:26:01,2.002s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 12:26:01,2019-04-09 12:26:01,0.000s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 12:26:01,2019-04-09 12:26:04,3.002s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload_Image_List_Item1 (1)""), img)",Chrome 73.0.3683.86,,2019-04-09 12:26:04,2019-04-09 12:26:35,30.938s,FAILED
+,,,,,,
+Test Cases/Webview/TC1095,Chrome 73.0.3683.86,Testing Webview on Main Menu,2019-04-09 12:26:35,2019-04-09 12:27:28,53.029s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:26:35,2019-04-09 12:27:22,46.978s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/input_Reply with a message_ope (4) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:27:22,2019-04-09 12:27:22,0.081s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/h7_Open a webview (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:27:22,2019-04-09 12:27:22,0.086s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Menu/input_Url_form-control (2)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:27:22,2019-04-09 12:27:23,0.456s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:27:23,2019-04-09 12:27:25,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/button_Done (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:27:25,2019-04-09 12:27:25,0.070s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/button_Save Menu (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:27:25,2019-04-09 12:27:25,0.082s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:27:25,2019-04-09 12:27:27,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/div_Menu saved successfully (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:27:27,2019-04-09 12:27:28,1.100s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/Remove_Menu_Button""))",Chrome 73.0.3683.86,,2019-04-09 12:27:28,2019-04-09 12:27:28,0.082s,PASSED
+,,,,,,
+Test Cases/Webview/TC1096,Chrome 73.0.3683.86,Testing Edit Webview on Main Menu,2019-04-09 12:27:28,2019-04-09 12:28:28,1m - 0.006s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:27:28,2019-04-09 12:28:17,48.882s,PASSED
+"click(findTestObject(""Page_KiboPush  Menu/input_Reply with a message_ope (4) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:17,2019-04-09 12:28:17,0.119s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/h7_Open a webview (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:17,2019-04-09 12:28:17,0.165s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Menu/input_Url_form-control (2) (1) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:28:17,2019-04-09 12:28:18,0.618s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:28:18,2019-04-09 12:28:20,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/button_Done (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:20,2019-04-09 12:28:20,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/button_Save Menu (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:20,2019-04-09 12:28:20,0.083s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:28:20,2019-04-09 12:28:22,2.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/div_Menu saved successfully (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:22,2019-04-09 12:28:23,1.112s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/Open_Popover_Edit (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:23,2019-04-09 12:28:23,0.100s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Menu/select_COMPACTTALLFULL (1)""), ""COMPACT"", true)",Chrome 73.0.3683.86,,2019-04-09 12:28:23,2019-04-09 12:28:24,0.335s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/button_Done (3) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:24,2019-04-09 12:28:24,0.152s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/button_Save Menu (3) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:24,2019-04-09 12:28:24,0.069s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:28:24,2019-04-09 12:28:26,2.012s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/div_Menu saved successfully (3) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:28:26,2019-04-09 12:28:26,0.082s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:28:26,2019-04-09 12:28:28,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Menu/button_Remove Main Menu""))",Chrome 73.0.3683.86,,2019-04-09 12:28:28,2019-04-09 12:28:28,0.082s,PASSED
+,,,,,,
+Test Cases/Webview/TC1097,Chrome 73.0.3683.86,Saving Webview Main Menu Item,2019-04-09 12:28:28,2019-04-09 12:29:53,1m - 24.960s,FAILED
+"callTestCase(findTestCase(""Webview/TC1095""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:28:28,2019-04-09 12:29:53,1m - 24.888s,FAILED
+,,,,,,
+Test Cases/Webview/TC1098,Chrome 73.0.3683.86,Testing Webview Option in Sequence Messaging,2019-04-09 12:29:53,2019-04-09 12:30:37,43.754s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:29:53,2019-04-09 12:30:25,31.473s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:30:25,2019-04-09 12:30:27,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Automation""))",Chrome 73.0.3683.86,,2019-04-09 12:30:27,2019-04-09 12:30:27,0.147s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:30:27,2019-04-09 12:30:28,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Sequence Messaging""))",Chrome 73.0.3683.86,,2019-04-09 12:30:28,2019-04-09 12:30:28,0.102s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:30:28,2019-04-09 12:30:30,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Sequence/button_Create New Sequence""))",Chrome 73.0.3683.86,,2019-04-09 12:30:30,2019-04-09 12:30:30,0.090s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:30:30,2019-04-09 12:30:31,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Sequence/input_Sequence Name_form-control""), ""Test"")",Chrome 73.0.3683.86,,2019-04-09 12:30:31,2019-04-09 12:30:31,0.119s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Sequence/button_Create""))",Chrome 73.0.3683.86,,2019-04-09 12:30:31,2019-04-09 12:30:31,0.111s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:30:31,2019-04-09 12:30:33,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Edit Sequence/button_Add Message""))",Chrome 73.0.3683.86,,2019-04-09 12:30:33,2019-04-09 12:30:33,0.104s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:30:33,2019-04-09 12:30:34,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Edit Sequence/div_New MessageTriggerNone -- EditScheduleAfter 1 day(s) -- EditSegmentNone -- Edit0Sent0Seen0Clicked""))",Chrome 73.0.3683.86,,2019-04-09 12:30:34,2019-04-09 12:30:34,0.053s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Edit Sequence/span_New Message""))",Chrome 73.0.3683.86,,2019-04-09 12:30:34,2019-04-09 12:30:34,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Sequence Message/div_Text""))",Chrome 73.0.3683.86,,2019-04-09 12:30:34,2019-04-09 12:30:34,0.110s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:30:34,2019-04-09 12:30:36,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Sequence Message/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:30:36,2019-04-09 12:30:37,0.095s,PASSED
+"verifyTextNotPresent("" Open a webview"", false)",Chrome 73.0.3683.86,,2019-04-09 12:30:37,2019-04-09 12:30:37,0.139s,PASSED
+,,,,,,
+Test Cases/Webview/TC1099,Chrome 73.0.3683.86,Testing Webview Option in Templates,2019-04-09 12:30:37,2019-04-09 12:31:13,36.542s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:30:37,2019-04-09 12:31:06,29.443s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:31:06,2019-04-09 12:31:08,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasting (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:31:08,2019-04-09 12:31:08,0.148s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:08,2019-04-09 12:31:09,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Templates""))",Chrome 73.0.3683.86,,2019-04-09 12:31:09,2019-04-09 12:31:10,0.155s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:10,2019-04-09 12:31:11,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Templates/span_Create New""))",Chrome 73.0.3683.86,,2019-04-09 12:31:11,2019-04-09 12:31:11,0.186s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:11,2019-04-09 12:31:12,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/div_Text""))",Chrome 73.0.3683.86,,2019-04-09 12:31:12,2019-04-09 12:31:12,0.180s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Broadcast Template/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:31:12,2019-04-09 12:31:12,0.176s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:12,2019-04-09 12:31:13,1.001s,PASSED
+"verifyTextNotPresent("" Open a webview"", false)",Chrome 73.0.3683.86,,2019-04-09 12:31:13,2019-04-09 12:31:13,0.170s,PASSED
+,,,,,,
+Test Cases/Webview/TC1100,Chrome 73.0.3683.86,Testing Webview Option in Messenger Ads,2019-04-09 12:31:13,2019-04-09 12:31:52,38.838s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Login_Muzamil""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:31:13,2019-04-09 12:31:44,30.851s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:31:44,2019-04-09 12:31:46,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Growth Tools (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:31:46,2019-04-09 12:31:46,0.114s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:46,2019-04-09 12:31:47,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger Ads (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:31:47,2019-04-09 12:31:47,0.099s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:47,2019-04-09 12:31:48,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Messenger Ads/span_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:31:48,2019-04-09 12:31:49,0.119s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:49,2019-04-09 12:31:50,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Messenger Ad/a_Opt-In Message_btn btn-circle btn-icon-only btn-default m-input-icon__icon m-input-icon__icon--right""))",Chrome 73.0.3683.86,,2019-04-09 12:31:50,2019-04-09 12:31:51,1.327s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:31:51,2019-04-09 12:31:52,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Message/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:31:52,2019-04-09 12:31:52,0.097s,PASSED
+"verifyTextNotPresent("" Open a webview"", false)",Chrome 73.0.3683.86,,2019-04-09 12:31:52,2019-04-09 12:31:52,0.144s,PASSED
+,,,,,,
+Test Cases/Webview/TC11110,Chrome 73.0.3683.86,Test Adding Webview as Button Option in Persistent Menu Components,2019-04-09 12:31:52,2019-04-09 12:32:40,48.171s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:31:52,2019-04-09 12:32:34,41.920s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:32:34,2019-04-09 12:32:35,1.003s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:32:35,2019-04-09 12:32:35,0.073s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:32:35,2019-04-09 12:32:36,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:32:36,2019-04-09 12:32:36,0.096s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Text""))",Chrome 73.0.3683.86,,2019-04-09 12:32:36,2019-04-09 12:32:36,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button""))",Chrome 73.0.3683.86,,2019-04-09 12:32:36,2019-04-09 12:32:36,0.106s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:32:36,2019-04-09 12:32:37,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Button Title_form-control""), ""Testing Webview"")",Chrome 73.0.3683.86,,2019-04-09 12:32:37,2019-04-09 12:32:38,0.216s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h7_Open a webview""))",Chrome 73.0.3683.86,,2019-04-09 12:32:38,2019-04-09 12:32:38,0.071s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:32:38,2019-04-09 12:32:39,1.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Url_form-control""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:32:39,2019-04-09 12:32:39,0.428s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Done""))",Chrome 73.0.3683.86,,2019-04-09 12:32:39,2019-04-09 12:32:39,0.070s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:32:39,2019-04-09 12:32:40,1.001s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Testing Webview""), 1)",Chrome 73.0.3683.86,,2019-04-09 12:32:40,2019-04-09 12:32:40,0.024s,PASSED
+,,,,,,
+Test Cases/Webview/TC11111,Chrome 73.0.3683.86,Test link on Button Popover (Persistent Menu),2019-04-09 12:32:40,2019-04-09 12:33:38,57.265s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:32:40,2019-04-09 12:33:29,48.213s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:33:29,2019-04-09 12:33:30,1.003s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:33:30,2019-04-09 12:33:30,0.088s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:33:30,2019-04-09 12:33:31,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:33:31,2019-04-09 12:33:31,0.119s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:33:31,2019-04-09 12:33:33,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Text (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:33:33,2019-04-09 12:33:33,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:33:33,2019-04-09 12:33:33,0.074s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:33:33,2019-04-09 12:33:34,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Button Title_form-control (1)""), ""Testing Webview"")",Chrome 73.0.3683.86,,2019-04-09 12:33:34,2019-04-09 12:33:34,0.255s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h7_Open a webview (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:33:34,2019-04-09 12:33:34,0.071s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:33:34,2019-04-09 12:33:35,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/a_Whitelist url domains to open in-app browser""))",Chrome 73.0.3683.86,,2019-04-09 12:33:35,2019-04-09 12:33:35,0.116s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:33:35,2019-04-09 12:33:36,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  api_settings/span_Whitelist Domains (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:33:36,2019-04-09 12:33:37,0.090s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:33:37,2019-04-09 12:33:38,1.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Whitelist Domains/span_Whitelist Domains (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:33:38,2019-04-09 12:33:38,0.039s,PASSED
+,,,,,,
+Test Cases/Webview/TC11112,Chrome 73.0.3683.86,Test Cancel Button on Webview option in Button Popover (Persistent Menu),2019-04-09 12:33:38,2019-04-09 12:34:39,1m - 1.577s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:33:38,2019-04-09 12:34:31,53.723s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:34:31,2019-04-09 12:34:32,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:34:32,2019-04-09 12:34:32,0.089s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:34:32,2019-04-09 12:34:33,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:34:33,2019-04-09 12:34:33,0.085s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:34:33,2019-04-09 12:34:36,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Text (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:34:36,2019-04-09 12:34:36,0.101s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:34:36,2019-04-09 12:34:36,0.086s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:34:36,2019-04-09 12:34:37,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Button Title_form-control (1) (1)""), ""Testing Webview"")",Chrome 73.0.3683.86,,2019-04-09 12:34:37,2019-04-09 12:34:37,0.263s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h7_Open a webview (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:34:37,2019-04-09 12:34:37,0.082s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:34:37,2019-04-09 12:34:38,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Cancel""))",Chrome 73.0.3683.86,,2019-04-09 12:34:38,2019-04-09 12:34:38,0.066s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:34:38,2019-04-09 12:34:39,1.001s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Button TitleWhen this button is pressed Open a website Open a webview Done  Cancel""), 0)",Chrome 73.0.3683.86,,2019-04-09 12:34:39,2019-04-09 12:34:39,0.020s,PASSED
+,,,,,,
+Test Cases/Webview/TC11113,Chrome 73.0.3683.86,Test Edit Webview (Persistent Menu),2019-04-09 12:34:39,2019-04-09 12:35:32,52.991s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:34:39,2019-04-09 12:35:25,46.162s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:35:25,2019-04-09 12:35:26,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:26,2019-04-09 12:35:26,0.086s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:35:26,2019-04-09 12:35:27,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:27,2019-04-09 12:35:28,0.088s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Text (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:28,2019-04-09 12:35:28,0.094s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (3)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:28,2019-04-09 12:35:28,0.085s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:35:28,2019-04-09 12:35:29,1.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Button Title_form-control (3)""), ""Testing Webview"")",Chrome 73.0.3683.86,,2019-04-09 12:35:29,2019-04-09 12:35:29,0.206s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h7_Open a webview (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:29,2019-04-09 12:35:29,0.070s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:35:29,2019-04-09 12:35:30,1.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Url_form-control (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:35:30,2019-04-09 12:35:30,0.389s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Done (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:30,2019-04-09 12:35:30,0.072s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Testing Webview (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:30,2019-04-09 12:35:31,0.589s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Url_form-control (1)""), ""https://skiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:35:31,2019-04-09 12:35:32,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Done (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:35:32,2019-04-09 12:35:32,0.076s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_KiboEngage  Create Menu/div_Whitelist url domains to open in-app browserUrlWebView SizeCOMPACTTALLFULL""), 0)",Chrome 73.0.3683.86,,2019-04-09 12:35:32,2019-04-09 12:35:32,0.536s,PASSED
+,,,,,,
+Test Cases/Webview/TC11114,Chrome 73.0.3683.86,Test Remove Webview (Persistent Menu),2019-04-09 12:35:32,2019-04-09 12:36:33,1m - 1.131s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:35:32,2019-04-09 12:36:27,55.048s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:36:27,2019-04-09 12:36:28,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:28,2019-04-09 12:36:28,0.083s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:36:28,2019-04-09 12:36:29,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:29,2019-04-09 12:36:29,0.095s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Text (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:29,2019-04-09 12:36:30,0.090s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/h6_ Add Button (3) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:30,2019-04-09 12:36:30,0.117s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:36:30,2019-04-09 12:36:31,1.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Button Title_form-control (3) (1)""), ""Testing Webview"")",Chrome 73.0.3683.86,,2019-04-09 12:36:31,2019-04-09 12:36:31,0.242s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/h7_Open a webview (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:31,2019-04-09 12:36:31,0.079s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:36:31,2019-04-09 12:36:32,1.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Url_form-control (1) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:36:32,2019-04-09 12:36:32,0.512s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Done (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:32,2019-04-09 12:36:33,0.076s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Testing Webview (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:33,2019-04-09 12:36:33,0.603s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Remove (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:36:33,2019-04-09 12:36:33,0.078s,PASSED
+"verifyElementNotPresent(findTestObject(""Page_KiboEngage  Create Menu/button_Testing Webview (1) (1)""), 0)",Chrome 73.0.3683.86,,2019-04-09 12:36:33,2019-04-09 12:36:33,0.026s,PASSED
+,,,,,,
+Test Cases/Webview/TC11115,Chrome 73.0.3683.86,Testing Webview Default Action on Cards (Persistent Menu),2019-04-09 12:36:33,2019-04-09 12:37:38,1m - 4.785s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:36:33,2019-04-09 12:37:16,43.129s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:37:16,2019-04-09 12:37:17,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:17,2019-04-09 12:37:18,0.089s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:37:18,2019-04-09 12:37:19,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:19,2019-04-09 12:37:19,0.148s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Card (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:19,2019-04-09 12:37:19,0.173s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/a_Add Action (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:19,2019-04-09 12:37:19,0.136s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Open a webview (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:19,2019-04-09 12:37:19,0.116s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Url_form-control (2) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:37:19,2019-04-09 12:37:20,0.618s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Done (3) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:20,2019-04-09 12:37:20,0.102s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Message_form-control (1)""), ""Test title"")",Chrome 73.0.3683.86,,2019-04-09 12:37:20,2019-04-09 12:37:20,0.399s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/Card_Subtitle_Textarea (1)""), ""subtitle"")",Chrome 73.0.3683.86,,2019-04-09 12:37:20,2019-04-09 12:37:21,0.285s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 12:37:21,2019-04-09 12:37:21,0.001s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:37:21,2019-04-09 12:37:23,2.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload Image (1) (2) (1) (1) (1)""), img)",Chrome 73.0.3683.86,,2019-04-09 12:37:23,2019-04-09 12:37:23,0.045s,PASSED
+delay(10),Chrome 73.0.3683.86,,2019-04-09 12:37:23,2019-04-09 12:37:33,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/h4_KIBOPUSH (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:33,2019-04-09 12:37:33,0.097s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:37:33,2019-04-09 12:37:35,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/h6_ Add Button (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:35,2019-04-09 12:37:35,0.080s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/h7_Add Share button""))",Chrome 73.0.3683.86,,2019-04-09 12:37:35,2019-04-09 12:37:35,0.069s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Done""))",Chrome 73.0.3683.86,,2019-04-09 12:37:35,2019-04-09 12:37:35,0.072s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:37:35,2019-04-09 12:37:37,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Save (4) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:37,2019-04-09 12:37:37,0.074s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:37:37,2019-04-09 12:37:38,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Message Saved Successfully (5) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:37:38,2019-04-09 12:37:38,0.067s,PASSED
+,,,,,,
+Test Cases/Webview/TC11116,Chrome 73.0.3683.86,Testing Edit Webview Default Action on Cards (Persistent Menu),2019-04-09 12:37:38,2019-04-09 12:38:50,1m - 11.589s,PASSED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:37:38,2019-04-09 12:38:25,47.281s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:38:25,2019-04-09 12:38:26,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:26,2019-04-09 12:38:27,0.076s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:38:27,2019-04-09 12:38:28,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:28,2019-04-09 12:38:28,0.099s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Card (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:28,2019-04-09 12:38:28,0.106s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/a_Add Action (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:28,2019-04-09 12:38:28,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Open a webview (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:28,2019-04-09 12:38:28,0.074s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Url_form-control (2) (1) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:38:28,2019-04-09 12:38:28,0.393s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Done (3) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:28,2019-04-09 12:38:28,0.064s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:38:28,2019-04-09 12:38:29,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/input_Message_form-control (1) (1)""), ""Test title"")",Chrome 73.0.3683.86,,2019-04-09 12:38:29,2019-04-09 12:38:30,0.181s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/Card_Subtitle_Textarea (1) (1)""), ""subtitle"")",Chrome 73.0.3683.86,,2019-04-09 12:38:30,2019-04-09 12:38:30,0.148s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 12:38:30,2019-04-09 12:38:30,0.000s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:38:30,2019-04-09 12:38:32,2.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload Image (1) (2) (1) (1) (1)""), img)",Chrome 73.0.3683.86,,2019-04-09 12:38:32,2019-04-09 12:38:32,0.039s,PASSED
+delay(10),Chrome 73.0.3683.86,,2019-04-09 12:38:32,2019-04-09 12:38:42,10.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h4_KIBOPUSH (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:42,2019-04-09 12:38:42,0.066s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:38:42,2019-04-09 12:38:44,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (1) (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:44,2019-04-09 12:38:44,0.083s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/h7_Add Share button (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:44,2019-04-09 12:38:44,0.065s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Done (5)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:44,2019-04-09 12:38:44,0.075s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:38:44,2019-04-09 12:38:46,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/a_Edit Action""))",Chrome 73.0.3683.86,,2019-04-09 12:38:46,2019-04-09 12:38:46,0.107s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/select_COMPACTTALLFULL""), ""COMPACT"", true)",Chrome 73.0.3683.86,,2019-04-09 12:38:46,2019-04-09 12:38:46,0.232s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Done (5)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:46,2019-04-09 12:38:46,0.106s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:38:46,2019-04-09 12:38:48,2.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/button_Save (4) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:48,2019-04-09 12:38:49,0.120s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:38:49,2019-04-09 12:38:50,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Create Menu/div_Message Saved Successfully (5) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:38:50,2019-04-09 12:38:50,0.062s,PASSED
+,,,,,,
+Test Cases/Webview/TC11117,Chrome 73.0.3683.86,Testing Webview Default Action on Lists (Persistent Menu),2019-04-09 12:38:50,2019-04-09 12:40:09,1m - 19.034s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:38:50,2019-04-09 12:39:30,40.260s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:39:30,2019-04-09 12:39:31,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:39:31,2019-04-09 12:39:31,0.070s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:39:31,2019-04-09 12:39:32,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:39:32,2019-04-09 12:39:32,0.087s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_List""))",Chrome 73.0.3683.86,,2019-04-09 12:39:32,2019-04-09 12:39:32,0.125s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Message_form-control (2)""), ""title1"")",Chrome 73.0.3683.86,,2019-04-09 12:39:32,2019-04-09 12:39:32,0.209s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Add Action_form-control""), ""title2"")",Chrome 73.0.3683.86,,2019-04-09 12:39:32,2019-04-09 12:39:33,0.209s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/Subtitle_List_Item1""), ""subtitle1"")",Chrome 73.0.3683.86,,2019-04-09 12:39:33,2019-04-09 12:39:33,0.240s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/Subtitle_List_Item2""), ""Subtitle2"")",Chrome 73.0.3683.86,,2019-04-09 12:39:33,2019-04-09 12:39:33,0.246s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/a_Add Action (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:39:33,2019-04-09 12:39:33,0.096s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Open a webview (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:39:33,2019-04-09 12:39:33,0.097s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Url_form-control (3)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:39:33,2019-04-09 12:39:34,0.543s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Done (6)""))",Chrome 73.0.3683.86,,2019-04-09 12:39:34,2019-04-09 12:39:34,0.101s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/a_Add Action_1""))",Chrome 73.0.3683.86,,2019-04-09 12:39:34,2019-04-09 12:39:34,0.081s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Open a webview (2)""))",Chrome 73.0.3683.86,,2019-04-09 12:39:34,2019-04-09 12:39:34,0.084s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Url_form-control (3)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:39:34,2019-04-09 12:39:35,0.489s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Done (6)""))",Chrome 73.0.3683.86,,2019-04-09 12:39:35,2019-04-09 12:39:35,0.080s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:39:35,2019-04-09 12:39:36,1.002s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 12:39:36,2019-04-09 12:39:36,0.001s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:39:36,2019-04-09 12:39:38,2.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload_Image_List_Item1 (1)""), img)",Chrome 73.0.3683.86,,2019-04-09 12:39:38,2019-04-09 12:40:09,30.928s,FAILED
+,,,,,,
+Test Cases/Webview/TC11118,Chrome 73.0.3683.86,Testing Edit Webview Default Action on Lists (Persistent Menu),2019-04-09 12:40:09,2019-04-09 12:41:26,1m - 17.591s,FAILED
+"callTestCase(findTestCase(""Persistent Menu/open_popover""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:40:09,2019-04-09 12:40:47,37.903s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:40:47,2019-04-09 12:40:48,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/input_Open a submenu_replyWithMessage (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:48,2019-04-09 12:40:48,0.084s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:40:48,2019-04-09 12:40:49,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Menu/a_Create Message (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:49,2019-04-09 12:40:49,0.111s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_List (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:49,2019-04-09 12:40:49,0.196s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Message_form-control (2) (1)""), ""title1"")",Chrome 73.0.3683.86,,2019-04-09 12:40:49,2019-04-09 12:40:49,0.265s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Add Action_form-control (1)""), ""title2"")",Chrome 73.0.3683.86,,2019-04-09 12:40:49,2019-04-09 12:40:50,0.283s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/Subtitle_List_Item1 (1)""), ""subtitle1"")",Chrome 73.0.3683.86,,2019-04-09 12:40:50,2019-04-09 12:40:50,0.299s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/Subtitle_List_Item2 (1)""), ""Subtitle2"")",Chrome 73.0.3683.86,,2019-04-09 12:40:50,2019-04-09 12:40:50,0.319s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/a_Add Action (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:50,2019-04-09 12:40:50,0.122s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Open a webview (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:50,2019-04-09 12:40:51,0.146s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Url_form-control (3) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:40:51,2019-04-09 12:40:51,0.645s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Done (6) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:51,2019-04-09 12:40:51,0.089s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/a_Add Action_1 (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:51,2019-04-09 12:40:51,0.165s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/div_Open a webview (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:51,2019-04-09 12:40:52,0.168s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Create Menu/input_Url_form-control (3) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 12:40:52,2019-04-09 12:40:52,0.683s,PASSED
+"click(findTestObject(""Page_KiboEngage  Create Menu/button_Done (6) (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:40:52,2019-04-09 12:40:52,0.113s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:40:52,2019-04-09 12:40:53,1.001s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 12:40:53,2019-04-09 12:40:53,0.000s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 12:40:53,2019-04-09 12:40:55,2.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload_Image_List_Item1 (1)""), img)",Chrome 73.0.3683.86,,2019-04-09 12:40:55,2019-04-09 12:41:26,30.865s,FAILED
+,,,,,,
+Test Cases/Webview/TC11119,Chrome 73.0.3683.86,Test Adding Webview as Button Option in Landing Pages,2019-04-09 12:41:26,2019-04-09 12:42:45,1m - 18.733s,FAILED
+"callTestCase(findTestCase(""Landing Pages Test Cases/Open Create Landing Page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:41:26,2019-04-09 12:42:45,1m - 18.662s,FAILED
+,,,,,,
+Test Cases/Webview/TC11120,Chrome 73.0.3683.86,Test link on Button Popover (Landing Pages),2019-04-09 12:42:45,2019-04-09 12:44:00,1m - 14.568s,FAILED
+"callTestCase(findTestCase(""Landing Pages Test Cases/Open Create Landing Page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:42:45,2019-04-09 12:44:00,1m - 14.509s,FAILED
+,,,,,,
+Test Cases/Webview/TC11121,Chrome 73.0.3683.86,Test Cancel Button on Webview option in Button Popover (Landing Pages),2019-04-09 12:44:00,2019-04-09 12:45:14,1m - 14.254s,FAILED
+"callTestCase(findTestCase(""Landing Pages Test Cases/Open Create Landing Page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:44:00,2019-04-09 12:45:14,1m - 14.188s,FAILED
+,,,,,,
+Test Cases/Webview/TC11122,Chrome 73.0.3683.86,Test Edit Webview (Landing Pages),2019-04-09 12:45:14,2019-04-09 12:46:20,1m - 5.960s,FAILED
+"callTestCase(findTestCase(""Webview/TC11119""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:45:14,2019-04-09 12:46:20,1m - 5.897s,FAILED
+,,,,,,
+Test Cases/Webview/TC11123,Chrome 73.0.3683.86,Test Remove Webview (Landing Pages),2019-04-09 12:46:20,2019-04-09 12:47:55,1m - 34.887s,FAILED
+"callTestCase(findTestCase(""Landing Pages Test Cases/Open Create Landing Page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:46:20,2019-04-09 12:47:55,1m - 34.820s,FAILED
+,,,,,,
+Test Cases/Webview/TC11124,Chrome 73.0.3683.86,Testing Webview Default Action on Cards (Landing Pages),2019-04-09 12:47:55,2019-04-09 12:49:36,1m - 41.780s,FAILED
+"callTestCase(findTestCase(""Landing Pages Test Cases/Open Create Landing Page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:47:55,2019-04-09 12:49:36,1m - 41.689s,FAILED
+,,,,,,
+Test Cases/Webview/TC11125,Chrome 73.0.3683.86,Testing Edit Webview Default Action on Cards (Landing Pages),2019-04-09 12:49:36,2019-04-09 12:51:42,2m - 5.371s,FAILED
+"callTestCase(findTestCase(""Landing Pages Test Cases/Open Create Landing Page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:49:37,2019-04-09 12:51:42,2m - 5.233s,FAILED
+,,,,,,
+Test Cases/Webview/TC11126,Chrome 73.0.3683.86,Testing Webview Default Action on Lists (Landing Pages),2019-04-09 12:51:42,2019-04-09 12:53:07,1m - 25.261s,FAILED
+"callTestCase(findTestCase(""Landing Pages Test Cases/Open Create Landing Page""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:51:42,2019-04-09 12:53:07,1m - 25.162s,FAILED
+,,,,,,
+Test Cases/Webview/TC11127,Chrome 73.0.3683.86,Testing Edit Webview Default Action on Lists (Landing Pages),2019-04-09 12:53:07,2019-04-09 12:54:35,1m - 27.950s,FAILED
+"callTestCase(findTestCase(""Webview/TC11126""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:53:07,2019-04-09 12:54:35,1m - 27.892s,FAILED
+,,,,,,
+Test Cases/Webview/TC11128,Chrome 73.0.3683.86,Test Adding Webview as Button Option in Welcome Message,2019-04-09 12:54:35,2019-04-09 12:55:52,1m - 16.698s,FAILED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:54:35,2019-04-09 12:55:20,44.824s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:55:20,2019-04-09 12:55:21,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Edit Template/h6_ Add Button (5)""))",Chrome 73.0.3683.86,,2019-04-09 12:55:21,2019-04-09 12:55:52,30.789s,FAILED
+,,,,,,
+Test Cases/Webview/TC11129,Chrome 73.0.3683.86,Test link on Button Popover (Welcome Message),2019-04-09 12:55:52,2019-04-09 12:57:04,1m - 12.218s,FAILED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:55:52,2019-04-09 12:56:32,40.380s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:56:32,2019-04-09 12:56:33,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Edit Template/h6_ Add Button (1)""))",Chrome 73.0.3683.86,,2019-04-09 12:56:33,2019-04-09 12:57:04,30.771s,FAILED
+,,,,,,
+Test Cases/Webview/TC11130,Chrome 73.0.3683.86,Test Cancel Button on Webview option in Button Popover (Welcome Message),2019-04-09 12:57:04,2019-04-09 12:58:13,1m - 8.679s,FAILED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:57:04,2019-04-09 12:57:41,36.833s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:57:41,2019-04-09 12:57:42,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Edit Template/h6_ Add Button (1) (3)""))",Chrome 73.0.3683.86,,2019-04-09 12:57:42,2019-04-09 12:58:13,30.789s,FAILED
+,,,,,,
+Test Cases/Webview/TC11131,Chrome 73.0.3683.86,Test Edit Webview (Welcome Message),2019-04-09 12:58:13,2019-04-09 12:59:22,1m - 8.988s,FAILED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:58:13,2019-04-09 12:58:50,37.086s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-09 12:58:50,2019-04-09 12:58:51,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Edit Template/h6_ Add Button (5)""))",Chrome 73.0.3683.86,,2019-04-09 12:58:51,2019-04-09 12:59:22,30.846s,FAILED
+,,,,,,
+Test Cases/Webview/TC11132,Chrome 73.0.3683.86,Test Remove Webview (Welcome Message),2019-04-09 12:59:22,2019-04-09 13:00:30,1m - 8.422s,FAILED
+"callTestCase(findTestCase(""Webview/TC11128""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 12:59:22,2019-04-09 13:00:30,1m - 8.364s,FAILED
+,,,,,,
+Test Cases/Webview/TC11133,Chrome 73.0.3683.86,Testing Webview Default Action on Cards (Welcome Message),2019-04-09 13:00:30,2019-04-09 13:01:55,1m - 24.799s,PASSED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 13:00:30,2019-04-09 13:01:19,48.385s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:19,2019-04-09 13:01:21,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/i_Welcome Message_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.86,,2019-04-09 13:01:21,2019-04-09 13:01:21,0.079s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:21,2019-04-09 13:01:23,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/div_Card (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:23,2019-04-09 13:01:23,0.096s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/input_ Add Button_form-control (1) (1)""), ""title"")",Chrome 73.0.3683.86,,2019-04-09 13:01:23,2019-04-09 13:01:23,0.174s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/Card Subtitle TextArea (1) (1)""), ""subtitle"")",Chrome 73.0.3683.86,,2019-04-09 13:01:23,2019-04-09 13:01:23,0.206s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:23,2019-04-09 13:01:25,2.002s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 13:01:25,2019-04-09 13:01:25,0.000s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 13:01:25,2019-04-09 13:01:28,3.002s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload Image""), img)",Chrome 73.0.3683.86,,2019-04-09 13:01:28,2019-04-09 13:01:28,0.046s,PASSED
+delay(8),Chrome 73.0.3683.86,,2019-04-09 13:01:28,2019-04-09 13:01:36,8.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h4_KIBOPUSH (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:36,2019-04-09 13:01:36,0.072s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:36,2019-04-09 13:01:38,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/a_Add Action (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:38,2019-04-09 13:01:38,0.110s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h7_Open a webview (4) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:38,2019-04-09 13:01:38,0.085s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/input_Url_form-control (3) (1) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 13:01:38,2019-04-09 13:01:39,0.429s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Done (3) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:39,2019-04-09 13:01:39,0.075s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:39,2019-04-09 13:01:41,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h6_ Add Button (7) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:41,2019-04-09 13:01:41,0.072s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h7_Add Share button (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:41,2019-04-09 13:01:41,0.056s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Done (3) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:41,2019-04-09 13:01:41,0.063s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:41,2019-04-09 13:01:43,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Save (3) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:43,2019-04-09 13:01:43,0.077s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:43,2019-04-09 13:01:45,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/div_Message saved successfully (3) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:45,2019-04-09 13:01:45,0.064s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:45,2019-04-09 13:01:47,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/i_Welcome Message_fa fa-times fa-stack-2x""))",Chrome 73.0.3683.86,,2019-04-09 13:01:47,2019-04-09 13:01:47,0.062s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h6_Text""))",Chrome 73.0.3683.86,,2019-04-09 13:01:47,2019-04-09 13:01:47,0.120s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:47,2019-04-09 13:01:49,2.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/Text Text Area Post Card""), ""Hi {{user_full_name}}! Thanks for getting in touch with us on Messenger. Please send us any questions you may have"")",Chrome 73.0.3683.86,,2019-04-09 13:01:49,2019-04-09 13:01:51,1.344s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:51,2019-04-09 13:01:53,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Save (3) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:53,2019-04-09 13:01:53,0.051s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:01:53,2019-04-09 13:01:55,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/div_Message saved successfully (3) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:01:55,2019-04-09 13:01:55,0.033s,PASSED
+,,,,,,
+Test Cases/Webview/TC11134,Chrome 73.0.3683.86,Testing Edit Webview Default Action on Cards (Welcome Message),2019-04-09 13:01:55,2019-04-09 13:03:12,1m - 17.435s,PASSED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 13:01:55,2019-04-09 13:02:33,38.049s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:02:33,2019-04-09 13:02:35,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/i_Welcome Message_fa fa-times fa-stack-2x (2)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:35,2019-04-09 13:02:35,0.079s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:02:35,2019-04-09 13:02:37,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/div_Card (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:37,2019-04-09 13:02:37,0.102s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/input_ Add Button_form-control (1) (1) (1)""), ""title"")",Chrome 73.0.3683.86,,2019-04-09 13:02:37,2019-04-09 13:02:37,0.157s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/Card Subtitle TextArea (1) (1) (1)""), ""subtitle"")",Chrome 73.0.3683.86,,2019-04-09 13:02:37,2019-04-09 13:02:38,0.208s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:02:38,2019-04-09 13:02:40,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/a_Add Action (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:40,2019-04-09 13:02:40,0.099s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h7_Open a webview (4) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:40,2019-04-09 13:02:40,0.096s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/input_Url_form-control (3) (1) (1) (1)""), ""https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 13:02:40,2019-04-09 13:02:40,0.442s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Done (3) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:40,2019-04-09 13:02:40,0.065s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:02:40,2019-04-09 13:02:42,2.001s,PASSED
+"img = getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.86,,2019-04-09 13:02:42,2019-04-09 13:02:42,0.001s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-09 13:02:42,2019-04-09 13:02:45,3.001s,PASSED
+"uploadFile(findTestObject(""Page_KiboEngage  Create Broadcast/Upload Image""), img)",Chrome 73.0.3683.86,,2019-04-09 13:02:45,2019-04-09 13:02:45,0.061s,PASSED
+delay(8),Chrome 73.0.3683.86,,2019-04-09 13:02:45,2019-04-09 13:02:53,8.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h4_KIBOPUSH (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:53,2019-04-09 13:02:53,0.051s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:02:53,2019-04-09 13:02:55,2.011s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h6_ Add Button (7) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:55,2019-04-09 13:02:56,0.131s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h7_Add Share button (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:56,2019-04-09 13:02:56,0.071s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Done (3) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:56,2019-04-09 13:02:56,0.086s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:02:56,2019-04-09 13:02:58,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/a_Edit Action""))",Chrome 73.0.3683.86,,2019-04-09 13:02:58,2019-04-09 13:02:58,0.099s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/input_Url_form-control (4)""), ""https://skiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-09 13:02:58,2019-04-09 13:02:58,0.622s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Edit Template/select_COMPACTTALLFULL (1)""), ""COMPACT"", true)",Chrome 73.0.3683.86,,2019-04-09 13:02:58,2019-04-09 13:02:59,0.217s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Done (4)""))",Chrome 73.0.3683.86,,2019-04-09 13:02:59,2019-04-09 13:02:59,0.124s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:02:59,2019-04-09 13:03:01,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Save (3) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:03:01,2019-04-09 13:03:01,0.066s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:03:01,2019-04-09 13:03:03,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/div_Message saved successfully (3) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:03:03,2019-04-09 13:03:03,0.054s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:03:03,2019-04-09 13:03:05,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/i_Welcome Message_fa fa-times fa-stack-2x (2)""))",Chrome 73.0.3683.86,,2019-04-09 13:03:05,2019-04-09 13:03:05,0.061s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h6_Text (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:03:05,2019-04-09 13:03:05,0.083s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:03:05,2019-04-09 13:03:07,2.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/Text Text Area Post Card (1)""), ""Hi {{user_full_name}}! Thanks for getting in touch with us on Messenger. Please send us any questions you may have"")",Chrome 73.0.3683.86,,2019-04-09 13:03:07,2019-04-09 13:03:08,1.169s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:03:08,2019-04-09 13:03:10,2.000s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/button_Save (3) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:03:10,2019-04-09 13:03:10,0.068s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:03:10,2019-04-09 13:03:12,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/div_Message saved successfully (3) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:03:12,2019-04-09 13:03:12,0.047s,PASSED
+,,,,,,
+Test Cases/Webview/TC11135,Chrome 73.0.3683.86,Testing Webview Default Action on Lists (Welcome Message),2019-04-09 13:03:12,2019-04-09 13:03:54,41.534s,FAILED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 13:03:12,2019-04-09 13:03:54,41.450s,FAILED
+,,,,,,
+Test Cases/Webview/TC11136,Chrome 73.0.3683.86,Testing Edit Webview Default Action on Lists (Welcome Message),2019-04-09 13:03:54,2019-04-09 13:05:10,1m - 16.350s,FAILED
+"callTestCase(findTestCase(""Welcome Message TestCases/Open Welcome Message Edit Screen""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-09 13:03:54,2019-04-09 13:04:35,40.832s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:04:35,2019-04-09 13:04:37,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/i_Welcome Message_fa fa-times fa-stack-2x (2) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:04:37,2019-04-09 13:04:37,0.080s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-09 13:04:37,2019-04-09 13:04:39,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h6_List (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:04:39,2019-04-09 13:04:39,0.120s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/input_Welcome Message_form-control (1)""), ""title1"")",Chrome 73.0.3683.86,,2019-04-09 13:04:39,2019-04-09 13:04:39,0.209s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Edit Template/List Item2 Title (1)""), ""title2"")",Chrome 73.0.3683.86,,2019-04-09 13:04:39,2019-04-09 13:04:39,0.190s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/a_Add Action (2) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:04:39,2019-04-09 13:04:39,0.116s,PASSED
+"click(findTestObject(""Page_KiboEngage  Edit Template/h7_Open a webview (5) (1)""))",Chrome 73.0.3683.86,,2019-04-09 13:04:39,2019-04-09 13:05:10,30.751s,FAILED

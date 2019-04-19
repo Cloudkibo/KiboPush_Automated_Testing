@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add audio component</description>
+   <name>TC0570</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc78e4bf-9642-4fde-8199-9eef10f5d492</testCaseGuid>
+</TestCaseEntity>

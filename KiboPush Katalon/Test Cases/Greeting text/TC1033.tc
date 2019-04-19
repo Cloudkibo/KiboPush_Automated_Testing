@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>View greeting text</description>
-   <name>TC1033</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>da58bad7-5724-4c8d-be51-49698586083a</testCaseGuid>
-</TestCaseEntity>

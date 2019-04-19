@@ -18,17 +18,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Invite using Phone Number'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_View Customers Lists'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists'))
 
-WebUI.delay(2)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Customer Lists'))
 

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+signup,Chrome 73.0.3683.86,,2019-04-12 15:03:51,2019-04-12 15:04:06,14.986s,PASSED
+,,,,,,
+Test Cases/SignUp Test Cases/TC0009,Chrome 73.0.3683.86,Test signup without entering any information,2019-04-12 15:03:51,2019-04-12 15:04:05,14.768s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.86,,2019-04-12 15:03:51,2019-04-12 15:03:52,0.978s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-12 15:03:52,2019-04-12 15:03:52,0.119s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.86,,2019-04-12 15:03:52,2019-04-12 15:04:02,10.512s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.86,,2019-04-12 15:04:02,2019-04-12 15:04:03,0.498s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Sign Up (2)""))",Chrome 73.0.3683.86,,2019-04-12 15:04:03,2019-04-12 15:04:04,0.769s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Individual Account (9)""))",Chrome 73.0.3683.86,,2019-04-12 15:04:04,2019-04-12 15:04:05,1.451s,PASSED
+"click(findTestObject(""Page_KiboPush/h3_Individual Sign Up (1)""))",Chrome 73.0.3683.86,,2019-04-12 15:04:05,2019-04-12 15:04:05,0.257s,PASSED

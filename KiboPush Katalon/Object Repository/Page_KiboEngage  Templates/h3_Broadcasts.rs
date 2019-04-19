@@ -3,7 +3,7 @@
    <description></description>
    <name>h3_Broadcasts</name>
    <tag></tag>
-   <elementGuidId>96c9c570-e244-4846-b34b-982d63d14185</elementGuidId>
+   <elementGuidId>0934dd05-9b31-42f2-aa99-42be02a8c7f6</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

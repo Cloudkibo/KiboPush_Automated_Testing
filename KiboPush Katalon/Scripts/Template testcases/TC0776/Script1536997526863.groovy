@@ -21,6 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0775'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Text (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_New Text Component Added (1)'))
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (2)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Select a valid image'))

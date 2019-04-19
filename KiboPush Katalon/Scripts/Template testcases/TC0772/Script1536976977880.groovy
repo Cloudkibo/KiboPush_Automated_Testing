@@ -18,27 +18,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0769'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
 
-WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[2]/textarea'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
 
-textArea.sendKeys('h')
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
 
-//WebUI.setText(findTestObject('Page_KiboEngage  Create Broadcast Template/textarea_h (5)'), 'h')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)'))

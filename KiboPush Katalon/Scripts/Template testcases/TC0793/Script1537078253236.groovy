@@ -24,23 +24,16 @@ WebUI.callTestCase(findTestCase('Template testcases/TC0788'), [:], FailureHandli
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/gal_img (3) (1)'), img)
+WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/gal_img (3)'), img)
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast Template/svg (5) (1) (1)'))
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (3)'), 'hi')
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control'), 'hello')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (3) (1)'), 'hi')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (5)'), 'hello')
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create'))
 
-WebUI.scrollToPosition(0, 0)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (19)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast Template/div_Card in gallery must have at least one button (2)'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Card in gallery must have (2)'))
 

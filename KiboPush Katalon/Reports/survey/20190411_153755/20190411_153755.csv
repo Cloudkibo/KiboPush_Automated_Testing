@@ -1,0 +1,342 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+survey,Chrome 73.0.3683.86,,2019-04-11 15:37:56,2019-04-11 16:18:40,40m - 43.970s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0205,Chrome 73.0.3683.86,Test documentation link,2019-04-11 15:37:57,2019-04-11 15:39:19,1m - 21.965s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:37:57,2019-04-11 15:39:18,1m - 21.671s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_documentation""))",Chrome 73.0.3683.86,,2019-04-11 15:39:18,2019-04-11 15:39:19,0.091s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0206,Chrome 73.0.3683.86,Test video tutorial,2019-04-11 15:39:19,2019-04-11 15:40:29,1m - 10.387s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:39:19,2019-04-11 15:40:29,1m - 10.196s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Survey/a_video tutorial""))",Chrome 73.0.3683.86,,2019-04-11 15:40:29,2019-04-11 15:40:29,0.108s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0207,Chrome 73.0.3683.86,Test view survey,2019-04-11 15:40:29,2019-04-11 15:41:19,49.931s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:40:29,2019-04-11 15:41:18,48.605s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 15:41:18,2019-04-11 15:41:19,1.003s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:41:19,2019-04-11 15:41:19,0.005s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody""))",Chrome 73.0.3683.86,,2019-04-11 15:41:19,2019-04-11 15:41:19,0.027s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.86,,2019-04-11 15:41:19,2019-04-11 15:41:19,0.027s,PASSED
+rows_count = rows_table.size(),Chrome 73.0.3683.86,,2019-04-11 15:41:19,2019-04-11 15:41:19,0.001s,PASSED
+"verifyGreaterThanOrEqual(rows_count, 1)",Chrome 73.0.3683.86,,2019-04-11 15:41:19,2019-04-11 15:41:19,0.046s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-11 15:41:19,2019-04-11 15:41:19,0.080s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0208,Chrome 73.0.3683.86,Test filter by n days,2019-04-11 15:41:19,2019-04-11 15:42:58,1m - 39.418s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:41:19,2019-04-11 15:42:52,1m - 33.119s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-11 15:42:52,2019-04-11 15:42:55,3.003s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:42:55,2019-04-11 15:42:55,0.001s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody""))",Chrome 73.0.3683.86,,2019-04-11 15:42:55,2019-04-11 15:42:55,0.016s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.86,,2019-04-11 15:42:55,2019-04-11 15:42:55,0.015s,PASSED
+rows_count_before = rows_table.size(),Chrome 73.0.3683.86,,2019-04-11 15:42:55,2019-04-11 15:42:55,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Survey/input_example-text-input""), ""2"")",Chrome 73.0.3683.86,,2019-04-11 15:42:55,2019-04-11 15:42:55,0.106s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-11 15:42:55,2019-04-11 15:42:58,3.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:42:58,2019-04-11 15:42:58,0.000s,PASSED
+"Table = driver.findElement(By.xpath(""//table/tbody""))",Chrome 73.0.3683.86,,2019-04-11 15:42:58,2019-04-11 15:42:58,0.015s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.86,,2019-04-11 15:42:58,2019-04-11 15:42:58,0.011s,PASSED
+rows_count_after = rows_table.size(),Chrome 73.0.3683.86,,2019-04-11 15:42:58,2019-04-11 15:42:58,0.000s,PASSED
+"verifyGreaterThanOrEqual(rows_count_after, 1)",Chrome 73.0.3683.86,,2019-04-11 15:42:58,2019-04-11 15:42:58,0.002s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0209,Chrome 73.0.3683.86,Test pagination (next page),2019-04-11 15:42:58,2019-04-11 15:45:19,2m - 20.897s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:42:58,2019-04-11 15:45:04,2m - 5.482s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-11 15:45:04,2019-04-11 15:45:09,5.002s,PASSED
+date_page1 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-11 15:45:09,2019-04-11 15:45:09,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:45:09,2019-04-11 15:45:09,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:45:09,2019-04-11 15:45:09,0.065s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_next""))",Chrome 73.0.3683.86,,2019-04-11 15:45:09,2019-04-11 15:45:09,0.054s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-11 15:45:09,2019-04-11 15:45:14,5.003s,PASSED
+date_page2 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-11 15:45:14,2019-04-11 15:45:14,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:45:14,2019-04-11 15:45:14,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:45:14,2019-04-11 15:45:14,0.052s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_next""))",Chrome 73.0.3683.86,,2019-04-11 15:45:14,2019-04-11 15:45:14,0.044s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-11 15:45:14,2019-04-11 15:45:19,5.003s,PASSED
+date_page3 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.043s,PASSED
+"dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.008s,PASSED
+date1 = dateFormat.parse(date_page1),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.002s,PASSED
+date2 = dateFormat.parse(date_page2),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.000s,PASSED
+date3 = dateFormat.parse(date_page3),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.001s,PASSED
+println(date1),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.005s,PASSED
+println(date2),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.001s,PASSED
+println(date3),Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.000s,PASSED
+"verifyMatch(""1"", compareTo(date2).toString(), false)",Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:45:19,0.013s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0210,Chrome 73.0.3683.86,Test pagination (previous page),2019-04-11 15:45:19,2019-04-11 15:46:52,1m - 32.378s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:45:19,2019-04-11 15:46:42,1m - 22.966s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-11 15:46:42,2019-04-11 15:46:45,3.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Survey/a_next""))",Chrome 73.0.3683.86,,2019-04-11 15:46:45,2019-04-11 15:46:45,0.062s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-11 15:46:45,2019-04-11 15:46:48,3.001s,PASSED
+date_page1 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-11 15:46:48,2019-04-11 15:46:48,0.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:46:48,2019-04-11 15:46:48,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:46:48,2019-04-11 15:46:48,0.068s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Survey/a_previous""))",Chrome 73.0.3683.86,,2019-04-11 15:46:48,2019-04-11 15:46:49,0.071s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-11 15:46:49,2019-04-11 15:46:52,3.002s,PASSED
+date_page2 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.000s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.069s,PASSED
+"dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.001s,PASSED
+date1 = dateFormat.parse(date_page1),Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.000s,PASSED
+date2 = dateFormat.parse(date_page2),Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.001s,PASSED
+println(date1),Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.000s,PASSED
+println(date2),Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.001s,PASSED
+"verifyMatch(""-1"", compareTo(date2).toString(), false)",Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:46:52,0.002s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0211,Chrome 73.0.3683.86,Test pagination (Jump to page n),2019-04-11 15:46:52,2019-04-11 15:48:51,1m - 59.780s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:46:52,2019-04-11 15:48:17,1m - 25.623s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-11 15:48:17,2019-04-11 15:48:20,3.002s,PASSED
+date_page1 = getFirstRowDate(),Chrome 73.0.3683.86,,2019-04-11 15:48:20,2019-04-11 15:48:20,0.000s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:48:20,2019-04-11 15:48:20,0.001s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:48:20,2019-04-11 15:48:20,0.062s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_3""))",Chrome 73.0.3683.86,,2019-04-11 15:48:20,2019-04-11 15:48:51,31.003s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0212,Chrome 73.0.3683.86,Test create survey button,2019-04-11 15:48:51,2019-04-11 15:50:38,1m - 46.895s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:48:51,2019-04-11 15:50:05,1m - 13.478s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:50:05,2019-04-11 15:50:05,0.155s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:50:05,2019-04-11 15:50:05,0.312s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:50:05,2019-04-11 15:50:07,2.007s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Add Survey/h3_Create Survey Form""))",Chrome 73.0.3683.86,,2019-04-11 15:50:07,2019-04-11 15:50:38,30.865s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0213,Chrome 73.0.3683.86,Test create survey button (From survey template),2019-04-11 15:50:38,2019-04-11 15:52:22,1m - 43.902s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:50:38,2019-04-11 15:51:49,1m - 10.629s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:51:49,2019-04-11 15:51:49,0.078s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_Use Template (3) (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:51:49,2019-04-11 15:51:49,0.087s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:51:49,2019-04-11 15:51:51,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Show Templates/a_Create New Survey (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:51:51,2019-04-11 15:51:51,0.151s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/h3_Create Survey Form (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:51:51,2019-04-11 15:52:22,30.879s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0214,Chrome 73.0.3683.86,Test list of survey templates,2019-04-11 15:52:22,2019-04-11 15:53:23,1m - 0.771s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:52:22,2019-04-11 15:53:23,1m - 0.221s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New""))",Chrome 73.0.3683.86,,2019-04-11 15:53:23,2019-04-11 15:53:23,0.136s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_Use Template""))",Chrome 73.0.3683.86,,2019-04-11 15:53:23,2019-04-11 15:53:23,0.167s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:53:23,2019-04-11 15:53:23,0.001s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:53:23,2019-04-11 15:53:23,0.064s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0216,Chrome 73.0.3683.86,Test use template,2019-04-11 15:53:23,2019-04-11 15:55:05,1m - 42.269s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:53:23,2019-04-11 15:54:32,1m - 8.993s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (3) (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:54:32,2019-04-11 15:54:32,0.124s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_Use Template (1) (1) (1) (3)""))",Chrome 73.0.3683.86,,2019-04-11 15:54:32,2019-04-11 15:54:32,0.152s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:54:32,2019-04-11 15:54:34,2.004s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/a_Edit Template""))",Chrome 73.0.3683.86,,2019-04-11 15:54:34,2019-04-11 15:55:05,30.890s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0217,Chrome 73.0.3683.86,Test create survey and save,2019-04-11 15:55:05,2019-04-11 15:56:15,1m - 9.302s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:55:05,2019-04-11 15:56:01,56.048s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:56:01,2019-04-11 15:56:01,0.083s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:56:01,2019-04-11 15:56:02,0.157s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:56:02,2019-04-11 15:56:04,2.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 15:56:04,2019-04-11 15:56:04,0.095s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:56:04,2019-04-11 15:56:04,0.068s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control (1) (1) (1) (1)""), ""1"")",Chrome 73.0.3683.86,,2019-04-11 15:56:04,2019-04-11 15:56:04,0.101s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm_2 (1) (1) (1) (1)""), ""2"")",Chrome 73.0.3683.86,,2019-04-11 15:56:04,2019-04-11 15:56:04,0.102s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm (1) (1) (1) (1)""), ""3"")",Chrome 73.0.3683.86,,2019-04-11 15:56:04,2019-04-11 15:56:04,0.099s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm_1 (1) (1) (1) (1)""), ""4"")",Chrome 73.0.3683.86,,2019-04-11 15:56:04,2019-04-11 15:56:04,0.093s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:56:04,2019-04-11 15:56:06,2.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_Choices_form-control input-sm (1)""), ""4"")",Chrome 73.0.3683.86,,2019-04-11 15:56:06,2019-04-11 15:56:06,0.075s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:56:06,2019-04-11 15:56:08,2.002s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 15:56:08,2019-04-11 15:56:08,0.018s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:56:08,2019-04-11 15:56:08,0.070s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:56:08,2019-04-11 15:56:10,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Create Survey (3)""))",Chrome 73.0.3683.86,,2019-04-11 15:56:10,2019-04-11 15:56:10,0.077s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:56:10,2019-04-11 15:56:12,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Save (2)""))",Chrome 73.0.3683.86,,2019-04-11 15:56:12,2019-04-11 15:56:12,0.091s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:56:12,2019-04-11 15:56:14,2.004s,PASSED
+"click(findTestObject(""Page_KiboEngage  Survey/h3_Manage Surveys (3)""))",Chrome 73.0.3683.86,,2019-04-11 15:56:14,2019-04-11 15:56:15,0.051s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0219,Chrome 73.0.3683.86,Test Add Questions,2019-04-11 15:56:15,2019-04-11 15:57:38,1m - 23.514s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:56:15,2019-04-11 15:57:37,1m - 22.742s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New""))",Chrome 73.0.3683.86,,2019-04-11 15:57:37,2019-04-11 15:57:37,0.112s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey""))",Chrome 73.0.3683.86,,2019-04-11 15:57:37,2019-04-11 15:57:38,0.171s,PASSED
+"setText(findTestObject(""Page_KiboPush  Add Survey/input_form-control""), ""hello"")",Chrome 73.0.3683.86,,2019-04-11 15:57:38,2019-04-11 15:57:38,0.119s,PASSED
+"setText(findTestObject(""Page_KiboPush  Add Survey/textarea_form-control""), ""h"")",Chrome 73.0.3683.86,,2019-04-11 15:57:38,2019-04-11 15:57:38,0.098s,PASSED
+"setText(findTestObject(""Page_KiboPush  Add Survey/textarea_h""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 15:57:38,2019-04-11 15:57:38,0.075s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Survey/button_Add Questions""))",Chrome 73.0.3683.86,,2019-04-11 15:57:38,2019-04-11 15:57:38,0.081s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.86,,2019-04-11 15:57:38,2019-04-11 15:57:38,0.001s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 15:57:38,2019-04-11 15:57:38,0.045s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0220,Chrome 73.0.3683.86,Test Remove Question when only one question is added,2019-04-11 15:57:38,2019-04-11 15:59:06,1m - 28.344s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:57:38,2019-04-11 15:58:32,54.020s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:58:32,2019-04-11 15:58:32,0.100s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (1)""))",Chrome 73.0.3683.86,,2019-04-11 15:58:32,2019-04-11 15:58:32,0.198s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 15:58:32,2019-04-11 15:58:33,1.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Survey/button_Add Questions""))",Chrome 73.0.3683.86,,2019-04-11 15:58:33,2019-04-11 15:58:34,0.068s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 15:58:34,2019-04-11 15:58:36,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Add Survey/span_fa fa-times""))",Chrome 73.0.3683.86,,2019-04-11 15:58:36,2019-04-11 15:59:06,30.881s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0221,Chrome 73.0.3683.86,Test Remove Question when multiple questions are added,2019-04-11 15:59:06,2019-04-11 16:00:00,53.809s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 15:59:06,2019-04-11 16:00:00,53.223s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New""))",Chrome 73.0.3683.86,,2019-04-11 16:00:00,2019-04-11 16:00:00,0.085s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey""))",Chrome 73.0.3683.86,,2019-04-11 16:00:00,2019-04-11 16:00:00,0.187s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Survey/button_Add Questions""))",Chrome 73.0.3683.86,,2019-04-11 16:00:00,2019-04-11 16:00:00,0.218s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0222,Chrome 73.0.3683.86,Test Remove Question when multiple questions are added,2019-04-11 16:00:00,2019-04-11 16:01:01,1m - 0.575s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:00:00,2019-04-11 16:00:58,58.079s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:00:58,2019-04-11 16:00:58,0.081s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:00:58,2019-04-11 16:00:59,0.160s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:00:59,2019-04-11 16:01:01,2.003s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Survey/button_Add Questions""))",Chrome 73.0.3683.86,,2019-04-11 16:01:01,2019-04-11 16:01:01,0.076s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Add Survey/span_fa fa-times fa-inverse""))",Chrome 73.0.3683.86,,2019-04-11 16:01:01,2019-04-11 16:01:01,0.072s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 16:01:01,2019-04-11 16:01:01,0.018s,FAILED
+catch (Exception e),Chrome 73.0.3683.86,,2019-04-11 16:01:01,2019-04-11 16:01:01,0.006s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0223,Chrome 73.0.3683.86,Test Remove Choice when there are two choices,2019-04-11 16:01:01,2019-04-11 16:02:01,59.883s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:01:01,2019-04-11 16:01:58,57.097s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:01:58,2019-04-11 16:01:58,0.124s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:01:58,2019-04-11 16:01:58,0.213s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:01:58,2019-04-11 16:02:00,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Survey/button_Add Questions""))",Chrome 73.0.3683.86,,2019-04-11 16:02:00,2019-04-11 16:02:00,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Add Survey/span_fa fa-times fa-inverse_1""))",Chrome 73.0.3683.86,,2019-04-11 16:02:00,2019-04-11 16:02:00,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Add Survey/span_fa fa-times fa-inverse (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:02:00,2019-04-11 16:02:01,0.096s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Add Survey/div_Atleast 2 options are requ""))",Chrome 73.0.3683.86,,2019-04-11 16:02:01,2019-04-11 16:02:01,0.091s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0224,Chrome 73.0.3683.86,Test add choices when there are two choices,2019-04-11 16:02:01,2019-04-11 16:03:22,1m - 21.519s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:02:01,2019-04-11 16:03:20,1m - 18.845s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Surveys""))",Chrome 73.0.3683.86,,2019-04-11 16:03:20,2019-04-11 16:03:20,0.047s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:03:20,2019-04-11 16:03:20,0.092s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:03:20,2019-04-11 16:03:20,0.170s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:03:20,2019-04-11 16:03:22,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Add Questions (1) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:03:22,2019-04-11 16:03:22,0.080s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Survey/span_fa fa-times fa-inverse""))",Chrome 73.0.3683.86,,2019-04-11 16:03:22,2019-04-11 16:03:22,0.081s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Survey/button_Add Choices""))",Chrome 73.0.3683.86,,2019-04-11 16:03:22,2019-04-11 16:03:22,0.075s,PASSED
+try,Chrome 73.0.3683.86,,2019-04-11 16:03:22,2019-04-11 16:03:22,0.025s,FAILED
+catch (Exception e),Chrome 73.0.3683.86,,2019-04-11 16:03:22,2019-04-11 16:03:22,0.000s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0225,Chrome 73.0.3683.86,Test create survey with empty fields,2019-04-11 16:03:22,2019-04-11 16:04:56,1m - 34.284s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:03:22,2019-04-11 16:04:53,1m - 30.930s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:04:53,2019-04-11 16:04:53,0.091s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:04:53,2019-04-11 16:04:53,0.161s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:04:53,2019-04-11 16:04:55,2.002s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:04:55,2019-04-11 16:04:55,0.011s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:04:55,2019-04-11 16:04:56,1.001s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:04:56,2019-04-11 16:04:56,0.028s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0226,Chrome 73.0.3683.86,Test create survey with title only,2019-04-11 16:04:56,2019-04-11 16:05:53,56.476s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:04:57,2019-04-11 16:05:48,51.023s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:05:48,2019-04-11 16:05:48,0.086s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:05:48,2019-04-11 16:05:48,0.168s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:05:48,2019-04-11 16:05:50,2.001s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:05:50,2019-04-11 16:05:52,2.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 16:05:52,2019-04-11 16:05:52,0.107s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:05:52,2019-04-11 16:05:52,0.011s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:05:52,2019-04-11 16:05:53,1.001s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:05:53,2019-04-11 16:05:53,0.026s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0227,Chrome 73.0.3683.86,Test create survey with title and introduction,2019-04-11 16:05:53,2019-04-11 16:06:59,1m - 6.037s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:05:53,2019-04-11 16:06:54,1m - 0.605s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:06:54,2019-04-11 16:06:54,0.081s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:06:54,2019-04-11 16:06:54,0.157s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:06:54,2019-04-11 16:06:56,2.001s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:06:56,2019-04-11 16:06:58,2.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 16:06:58,2019-04-11 16:06:58,0.109s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:06:58,2019-04-11 16:06:58,0.007s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:06:58,2019-04-11 16:06:59,1.002s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:06:59,2019-04-11 16:06:59,0.022s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0228,Chrome 73.0.3683.86,"Test create survey with title, introduction and empty question and empty choices",2019-04-11 16:06:59,2019-04-11 16:08:07,1m - 8.399s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:06:59,2019-04-11 16:08:02,1m - 2.795s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:08:02,2019-04-11 16:08:02,0.097s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:08:02,2019-04-11 16:08:02,0.192s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:08:02,2019-04-11 16:08:04,2.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 16:08:04,2019-04-11 16:08:04,0.130s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:08:04,2019-04-11 16:08:06,2.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Add Questions (2)""))",Chrome 73.0.3683.86,,2019-04-11 16:08:06,2019-04-11 16:08:06,0.087s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:08:06,2019-04-11 16:08:06,0.010s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:08:06,2019-04-11 16:08:07,1.001s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:08:07,2019-04-11 16:08:07,0.025s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0229,Chrome 73.0.3683.86,"Test create survey with title, introduction, question and empty choices",2019-04-11 16:08:07,2019-04-11 16:09:11,1m - 3.295s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:08:07,2019-04-11 16:09:05,57.658s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:09:05,2019-04-11 16:09:05,0.082s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:09:05,2019-04-11 16:09:05,0.165s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:09:05,2019-04-11 16:09:07,2.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 16:09:07,2019-04-11 16:09:07,0.106s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:09:07,2019-04-11 16:09:08,0.076s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control (1) (1) (1) (1)""), ""1"")",Chrome 73.0.3683.86,,2019-04-11 16:09:08,2019-04-11 16:09:08,0.094s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:09:08,2019-04-11 16:09:10,2.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:09:10,2019-04-11 16:09:10,0.012s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:09:10,2019-04-11 16:09:11,1.001s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:09:11,2019-04-11 16:09:11,0.029s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0230,Chrome 73.0.3683.86,"Test create survey with title, introduction, question and one choice only",2019-04-11 16:09:11,2019-04-11 16:10:13,1m - 2.626s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:09:11,2019-04-11 16:10:08,56.954s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:10:08,2019-04-11 16:10:08,0.076s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:10:08,2019-04-11 16:10:08,0.150s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:10:08,2019-04-11 16:10:10,2.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 16:10:10,2019-04-11 16:10:10,0.092s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:10:10,2019-04-11 16:10:10,0.074s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control (1) (1) (1) (1)""), ""1"")",Chrome 73.0.3683.86,,2019-04-11 16:10:10,2019-04-11 16:10:10,0.088s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm_2 (1) (1) (1) (1)""), ""2"")",Chrome 73.0.3683.86,,2019-04-11 16:10:10,2019-04-11 16:10:10,0.101s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:10:10,2019-04-11 16:10:12,2.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:10:12,2019-04-11 16:10:12,0.009s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:10:12,2019-04-11 16:10:13,1.001s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:10:13,2019-04-11 16:10:13,0.028s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0231,Chrome 73.0.3683.86,"Test create survey with title, introduction, question and two choices",2019-04-11 16:10:13,2019-04-11 16:11:20,1m - 6.780s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:10:13,2019-04-11 16:11:14,1m - 0.049s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:11:14,2019-04-11 16:11:14,0.152s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:11:14,2019-04-11 16:11:14,0.409s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:11:14,2019-04-11 16:11:16,2.004s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 16:11:16,2019-04-11 16:11:16,0.189s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:11:16,2019-04-11 16:11:16,0.166s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control (1) (1) (1) (1)""), ""1"")",Chrome 73.0.3683.86,,2019-04-11 16:11:16,2019-04-11 16:11:17,0.223s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm_2 (1) (1) (1) (1)""), ""2"")",Chrome 73.0.3683.86,,2019-04-11 16:11:17,2019-04-11 16:11:17,0.226s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm (1) (1) (1) (1)""), ""3"")",Chrome 73.0.3683.86,,2019-04-11 16:11:17,2019-04-11 16:11:17,0.247s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:11:17,2019-04-11 16:11:19,2.003s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:11:19,2019-04-11 16:11:19,0.020s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:11:19,2019-04-11 16:11:20,1.003s,PASSED
+"verifyElementNotClickable(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:11:20,2019-04-11 16:11:20,0.031s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0232,Chrome 73.0.3683.86,Test cancel button,2019-04-11 16:11:20,2019-04-11 16:12:27,1m - 6.760s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:11:20,2019-04-11 16:12:23,1m - 3.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:12:23,2019-04-11 16:12:24,0.178s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:12:24,2019-04-11 16:12:24,0.248s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:12:24,2019-04-11 16:12:26,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Add Survey/a_Cancel""))",Chrome 73.0.3683.86,,2019-04-11 16:12:26,2019-04-11 16:12:26,0.149s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:12:26,2019-04-11 16:12:27,1.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:12:27,2019-04-11 16:12:27,0.012s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/h3_Surveys""))",Chrome 73.0.3683.86,,2019-04-11 16:12:27,2019-04-11 16:12:27,0.097s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0239,Chrome 73.0.3683.86,Test See Segmentation Here link,2019-04-11 16:12:27,2019-04-11 16:13:27,1m - 0.152s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:12:27,2019-04-11 16:13:17,49.431s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New (4) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:13:17,2019-04-11 16:13:17,0.145s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Create New Survey (2) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:13:17,2019-04-11 16:13:17,0.248s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:13:17,2019-04-11 16:13:19,2.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)""), ""hi"")",Chrome 73.0.3683.86,,2019-04-11 16:13:19,2019-04-11 16:13:19,0.114s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:13:19,2019-04-11 16:13:19,0.095s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control (1) (1) (1) (1)""), ""1"")",Chrome 73.0.3683.86,,2019-04-11 16:13:19,2019-04-11 16:13:19,0.171s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm_2 (1) (1) (1) (1)""), ""2"")",Chrome 73.0.3683.86,,2019-04-11 16:13:19,2019-04-11 16:13:20,0.131s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm (1) (1) (1) (1)""), ""3"")",Chrome 73.0.3683.86,,2019-04-11 16:13:20,2019-04-11 16:13:20,0.124s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_form-control input-sm_1 (1) (1) (1) (1)""), ""4"")",Chrome 73.0.3683.86,,2019-04-11 16:13:20,2019-04-11 16:13:20,0.148s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:13:20,2019-04-11 16:13:22,2.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Add Survey/input_Choices_form-control input-sm (1)""), ""4"")",Chrome 73.0.3683.86,,2019-04-11 16:13:22,2019-04-11 16:13:22,0.084s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:13:22,2019-04-11 16:13:24,2.003s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:13:24,2019-04-11 16:13:24,0.015s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-11 16:13:24,2019-04-11 16:13:25,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Add Survey/button_Next (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:13:25,2019-04-11 16:13:25,0.094s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:13:25,2019-04-11 16:13:27,2.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Add Survey/a_See Segmentation Here""))",Chrome 73.0.3683.86,,2019-04-11 16:13:27,2019-04-11 16:13:27,0.165s,PASSED
+"click(findTestObject(""Page_KiboEngage  Segmented Lists/h3_Subscribers Segmentation Lists (1)""))",Chrome 73.0.3683.86,,2019-04-11 16:13:27,2019-04-11 16:13:27,0.076s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0241,Chrome 73.0.3683.86,Test view button in surveys list,2019-04-11 16:13:27,2019-04-11 16:14:31,1m - 4.237s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:13:27,2019-04-11 16:14:31,1m - 4.162s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0242,Chrome 73.0.3683.86,Test back button in view survey,2019-04-11 16:14:32,2019-04-11 16:15:16,44.930s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:14:32,2019-04-11 16:15:16,44.039s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_View""))",Chrome 73.0.3683.86,,2019-04-11 16:15:16,2019-04-11 16:15:16,0.127s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Back""))",Chrome 73.0.3683.86,,2019-04-11 16:15:16,2019-04-11 16:15:16,0.628s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/h3_Surveys""))",Chrome 73.0.3683.86,,2019-04-11 16:15:16,2019-04-11 16:15:16,0.056s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0244,Chrome 73.0.3683.86,Test delete button in surveys list,2019-04-11 16:15:17,2019-04-11 16:16:41,1m - 24.967s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:15:17,2019-04-11 16:16:05,48.838s,PASSED
+delay(3),Chrome 73.0.3683.86,,2019-04-11 16:16:05,2019-04-11 16:16:08,3.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Delete""))",Chrome 73.0.3683.86,,2019-04-11 16:16:08,2019-04-11 16:16:09,0.131s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-11 16:16:09,2019-04-11 16:16:11,2.001s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_delete1""))",Chrome 73.0.3683.86,,2019-04-11 16:16:11,2019-04-11 16:16:41,30.922s,FAILED
+,,,,,,
+Test Cases/Survey Test Cases/TC0255,Chrome 73.0.3683.86,Test report button in surveys list,2019-04-11 16:16:42,2019-04-11 16:17:47,1m - 5.180s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:16:42,2019-04-11 16:17:47,1m - 4.895s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Survey/button_Report""))",Chrome 73.0.3683.86,,2019-04-11 16:17:47,2019-04-11 16:17:47,0.151s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Survey/h4_Survey Questions""))",Chrome 73.0.3683.86,,2019-04-11 16:17:47,2019-04-11 16:17:47,0.066s,PASSED
+,,,,,,
+Test Cases/Survey Test Cases/TC0256,Chrome 73.0.3683.86,Test back button in survey report,2019-04-11 16:17:47,2019-04-11 16:18:40,53.486s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/survey""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.86,,2019-04-11 16:17:47,2019-04-11 16:18:40,53.143s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Report""))",Chrome 73.0.3683.86,,2019-04-11 16:18:40,2019-04-11 16:18:40,0.104s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/button_Back""))",Chrome 73.0.3683.86,,2019-04-11 16:18:40,2019-04-11 16:18:40,0.108s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.86,,2019-04-11 16:18:40,2019-04-11 16:18:40,0.010s,PASSED
+"click(findTestObject(""Page_KiboPush  Survey/h3_Surveys""))",Chrome 73.0.3683.86,,2019-04-11 16:18:40,2019-04-11 16:18:40,0.048s,PASSED
