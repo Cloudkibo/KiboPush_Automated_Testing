@@ -31,7 +31,9 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Pages'),
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_2'))
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_2'))
+
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_next'))
 
 WebUI.delay(2)
 

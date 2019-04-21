@@ -25,5 +25,7 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers'))
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Page_KiboPush  Invite Subscribers/h3_Invite Subscribers'))
 

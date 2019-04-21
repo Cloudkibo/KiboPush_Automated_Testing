@@ -11,6 +11,18 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6b9e2d58-7577-49ab-a522-bc1079635fff</testSuiteGuid>
    <testCaseLink>
+      <guid>5cda3f4b-0b27-40c0-8c75-3ddd8cab800b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ed808158-c8ec-4042-b1a0-8804d83efa21</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Template testcases/open broadcasting</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>2479d9ab-0822-4a2d-90ed-c6774c7ebba4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -85,19 +97,19 @@
    <testCaseLink>
       <guid>d102d564-f313-4d84-b03b-799618793218</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Template testcases/TC0772</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>19177092-6b50-481c-9cd6-c127fab975ab</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Template testcases/TC0773</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5eef9703-3c52-487b-bbed-090cf082381b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Template testcases/TC0774</testCaseId>
    </testCaseLink>
    <testCaseLink>

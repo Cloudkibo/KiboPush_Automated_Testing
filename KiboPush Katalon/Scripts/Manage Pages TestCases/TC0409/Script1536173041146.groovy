@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Pages'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Invite Subscribers (1)'))

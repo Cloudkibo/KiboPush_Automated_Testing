@@ -13,15 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SMS/SMSPlatformChat'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboChat  Dashboard/span_Live Chat (Beta) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/span_Faizan'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/span_Faizan'))
 

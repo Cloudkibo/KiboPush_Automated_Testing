@@ -19,11 +19,15 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('KiboLite/login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_ Dashboard/span_Broadcast'))
+WebUI.click(findTestObject('Page_KiboPush  Subscribers/span_Subscribers (5)'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_ Dashboard/span_Broadcast'))
+
+WebUI.delay(1)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

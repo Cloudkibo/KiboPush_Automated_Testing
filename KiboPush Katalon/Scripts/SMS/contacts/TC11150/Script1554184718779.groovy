@@ -17,10 +17,13 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
 
-WebUI.callTestCase(findTestCase('SMS/SMSPlatform'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Subscribers (1)'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h3_Subscribers'))
 

@@ -4,7 +4,17 @@
    <name>button_Remove</name>
    <tag></tag>
    <elementGuidId>b615f26b-627c-4cb9-b82d-d618d132103a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ajax_data&quot;]/table/tbody/tr[2]/td[5]/span/button[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Remove' or . = 'Remove')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

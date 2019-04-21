@@ -25,19 +25,19 @@
    <testCaseLink>
       <guid>ab133317-45e2-43ca-9cde-9d12982e3c06</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Invite subscribers/TC0678</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>22a3daa9-86e2-4202-b2a3-50e68284eac0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Invite subscribers/TC0679</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9bd9f158-b5b1-430a-9f68-8b09b91036a7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Invite subscribers/TC0680</testCaseId>
    </testCaseLink>
    <testCaseLink>

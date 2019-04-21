@@ -18,12 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Setting testcases/TC1038'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Back (1)'))
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/h3_Welcome Message'))
-
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Welcome Messages'), [:], FailureHandling.STOP_ON_FAILURE)
+	

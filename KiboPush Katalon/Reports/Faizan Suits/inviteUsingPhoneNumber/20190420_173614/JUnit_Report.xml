@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="inviteUsingPhoneNumber" time="120" tests="12" failures="0" errors="0">
+   <testsuite name="inviteUsingPhoneNumber" tests="12" failures="0" errors="0" time="120" timestamp="2019-04-20 17:36:18" hostname="faizan - faizan-HP-EliteBook-850-G2" id="Test Suites/Faizan Suits/inviteUsingPhoneNumber">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/inviteUsingPhoneNumber/20190420_173614"/>
+         <property name="logFiles" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/inviteUsingPhoneNumber/20190420_173614/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="faizan - faizan-HP-EliteBook-850-G2"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="92625081abac9ab17cb0637a692a142e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:36:19 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage
+
+2019-04-20 17:36:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-20 17:36:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-20 17:36:20 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-04-20 17:36:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-20 17:36:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-20 17:36:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-20 17:36:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-20 17:36:25 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/"): Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-20 17:36:36 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-20 17:36:36 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"): Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-20 17:36:36 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-20 17:36:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-20 17:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-20 17:36:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizan@cloudkibo.com"): Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-20 17:36:38 - [MESSAGE][PASSED] - Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-20 17:36:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (7)"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-20 17:36:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-20 17:36:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-20 17:36:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-20 17:36:38 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/dashboard"): Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-20 17:37:02 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-20 17:37:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-20 17:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-20 17:37:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-20 17:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-20 17:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-20 17:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite subscribers/open growth tools" classname="Test Cases/Invite subscribers/open growth tools" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:06 - [TEST_CASE][PASSED] - Test Cases/Invite subscribers/open growth tools: Test Cases/Invite subscribers/open growth tools
+
+2019-04-20 17:37:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)' is clicked on
+
+2019-04-20 17:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)' is clicked on
+
+2019-04-20 17:37:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:07 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0919" classname="Test Cases/Invite Using Phone Number/TC0919" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:07 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0919: Test Cases/Invite Using Phone Number/TC0919
+
+2019-04-20 17:37:07 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:08 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_documentation (3)")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_documentation (3)' is clicked on
+
+2019-04-20 17:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_documentation (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0920" classname="Test Cases/Invite Using Phone Number/TC0920" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:12 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0920: Test Cases/Invite Using Phone Number/TC0920
+
+2019-04-20 17:37:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:12 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_video tutorial")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_video tutorial' is clicked on
+
+2019-04-20 17:37:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_video tutorial' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0921" classname="Test Cases/Invite Using Phone Number/TC0921" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:18 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0921: Test Cases/Invite Using Phone Number/TC0921
+
+2019-04-20 17:37:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:18 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-20 17:37:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-20 17:37:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/button_Enter phone numbers man (3)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (3)' is clicked on
+
+2019-04-20 17:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (3)' is clicked on
+
+2019-04-20 17:37:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush  Dashboard/input_form-control m-input m-i (4)"), "+923340226849"): Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4)'
+
+2019-04-20 17:37:26 - [MESSAGE][PASSED] - Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4)'
+
+2019-04-20 17:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/button_Submit (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Submit (1)' is clicked on
+
+2019-04-20 17:37:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Submit (1)' is clicked on
+
+2019-04-20 17:37:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/div_Contacts were invited to y (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/div_Contacts were invited to y (1)' is clicked on
+
+2019-04-20 17:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Contacts were invited to y (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0926" classname="Test Cases/Invite Using Phone Number/TC0926" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:27 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0926: Test Cases/Invite Using Phone Number/TC0926
+
+2019-04-20 17:37:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:27 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:29 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/button_Enter phone numbers man (1) (1) (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (1) (1) (1)' is clicked on
+
+2019-04-20 17:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (1) (1) (1)' is clicked on
+
+2019-04-20 17:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush  Dashboard/input_form-control m-input m-i (4) (1) (1)"), "+923340226849"): Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4) (1) (1)'
+
+2019-04-20 17:37:33 - [MESSAGE][PASSED] - Text '+923340226849' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (4) (1) (1)'
+
+2019-04-20 17:37:33 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush  Dashboard/textarea_exampleTextarea (1)"), ""): Text '' is set on object 'Object Repository/Page_KiboPush  Dashboard/textarea_exampleTextarea (1)'
+
+2019-04-20 17:37:33 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_KiboPush  Dashboard/textarea_exampleTextarea (1)'
+
+2019-04-20 17:37:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:34 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0927" classname="Test Cases/Invite Using Phone Number/TC0927" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:34 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0927: Test Cases/Invite Using Phone Number/TC0927
+
+2019-04-20 17:37:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:34 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (2)")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (2)' is clicked on
+
+2019-04-20 17:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (2)' is clicked on
+
+2019-04-20 17:37:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (2)"), "+923403630780"): Text '+923403630780' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (2)'
+
+2019-04-20 17:37:40 - [MESSAGE][PASSED] - Text '+923403630780' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (2)'
+
+2019-04-20 17:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Reset")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Reset' is clicked on
+
+2019-04-20 17:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Reset' is clicked on
+
+2019-04-20 17:37:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-20 17:37:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-20 17:37:42 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-20 17:37:42 - [TEST_STEP][PASSED] - button = driver.findElement(By.xpath("//*[@id="content"]/div/div/div/div[2]/div[4]/div[3]/div/div/div[2]/div[4]/div/div/div/button[2]")): null
+
+2019-04-20 17:37:43 - [TEST_STEP][PASSED] - if (button.isEnabled()): null
+
+2019-04-20 17:37:43 - [TEST_STEP][PASSED] - else: Actual object '0' and expected object '0' are equal
+
+2019-04-20 17:37:43 - [TEST_STEP][PASSED] - verifyEqual("0", "0"): Actual object '0' and expected object '0' are equal
+
+2019-04-20 17:37:43 - [MESSAGE][PASSED] - Actual object '0' and expected object '0' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0928" classname="Test Cases/Invite Using Phone Number/TC0928" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:43 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928: Test Cases/Invite Using Phone Number/TC0928
+
+2019-04-20 17:37:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:43 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:48 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0928-viewCustomers" classname="Test Cases/Invite Using Phone Number/TC0928-viewCustomers" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:48 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928-viewCustomers: Test Cases/Invite Using Phone Number/TC0928-viewCustomers
+
+2019-04-20 17:37:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:48 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:37:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:37:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-20 17:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-20 17:37:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-20 17:37:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-20 17:37:56 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:37:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists")): Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-20 17:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0929" classname="Test Cases/Invite Using Phone Number/TC0929" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:37:56 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0929: Test Cases/Invite Using Phone Number/TC0929
+
+2019-04-20 17:37:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:37:56 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:37:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:37:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:37:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:38:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:38:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:38:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:38:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:38:01 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:01 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists (1)' is clicked on
+
+2019-04-20 17:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists (1)' is clicked on
+
+2019-04-20 17:38:02 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Customer Lists (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Customer Lists (1)' is clicked on
+
+2019-04-20 17:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Customer Lists (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0930" classname="Test Cases/Invite Using Phone Number/TC0930" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:38:02 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0930: Test Cases/Invite Using Phone Number/TC0930
+
+2019-04-20 17:38:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Invite Using Phone Number/TC0928-viewCustomers"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-20 17:38:02 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928-viewCustomers: Test Cases/Invite Using Phone Number/TC0928-viewCustomers
+
+2019-04-20 17:38:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:38:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:38:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:38:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:38:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:38:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:38:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:38:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:38:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:38:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-20 17:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-20 17:38:08 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-20 17:38:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:10 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists")): Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-20 17:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-20 17:38:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - Table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(Table.size(), 1): Actual number '1' is greater than or equal to expected number '1'
+
+2019-04-20 17:38:10 - [MESSAGE][PASSED] - Actual number '1' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite Using Phone Number/TC0938" classname="Test Cases/Invite Using Phone Number/TC0938" status="PASSED">
+         <system-out><![CDATA[2019-04-20 17:38:10 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0938: Test Cases/Invite Using Phone Number/TC0938
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Invite Using Phone Number/TC0930"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' successfully
+
+2019-04-20 17:38:10 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0930: Test Cases/Invite Using Phone Number/TC0930
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Invite Using Phone Number/TC0928-viewCustomers"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-20 17:38:10 - [TEST_CASE][PASSED] - Test Cases/Invite Using Phone Number/TC0928-viewCustomers: Test Cases/Invite Using Phone Number/TC0928-viewCustomers
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Invite using Phone Number"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:38:10 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number: Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 17:38:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:38:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Invite Using Phone Number")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Using Phone Number' is clicked on
+
+2019-04-20 17:38:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 17:38:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 17:38:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Invite using Phone Number' successfully
+
+2019-04-20 17:38:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:38:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_View Customers Lists")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-20 17:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_View Customers Lists' is clicked on
+
+2019-04-20 17:38:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-20 17:38:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-20 17:38:17 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists")): Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-20 17:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists' is clicked on
+
+2019-04-20 17:38:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Invite Using Phone Number/TC0928-viewCustomers' successfully
+
+2019-04-20 17:38:18 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-20 17:38:18 - [TEST_STEP][PASSED] - Table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-20 17:38:18 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(Table.size(), 1): Actual number '1' is greater than or equal to expected number '1'
+
+2019-04-20 17:38:18 - [MESSAGE][PASSED] - Actual number '1' is greater than or equal to expected number '1'
+
+2019-04-20 17:38:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Invite Using Phone Number/TC0930' successfully
+
+2019-04-20 17:38:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_Back (3)")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_Back (3)' is clicked on
+
+2019-04-20 17:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_Back (3)' is clicked on
+
+2019-04-20 17:38:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 17:38:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 17:38:19 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 17:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Invite using Phone Number ( (2)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Invite using Phone Number ( (2)' is clicked on
+
+2019-04-20 17:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Invite using Phone Number ( (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-20 17:36:18 - [TEST_SUITE][PASSED] - inviteUsingPhoneNumber: Test Cases/Invite Using Phone Number/TC0938]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -27,6 +27,8 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(1)
+
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
 WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/img'), img)
@@ -39,11 +41,7 @@ WebUI.delay(3)
 
 WebUI.delay(1)
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/textarea'))
-
-textArea.sendKeys('hello')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (6)'), 'hello')
 
 WebUI.delay(1)
 

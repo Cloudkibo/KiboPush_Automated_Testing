@@ -19,9 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers'))
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Message Us'), [:], FailureHandling.STOP_ON_FAILURE)
 

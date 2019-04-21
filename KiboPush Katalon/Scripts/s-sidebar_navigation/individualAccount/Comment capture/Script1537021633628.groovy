@@ -25,5 +25,4 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Comment Capture'))
 
-WebUI.click(findTestObject('Page_KiboPush  Comment Capture/h3_Comment Capture'))
-
+WebUI.delay(1)

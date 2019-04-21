@@ -4,7 +4,17 @@
    <name>button_Delete</name>
    <tag></tag>
    <elementGuidId>43d4bba4-7d03-461b-9726-c9e1aa446d21</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ajax_data&quot;]/table/tbody/tr[1]/td[5]/span/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

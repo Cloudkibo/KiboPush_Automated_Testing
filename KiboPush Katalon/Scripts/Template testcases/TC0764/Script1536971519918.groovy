@@ -29,8 +29,8 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Template'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Templates/select_filter_template_broadcast_templates'), 
-    'Research', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Templates/select option research'), 'Research', 
+    true)
 
 WebUI.delay(2)
 
@@ -39,9 +39,9 @@ WebDriver driver = DriverFactory.getWebDriver()
 List<WebElement> rows_table  = driver.findElements(By.xpath('//*[@id="local_data"]/table/tbody/tr'))
 
   String category= rows_table.get(0).findElement(By.xpath('.//td[4]')).getText()
-   
+
   println(category)
- 
+
   if(category == 'Research')
 	 WebUI.verifyEqual(1, 1)
   else

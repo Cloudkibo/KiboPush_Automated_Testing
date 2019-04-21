@@ -27,7 +27,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Pages'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Page/input_generalSearch'), 'Test_kibo')
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Page/input_generalSearch'), 'production new')
 
 WebUI.delay(2)
 

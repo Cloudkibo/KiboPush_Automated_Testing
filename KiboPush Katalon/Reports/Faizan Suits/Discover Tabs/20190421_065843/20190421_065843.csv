@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Discover Tabs,Chrome 73.0.3683.103,,,2019-04-21 07:02:45,2019-04-21 07:03:58,1m - 12.290s,PASSED
+,,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.103,,,2019-04-21 07:02:46,2019-04-21 07:03:41,55.923s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-21 07:02:46,2019-04-21 07:02:48,2.242s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,,2019-04-21 07:02:48,2019-04-21 07:02:48,0.139s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.103,,,2019-04-21 07:02:48,2019-04-21 07:03:04,15.427s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-21 07:03:04,2019-04-21 07:03:04,0.500s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:04,2019-04-21 07:03:05,1.061s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-21 07:03:05,2019-04-21 07:03:06,0.275s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.103,,,2019-04-21 07:03:06,2019-04-21 07:03:06,0.226s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:06,2019-04-21 07:03:06,0.177s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.103,,,2019-04-21 07:03:06,2019-04-21 07:03:38,31.728s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:38,2019-04-21 07:03:38,0.323s,PASSED
+delay(3),Chrome 73.0.3683.103,,,2019-04-21 07:03:38,2019-04-21 07:03:41,3.027s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:41,2019-04-21 07:03:41,0.167s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:41,2019-04-21 07:03:41,0.159s,PASSED
+,,,,,,,
+Test Cases/Invite subscribers/open growth tools,Chrome 73.0.3683.103,,,2019-04-21 07:03:42,2019-04-21 07:03:43,1.446s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:42,2019-04-21 07:03:42,0.153s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:03:42,2019-04-21 07:03:43,1.006s,PASSED
+,,,,,,,
+Test Cases/Discover Tabs/TC1077,Chrome 73.0.3683.103,,,2019-04-21 07:03:43,2019-04-21 07:03:46,2.889s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Discover Tabs""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-21 07:03:43,2019-04-21 07:03:46,2.560s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:46,2019-04-21 07:03:46,0.206s,PASSED
+,,,,,,,
+Test Cases/Discover Tabs/TC1078,Chrome 73.0.3683.103,,,2019-04-21 07:03:46,2019-04-21 07:03:49,2.776s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Discover Tabs""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-21 07:03:46,2019-04-21 07:03:48,2.342s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:48,2019-04-21 07:03:49,0.170s,PASSED
+,,,,,,,
+Test Cases/Discover Tabs/TC1079,Chrome 73.0.3683.103,,,2019-04-21 07:03:49,2019-04-21 07:03:52,2.893s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Discover Tabs""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-21 07:03:49,2019-04-21 07:03:51,2.467s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:51,2019-04-21 07:03:52,0.139s,PASSED
+,,,,,,,
+Test Cases/Discover Tabs/TC1080,Chrome 73.0.3683.103,,,2019-04-21 07:03:52,2019-04-21 07:03:54,2.857s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Discover Tabs""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-21 07:03:52,2019-04-21 07:03:54,2.423s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:54,2019-04-21 07:03:54,0.260s,PASSED
+,,,,,,,
+Test Cases/Discover Tabs/TC1081,Chrome 73.0.3683.103,,,2019-04-21 07:03:54,2019-04-21 07:03:57,2.952s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Discover Tabs""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-21 07:03:55,2019-04-21 07:03:57,2.530s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-21 07:03:57,2019-04-21 07:03:57,0.150s,PASSED

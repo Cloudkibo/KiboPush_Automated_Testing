@@ -17,15 +17,15 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://skibolite.cloudkibo.com/')
+WebUI.navigateToUrl('https://kibolite.cloudkibo.com/')
 
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=http://skibolite.cloudkibo.com')
+WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=http://kibolite.cloudkibo.com')
 
-WebUI.click(findTestObject('Page_CloudKibo/a_Login (3)'))
+WebUI.click(findTestObject('Page_CloudKibo/a_Login (2) (1) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush/input_email (10) (1) (1)'), 'faizanrasheed4@gmail.com')
+WebUI.setText(findTestObject('Page_KiboPush/input_email (10) (1) (1)'), 'faizan@cloudkibo.com')
 
-WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password (2)'), 'GYDmRgS5yd5PL6pQTxDpCg==')
+WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password (7)'), 'qeJ0sjJnwEs=')
 
 WebUI.click(findTestObject('Page_CloudKibo/button_Sign In (4) (1)'))
 

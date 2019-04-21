@@ -27,6 +27,8 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Pages'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Connect New'))
 
 WebUI.click(findTestObject('Page_KiboPush  Add Pages/h3_Manage Pages (1)'))

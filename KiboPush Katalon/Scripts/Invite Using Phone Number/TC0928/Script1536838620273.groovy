@@ -23,5 +23,5 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Invite u
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Download Sample CSV fil'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Download Sample CSV fil'))
 

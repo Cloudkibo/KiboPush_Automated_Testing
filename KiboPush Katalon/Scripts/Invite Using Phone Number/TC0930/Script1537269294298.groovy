@@ -33,5 +33,5 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 List<WebElement> Table = driver.findElements(By.xpath('//table/tbody/tr'))
 
-WebUI.verifyGreaterThanOrEqual(Table.size(), 5)
+WebUI.verifyGreaterThanOrEqual(Table.size(), 1)
 
