@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Page_KiboPush  Comment Capture/a_Edit'))
 
 WebUI.setText(findTestObject('Page_KiboPush  New Facebook Post/input_form-control m-input m-i'), 'exclude')

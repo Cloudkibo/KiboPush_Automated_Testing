@@ -21,6 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Pages'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Connect New'))
 
 WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Connect'))

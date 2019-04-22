@@ -25,6 +25,8 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Page_KiboPush  Comment Capture/a_Create New Facebook Post'))
 
 WebDriver driver = DriverFactory.getWebDriver()

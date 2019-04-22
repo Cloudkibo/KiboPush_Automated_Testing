@@ -1,0 +1,1853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SMS Kiboengage" time="295" tests="39" failures="0" errors="0">
+   <testsuite name="SMS Kiboengage" tests="39" failures="0" errors="0" time="295" timestamp="2019-04-21 06:22:40" hostname="faizan - faizan-HP-EliteBook-850-G2" id="Test Suites/Faizan Suits/SMS Kiboengage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/SMS Kiboengage/20190421_062236"/>
+         <property name="logFiles" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/SMS Kiboengage/20190421_062236/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="faizan - faizan-HP-EliteBook-850-G2"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="f3e532b3d661456f36d0de3735debaf8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:22:40 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage
+
+2019-04-21 06:22:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-21 06:22:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-21 06:22:41 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-04-21 06:22:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-21 06:22:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-21 06:22:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-21 06:22:54 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-21 06:22:55 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/"): Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-21 06:23:04 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-21 06:23:04 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"): Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-21 06:23:04 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-21 06:23:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-21 06:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-21 06:23:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizan@cloudkibo.com"): Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-21 06:23:06 - [MESSAGE][PASSED] - Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-21 06:23:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (7)"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-21 06:23:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-21 06:23:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-21 06:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-21 06:23:06 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/dashboard"): Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-21 06:23:36 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-21 06:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-21 06:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-21 06:23:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-21 06:23:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-21 06:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-21 06:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-21 06:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-21 06:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/SMSPlatform" classname="Test Cases/SMS/SMSPlatform" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:23:39 - [TEST_CASE][PASSED] - Test Cases/SMS/SMSPlatform: Test Cases/SMS/SMSPlatform
+
+2019-04-21 06:23:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (1)' is clicked on
+
+2019-04-21 06:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (1)' is clicked on
+
+2019-04-21 06:23:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_SMS (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_SMS (1)' is clicked on
+
+2019-04-21 06:23:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_SMS (1)' is clicked on
+
+2019-04-21 06:23:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:41 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/contacts/TC11149" classname="Test Cases/SMS/contacts/TC11149" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:23:41 - [TEST_CASE][PASSED] - Test Cases/SMS/contacts/TC11149: Test Cases/SMS/contacts/TC11149
+
+2019-04-21 06:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Subscribers (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:44 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/contacts/TC11150" classname="Test Cases/SMS/contacts/TC11150" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:23:44 - [TEST_CASE][PASSED] - Test Cases/SMS/contacts/TC11150: Test Cases/SMS/contacts/TC11150
+
+2019-04-21 06:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Subscribers (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Subscribers/h3_Subscribers")): Object: 'Object Repository/Page_KiboEngage  Subscribers/h3_Subscribers' is clicked on
+
+2019-04-21 06:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/h3_Subscribers' is clicked on
+
+2019-04-21 06:23:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:48 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:23:48 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="ajax_data"]/table/tbody")): null
+
+2019-04-21 06:23:48 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2019-04-21 06:23:48 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(rows_table.size(), 1): Actual number '5' is greater than or equal to expected number '1'
+
+2019-04-21 06:23:48 - [MESSAGE][PASSED] - Actual number '5' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/contacts/TC11151" classname="Test Cases/SMS/contacts/TC11151" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:23:48 - [TEST_CASE][PASSED] - Test Cases/SMS/contacts/TC11151: Test Cases/SMS/contacts/TC11151
+
+2019-04-21 06:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Subscribers (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Subscribers/a_next")): Object: 'Object Repository/Page_KiboEngage  Subscribers/a_next' is clicked on
+
+2019-04-21 06:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_next' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/contacts/TC11152" classname="Test Cases/SMS/contacts/TC11152" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:23:51 - [TEST_CASE][PASSED] - Test Cases/SMS/contacts/TC11152: Test Cases/SMS/contacts/TC11152
+
+2019-04-21 06:23:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Subscribers (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Subscribers/a_previous")): Object: 'Object Repository/Page_KiboEngage  Subscribers/a_previous' is clicked on
+
+2019-04-21 06:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_previous' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/contacts/TC11153" classname="Test Cases/SMS/contacts/TC11153" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:23:54 - [TEST_CASE][PASSED] - Test Cases/SMS/contacts/TC11153: Test Cases/SMS/contacts/TC11153
+
+2019-04-21 06:23:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Subscribers (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Subscribers (1)' is clicked on
+
+2019-04-21 06:23:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Subscribers/a_previous")): Object: 'Object Repository/Page_KiboEngage  Subscribers/a_previous' is clicked on
+
+2019-04-21 06:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_previous' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11154" classname="Test Cases/SMS/upload contacts/TC11154" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:23:57 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11154: Test Cases/SMS/upload contacts/TC11154
+
+2019-04-21 06:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:23:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:23:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:23:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:23:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:23:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts' is clicked on
+
+2019-04-21 06:24:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11155" classname="Test Cases/SMS/upload contacts/TC11155" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:00 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11155: Test Cases/SMS/upload contacts/TC11155
+
+2019-04-21 06:24:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1)' is clicked on
+
+2019-04-21 06:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1)' is clicked on
+
+2019-04-21 06:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Submit")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Submit' is clicked on
+
+2019-04-21 06:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Submit' is clicked on
+
+2019-04-21 06:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/div_Please upload a file or enter numbers manually")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/div_Please upload a file or enter numbers manually' is clicked on
+
+2019-04-21 06:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/div_Please upload a file or enter numbers manually' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11156" classname="Test Cases/SMS/upload contacts/TC11156" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:03 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11156: Test Cases/SMS/upload contacts/TC11156
+
+2019-04-21 06:24:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1)' is clicked on
+
+2019-04-21 06:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1)' is clicked on
+
+2019-04-21 06:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually' is clicked on
+
+2019-04-21 06:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually' is clicked on
+
+2019-04-21 06:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add' is clicked on
+
+2019-04-21 06:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add' is clicked on
+
+2019-04-21 06:24:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields' is clicked on
+
+2019-04-21 06:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11157" classname="Test Cases/SMS/upload contacts/TC11157" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:06 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11157: Test Cases/SMS/upload contacts/TC11157
+
+2019-04-21 06:24:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1)' is clicked on
+
+2019-04-21 06:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1)' is clicked on
+
+2019-04-21 06:24:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input'
+
+2019-04-21 06:24:10 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input'
+
+2019-04-21 06:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1)' is clicked on
+
+2019-04-21 06:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1)' is clicked on
+
+2019-04-21 06:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1)' is clicked on
+
+2019-04-21 06:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11158" classname="Test Cases/SMS/upload contacts/TC11158" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:10 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11158: Test Cases/SMS/upload contacts/TC11158
+
+2019-04-21 06:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1)' is clicked on
+
+2019-04-21 06:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1)' is clicked on
+
+2019-04-21 06:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Upload Contacts/button_Add (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1)' is clicked on
+
+2019-04-21 06:24:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1)' is clicked on
+
+2019-04-21 06:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1)' is clicked on
+
+2019-04-21 06:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1)' is clicked on
+
+2019-04-21 06:24:14 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1)"), "Faizan"): Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1)'
+
+2019-04-21 06:24:14 - [MESSAGE][PASSED] - Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1)'
+
+2019-04-21 06:24:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Upload Contacts/button_Add (2)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2)' is clicked on
+
+2019-04-21 06:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2)' is clicked on
+
+2019-04-21 06:24:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Upload Contacts/span_Please fill all the fields (2)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (2)' is clicked on
+
+2019-04-21 06:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11159" classname="Test Cases/SMS/upload contacts/TC11159" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:14 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11159: Test Cases/SMS/upload contacts/TC11159
+
+2019-04-21 06:24:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1)"), "Faizan"): Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1)'
+
+2019-04-21 06:24:17 - [MESSAGE][PASSED] - Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1)'
+
+2019-04-21 06:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2)"), "923333739566"): Text '923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2)'
+
+2019-04-21 06:24:18 - [MESSAGE][PASSED] - Text '923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2)'
+
+2019-04-21 06:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1)' is clicked on
+
+2019-04-21 06:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1)' is clicked on
+
+2019-04-21 06:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_This number is invalid Please enter a valid number")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_This number is invalid Please enter a valid number' is clicked on
+
+2019-04-21 06:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_This number is invalid Please enter a valid number' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11160" classname="Test Cases/SMS/upload contacts/TC11160" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:18 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11160: Test Cases/SMS/upload contacts/TC11160
+
+2019-04-21 06:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1)"), "Faizan"): Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1)'
+
+2019-04-21 06:24:22 - [MESSAGE][PASSED] - Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1)'
+
+2019-04-21 06:24:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1)'
+
+2019-04-21 06:24:22 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1)'
+
+2019-04-21 06:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1)' is clicked on
+
+2019-04-21 06:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1)' is clicked on
+
+2019-04-21 06:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Submit (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Submit (1)' is clicked on
+
+2019-04-21 06:24:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Submit (1)' is clicked on
+
+2019-04-21 06:24:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/div_Contacts saved successfully")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/div_Contacts saved successfully' is clicked on
+
+2019-04-21 06:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/div_Contacts saved successfully' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11161" classname="Test Cases/SMS/upload contacts/TC11161" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:23 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11161: Test Cases/SMS/upload contacts/TC11161
+
+2019-04-21 06:24:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)"), "Faizan"): Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)'
+
+2019-04-21 06:24:27 - [MESSAGE][PASSED] - Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)'
+
+2019-04-21 06:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)'
+
+2019-04-21 06:24:27 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)'
+
+2019-04-21 06:24:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)"), "Faizan"): Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)'
+
+2019-04-21 06:24:27 - [MESSAGE][PASSED] - Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)'
+
+2019-04-21 06:24:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)'
+
+2019-04-21 06:24:28 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)'
+
+2019-04-21 06:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_This number is already added")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_This number is already added' is clicked on
+
+2019-04-21 06:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_This number is already added' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11162" classname="Test Cases/SMS/upload contacts/TC11162" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:28 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11162: Test Cases/SMS/upload contacts/TC11162
+
+2019-04-21 06:24:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Back")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Back' is clicked on
+
+2019-04-21 06:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Back' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/upload contacts/TC11163" classname="Test Cases/SMS/upload contacts/TC11163" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:31 - [TEST_CASE][PASSED] - Test Cases/SMS/upload contacts/TC11163: Test Cases/SMS/upload contacts/TC11163
+
+2019-04-21 06:24:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts' is clicked on
+
+2019-04-21 06:24:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1) (1)"), "Faizan"): Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1) (1)'
+
+2019-04-21 06:24:34 - [MESSAGE][PASSED] - Text 'Faizan' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1) (1)'
+
+2019-04-21 06:24:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1) (1)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1) (1)'
+
+2019-04-21 06:24:35 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1) (1)'
+
+2019-04-21 06:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Upload Contacts/i_Faizan_fa fa-times-circle")): Object: 'Object Repository/Page_KiboEngage  Upload Contacts/i_Faizan_fa fa-times-circle' is clicked on
+
+2019-04-21 06:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Upload Contacts/i_Faizan_fa fa-times-circle' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11171" classname="Test Cases/SMS/sms broadcast/TC11171" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:35 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11171: Test Cases/SMS/sms broadcast/TC11171
+
+2019-04-21 06:24:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Broadcasting (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasting (1)' is clicked on
+
+2019-04-21 06:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasting (1)' is clicked on
+
+2019-04-21 06:24:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11172" classname="Test Cases/SMS/sms broadcast/TC11172" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:39 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11172: Test Cases/SMS/sms broadcast/TC11172
+
+2019-04-21 06:24:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:43 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:24:43 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="ajax_data"]/table/tbody")): null
+
+2019-04-21 06:24:43 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2019-04-21 06:24:43 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(rows_table.size(), 1): Actual number '7' is greater than or equal to expected number '1'
+
+2019-04-21 06:24:43 - [MESSAGE][PASSED] - Actual number '7' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11173" classname="Test Cases/SMS/sms broadcast/TC11173" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:43 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11173: Test Cases/SMS/sms broadcast/TC11173
+
+2019-04-21 06:24:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:47 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11174" classname="Test Cases/SMS/sms broadcast/TC11174" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:47 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11174: Test Cases/SMS/sms broadcast/TC11174
+
+2019-04-21 06:24:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:50 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11175" classname="Test Cases/SMS/sms broadcast/TC11175" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:50 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11175: Test Cases/SMS/sms broadcast/TC11175
+
+2019-04-21 06:24:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts' is clicked on
+
+2019-04-21 06:24:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:54 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11176" classname="Test Cases/SMS/sms broadcast/TC11176" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:54 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11176: Test Cases/SMS/sms broadcast/TC11176
+
+2019-04-21 06:24:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:24:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)' is clicked on
+
+2019-04-21 06:24:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)' is clicked on
+
+2019-04-21 06:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)' is clicked on
+
+2019-04-21 06:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)' is clicked on
+
+2019-04-21 06:24:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11177" classname="Test Cases/SMS/sms broadcast/TC11177" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:24:58 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11177: Test Cases/SMS/sms broadcast/TC11177
+
+2019-04-21 06:24:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:24:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1)' is clicked on
+
+2019-04-21 06:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1)' is clicked on
+
+2019-04-21 06:25:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New' is clicked on
+
+2019-04-21 06:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New' is clicked on
+
+2019-04-21 06:25:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast' is clicked on
+
+2019-04-21 06:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast' is clicked on
+
+2019-04-21 06:25:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Send")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send' is clicked on
+
+2019-04-21 06:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send' is clicked on
+
+2019-04-21 06:25:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast' is clicked on
+
+2019-04-21 06:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11178" classname="Test Cases/SMS/sms broadcast/TC11178" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:04 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11178: Test Cases/SMS/sms broadcast/TC11178
+
+2019-04-21 06:25:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1)' is clicked on
+
+2019-04-21 06:25:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1)' is clicked on
+
+2019-04-21 06:25:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/span_Create New (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1)' is clicked on
+
+2019-04-21 06:25:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1)' is clicked on
+
+2019-04-21 06:25:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/button_Create New Broadcast (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1)' is clicked on
+
+2019-04-21 06:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1)' is clicked on
+
+2019-04-21 06:25:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboEngage  Broadcasts/textarea_HELLO"), "HELLO"): Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO'
+
+2019-04-21 06:25:09 - [MESSAGE][PASSED] - Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO'
+
+2019-04-21 06:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/span_Send (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (1)' is clicked on
+
+2019-04-21 06:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (1)' is clicked on
+
+2019-04-21 06:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast (1)' is clicked on
+
+2019-04-21 06:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11179" classname="Test Cases/SMS/sms broadcast/TC11179" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:09 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11179: Test Cases/SMS/sms broadcast/TC11179
+
+2019-04-21 06:25:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)' is clicked on
+
+2019-04-21 06:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)' is clicked on
+
+2019-04-21 06:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)' is clicked on
+
+2019-04-21 06:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)' is clicked on
+
+2019-04-21 06:25:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input'
+
+2019-04-21 06:25:15 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input'
+
+2019-04-21 06:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Send (2)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (2)' is clicked on
+
+2019-04-21 06:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (2)' is clicked on
+
+2019-04-21 06:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the message to send")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the message to send' is clicked on
+
+2019-04-21 06:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the message to send' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11181" classname="Test Cases/SMS/sms broadcast/TC11181" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:15 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11181: Test Cases/SMS/sms broadcast/TC11181
+
+2019-04-21 06:25:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1)"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1)'
+
+2019-04-21 06:25:20 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1)'
+
+2019-04-21 06:25:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1)"), "HELLO"): Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1)'
+
+2019-04-21 06:25:21 - [MESSAGE][PASSED] - Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1)'
+
+2019-04-21 06:25:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with"), "is", true): All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with'  using regular expression
+
+2019-04-21 06:25:21 - [MESSAGE][PASSED] - All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with'  using regular expression
+
+2019-04-21 06:25:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Value_text"), "ok"): Text 'ok' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text'
+
+2019-04-21 06:25:21 - [MESSAGE][PASSED] - Text 'ok' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text'
+
+2019-04-21 06:25:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Send (3)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (3)' is clicked on
+
+2019-04-21 06:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (3)' is clicked on
+
+2019-04-21 06:25:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid condition")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid condition' is clicked on
+
+2019-04-21 06:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid condition' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11182" classname="Test Cases/SMS/sms broadcast/TC11182" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:21 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11182: Test Cases/SMS/sms broadcast/TC11182
+
+2019-04-21 06:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1)"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1)'
+
+2019-04-21 06:25:27 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1)'
+
+2019-04-21 06:25:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1)"), "HELLO"): Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1)'
+
+2019-04-21 06:25:27 - [MESSAGE][PASSED] - Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1)'
+
+2019-04-21 06:25:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (2)"), "HELLO"): Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (2)'
+
+2019-04-21 06:25:27 - [MESSAGE][PASSED] - Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (2)'
+
+2019-04-21 06:25:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber"), "name", true): All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber'  using regular expression
+
+2019-04-21 06:25:28 - [MESSAGE][PASSED] - All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber'  using regular expression
+
+2019-04-21 06:25:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (1)"), "aaa"): Text 'aaa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (1)'
+
+2019-04-21 06:25:28 - [MESSAGE][PASSED] - Text 'aaa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (1)'
+
+2019-04-21 06:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Send (4)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (4)' is clicked on
+
+2019-04-21 06:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (4)' is clicked on
+
+2019-04-21 06:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid criteria")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid criteria' is clicked on
+
+2019-04-21 06:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid criteria' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11183" classname="Test Cases/SMS/sms broadcast/TC11183" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:28 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11183: Test Cases/SMS/sms broadcast/TC11183
+
+2019-04-21 06:25:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1)"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1)'
+
+2019-04-21 06:25:34 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1)'
+
+2019-04-21 06:25:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1) (1)"), "HELLO"): Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1) (1)'
+
+2019-04-21 06:25:34 - [MESSAGE][PASSED] - Text 'HELLO' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1) (1)'
+
+2019-04-21 06:25:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (1)"), "name", true): All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (1)'  using regular expression
+
+2019-04-21 06:25:34 - [MESSAGE][PASSED] - All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (1)'  using regular expression
+
+2019-04-21 06:25:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (1)"), "is", true): All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (1)'  using regular expression
+
+2019-04-21 06:25:35 - [MESSAGE][PASSED] - All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (1)'  using regular expression
+
+2019-04-21 06:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Send (4) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (4) (1)' is clicked on
+
+2019-04-21 06:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (4) (1)' is clicked on
+
+2019-04-21 06:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid value")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid value' is clicked on
+
+2019-04-21 06:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid value' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11184" classname="Test Cases/SMS/sms broadcast/TC11184" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:35 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11184: Test Cases/SMS/sms broadcast/TC11184
+
+2019-04-21 06:25:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1)"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1)'
+
+2019-04-21 06:25:40 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1)'
+
+2019-04-21 06:25:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing"), "Automated testing"): Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing'
+
+2019-04-21 06:25:41 - [MESSAGE][PASSED] - Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing'
+
+2019-04-21 06:25:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2)"), "number", true): All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2)'  using regular expression
+
+2019-04-21 06:25:41 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2)'  using regular expression
+
+2019-04-21 06:25:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2)"), "is", true): All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2)'  using regular expression
+
+2019-04-21 06:25:41 - [MESSAGE][PASSED] - All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2)'  using regular expression
+
+2019-04-21 06:25:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2)'
+
+2019-04-21 06:25:42 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2)'
+
+2019-04-21 06:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Send (5)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (5)' is clicked on
+
+2019-04-21 06:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (5)' is clicked on
+
+2019-04-21 06:25:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully' is clicked on
+
+2019-04-21 06:25:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11185" classname="Test Cases/SMS/sms broadcast/TC11185" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:42 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11185: Test Cases/SMS/sms broadcast/TC11185
+
+2019-04-21 06:25:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:47 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1)"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1)'
+
+2019-04-21 06:25:48 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1)'
+
+2019-04-21 06:25:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1)"), "Automated testing"): Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1)'
+
+2019-04-21 06:25:48 - [MESSAGE][PASSED] - Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1)'
+
+2019-04-21 06:25:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1)"), "number", true): All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1)'  using regular expression
+
+2019-04-21 06:25:48 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1)'  using regular expression
+
+2019-04-21 06:25:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1)"), "is", true): All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1)'  using regular expression
+
+2019-04-21 06:25:49 - [MESSAGE][PASSED] - All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1)'  using regular expression
+
+2019-04-21 06:25:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1)'
+
+2019-04-21 06:25:49 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1)'
+
+2019-04-21 06:25:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/button_ Add Condition")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition' is clicked on
+
+2019-04-21 06:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition' is clicked on
+
+2019-04-21 06:25:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3)"), "name", true): All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3)'  using regular expression
+
+2019-04-21 06:25:49 - [MESSAGE][PASSED] - All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3)'  using regular expression
+
+2019-04-21 06:25:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3)"), "contains", true): All options with value 'contains' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3)'  using regular expression
+
+2019-04-21 06:25:50 - [MESSAGE][PASSED] - All options with value 'contains' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3)'  using regular expression
+
+2019-04-21 06:25:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboEngage  Broadcasts/input_Remove_text"), "Fa"): Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text'
+
+2019-04-21 06:25:50 - [MESSAGE][PASSED] - Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text'
+
+2019-04-21 06:25:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/span_Send (6)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (6)' is clicked on
+
+2019-04-21 06:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Send (6)' is clicked on
+
+2019-04-21 06:25:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (1)' is clicked on
+
+2019-04-21 06:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11186" classname="Test Cases/SMS/sms broadcast/TC11186" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:51 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11186: Test Cases/SMS/sms broadcast/TC11186
+
+2019-04-21 06:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:25:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:25:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (1)' is clicked on
+
+2019-04-21 06:25:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:25:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:25:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (1)"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (1)'
+
+2019-04-21 06:25:57 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (1)'
+
+2019-04-21 06:25:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (1)"), "Automated testing"): Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (1)'
+
+2019-04-21 06:25:57 - [MESSAGE][PASSED] - Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (1)'
+
+2019-04-21 06:25:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (1)"), "number", true): All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (1)'  using regular expression
+
+2019-04-21 06:25:57 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (1)'  using regular expression
+
+2019-04-21 06:25:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (1)"), "is", true): All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (1)'  using regular expression
+
+2019-04-21 06:25:58 - [MESSAGE][PASSED] - All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (1)'  using regular expression
+
+2019-04-21 06:25:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (1)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (1)'
+
+2019-04-21 06:25:58 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (1)'
+
+2019-04-21 06:25:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (1)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (1)' is clicked on
+
+2019-04-21 06:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (1)' is clicked on
+
+2019-04-21 06:25:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (1)"), "name", true): All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (1)'  using regular expression
+
+2019-04-21 06:25:59 - [MESSAGE][PASSED] - All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (1)'  using regular expression
+
+2019-04-21 06:25:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (1)"), "contains", true): All options with value 'contains' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (1)'  using regular expression
+
+2019-04-21 06:25:59 - [MESSAGE][PASSED] - All options with value 'contains' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (1)'  using regular expression
+
+2019-04-21 06:25:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (1)"), "Fa"): Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (1)'
+
+2019-04-21 06:25:59 - [MESSAGE][PASSED] - Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (1)'
+
+2019-04-21 06:25:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Remove")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Remove' is clicked on
+
+2019-04-21 06:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Remove' is clicked on
+
+2019-04-21 06:25:59 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:25:59 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="m-datatable--27866229129"]/tbody")): null
+
+2019-04-21 06:25:59 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2019-04-21 06:25:59 - [TEST_STEP][PASSED] - verifyEqual(rows_table.size(), 1): Actual object '1' and expected object '1' are equal
+
+2019-04-21 06:25:59 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/sms broadcast/TC11187" classname="Test Cases/SMS/sms broadcast/TC11187" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:25:59 - [TEST_CASE][PASSED] - Test Cases/SMS/sms broadcast/TC11187: Test Cases/SMS/sms broadcast/TC11187
+
+2019-04-21 06:26:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:26:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-21 06:26:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (2)"), "faizan"): Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (2)'
+
+2019-04-21 06:26:05 - [MESSAGE][PASSED] - Text 'faizan' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (2)'
+
+2019-04-21 06:26:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (2)"), "Automated testing"): Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (2)'
+
+2019-04-21 06:26:05 - [MESSAGE][PASSED] - Text 'Automated testing' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (2)'
+
+2019-04-21 06:26:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (2)"), "number", true): All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (2)'  using regular expression
+
+2019-04-21 06:26:05 - [MESSAGE][PASSED] - All options with value 'number' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (2)'  using regular expression
+
+2019-04-21 06:26:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (2)"), "is", true): All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (2)'  using regular expression
+
+2019-04-21 06:26:06 - [MESSAGE][PASSED] - All options with value 'is' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (2)'  using regular expression
+
+2019-04-21 06:26:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (2)"), "+923333739566"): Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (2)'
+
+2019-04-21 06:26:06 - [MESSAGE][PASSED] - Text '+923333739566' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (2)'
+
+2019-04-21 06:26:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (2)")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (2)' is clicked on
+
+2019-04-21 06:26:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (2)' is clicked on
+
+2019-04-21 06:26:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (2)"), "name", true): All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (2)'  using regular expression
+
+2019-04-21 06:26:06 - [MESSAGE][PASSED] - All options with value 'name' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (2)'  using regular expression
+
+2019-04-21 06:26:06 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (2)"), "contains", true): All options with value 'contains' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (2)'  using regular expression
+
+2019-04-21 06:26:07 - [MESSAGE][PASSED] - All options with value 'contains' are selected in object 'Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (2)'  using regular expression
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (2)"), "Fa"): Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (2)'
+
+2019-04-21 06:26:07 - [MESSAGE][PASSED] - Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (2)'
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_1 (1)"), "Fa"): Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_1 (1)'
+
+2019-04-21 06:26:07 - [MESSAGE][PASSED] - Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_1 (1)'
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_2"), "Fa"): Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_2'
+
+2019-04-21 06:26:07 - [MESSAGE][PASSED] - Text 'Fa' is set on object 'Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_2'
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Broadcasts/button_Reset")): Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Reset' is clicked on
+
+2019-04-21 06:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Broadcasts/button_Reset' is clicked on
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - Table = driver.findElement(By.xpath("//*[@id="m-datatable--27866229129"]/tbody")): null
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - rows_table = Table.findElements(By.tagName("tr")): null
+
+2019-04-21 06:26:07 - [TEST_STEP][PASSED] - verifyEqual(rows_table.size(), 1): Actual object '1' and expected object '1' are equal
+
+2019-04-21 06:26:07 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Configuration in Settings/TC11210" classname="Test Cases/SMS/Configuration in Settings/TC11210" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:26:07 - [TEST_CASE][PASSED] - Test Cases/SMS/Configuration in Settings/TC11210: Test Cases/SMS/Configuration in Settings/TC11210
+
+2019-04-21 06:26:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Settings")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Api Settings/a_Configuration")): Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration' is clicked on
+
+2019-04-21 06:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration' is clicked on
+
+2019-04-21 06:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Api Settings/span_Configuration")): Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration' is clicked on
+
+2019-04-21 06:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Configuration in Settings/TC11211" classname="Test Cases/SMS/Configuration in Settings/TC11211" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:26:11 - [TEST_CASE][PASSED] - Test Cases/SMS/Configuration in Settings/TC11211: Test Cases/SMS/Configuration in Settings/TC11211
+
+2019-04-21 06:26:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Settings")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1)' is clicked on
+
+2019-04-21 06:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1)' is clicked on
+
+2019-04-21 06:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1)' is clicked on
+
+2019-04-21 06:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1)' is clicked on
+
+2019-04-21 06:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Api Settings/button_Edit")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit' is clicked on
+
+2019-04-21 06:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit' is clicked on
+
+2019-04-21 06:26:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio")): Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio' is clicked on
+
+2019-04-21 06:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Configuration in Settings/TC11212" classname="Test Cases/SMS/Configuration in Settings/TC11212" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:26:15 - [TEST_CASE][PASSED] - Test Cases/SMS/Configuration in Settings/TC11212: Test Cases/SMS/Configuration in Settings/TC11212
+
+2019-04-21 06:26:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Settings")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Edit (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)' is clicked on
+
+2019-04-21 06:26:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-21 06:26:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-21 06:26:28 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:26:28 - [TEST_STEP][PASSED] - sid = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input")): null
+
+2019-04-21 06:26:28 - [TEST_STEP][PASSED] - sid.clear(): null
+
+2019-04-21 06:26:28 - [TEST_STEP][PASSED] - sid.sendKeys("a"): null
+
+2019-04-21 06:26:29 - [TEST_STEP][PASSED] - token = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input")): null
+
+2019-04-21 06:26:29 - [TEST_STEP][PASSED] - token.clear(): null
+
+2019-04-21 06:26:29 - [TEST_STEP][PASSED] - token.sendKeys("a"): null
+
+2019-04-21 06:26:29 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-21 06:26:39 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-21 06:26:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Submit (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (2)' is clicked on
+
+2019-04-21 06:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (2)' is clicked on
+
+2019-04-21 06:26:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)' is clicked on
+
+2019-04-21 06:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Configuration in Settings/TC11213" classname="Test Cases/SMS/Configuration in Settings/TC11213" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:26:40 - [TEST_CASE][PASSED] - Test Cases/SMS/Configuration in Settings/TC11213: Test Cases/SMS/Configuration in Settings/TC11213
+
+2019-04-21 06:26:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Settings")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Edit (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (1)' is clicked on
+
+2019-04-21 06:26:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (1)' is clicked on
+
+2019-04-21 06:26:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)' is clicked on
+
+2019-04-21 06:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)' is clicked on
+
+2019-04-21 06:26:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-21 06:26:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-21 06:26:54 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:26:54 - [TEST_STEP][PASSED] - token = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input")): null
+
+2019-04-21 06:26:54 - [TEST_STEP][PASSED] - token.clear(): null
+
+2019-04-21 06:26:54 - [TEST_STEP][PASSED] - token.sendKeys("a"): null
+
+2019-04-21 06:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Submit (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (1)' is clicked on
+
+2019-04-21 06:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (1)' is clicked on
+
+2019-04-21 06:26:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)' is clicked on
+
+2019-04-21 06:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Configuration in Settings/TC11214" classname="Test Cases/SMS/Configuration in Settings/TC11214" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:26:55 - [TEST_CASE][PASSED] - Test Cases/SMS/Configuration in Settings/TC11214: Test Cases/SMS/Configuration in Settings/TC11214
+
+2019-04-21 06:26:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:26:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Settings")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:26:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:26:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Edit (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)' is clicked on
+
+2019-04-21 06:26:58 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-21 06:27:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-21 06:27:08 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:27:08 - [TEST_STEP][PASSED] - sid = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input")): null
+
+2019-04-21 06:27:08 - [TEST_STEP][PASSED] - sid.clear(): null
+
+2019-04-21 06:27:09 - [TEST_STEP][PASSED] - sid.sendKeys("a"): null
+
+2019-04-21 06:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Submit (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (1)' is clicked on
+
+2019-04-21 06:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (1)' is clicked on
+
+2019-04-21 06:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)' is clicked on
+
+2019-04-21 06:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Configuration in Settings/TC11215" classname="Test Cases/SMS/Configuration in Settings/TC11215" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:27:10 - [TEST_CASE][PASSED] - Test Cases/SMS/Configuration in Settings/TC11215: Test Cases/SMS/Configuration in Settings/TC11215
+
+2019-04-21 06:27:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:27:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:27:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:27:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:27:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Settings")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:27:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Settings' is clicked on
+
+2019-04-21 06:27:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:27:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:27:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Edit (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Edit (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)' is clicked on
+
+2019-04-21 06:27:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-21 06:27:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - sid = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input")): null
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - sid.clear(): null
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - sid.sendKeys("a"): null
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - token = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input")): null
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - token.clear(): null
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - token.sendKeys("a"): null
+
+2019-04-21 06:27:23 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-21 06:27:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-21 06:27:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/button_Submit (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (2)' is clicked on
+
+2019-04-21 06:27:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/button_Submit (2)' is clicked on
+
+2019-04-21 06:27:34 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)")): Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)' is clicked on
+
+2019-04-21 06:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-21 06:22:40 - [TEST_SUITE][PASSED] - SMS Kiboengage: Test Cases/SMS/Configuration in Settings/TC11215]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -4,6 +4,16 @@
    <name>select_filter_template_broadcast_templates</name>
    <tag></tag>
    <elementGuidId>5210d9d4-6f9f-4775-8b1e-7587a9b643ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;m_form_status&quot;]/option[16]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'm_form_status' and (text() = 'Filter by Category...AllFeedbackEntertain and EngagePromotion UpdatesPlan EventsCustomer SatisfactionGreetingsSocial MessagePromotionsInformationFollow UpWelcomeGeneralreseachhellhelwqfacebookHoliday GreetingstestingReaserchResearch' or . = 'Filter by Category...AllFeedbackEntertain and EngagePromotion UpdatesPlan EventsCustomer SatisfactionGreetingsSocial MessagePromotionsInformationFollow UpWelcomeGeneralreseachhellhelwqfacebookHoliday GreetingstestingReaserchResearch')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -52,36 +62,42 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//select[@id='m_form_status']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='content']/div/div/div/div[2]/div[3]/div/div[2]/div/div[2]/div[2]/div/div[3]/select</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Create New'])[1]/following::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::select[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//select</value>
    </webElementXpaths>
 </WebElementEntity>

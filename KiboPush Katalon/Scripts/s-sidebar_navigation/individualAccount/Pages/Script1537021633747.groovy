@@ -19,15 +19,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login-KiboEngage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Manage Pages'))
-
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Pages'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Manage Pages'))
+WebUI.delay(1)
 

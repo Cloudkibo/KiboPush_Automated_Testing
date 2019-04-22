@@ -11,6 +11,18 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>fba9f100-00be-47f5-9fd1-8fc3f444a929</testSuiteGuid>
    <testCaseLink>
+      <guid>1aea0086-e61f-4dd9-b7da-141a96ee1424</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2f040187-4496-46a9-86ab-8364eee2f8c9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Invite subscribers/open growth tools</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e0605ef3-bbda-4808-934c-14bc5e96af7a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

@@ -18,12 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Setting testcases/TC1036'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Edit Message'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Save (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Message saved successfully (1)'))
-
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Welcome Messages'), [:], FailureHandling.STOP_ON_FAILURE)
+	

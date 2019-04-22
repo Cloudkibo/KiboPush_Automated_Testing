@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Page_KiboPush  Comment Capture/span_Create New Facebook Post'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  New Facebook Post/a_Back'))

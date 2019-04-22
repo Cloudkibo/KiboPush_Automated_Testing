@@ -21,11 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/input_form-control (1)'), 'hello')
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control'), 'hello')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (1) (1)'), 'hello')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (3)'))
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (6)'), 'hello')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Card must have an image'))
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/button_Create (12)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card must have an image'))
 

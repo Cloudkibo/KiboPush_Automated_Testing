@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Comment Capture,,,,2019-04-20 15:56:37,2019-04-20 15:56:45,8.400s,FAILED
+,,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,,,,2019-04-20 15:56:37,2019-04-20 15:56:39,1.812s,FAILED
+"openBrowser("""")",,,,2019-04-20 15:56:38,2019-04-20 15:56:39,0.910s,FAILED
+,,,,,,,
+Test Cases/Invite subscribers/open growth tools,,,,2019-04-20 15:56:39,2019-04-20 15:56:39,0.288s,FAILED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)""))",,,,2019-04-20 15:56:39,2019-04-20 15:56:39,0.136s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0505,,Test documentation link,,2019-04-20 15:56:39,2019-04-20 15:56:40,0.558s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:40,2019-04-20 15:56:40,0.404s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0507,,Test view comment capture,,2019-04-20 15:56:40,2019-04-20 15:56:40,0.391s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:40,2019-04-20 15:56:40,0.113s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0508,,Test search comment capture,,2019-04-20 15:56:40,2019-04-20 15:56:41,0.322s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:41,2019-04-20 15:56:41,0.115s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0509,,Test pagination (next page),,2019-04-20 15:56:41,2019-04-20 15:56:41,0.411s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:41,2019-04-20 15:56:41,0.099s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0510,,Test pagination (previous page),,2019-04-20 15:56:41,2019-04-20 15:56:42,0.437s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:42,2019-04-20 15:56:42,0.089s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0511,,Test pagination (Jump to page n),,2019-04-20 15:56:42,2019-04-20 15:56:42,0.405s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:42,2019-04-20 15:56:42,0.099s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0512,,Test delete button in posts list,,2019-04-20 15:56:42,2019-04-20 15:56:42,0.311s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:42,2019-04-20 15:56:42,0.112s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0513,,Test cross of delete dialogue box,,2019-04-20 15:56:42,2019-04-20 15:56:43,0.247s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:43,2019-04-20 15:56:43,0.092s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0514,,Test New Facebook Post button,,2019-04-20 15:56:43,2019-04-20 15:56:43,0.244s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:43,2019-04-20 15:56:43,0.092s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0515,,Test Choose Page,,2019-04-20 15:56:43,2019-04-20 15:56:43,0.215s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:43,2019-04-20 15:56:43,0.084s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0524,,Test Post on facebook button (without a reply),,2019-04-20 15:56:43,2019-04-20 15:56:43,0.206s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:43,2019-04-20 15:56:43,0.079s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0526,,Test Post on facebook button (with empty fields ),,2019-04-20 15:56:43,2019-04-20 15:56:44,0.248s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:44,2019-04-20 15:56:44,0.082s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0527,,Test reset button,,2019-04-20 15:56:44,2019-04-20 15:56:44,0.263s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:44,2019-04-20 15:56:44,0.074s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0528,,Test back button,,2019-04-20 15:56:44,2019-04-20 15:56:44,0.208s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:44,2019-04-20 15:56:44,0.082s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0529,,Test Edit,,2019-04-20 15:56:44,2019-04-20 15:56:44,0.236s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:44,2019-04-20 15:56:44,0.076s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0530,,Test Save,,2019-04-20 15:56:44,2019-04-20 15:56:45,0.206s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:44,2019-04-20 15:56:45,0.088s,FAILED
+,,,,,,,
+Test Cases/Comment Capture TestCases/TC0531,,Test back button,,2019-04-20 15:56:45,2019-04-20 15:56:45,0.273s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Comment capture""), [:], STOP_ON_FAILURE)",,,,2019-04-20 15:56:45,2019-04-20 15:56:45,0.114s,FAILED

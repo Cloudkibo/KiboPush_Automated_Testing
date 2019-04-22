@@ -1,0 +1,59 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+ManagePages,Chrome 73.0.3683.103,,,2019-04-20 21:51:36,2019-04-20 21:52:35,58.720s,FAILED
+,,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.103,,,2019-04-20 21:51:37,2019-04-20 21:52:29,52.828s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-20 21:51:37,2019-04-20 21:51:49,11.999s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,,2019-04-20 21:51:49,2019-04-20 21:51:49,0.187s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.103,,,2019-04-20 21:51:49,2019-04-20 21:51:58,8.965s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 21:51:58,2019-04-20 21:52:20,21.589s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.103,,,2019-04-20 21:52:20,2019-04-20 21:52:21,1.190s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 21:52:21,2019-04-20 21:52:21,0.368s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.103,,,2019-04-20 21:52:21,2019-04-20 21:52:22,0.313s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.103,,,2019-04-20 21:52:22,2019-04-20 21:52:22,0.149s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.103,,,2019-04-20 21:52:22,2019-04-20 21:52:23,0.733s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.103,,,2019-04-20 21:52:23,2019-04-20 21:52:29,6.761s,FAILED
+,,,,,,,
+Test Cases/Welcome messages/open Manage Pages,Chrome 73.0.3683.103,,,2019-04-20 21:52:29,2019-04-20 21:52:30,0.187s,FAILED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Manage Pages""))",Chrome 73.0.3683.103,,,2019-04-20 21:52:30,2019-04-20 21:52:30,0.026s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0402,Chrome 73.0.3683.103,Test documentation link,,2019-04-20 21:52:30,2019-04-20 21:52:30,0.359s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:30,2019-04-20 21:52:30,0.219s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0403,Chrome 73.0.3683.103,Test video tutorial,,2019-04-20 21:52:30,2019-04-20 21:52:30,0.217s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:30,2019-04-20 21:52:30,0.105s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0404,Chrome 73.0.3683.103,View all pages,,2019-04-20 21:52:30,2019-04-20 21:52:31,0.330s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:30,2019-04-20 21:52:31,0.115s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0405,Chrome 73.0.3683.103,Search pages,,2019-04-20 21:52:31,2019-04-20 21:52:31,0.365s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:31,2019-04-20 21:52:31,0.133s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0406,Chrome 73.0.3683.103,Test pagination (next page),,2019-04-20 21:52:31,2019-04-20 21:52:31,0.438s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:31,2019-04-20 21:52:31,0.174s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0407,Chrome 73.0.3683.103,Test pagination (previous page),,2019-04-20 21:52:31,2019-04-20 21:52:32,0.568s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:32,2019-04-20 21:52:32,0.156s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0408,Chrome 73.0.3683.103,Test pagination (Jump to page n),,2019-04-20 21:52:32,2019-04-20 21:52:32,0.564s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:32,2019-04-20 21:52:32,0.182s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0409,Chrome 73.0.3683.103,Test invite subscribers button,,2019-04-20 21:52:33,2019-04-20 21:52:33,0.411s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:33,2019-04-20 21:52:33,0.144s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0410,Chrome 73.0.3683.103,Remove connected page,,2019-04-20 21:52:33,2019-04-20 21:52:33,0.330s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:33,2019-04-20 21:52:33,0.132s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0411,Chrome 73.0.3683.103,Test connect Facebook pages button,,2019-04-20 21:52:33,2019-04-20 21:52:34,0.305s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:33,2019-04-20 21:52:34,0.104s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0412,Chrome 73.0.3683.103,Connect Facebook page,,2019-04-20 21:52:34,2019-04-20 21:52:34,0.269s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:34,2019-04-20 21:52:34,0.102s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0413,Chrome 73.0.3683.103,Connect already connected page,,2019-04-20 21:52:34,2019-04-20 21:52:34,0.275s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:34,2019-04-20 21:52:34,0.104s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0414,Chrome 73.0.3683.103,Disconnect Facebook page,,2019-04-20 21:52:34,2019-04-20 21:52:34,0.212s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:34,2019-04-20 21:52:34,0.101s,FAILED
+,,,,,,,
+Test Cases/Manage Pages TestCases/TC0415,Chrome 73.0.3683.103,Test done button,,2019-04-20 21:52:34,2019-04-20 21:52:35,0.340s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 21:52:35,2019-04-20 21:52:35,0.089s,FAILED

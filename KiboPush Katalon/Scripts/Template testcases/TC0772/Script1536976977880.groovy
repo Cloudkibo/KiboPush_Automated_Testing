@@ -23,17 +23,19 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Template testcases/open broadcasting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Template testcases/TC0769'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[2]/textarea'))
+WebElement textArea = driver.findElement(By.xpath('//*[@id="List2"]/div/div/div[2]/textarea'))
 
 textArea.sendKeys('h')
-
-//WebUI.setText(findTestObject('Page_KiboEngage  Create Broadcast Template/textarea_h (5)'), 'h')
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category (1)'))
 

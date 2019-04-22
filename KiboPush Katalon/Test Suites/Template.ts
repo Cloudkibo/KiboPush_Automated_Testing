@@ -4,7 +4,6 @@
    <name>Template</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-22T16:49:38</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

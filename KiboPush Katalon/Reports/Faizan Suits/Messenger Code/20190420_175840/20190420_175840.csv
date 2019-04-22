@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Messenger Code,Chrome 73.0.3683.103,,,2019-04-20 17:58:44,2019-04-20 17:59:36,52.176s,FAILED
+,,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.103,,,2019-04-20 17:58:44,2019-04-20 17:59:32,47.664s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-20 17:58:45,2019-04-20 17:58:49,4.296s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,,2019-04-20 17:58:49,2019-04-20 17:58:49,0.149s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.103,,,2019-04-20 17:58:49,2019-04-20 17:59:02,12.430s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 17:59:02,2019-04-20 17:59:02,0.509s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:02,2019-04-20 17:59:03,0.951s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 17:59:03,2019-04-20 17:59:03,0.321s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.103,,,2019-04-20 17:59:03,2019-04-20 17:59:04,0.257s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:04,2019-04-20 17:59:04,0.165s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.103,,,2019-04-20 17:59:04,2019-04-20 17:59:28,24.382s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:28,2019-04-20 17:59:28,0.197s,PASSED
+delay(3),Chrome 73.0.3683.103,,,2019-04-20 17:59:28,2019-04-20 17:59:31,3.018s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:31,2019-04-20 17:59:32,0.193s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:32,2019-04-20 17:59:32,0.147s,PASSED
+,,,,,,,
+Test Cases/Invite subscribers/open growth tools,Chrome 73.0.3683.103,,,2019-04-20 17:59:32,2019-04-20 17:59:33,1.708s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:32,2019-04-20 17:59:32,0.198s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-20 17:59:32,2019-04-20 17:59:33,1.004s,PASSED
+,,,,,,,
+Test Cases/MessengerCode/TC1073,Chrome 73.0.3683.103,,,2019-04-20 17:59:33,2019-04-20 17:59:34,0.439s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Messenger Code""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:34,2019-04-20 17:59:34,0.170s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:34,2019-04-20 17:59:34,0.151s,PASSED
+,,,,,,,
+Test Cases/MessengerCode/TC1074,Chrome 73.0.3683.103,,,2019-04-20 17:59:34,2019-04-20 17:59:34,0.474s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger Code (1)""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:34,2019-04-20 17:59:34,0.119s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_video tutorial""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:34,2019-04-20 17:59:34,0.180s,PASSED
+,,,,,,,
+Test Cases/MessengerCode/TC1075,Chrome 73.0.3683.103,,,2019-04-20 17:59:34,2019-04-20 17:59:35,0.774s,FAILED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Messenger Code""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:34,2019-04-20 17:59:35,0.116s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:35,2019-04-20 17:59:35,0.499s,FAILED
+,,,,,,,
+Test Cases/MessengerCode/TC1076,Chrome 73.0.3683.103,,,2019-04-20 17:59:35,2019-04-20 17:59:36,0.520s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Messenger Code""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:35,2019-04-20 17:59:35,0.133s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Messenger Code/a_documentation""))",Chrome 73.0.3683.103,,,2019-04-20 17:59:35,2019-04-20 17:59:36,0.215s,PASSED

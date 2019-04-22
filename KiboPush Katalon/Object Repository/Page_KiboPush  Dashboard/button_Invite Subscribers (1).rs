@@ -4,7 +4,17 @@
    <name>button_Invite Subscribers (1)</name>
    <tag></tag>
    <elementGuidId>b70e8147-f274-4997-a1ca-dd939e96e3a7</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ajax_data&quot;]/table/tbody/tr[1]/td[5]/span/button[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Invite Subscribers' or . = 'Invite Subscribers')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

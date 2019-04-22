@@ -23,11 +23,5 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Setting testcases/TC1036'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_KiboPush  api_settings/button_View Message (1)'))
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboPush  api_settings/h3_View Welcome Message (1)'))
-
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Welcome Messages'), [:], FailureHandling.STOP_ON_FAILURE)
+	

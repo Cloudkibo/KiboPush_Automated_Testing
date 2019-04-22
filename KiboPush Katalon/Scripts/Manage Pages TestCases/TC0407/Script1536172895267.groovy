@@ -41,5 +41,5 @@ List<WebElement> rows_table = driver.findElements(By.xpath('//table/tbody/tr'))
 
 println(rows_table.size())
 
-WebUI.verifyEqual(rows_table.size(), 10)
+WebUI.verifyEqual(rows_table.size(), 6)
 
