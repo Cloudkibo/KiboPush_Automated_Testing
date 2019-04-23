@@ -24,18 +24,22 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboEngage  Subscribers/h3_Manage Subscribers (3)'))
-
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Subscribers/select_Filter by Page...ALLTes (4)'), '5c090d111276ef481a715931', 
-    true)
-
-
+WebUI.click(findTestObject('Page_KiboEngage  Subscribers/h3_Manage Subscribers (3) (1)'))
 
 WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
+
+List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/div/div[2]/select/option'))
+
+println(rows_table1.size())
+
+rows_table1[1].click()
+
+WebUI.delay(3)
 
 WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 
@@ -44,3 +48,4 @@ List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 int size = rows_table.size()
 
 WebUI.verifyGreaterThanOrEqual(size, 1)
+

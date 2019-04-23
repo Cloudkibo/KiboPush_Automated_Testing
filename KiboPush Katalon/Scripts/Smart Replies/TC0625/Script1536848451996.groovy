@@ -18,7 +18,6 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_f
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_form-control (2) (1)'), 'Test')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Dashboard/select_ActiveDisabled'), 'false', true)
 

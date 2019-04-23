@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/First_Card_List_Title'), 'Title1')
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/First_Card_Subtitle'), 'Subtitle1')
@@ -29,7 +31,7 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/Second_Card_Subtitle'), 'Subtitle2')
 
-WebUI.scrollToElement(findTestObject('Page_KiboPush  Create Broadcast/div_Need help in understanding'), 1)
+WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Next'))
 

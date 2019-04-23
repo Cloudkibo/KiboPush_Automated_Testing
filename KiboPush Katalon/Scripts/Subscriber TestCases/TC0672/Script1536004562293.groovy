@@ -19,11 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Subscribers/input_generalSearch'), 'Arveen')
+WebUI.delay(15)
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Page_KiboPush  Subscribers/a_Assign Tags'))
-
-
 

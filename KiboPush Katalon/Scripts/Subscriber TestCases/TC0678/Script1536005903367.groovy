@@ -23,5 +23,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscrib
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers'))
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers'))
 

@@ -23,7 +23,13 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
@@ -46,6 +52,10 @@ upload.sendKeys(img)
 
 WebUI.delay(5)
 
+WebElement image_popup = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/a'))
+
+image_popup.click()
+WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control (4) (1)'), 'Card Title')
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_form-control'), 'Card Subtitle')
@@ -53,8 +63,8 @@ WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_form-cont
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Next (4) (1)'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Card must have at least on'))
+WebUI.verifyTextPresent('CARD MUST HAVE AT LEAST ONE BUTTON.', false)
 
-WebUI.closeBrowser()
 

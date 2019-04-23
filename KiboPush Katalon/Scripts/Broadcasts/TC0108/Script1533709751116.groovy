@@ -37,5 +37,4 @@ int rows_count = rows_table.size()
 
 WebUI.verifyGreaterThanOrEqual(rows_count, 1)
 
-WebUI.closeBrowser()
 

@@ -19,6 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,23 +37,27 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
 WebUI.uploadFile(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_file'), img)
 
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/img'), 10)
+WebUI.delay(5)
 
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement image_popup = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/a'))
+
+image_popup.click()
+WebUI.delay(2)
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_form-control'), 'Card Subtitle')
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next (2)'))
 
-WebUI.delay(3)
+WebUI.verifyTextPresent('CARD MUST HAVE A TITLE', false)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card must have a Title'))
 
-WebUI.closeBrowser()
 

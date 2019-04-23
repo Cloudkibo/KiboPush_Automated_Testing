@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
@@ -29,5 +30,4 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card'))
 
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/card_component'), 5)
 

@@ -39,5 +39,4 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Text cannot be empty'))
 
-WebUI.closeBrowser()
 

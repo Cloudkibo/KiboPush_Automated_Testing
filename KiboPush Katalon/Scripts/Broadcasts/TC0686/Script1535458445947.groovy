@@ -19,11 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/i_fa fa-times-circle-o'))
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/i_fa fa-times-circle-o (1)'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_A List must have atleast 2_1'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_A List must have at least'))
 

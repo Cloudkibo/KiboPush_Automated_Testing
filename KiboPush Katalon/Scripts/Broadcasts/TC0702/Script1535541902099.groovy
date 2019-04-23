@@ -23,5 +23,4 @@ WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_ Add Element'))
 
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/List_Card3'), 1)
 

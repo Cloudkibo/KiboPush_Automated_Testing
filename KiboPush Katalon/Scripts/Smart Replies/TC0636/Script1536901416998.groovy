@@ -34,5 +34,7 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dele
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Delete (6)'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully'))
 

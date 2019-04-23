@@ -19,33 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Broadcasts/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Broadcasts/TC0131'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Text'))
-
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/text_component'), 5)
-
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/text_component1'), 5)
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/text_component'), 'X')
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_X'), 'XY')
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_XY'), 'XYZ')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/text_component1'), 'A')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_A'), 'AB')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_AB'), 'ABC')
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Previous'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_XYZ'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_ABC'))
 

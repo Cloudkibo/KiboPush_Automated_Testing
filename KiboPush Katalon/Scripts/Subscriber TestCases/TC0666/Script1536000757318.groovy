@@ -18,16 +18,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (1)'))
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/button_Edit'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Subscribers/input_tagName'), 'hello')
+WebUI.delay(2)
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement tag = driver.findElement(By.xpath('//*[@id="tagName"]'))
+
+tag.clear()
+tag.sendKeys('hello')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/button_Save (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/div_Tag has been changed'))
 

@@ -21,6 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Broadcasts/TC0163'), [:], FailureHandling.STOP_ON_FAILURE)
 
+
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/i_fa fa-times fa-stack-2x'))
 
 WebUI.verifyElementNotPresent(findTestObject('Page_KiboPush  Create Broadcast/h4_Audio'), 0)

@@ -4,7 +4,7 @@
    <name>seq_message</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-13T15:19:18</lastRun>
+   <lastRun>2019-04-22T13:19:09</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,16 +12,16 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>fdb830e0-83b0-4bc0-8fe8-6e8686c23118</testSuiteGuid>
    <testCaseLink>
-      <guid>4f2d73a0-76fa-44a4-9df2-889512d6308e</guid>
+      <guid>de3c45f8-a518-4975-b7d7-ce797be231d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sequence Messaging/Go_to_Seq_Messaging</testCaseId>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>52a8588a-e547-43d2-a16c-3d4d5382f509</guid>
+      <guid>7f26a020-4955-4fb6-97e0-2e4f713c46d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sequence Messaging/Login</testCaseId>
+      <testCaseId>Test Cases/Sequence Messaging/open_automation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>de905a02-524b-4eec-a4ce-6fd84f5873cc</guid>
@@ -136,23 +136,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC1011</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>29e70a74-03ec-4d07-8d60-50bcee8d087c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sequence Messaging/Test Edit Sequence Button</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>261f7450-936a-4c2c-8b03-a09086b43344</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sequence Messaging/z-Add Two Messages</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>b2b13d88-292f-471d-a053-c29afa23f878</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Sequence Messaging/z-updateSequenceTrigger</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

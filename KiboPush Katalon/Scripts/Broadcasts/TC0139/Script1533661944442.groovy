@@ -24,6 +24,7 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
@@ -46,7 +47,5 @@ upload.sendKeys(img)
 
 WebUI.delay(5)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/img'), 10)
 
-WebUI.closeBrowser()
 

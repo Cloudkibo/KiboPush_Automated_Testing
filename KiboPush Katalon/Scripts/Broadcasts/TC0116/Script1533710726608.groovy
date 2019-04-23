@@ -26,5 +26,4 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Broad
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_file'))
 
-WebUI.closeBrowser()
 

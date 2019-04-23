@@ -19,9 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Subscribers/span_Subscribers (5)'))
+
+WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Subscribers/h3_Manage Subscribers (1)'))
 

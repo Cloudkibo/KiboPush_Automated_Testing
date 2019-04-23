@@ -21,5 +21,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autoposting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/a_httpswww.facebook.comTest-3-'))
+WebUI.verifyTextPresent('https://www.facebook.com/Test5-2090553931018635', false)
 

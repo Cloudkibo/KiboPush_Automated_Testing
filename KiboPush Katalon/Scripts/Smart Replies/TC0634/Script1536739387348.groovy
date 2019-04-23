@@ -12,26 +12,22 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Smart Replies/open_automation'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Smart Replies/Test-Actions-Button'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Delete'))
 
+WebUI.delay(2)
+
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Delete (6)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully'))
-
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Delete'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Delete (6)'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully'))
 
@@ -42,7 +38,7 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)'))
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Delete'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Delete (6)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully'))
@@ -54,7 +50,7 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)'))
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Delete'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Delete (6)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully'))
@@ -66,7 +62,20 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)'))
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Delete'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Delete (6)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Delete'))
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Delete (6)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully'))
+

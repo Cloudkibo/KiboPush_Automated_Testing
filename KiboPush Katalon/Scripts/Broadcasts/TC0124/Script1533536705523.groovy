@@ -44,7 +44,7 @@ String date_page3 = getFirstRowDate()
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_previous'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 String date_page2 = getFirstRowDate()
 

@@ -12,20 +12,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Smart Replies/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Smart Replies'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Automation'))
+WebUI.click(findTestObject('Object Repository/Page_KiboChat  Bots/button_Create New'))
 
-WebUI.delay(2)
-
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Smart Replies'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
-
-WebUI.delay(2)
+WebUI.delay(1)
 

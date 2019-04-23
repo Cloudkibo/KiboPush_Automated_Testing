@@ -23,5 +23,4 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), 
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Broadcast/select_Filter by type...textim'), 'all', true)
 
-WebUI.closeBrowser()
 

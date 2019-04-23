@@ -37,9 +37,7 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next (2)'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card must have an image'))
-
-WebUI.closeBrowser()
+WebUI.verifyTextPresent('CARD MUST HAVE AN IMAGE', false)
 
