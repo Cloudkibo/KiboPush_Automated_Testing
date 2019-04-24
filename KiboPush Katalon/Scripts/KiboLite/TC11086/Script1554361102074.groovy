@@ -31,5 +31,3 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_ Business Gateway/button_Back'))
 
-WebUI.click(findTestObject('Page_ Business Gateway/h3_Push Message (2)'))
-
