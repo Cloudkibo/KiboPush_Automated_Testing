@@ -27,7 +27,7 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Pages'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
