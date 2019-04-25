@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SMS Livechat" time="126" tests="6" failures="1" errors="0">
+   <testsuite name="SMS Livechat" tests="6" failures="1" errors="0" time="126" timestamp="2019-04-21 06:51:38" hostname="faizan - faizan-HP-EliteBook-850-G2" id="Test Suites/Faizan Suits/SMS Livechat">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/SMS Livechat/20190421_065130"/>
+         <property name="logFiles" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/SMS Livechat/20190421_065130/execution0.log"/>
+         <property name="attachments" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/SMS Livechat/20190421_065130/1555811622874.png"/>
+         <property name="hostName" value="faizan - faizan-HP-EliteBook-850-G2"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="f1f637dff920f9147fba9054c0a75838"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kibochat" classname="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kibochat" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:51:39 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kibochat: Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kibochat
+
+2019-04-21 06:51:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-21 06:51:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-21 06:51:40 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-04-21 06:51:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-21 06:52:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-21 06:52:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-21 06:52:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-21 06:52:00 - [TEST_STEP][PASSED] - navigateToUrl("https://kibochat.cloudkibo.com/"): Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-21 06:52:09 - [MESSAGE][PASSED] - Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-21 06:52:09 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com"): Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-21 06:52:10 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-21 06:52:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/a_Login (10)")): Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-21 06:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-21 06:52:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizan@cloudkibo.com"): Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-21 06:52:12 - [MESSAGE][PASSED] - Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-21 06:52:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (7)"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-21 06:52:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-21 06:52:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (11)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-21 06:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-21 06:52:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (58)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-21 06:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-21 06:52:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-21 06:52:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-21 06:52:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-21 06:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-21 06:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Dashboard/span_Messenger")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on
+
+2019-04-21 06:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/SMSPlatform" classname="Test Cases/SMS/SMSPlatform" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:52:49 - [TEST_CASE][PASSED] - Test Cases/SMS/SMSPlatform: Test Cases/SMS/SMSPlatform
+
+2019-04-21 06:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (1)' is clicked on
+
+2019-04-21 06:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (1)' is clicked on
+
+2019-04-21 06:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_SMS (1)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_SMS (1)' is clicked on
+
+2019-04-21 06:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_SMS (1)' is clicked on
+
+2019-04-21 06:52:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:52:51 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Sms Livechat/TC11188" classname="Test Cases/SMS/Sms Livechat/TC11188" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:52:51 - [TEST_CASE][PASSED] - Test Cases/SMS/Sms Livechat/TC11188: Test Cases/SMS/Sms Livechat/TC11188
+
+2019-04-21 06:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:52:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:52:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)")): Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:52:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:52:54 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Sms Livechat/TC11189" classname="Test Cases/SMS/Sms Livechat/TC11189" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:52:54 - [TEST_CASE][PASSED] - Test Cases/SMS/Sms Livechat/TC11189: Test Cases/SMS/Sms Livechat/TC11189
+
+2019-04-21 06:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:52:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:52:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)")): Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:52:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:52:57 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Sms Livechat/TC11190" classname="Test Cases/SMS/Sms Livechat/TC11190" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:52:57 - [TEST_CASE][PASSED] - Test Cases/SMS/Sms Livechat/TC11190: Test Cases/SMS/Sms Livechat/TC11190
+
+2019-04-21 06:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:52:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:52:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)")): Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:52:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:53:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Live Chat/span_Faizan")): Object: 'Object Repository/Page_KiboChat  Live Chat/span_Faizan' is clicked on
+
+2019-04-21 06:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Live Chat/span_Faizan' is clicked on
+
+2019-04-21 06:53:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote")): Object: 'Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote' is clicked on
+
+2019-04-21 06:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Sms Livechat/TC11191" classname="Test Cases/SMS/Sms Livechat/TC11191" status="PASSED">
+         <system-out><![CDATA[2019-04-21 06:53:01 - [TEST_CASE][PASSED] - Test Cases/SMS/Sms Livechat/TC11191: Test Cases/SMS/Sms Livechat/TC11191
+
+2019-04-21 06:53:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:53:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:53:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:53:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)")): Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:53:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:53:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote")): Object: 'Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote' is clicked on
+
+2019-04-21 06:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SMS/Sms Livechat/TC11193" classname="Test Cases/SMS/Sms Livechat/TC11193" status="FAILED">
+         <failure type="FAILED" message="Test Cases/SMS/Sms Livechat/TC11193 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC11193.run(TC11193:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555811490108.run(TempTestSuite1555811490108.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554280449153.run(Script1554280449153.groovy:28)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-21 06:53:04 - [TEST_CASE][FAILED] - Test Cases/SMS/Sms Livechat/TC11193: Test Cases/SMS/Sms Livechat/TC11193 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC11193.run(TC11193:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555811490108.run(TempTestSuite1555811490108.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554280449153.run(Script1554280449153.groovy:28)
+	... 13 more
+
+
+2019-04-21 06:53:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Dashboard")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-21 06:53:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:53:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:53:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)")): Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)' is clicked on
+
+2019-04-21 06:53:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 06:53:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 06:53:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboChat  Live Chat/input_User Guide_generalSearch"), "imran"): Text 'imran' is set on object 'Object Repository/Page_KiboChat  Live Chat/input_User Guide_generalSearch'
+
+2019-04-21 06:53:07 - [MESSAGE][PASSED] - Text 'imran' is set on object 'Object Repository/Page_KiboChat  Live Chat/input_User Guide_generalSearch'
+
+2019-04-21 06:53:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-21 06:53:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-21 06:53:10 - [TEST_STEP][FAILED] - click(findTestObject("Page_KiboChat  Live Chat/span_Anisha (1)")): Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC11193.run(TC11193:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555811490108.run(TempTestSuite1555811490108.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554280449153.run(Script1554280449153.groovy:28)
+	... 13 more
+)
+
+2019-04-21 06:53:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-21 06:53:43 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC11193.run(TC11193:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555811490108.run(TempTestSuite1555811490108.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554280449153.run(Script1554280449153.groovy:28)
+	... 13 more
+)
+[[ATTACHMENT|/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/SMS Livechat/20190421_065130/1555811622874.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-21 06:53:04 - [TEST_CASE][FAILED] - Test Cases/SMS/Sms Livechat/TC11193: Test Cases/SMS/Sms Livechat/TC11193 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC11193.run(TC11193:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555811490108.run(TempTestSuite1555811490108.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554280449153.run(Script1554280449153.groovy:28)
+	... 13 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-21 06:51:38 - [TEST_SUITE][FAILED] - SMS Livechat: Test Cases/SMS/Sms Livechat/TC11193 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC11193.run(TC11193:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555811490108.run(TempTestSuite1555811490108.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554280449153.run(Script1554280449153.groovy:28)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-21 06:51:38 - [TEST_SUITE][FAILED] - SMS Livechat: Test Cases/SMS/Sms Livechat/TC11193 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC11193.run(TC11193:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555811490108.run(TempTestSuite1555811490108.groovy:35)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboChat  Live Chat/span_Anisha (1)' located by 'By.xpath: ' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1097)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:77)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1554280449153.run(Script1554280449153.groovy:28)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>
