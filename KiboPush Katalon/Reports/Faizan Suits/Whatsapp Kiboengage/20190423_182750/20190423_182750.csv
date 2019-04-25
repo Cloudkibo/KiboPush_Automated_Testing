@@ -1,0 +1,236 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Whatsapp Kiboengage,Chrome 73.0.3683.75,,2019-04-23 18:27:58,2019-04-23 18:34:44,6m - 46.082s,PASSED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-23 18:27:58,2019-04-23 18:28:57,59.159s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-23 18:27:58,2019-04-23 18:28:01,2.763s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-23 18:28:01,2019-04-23 18:28:01,0.126s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-23 18:28:01,2019-04-23 18:28:35,34.482s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-23 18:28:35,2019-04-23 18:28:39,3.901s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:28:39,2019-04-23 18:28:40,0.799s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-23 18:28:40,2019-04-23 18:28:40,0.128s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-23 18:28:40,2019-04-23 18:28:40,0.119s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-23 18:28:40,2019-04-23 18:28:40,0.060s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-23 18:28:40,2019-04-23 18:28:53,13.180s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-23 18:28:53,2019-04-23 18:28:54,0.171s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:28:54,2019-04-23 18:28:57,3.014s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:28:57,2019-04-23 18:28:57,0.100s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:28:57,2019-04-23 18:28:57,0.081s,PASSED
+,,,,,,
+Test Cases/Whatsapp/Whatsapp Platform,Chrome 73.0.3683.75,,2019-04-23 18:28:57,2019-04-23 18:28:59,2.266s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:28:57,2019-04-23 18:28:58,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:28:58,2019-04-23 18:28:58,0.064s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_WhatsApp""))",Chrome 73.0.3683.75,,2019-04-23 18:28:58,2019-04-23 18:28:58,0.075s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:28:58,2019-04-23 18:28:59,1.002s,PASSED
+,,,,,,
+Test Cases/Whatsapp/subscribers/TC11219,Chrome 73.0.3683.75,,2019-04-23 18:28:59,2019-04-23 18:29:02,2.525s,PASSED
+"callTestCase(findTestCase(""Whatsapp/subscribers/open subscribers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:28:59,2019-04-23 18:29:02,2.351s,PASSED
+"click(findTestObject(""Page_KiboChat  Subscribers/a_documentation (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:29:02,2019-04-23 18:29:02,0.096s,PASSED
+,,,,,,
+Test Cases/Whatsapp/subscribers/TC11220,Chrome 73.0.3683.75,,2019-04-23 18:29:02,2019-04-23 18:29:05,3.529s,PASSED
+"callTestCase(findTestCase(""Whatsapp/subscribers/open subscribers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:02,2019-04-23 18:29:04,2.326s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:29:04,2019-04-23 18:29:05,1.003s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-23 18:29:05,2019-04-23 18:29:05,0.008s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody""))",Chrome 73.0.3683.75,,2019-04-23 18:29:05,2019-04-23 18:29:05,0.042s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.75,,2019-04-23 18:29:05,2019-04-23 18:29:05,0.023s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-23 18:29:05,2019-04-23 18:29:05,0.032s,PASSED
+,,,,,,
+Test Cases/Whatsapp/subscribers/TC11221,Chrome 73.0.3683.75,,2019-04-23 18:29:05,2019-04-23 18:29:09,3.480s,PASSED
+"callTestCase(findTestCase(""Whatsapp/subscribers/TC11220""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:05,2019-04-23 18:29:09,3.419s,PASSED
+,,,,,,
+Test Cases/Whatsapp/subscribers/TC11222,Chrome 73.0.3683.75,,2019-04-23 18:29:09,2019-04-23 18:29:13,3.710s,PASSED
+"callTestCase(findTestCase(""Whatsapp/subscribers/TC11220""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:09,2019-04-23 18:29:13,3.608s,PASSED
+,,,,,,
+Test Cases/Whatsapp/subscribers/TC11223,Chrome 73.0.3683.75,,2019-04-23 18:29:13,2019-04-23 18:29:16,3.506s,PASSED
+"callTestCase(findTestCase(""Whatsapp/subscribers/TC11220""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:13,2019-04-23 18:29:16,3.453s,PASSED
+,,,,,,
+Test Cases/Whatsapp/Upload Contacts/TC11224,Chrome 73.0.3683.75,,2019-04-23 18:29:16,2019-04-23 18:29:20,3.514s,PASSED
+"callTestCase(findTestCase(""Whatsapp/Upload Contacts/open upload contacts""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:16,2019-04-23 18:29:19,2.353s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:29:19,2019-04-23 18:29:20,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/a_httpswwwtwiliocomconsolesmswhatsappsandbox""))",Chrome 73.0.3683.75,,2019-04-23 18:29:20,2019-04-23 18:29:20,0.104s,PASSED
+,,,,,,
+Test Cases/Whatsapp/Upload Contacts/TC11225,Chrome 73.0.3683.75,,2019-04-23 18:29:20,2019-04-23 18:29:23,3.413s,PASSED
+"callTestCase(findTestCase(""Whatsapp/Upload Contacts/open upload contacts""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:20,2019-04-23 18:29:22,2.348s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:29:22,2019-04-23 18:29:23,1.003s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/go to broadcasting,Chrome 73.0.3683.75,,2019-04-23 18:29:23,2019-04-23 18:29:25,2.199s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:29:23,2019-04-23 18:29:24,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:29:24,2019-04-23 18:29:24,0.130s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:29:24,2019-04-23 18:29:25,1.002s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11226,Chrome 73.0.3683.75,,2019-04-23 18:29:25,2019-04-23 18:29:38,12.587s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/open broadcasts""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:25,2019-04-23 18:29:38,12.386s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/a_documentation""))",Chrome 73.0.3683.75,,2019-04-23 18:29:38,2019-04-23 18:29:38,0.134s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11227,Chrome 73.0.3683.75,,2019-04-23 18:29:38,2019-04-23 18:29:50,12.542s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/open broadcasts""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:38,2019-04-23 18:29:50,12.380s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-23 18:29:50,2019-04-23 18:29:50,0.001s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody""))",Chrome 73.0.3683.75,,2019-04-23 18:29:50,2019-04-23 18:29:50,0.036s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.75,,2019-04-23 18:29:50,2019-04-23 18:29:50,0.020s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-23 18:29:50,2019-04-23 18:29:50,0.001s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11228,Chrome 73.0.3683.75,,2019-04-23 18:29:50,2019-04-23 18:30:03,12.386s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11227""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:29:51,2019-04-23 18:30:03,12.333s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11229,Chrome 73.0.3683.75,,2019-04-23 18:30:03,2019-04-23 18:30:15,12.358s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11227""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:30:03,2019-04-23 18:30:15,12.310s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11230,Chrome 73.0.3683.75,,2019-04-23 18:30:15,2019-04-23 18:30:28,12.365s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11227""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:30:15,2019-04-23 18:30:28,12.315s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11231,Chrome 73.0.3683.75,,2019-04-23 18:30:28,2019-04-23 18:30:40,12.511s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/open broadcasts""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:30:28,2019-04-23 18:30:40,12.230s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (2)""))",Chrome 73.0.3683.75,,2019-04-23 18:30:40,2019-04-23 18:30:40,0.125s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:30:40,2019-04-23 18:30:40,0.009s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Create Broadcast""))",Chrome 73.0.3683.75,,2019-04-23 18:30:40,2019-04-23 18:30:40,0.087s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11232,Chrome 73.0.3683.75,,2019-04-23 18:30:40,2019-04-23 18:30:53,12.827s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:30:40,2019-04-23 18:30:53,12.622s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (7)""))",Chrome 73.0.3683.75,,2019-04-23 18:30:53,2019-04-23 18:30:53,0.101s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast (2)""))",Chrome 73.0.3683.75,,2019-04-23 18:30:53,2019-04-23 18:30:53,0.052s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11233,Chrome 73.0.3683.75,,2019-04-23 18:30:53,2019-04-23 18:31:06,12.757s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:30:53,2019-04-23 18:31:06,12.498s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (8)""))",Chrome 73.0.3683.75,,2019-04-23 18:31:06,2019-04-23 18:31:06,0.121s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:31:06,2019-04-23 18:31:06,0.086s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11234,Chrome 73.0.3683.75,,2019-04-23 18:31:06,2019-04-23 18:31:35,28.975s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:31:06,2019-04-23 18:31:19,12.602s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:31:19,2019-04-23 18:31:22,3.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:31:22,2019-04-23 18:31:22,0.225s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:31:22,2019-04-23 18:31:25,3.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-23 18:31:25,2019-04-23 18:31:25,0.000s,PASSED
+"message = driver.findElement(By.xpath(""//*[@id=""postTextArea""]""))",Chrome 73.0.3683.75,,2019-04-23 18:31:25,2019-04-23 18:31:25,0.014s,PASSED
+message.clear(),Chrome 73.0.3683.75,,2019-04-23 18:31:25,2019-04-23 18:31:25,0.036s,PASSED
+"message.sendKeys("""")",Chrome 73.0.3683.75,,2019-04-23 18:31:25,2019-04-23 18:31:25,0.022s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-23 18:31:25,2019-04-23 18:31:35,10.002s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:31:35,2019-04-23 18:31:35,0.007s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11235,Chrome 73.0.3683.75,,2019-04-23 18:31:35,2019-04-23 18:31:53,18.078s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:31:35,2019-04-23 18:31:48,12.644s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:31:48,2019-04-23 18:31:51,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:31:51,2019-04-23 18:31:51,0.201s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:31:51,2019-04-23 18:31:51,0.007s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (9) (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:31:51,2019-04-23 18:31:51,0.108s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-23 18:31:51,2019-04-23 18:31:53,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:31:53,2019-04-23 18:31:53,0.065s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11236,Chrome 73.0.3683.75,,2019-04-23 18:31:53,2019-04-23 18:32:11,18.026s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:31:53,2019-04-23 18:32:06,12.544s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:32:06,2019-04-23 18:32:09,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:32:09,2019-04-23 18:32:09,0.196s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:32:09,2019-04-23 18:32:09,0.010s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (9) (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:32:09,2019-04-23 18:32:09,0.129s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-23 18:32:09,2019-04-23 18:32:11,2.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:32:11,2019-04-23 18:32:11,0.066s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11237,Chrome 73.0.3683.75,,2019-04-23 18:32:11,2019-04-23 18:32:28,17.024s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:32:11,2019-04-23 18:32:24,12.462s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:32:24,2019-04-23 18:32:27,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:32:27,2019-04-23 18:32:27,0.150s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:32:27,2019-04-23 18:32:27,0.006s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (4)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:32:27,2019-04-23 18:32:27,0.111s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Order Notifications""))",Chrome 73.0.3683.75,,2019-04-23 18:32:27,2019-04-23 18:32:27,0.057s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (10)""))",Chrome 73.0.3683.75,,2019-04-23 18:32:27,2019-04-23 18:32:27,0.088s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (4)""))",Chrome 73.0.3683.75,,2019-04-23 18:32:27,2019-04-23 18:32:28,1.091s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11238,Chrome 73.0.3683.75,,2019-04-23 18:32:28,2019-04-23 18:32:45,17.093s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:32:28,2019-04-23 18:32:41,12.515s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:32:41,2019-04-23 18:32:44,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:32:44,2019-04-23 18:32:44,0.115s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:32:44,2019-04-23 18:32:44,0.008s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (5)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:32:44,2019-04-23 18:32:44,0.094s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Verification Codes""))",Chrome 73.0.3683.75,,2019-04-23 18:32:44,2019-04-23 18:32:44,0.121s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (11)""))",Chrome 73.0.3683.75,,2019-04-23 18:32:44,2019-04-23 18:32:44,0.103s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (5)""))",Chrome 73.0.3683.75,,2019-04-23 18:32:44,2019-04-23 18:32:45,1.076s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11239,Chrome 73.0.3683.75,,2019-04-23 18:32:45,2019-04-23 18:33:01,16.159s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:32:45,2019-04-23 18:32:58,12.441s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:32:58,2019-04-23 18:33:01,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:01,0.146s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:01,0.006s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (4)""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:01,0.180s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Value_text (4)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:01,0.180s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (12)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:01,0.069s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Please choose a valid condition (2)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:01,0.056s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11240,Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:17,16.001s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:33:01,2019-04-23 18:33:14,12.449s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:33:14,2019-04-23 18:33:17,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:17,0.121s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:17,0.006s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (4)""), ""name"", true)",Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:17,0.119s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Value_text (5)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:17,0.141s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (13)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:17,0.062s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Please choose a valid criteria (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:17,0.049s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11241,Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:33,16.124s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:33:17,2019-04-23 18:33:30,12.521s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:33:30,2019-04-23 18:33:33,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:33:33,2019-04-23 18:33:33,0.099s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:33:33,2019-04-23 18:33:33,0.006s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (4) (1)""), ""name"", true)",Chrome 73.0.3683.75,,2019-04-23 18:33:33,2019-04-23 18:33:33,0.144s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (4) (1)""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-23 18:33:33,2019-04-23 18:33:33,0.174s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (14)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:33,2019-04-23 18:33:33,0.072s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Please choose a valid value (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:33,2019-04-23 18:33:33,0.056s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11242,Chrome 73.0.3683.75,,2019-04-23 18:33:34,2019-04-23 18:33:51,17.436s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:33:34,2019-04-23 18:33:46,12.536s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:33:46,2019-04-23 18:33:49,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1) (1) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:33:49,2019-04-23 18:33:49,0.165s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:33:49,2019-04-23 18:33:49,0.007s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (5)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-23 18:33:49,2019-04-23 18:33:50,0.244s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (5)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-23 18:33:50,2019-04-23 18:33:50,0.156s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Value_text (6)""), ""3739"")",Chrome 73.0.3683.75,,2019-04-23 18:33:50,2019-04-23 18:33:50,0.112s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (15)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:50,2019-04-23 18:33:50,0.087s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (6)""))",Chrome 73.0.3683.75,,2019-04-23 18:33:50,2019-04-23 18:33:51,1.078s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11243,Chrome 73.0.3683.75,,2019-04-23 18:33:51,2019-04-23 18:34:07,16.282s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:33:51,2019-04-23 18:34:03,12.470s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:34:03,2019-04-23 18:34:06,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1) (1) (1) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:34:06,2019-04-23 18:34:07,0.134s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:34:07,2019-04-23 18:34:07,0.006s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (5) (1)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:07,2019-04-23 18:34:07,0.186s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (5) (1)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:07,2019-04-23 18:34:07,0.227s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Value_text (6) (1)""), ""3739"")",Chrome 73.0.3683.75,,2019-04-23 18:34:07,2019-04-23 18:34:07,0.122s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_ Add Condition (3)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:07,2019-04-23 18:34:07,0.085s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11244,Chrome 73.0.3683.75,,2019-04-23 18:34:07,2019-04-23 18:34:24,16.655s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:34:07,2019-04-23 18:34:20,12.599s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:34:20,2019-04-23 18:34:23,3.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1) (1) (1) (1) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:34:23,2019-04-23 18:34:23,0.129s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:34:23,2019-04-23 18:34:23,0.005s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (5) (1) (1)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:23,2019-04-23 18:34:23,0.144s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (5) (1) (1)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:23,2019-04-23 18:34:23,0.162s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Value_text (6) (1) (1)""), ""3739"")",Chrome 73.0.3683.75,,2019-04-23 18:34:23,2019-04-23 18:34:23,0.093s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_ Add Condition (3) (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:23,2019-04-23 18:34:24,0.078s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (6) (1)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:24,2019-04-23 18:34:24,0.085s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (6) (1)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:24,2019-04-23 18:34:24,0.133s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Remove_text (3) (1)""), ""566"")",Chrome 73.0.3683.75,,2019-04-23 18:34:24,2019-04-23 18:34:24,0.113s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_Remove (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:24,2019-04-23 18:34:24,0.060s,PASSED
+,,,,,,
+Test Cases/Whatsapp/broadcast/TC11245,Chrome 73.0.3683.75,,2019-04-23 18:34:24,2019-04-23 18:34:41,16.755s,PASSED
+"callTestCase(findTestCase(""Whatsapp/broadcast/TC11231""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 18:34:24,2019-04-23 18:34:37,12.614s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 18:34:37,2019-04-23 18:34:40,3.002s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1) (1) (1) (1) (1) (1)""), ""title"")",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.240s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.006s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (5) (1) (1) (1)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.125s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (5) (1) (1) (1)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.135s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Value_text (6) (1) (1) (1)""), ""3739"")",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.111s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_ Add Condition (3) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.091s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (6) (1) (1)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.073s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (6) (1) (1)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:40,0.089s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Remove_text (3) (1) (1)""), ""566"")",Chrome 73.0.3683.75,,2019-04-23 18:34:40,2019-04-23 18:34:41,0.083s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_Remove (1) (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:41,2019-04-23 18:34:41,0.058s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_Reset (1)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:41,2019-04-23 18:34:41,0.054s,PASSED
+,,,,,,
+Test Cases/Whatsapp/Configuration in Settings/TC11271,Chrome 73.0.3683.75,,2019-04-23 18:34:41,2019-04-23 18:34:43,2.741s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-23 18:34:41,2019-04-23 18:34:41,0.112s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:34:41,2019-04-23 18:34:42,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-04-23 18:34:42,2019-04-23 18:34:42,0.196s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 18:34:42,2019-04-23 18:34:43,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/a_Configuration (2)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:43,2019-04-23 18:34:43,0.090s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/span_Configuration (2)""))",Chrome 73.0.3683.75,,2019-04-23 18:34:43,2019-04-23 18:34:43,0.076s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-23 18:34:43,2019-04-23 18:34:43,0.000s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""m_widget4_tab1_content""]/div/div[2]/div[2]/button""))",Chrome 73.0.3683.75,,2019-04-23 18:34:43,2019-04-23 18:34:43,0.038s,PASSED
+button.click(),Chrome 73.0.3683.75,,2019-04-23 18:34:43,2019-04-23 18:34:43,0.075s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  api_settings/h3_Connect with Twilio WhatsApp""))",Chrome 73.0.3683.75,,2019-04-23 18:34:43,2019-04-23 18:34:43,0.085s,PASSED
