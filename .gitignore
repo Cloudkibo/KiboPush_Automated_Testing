@@ -101,3 +101,15 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+
+# Dependency directories
+ of katlon
+KiboPush Katalon/Reports
+KiboPush
+KiboPush Katalon/.classpath
+KiboPush 
+KiboPush Katalon/.project
+KiboPush 
+KiboPush Katalon/KiboPush.prj
+
