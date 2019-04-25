@@ -12,6 +12,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.callTestCase(findTestCase('Sequence Messaging/TC0980'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
@@ -27,7 +28,17 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Sequence Messaging/
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Sequence Messaging/input_Sequence Name_form-contr (3)'), 
     'Sequence1')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Sequence Messaging/button_Create (2)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1)'))
 
 WebUI.delay(2)
 

@@ -29,5 +29,4 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Text_1'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/text_component'), 5)
 

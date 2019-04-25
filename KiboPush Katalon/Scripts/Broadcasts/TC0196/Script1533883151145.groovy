@@ -23,11 +23,8 @@ WebUI.callTestCase(findTestCase('Broadcasts/TC0131'), [:], FailureHandling.STOP_
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Text'))
 
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/text_component'), 5)
-
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Reset (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Yes'))
 
-WebUI.verifyElementNotPresent(findTestObject('Page_KiboPush  Create Broadcast/text_component'), 5)
 

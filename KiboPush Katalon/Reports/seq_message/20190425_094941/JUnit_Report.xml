@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="seq_message" time="93" tests="3" failures="1" errors="0">
+   <testsuite name="seq_message" tests="3" failures="1" errors="0" time="93" timestamp="2019-04-25 10:24:40" hostname="cloudkibo - 10.0.2.15" id="Test Suites/seq_message">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190425_094941"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190425_094941\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190425_094941\\1556169972090.png"/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="a2f4739ac50f22173c9dbc6298209b36"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:24:41 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-25 10:24:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 10:24:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 10:24:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 10:24:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 10:24:49 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 10:25:07 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 10:25:07 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 10:25:08 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 10:25:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 10:25:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 10:25:09 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 10:25:10 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 10:25:10 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 10:25:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 10:25:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 10:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 10:25:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 10:25:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 10:25:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:25:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:25:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 10:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 10:25:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:25:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:25:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 10:25:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 10:25:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:25:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sequence Messaging/open_automation" classname="Test Cases/Sequence Messaging/open_automation" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:25:39 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/open_automation: Test Cases/Sequence Messaging/open_automation
+
+2019-04-25 10:25:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 10:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 10:25:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:25:41 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sequence Messaging/TC1009" classname="Test Cases/Sequence Messaging/TC1009" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:25:41 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC1009: Test Cases/Sequence Messaging/TC1009
+
+2019-04-25 10:25:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/TC1002' successfully
+
+2019-04-25 10:25:41 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC1002: Test Cases/Sequence Messaging/TC1002
+
+2019-04-25 10:25:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Test Edit Sequence Button' successfully
+
+2019-04-25 10:25:41 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Test Edit Sequence Button: Test Cases/Sequence Messaging/Test Edit Sequence Button
+
+2019-04-25 10:25:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-25 10:25:42 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC0980: Test Cases/Sequence Messaging/TC0980
+
+2019-04-25 10:25:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-25 10:25:42 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Go_to_Seq_Messaging: Test Cases/Sequence Messaging/Go_to_Seq_Messaging
+
+2019-04-25 10:25:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-25 10:25:42 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Login: Test Cases/Sequence Messaging/Login
+
+2019-04-25 10:25:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-25 10:25:42 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging: Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging
+
+2019-04-25 10:25:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 10:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 10:25:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:25:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 10:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 10:25:45 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:25:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-25 10:25:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-25 10:25:45 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:25:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:25:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-25 10:25:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-25 10:25:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-25 10:25:46 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-25 10:25:50 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 10:25:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-25 10:25:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit (2)' is clicked on
+
+2019-04-25 10:25:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit (2)' is clicked on
+
+2019-04-25 10:25:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:25:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:25:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Test Edit Sequence Button' successfully
+
+2019-04-25 10:25:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:25:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:25:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_-- Edit (6)' is clicked on
+
+2019-04-25 10:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_-- Edit (6)' is clicked on
+
+2019-04-25 10:25:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:25:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:25:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/TC1002' successfully
+
+2019-04-25 10:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_ Add Condition (1)' is clicked on
+
+2019-04-25 10:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_ Add Condition (1)' is clicked on
+
+2019-04-25 10:25:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Save (10)' is clicked on
+
+2019-04-25 10:25:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Save (10)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sequence Messaging/TC1011" classname="Test Cases/Sequence Messaging/TC1011" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill&quot;>...&lt;/button> is not clickable at point (1132, 134). Other element would receive the click: &lt;div style=&quot;opacity: 1; overflow-y: auto; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; transition: opacity 0.3s ease 0s; cursor: pointer;&quot;>...&lt;/div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a2f4739ac50f22173c9dbc6298209b36)"/>
+         <system-out><![CDATA[2019-04-25 10:25:57 - [TEST_CASE][FAILED] - Test Cases/Sequence Messaging/TC1011: Test Cases/Sequence Messaging/TC1011 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill">...</button> is not clickable at point (1132, 134). Other element would receive the click: <div style="opacity: 1; overflow-y: auto; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; transition: opacity 0.3s ease 0s; cursor: pointer;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a2f4739ac50f22173c9dbc6298209b36)
+
+2019-04-25 10:25:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-25 10:25:58 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC0980: Test Cases/Sequence Messaging/TC0980
+
+2019-04-25 10:25:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-25 10:25:58 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Go_to_Seq_Messaging: Test Cases/Sequence Messaging/Go_to_Seq_Messaging
+
+2019-04-25 10:25:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-25 10:25:58 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Login: Test Cases/Sequence Messaging/Login
+
+2019-04-25 10:25:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-25 10:25:58 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging: Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging
+
+2019-04-25 10:25:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 10:25:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 10:25:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:25:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:25:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 10:25:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 10:25:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:26:00 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:26:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-25 10:26:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-25 10:26:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:26:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:26:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-25 10:26:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-25 10:26:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-25 10:26:01 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-25 10:26:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 10:26:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-25 10:26:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit (1) (1)' is clicked on
+
+2019-04-25 10:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit (1) (1)' is clicked on
+
+2019-04-25 10:26:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:26:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:26:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/Delete Message Icon (1)' is clicked on
+
+2019-04-25 10:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/Delete Message Icon (1)' is clicked on
+
+2019-04-25 10:26:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Delete (3) (1)' is clicked on
+
+2019-04-25 10:26:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Delete (3) (1)' is clicked on
+
+2019-04-25 10:26:07 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-25 10:26:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 10:26:11 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:26:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:26:11 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill">...</button> is not clickable at point (1132, 134). Other element would receive the click: <div style="opacity: 1; overflow-y: auto; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; transition: opacity 0.3s ease 0s; cursor: pointer;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a2f4739ac50f22173c9dbc6298209b36)
+
+2019-04-25 10:26:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill">...</button> is not clickable at point (1132, 134). Other element would receive the click: <div style="opacity: 1; overflow-y: auto; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; transition: opacity 0.3s ease 0s; cursor: pointer;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a2f4739ac50f22173c9dbc6298209b36)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190425_094941\\1556169972090.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:25:57 - [TEST_CASE][FAILED] - Test Cases/Sequence Messaging/TC1011: Test Cases/Sequence Messaging/TC1011 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill">...</button> is not clickable at point (1132, 134). Other element would receive the click: <div style="opacity: 1; overflow-y: auto; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; transition: opacity 0.3s ease 0s; cursor: pointer;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a2f4739ac50f22173c9dbc6298209b36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 10:24:40 - [TEST_SUITE][FAILED] - seq_message: Test Cases/Sequence Messaging/TC1011 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill">...</button> is not clickable at point (1132, 134). Other element would receive the click: <div style="opacity: 1; overflow-y: auto; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; transition: opacity 0.3s ease 0s; cursor: pointer;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a2f4739ac50f22173c9dbc6298209b36)]]></system-out>
+      <system-err><![CDATA[2019-04-25 10:24:40 - [TEST_SUITE][FAILED] - seq_message: Test Cases/Sequence Messaging/TC1011 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill">...</button> is not clickable at point (1132, 134). Other element would receive the click: <div style="opacity: 1; overflow-y: auto; position: absolute; top: 0px; left: 0px; height: 100%; width: 100%; transition: opacity 0.3s ease 0s; cursor: pointer;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a2f4739ac50f22173c9dbc6298209b36)]]></system-err>
+   </testsuite>
+</testsuites>

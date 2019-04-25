@@ -18,12 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Broadcasts/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/First_Card_List_Title (1) (1)'), 'Title1')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/First_Card_List_Title'), 'Title1')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/Second_Card_List_Title (1) (1)'), 'Title2')
+WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/Second_Card_List_Title'), 'Title2')
 
 WebUI.scrollToPosition(0, 0)
 

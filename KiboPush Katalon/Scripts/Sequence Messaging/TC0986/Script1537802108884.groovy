@@ -24,6 +24,9 @@ WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Delete (3)'
 
 WebUI.delay(4)
 
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1)'))
 
 WebUI.delay(2)

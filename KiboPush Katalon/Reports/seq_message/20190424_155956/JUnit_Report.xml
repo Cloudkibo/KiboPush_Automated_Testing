@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="seq_message" time="154" tests="3" failures="1" errors="0">
+   <testsuite name="seq_message" tests="3" failures="1" errors="0" time="154" timestamp="2019-04-24 16:00:01" hostname="cloudkibo - 10.0.2.15" id="Test Suites/seq_message">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190424_155956"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190424_155956\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190424_155956\\1556103752873.png"/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="d09dbdd5bc64981e8a1e0225f9af0141"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-24 16:00:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-24 16:00:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-24 16:00:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-24 16:00:09 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-24 16:00:11 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-24 16:00:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-24 16:00:25 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-24 16:00:25 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-24 16:00:26 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-24 16:00:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-24 16:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-24 16:00:27 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-24 16:00:28 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-24 16:00:28 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-24 16:00:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-24 16:00:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-24 16:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-24 16:00:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-24 16:00:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-24 16:00:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-24 16:00:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-24 16:00:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-24 16:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-24 16:00:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:00:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:00:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-24 16:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-24 16:00:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:00:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sequence Messaging/open_automation" classname="Test Cases/Sequence Messaging/open_automation" status="PASSED">
+         <system-out><![CDATA[2019-04-24 16:00:59 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/open_automation: Test Cases/Sequence Messaging/open_automation
+
+2019-04-24 16:01:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-24 16:01:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-24 16:01:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-24 16:01:01 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sequence Messaging/TC0985" classname="Test Cases/Sequence Messaging/TC0985" status="PASSED">
+         <system-out><![CDATA[2019-04-24 16:01:01 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC0985: Test Cases/Sequence Messaging/TC0985
+
+2019-04-24 16:01:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/TC0984' successfully
+
+2019-04-24 16:01:02 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC0984: Test Cases/Sequence Messaging/TC0984
+
+2019-04-24 16:01:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-24 16:01:02 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC0980: Test Cases/Sequence Messaging/TC0980
+
+2019-04-24 16:01:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-24 16:01:03 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Go_to_Seq_Messaging: Test Cases/Sequence Messaging/Go_to_Seq_Messaging
+
+2019-04-24 16:01:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-24 16:01:03 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Login: Test Cases/Sequence Messaging/Login
+
+2019-04-24 16:01:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-24 16:01:03 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging: Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging
+
+2019-04-24 16:01:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-24 16:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-24 16:01:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-24 16:01:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:01:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:05 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-24 16:01:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:01:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-24 16:01:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-24 16:01:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-24 16:01:07 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-24 16:01:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-24 16:01:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-24 16:01:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/Delete Sequence Icon (1)' is clicked on
+
+2019-04-24 16:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/Delete Sequence Icon (1)' is clicked on
+
+2019-04-24 16:01:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Delete (2)' is clicked on
+
+2019-04-24 16:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Delete (2)' is clicked on
+
+2019-04-24 16:01:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Create New Sequence' is clicked on
+
+2019-04-24 16:01:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Create New Sequence' is clicked on
+
+2019-04-24 16:01:16 - [TEST_STEP][PASSED] - setText: Text 'Sequence1' is set on object 'Object Repository/Page_KiboPush  Sequence Messaging/input_Sequence Name_form-contr (3)'
+
+2019-04-24 16:01:17 - [MESSAGE][PASSED] - Text 'Sequence1' is set on object 'Object Repository/Page_KiboPush  Sequence Messaging/input_Sequence Name_form-contr (3)'
+
+2019-04-24 16:01:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Create (2)' is clicked on
+
+2019-04-24 16:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Create (2)' is clicked on
+
+2019-04-24 16:01:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/a_Back (5)' is clicked on
+
+2019-04-24 16:01:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/a_Back (5)' is clicked on
+
+2019-04-24 16:01:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit' is clicked on
+
+2019-04-24 16:01:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit' is clicked on
+
+2019-04-24 16:01:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/TC0984' successfully
+
+2019-04-24 16:01:29 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:29 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_New Message (3)' is clicked on
+
+2019-04-24 16:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_New Message (3)' is clicked on
+
+2019-04-24 16:01:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:32 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Sequence Messaging/TC0986" classname="Test Cases/Sequence Messaging/TC0986" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'Text1' of object 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' located by 'By.xpath: //*[@id=&quot;List1&quot;]/div/div/div[2]/textarea' not found)"/>
+         <system-out><![CDATA[2019-04-24 16:01:32 - [TEST_CASE][FAILED] - Test Cases/Sequence Messaging/TC0986: Test Cases/Sequence Messaging/TC0986 FAILED because (of) Unable to set text 'Text1' of object 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' located by 'By.xpath: //*[@id="List1"]/div/div/div[2]/textarea' not found)
+
+2019-04-24 16:01:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-24 16:01:33 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/TC0980: Test Cases/Sequence Messaging/TC0980
+
+2019-04-24 16:01:33 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-24 16:01:34 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Go_to_Seq_Messaging: Test Cases/Sequence Messaging/Go_to_Seq_Messaging
+
+2019-04-24 16:01:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-24 16:01:34 - [TEST_CASE][PASSED] - Test Cases/Sequence Messaging/Login: Test Cases/Sequence Messaging/Login
+
+2019-04-24 16:01:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-24 16:01:34 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging: Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging
+
+2019-04-24 16:01:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-24 16:01:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-24 16:01:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-24 16:01:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:35 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:35 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/h3_Sequence Messaging' is clicked on
+
+2019-04-24 16:01:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-24 16:01:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:01:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/sequenceMessaging' successfully
+
+2019-04-24 16:01:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Login' successfully
+
+2019-04-24 16:01:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/Go_to_Seq_Messaging' successfully
+
+2019-04-24 16:01:37 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-24 16:01:41 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-24 16:01:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Sequence Messaging/TC0980' successfully
+
+2019-04-24 16:01:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit (1)' is clicked on
+
+2019-04-24 16:01:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_Edit (1)' is clicked on
+
+2019-04-24 16:01:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/Delete Message Icon' is clicked on
+
+2019-04-24 16:01:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/Delete Message Icon' is clicked on
+
+2019-04-24 16:01:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Delete (3)' is clicked on
+
+2019-04-24 16:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Delete (3)' is clicked on
+
+2019-04-24 16:01:44 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-24 16:01:48 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-24 16:01:48 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:48 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-24 16:01:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-24 16:01:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-24 16:01:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/button_Add Message (1)' is clicked on
+
+2019-04-24 16:01:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_New Message (4)' is clicked on
+
+2019-04-24 16:01:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Sequence Messaging/span_New Message (4)' is clicked on
+
+2019-04-24 16:01:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-24 16:01:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-24 16:01:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Edit Message/i_New Message_convoTitle' is clicked on
+
+2019-04-24 16:01:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Edit Message/i_New Message_convoTitle' is clicked on
+
+2019-04-24 16:01:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-24 16:01:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-24 16:01:57 - [TEST_STEP][PASSED] - setText: Text 'Message1' is set on object 'Object Repository/Page_KiboPush  Edit Message/input_Rename_form-control'
+
+2019-04-24 16:01:57 - [MESSAGE][PASSED] - Text 'Message1' is set on object 'Object Repository/Page_KiboPush  Edit Message/input_Rename_form-control'
+
+2019-04-24 16:01:57 - [TEST_STEP][PASSED] - scrollToElement: Scroll to object 'Object Repository/Page_KiboPush  Edit Message/div_View Facebook guidelines r' successfully
+
+2019-04-24 16:01:57 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_KiboPush  Edit Message/div_View Facebook guidelines r' successfully
+
+2019-04-24 16:01:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Edit Message/button_Save' is clicked on
+
+2019-04-24 16:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Edit Message/button_Save' is clicked on
+
+2019-04-24 16:01:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-24 16:02:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-24 16:02:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Edit Message/div_Text' is clicked on
+
+2019-04-24 16:02:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Edit Message/div_Text' is clicked on
+
+2019-04-24 16:02:01 - [TEST_STEP][FAILED] - setText: Unable to set text 'Text1' of object 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' located by 'By.xpath: //*[@id="List1"]/div/div/div[2]/textarea' not found)
+
+2019-04-24 16:02:33 - [MESSAGE][FAILED] - Unable to set text 'Text1' of object 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' located by 'By.xpath: //*[@id="List1"]/div/div/div[2]/textarea' not found)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\seq_message\\20190424_155956\\1556103752873.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-24 16:01:32 - [TEST_CASE][FAILED] - Test Cases/Sequence Messaging/TC0986: Test Cases/Sequence Messaging/TC0986 FAILED because (of) Unable to set text 'Text1' of object 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' located by 'By.xpath: //*[@id="List1"]/div/div/div[2]/textarea' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-24 16:00:01 - [TEST_SUITE][FAILED] - seq_message: Test Cases/Sequence Messaging/TC0986 FAILED because (of) Unable to set text 'Text1' of object 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' located by 'By.xpath: //*[@id="List1"]/div/div/div[2]/textarea' not found)]]></system-out>
+      <system-err><![CDATA[2019-04-24 16:00:01 - [TEST_SUITE][FAILED] - seq_message: Test Cases/Sequence Messaging/TC0986 FAILED because (of) Unable to set text 'Text1' of object 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_KiboPush  Edit Message/Set Text Component' located by 'By.xpath: //*[@id="List1"]/div/div/div[2]/textarea' not found)]]></system-err>
+   </testsuite>
+</testsuites>

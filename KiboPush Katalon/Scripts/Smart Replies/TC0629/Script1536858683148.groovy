@@ -16,21 +16,21 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Smart Replies/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Smart Replies'), [:], FailureHandling.STOP_ON_FAILURE)
+
+
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Automation (3) (2) (2)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Smart Replies (1) (2) (2)'))
-
-WebUI.delay(3)
-
-WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Filter by Pages...Arvee (1)'), 'all', true)
-
-WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
+
+List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="m_form_status"]/option'))
+
+println(rows_table1.size())
+
+rows_table1[2].click()
+WebUI.delay(3)
 
 WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 
@@ -38,6 +38,4 @@ List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
 int rows_count = rows_table.size()
 
-WebUI.verifyGreaterThanOrEqual(rows_count, 1)
-
-WebUI.closeBrowser()
+WebUI.verifyEqual(rows_count, 1)

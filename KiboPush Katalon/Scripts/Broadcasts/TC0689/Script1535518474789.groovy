@@ -25,5 +25,7 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next (12) (1) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_A list must have atleast 2 (1)'))
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('A LIST MUST HAVE AT LEAST 2 COMPLETE ELEMENTS', false)
 

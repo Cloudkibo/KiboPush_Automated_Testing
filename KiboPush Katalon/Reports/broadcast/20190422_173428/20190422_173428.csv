@@ -1,0 +1,745 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+broadcast,Chrome 73.0.3683.103,,2019-04-22 17:34:34,2019-04-22 18:01:57,27m - 22.733s,FAILED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage,Chrome 73.0.3683.103,,2019-04-22 17:34:35,2019-04-22 17:35:31,56.202s,PASSED
+openBrowser,Chrome 73.0.3683.103,,2019-04-22 17:34:36,2019-04-22 17:34:43,6.550s,PASSED
+maximizeWindow,Chrome 73.0.3683.103,,2019-04-22 17:34:43,2019-04-22 17:34:44,1.527s,PASSED
+navigateToUrl,Chrome 73.0.3683.103,,2019-04-22 17:34:44,2019-04-22 17:34:57,12.527s,PASSED
+navigateToUrl,Chrome 73.0.3683.103,,2019-04-22 17:34:57,2019-04-22 17:34:58,0.827s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:34:58,2019-04-22 17:34:59,1.409s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:34:59,2019-04-22 17:35:00,0.570s,PASSED
+setEncryptedText,Chrome 73.0.3683.103,,2019-04-22 17:35:00,2019-04-22 17:35:00,0.513s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:35:00,2019-04-22 17:35:00,0.207s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:35:00,2019-04-22 17:35:23,22.533s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:35:23,2019-04-22 17:35:26,3.093s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:35:26,2019-04-22 17:35:27,0.608s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:35:27,2019-04-22 17:35:29,2.006s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:35:29,2019-04-22 17:35:29,0.405s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:35:29,2019-04-22 17:35:31,2.024s,PASSED
+,,,,,,
+Test Cases/Broadcasts/open_broadcast,Chrome 73.0.3683.103,,2019-04-22 17:35:31,2019-04-22 17:35:34,3.309s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:35:32,2019-04-22 17:35:32,0.424s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:35:32,2019-04-22 17:35:34,2.044s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0106,Chrome 73.0.3683.103,Test documentation link,2019-04-22 17:35:35,2019-04-22 17:35:41,6.724s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:35:35,2019-04-22 17:35:41,5.312s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:35:41,2019-04-22 17:35:41,0.649s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0107,Chrome 73.0.3683.103,Test video tutorial,2019-04-22 17:35:41,2019-04-22 17:35:57,15.047s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:35:42,2019-04-22 17:35:55,13.277s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:35:55,2019-04-22 17:35:57,1.155s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0108,Chrome 73.0.3683.103,Test view broadcast,2019-04-22 17:35:57,2019-04-22 17:36:04,6.791s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:35:58,2019-04-22 17:36:02,4.523s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:36:02,2019-04-22 17:36:03,1.007s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:36:03,2019-04-22 17:36:03,0.031s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//table/tbody""))",Chrome 73.0.3683.103,,2019-04-22 17:36:03,2019-04-22 17:36:03,0.100s,PASSED
+"Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 73.0.3683.103,,2019-04-22 17:36:03,2019-04-22 17:36:03,0.047s,PASSED
+Statement - rows_count = rows_table.size(),Chrome 73.0.3683.103,,2019-04-22 17:36:03,2019-04-22 17:36:03,0.015s,PASSED
+verifyGreaterThanOrEqual,Chrome 73.0.3683.103,,2019-04-22 17:36:03,2019-04-22 17:36:04,0.054s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0109,Chrome 73.0.3683.103,Test search broadcast,2019-04-22 17:36:04,2019-04-22 17:36:10,5.987s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:04,2019-04-22 17:36:08,3.445s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:36:08,2019-04-22 17:36:09,1.036s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:36:09,2019-04-22 17:36:09,0.605s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:09,2019-04-22 17:36:10,0.248s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0110,Chrome 73.0.3683.103,Test filter by type image,2019-04-22 17:36:10,2019-04-22 17:36:15,5.592s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:10,2019-04-22 17:36:13,3.241s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:13,2019-04-22 17:36:14,0.804s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:36:14,2019-04-22 17:36:15,1.028s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:15,2019-04-22 17:36:15,0.253s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0111,Chrome 73.0.3683.103,Test filter by type text,2019-04-22 17:36:16,2019-04-22 17:36:20,4.688s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:16,2019-04-22 17:36:19,3.420s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:19,2019-04-22 17:36:20,0.736s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:20,2019-04-22 17:36:20,0.247s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0112,Chrome 73.0.3683.103,Test filter by type card,2019-04-22 17:36:20,2019-04-22 17:36:26,6.071s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:21,2019-04-22 17:36:24,3.683s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:24,2019-04-22 17:36:25,0.718s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:36:25,2019-04-22 17:36:26,1.018s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:26,2019-04-22 17:36:26,0.216s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0113,Chrome 73.0.3683.103,Test filter by type gallery,2019-04-22 17:36:26,2019-04-22 17:36:32,5.913s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:27,2019-04-22 17:36:30,3.463s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:30,2019-04-22 17:36:32,1.236s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:32,2019-04-22 17:36:32,0.783s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0114,Chrome 73.0.3683.103,Test filter by type audio,2019-04-22 17:36:32,2019-04-22 17:36:37,4.408s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:33,2019-04-22 17:36:36,3.106s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:36,2019-04-22 17:36:37,0.642s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:37,2019-04-22 17:36:37,0.196s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0115,Chrome 73.0.3683.103,Test filter by type Video,2019-04-22 17:36:37,2019-04-22 17:36:42,5.694s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:37,2019-04-22 17:36:41,3.437s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:41,2019-04-22 17:36:41,0.651s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:41,2019-04-22 17:36:42,1.203s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0116,Chrome 73.0.3683.103,Test filter by type file,2019-04-22 17:36:42,2019-04-22 17:36:48,5.578s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:43,2019-04-22 17:36:46,3.412s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:46,2019-04-22 17:36:47,0.552s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:47,2019-04-22 17:36:48,1.217s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0117,Chrome 73.0.3683.103,Test filter by type list,2019-04-22 17:36:48,2019-04-22 17:36:54,5.891s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:48,2019-04-22 17:36:52,3.157s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:52,2019-04-22 17:36:52,0.781s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:52,2019-04-22 17:36:54,1.604s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0119,Chrome 73.0.3683.103,Test filter by type miscellaneous,2019-04-22 17:36:54,2019-04-22 17:37:00,5.903s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:36:54,2019-04-22 17:36:58,3.093s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:36:58,2019-04-22 17:36:58,0.989s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:36:58,2019-04-22 17:37:00,1.419s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0120,Chrome 73.0.3683.103,Test filter by type all,2019-04-22 17:37:00,2019-04-22 17:37:04,4.097s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:37:00,2019-04-22 17:37:03,3.049s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:37:03,2019-04-22 17:37:04,0.887s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0121,Chrome 73.0.3683.103,Test stacked filter and search,2019-04-22 17:37:04,2019-04-22 17:37:10,5.693s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:37:05,2019-04-22 17:37:08,3.375s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:37:08,2019-04-22 17:37:09,1.017s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:09,2019-04-22 17:37:10,0.714s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0122,Chrome 73.0.3683.103,Test filter by n days,2019-04-22 17:37:10,2019-04-22 17:37:20,9.772s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:37:11,2019-04-22 17:37:15,3.827s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:15,2019-04-22 17:37:17,2.022s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:17,2019-04-22 17:37:17,0.025s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//table/tbody""))",Chrome 73.0.3683.103,,2019-04-22 17:37:17,2019-04-22 17:37:17,0.068s,PASSED
+"Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 73.0.3683.103,,2019-04-22 17:37:17,2019-04-22 17:37:17,0.080s,PASSED
+Statement - rows_count_before = rows_table.size(),Chrome 73.0.3683.103,,2019-04-22 17:37:17,2019-04-22 17:37:17,0.017s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:37:17,2019-04-22 17:37:17,0.460s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:17,2019-04-22 17:37:19,2.002s,PASSED
+"Statement - Table = driver.findElement(org.openqa.selenium.By.xpath(""//table/tbody""))",Chrome 73.0.3683.103,,2019-04-22 17:37:19,2019-04-22 17:37:19,0.061s,PASSED
+"Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName(""tr""))",Chrome 73.0.3683.103,,2019-04-22 17:37:19,2019-04-22 17:37:19,0.057s,PASSED
+Statement - rows_count_after = rows_table.size(),Chrome 73.0.3683.103,,2019-04-22 17:37:19,2019-04-22 17:37:19,0.000s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:37:19,2019-04-22 17:37:20,0.093s,PASSED
+"Statement - lastDateStr = Table.findElement(org.openqa.selenium.By.xpath(""./tr["" + rows_count_after + ""]/td[3]"")).getText()",Chrome 73.0.3683.103,,2019-04-22 17:37:20,2019-04-22 17:37:20,0.187s,PASSED
+"Statement - dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.103,,2019-04-22 17:37:20,2019-04-22 17:37:20,0.035s,PASSED
+Statement - lastDate = dateFormat.parse(lastDateStr),Chrome 73.0.3683.103,,2019-04-22 17:37:20,2019-04-22 17:37:20,0.008s,PASSED
+Statement - currentDate = new java.util.Date(),Chrome 73.0.3683.103,,2019-04-22 17:37:20,2019-04-22 17:37:20,0.020s,PASSED
+Statement - ltime = currentDate.getTime() - 7 * 24 * 60 * 60 * 1000,Chrome 73.0.3683.103,,2019-04-22 17:37:20,2019-04-22 17:37:20,0.007s,PASSED
+Statement - currentDate = new java.util.Date(ltime),Chrome 73.0.3683.103,,2019-04-22 17:37:20,2019-04-22 17:37:20,0.000s,PASSED
+"Statement - If (currentDate.compareTo(lastDate).toString() == ""-1"")",Chrome 73.0.3683.103,,2019-04-22 17:37:20,2019-04-22 17:37:20,0.140s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0123,Chrome 73.0.3683.103,Test pagination (next page),2019-04-22 17:37:20,2019-04-22 17:37:33,13.011s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:37:21,2019-04-22 17:37:25,4.025s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:25,2019-04-22 17:37:27,2.016s,PASSED
+Statement - date_page1 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:27,2019-04-22 17:37:27,0.033s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:27,2019-04-22 17:37:27,0.000s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:27,2019-04-22 17:37:27,0.318s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:27,2019-04-22 17:37:28,0.302s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:28,2019-04-22 17:37:30,2.041s,PASSED
+Statement - date_page2 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:30,2019-04-22 17:37:30,0.033s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:30,2019-04-22 17:37:30,0.000s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:30,2019-04-22 17:37:30,0.359s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:30,2019-04-22 17:37:30,0.342s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:30,2019-04-22 17:37:32,2.020s,PASSED
+Statement - date_page3 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:32,2019-04-22 17:37:32,0.025s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:32,2019-04-22 17:37:32,0.000s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:32,2019-04-22 17:37:33,0.504s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.046s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.056s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.002s,PASSED
+"Statement - dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.002s,PASSED
+Statement - date1 = dateFormat.parse(date_page1),Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.001s,PASSED
+Statement - date2 = dateFormat.parse(date_page2),Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.001s,PASSED
+Statement - date3 = dateFormat.parse(date_page3),Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.001s,PASSED
+Statement - println(date1),Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.006s,PASSED
+Statement - println(date2),Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.000s,PASSED
+Statement - println(date3),Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.004s,PASSED
+Statement - If (!(date1.after(date2) && date2.after(date3))),Chrome 73.0.3683.103,,2019-04-22 17:37:33,2019-04-22 17:37:33,0.001s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0124,Chrome 73.0.3683.103,Test pagination (previous page),2019-04-22 17:37:33,2019-04-22 17:37:48,15.324s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:37:35,2019-04-22 17:37:39,4.195s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:39,2019-04-22 17:37:41,2.021s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:41,2019-04-22 17:37:41,0.322s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:41,2019-04-22 17:37:43,2.075s,PASSED
+Statement - date_page4 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:43,2019-04-22 17:37:43,0.026s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:43,2019-04-22 17:37:43,0.032s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:43,2019-04-22 17:37:44,0.303s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:44,2019-04-22 17:37:44,0.376s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:44,2019-04-22 17:37:46,2.032s,PASSED
+Statement - date_page3 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:46,2019-04-22 17:37:46,0.001s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:46,2019-04-22 17:37:46,0.000s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:46,2019-04-22 17:37:46,0.375s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:46,2019-04-22 17:37:47,0.573s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:47,2019-04-22 17:37:48,1.116s,PASSED
+Statement - date_page2 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.000s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.000s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.192s,PASSED
+Statement - Catch (Exception e),Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.029s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.000s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.000s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.001s,PASSED
+"Statement - dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.000s,PASSED
+Statement - date4 = dateFormat.parse(date_page4),Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.001s,PASSED
+Statement - date3 = dateFormat.parse(date_page3),Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.001s,PASSED
+Statement - date2 = dateFormat.parse(date_page2),Chrome 73.0.3683.103,,2019-04-22 17:37:48,2019-04-22 17:37:48,0.001s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0125,Chrome 73.0.3683.103,Test pagination (Jump to page n),2019-04-22 17:37:49,2019-04-22 17:38:07,18.585s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:37:51,2019-04-22 17:37:55,3.909s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:55,2019-04-22 17:37:56,1.027s,PASSED
+Statement - date_page1 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:56,2019-04-22 17:37:56,0.054s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:56,2019-04-22 17:37:56,0.000s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:56,2019-04-22 17:37:56,0.445s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:56,2019-04-22 17:37:57,0.553s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:57,2019-04-22 17:37:58,1.003s,PASSED
+Statement - date_page2 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:37:58,2019-04-22 17:37:58,0.006s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:37:58,2019-04-22 17:37:58,0.010s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:37:58,2019-04-22 17:37:58,0.433s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:37:58,2019-04-22 17:37:58,0.378s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:37:58,2019-04-22 17:38:00,2.032s,PASSED
+Statement - date_page4 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:38:00,2019-04-22 17:38:00,0.002s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:38:00,2019-04-22 17:38:00,0.002s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:38:00,2019-04-22 17:38:01,0.447s,PASSED
+"Statement - println(""Testing next pages"")",Chrome 73.0.3683.103,,2019-04-22 17:38:01,2019-04-22 17:38:01,0.017s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:38:01,2019-04-22 17:38:01,0.001s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:38:01,2019-04-22 17:38:01,0.001s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:38:01,2019-04-22 17:38:01,0.001s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:01,2019-04-22 17:38:02,0.797s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:38:02,2019-04-22 17:38:04,2.058s,PASSED
+Statement - date_page3 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:38:04,2019-04-22 17:38:04,0.001s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:38:04,2019-04-22 17:38:04,0.000s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:38:04,2019-04-22 17:38:04,0.481s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:04,2019-04-22 17:38:05,0.345s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:38:05,2019-04-22 17:38:07,2.018s,PASSED
+Statement - date_page1 = getFirstRowDate(),Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.035s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.037s,PASSED
+Statement - Try,Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.358s,PASSED
+"Statement - println(""Testing previous pages"")",Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.025s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.001s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.001s,PASSED
+verifyNotMatch,Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.000s,PASSED
+"Statement - dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH)",Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.001s,PASSED
+Statement - date4 = dateFormat.parse(date_page4),Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.001s,PASSED
+Statement - date3 = dateFormat.parse(date_page3),Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.002s,PASSED
+Statement - date1 = dateFormat.parse(date_page1),Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.000s,PASSED
+Statement - If (!(date1.after(date3) && date3.after(date4))),Chrome 73.0.3683.103,,2019-04-22 17:38:07,2019-04-22 17:38:07,0.001s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0126,Chrome 73.0.3683.103,Test create broadcast button,2019-04-22 17:38:07,2019-04-22 17:38:14,7.128s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:38:08,2019-04-22 17:38:12,3.900s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:12,2019-04-22 17:38:13,0.730s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:13,2019-04-22 17:38:13,0.373s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:13,2019-04-22 17:38:14,0.286s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:14,2019-04-22 17:38:14,0.732s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0127,Chrome 73.0.3683.103,Test create broadcast button (From braodcast template),2019-04-22 17:38:14,2019-04-22 17:38:21,6.686s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:38:15,2019-04-22 17:38:19,4.339s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:19,2019-04-22 17:38:20,0.642s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:20,2019-04-22 17:38:20,0.406s,PASSED
+custom.newKeyword.clickUsingJS,Chrome 73.0.3683.103,,2019-04-22 17:38:20,2019-04-22 17:38:21,0.863s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0128,Chrome 73.0.3683.103,Test list of broadcast templates,2019-04-22 17:38:21,2019-04-22 17:38:30,8.628s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:38:21,2019-04-22 17:38:26,4.689s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:26,2019-04-22 17:38:27,0.799s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:27,2019-04-22 17:38:28,0.589s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:38:28,2019-04-22 17:38:30,2.070s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:38:30,2019-04-22 17:38:30,0.031s,PASSED
+"Statement - templates = driver.findElements(org.openqa.selenium.By.className(""m-widget4__item""))",Chrome 73.0.3683.103,,2019-04-22 17:38:30,2019-04-22 17:38:30,0.119s,PASSED
+Statement - println(templates.size()),Chrome 73.0.3683.103,,2019-04-22 17:38:30,2019-04-22 17:38:30,0.001s,PASSED
+Statement - If (templates.size() < 10),Chrome 73.0.3683.103,,2019-04-22 17:38:30,2019-04-22 17:38:30,0.022s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0129,Chrome 73.0.3683.103,Test broadcast templates filter by category,2019-04-22 17:38:30,2019-04-22 17:38:37,7.299s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:38:30,2019-04-22 17:38:34,3.827s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:34,2019-04-22 17:38:35,0.820s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:35,2019-04-22 17:38:35,0.445s,PASSED
+selectOptionByValue,Chrome 73.0.3683.103,,2019-04-22 17:38:35,2019-04-22 17:38:36,1.088s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:36,2019-04-22 17:38:37,0.670s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0130,Chrome 73.0.3683.103,Test use template,2019-04-22 17:38:37,2019-04-22 17:38:44,7.057s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:38:38,2019-04-22 17:38:41,3.831s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:41,2019-04-22 17:38:42,0.552s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:42,2019-04-22 17:38:43,0.524s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:43,2019-04-22 17:38:44,1.953s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0131,Chrome 73.0.3683.103,Test add text component,2019-04-22 17:38:44,2019-04-22 17:39:01,16.600s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:38:46,2019-04-22 17:38:51,5.442s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:51,2019-04-22 17:38:52,0.826s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:52,2019-04-22 17:38:53,1.329s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:38:53,2019-04-22 17:38:54,1.080s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:38:54,2019-04-22 17:38:55,0.669s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:38:55,2019-04-22 17:39:01,6.012s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0132,Chrome 73.0.3683.103,Test text validation,2019-04-22 17:39:01,2019-04-22 17:39:18,17.020s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:39:03,2019-04-22 17:39:08,5.149s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:08,2019-04-22 17:39:09,1.020s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:09,2019-04-22 17:39:10,0.931s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:10,2019-04-22 17:39:11,1.009s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:11,2019-04-22 17:39:11,0.569s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:39:11,2019-04-22 17:39:11,0.111s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:11,2019-04-22 17:39:14,3.002s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:14,2019-04-22 17:39:15,0.388s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:15,2019-04-22 17:39:18,3.003s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:18,2019-04-22 17:39:18,0.252s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0133,Chrome 73.0.3683.103,Test add button in text component,2019-04-22 17:39:18,2019-04-22 17:39:29,11.056s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:39:18,2019-04-22 17:39:23,4.210s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:23,2019-04-22 17:39:23,0.694s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:23,2019-04-22 17:39:24,1.145s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:24,2019-04-22 17:39:25,1.003s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:25,2019-04-22 17:39:26,0.470s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:26,2019-04-22 17:39:26,0.517s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:39:26,2019-04-22 17:39:27,0.695s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:27,2019-04-22 17:39:28,0.451s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:39:28,2019-04-22 17:39:29,1.044s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:29,2019-04-22 17:39:29,0.541s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0137,Chrome 73.0.3683.103,Test add image component,2019-04-22 17:39:29,2019-04-22 17:39:39,9.846s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:39:30,2019-04-22 17:39:34,4.657s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:34,2019-04-22 17:39:35,0.677s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:35,2019-04-22 17:39:36,1.287s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:36,2019-04-22 17:39:37,1.005s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:37,2019-04-22 17:39:38,0.461s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:38,2019-04-22 17:39:39,1.050s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:39:39,2019-04-22 17:39:39,0.203s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0138,Chrome 73.0.3683.103,Test image validation,2019-04-22 17:39:39,2019-04-22 17:39:54,15.230s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:39:40,2019-04-22 17:39:44,4.233s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:44,2019-04-22 17:39:45,0.730s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:45,2019-04-22 17:39:45,0.911s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:45,2019-04-22 17:39:46,1.021s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:46,2019-04-22 17:39:47,0.951s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:47,2019-04-22 17:39:51,3.091s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:51,2019-04-22 17:39:51,0.427s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:39:51,2019-04-22 17:39:54,3.026s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:39:54,2019-04-22 17:39:54,0.451s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0139,Chrome 73.0.3683.103,Test upload image,2019-04-22 17:39:54,2019-04-22 17:40:23,28.720s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:39:55,2019-04-22 17:40:00,5.215s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:00,2019-04-22 17:40:01,0.718s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:01,2019-04-22 17:40:02,1.134s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:40:02,2019-04-22 17:40:03,1.011s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:03,2019-04-22 17:40:04,0.813s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:40:04,2019-04-22 17:40:05,1.051s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:40:05,2019-04-22 17:40:05,0.010s,PASSED
+"Statement - upload = driver.findElement(org.openqa.selenium.By.xpath(""//input[@type='file']""))",Chrome 73.0.3683.103,,2019-04-22 17:40:05,2019-04-22 17:40:05,0.148s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:40:05,2019-04-22 17:40:05,0.017s,PASSED
+Statement - upload.sendKeys(img),Chrome 73.0.3683.103,,2019-04-22 17:40:05,2019-04-22 17:40:05,0.238s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:40:05,2019-04-22 17:40:10,5.040s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:40:10,2019-04-22 17:40:23,12.699s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0141,Chrome 73.0.3683.103,Test add card component,2019-04-22 17:40:23,2019-04-22 17:40:38,14.975s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:40:24,2019-04-22 17:40:29,5.308s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:29,2019-04-22 17:40:30,0.964s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:30,2019-04-22 17:40:31,1.193s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:40:31,2019-04-22 17:40:32,0.950s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:32,2019-04-22 17:40:33,0.476s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:40:33,2019-04-22 17:40:38,5.301s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0142,Chrome 73.0.3683.103,Test card validation (image),2019-04-22 17:40:38,2019-04-22 17:40:51,13.288s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:40:39,2019-04-22 17:40:43,4.262s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:43,2019-04-22 17:40:44,0.937s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:44,2019-04-22 17:40:45,1.145s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:40:45,2019-04-22 17:40:46,1.004s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:46,2019-04-22 17:40:47,0.806s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:40:47,2019-04-22 17:40:48,1.107s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:40:48,2019-04-22 17:40:49,1.031s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:40:49,2019-04-22 17:40:49,0.184s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:49,2019-04-22 17:40:50,0.389s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:40:50,2019-04-22 17:40:51,1.054s,PASSED
+verifyTextPresent,Chrome 73.0.3683.103,,2019-04-22 17:40:51,2019-04-22 17:40:51,0.574s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0143,Chrome 73.0.3683.103,Test card validation (title),2019-04-22 17:40:51,2019-04-22 17:41:19,27.857s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:40:52,2019-04-22 17:40:57,4.652s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:57,2019-04-22 17:40:58,0.862s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:40:58,2019-04-22 17:40:59,1.191s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:40:59,2019-04-22 17:41:00,1.093s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:00,2019-04-22 17:41:01,0.686s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:41:01,2019-04-22 17:41:04,3.548s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:41:04,2019-04-22 17:41:04,0.061s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:41:04,2019-04-22 17:41:05,0.486s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:41:05,2019-04-22 17:41:19,14.540s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0144,Chrome 73.0.3683.103,Test card validation (subtitle),2019-04-22 17:41:19,2019-04-22 17:41:43,23.764s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:41:21,2019-04-22 17:41:26,5.611s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:26,2019-04-22 17:41:27,0.813s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:27,2019-04-22 17:41:29,1.344s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:41:29,2019-04-22 17:41:30,0.974s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:30,2019-04-22 17:41:31,0.981s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:41:31,2019-04-22 17:41:32,0.972s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:41:32,2019-04-22 17:41:32,0.064s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:41:32,2019-04-22 17:41:32,0.405s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:41:32,2019-04-22 17:41:43,11.076s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0145,Chrome 73.0.3683.103,Test card validation (button),2019-04-22 17:41:43,2019-04-22 17:41:50,7.034s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:41:44,2019-04-22 17:41:48,4.296s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:48,2019-04-22 17:41:49,1.013s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:49,2019-04-22 17:41:50,1.047s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0146,Chrome 73.0.3683.103,Test upload card image,2019-04-22 17:41:50,2019-04-22 17:42:11,20.922s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:41:51,2019-04-22 17:41:55,4.516s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:55,2019-04-22 17:41:56,0.638s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:56,2019-04-22 17:41:57,0.690s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:41:57,2019-04-22 17:41:58,0.943s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:41:58,2019-04-22 17:41:58,0.525s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:41:58,2019-04-22 17:41:59,0.866s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:41:59,2019-04-22 17:41:59,0.034s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:41:59,2019-04-22 17:41:59,0.371s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:41:59,2019-04-22 17:42:11,11.623s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0147,Chrome 73.0.3683.103,Test add button in card component,2019-04-22 17:42:11,2019-04-22 17:42:25,14.192s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:42:12,2019-04-22 17:42:17,5.494s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:17,2019-04-22 17:42:18,0.953s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:18,2019-04-22 17:42:19,0.983s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:42:19,2019-04-22 17:42:20,1.192s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:20,2019-04-22 17:42:22,1.093s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:22,2019-04-22 17:42:22,0.662s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:42:22,2019-04-22 17:42:23,0.943s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:23,2019-04-22 17:42:24,0.459s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:42:24,2019-04-22 17:42:25,1.208s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:25,2019-04-22 17:42:25,0.463s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0150,Chrome 73.0.3683.103,Test add gallery component,2019-04-22 17:42:25,2019-04-22 17:42:38,13.056s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:42:26,2019-04-22 17:42:31,5.005s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:31,2019-04-22 17:42:32,1.014s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:32,2019-04-22 17:42:33,1.357s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:42:33,2019-04-22 17:42:34,1.267s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:42:34,2019-04-22 17:42:36,1.223s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:42:36,2019-04-22 17:42:38,2.597s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0151,Chrome 73.0.3683.103,Test gallery validation (cards),2019-04-22 17:42:38,2019-04-22 17:42:51,12.225s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:42:39,2019-04-22 17:42:51,11.862s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0152,Chrome 73.0.3683.103,Test gallery validation (image),2019-04-22 17:42:51,2019-04-22 17:43:14,22.836s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:42:51,2019-04-22 17:43:03,11.477s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:03,2019-04-22 17:43:04,0.989s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:04,2019-04-22 17:43:05,1.048s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:05,2019-04-22 17:43:06,0.566s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:06,2019-04-22 17:43:06,0.458s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:06,2019-04-22 17:43:06,0.464s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:06,2019-04-22 17:43:07,0.953s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:07,2019-04-22 17:43:08,0.457s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:08,2019-04-22 17:43:09,1.093s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:09,2019-04-22 17:43:09,0.504s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:43:09,2019-04-22 17:43:10,0.192s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:43:10,2019-04-22 17:43:12,1.861s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:12,2019-04-22 17:43:12,0.451s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:43:12,2019-04-22 17:43:13,0.924s,PASSED
+verifyTextPresent,Chrome 73.0.3683.103,,2019-04-22 17:43:13,2019-04-22 17:43:14,0.544s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0153,Chrome 73.0.3683.103,Test gallery validation (title),2019-04-22 17:43:14,2019-04-22 17:43:36,22.821s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:43:14,2019-04-22 17:43:23,9.265s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:23,2019-04-22 17:43:25,1.056s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:25,2019-04-22 17:43:25,0.522s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:25,2019-04-22 17:43:26,0.793s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:26,2019-04-22 17:43:26,0.378s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:26,2019-04-22 17:43:27,1.015s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:27,2019-04-22 17:43:28,0.525s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:43:28,2019-04-22 17:43:28,0.000s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:43:28,2019-04-22 17:43:28,0.635s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:43:28,2019-04-22 17:43:32,3.867s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:43:32,2019-04-22 17:43:32,0.049s,PASSED
+"Statement - image_popup = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[5]/div/div[2]/div/a""))",Chrome 73.0.3683.103,,2019-04-22 17:43:32,2019-04-22 17:43:32,0.121s,PASSED
+Statement - image_popup.click(),Chrome 73.0.3683.103,,2019-04-22 17:43:32,2019-04-22 17:43:33,0.306s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:43:33,2019-04-22 17:43:34,1.681s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:43:34,2019-04-22 17:43:35,0.193s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:35,2019-04-22 17:43:35,0.403s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:43:35,2019-04-22 17:43:36,0.883s,PASSED
+verifyTextPresent,Chrome 73.0.3683.103,,2019-04-22 17:43:36,2019-04-22 17:43:36,0.417s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0154,Chrome 73.0.3683.103,Test gallery validation (subtitle),2019-04-22 17:43:36,2019-04-22 17:44:03,27.110s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:43:37,2019-04-22 17:43:47,10.596s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:47,2019-04-22 17:43:49,1.401s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:49,2019-04-22 17:43:50,0.752s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:50,2019-04-22 17:43:51,1.075s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:51,2019-04-22 17:43:51,0.430s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:43:51,2019-04-22 17:43:52,1.192s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:43:52,2019-04-22 17:43:53,0.731s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:43:53,2019-04-22 17:43:53,0.000s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:43:53,2019-04-22 17:43:54,0.646s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:43:54,2019-04-22 17:43:59,5.026s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:43:59,2019-04-22 17:43:59,0.037s,PASSED
+"Statement - image_popup = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[5]/div/div[2]/div/a""))",Chrome 73.0.3683.103,,2019-04-22 17:43:59,2019-04-22 17:43:59,0.198s,PASSED
+Statement - image_popup.click(),Chrome 73.0.3683.103,,2019-04-22 17:43:59,2019-04-22 17:43:59,0.405s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:43:59,2019-04-22 17:44:02,2.190s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:44:02,2019-04-22 17:44:02,0.328s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:44:02,2019-04-22 17:44:03,0.686s,PASSED
+verifyTextPresent,Chrome 73.0.3683.103,,2019-04-22 17:44:03,2019-04-22 17:44:03,0.799s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0155,Chrome 73.0.3683.103,Test card validation (button),2019-04-22 17:44:04,2019-04-22 17:44:34,30.731s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:44:04,2019-04-22 17:44:18,13.297s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:44:18,2019-04-22 17:44:19,1.897s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:44:19,2019-04-22 17:44:21,1.599s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:44:21,2019-04-22 17:44:21,0.001s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:44:21,2019-04-22 17:44:22,0.849s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:44:22,2019-04-22 17:44:29,6.632s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 73.0.3683.103,,2019-04-22 17:44:29,2019-04-22 17:44:29,0.084s,PASSED
+"Statement - image_popup = driver.findElement(org.openqa.selenium.By.xpath(""/html/body/div[5]/div/div[2]/div/a""))",Chrome 73.0.3683.103,,2019-04-22 17:44:29,2019-04-22 17:44:29,0.231s,PASSED
+Statement - image_popup.click(),Chrome 73.0.3683.103,,2019-04-22 17:44:29,2019-04-22 17:44:30,0.675s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:44:30,2019-04-22 17:44:32,2.703s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:44:32,2019-04-22 17:44:33,0.402s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:44:33,2019-04-22 17:44:33,0.733s,PASSED
+verifyTextPresent,Chrome 73.0.3683.103,,2019-04-22 17:44:33,2019-04-22 17:44:34,0.878s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0156,Chrome 73.0.3683.103,Test upload gallery image,2019-04-22 17:44:34,2019-04-22 17:44:50,15.958s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:44:35,2019-04-22 17:44:50,14.600s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:44:50,2019-04-22 17:44:50,0.000s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:44:50,2019-04-22 17:44:50,0.789s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0157,Chrome 73.0.3683.103,Test add button in gallery component,2019-04-22 17:44:50,2019-04-22 17:45:08,17.829s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:44:51,2019-04-22 17:45:04,12.363s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:45:04,2019-04-22 17:45:05,1.020s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:45:05,2019-04-22 17:45:05,0.582s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:45:05,2019-04-22 17:45:06,0.984s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:45:06,2019-04-22 17:45:07,0.455s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:45:07,2019-04-22 17:45:08,1.122s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:45:08,2019-04-22 17:45:08,0.482s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0160,Chrome 73.0.3683.103,Test add card in gallery component,2019-04-22 17:45:08,2019-04-22 17:45:20,11.933s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:45:09,2019-04-22 17:45:18,8.898s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:45:18,2019-04-22 17:45:19,0.784s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:45:19,2019-04-22 17:45:19,0.307s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:45:19,2019-04-22 17:45:19,0.430s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:45:19,2019-04-22 17:45:20,0.789s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0161,Chrome 73.0.3683.103,Test remove card in gallery component,2019-04-22 17:45:20,2019-04-22 17:45:58,37.798s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:45:21,2019-04-22 17:45:28,7.218s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:45:28,2019-04-22 17:45:28,0.455s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:45:28,2019-04-22 17:45:29,0.717s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:45:29,2019-04-22 17:45:58,29.119s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0163,Chrome 73.0.3683.103,Test add audio component,2019-04-22 17:45:58,2019-04-22 17:46:11,13.100s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:45:59,2019-04-22 17:46:06,7.024s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:06,2019-04-22 17:46:07,1.062s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:07,2019-04-22 17:46:08,1.513s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:46:08,2019-04-22 17:46:10,1.144s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:10,2019-04-22 17:46:11,1.056s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:46:11,2019-04-22 17:46:11,0.486s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0164,Chrome 73.0.3683.103,Test audio validation,2019-04-22 17:46:11,2019-04-22 17:46:31,19.609s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:46:12,2019-04-22 17:46:23,11.066s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:46:23,2019-04-22 17:46:25,2.498s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:25,2019-04-22 17:46:26,1.024s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:46:26,2019-04-22 17:46:30,3.754s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:30,2019-04-22 17:46:31,0.555s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0165,Chrome 73.0.3683.103,Test upload audio,2019-04-22 17:46:31,2019-04-22 17:46:45,14.326s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:46:32,2019-04-22 17:46:44,12.714s,PASSED
+"Statement - audio = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/audio.mp3""",Chrome 73.0.3683.103,,2019-04-22 17:46:44,2019-04-22 17:46:44,0.000s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:46:44,2019-04-22 17:46:45,0.874s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0167,Chrome 73.0.3683.103,Test add video component,2019-04-22 17:46:45,2019-04-22 17:47:00,15.159s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:46:46,2019-04-22 17:46:52,6.213s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:52,2019-04-22 17:46:53,1.216s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:53,2019-04-22 17:46:54,1.173s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:46:54,2019-04-22 17:46:56,1.235s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:46:56,2019-04-22 17:46:57,0.870s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:46:57,2019-04-22 17:46:57,0.313s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:46:57,2019-04-22 17:47:00,3.433s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0168,Chrome 73.0.3683.103,Test video validation,2019-04-22 17:47:01,2019-04-22 17:47:18,17.026s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:47:01,2019-04-22 17:47:13,12.572s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:47:13,2019-04-22 17:47:14,0.749s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:47:14,2019-04-22 17:47:17,3.033s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:47:17,2019-04-22 17:47:18,0.333s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0169,Chrome 73.0.3683.103,Test upload video,2019-04-22 17:47:18,2019-04-22 17:47:29,11.394s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:47:18,2019-04-22 17:47:29,10.582s,PASSED
+"Statement - video = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/video.mp4""",Chrome 73.0.3683.103,,2019-04-22 17:47:29,2019-04-22 17:47:29,0.039s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:47:29,2019-04-22 17:47:29,0.343s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0171,Chrome 73.0.3683.103,Test add file component,2019-04-22 17:47:29,2019-04-22 17:47:38,9.475s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:47:29,2019-04-22 17:47:33,3.677s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:47:33,2019-04-22 17:47:34,0.669s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:47:34,2019-04-22 17:47:35,0.784s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:47:35,2019-04-22 17:47:35,0.899s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:47:35,2019-04-22 17:47:36,0.593s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:47:36,2019-04-22 17:47:36,0.257s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:47:36,2019-04-22 17:47:38,2.188s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0172,Chrome 73.0.3683.103,Test file validation,2019-04-22 17:47:38,2019-04-22 17:47:52,13.468s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:47:39,2019-04-22 17:47:49,9.731s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:47:49,2019-04-22 17:47:49,0.438s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:47:49,2019-04-22 17:47:51,2.449s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:47:51,2019-04-22 17:47:52,0.435s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0173,Chrome 73.0.3683.103,Test upload file,2019-04-22 17:47:52,2019-04-22 17:48:05,13.023s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:47:53,2019-04-22 17:48:04,11.752s,PASSED
+"Statement - file = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sampleFile.csv""",Chrome 73.0.3683.103,,2019-04-22 17:48:04,2019-04-22 17:48:04,0.001s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:48:04,2019-04-22 17:48:05,0.665s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0175,Chrome 73.0.3683.103,Test add media component,2019-04-22 17:48:05,2019-04-22 17:48:18,13.195s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:48:06,2019-04-22 17:48:11,4.761s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:11,2019-04-22 17:48:12,1.039s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:12,2019-04-22 17:48:13,1.039s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:48:13,2019-04-22 17:48:14,1.070s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:14,2019-04-22 17:48:15,0.958s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:48:15,2019-04-22 17:48:15,0.356s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:48:15,2019-04-22 17:48:18,3.202s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0176,Chrome 73.0.3683.103,Test media validation,2019-04-22 17:48:18,2019-04-22 17:48:39,20.418s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:48:19,2019-04-22 17:48:33,13.866s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:48:33,2019-04-22 17:48:33,0.522s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:33,2019-04-22 17:48:34,0.914s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:48:34,2019-04-22 17:48:38,3.919s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:38,2019-04-22 17:48:39,0.675s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0177,Chrome 73.0.3683.103,Test add button in media component,2019-04-22 17:48:39,2019-04-22 17:48:59,19.815s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:48:39,2019-04-22 17:48:55,15.272s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:55,2019-04-22 17:48:55,0.717s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:48:55,2019-04-22 17:48:56,1.038s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:56,2019-04-22 17:48:57,0.520s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:48:57,2019-04-22 17:48:58,0.963s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:48:58,2019-04-22 17:48:59,0.516s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0178,Chrome 73.0.3683.103,Test upload media,2019-04-22 17:48:59,2019-04-22 17:49:17,18.312s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:48:59,2019-04-22 17:49:11,11.781s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:49:11,2019-04-22 17:49:11,0.000s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:49:11,2019-04-22 17:49:11,0.462s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:49:11,2019-04-22 17:49:17,5.561s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0182,Chrome 73.0.3683.103,Test remove text component,2019-04-22 17:49:17,2019-04-22 17:49:30,12.865s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:49:17,2019-04-22 17:49:30,12.299s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0183,Chrome 73.0.3683.103,Test remove image component,2019-04-22 17:49:30,2019-04-22 17:49:40,10.375s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:49:31,2019-04-22 17:49:39,8.559s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:49:39,2019-04-22 17:49:40,0.509s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:49:40,2019-04-22 17:49:40,0.264s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0184,Chrome 73.0.3683.103,Test remove card component,2019-04-22 17:49:40,2019-04-22 17:49:54,13.722s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:49:41,2019-04-22 17:49:54,13.357s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0185,Chrome 73.0.3683.103,Test remove gallery component,2019-04-22 17:49:54,2019-04-22 17:50:13,19.306s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:49:56,2019-04-22 17:50:10,14.150s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:50:10,2019-04-22 17:50:11,0.595s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:50:11,2019-04-22 17:50:13,2.295s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:50:13,2019-04-22 17:50:13,0.344s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0186,Chrome 73.0.3683.103,Test remove audio component,2019-04-22 17:50:13,2019-04-22 17:50:27,13.547s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:50:14,2019-04-22 17:50:25,11.303s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:50:25,2019-04-22 17:50:26,0.928s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:50:26,2019-04-22 17:50:27,0.458s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0187,Chrome 73.0.3683.103,Test remove video component,2019-04-22 17:50:27,2019-04-22 17:50:43,16.332s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:50:27,2019-04-22 17:50:42,14.750s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:50:42,2019-04-22 17:50:43,0.668s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:50:43,2019-04-22 17:50:43,0.439s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0188,Chrome 73.0.3683.103,Test remove file component,2019-04-22 17:50:43,2019-04-22 17:50:59,15.672s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:50:44,2019-04-22 17:50:58,13.932s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:50:58,2019-04-22 17:50:58,0.763s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:50:58,2019-04-22 17:50:59,0.327s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0189,Chrome 73.0.3683.103,Test remove media component,2019-04-22 17:50:59,2019-04-22 17:51:12,13.100s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:50:59,2019-04-22 17:51:11,11.723s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:51:11,2019-04-22 17:51:12,0.589s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:51:12,2019-04-22 17:51:12,0.273s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0190,Chrome 73.0.3683.103,Test change title,2019-04-22 17:51:12,2019-04-22 17:51:22,10.169s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:51:12,2019-04-22 17:51:17,4.134s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:51:17,2019-04-22 17:51:17,0.729s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:51:17,2019-04-22 17:51:18,0.867s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:51:18,2019-04-22 17:51:19,0.902s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:51:19,2019-04-22 17:51:20,0.483s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:51:20,2019-04-22 17:51:21,0.995s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:51:21,2019-04-22 17:51:21,0.435s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:51:21,2019-04-22 17:51:22,0.879s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:51:22,2019-04-22 17:51:22,0.323s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0192,Chrome 73.0.3683.103,Test add button without action,2019-04-22 17:51:22,2019-04-22 17:51:33,10.887s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:51:23,2019-04-22 17:51:33,10.559s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0193,Chrome 73.0.3683.103,Test edit button,2019-04-22 17:51:33,2019-04-22 17:51:47,13.782s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:51:34,2019-04-22 17:51:45,11.936s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:51:45,2019-04-22 17:51:46,0.568s,PASSED
+doubleClick,Chrome 73.0.3683.103,,2019-04-22 17:51:46,2019-04-22 17:51:46,0.456s,PASSED
+verifyElementAttributeValue,Chrome 73.0.3683.103,,2019-04-22 17:51:46,2019-04-22 17:51:47,0.411s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0194,Chrome 73.0.3683.103,Test cancel button,2019-04-22 17:51:47,2019-04-22 17:52:02,14.886s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:51:47,2019-04-22 17:52:02,14.472s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0195,Chrome 73.0.3683.103,Test remove button,2019-04-22 17:52:02,2019-04-22 17:52:19,17.301s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:52:03,2019-04-22 17:52:17,14.111s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 17:52:17,2019-04-22 17:52:18,0.502s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:52:18,2019-04-22 17:52:18,0.619s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:52:18,2019-04-22 17:52:19,0.540s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:52:19,2019-04-22 17:52:19,0.277s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0196,Chrome 73.0.3683.103,Test reset button,2019-04-22 17:52:19,2019-04-22 17:52:35,16.015s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:52:20,2019-04-22 17:52:35,15.312s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0204,Chrome 73.0.3683.103,Test previous button,2019-04-22 17:52:35,2019-04-22 17:52:52,17.224s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:52:37,2019-04-22 17:52:52,15.566s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0684,Chrome 73.0.3683.103,Test add List component,2019-04-22 17:52:52,2019-04-22 17:53:06,14.037s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:52:54,2019-04-22 17:52:59,4.931s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:52:59,2019-04-22 17:53:00,1.147s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:53:00,2019-04-22 17:53:01,1.121s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:53:01,2019-04-22 17:53:02,1.001s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:53:02,2019-04-22 17:53:03,0.833s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:53:03,2019-04-22 17:53:04,1.002s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:53:04,2019-04-22 17:53:04,0.570s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:53:04,2019-04-22 17:53:06,2.020s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0685,Chrome 73.0.3683.103,Remove List component,2019-04-22 17:53:06,2019-04-22 17:53:21,14.124s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:53:07,2019-04-22 17:53:20,12.615s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:53:20,2019-04-22 17:53:20,0.615s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 17:53:20,2019-04-22 17:53:21,0.316s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0686,Chrome 73.0.3683.103,Remove card in List,2019-04-22 17:53:21,2019-04-22 17:54:08,47.017s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:53:21,2019-04-22 17:53:34,12.553s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:53:34,2019-04-22 17:54:08,34.069s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0687,Chrome 73.0.3683.103,Remove List component,2019-04-22 17:54:08,2019-04-22 17:54:57,49.350s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:54:08,2019-04-22 17:54:23,14.121s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:54:23,2019-04-22 17:54:57,34.497s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0688,Chrome 73.0.3683.103,Add list with Only title,2019-04-22 17:54:57,2019-04-22 17:55:41,43.847s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:54:58,2019-04-22 17:55:12,14.353s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:55:12,2019-04-22 17:55:41,28.783s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0689,Chrome 73.0.3683.103,Add List with empty fields,2019-04-22 17:55:41,2019-04-22 17:55:58,16.745s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:55:41,2019-04-22 17:55:54,12.553s,PASSED
+scrollToPosition,Chrome 73.0.3683.103,,2019-04-22 17:55:54,2019-04-22 17:55:54,0.310s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 17:55:54,2019-04-22 17:55:55,0.565s,PASSED
+delay,Chrome 73.0.3683.103,,2019-04-22 17:55:55,2019-04-22 17:55:57,2.163s,PASSED
+verifyTextPresent,Chrome 73.0.3683.103,,2019-04-22 17:55:57,2019-04-22 17:55:58,0.541s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0690,Chrome 73.0.3683.103,Add list with only subtitle,2019-04-22 17:55:58,2019-04-22 17:56:49,51.740s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:55:58,2019-04-22 17:56:12,13.713s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:56:12,2019-04-22 17:56:49,37.619s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0691,Chrome 73.0.3683.103,Add list,2019-04-22 17:56:49,2019-04-22 17:57:31,41.326s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:56:50,2019-04-22 17:57:03,13.080s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:57:03,2019-04-22 17:57:31,27.620s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0692,Chrome 73.0.3683.103,"Add list without image
+on both cards",2019-04-22 17:57:31,2019-04-22 17:58:27,55.936s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:57:32,2019-04-22 17:57:47,14.981s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:57:47,2019-04-22 17:58:27,40.160s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0693,Chrome 73.0.3683.103,Add list without Add button on both cards,2019-04-22 17:58:27,2019-04-22 17:59:11,44.763s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:58:28,2019-04-22 17:58:44,16.032s,PASSED
+setText,Chrome 73.0.3683.103,,2019-04-22 17:58:44,2019-04-22 17:59:11,27.852s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0694,Chrome 73.0.3683.103,Add list with image on both cards,2019-04-22 17:59:11,2019-04-22 17:59:56,44.247s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:59:12,2019-04-22 17:59:23,11.338s,PASSED
+"Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + ""/sample.jpg""",Chrome 73.0.3683.103,,2019-04-22 17:59:23,2019-04-22 17:59:23,0.001s,PASSED
+uploadFile,Chrome 73.0.3683.103,,2019-04-22 17:59:23,2019-04-22 17:59:56,32.406s,FAILED
+,,,,,,
+Test Cases/Broadcasts/TC0695,Chrome 73.0.3683.103,Add list with Add button on both cards,2019-04-22 17:59:56,2019-04-22 18:00:12,16.691s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 17:59:56,2019-04-22 18:00:12,16.583s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0696,Chrome 73.0.3683.103,Add list with edit button,2019-04-22 18:00:12,2019-04-22 18:00:30,18.117s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 18:00:13,2019-04-22 18:00:30,17.701s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0697,Chrome 73.0.3683.103,Add list with edit button,2019-04-22 18:00:30,2019-04-22 18:00:48,17.489s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 18:00:31,2019-04-22 18:00:48,16.563s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0698,Chrome 73.0.3683.103,Add list with edit button (enter button title and link),2019-04-22 18:00:48,2019-04-22 18:01:02,14.457s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 18:00:49,2019-04-22 18:01:02,13.652s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0699,Chrome 73.0.3683.103,Add list with edit button (cancel button),2019-04-22 18:01:02,2019-04-22 18:01:15,12.227s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 18:01:03,2019-04-22 18:01:14,11.109s,PASSED
+verifyElementNotPresent,Chrome 73.0.3683.103,,2019-04-22 18:01:14,2019-04-22 18:01:15,0.229s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0700,Chrome 73.0.3683.103,Add list with edit button with subribe to seq,2019-04-22 18:01:15,2019-04-22 18:01:26,11.589s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 18:01:15,2019-04-22 18:01:26,11.488s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0701,Chrome 73.0.3683.103,Add list with edit button with unsubscribe to sequence,2019-04-22 18:01:26,2019-04-22 18:01:38,11.799s,PASSED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 18:01:26,2019-04-22 18:01:38,11.567s,PASSED
+,,,,,,
+Test Cases/Broadcasts/TC0702,Chrome 73.0.3683.103,Add list with add element,2019-04-22 18:01:38,2019-04-22 18:01:55,16.461s,FAILED
+callTestCase,Chrome 73.0.3683.103,,2019-04-22 18:01:39,2019-04-22 18:01:51,12.605s,PASSED
+click,Chrome 73.0.3683.103,,2019-04-22 18:01:51,2019-04-22 18:01:52,0.789s,PASSED
+verifyElementPresent,Chrome 73.0.3683.103,,2019-04-22 18:01:52,2019-04-22 18:01:55,2.546s,FAILED

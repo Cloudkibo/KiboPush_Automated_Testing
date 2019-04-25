@@ -4,7 +4,7 @@
    <name>broadcast</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-03-14T09:58:58</lastRun>
+   <lastRun>2019-04-25T09:49:40</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,16 +12,16 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>6494e115-7138-49a9-9b1b-b0e0607ddd47</testSuiteGuid>
    <testCaseLink>
-      <guid>e09afb8a-4503-4cb8-849c-aedaf179ff80</guid>
+      <guid>8f3e050a-3c08-49ef-9312-9879cf8baae8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/Login</testCaseId>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>b815f443-44d1-4d11-868d-c9d01cc5b281</guid>
+      <guid>767ba2d6-fa80-4899-8f16-8ec85508366d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/Logout</testCaseId>
+      <testCaseId>Test Cases/Broadcasts/open_broadcast</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>95c86058-f450-41f7-9cdb-0867aaff3904</guid>

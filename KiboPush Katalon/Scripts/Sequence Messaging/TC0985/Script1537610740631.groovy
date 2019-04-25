@@ -14,7 +14,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Sequence Messaging/TC0984'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message'))
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/span_New Message (3)'))
 

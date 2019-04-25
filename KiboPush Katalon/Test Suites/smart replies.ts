@@ -4,7 +4,7 @@
    <name>smart replies</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-26T13:28:33</lastRun>
+   <lastRun>2019-04-25T11:36:48</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,10 +12,16 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>f0ffda05-2f64-4855-9e0d-5c326bc5fc10</testSuiteGuid>
    <testCaseLink>
-      <guid>7529fb68-8fbb-4b60-958d-08d12e02ebba</guid>
+      <guid>86f97aab-df03-4f7d-b6aa-1951d93fd244</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Smart Replies/Login</testCaseId>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d7e8f3c-89da-4c85-9884-b40b0b7843d4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smart Replies/open_automation</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f3d064bd-8744-471d-9e4a-633c33c55ab8</guid>
@@ -58,6 +64,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Smart Replies/TC0624</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a4fd3bb0-a58d-40ff-acff-4144efacacd6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smart Replies/Test-Actions-Button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5c94048-7441-4b81-9ed9-4b20759b9480</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Smart Replies/TC0624 - delete</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>91f3d5c6-f83c-41b9-a510-81c5c2c7daf8</guid>
@@ -112,11 +130,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Smart Replies/TC0636</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>a4fd3bb0-a58d-40ff-acff-4144efacacd6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Smart Replies/Test-Actions-Button</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

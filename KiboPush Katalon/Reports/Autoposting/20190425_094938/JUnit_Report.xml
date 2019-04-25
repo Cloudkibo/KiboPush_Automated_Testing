@@ -1,0 +1,1521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Autoposting" time="284" tests="24" failures="3" errors="0">
+   <testsuite name="Autoposting" tests="24" failures="3" errors="0" time="284" timestamp="2019-04-25 09:49:47" hostname="cloudkibo - 10.0.2.15" id="Test Suites/Autoposting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938\\1556168008527.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938\\1556168022174.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938\\1556168036084.png"/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="619d38412cdb4baed6655c01d03c2018"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:49:48 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-25 09:49:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 09:49:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 09:49:58 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 09:50:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 09:50:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 09:50:12 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 09:50:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 09:50:13 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 09:50:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 09:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 09:50:14 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 09:50:16 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 09:50:16 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 09:50:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 09:50:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 09:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 09:50:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 09:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 09:50:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 09:50:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 09:50:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 09:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 09:50:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:50:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 09:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 09:50:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:50:48 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/open automation" classname="Test Cases/Autoposting TestCases/open automation" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:50:48 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/open automation: Test Cases/Autoposting TestCases/open automation
+
+2019-04-25 09:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 09:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 09:50:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:50:50 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0369" classname="Test Cases/Autoposting TestCases/TC0369" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:50:50 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0369: Test Cases/Autoposting TestCases/TC0369
+
+2019-04-25 09:50:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:50:50 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:50:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:50:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:50:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:50:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:50:53 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:50:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:50:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:50:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:50:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:50:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/a_documentation' is clicked on
+
+2019-04-25 09:50:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/a_documentation' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0370" classname="Test Cases/Autoposting TestCases/TC0370" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:50:56 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0370: Test Cases/Autoposting TestCases/TC0370
+
+2019-04-25 09:50:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:50:57 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:50:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:50:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:50:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:50:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:50:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:50:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:00 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/a_video tutorial' is clicked on
+
+2019-04-25 09:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/a_video tutorial' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0371" classname="Test Cases/Autoposting TestCases/TC0371" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:51:03 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0371: Test Cases/Autoposting TestCases/TC0371
+
+2019-04-25 09:51:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:03 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:51:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:51:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:51:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:07 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:07 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/p_Currently you do not have an' is clicked on
+
+2019-04-25 09:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/p_Currently you do not have an' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0372" classname="Test Cases/Autoposting TestCases/TC0372" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:51:10 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0372: Test Cases/Autoposting TestCases/TC0372
+
+2019-04-25 09:51:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:11 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:51:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:51:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:51:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:13 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:13 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (1)' is clicked on
+
+2019-04-25 09:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (1)' is clicked on
+
+2019-04-25 09:51:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Facebook' is clicked on
+
+2019-04-25 09:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Facebook' is clicked on
+
+2019-04-25 09:51:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Twitter' is clicked on
+
+2019-04-25 09:51:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Twitter' is clicked on
+
+2019-04-25 09:51:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_WordPress' is clicked on
+
+2019-04-25 09:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_WordPress' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0373" classname="Test Cases/Autoposting TestCases/TC0373" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:51:17 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0373: Test Cases/Autoposting TestCases/TC0373
+
+2019-04-25 09:51:17 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:17 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:51:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:51:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:51:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:19 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (2)' is clicked on
+
+2019-04-25 09:51:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (2)' is clicked on
+
+2019-04-25 09:51:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Auto Posting - KiboPush/circle_cross' is clicked on
+
+2019-04-25 09:51:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Auto Posting - KiboPush/circle_cross' is clicked on
+
+2019-04-25 09:51:23 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:23 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0375" classname="Test Cases/Autoposting TestCases/TC0375" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:51:25 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0375: Test Cases/Autoposting TestCases/TC0375
+
+2019-04-25 09:51:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:26 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:51:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:27 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:51:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:51:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:28 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed' is clicked on
+
+2019-04-25 09:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed' is clicked on
+
+2019-04-25 09:51:31 - [TEST_STEP][PASSED] - setText: Text 'https://www.facebook.com/Test5-2090553931018635' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control'
+
+2019-04-25 09:51:32 - [MESSAGE][PASSED] - Text 'https://www.facebook.com/Test5-2090553931018635' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control'
+
+2019-04-25 09:51:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account' is clicked on
+
+2019-04-25 09:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account' is clicked on
+
+2019-04-25 09:51:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 09:51:36 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0378" classname="Test Cases/Autoposting TestCases/TC0378" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:51:36 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0378: Test Cases/Autoposting TestCases/TC0378
+
+2019-04-25 09:51:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:36 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:51:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:51:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:51:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:38 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (3) (1)' is clicked on
+
+2019-04-25 09:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (3) (1)' is clicked on
+
+2019-04-25 09:51:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_WordPress (1) (1)' is clicked on
+
+2019-04-25 09:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_WordPress (1) (1)' is clicked on
+
+2019-04-25 09:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_View Integration Guidel (1) (1)' is clicked on
+
+2019-04-25 09:51:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_View Integration Guidel (1) (1)' is clicked on
+
+2019-04-25 09:51:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/a_WordPress.com (1) (1)' is clicked on
+
+2019-04-25 09:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/a_WordPress.com (1) (1)' is clicked on
+
+2019-04-25 09:51:42 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h4_Guidelines for integrating' is clicked on
+
+2019-04-25 09:51:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h4_Guidelines for integrating' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0379" classname="Test Cases/Autoposting TestCases/TC0379" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:51:42 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0379: Test Cases/Autoposting TestCases/TC0379
+
+2019-04-25 09:51:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:43 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:51:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:51:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:44 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed' is clicked on
+
+2019-04-25 09:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed' is clicked on
+
+2019-04-25 09:51:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account' is clicked on
+
+2019-04-25 09:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account' is clicked on
+
+2019-04-25 09:51:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Incorrect Url' is clicked on
+
+2019-04-25 09:51:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Incorrect Url' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0380" classname="Test Cases/Autoposting TestCases/TC0380" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:51:50 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0380: Test Cases/Autoposting TestCases/TC0380
+
+2019-04-25 09:51:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:50 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:51:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:51:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:51:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:51:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:51:52 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:52 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:51:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:51:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:51:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:51:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:51:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:51:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:51:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on
+
+2019-04-25 09:51:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on
+
+2019-04-25 09:51:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed' is clicked on
+
+2019-04-25 09:52:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed' is clicked on
+
+2019-04-25 09:52:01 - [TEST_STEP][PASSED] - setText: Text 'https://www.facebook.com/Test5-2090553931018635' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control'
+
+2019-04-25 09:52:03 - [MESSAGE][PASSED] - Text 'https://www.facebook.com/Test5-2090553931018635' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control'
+
+2019-04-25 09:52:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account' is clicked on
+
+2019-04-25 09:52:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account' is clicked on
+
+2019-04-25 09:52:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:05 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0381" classname="Test Cases/Autoposting TestCases/TC0381" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:52:06 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0381: Test Cases/Autoposting TestCases/TC0381
+
+2019-04-25 09:52:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:07 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:52:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:52:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:52:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:09 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:09 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Subscription URL' is clicked on
+
+2019-04-25 09:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Subscription URL' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0382" classname="Test Cases/Autoposting TestCases/TC0382" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:52:13 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0382: Test Cases/Autoposting TestCases/TC0382
+
+2019-04-25 09:52:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:13 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:52:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:13 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:52:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:52:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:18 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0383" classname="Test Cases/Autoposting TestCases/TC0383" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:52:18 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0383: Test Cases/Autoposting TestCases/TC0383
+
+2019-04-25 09:52:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:19 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0382: Test Cases/Autoposting TestCases/TC0382
+
+2019-04-25 09:52:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:19 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:52:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:20 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:52:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:52:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:21 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:21 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:24 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:24 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings (4)' is clicked on
+
+2019-04-25 09:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings (4)' is clicked on
+
+2019-04-25 09:52:24 - [TEST_STEP][PASSED] - setText: Text 'Facebook' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:25 - [MESSAGE][PASSED] - Text 'Facebook' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:52:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on
+
+2019-04-25 09:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on
+
+2019-04-25 09:52:27 - [TEST_STEP][PASSED] - setText: Text 'Facebook Page' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:27 - [MESSAGE][PASSED] - Text 'Facebook Page' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:52:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on
+
+2019-04-25 09:52:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0384" classname="Test Cases/Autoposting TestCases/TC0384" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:52:28 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0384: Test Cases/Autoposting TestCases/TC0384
+
+2019-04-25 09:52:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:29 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0382: Test Cases/Autoposting TestCases/TC0382
+
+2019-04-25 09:52:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:29 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:52:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:52:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:52:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:31 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:34 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:34 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:34 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:35 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (1)' is clicked on
+
+2019-04-25 09:52:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (1)' is clicked on
+
+2019-04-25 09:52:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/div_Please add Account Title' is clicked on
+
+2019-04-25 09:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/div_Please add Account Title' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0385" classname="Test Cases/Autoposting TestCases/TC0385" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:52:36 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0385: Test Cases/Autoposting TestCases/TC0385
+
+2019-04-25 09:52:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:36 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0382: Test Cases/Autoposting TestCases/TC0382
+
+2019-04-25 09:52:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:36 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:52:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:37 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:52:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:52:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:38 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:39 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:41 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:42 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Disabled' are selected in object 'Object Repository/Page_KiboPush  Autoposting/select_ActiveDisabled (1)'  using regular expression
+
+2019-04-25 09:52:43 - [MESSAGE][PASSED] - All options with value 'Disabled' are selected in object 'Object Repository/Page_KiboPush  Autoposting/select_ActiveDisabled (1)'  using regular expression
+
+2019-04-25 09:52:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (3)' is clicked on
+
+2019-04-25 09:52:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (3)' is clicked on
+
+2019-04-25 09:52:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (2)' is clicked on
+
+2019-04-25 09:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (2)' is clicked on
+
+2019-04-25 09:52:44 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'Active' are selected in object 'Object Repository/Page_KiboPush  Autoposting/select_ActiveDisabled (1)'  using regular expression
+
+2019-04-25 09:52:45 - [MESSAGE][PASSED] - All options with value 'Active' are selected in object 'Object Repository/Page_KiboPush  Autoposting/select_ActiveDisabled (1)'  using regular expression
+
+2019-04-25 09:52:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (3)' is clicked on
+
+2019-04-25 09:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (3)' is clicked on
+
+2019-04-25 09:52:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (2)' is clicked on
+
+2019-04-25 09:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (2)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0390-BackButton" classname="Test Cases/Autoposting TestCases/TC0390-BackButton" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:52:46 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0390-BackButton: Test Cases/Autoposting TestCases/TC0390-BackButton
+
+2019-04-25 09:52:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:46 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0382: Test Cases/Autoposting TestCases/TC0382
+
+2019-04-25 09:52:46 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:46 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:52:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:52:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:48 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:48 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:51 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:51 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:52 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:52:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:52 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:52 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:52:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Back (1) (1)' is clicked on
+
+2019-04-25 09:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Back (1) (1)' is clicked on
+
+2019-04-25 09:52:53 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting (1)' is clicked on
+
+2019-04-25 09:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0390" classname="Test Cases/Autoposting TestCases/TC0390" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:52:54 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0390: Test Cases/Autoposting TestCases/TC0390
+
+2019-04-25 09:52:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Autoposting TestCases/TC0383' successfully
+
+2019-04-25 09:52:54 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0383: Test Cases/Autoposting TestCases/TC0383
+
+2019-04-25 09:52:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:52:54 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0382: Test Cases/Autoposting TestCases/TC0382
+
+2019-04-25 09:52:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:54 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:52:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:52:55 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:52:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:52:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:52:56 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:52:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:52:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:52:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:52:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-gear (3)' is clicked on
+
+2019-04-25 09:52:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:59 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:52:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings' is clicked on
+
+2019-04-25 09:53:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Autoposting TestCases/TC0382' successfully
+
+2019-04-25 09:53:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings (4)' is clicked on
+
+2019-04-25 09:53:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Feed Settings (4)' is clicked on
+
+2019-04-25 09:53:00 - [TEST_STEP][PASSED] - setText: Text 'Facebook' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:53:01 - [MESSAGE][PASSED] - Text 'Facebook' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:53:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:53:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on
+
+2019-04-25 09:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on
+
+2019-04-25 09:53:02 - [TEST_STEP][PASSED] - setText: Text 'Facebook Page' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:53:03 - [MESSAGE][PASSED] - Text 'Facebook Page' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control m-input (3)'
+
+2019-04-25 09:53:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Save Changes (2)' is clicked on
+
+2019-04-25 09:53:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on
+
+2019-04-25 09:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (1)' is clicked on
+
+2019-04-25 09:53:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Autoposting TestCases/TC0383' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0391" classname="Test Cases/Autoposting TestCases/TC0391" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:53:04 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0391: Test Cases/Autoposting TestCases/TC0391
+
+2019-04-25 09:53:05 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:05 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:53:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:53:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:53:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:07 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:07 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:53:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:53:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:10 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:10 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_History' is clicked on
+
+2019-04-25 09:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_History' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0394" classname="Test Cases/Autoposting TestCases/TC0394" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:53:11 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0394: Test Cases/Autoposting TestCases/TC0394
+
+2019-04-25 09:53:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Autoposting TestCases/TC0391' successfully
+
+2019-04-25 09:53:11 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0391: Test Cases/Autoposting TestCases/TC0391
+
+2019-04-25 09:53:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:11 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:53:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:12 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:53:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:53:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:13 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:13 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:53:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:53:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:16 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_History' is clicked on
+
+2019-04-25 09:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_History' is clicked on
+
+2019-04-25 09:53:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Autoposting TestCases/TC0391' successfully
+
+2019-04-25 09:53:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/a_Back' is clicked on
+
+2019-04-25 09:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/a_Back' is clicked on
+
+2019-04-25 09:53:17 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:17 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0395" classname="Test Cases/Autoposting TestCases/TC0395" status="FAILED">
+         <failure type="FAILED" message="ERROR: No Table Present"/>
+         <system-out><![CDATA[2019-04-25 09:53:17 - [TEST_CASE][FAILED] - Test Cases/Autoposting TestCases/TC0395: Test Cases/Autoposting TestCases/TC0395 FAILED because (of) ERROR: No Table Present
+
+2019-04-25 09:53:18 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:18 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:53:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:53:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:53:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:20 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:53:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:53:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:22 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:23 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 09:53:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 09:53:28 - [TEST_STEP][PASSED] - Statement - date_page1 = getFirstRowDate(): null
+
+2019-04-25 09:53:28 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 09:53:28 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2019-04-25 09:53:28 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 09:53:28 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2019-04-25 09:53:28 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markFailed("ERROR: No Table Present"): null
+
+2019-04-25 09:53:28 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2019-04-25 09:53:28 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_KiboPush  Autoposting Messages/a_next' does not exist
+
+2019-04-25 09:53:28 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-04-25 09:53:29 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938\\1556168008527.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-25 09:53:17 - [TEST_CASE][FAILED] - Test Cases/Autoposting TestCases/TC0395: Test Cases/Autoposting TestCases/TC0395 FAILED because (of) ERROR: No Table Present]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0396" classname="Test Cases/Autoposting TestCases/TC0396" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)"/>
+         <system-out><![CDATA[2019-04-25 09:53:29 - [TEST_CASE][FAILED] - Test Cases/Autoposting TestCases/TC0396: Test Cases/Autoposting TestCases/TC0396 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2019-04-25 09:53:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:29 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:53:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:31 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:53:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:53:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:34 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:34 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:36 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:53:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:53:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:38 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:38 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 09:53:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 09:53:42 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2019-04-25 09:53:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_KiboPush  Autoposting Messages/a_next' does not exist
+
+2019-04-25 09:53:42 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-04-25 09:53:42 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938\\1556168022174.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-25 09:53:29 - [TEST_CASE][FAILED] - Test Cases/Autoposting TestCases/TC0396: Test Cases/Autoposting TestCases/TC0396 FAILED because (of) Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0397" classname="Test Cases/Autoposting TestCases/TC0397" status="FAILED">
+         <failure type="FAILED" message="ERROR: No Table Present"/>
+         <system-out><![CDATA[2019-04-25 09:53:42 - [TEST_CASE][FAILED] - Test Cases/Autoposting TestCases/TC0397: Test Cases/Autoposting TestCases/TC0397 FAILED because (of) ERROR: No Table Present
+
+2019-04-25 09:53:43 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:43 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:53:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:53:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:53:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:47 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:47 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:53:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:53:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:53:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/i_la la-envelope (1)' is clicked on
+
+2019-04-25 09:53:50 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:50 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)' is clicked on
+
+2019-04-25 09:53:51 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 09:53:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 09:53:56 - [TEST_STEP][PASSED] - Statement - date_page1 = getFirstRowDate(): null
+
+2019-04-25 09:53:56 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 09:53:56 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2019-04-25 09:53:56 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 09:53:56 - [TEST_STEP][PASSED] - Statement - Catch (Exception e): null
+
+2019-04-25 09:53:56 - [TEST_STEP][PASSED] - Statement - com.kms.katalon.core.util.KeywordUtil.markFailed("ERROR: No Table Present"): null
+
+2019-04-25 09:53:56 - [TEST_STEP][FAILED] - click: Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+
+2019-04-25 09:53:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Page_KiboPush  Autoposting Messages/a_3' does not exist
+
+2019-04-25 09:53:56 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-04-25 09:53:56 - [MESSAGE][FAILED] - Unable to click on object (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\Autoposting\\20190425_094938\\1556168036084.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-25 09:53:42 - [TEST_CASE][FAILED] - Test Cases/Autoposting TestCases/TC0397: Test Cases/Autoposting TestCases/TC0397 FAILED because (of) ERROR: No Table Present]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0398" classname="Test Cases/Autoposting TestCases/TC0398" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:53:56 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0398: Test Cases/Autoposting TestCases/TC0398
+
+2019-04-25 09:53:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:53:57 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:53:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:53:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:53:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:53:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:59 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:54:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:54:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:54:02 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'https://www.facebook.com/Test5-2090553931018635' is present on page 
+
+2019-04-25 09:54:02 - [MESSAGE][PASSED] - Text 'https://www.facebook.com/Test5-2090553931018635' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0399" classname="Test Cases/Autoposting TestCases/TC0399" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:54:02 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0399: Test Cases/Autoposting TestCases/TC0399
+
+2019-04-25 09:54:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:54:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:54:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:54:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:54:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:54:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:54:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:54:04 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:54:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:54:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:54:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:54:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:54:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:54:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on
+
+2019-04-25 09:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on
+
+2019-04-25 09:54:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:54:10 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0400" classname="Test Cases/Autoposting TestCases/TC0400" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:54:10 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0400: Test Cases/Autoposting TestCases/TC0400
+
+2019-04-25 09:54:10 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:54:10 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:54:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:54:11 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:54:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:54:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:54:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:54:12 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:54:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:54:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:54:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:54:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:54:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (4) (1)' is clicked on
+
+2019-04-25 09:54:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/span_Add Feed (4) (1)' is clicked on
+
+2019-04-25 09:54:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Twitter (1) (1)' is clicked on
+
+2019-04-25 09:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Twitter (1) (1)' is clicked on
+
+2019-04-25 09:54:16 - [TEST_STEP][PASSED] - setText: Text 'https://twitter.com/arveenkumar55' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control (4)'
+
+2019-04-25 09:54:17 - [MESSAGE][PASSED] - Text 'https://twitter.com/arveenkumar55' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control (4)'
+
+2019-04-25 09:54:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Twitter Account (1)' is clicked on
+
+2019-04-25 09:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Twitter Account (1)' is clicked on
+
+2019-04-25 09:54:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:54:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:54:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:54:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on
+
+2019-04-25 09:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Autoposting TestCases/TC0401" classname="Test Cases/Autoposting TestCases/TC0401" status="PASSED">
+         <system-out><![CDATA[2019-04-25 09:54:20 - [TEST_CASE][PASSED] - Test Cases/Autoposting TestCases/TC0401: Test Cases/Autoposting TestCases/TC0401
+
+2019-04-25 09:54:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:54:21 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Autoposting: Test Cases/s-sidebar_navigation/individualAccount/Autoposting
+
+2019-04-25 09:54:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:54:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging' is clicked on
+
+2019-04-25 09:54:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 09:54:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 09:54:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Autoposting' is clicked on
+
+2019-04-25 09:54:22 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:54:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 09:54:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h3_Auto Posting' is clicked on
+
+2019-04-25 09:54:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 09:54:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 09:54:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Autoposting' successfully
+
+2019-04-25 09:54:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Feed (1)' is clicked on
+
+2019-04-25 09:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add Feed (1)' is clicked on
+
+2019-04-25 09:54:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_WordPress (2)' is clicked on
+
+2019-04-25 09:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_WordPress (2)' is clicked on
+
+2019-04-25 09:54:26 - [TEST_STEP][PASSED] - setText: Text 'http://kibopush.com/wp-admin/' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control (5)'
+
+2019-04-25 09:54:27 - [MESSAGE][PASSED] - Text 'http://kibopush.com/wp-admin/' is set on object 'Object Repository/Page_KiboPush  Autoposting/input_form-control (5)'
+
+2019-04-25 09:54:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add WordPress Channel (1)' is clicked on
+
+2019-04-25 09:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Add WordPress Channel (1)' is clicked on
+
+2019-04-25 09:54:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/h4_WordPress Channel' is clicked on
+
+2019-04-25 09:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/h4_WordPress Channel' is clicked on
+
+2019-04-25 09:54:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/a_' is clicked on
+
+2019-04-25 09:54:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on
+
+2019-04-25 09:54:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Autoposting/button_Delete' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 09:49:47 - [TEST_SUITE][FAILED] - Autoposting: Test Cases/Autoposting TestCases/TC0395 FAILED because (of) ERROR: No Table Present]]></system-out>
+      <system-err><![CDATA[2019-04-25 09:49:47 - [TEST_SUITE][FAILED] - Autoposting: Test Cases/Autoposting TestCases/TC0395 FAILED because (of) ERROR: No Table Present]]></system-err>
+   </testsuite>
+</testsuites>

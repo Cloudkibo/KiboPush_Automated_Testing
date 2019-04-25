@@ -19,17 +19,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast (4)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Use Template (3)'))
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Edit Template (1)'))
 
 WebUI.delay(1)
 
 WebUI.scrollToPosition(0, 0)
-
-
 

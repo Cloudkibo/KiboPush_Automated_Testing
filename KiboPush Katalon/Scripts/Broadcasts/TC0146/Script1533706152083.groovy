@@ -40,7 +40,5 @@ String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
 WebUI.uploadFile(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_file'), img)
 
-WebUI.verifyElementPresent(findTestObject('Page_KiboPush  Create Broadcast/img'), 10)
 
-WebUI.closeBrowser()
 

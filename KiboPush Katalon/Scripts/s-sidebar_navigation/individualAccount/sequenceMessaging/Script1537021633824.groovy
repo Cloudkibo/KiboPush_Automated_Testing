@@ -19,15 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login-KiboEngage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Autoposting'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)'))
-
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging'))
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/h3_Sequence Messaging'))
+
+WebUI.delay(1)
 

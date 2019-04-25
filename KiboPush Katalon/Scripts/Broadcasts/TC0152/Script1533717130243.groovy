@@ -44,7 +44,8 @@ WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next (6)'))
-WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card in gallery must have _1'))
+WebUI.delay(1)
+
+WebUI.verifyTextPresent('IN GALLERY MUST HAVE AT LEAST TWO FILLED CARDS.', false)
 

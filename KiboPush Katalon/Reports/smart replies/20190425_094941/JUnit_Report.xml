@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="smart replies" time="382" tests="12" failures="8" errors="0">
+   <testsuite name="smart replies" tests="12" failures="8" errors="0" time="382" timestamp="2019-04-25 10:17:00" hostname="cloudkibo - 10.0.2.15" id="Test Suites/smart replies">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169488202.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169499419.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169510173.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169520930.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169531666.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169542478.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169612312.png, C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169622692.png"/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="7539c87bb5d87b76700fe7e5eec62fbf"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:17:01 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat
+
+2019-04-25 10:17:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 10:17:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 10:17:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 10:17:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 10:17:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-25 10:17:23 - [MESSAGE][PASSED] - Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-25 10:17:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-25 10:17:24 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-25 10:17:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-25 10:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-25 10:17:25 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 10:17:25 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 10:17:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 10:17:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 10:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-25 10:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-25 10:17:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-25 10:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-25 10:17:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:17:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:17:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-25 10:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-25 10:17:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:17:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:17:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on
+
+2019-04-25 10:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on
+
+2019-04-25 10:17:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:17:46 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/open_automation" classname="Test Cases/Smart Replies/open_automation" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:17:46 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/open_automation: Test Cases/Smart Replies/open_automation
+
+2019-04-25 10:17:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 10:17:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 10:17:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:17:47 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0618" classname="Test Cases/Smart Replies/TC0618" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:17:48 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:17:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:17:48 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:17:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:17:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:17:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:17:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:17:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:17:51 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:17:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:17:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:17:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:17:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:17:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:17:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:17:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:17:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:17:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:17:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:17:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:17:57 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0619" classname="Test Cases/Smart Replies/TC0619" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;rect x=&quot;8&quot; y=&quot;19.25&quot; width=&quot;24&quot; height=&quot;1.5&quot; fill=&quot;white&quot;>&lt;/rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:17:57 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect x="8" y="19.25" width="24" height="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:17:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:17:58 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:17:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:17:58 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:17:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:17:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:17:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:01 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:01 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:18:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:18:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:18:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:18:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:07 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:07 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:07 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:07 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect x="8" y="19.25" width="24" height="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:08 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect x="8" y="19.25" width="24" height="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169488202.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:17:57 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect x="8" y="19.25" width="24" height="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0621" classname="Test Cases/Smart Replies/TC0621" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;rect y=&quot;8&quot; x=&quot;19.25&quot; height=&quot;24&quot; width=&quot;1.5&quot; fill=&quot;white&quot;>&lt;/rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:18:08 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0621: Test Cases/Smart Replies/TC0621 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect y="8" x="19.25" height="24" width="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:09 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:18:09 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect y="8" x="19.25" height="24" width="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:09 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:18:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:09 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:12 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:18:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:18:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:18:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:18 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:19 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:19 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:19 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect y="8" x="19.25" height="24" width="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:19 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect y="8" x="19.25" height="24" width="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169499419.png]]
+
+2019-04-25 10:18:19 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:18:08 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0621: Test Cases/Smart Replies/TC0621 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect y="8" x="19.25" height="24" width="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0622" classname="Test Cases/Smart Replies/TC0622" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;circle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;20&quot; fill=&quot;black&quot;>&lt;/circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:18:19 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0622: Test Cases/Smart Replies/TC0622 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:19 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0622_n' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0622_n' failed)
+
+2019-04-25 10:18:20 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0622_n: Test Cases/Smart Replies/TC0622_n FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:20 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:18:20 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:20 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:18:20 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:20 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:18:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:23 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:23 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:18:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:18:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:28 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:18:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:18:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:29 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:29 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:30 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:30 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:30 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:30 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169510173.png]]
+
+2019-04-25 10:18:30 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:18:30 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0622_n' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0622_n' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:18:19 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0622: Test Cases/Smart Replies/TC0622 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0622_n" classname="Test Cases/Smart Replies/TC0622_n" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;circle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;20&quot; fill=&quot;black&quot;>&lt;/circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:18:30 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0622_n: Test Cases/Smart Replies/TC0622_n FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:30 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:18:31 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:31 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:18:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:31 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:18:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:33 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:33 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:18:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:18:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:18:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:18:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:40 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:40 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:40 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:40 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:40 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169520930.png]]
+
+2019-04-25 10:18:41 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:18:30 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0622_n: Test Cases/Smart Replies/TC0622_n FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0623" classname="Test Cases/Smart Replies/TC0623" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;circle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;20&quot; fill=&quot;black&quot;>&lt;/circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:18:41 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0623: Test Cases/Smart Replies/TC0623 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:41 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0622' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0622' failed)
+
+2019-04-25 10:18:41 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0622: Test Cases/Smart Replies/TC0622 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:41 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0622_n' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0622_n' failed)
+
+2019-04-25 10:18:41 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0622_n: Test Cases/Smart Replies/TC0622_n FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:41 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:18:41 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:41 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:18:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:41 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:18:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:44 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:18:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:18:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:18:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:18:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:18:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:50 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:51 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:18:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:18:51 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:51 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169531666.png]]
+
+2019-04-25 10:18:52 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:18:52 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0622_n' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0622_n' failed)
+
+2019-04-25 10:18:52 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0622' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0622' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:18:41 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0623: Test Cases/Smart Replies/TC0623 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0624" classname="Test Cases/Smart Replies/TC0624" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;div class=&quot;narcissus_17w311v&quot; style=&quot;position: absolute; margin-bottom: 20px; width: 500px; top: 101px; transform: matrix3d(1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1); left: 391px; opacity: 0.10209;&quot;>...&lt;/div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:18:52 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0624: Test Cases/Smart Replies/TC0624 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <div class="narcissus_17w311v" style="position: absolute; margin-bottom: 20px; width: 500px; top: 101px; transform: matrix3d(1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1); left: 391px; opacity: 0.10209;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:52 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0621' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0621' failed)
+
+2019-04-25 10:18:52 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0621: Test Cases/Smart Replies/TC0621 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <div class="narcissus_17w311v" style="position: absolute; margin-bottom: 20px; width: 500px; top: 101px; transform: matrix3d(1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1); left: 391px; opacity: 0.10209;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:52 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:18:52 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <div class="narcissus_17w311v" style="position: absolute; margin-bottom: 20px; width: 500px; top: 101px; transform: matrix3d(1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1); left: 391px; opacity: 0.10209;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:18:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:18:52 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:18:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:52 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:18:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:18:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:18:55 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:18:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:18:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:18:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:18:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:18:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:19:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:19:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:19:00 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:19:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:19:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:19:01 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:19:01 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:19:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:19:02 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:02 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <div class="narcissus_17w311v" style="position: absolute; margin-bottom: 20px; width: 500px; top: 101px; transform: matrix3d(1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1); left: 391px; opacity: 0.10209;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:19:02 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <div class="narcissus_17w311v" style="position: absolute; margin-bottom: 20px; width: 500px; top: 101px; transform: matrix3d(1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1); left: 391px; opacity: 0.10209;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169542478.png]]
+
+2019-04-25 10:19:02 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:19:02 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0621' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0621' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:18:52 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0624: Test Cases/Smart Replies/TC0624 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <div class="narcissus_17w311v" style="position: absolute; margin-bottom: 20px; width: 500px; top: 101px; transform: matrix3d(1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1.17958, 0, 0, 0, 0, 1); left: 391px; opacity: 0.10209;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/Test-Actions-Button" classname="Test Cases/Smart Replies/Test-Actions-Button" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:19:02 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-25 10:19:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:19:03 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:19:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:19:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:19:06 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:19:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:19:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:19:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:19:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:19:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0624 - delete" classname="Test Cases/Smart Replies/TC0624 - delete" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:19:11 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0624 - delete: Test Cases/Smart Replies/TC0624 - delete
+
+2019-04-25 10:19:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:19:11 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-25 10:19:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:19:11 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:19:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:19:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:19:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:19:14 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:14 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:19:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:19:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:19:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:19:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:19:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:19:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:19:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:19:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:19:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 10:19:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:19:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:19:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:19:31 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:19:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 10:19:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:19:36 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:19:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:19:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:19:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:19:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:19:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:19:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:19:48 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0625" classname="Test Cases/Smart Replies/TC0625" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:19:48 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0625: Test Cases/Smart Replies/TC0625
+
+2019-04-25 10:19:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:19:48 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:19:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:19:48 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:19:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:19:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:19:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:19:51 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:19:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:19:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:19:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:19:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:19:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:19:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:19:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:19:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:19:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:19:57 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2) (1)'
+
+2019-04-25 10:19:57 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2) (1)'
+
+2019-04-25 10:19:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:19:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:19:59 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'false' are selected in object 'Object Repository/Page_KiboPush  Dashboard/select_ActiveDisabled'  using regular expression
+
+2019-04-25 10:20:00 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Page_KiboPush  Dashboard/select_ActiveDisabled'  using regular expression
+
+2019-04-25 10:20:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:02 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0626" classname="Test Cases/Smart Replies/TC0626" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;circle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;20&quot; fill=&quot;black&quot;>&lt;/circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:20:02 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0626: Test Cases/Smart Replies/TC0626 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:20:02 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:20:02 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:20:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:20:02 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:20:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:20:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:05 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:05 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:20:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:20:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:20:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:20:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:20:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:20:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:20:11 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:20:11 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:20:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:20:12 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:12 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:20:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169612312.png]]
+
+2019-04-25 10:20:12 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:20:02 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0626: Test Cases/Smart Replies/TC0626 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0627" classname="Test Cases/Smart Replies/TC0627" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-subheader__title&quot;>...&lt;/h3> is not clickable at point (348, 118). Other element would receive the click: &lt;circle cx=&quot;20&quot; cy=&quot;20&quot; r=&quot;20&quot; fill=&quot;black&quot;>&lt;/circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)"/>
+         <system-out><![CDATA[2019-04-25 10:20:12 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0627: Test Cases/Smart Replies/TC0627 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:20:12 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0626' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0626' failed)
+
+2019-04-25 10:20:12 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0626: Test Cases/Smart Replies/TC0626 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:20:12 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:20:13 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:20:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:20:13 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-25 10:20:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:13 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:20:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:20:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:20:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:20:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-25 10:20:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:20:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:20:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-25 10:20:22 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:20:22 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-25 10:20:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:20:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-25 10:20:22 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:22 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+
+2019-04-25 10:20:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190425_094941\\1556169622692.png]]
+
+2019-04-25 10:20:23 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0619' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0619' failed)
+
+2019-04-25 10:20:23 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Smart Replies/TC0626' (Root cause: Call Test Case 'Test Cases/Smart Replies/TC0626' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-25 10:20:12 - [TEST_CASE][FAILED] - Test Cases/Smart Replies/TC0627: Test Cases/Smart Replies/TC0627 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <circle cx="20" cy="20" r="20" fill="black"></circle>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0629" classname="Test Cases/Smart Replies/TC0629" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:20:23 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0629: Test Cases/Smart Replies/TC0629
+
+2019-04-25 10:20:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:23 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:20:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:26 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:26 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:20:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:20:31 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 10:20:31 - [TEST_STEP][PASSED] - Statement - rows_table1 = driver.findElements(org.openqa.selenium.By.xpath("//*[@id="m_form_status"]/option")): null
+
+2019-04-25 10:20:31 - [TEST_STEP][PASSED] - Statement - println(rows_table1.size()): null
+
+2019-04-25 10:20:31 - [TEST_STEP][PASSED] - Statement - rows_table1[2].click(): null
+
+2019-04-25 10:20:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:20:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:20:34 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 10:20:34 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 10:20:34 - [TEST_STEP][PASSED] - Statement - rows_count = rows_table.size(): null
+
+2019-04-25 10:20:34 - [TEST_STEP][PASSED] - verifyEqual: Actual object '1' and expected object '1' are equal
+
+2019-04-25 10:20:34 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0632" classname="Test Cases/Smart Replies/TC0632" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:20:34 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0632: Test Cases/Smart Replies/TC0632
+
+2019-04-25 10:20:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:20:34 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-25 10:20:34 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:34 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:20:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:37 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:37 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:20:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:20:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:20:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:20:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:20:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:45 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0633" classname="Test Cases/Smart Replies/TC0633" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:20:45 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0633: Test Cases/Smart Replies/TC0633
+
+2019-04-25 10:20:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:20:45 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-25 10:20:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:45 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:20:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:20:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:20:47 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:47 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:20:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:20:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:20:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:20:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:20:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:20:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:20:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:20:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:20:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:20:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Edit' is clicked on
+
+2019-04-25 10:20:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0634" classname="Test Cases/Smart Replies/TC0634" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:20:55 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0634: Test Cases/Smart Replies/TC0634
+
+2019-04-25 10:20:55 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat' successfully
+
+2019-04-25 10:20:55 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat
+
+2019-04-25 10:20:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 10:20:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-25 10:20:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 10:20:59 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 10:21:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 10:21:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-25 10:21:10 - [MESSAGE][PASSED] - Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-25 10:21:10 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-25 10:21:11 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-25 10:21:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-25 10:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-25 10:21:12 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 10:21:12 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 10:21:12 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 10:21:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 10:21:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-25 10:21:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-25 10:21:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-25 10:21:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-25 10:21:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:21:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:21:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-25 10:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-25 10:21:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:21:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:21:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on
+
+2019-04-25 10:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on
+
+2019-04-25 10:21:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:21:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:21:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat' successfully
+
+2019-04-25 10:21:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/open_automation' successfully
+
+2019-04-25 10:21:39 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/open_automation: Test Cases/Smart Replies/open_automation
+
+2019-04-25 10:21:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 10:21:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-25 10:21:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:21:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:21:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/open_automation' successfully
+
+2019-04-25 10:21:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:21:40 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-25 10:21:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:21:40 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:21:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:21:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:21:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:21:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:21:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:21:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:21:43 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:21:43 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:21:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:21:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:21:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:21:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:21:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:21:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:21:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:21:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:21:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:21:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:21:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 10:21:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:21:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:21:54 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:21:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:21:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:21:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:21:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:21:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:00 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:22:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 10:22:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:22:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:22:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:22:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:22:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:22:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 10:22:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:22:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:22:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:22:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:22:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:22:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 10:22:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:22:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:22:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:31 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:22:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:22:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 10:22:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 10:22:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:22:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:22:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:22:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:22:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:22:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:22:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:22:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0635" classname="Test Cases/Smart Replies/TC0635" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:22:53 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0635: Test Cases/Smart Replies/TC0635
+
+2019-04-25 10:22:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:22:53 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-25 10:22:53 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:22:53 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:22:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:22:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:22:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:22:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:22:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:22:56 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:22:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:22:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:22:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:22:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:22:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:22:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:23:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:23:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:23:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:23:01 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:23:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:23:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Unanswered Queries (1) (1) (1)' is clicked on
+
+2019-04-25 10:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Unanswered Queries (1) (1) (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0636" classname="Test Cases/Smart Replies/TC0636" status="PASSED">
+         <system-out><![CDATA[2019-04-25 10:23:02 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0636: Test Cases/Smart Replies/TC0636
+
+2019-04-25 10:23:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:23:02 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-25 10:23:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:23:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-25 10:23:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 10:23:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:23:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:23:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-25 10:23:06 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:23:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:23:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:23:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:23:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-25 10:23:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-25 10:23:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:23:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:23:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:23:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-25 10:23:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:23:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:23:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Waiting Subscribers (1)' is clicked on
+
+2019-04-25 10:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Waiting Subscribers (1)' is clicked on
+
+2019-04-25 10:23:14 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:23:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 10:23:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Subscribers waiting for res (1)' is clicked on
+
+2019-04-25 10:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Subscribers waiting for res (1)' is clicked on
+
+2019-04-25 10:23:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/a_Back (6)' is clicked on
+
+2019-04-25 10:23:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_Back (6)' is clicked on
+
+2019-04-25 10:23:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 10:23:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 10:23:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:23:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-25 10:23:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 10:23:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 10:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-25 10:23:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:23:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-25 10:23:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 10:23:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 10:23:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-25 10:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 10:17:00 - [TEST_SUITE][FAILED] - smart replies: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect x="8" y="19.25" width="24" height="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-out>
+      <system-err><![CDATA[2019-04-25 10:17:00 - [TEST_SUITE][FAILED] - smart replies: Test Cases/Smart Replies/TC0619 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-subheader__title">...</h3> is not clickable at point (348, 118). Other element would receive the click: <rect x="8" y="19.25" width="24" height="1.5" fill="white"></rect>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: b5abdebd8c6d3d5147e6f6af0b83b15d)]]></system-err>
+   </testsuite>
+</testsuites>

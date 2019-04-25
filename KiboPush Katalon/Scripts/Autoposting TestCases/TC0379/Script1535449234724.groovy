@@ -19,11 +19,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autoposting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Add Feed'))
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Facebook Account'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Incorrect Url'))
 

@@ -19,7 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('Broadcasts/TC0150'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control_3'), 'Title')
@@ -29,10 +35,18 @@ WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_form-cont
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
 WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast/input_file'), img)
+WebUI.delay(5)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement image_popup = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/a'))
+
+image_popup.click()
+WebUI.delay(2)
 
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card in gallery must have (3)'))
+WebUI.verifyTextPresent('IN GALLERY MUST HAVE AT LEAST TWO FILLED CARDS.', false)
 

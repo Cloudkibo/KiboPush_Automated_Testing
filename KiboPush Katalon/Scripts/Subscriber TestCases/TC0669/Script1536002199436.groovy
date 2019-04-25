@@ -19,17 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Subscribers/a_Edit Tags (3)'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Subscribers/span_hello (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Subscribers/a_Edit Tags (3) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Subscribers/button_Delete (2)'))
+WebUI.click(findTestObject('Page_KiboPush  Subscribers/span_hello (1) (1)'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Page_KiboPush  Subscribers/button_Delete (2) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Subscribers/button_Cancel (1)'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_KiboEngage  Subscribers/button_Cancel (1)'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/span_hello'))
-
