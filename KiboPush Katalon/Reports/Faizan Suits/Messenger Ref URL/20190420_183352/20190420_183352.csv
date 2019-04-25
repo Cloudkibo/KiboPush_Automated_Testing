@@ -1,0 +1,54 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Messenger Ref URL,Chrome 73.0.3683.103,,,2019-04-20 18:34:00,2019-04-20 18:35:29,1m - 28.978s,PASSED
+,,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.103,,,2019-04-20 18:34:00,2019-04-20 18:34:57,56.903s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-20 18:34:01,2019-04-20 18:34:17,16.345s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,,2019-04-20 18:34:17,2019-04-20 18:34:17,0.129s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.103,,,2019-04-20 18:34:17,2019-04-20 18:34:27,9.994s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 18:34:27,2019-04-20 18:34:28,0.617s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.103,,,2019-04-20 18:34:28,2019-04-20 18:34:29,1.269s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 18:34:29,2019-04-20 18:34:30,0.411s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.103,,,2019-04-20 18:34:30,2019-04-20 18:34:30,0.330s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.103,,,2019-04-20 18:34:30,2019-04-20 18:34:30,0.142s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.103,,,2019-04-20 18:34:30,2019-04-20 18:34:54,23.516s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.103,,,2019-04-20 18:34:54,2019-04-20 18:34:54,0.175s,PASSED
+delay(3),Chrome 73.0.3683.103,,,2019-04-20 18:34:54,2019-04-20 18:34:57,3.126s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-20 18:34:57,2019-04-20 18:34:57,0.176s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-20 18:34:57,2019-04-20 18:34:57,0.162s,PASSED
+,,,,,,,
+Test Cases/Invite subscribers/open growth tools,Chrome 73.0.3683.103,,,2019-04-20 18:34:57,2019-04-20 18:34:59,1.688s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)""))",Chrome 73.0.3683.103,,,2019-04-20 18:34:58,2019-04-20 18:34:58,0.187s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-20 18:34:58,2019-04-20 18:34:59,1.004s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11223,Chrome 73.0.3683.103,,,2019-04-20 18:34:59,2019-04-20 18:35:02,2.862s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:34:59,2019-04-20 18:35:02,2.707s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11224,Chrome 73.0.3683.103,,,2019-04-20 18:35:02,2019-04-20 18:35:04,2.579s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:02,2019-04-20 18:35:04,2.406s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11225,Chrome 73.0.3683.103,,,2019-04-20 18:35:04,2019-04-20 18:35:07,2.454s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:05,2019-04-20 18:35:07,2.324s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11229,Chrome 73.0.3683.103,,,2019-04-20 18:35:07,2019-04-20 18:35:10,2.689s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:07,2019-04-20 18:35:10,2.504s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11230,Chrome 73.0.3683.103,,,2019-04-20 18:35:10,2019-04-20 18:35:12,2.425s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:10,2019-04-20 18:35:12,2.307s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11231,Chrome 73.0.3683.103,,,2019-04-20 18:35:12,2019-04-20 18:35:15,2.550s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:12,2019-04-20 18:35:15,2.378s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11232,Chrome 73.0.3683.103,,,2019-04-20 18:35:15,2019-04-20 18:35:17,2.578s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:15,2019-04-20 18:35:17,2.438s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11233,Chrome 73.0.3683.103,,,2019-04-20 18:35:17,2019-04-20 18:35:20,2.448s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:17,2019-04-20 18:35:20,2.333s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11235,Chrome 73.0.3683.103,,,2019-04-20 18:35:20,2019-04-20 18:35:23,2.512s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:20,2019-04-20 18:35:23,2.341s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11236,Chrome 73.0.3683.103,,,2019-04-20 18:35:23,2019-04-20 18:35:25,2.480s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:23,2019-04-20 18:35:25,2.357s,PASSED
+,,,,,,,
+Test Cases/Messenger Ref URL/TC11237,Chrome 73.0.3683.103,,,2019-04-20 18:35:25,2019-04-20 18:35:28,2.474s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Messenger Ref URL""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 18:35:25,2019-04-20 18:35:28,2.341s,PASSED

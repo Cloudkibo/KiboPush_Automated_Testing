@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ManagePages" time="140" tests="15" failures="1" errors="0">
+   <testsuite name="ManagePages" tests="15" failures="1" errors="0" time="140" timestamp="2019-04-21 02:04:55" hostname="faizan - faizan-HP-EliteBook-850-G2" id="Test Suites/Faizan Suits/ManagePages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/ManagePages/20190421_020447"/>
+         <property name="logFiles" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/ManagePages/20190421_020447/execution0.log"/>
+         <property name="attachments" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/ManagePages/20190421_020447/1555794397513.png"/>
+         <property name="hostName" value="faizan - faizan-HP-EliteBook-850-G2"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="567de9af9202b29ed4e4da4c5b90831e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:04:55 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage
+
+2019-04-21 02:04:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-21 02:04:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-21 02:04:57 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-04-21 02:04:57 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-21 02:05:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-21 02:05:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-21 02:05:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-21 02:05:06 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/"): Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-21 02:05:22 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-21 02:05:22 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"): Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-21 02:05:23 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-21 02:05:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-21 02:05:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-21 02:05:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizan@cloudkibo.com"): Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-21 02:05:24 - [MESSAGE][PASSED] - Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-21 02:05:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (7)"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-21 02:05:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-21 02:05:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-21 02:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-21 02:05:25 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/dashboard"): Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-21 02:05:47 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-21 02:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-21 02:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-21 02:05:47 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-21 02:05:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-21 02:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-21 02:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-21 02:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-21 02:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Welcome messages/open Manage Pages" classname="Test Cases/Welcome messages/open Manage Pages" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:05:51 - [TEST_CASE][PASSED] - Test Cases/Welcome messages/open Manage Pages: Test Cases/Welcome messages/open Manage Pages
+
+2019-04-21 02:05:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Manage Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Manage Pages' is clicked on
+
+2019-04-21 02:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Manage Pages' is clicked on
+
+2019-04-21 02:05:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:05:53 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0402" classname="Test Cases/Manage Pages TestCases/TC0402" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:05:53 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0402: Test Cases/Manage Pages TestCases/TC0402
+
+2019-04-21 02:05:53 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:05:53 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:05:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:05:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:05:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:05:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:05:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:05:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:05:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_documentation (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_documentation (1)' is clicked on
+
+2019-04-21 02:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_documentation (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0403" classname="Test Cases/Manage Pages TestCases/TC0403" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:05:56 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0403: Test Cases/Manage Pages TestCases/TC0403
+
+2019-04-21 02:05:56 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:05:57 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:05:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:05:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:05:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:05:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:05:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:05:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:05:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:05:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:05:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:05:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_video tutorial (1) (1)")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_video tutorial (1) (1)' is clicked on
+
+2019-04-21 02:06:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_video tutorial (1) (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0404" classname="Test Cases/Manage Pages TestCases/TC0404" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:00 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0404: Test Cases/Manage Pages TestCases/TC0404
+
+2019-04-21 02:06:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:00 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:05 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 02:06:05 - [TEST_STEP][PASSED] - Table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-21 02:06:05 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(Table.size(), 1): Actual number '6' is greater than or equal to expected number '1'
+
+2019-04-21 02:06:05 - [MESSAGE][PASSED] - Actual number '6' is greater than or equal to expected number '1'
+
+2019-04-21 02:06:05 - [TEST_STEP][PASSED] - println(Table.size()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0405" classname="Test Cases/Manage Pages TestCases/TC0405" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:05 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0405: Test Cases/Manage Pages TestCases/TC0405
+
+2019-04-21 02:06:06 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:06 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_KiboEngage  Page/input_generalSearch"), "production new"): Text 'production new' is set on object 'Object Repository/Page_KiboEngage  Page/input_generalSearch'
+
+2019-04-21 02:06:09 - [MESSAGE][PASSED] - Text 'production new' is set on object 'Object Repository/Page_KiboEngage  Page/input_generalSearch'
+
+2019-04-21 02:06:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:11 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 02:06:11 - [TEST_STEP][PASSED] - Table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-21 02:06:11 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(Table.size(), 1): Actual number '1' is greater than or equal to expected number '1'
+
+2019-04-21 02:06:11 - [MESSAGE][PASSED] - Actual number '1' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0406" classname="Test Cases/Manage Pages TestCases/TC0406" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:11 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0406: Test Cases/Manage Pages TestCases/TC0406
+
+2019-04-21 02:06:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:12 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_next")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_next' is clicked on
+
+2019-04-21 02:06:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_next' is clicked on
+
+2019-04-21 02:06:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:19 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 02:06:19 - [TEST_STEP][PASSED] - rows_table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-21 02:06:19 - [TEST_STEP][PASSED] - println(rows_table.size()): null
+
+2019-04-21 02:06:19 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(rows_table.size(), 1): Actual number '6' is greater than or equal to expected number '1'
+
+2019-04-21 02:06:19 - [MESSAGE][PASSED] - Actual number '6' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0407" classname="Test Cases/Manage Pages TestCases/TC0407" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:19 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0407: Test Cases/Manage Pages TestCases/TC0407
+
+2019-04-21 02:06:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:20 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_next")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_next' is clicked on
+
+2019-04-21 02:06:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_next' is clicked on
+
+2019-04-21 02:06:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_previous")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_previous' is clicked on
+
+2019-04-21 02:06:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_previous' is clicked on
+
+2019-04-21 02:06:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:25 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 02:06:25 - [TEST_STEP][PASSED] - rows_table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-21 02:06:25 - [TEST_STEP][PASSED] - println(rows_table.size()): null
+
+2019-04-21 02:06:25 - [TEST_STEP][PASSED] - verifyEqual(rows_table.size(), 6): Actual object '6' and expected object '6' are equal
+
+2019-04-21 02:06:25 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0408" classname="Test Cases/Manage Pages TestCases/TC0408" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:25 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0408: Test Cases/Manage Pages TestCases/TC0408
+
+2019-04-21 02:06:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:25 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/a_next")): Object: 'Object Repository/Page_KiboPush  Dashboard/a_next' is clicked on
+
+2019-04-21 02:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_next' is clicked on
+
+2019-04-21 02:06:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:32 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 02:06:32 - [TEST_STEP][PASSED] - rows_table = driver.findElements(By.xpath("//table/tbody/tr")): null
+
+2019-04-21 02:06:32 - [TEST_STEP][PASSED] - println(rows_table.size()): null
+
+2019-04-21 02:06:32 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual(rows_table.size(), 1): Actual number '6' is greater than or equal to expected number '1'
+
+2019-04-21 02:06:32 - [MESSAGE][PASSED] - Actual number '6' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0409" classname="Test Cases/Manage Pages TestCases/TC0409" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Manage Pages TestCases/TC0409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC0409.run(TC0409:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555794287230.run(TempTestSuite1555794287230.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;btn btn-primary btn-sm&quot; style=&quot;float: right; margin: 2px;&quot;>...&lt;/button> is not clickable at point (1128, 18). Other element would receive the click: &lt;li class=&quot;m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light&quot; data-dropdown-toggle=&quot;click&quot;>...&lt;/li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.15.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'faizan-HP-EliteBook-850-G2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-47-generic', java.version: '1.8.0_191'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.7sFRac}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35031}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 567de9af9202b29ed4e4da4c5b90831e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1536173041146.run(Script1536173041146.groovy:26)
+	... 13 more
+"/>
+         <system-out><![CDATA[2019-04-21 02:06:32 - [TEST_CASE][FAILED] - Test Cases/Manage Pages TestCases/TC0409: Test Cases/Manage Pages TestCases/TC0409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC0409.run(TC0409:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555794287230.run(TempTestSuite1555794287230.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary btn-sm" style="float: right; margin: 2px;">...</button> is not clickable at point (1128, 18). Other element would receive the click: <li class="m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">...</li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.15.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'faizan-HP-EliteBook-850-G2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-47-generic', java.version: '1.8.0_191'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.7sFRac}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35031}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 567de9af9202b29ed4e4da4c5b90831e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1536173041146.run(Script1536173041146.groovy:26)
+	... 13 more
+
+
+2019-04-21 02:06:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:32 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:37 - [TEST_STEP][FAILED] - click(findTestObject("Page_KiboPush  Dashboard/button_Invite Subscribers (1)")): Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC0409.run(TC0409:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555794287230.run(TempTestSuite1555794287230.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary btn-sm" style="float: right; margin: 2px;">...</button> is not clickable at point (1128, 18). Other element would receive the click: <li class="m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">...</li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.15.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'faizan-HP-EliteBook-850-G2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-47-generic', java.version: '1.8.0_191'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.7sFRac}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35031}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 567de9af9202b29ed4e4da4c5b90831e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1536173041146.run(Script1536173041146.groovy:26)
+	... 13 more
+)
+
+2019-04-21 02:06:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC0409.run(TC0409:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555794287230.run(TempTestSuite1555794287230.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary btn-sm" style="float: right; margin: 2px;">...</button> is not clickable at point (1128, 18). Other element would receive the click: <li class="m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">...</li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.15.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'faizan-HP-EliteBook-850-G2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-47-generic', java.version: '1.8.0_191'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.7sFRac}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35031}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 567de9af9202b29ed4e4da4c5b90831e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1536173041146.run(Script1536173041146.groovy:26)
+	... 13 more
+)
+[[ATTACHMENT|/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/ManagePages/20190421_020447/1555794397513.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-21 02:06:32 - [TEST_CASE][FAILED] - Test Cases/Manage Pages TestCases/TC0409: Test Cases/Manage Pages TestCases/TC0409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC0409.run(TC0409:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555794287230.run(TempTestSuite1555794287230.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary btn-sm" style="float: right; margin: 2px;">...</button> is not clickable at point (1128, 18). Other element would receive the click: <li class="m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">...</li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.15.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'faizan-HP-EliteBook-850-G2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-47-generic', java.version: '1.8.0_191'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.7sFRac}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35031}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 567de9af9202b29ed4e4da4c5b90831e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1536173041146.run(Script1536173041146.groovy:26)
+	... 13 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0410" classname="Test Cases/Manage Pages TestCases/TC0410" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:38 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0410: Test Cases/Manage Pages TestCases/TC0410
+
+2019-04-21 02:06:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:38 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/button_Remove")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Remove' is clicked on
+
+2019-04-21 02:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Remove' is clicked on
+
+2019-04-21 02:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/remove_button_pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/remove_button_pages' is clicked on
+
+2019-04-21 02:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/remove_button_pages' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0411" classname="Test Cases/Manage Pages TestCases/TC0411" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:41 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0411: Test Cases/Manage Pages TestCases/TC0411
+
+2019-04-21 02:06:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:42 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:44 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Connect New")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/h3_Manage Pages (1)")): Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:06:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:47 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+2019-04-21 02:06:47 - [TEST_STEP][PASSED] - Table = driver.findElements(By.xpath("//*[@id="content"]/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/div")): null
+
+2019-04-21 02:06:47 - [TEST_STEP][PASSED] - verifyEqual(Table.size(), 1): Actual object '1' and expected object '1' are equal
+
+2019-04-21 02:06:47 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2019-04-21 02:06:47 - [TEST_STEP][PASSED] - println(Table.size()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0412" classname="Test Cases/Manage Pages TestCases/TC0412" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:47 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0412: Test Cases/Manage Pages TestCases/TC0412
+
+2019-04-21 02:06:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:47 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:50 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:50 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Connect New")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/h3_Manage Pages (1)")): Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:06:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:06:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-21 02:06:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-21 02:06:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/button_Disconnect")): Object: 'Object Repository/Page_KiboPush  Add Pages/button_Disconnect' is clicked on
+
+2019-04-21 02:06:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/button_Disconnect' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0413" classname="Test Cases/Manage Pages TestCases/TC0413" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:06:53 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0413: Test Cases/Manage Pages TestCases/TC0413
+
+2019-04-21 02:06:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:54 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:06:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:06:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:06:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:06:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:06:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:06:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:06:58 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:58 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Connect New")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:06:59 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:59 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:06:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/h3_Manage Pages (1)")): Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:06:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:06:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-21 02:07:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-21 02:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/button_Connect")): Object: 'Object Repository/Page_KiboPush  Add Pages/button_Connect' is clicked on
+
+2019-04-21 02:07:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/button_Connect' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0414" classname="Test Cases/Manage Pages TestCases/TC0414" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:07:02 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0414: Test Cases/Manage Pages TestCases/TC0414
+
+2019-04-21 02:07:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:07:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:07:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:07:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:07:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:07:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:07:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:07:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:07:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:07:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:07:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:07:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:07:07 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:07 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Connect New")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:07:07 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:07 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/h3_Manage Pages (1)")): Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages (1)' is clicked on
+
+2019-04-21 02:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/button_Connect")): Object: 'Object Repository/Page_KiboPush  Add Pages/button_Connect' is clicked on
+
+2019-04-21 02:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/button_Connect' is clicked on
+
+2019-04-21 02:07:08 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/button_Disconnect")): Object: 'Object Repository/Page_KiboPush  Add Pages/button_Disconnect' is clicked on
+
+2019-04-21 02:07:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/button_Disconnect' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Manage Pages TestCases/TC0415" classname="Test Cases/Manage Pages TestCases/TC0415" status="PASSED">
+         <system-out><![CDATA[2019-04-21 02:07:08 - [TEST_CASE][PASSED] - Test Cases/Manage Pages TestCases/TC0415: Test Cases/Manage Pages TestCases/TC0415
+
+2019-04-21 02:07:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Pages"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:07:09 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Pages: Test Cases/s-sidebar_navigation/individualAccount/Pages
+
+2019-04-21 02:07:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu")): Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:07:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Welcome Message/span_Persistent Menu' is clicked on
+
+2019-04-21 02:07:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:07:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:07:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Pages")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:07:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Pages' is clicked on
+
+2019-04-21 02:07:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-21 02:07:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-21 02:07:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Pages' successfully
+
+2019-04-21 02:07:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-21 02:07:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-21 02:07:13 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:13 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/button_Connect New")): Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:07:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Connect New' is clicked on
+
+2019-04-21 02:07:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/button_Connect")): Object: 'Object Repository/Page_KiboPush  Add Pages/button_Connect' is clicked on
+
+2019-04-21 02:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/button_Connect' is clicked on
+
+2019-04-21 02:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/a_Done")): Object: 'Object Repository/Page_KiboPush  Add Pages/a_Done' is clicked on
+
+2019-04-21 02:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/a_Done' is clicked on
+
+2019-04-21 02:07:14 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-21 02:07:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Add Pages/h3_Manage Pages")): Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages' is clicked on
+
+2019-04-21 02:07:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Add Pages/h3_Manage Pages' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-21 02:04:55 - [TEST_SUITE][FAILED] - ManagePages: Test Cases/Manage Pages TestCases/TC0409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC0409.run(TC0409:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555794287230.run(TempTestSuite1555794287230.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary btn-sm" style="float: right; margin: 2px;">...</button> is not clickable at point (1128, 18). Other element would receive the click: <li class="m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">...</li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.15.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'faizan-HP-EliteBook-850-G2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-47-generic', java.version: '1.8.0_191'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.7sFRac}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35031}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 567de9af9202b29ed4e4da4c5b90831e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1536173041146.run(Script1536173041146.groovy:26)
+	... 13 more]]></system-out>
+      <system-err><![CDATA[2019-04-21 02:04:55 - [TEST_SUITE][FAILED] - ManagePages: Test Cases/Manage Pages TestCases/TC0409 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_KiboPush  Dashboard/button_Invite Subscribers (1)'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at TC0409.run(TC0409:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:336)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:327)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:306)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:232)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555794287230.run(TempTestSuite1555794287230.groovy:35)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary btn-sm" style="float: right; margin: 2px;">...</button> is not clickable at point (1128, 18). Other element would receive the click: <li class="m-nav__item m-topbar__quick-actions m-topbar__quick-actions--img m-dropdown m-dropdown--large m-dropdown--header-bg-fill m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--mobile-full-width m-dropdown--skin-light" data-dropdown-toggle="click">...</li>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=73.0.3683.68 (47787ec04b6e38e22703e856e101e840b65afe72),platform=Linux 4.15.0-47-generic x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'faizan-HP-EliteBook-850-G2', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-47-generic', java.version: '1.8.0_191'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 73.0.3683.68 (47787ec04b6e3..., userDataDir: /tmp/.com.google.Chrome.7sFRac}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:35031}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 567de9af9202b29ed4e4da4c5b90831e
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Script1536173041146.run(Script1536173041146.groovy:26)
+	... 13 more]]></system-err>
+   </testsuite>
+</testsuites>

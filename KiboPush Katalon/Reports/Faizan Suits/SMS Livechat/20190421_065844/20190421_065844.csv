@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SMS Livechat,Chrome 73.0.3683.103,,,2019-04-21 07:04:00,2019-04-21 07:05:05,1m - 5.120s,PASSED
+,,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kibochat,Chrome 73.0.3683.103,,,2019-04-21 07:04:00,2019-04-21 07:04:46,45.499s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-21 07:04:01,2019-04-21 07:04:03,2.272s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,,2019-04-21 07:04:03,2019-04-21 07:04:03,0.138s,PASSED
+"navigateToUrl(""https://kibochat.cloudkibo.com/"")",Chrome 73.0.3683.103,,,2019-04-21 07:04:03,2019-04-21 07:04:10,6.791s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-21 07:04:10,2019-04-21 07:04:11,0.546s,PASSED
+"click(findTestObject(""Page_KiboPush/a_Login (10)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:11,2019-04-21 07:04:12,1.016s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-21 07:04:12,2019-04-21 07:04:12,0.270s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.103,,,2019-04-21 07:04:12,2019-04-21 07:04:12,0.214s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (11)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:12,2019-04-21 07:04:12,0.123s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (58)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:12,2019-04-21 07:04:43,30.221s,PASSED
+delay(3),Chrome 73.0.3683.103,,,2019-04-21 07:04:43,2019-04-21 07:04:46,3.044s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:46,2019-04-21 07:04:46,0.177s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Messenger""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:46,2019-04-21 07:04:46,0.163s,PASSED
+,,,,,,,
+Test Cases/SMS/SMSPlatform,Chrome 73.0.3683.103,,,2019-04-21 07:04:46,2019-04-21 07:04:48,1.696s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (1)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:46,2019-04-21 07:04:46,0.160s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_SMS (1)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:46,2019-04-21 07:04:47,0.213s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:47,2019-04-21 07:04:48,1.003s,PASSED
+,,,,,,,
+Test Cases/SMS/Sms Livechat/TC11188,Chrome 73.0.3683.103,,,2019-04-21 07:04:48,2019-04-21 07:04:50,2.426s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:48,2019-04-21 07:04:48,0.126s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:48,2019-04-21 07:04:49,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:49,2019-04-21 07:04:49,0.141s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:49,2019-04-21 07:04:50,1.003s,PASSED
+,,,,,,,
+Test Cases/SMS/Sms Livechat/TC11189,Chrome 73.0.3683.103,,,2019-04-21 07:04:50,2019-04-21 07:04:53,2.936s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:50,2019-04-21 07:04:51,0.371s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:51,2019-04-21 07:04:52,1.005s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:52,2019-04-21 07:04:52,0.282s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:52,2019-04-21 07:04:53,1.011s,PASSED
+,,,,,,,
+Test Cases/SMS/Sms Livechat/TC11190,Chrome 73.0.3683.103,,,2019-04-21 07:04:53,2019-04-21 07:04:56,3.078s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:53,2019-04-21 07:04:53,0.209s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:53,2019-04-21 07:04:54,1.005s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:54,2019-04-21 07:04:55,0.198s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:55,2019-04-21 07:04:56,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Live Chat/span_Faizan""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:56,2019-04-21 07:04:56,0.252s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:56,2019-04-21 07:04:56,0.237s,PASSED
+,,,,,,,
+Test Cases/SMS/Sms Livechat/TC11191,Chrome 73.0.3683.103,,,2019-04-21 07:04:56,2019-04-21 07:04:59,2.888s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:56,2019-04-21 07:04:57,0.226s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:57,2019-04-21 07:04:58,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:58,2019-04-21 07:04:58,0.337s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:58,2019-04-21 07:04:59,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Live Chat/div_Faizan wrote""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:59,2019-04-21 07:04:59,0.128s,PASSED
+,,,,,,,
+Test Cases/SMS/Sms Livechat/TC11193,Chrome 73.0.3683.103,,,2019-04-21 07:04:59,2019-04-21 07:05:05,6.129s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.103,,,2019-04-21 07:04:59,2019-04-21 07:04:59,0.195s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:04:59,2019-04-21 07:05:00,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboChat  Dashboard/span_Live Chat (Beta)""))",Chrome 73.0.3683.103,,,2019-04-21 07:05:00,2019-04-21 07:05:01,0.229s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-21 07:05:01,2019-04-21 07:05:02,1.003s,PASSED
+"setText(findTestObject(""Page_KiboChat  Live Chat/input_User Guide_generalSearch""), ""imran"")",Chrome 73.0.3683.103,,,2019-04-21 07:05:02,2019-04-21 07:05:02,0.326s,PASSED
+delay(3),Chrome 73.0.3683.103,,,2019-04-21 07:05:02,2019-04-21 07:05:05,3.005s,PASSED
+"click(findTestObject(""Page_KiboChat  Live Chat/span_Anisha (1)""))",Chrome 73.0.3683.103,,,2019-04-21 07:05:05,2019-04-21 07:05:05,0.139s,PASSED

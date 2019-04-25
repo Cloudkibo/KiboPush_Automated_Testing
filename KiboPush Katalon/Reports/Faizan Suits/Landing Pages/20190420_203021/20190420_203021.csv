@@ -1,0 +1,102 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Landing Pages,Chrome 73.0.3683.103,,,2019-04-20 20:30:28,2019-04-20 20:33:09,2m - 40.980s,FAILED
+,,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.103,,,2019-04-20 20:30:28,2019-04-20 20:32:23,1m - 55.321s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,,2019-04-20 20:30:29,2019-04-20 20:30:41,12.195s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,,2019-04-20 20:30:41,2019-04-20 20:30:41,0.221s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.103,,,2019-04-20 20:30:41,2019-04-20 20:31:07,25.991s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 20:31:07,2019-04-20 20:31:08,0.500s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.103,,,2019-04-20 20:31:08,2019-04-20 20:31:09,1.016s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.103,,,2019-04-20 20:31:09,2019-04-20 20:31:09,0.465s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.103,,,2019-04-20 20:31:09,2019-04-20 20:31:10,0.423s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.103,,,2019-04-20 20:31:10,2019-04-20 20:31:10,0.169s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.103,,,2019-04-20 20:31:10,2019-04-20 20:32:20,1m - 9.861s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.103,,,2019-04-20 20:32:20,2019-04-20 20:32:20,0.283s,PASSED
+delay(3),Chrome 73.0.3683.103,,,2019-04-20 20:32:20,2019-04-20 20:32:23,3.186s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-20 20:32:23,2019-04-20 20:32:23,0.193s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.103,,,2019-04-20 20:32:23,2019-04-20 20:32:23,0.164s,PASSED
+,,,,,,,
+Test Cases/Invite subscribers/open growth tools,Chrome 73.0.3683.103,,,2019-04-20 20:32:24,2019-04-20 20:32:25,1.482s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)""))",Chrome 73.0.3683.103,,,2019-04-20 20:32:24,2019-04-20 20:32:24,0.199s,PASSED
+delay(1),Chrome 73.0.3683.103,,,2019-04-20 20:32:24,2019-04-20 20:32:25,1.003s,PASSED
+,,,,,,,
+Test Cases/Landing Pages/TC11270,Chrome 73.0.3683.103,,,2019-04-20 20:32:25,2019-04-20 20:32:27,2.312s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:25,2019-04-20 20:32:27,2.168s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11260,Chrome 73.0.3683.103,,,2019-04-20 20:32:27,2019-04-20 20:32:29,1.910s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:28,2019-04-20 20:32:29,1.631s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11275,Chrome 73.0.3683.103,,,2019-04-20 20:32:29,2019-04-20 20:32:31,1.620s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:29,2019-04-20 20:32:31,1.467s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11277,Chrome 73.0.3683.103,,,2019-04-20 20:32:31,2019-04-20 20:32:33,1.581s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:31,2019-04-20 20:32:33,1.462s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11268,Chrome 73.0.3683.103,,,2019-04-20 20:32:33,2019-04-20 20:32:34,1.659s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:33,2019-04-20 20:32:34,1.420s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11263,Chrome 73.0.3683.103,,,2019-04-20 20:32:34,2019-04-20 20:32:36,1.690s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:34,2019-04-20 20:32:36,1.450s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11272,Chrome 73.0.3683.103,,,2019-04-20 20:32:36,2019-04-20 20:32:37,1.451s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:36,2019-04-20 20:32:37,1.347s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11265,Chrome 73.0.3683.103,,,2019-04-20 20:32:37,2019-04-20 20:32:39,1.556s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:38,2019-04-20 20:32:39,1.385s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11266,Chrome 73.0.3683.103,,,2019-04-20 20:32:39,2019-04-20 20:32:41,1.547s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:39,2019-04-20 20:32:41,1.408s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11257,Chrome 73.0.3683.103,,,2019-04-20 20:32:41,2019-04-20 20:32:42,1.648s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:41,2019-04-20 20:32:42,1.450s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11274,Chrome 73.0.3683.103,,,2019-04-20 20:32:42,2019-04-20 20:32:44,1.468s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:42,2019-04-20 20:32:44,1.354s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11239,Chrome 73.0.3683.103,,,2019-04-20 20:32:44,2019-04-20 20:32:45,1.560s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:44,2019-04-20 20:32:45,1.459s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11278,Chrome 73.0.3683.103,,,2019-04-20 20:32:45,2019-04-20 20:32:47,1.594s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:45,2019-04-20 20:32:47,1.422s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11261,Chrome 73.0.3683.103,,,2019-04-20 20:32:47,2019-04-20 20:32:48,1.533s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:47,2019-04-20 20:32:48,1.387s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11262,Chrome 73.0.3683.103,,,2019-04-20 20:32:48,2019-04-20 20:32:50,1.529s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:48,2019-04-20 20:32:50,1.428s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11245,Chrome 73.0.3683.103,,,2019-04-20 20:32:50,2019-04-20 20:32:52,1.602s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:50,2019-04-20 20:32:52,1.448s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11271,Chrome 73.0.3683.103,,,2019-04-20 20:32:52,2019-04-20 20:32:53,1.570s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:52,2019-04-20 20:32:53,1.412s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11267,Chrome 73.0.3683.103,,,2019-04-20 20:32:53,2019-04-20 20:32:55,1.521s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:53,2019-04-20 20:32:55,1.367s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11259,Chrome 73.0.3683.103,,,2019-04-20 20:32:55,2019-04-20 20:32:56,1.506s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:55,2019-04-20 20:32:56,1.344s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11269,Chrome 73.0.3683.103,,,2019-04-20 20:32:56,2019-04-20 20:32:58,1.540s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:56,2019-04-20 20:32:58,1.397s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11241,Chrome 73.0.3683.103,,,2019-04-20 20:32:58,2019-04-20 20:32:59,1.539s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:58,2019-04-20 20:32:59,1.391s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11276,Chrome 73.0.3683.103,,,2019-04-20 20:32:59,2019-04-20 20:33:01,1.448s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:32:59,2019-04-20 20:33:01,1.365s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11279,Chrome 73.0.3683.103,,,2019-04-20 20:33:01,2019-04-20 20:33:02,1.456s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:33:01,2019-04-20 20:33:02,1.362s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11240,Chrome 73.0.3683.103,,,2019-04-20 20:33:02,2019-04-20 20:33:04,1.514s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:33:02,2019-04-20 20:33:04,1.397s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11264,Chrome 73.0.3683.103,,,2019-04-20 20:33:04,2019-04-20 20:33:05,1.587s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:33:04,2019-04-20 20:33:05,1.402s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11258,Chrome 73.0.3683.103,,,2019-04-20 20:33:05,2019-04-20 20:33:07,1.416s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:33:06,2019-04-20 20:33:07,1.316s,FAILED
+,,,,,,,
+Test Cases/Landing Pages/TC11273,Chrome 73.0.3683.103,,,2019-04-20 20:33:07,2019-04-20 20:33:08,1.475s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Landing Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.103,,,2019-04-20 20:33:07,2019-04-20 20:33:08,1.364s,FAILED

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Comment Capture" time="82" tests="4" failures="0" errors="0">
+   <testsuite name="Comment Capture" tests="4" failures="0" errors="0" time="82" timestamp="2019-04-20 16:37:00" hostname="faizan - faizan-HP-EliteBook-850-G2" id="Test Suites/Faizan Suits/Comment Capture">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/Comment Capture/20190420_163653"/>
+         <property name="logFiles" value="/home/faizan/Drive/KiboPush_Automated_Testing/KiboPush Katalon/Reports/Faizan Suits/Comment Capture/20190420_163653/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="faizan - faizan-HP-EliteBook-850-G2"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="ccfd1bec185380502f11265b74923ae4"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-20 16:37:01 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage
+
+2019-04-20 16:37:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-20 16:37:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-20 16:37:02 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox]']
+
+2019-04-20 16:37:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-20 16:37:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-20 16:37:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-20 16:37:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-20 16:37:14 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/"): Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-20 16:37:28 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-20 16:37:28 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"): Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-20 16:37:28 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-20 16:37:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_CloudKibo/a_Login (2) (1) (1)")): Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-20 16:37:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-20 16:37:29 - [TEST_STEP][PASSED] - setText(findTestObject("Page_KiboPush/input_email (10) (1) (1)"), "faizan@cloudkibo.com"): Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-20 16:37:29 - [MESSAGE][PASSED] - Text 'faizan@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-20 16:37:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_CloudKibo/input_Sign In_password (7)"), "qeJ0sjJnwEs="): Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-20 16:37:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-20 16:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush/button_Sign In (10) (1) (2)")): Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-20 16:37:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-20 16:37:30 - [TEST_STEP][PASSED] - navigateToUrl("https://kiboengage.cloudkibo.com/dashboard"): Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-20 16:38:07 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/dashboard' successfully
+
+2019-04-20 16:38:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/h3_Dashboard (57)")): Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-20 16:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-20 16:38:07 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-20 16:38:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-20 16:38:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-20 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-20 16:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)")): Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-20 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Invite subscribers/open growth tools" classname="Test Cases/Invite subscribers/open growth tools" status="PASSED">
+         <system-out><![CDATA[2019-04-20 16:38:11 - [TEST_CASE][PASSED] - Test Cases/Invite subscribers/open growth tools: Test Cases/Invite subscribers/open growth tools
+
+2019-04-20 16:38:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)' is clicked on
+
+2019-04-20 16:38:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)' is clicked on
+
+2019-04-20 16:38:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 16:38:12 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Comment Capture TestCases/TC0512" classname="Test Cases/Comment Capture TestCases/TC0512" status="PASSED">
+         <system-out><![CDATA[2019-04-20 16:38:12 - [TEST_CASE][PASSED] - Test Cases/Comment Capture TestCases/TC0512: Test Cases/Comment Capture TestCases/TC0512
+
+2019-04-20 16:38:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Comment capture"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Comment capture' successfully
+
+2019-04-20 16:38:12 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Comment capture: Test Cases/s-sidebar_navigation/individualAccount/Comment capture
+
+2019-04-20 16:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 16:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 16:38:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 16:38:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 16:38:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Comment Capture")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Comment Capture' is clicked on
+
+2019-04-20 16:38:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Comment Capture' is clicked on
+
+2019-04-20 16:38:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 16:38:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 16:38:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Comment capture' successfully
+
+2019-04-20 16:38:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Comment Capture/button_Delete")): Object: 'Object Repository/Page_KiboPush  Comment Capture/button_Delete' is clicked on
+
+2019-04-20 16:38:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Comment Capture/button_Delete' is clicked on
+
+2019-04-20 16:38:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-20 16:38:17 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Comment Capture TestCases/TC0513" classname="Test Cases/Comment Capture TestCases/TC0513" status="PASSED">
+         <system-out><![CDATA[2019-04-20 16:38:17 - [TEST_CASE][PASSED] - Test Cases/Comment Capture TestCases/TC0513: Test Cases/Comment Capture TestCases/TC0513
+
+2019-04-20 16:38:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("s-sidebar_navigation/individualAccount/Comment capture"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Comment capture' successfully
+
+2019-04-20 16:38:17 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Comment capture: Test Cases/s-sidebar_navigation/individualAccount/Comment capture
+
+2019-04-20 16:38:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Invite Subscribers' is clicked on
+
+2019-04-20 16:38:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 16:38:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 16:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Dashboard/span_Comment Capture")): Object: 'Object Repository/Page_KiboPush  Dashboard/span_Comment Capture' is clicked on
+
+2019-04-20 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Comment Capture' is clicked on
+
+2019-04-20 16:38:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-20 16:38:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-20 16:38:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Comment capture' successfully
+
+2019-04-20 16:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Comment Capture/button_Delete (1)")): Object: 'Object Repository/Page_KiboPush  Comment Capture/button_Delete (1)' is clicked on
+
+2019-04-20 16:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Comment Capture/button_Delete (1)' is clicked on
+
+2019-04-20 16:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_KiboPush  Comment Capture/cross_button")): Object: 'Object Repository/Page_KiboPush  Comment Capture/cross_button' is clicked on
+
+2019-04-20 16:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Comment Capture/cross_button' is clicked on
+
+2019-04-20 16:38:20 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 16:38:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-20 16:38:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-20 16:38:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-20 16:38:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_KiboPush  Comment Capture/h3_Comment Capture")): Object: 'Object Repository/Page_KiboPush  Comment Capture/h3_Comment Capture' is clicked on
+
+2019-04-20 16:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Comment Capture/h3_Comment Capture' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-20 16:37:00 - [TEST_SUITE][PASSED] - Comment Capture: Test Cases/Comment Capture TestCases/TC0513]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

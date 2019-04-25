@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+inviteUsingPhoneNumber,Chrome 73.0.3683.75,,2019-04-19 16:46:51,2019-04-19 16:48:27,1m - 35.326s,FAILED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-19 16:46:52,2019-04-19 16:47:37,45.521s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-19 16:46:52,2019-04-19 16:46:53,1.421s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-19 16:46:53,2019-04-19 16:46:53,0.131s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-19 16:46:53,2019-04-19 16:47:07,13.959s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-19 16:47:07,2019-04-19 16:47:08,0.504s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:08,2019-04-19 16:47:09,0.866s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-19 16:47:09,2019-04-19 16:47:09,0.205s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-19 16:47:09,2019-04-19 16:47:09,0.163s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:09,2019-04-19 16:47:09,0.117s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-19 16:47:09,2019-04-19 16:47:34,24.443s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:34,2019-04-19 16:47:34,0.105s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-19 16:47:34,2019-04-19 16:47:37,3.031s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:37,2019-04-19 16:47:37,0.123s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:37,2019-04-19 16:47:37,0.109s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0919,Chrome 73.0.3683.75,Test documentation link,2019-04-19 16:47:37,2019-04-19 16:47:43,5.752s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Growth Tools""))",Chrome 73.0.3683.75,,2019-04-19 16:47:37,2019-04-19 16:47:37,0.145s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:47:37,2019-04-19 16:47:38,1.003s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:47:38,2019-04-19 16:47:43,4.395s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_documentation (3)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:43,2019-04-19 16:47:43,0.110s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0920,Chrome 73.0.3683.75,Test video tutorial,2019-04-19 16:47:43,2019-04-19 16:47:48,5.555s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:47:43,2019-04-19 16:47:47,4.246s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:47:47,2019-04-19 16:47:48,1.003s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_video tutorial""))",Chrome 73.0.3683.75,,2019-04-19 16:47:48,2019-04-19 16:47:48,0.224s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0921,Chrome 73.0.3683.75,Test enter phone number manually,2019-04-19 16:47:48,2019-04-19 16:47:56,7.598s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:47:49,2019-04-19 16:47:53,4.353s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-19 16:47:53,2019-04-19 16:47:55,2.004s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Enter phone numbers man (3)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:55,2019-04-19 16:47:55,0.111s,PASSED
+"setText(findTestObject(""Page_KiboPush  Dashboard/input_form-control m-input m-i (4)""), ""+923340226849"")",Chrome 73.0.3683.75,,2019-04-19 16:47:55,2019-04-19 16:47:55,0.290s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Submit (1)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:55,2019-04-19 16:47:55,0.111s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/div_Contacts were invited to y (1)""))",Chrome 73.0.3683.75,,2019-04-19 16:47:55,2019-04-19 16:47:56,0.602s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0926,Chrome 73.0.3683.75,Test submit with empty inviation message,2019-04-19 16:47:56,2019-04-19 16:48:03,6.896s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:47:56,2019-04-19 16:48:00,4.318s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:48:00,2019-04-19 16:48:01,1.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Enter phone numbers man (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-19 16:48:01,2019-04-19 16:48:01,0.099s,PASSED
+"setText(findTestObject(""Page_KiboPush  Dashboard/input_form-control m-input m-i (4) (1) (1)""), ""+923340226849"")",Chrome 73.0.3683.75,,2019-04-19 16:48:01,2019-04-19 16:48:02,0.277s,PASSED
+"setText(findTestObject(""Page_KiboPush  Dashboard/textarea_exampleTextarea (1)""), """")",Chrome 73.0.3683.75,,2019-04-19 16:48:02,2019-04-19 16:48:02,0.115s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:48:02,2019-04-19 16:48:03,1.002s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0927,Chrome 73.0.3683.75,Test reset button,2019-04-19 16:48:03,2019-04-19 16:48:11,7.936s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:48:03,2019-04-19 16:48:07,4.310s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:48:07,2019-04-19 16:48:08,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Enter phone numbers man (2)""))",Chrome 73.0.3683.75,,2019-04-19 16:48:08,2019-04-19 16:48:08,0.092s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i (2)""), ""+923403630780"")",Chrome 73.0.3683.75,,2019-04-19 16:48:08,2019-04-19 16:48:09,0.274s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Reset""))",Chrome 73.0.3683.75,,2019-04-19 16:48:09,2019-04-19 16:48:09,0.100s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-19 16:48:09,2019-04-19 16:48:11,2.003s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-19 16:48:11,2019-04-19 16:48:11,0.008s,PASSED
+"button = driver.findElement(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[4]/div[3]/div/div/div[2]/div[4]/div/div/div/button[2]""))",Chrome 73.0.3683.75,,2019-04-19 16:48:11,2019-04-19 16:48:11,0.036s,PASSED
+if (button.isEnabled()),Chrome 73.0.3683.75,,2019-04-19 16:48:11,2019-04-19 16:48:11,0.021s,PASSED
+else,Chrome 73.0.3683.75,,2019-04-19 16:48:11,2019-04-19 16:48:11,0.010s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0928-viewCustomers,Chrome 73.0.3683.75,Test view customers list,2019-04-19 16:48:11,2019-04-19 16:48:19,7.744s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:48:11,2019-04-19 16:48:15,4.337s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:48:15,2019-04-19 16:48:16,1.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_View Customers Lists""))",Chrome 73.0.3683.75,,2019-04-19 16:48:16,2019-04-19 16:48:16,0.178s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-19 16:48:16,2019-04-19 16:48:18,2.003s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-19 16:48:18,2019-04-19 16:48:18,0.022s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Customer Lists/h3_Customer Lists""))",Chrome 73.0.3683.75,,2019-04-19 16:48:18,2019-04-19 16:48:19,0.085s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0928,Chrome 73.0.3683.75,Test download sample csv file button,2019-04-19 16:48:19,2019-04-19 16:48:24,5.490s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:48:19,2019-04-19 16:48:23,4.254s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-19 16:48:23,2019-04-19 16:48:24,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Download Sample CSV fil""))",Chrome 73.0.3683.75,,2019-04-19 16:48:24,2019-04-19 16:48:24,0.140s,PASSED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0929,Chrome 73.0.3683.75,Test view segmented list button,2019-04-19 16:48:24,2019-04-19 16:48:26,1.533s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Invite using Phone Number""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:48:24,2019-04-19 16:48:26,1.447s,FAILED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0930,Chrome 73.0.3683.75,View segmented lists,2019-04-19 16:48:26,2019-04-19 16:48:26,0.471s,FAILED
+"callTestCase(findTestCase(""Invite Using Phone Number/TC0928-viewCustomers""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:48:26,2019-04-19 16:48:26,0.332s,FAILED
+,,,,,,
+Test Cases/Invite Using Phone Number/TC0938,Chrome 73.0.3683.75,Test back button,2019-04-19 16:48:26,2019-04-19 16:48:27,0.513s,FAILED
+"callTestCase(findTestCase(""Invite Using Phone Number/TC0930""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-19 16:48:26,2019-04-19 16:48:27,0.408s,FAILED
