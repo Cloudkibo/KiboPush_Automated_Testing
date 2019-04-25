@@ -12,7 +12,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.callTestCase(findTestCase('Sequence Messaging/TC0980'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/span_Edit (1)'))
@@ -24,6 +23,9 @@ WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/Delete Message Ico
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Delete (3)'))
 
 WebUI.delay(4)
+
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1)'))
 

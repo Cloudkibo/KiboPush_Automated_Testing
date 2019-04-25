@@ -30,3 +30,4 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Subscribers/a_Assign Tags'))
 
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/button_'))

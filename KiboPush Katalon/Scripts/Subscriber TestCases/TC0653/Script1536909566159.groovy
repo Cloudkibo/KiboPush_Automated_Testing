@@ -31,9 +31,9 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscrib
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/a_2'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/a_2'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

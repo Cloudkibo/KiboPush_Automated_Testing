@@ -22,6 +22,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_ON_FAILURE)
 
+
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/First_Card_Subtitle'), 'Subtitle1')
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/Second_Card_Subtitle'), 'Subtitle2')

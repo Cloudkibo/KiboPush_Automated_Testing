@@ -36,5 +36,4 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/di
 
 WebUI.delay(1)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Image_1'), 5)
 

@@ -28,6 +28,7 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
@@ -63,10 +64,16 @@ Date currentDate = new Date()
 long ltime = currentDate.getTime() - ((((7 * 24) * 60) * 60) * 1000)
 
 currentDate = new Date(ltime)
+println(lastDate)
+println(currentDate)
 
-if (currentDate.compareTo(lastDate).toString() == '-1') {
+if (currentDate.compareTo(lastDate).toString() == '-1' ) {
     WebUI.verifyMatch('-1', currentDate.compareTo(lastDate).toString(), false)
-} else {
-    WebUI.verifyMatch('0', currentDate.compareTo(lastDate).toString(), false)
+}
+else if(currentDate.compareTo(lastDate).toString() == '1' ) {
+    WebUI.verifyMatch('1', currentDate.compareTo(lastDate).toString(), false)
+}
+ else {
+    WebUI.verifyMatch('1', currentDate.compareTo(lastDate).toString(), false)
 }
 

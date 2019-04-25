@@ -24,5 +24,7 @@ WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/Second_Card_List_Title'), 'X')
+
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/First_Card_List_Title'), 'Title1')
 
