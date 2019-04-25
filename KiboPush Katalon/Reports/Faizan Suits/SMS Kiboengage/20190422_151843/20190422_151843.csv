@@ -1,0 +1,510 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SMS Kiboengage,Chrome 73.0.3683.75,,2019-04-22 15:30:03,2019-04-22 15:33:59,3m - 55.706s,ERROR
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-22 15:30:03,2019-04-22 15:30:36,32.933s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-22 15:30:03,2019-04-22 15:30:05,1.243s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-22 15:30:05,2019-04-22 15:30:05,0.134s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-22 15:30:05,2019-04-22 15:30:17,11.981s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-22 15:30:17,2019-04-22 15:30:17,0.451s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:17,2019-04-22 15:30:18,0.771s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-22 15:30:18,2019-04-22 15:30:18,0.165s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-22 15:30:18,2019-04-22 15:30:18,0.186s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:18,2019-04-22 15:30:18,0.084s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-22 15:30:18,2019-04-22 15:30:33,14.298s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:33,2019-04-22 15:30:33,0.095s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-22 15:30:33,2019-04-22 15:30:36,3.023s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:36,2019-04-22 15:30:36,0.112s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:36,2019-04-22 15:30:36,0.078s,PASSED
+,,,,,,
+Test Cases/SMS/SMSPlatform,Chrome 73.0.3683.75,,2019-04-22 15:30:36,2019-04-22 15:30:37,1.348s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:36,2019-04-22 15:30:36,0.081s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_SMS (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:36,2019-04-22 15:30:36,0.112s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:36,2019-04-22 15:30:37,1.007s,PASSED
+,,,,,,
+Test Cases/SMS/contacts/TC11149,Chrome 73.0.3683.75,,2019-04-22 15:30:37,2019-04-22 15:30:40,2.352s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:38,2019-04-22 15:30:38,0.116s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:38,2019-04-22 15:30:39,1.004s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Subscribers (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:39,2019-04-22 15:30:39,0.102s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:39,2019-04-22 15:30:40,1.001s,PASSED
+,,,,,,
+Test Cases/SMS/contacts/TC11150,Chrome 73.0.3683.75,,2019-04-22 15:30:40,2019-04-22 15:30:43,3.468s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:40,2019-04-22 15:30:40,0.107s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:40,2019-04-22 15:30:41,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Subscribers (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:41,2019-04-22 15:30:41,0.080s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:41,2019-04-22 15:30:42,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Subscribers/h3_Subscribers""))",Chrome 73.0.3683.75,,2019-04-22 15:30:42,2019-04-22 15:30:42,0.072s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:42,2019-04-22 15:30:43,1.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:30:43,2019-04-22 15:30:43,0.018s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody""))",Chrome 73.0.3683.75,,2019-04-22 15:30:43,2019-04-22 15:30:43,0.037s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.75,,2019-04-22 15:30:43,2019-04-22 15:30:43,0.025s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-22 15:30:43,2019-04-22 15:30:43,0.005s,PASSED
+,,,,,,
+Test Cases/SMS/contacts/TC11151,Chrome 73.0.3683.75,,2019-04-22 15:30:43,2019-04-22 15:30:46,2.376s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:43,2019-04-22 15:30:43,0.124s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:43,2019-04-22 15:30:44,1.004s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Subscribers (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:44,2019-04-22 15:30:45,0.096s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:45,2019-04-22 15:30:46,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Subscribers/a_next""))",Chrome 73.0.3683.75,,2019-04-22 15:30:46,2019-04-22 15:30:46,0.070s,PASSED
+,,,,,,
+Test Cases/SMS/contacts/TC11152,Chrome 73.0.3683.75,,2019-04-22 15:30:46,2019-04-22 15:30:48,2.345s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:46,2019-04-22 15:30:46,0.120s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:46,2019-04-22 15:30:47,1.004s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Subscribers (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:47,2019-04-22 15:30:47,0.081s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:47,2019-04-22 15:30:48,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Subscribers/a_previous""))",Chrome 73.0.3683.75,,2019-04-22 15:30:48,2019-04-22 15:30:48,0.066s,PASSED
+,,,,,,
+Test Cases/SMS/contacts/TC11153,Chrome 73.0.3683.75,,2019-04-22 15:30:48,2019-04-22 15:30:50,2.400s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:48,2019-04-22 15:30:48,0.115s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:48,2019-04-22 15:30:49,1.004s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Subscribers (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:49,2019-04-22 15:30:49,0.089s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:49,2019-04-22 15:30:50,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Subscribers/a_previous""))",Chrome 73.0.3683.75,,2019-04-22 15:30:50,2019-04-22 15:30:50,0.087s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11154,Chrome 73.0.3683.75,,2019-04-22 15:30:50,2019-04-22 15:30:53,2.465s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:50,2019-04-22 15:30:51,0.168s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:51,2019-04-22 15:30:52,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:30:52,2019-04-22 15:30:52,0.102s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:52,2019-04-22 15:30:53,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:30:53,2019-04-22 15:30:53,0.074s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11155,Chrome 73.0.3683.75,,2019-04-22 15:30:53,2019-04-22 15:30:55,2.614s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:53,2019-04-22 15:30:53,0.109s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:53,2019-04-22 15:30:54,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:30:54,2019-04-22 15:30:54,0.108s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:54,2019-04-22 15:30:55,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:55,2019-04-22 15:30:55,0.081s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Submit""))",Chrome 73.0.3683.75,,2019-04-22 15:30:55,2019-04-22 15:30:55,0.137s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/div_Please upload a file or enter numbers manually""))",Chrome 73.0.3683.75,,2019-04-22 15:30:55,2019-04-22 15:30:55,0.089s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11156,Chrome 73.0.3683.75,,2019-04-22 15:30:55,2019-04-22 15:30:58,2.964s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:56,2019-04-22 15:30:56,0.306s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:56,2019-04-22 15:30:57,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:30:57,2019-04-22 15:30:57,0.083s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:57,2019-04-22 15:30:58,1.010s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:30:58,2019-04-22 15:30:58,0.064s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually""))",Chrome 73.0.3683.75,,2019-04-22 15:30:58,2019-04-22 15:30:58,0.083s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add""))",Chrome 73.0.3683.75,,2019-04-22 15:30:58,2019-04-22 15:30:58,0.130s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields""))",Chrome 73.0.3683.75,,2019-04-22 15:30:58,2019-04-22 15:30:58,0.110s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11157,Chrome 73.0.3683.75,,2019-04-22 15:30:58,2019-04-22 15:31:01,2.916s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:30:58,2019-04-22 15:30:59,0.144s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:30:59,2019-04-22 15:31:00,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:00,2019-04-22 15:31:00,0.110s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:00,2019-04-22 15:31:01,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:01,2019-04-22 15:31:01,0.076s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:01,2019-04-22 15:31:01,0.091s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:31:01,2019-04-22 15:31:01,0.248s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:01,2019-04-22 15:31:01,0.081s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:01,2019-04-22 15:31:01,0.067s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11158,Chrome 73.0.3683.75,,2019-04-22 15:31:01,2019-04-22 15:31:04,3.058s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:01,2019-04-22 15:31:02,0.145s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:02,2019-04-22 15:31:03,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:03,2019-04-22 15:31:03,0.086s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:03,2019-04-22 15:31:04,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:04,0.080s,PASSED
+"click(findTestObject(""Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:04,0.075s,PASSED
+"click(findTestObject(""Page_KiboEngage  Upload Contacts/button_Add (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:04,0.103s,PASSED
+"click(findTestObject(""Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:04,0.088s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1)""), ""Faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:04,0.209s,PASSED
+"click(findTestObject(""Page_KiboEngage  Upload Contacts/button_Add (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:04,0.058s,PASSED
+"click(findTestObject(""Page_KiboEngage  Upload Contacts/span_Please fill all the fields (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:04,0.104s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11159,Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:07,3.092s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:04,2019-04-22 15:31:05,0.115s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:05,2019-04-22 15:31:06,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:06,2019-04-22 15:31:06,0.095s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:06,2019-04-22 15:31:07,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.059s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.068s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.093s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1)""), ""Faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.158s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2)""), ""923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.204s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.062s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_This number is invalid Please enter a valid number""))",Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:07,0.057s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11160,Chrome 73.0.3683.75,,2019-04-22 15:31:07,2019-04-22 15:31:11,3.774s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:08,2019-04-22 15:31:08,0.105s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:08,2019-04-22 15:31:09,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:09,2019-04-22 15:31:09,0.088s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:09,2019-04-22 15:31:10,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:10,2019-04-22 15:31:10,0.068s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:10,2019-04-22 15:31:10,0.117s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:10,2019-04-22 15:31:10,0.068s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:10,2019-04-22 15:31:10,0.081s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1)""), ""Faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:31:10,2019-04-22 15:31:10,0.160s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:31:10,2019-04-22 15:31:10,0.207s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:10,2019-04-22 15:31:11,0.073s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Submit (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:11,2019-04-22 15:31:11,0.098s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/div_Contacts saved successfully""))",Chrome 73.0.3683.75,,2019-04-22 15:31:11,2019-04-22 15:31:11,0.611s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11161,Chrome 73.0.3683.75,,2019-04-22 15:31:11,2019-04-22 15:31:15,3.541s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:11,2019-04-22 15:31:11,0.122s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:11,2019-04-22 15:31:12,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:12,2019-04-22 15:31:13,0.086s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:13,2019-04-22 15:31:14,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.055s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.079s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.086s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)""), ""Faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.178s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.201s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.068s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1)""), ""Faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:14,0.152s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:31:14,2019-04-22 15:31:15,0.157s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:15,2019-04-22 15:31:15,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_This number is already added""))",Chrome 73.0.3683.75,,2019-04-22 15:31:15,2019-04-22 15:31:15,0.092s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11162,Chrome 73.0.3683.75,,2019-04-22 15:31:15,2019-04-22 15:31:17,2.532s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:15,2019-04-22 15:31:15,0.112s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:15,2019-04-22 15:31:16,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:16,2019-04-22 15:31:16,0.089s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:16,2019-04-22 15:31:17,1.007s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:17,2019-04-22 15:31:17,0.064s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:17,2019-04-22 15:31:17,0.088s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Back""))",Chrome 73.0.3683.75,,2019-04-22 15:31:17,2019-04-22 15:31:17,0.094s,PASSED
+,,,,,,
+Test Cases/SMS/upload contacts/TC11163,Chrome 73.0.3683.75,,2019-04-22 15:31:17,2019-04-22 15:31:21,3.219s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:17,2019-04-22 15:31:17,0.113s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:17,2019-04-22 15:31:18,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:18,2019-04-22 15:31:19,0.073s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:19,2019-04-22 15:31:20,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts (1) (1) (1) (1) (1) (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:20,0.067s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Enter phone numbers manually (1) (1) (1) (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:20,0.122s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:20,0.073s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/span_Please fill all the fields (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:20,0.088s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (1) (1) (1) (1) (1)""), ""Faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:20,0.169s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/input_Upload Contacts_form-control m-input (2) (1) (1) (1)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:20,0.245s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/button_Add (2) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:20,0.086s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Upload Contacts/i_Faizan_fa fa-times-circle""))",Chrome 73.0.3683.75,,2019-04-22 15:31:20,2019-04-22 15:31:21,0.106s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11171,Chrome 73.0.3683.75,,2019-04-22 15:31:21,2019-04-22 15:31:24,3.467s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:21,2019-04-22 15:31:21,0.109s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:21,2019-04-22 15:31:22,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Broadcasting (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:22,2019-04-22 15:31:22,0.091s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:22,2019-04-22 15:31:23,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:23,2019-04-22 15:31:23,0.134s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:23,2019-04-22 15:31:24,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:24,2019-04-22 15:31:24,0.066s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11172,Chrome 73.0.3683.75,,2019-04-22 15:31:24,2019-04-22 15:31:27,3.417s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:24,2019-04-22 15:31:24,0.121s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:24,2019-04-22 15:31:25,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:25,2019-04-22 15:31:25,0.106s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:25,2019-04-22 15:31:26,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:26,2019-04-22 15:31:26,0.058s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:26,2019-04-22 15:31:27,1.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:31:27,2019-04-22 15:31:27,0.001s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""ajax_data""]/table/tbody""))",Chrome 73.0.3683.75,,2019-04-22 15:31:27,2019-04-22 15:31:27,0.014s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.75,,2019-04-22 15:31:27,2019-04-22 15:31:27,0.023s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-22 15:31:27,2019-04-22 15:31:27,0.001s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11173,Chrome 73.0.3683.75,,2019-04-22 15:31:27,2019-04-22 15:31:31,3.382s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:28,2019-04-22 15:31:28,0.116s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:28,2019-04-22 15:31:29,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:29,2019-04-22 15:31:29,0.116s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:29,2019-04-22 15:31:30,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:30,2019-04-22 15:31:30,0.063s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:30,2019-04-22 15:31:31,1.001s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11174,Chrome 73.0.3683.75,,2019-04-22 15:31:31,2019-04-22 15:31:34,3.315s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:31,2019-04-22 15:31:31,0.095s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:31,2019-04-22 15:31:32,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:32,2019-04-22 15:31:32,0.091s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:32,2019-04-22 15:31:33,1.009s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:33,2019-04-22 15:31:33,0.056s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:33,2019-04-22 15:31:34,1.001s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11175,Chrome 73.0.3683.75,,2019-04-22 15:31:34,2019-04-22 15:31:37,3.349s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:34,2019-04-22 15:31:34,0.105s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:34,2019-04-22 15:31:35,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:35,2019-04-22 15:31:35,0.098s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:35,2019-04-22 15:31:36,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:36,2019-04-22 15:31:36,0.070s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:36,2019-04-22 15:31:37,1.001s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11176,Chrome 73.0.3683.75,,2019-04-22 15:31:37,2019-04-22 15:31:41,3.541s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:38,2019-04-22 15:31:38,0.100s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:38,2019-04-22 15:31:39,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:39,2019-04-22 15:31:39,0.077s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:39,2019-04-22 15:31:40,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:40,2019-04-22 15:31:40,0.074s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:40,2019-04-22 15:31:41,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:41,2019-04-22 15:31:41,0.091s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:41,2019-04-22 15:31:41,0.131s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11177,Chrome 73.0.3683.75,,2019-04-22 15:31:41,2019-04-22 15:31:46,4.786s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:41,2019-04-22 15:31:41,0.148s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:41,2019-04-22 15:31:42,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:42,2019-04-22 15:31:42,0.098s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:42,2019-04-22 15:31:43,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:43,2019-04-22 15:31:43,0.075s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:43,2019-04-22 15:31:44,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New""))",Chrome 73.0.3683.75,,2019-04-22 15:31:44,2019-04-22 15:31:45,0.086s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast""))",Chrome 73.0.3683.75,,2019-04-22 15:31:45,2019-04-22 15:31:45,0.115s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:45,2019-04-22 15:31:46,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Send""))",Chrome 73.0.3683.75,,2019-04-22 15:31:46,2019-04-22 15:31:46,0.079s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast""))",Chrome 73.0.3683.75,,2019-04-22 15:31:46,2019-04-22 15:31:46,0.099s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11178,Chrome 73.0.3683.75,,2019-04-22 15:31:46,2019-04-22 15:31:51,4.997s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:46,2019-04-22 15:31:46,0.145s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:46,2019-04-22 15:31:47,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:47,2019-04-22 15:31:47,0.095s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:47,2019-04-22 15:31:48,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:48,2019-04-22 15:31:48,0.078s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:48,2019-04-22 15:31:49,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Create New (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:49,2019-04-22 15:31:49,0.074s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_Create New Broadcast (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:49,2019-04-22 15:31:49,0.177s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:49,2019-04-22 15:31:50,1.001s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/textarea_HELLO""), ""HELLO"")",Chrome 73.0.3683.75,,2019-04-22 15:31:50,2019-04-22 15:31:51,0.126s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:51,2019-04-22 15:31:51,0.077s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Please enter the title of the broadcast (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:51,2019-04-22 15:31:51,0.141s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11179,Chrome 73.0.3683.75,,2019-04-22 15:31:51,2019-04-22 15:31:56,4.905s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:51,2019-04-22 15:31:51,0.151s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:51,2019-04-22 15:31:52,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:52,2019-04-22 15:31:52,0.100s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:52,2019-04-22 15:31:53,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:53,2019-04-22 15:31:53,0.086s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:53,2019-04-22 15:31:54,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:54,2019-04-22 15:31:54,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:54,2019-04-22 15:31:54,0.126s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:54,2019-04-22 15:31:55,1.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:31:55,2019-04-22 15:31:56,0.153s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Send (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:56,2019-04-22 15:31:56,0.068s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/div_Please enter the message to send""))",Chrome 73.0.3683.75,,2019-04-22 15:31:56,2019-04-22 15:31:56,0.062s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11181,Chrome 73.0.3683.75,,2019-04-22 15:31:56,2019-04-22 15:32:01,5.406s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:31:56,2019-04-22 15:31:56,0.132s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:56,2019-04-22 15:31:57,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:31:57,2019-04-22 15:31:57,0.078s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:57,2019-04-22 15:31:58,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:58,2019-04-22 15:31:58,0.069s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:58,2019-04-22 15:31:59,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:59,2019-04-22 15:31:59,0.082s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:31:59,2019-04-22 15:31:59,0.133s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:31:59,2019-04-22 15:32:00,1.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:32:00,2019-04-22 15:32:00,0.125s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1)""), ""HELLO"")",Chrome 73.0.3683.75,,2019-04-22 15:32:00,2019-04-22 15:32:01,0.151s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:01,2019-04-22 15:32:01,0.208s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Value_text""), ""ok"")",Chrome 73.0.3683.75,,2019-04-22 15:32:01,2019-04-22 15:32:01,0.133s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Send (3)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:01,2019-04-22 15:32:01,0.095s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid condition""))",Chrome 73.0.3683.75,,2019-04-22 15:32:01,2019-04-22 15:32:01,0.095s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11182,Chrome 73.0.3683.75,,2019-04-22 15:32:01,2019-04-22 15:32:07,5.593s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:01,2019-04-22 15:32:01,0.096s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:01,2019-04-22 15:32:02,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:32:02,2019-04-22 15:32:02,0.069s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:02,2019-04-22 15:32:03,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:03,2019-04-22 15:32:03,0.073s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:03,2019-04-22 15:32:04,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:04,2019-04-22 15:32:05,0.101s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:05,2019-04-22 15:32:05,0.231s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:05,2019-04-22 15:32:06,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:32:06,2019-04-22 15:32:06,0.147s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1)""), ""HELLO"")",Chrome 73.0.3683.75,,2019-04-22 15:32:06,2019-04-22 15:32:06,0.172s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (2)""), ""HELLO"")",Chrome 73.0.3683.75,,2019-04-22 15:32:06,2019-04-22 15:32:06,0.144s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber""), ""name"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:06,2019-04-22 15:32:06,0.153s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (1)""), ""aaa"")",Chrome 73.0.3683.75,,2019-04-22 15:32:06,2019-04-22 15:32:07,0.134s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Send (4)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:07,2019-04-22 15:32:07,0.091s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid criteria""))",Chrome 73.0.3683.75,,2019-04-22 15:32:07,2019-04-22 15:32:07,0.108s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11183,Chrome 73.0.3683.75,,2019-04-22 15:32:07,2019-04-22 15:32:12,5.451s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:07,2019-04-22 15:32:07,0.163s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:07,2019-04-22 15:32:08,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:32:08,2019-04-22 15:32:08,0.089s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:08,2019-04-22 15:32:09,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:09,2019-04-22 15:32:09,0.051s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:09,2019-04-22 15:32:10,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:10,2019-04-22 15:32:10,0.071s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:10,2019-04-22 15:32:10,0.109s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:10,2019-04-22 15:32:11,1.003s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:32:11,2019-04-22 15:32:11,0.153s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1) (1) (1)""), ""HELLO"")",Chrome 73.0.3683.75,,2019-04-22 15:32:11,2019-04-22 15:32:12,0.147s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (1)""), ""name"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:12,2019-04-22 15:32:12,0.183s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (1)""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:12,2019-04-22 15:32:12,0.192s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Send (4) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:12,2019-04-22 15:32:12,0.092s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid value""))",Chrome 73.0.3683.75,,2019-04-22 15:32:12,2019-04-22 15:32:12,0.105s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11184,Chrome 73.0.3683.75,,2019-04-22 15:32:12,2019-04-22 15:32:18,6.232s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:12,2019-04-22 15:32:12,0.127s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:12,2019-04-22 15:32:13,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:32:13,2019-04-22 15:32:13,0.097s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:13,2019-04-22 15:32:14,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:14,2019-04-22 15:32:15,0.059s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:15,2019-04-22 15:32:16,1.005s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:16,2019-04-22 15:32:16,0.074s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:16,2019-04-22 15:32:16,0.111s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:16,2019-04-22 15:32:17,1.002s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:32:17,2019-04-22 15:32:17,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing""), ""Automated testing"")",Chrome 73.0.3683.75,,2019-04-22 15:32:17,2019-04-22 15:32:17,0.279s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:17,2019-04-22 15:32:17,0.166s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2)""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:17,2019-04-22 15:32:18,0.201s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:32:18,2019-04-22 15:32:18,0.236s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Send (5)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:18,2019-04-22 15:32:18,0.085s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully""))",Chrome 73.0.3683.75,,2019-04-22 15:32:18,2019-04-22 15:32:18,0.581s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11185,Chrome 73.0.3683.75,,2019-04-22 15:32:18,2019-04-22 15:32:25,6.734s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:18,2019-04-22 15:32:19,0.107s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:19,2019-04-22 15:32:20,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:32:20,2019-04-22 15:32:20,0.078s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:20,2019-04-22 15:32:21,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:21,2019-04-22 15:32:21,0.054s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:21,2019-04-22 15:32:22,1.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:22,2019-04-22 15:32:22,0.074s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:22,2019-04-22 15:32:22,0.121s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:22,2019-04-22 15:32:23,1.006s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:32:23,2019-04-22 15:32:23,0.135s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1)""), ""Automated testing"")",Chrome 73.0.3683.75,,2019-04-22 15:32:23,2019-04-22 15:32:23,0.239s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:23,2019-04-22 15:32:23,0.175s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1)""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:23,2019-04-22 15:32:24,0.168s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:32:24,2019-04-22 15:32:24,0.267s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/button_ Add Condition""))",Chrome 73.0.3683.75,,2019-04-22 15:32:24,2019-04-22 15:32:24,0.099s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3)""), ""name"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:24,2019-04-22 15:32:24,0.176s,PASSED
+"selectOptionByValue(findTestObject(""Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:24,2019-04-22 15:32:24,0.165s,PASSED
+"setText(findTestObject(""Page_KiboEngage  Broadcasts/input_Remove_text""), ""Fa"")",Chrome 73.0.3683.75,,2019-04-22 15:32:24,2019-04-22 15:32:24,0.138s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/span_Send (6)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:24,2019-04-22 15:32:25,0.073s,PASSED
+"click(findTestObject(""Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:25,2019-04-22 15:32:25,0.567s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11186,Chrome 73.0.3683.75,,2019-04-22 15:32:25,2019-04-22 15:32:31,6.265s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:25,2019-04-22 15:32:25,0.109s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:25,2019-04-22 15:32:26,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:32:26,2019-04-22 15:32:26,0.093s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:26,2019-04-22 15:32:27,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:27,2019-04-22 15:32:28,0.069s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:28,2019-04-22 15:32:29,1.003s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:29,2019-04-22 15:32:29,0.093s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:29,2019-04-22 15:32:29,0.113s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:29,2019-04-22 15:32:30,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (1)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:32:30,2019-04-22 15:32:30,0.133s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (1)""), ""Automated testing"")",Chrome 73.0.3683.75,,2019-04-22 15:32:30,2019-04-22 15:32:30,0.264s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (1)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:30,2019-04-22 15:32:30,0.152s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (1)""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:30,2019-04-22 15:32:30,0.195s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (1)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:32:30,2019-04-22 15:32:31,0.246s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.093s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (1)""), ""name"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.204s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (1)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.153s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (1)""), ""Fa"")",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.105s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Remove""))",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.079s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.001s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""m-datatable--27866229129""]/tbody""))",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.021s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.026s,PASSED
+"verifyEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:31,0.010s,PASSED
+,,,,,,
+Test Cases/SMS/sms broadcast/TC11187,Chrome 73.0.3683.75,,2019-04-22 15:32:31,2019-04-22 15:32:38,6.448s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:32,2019-04-22 15:32:32,0.095s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:32,2019-04-22 15:32:33,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts""))",Chrome 73.0.3683.75,,2019-04-22 15:32:33,2019-04-22 15:32:33,0.083s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:33,2019-04-22 15:32:34,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1) (1) (1) (1) (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:34,2019-04-22 15:32:34,0.061s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:34,2019-04-22 15:32:35,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1) (1) (1) (1) (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:35,2019-04-22 15:32:35,0.076s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1) (1) (1) (1) (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:35,2019-04-22 15:32:35,0.133s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:35,2019-04-22 15:32:36,1.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1) (1) (1) (1) (1) (1) (2)""), ""faizan"")",Chrome 73.0.3683.75,,2019-04-22 15:32:36,2019-04-22 15:32:36,0.123s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/textarea_Automated testing (1) (1) (2)""), ""Automated testing"")",Chrome 73.0.3683.75,,2019-04-22 15:32:36,2019-04-22 15:32:36,0.246s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (2) (1) (1) (2)""), ""number"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:36,2019-04-22 15:32:37,0.173s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (2) (1) (1) (2)""), ""is"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:37,2019-04-22 15:32:37,0.172s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Value_text (2) (1) (1) (2)""), ""+923333739566"")",Chrome 73.0.3683.75,,2019-04-22 15:32:37,2019-04-22 15:32:37,0.222s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_ Add Condition (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:37,2019-04-22 15:32:37,0.089s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (3) (2)""), ""name"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:37,2019-04-22 15:32:37,0.214s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (3) (2)""), ""contains"", true)",Chrome 73.0.3683.75,,2019-04-22 15:32:37,2019-04-22 15:32:37,0.175s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text (2)""), ""Fa"")",Chrome 73.0.3683.75,,2019-04-22 15:32:37,2019-04-22 15:32:38,0.136s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_1 (1)""), ""Fa"")",Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.114s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/input_Remove_text_2""), ""Fa"")",Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.101s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Broadcasts/button_Reset""))",Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.087s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.000s,PASSED
+"Table = driver.findElement(By.xpath(""//*[@id=""m-datatable--27866229129""]/tbody""))",Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.016s,PASSED
+"rows_table = Table.findElements(By.tagName(""tr""))",Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.017s,PASSED
+"verifyEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.001s,PASSED
+,,,,,,
+Test Cases/SMS/Configuration in Settings/TC11210,Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:40,2.638s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:38,0.168s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:38,2019-04-22 15:32:39,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-04-22 15:32:39,2019-04-22 15:32:39,0.156s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:39,2019-04-22 15:32:40,1.004s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Api Settings/a_Configuration""))",Chrome 73.0.3683.75,,2019-04-22 15:32:40,2019-04-22 15:32:40,0.090s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Api Settings/span_Configuration""))",Chrome 73.0.3683.75,,2019-04-22 15:32:40,2019-04-22 15:32:40,0.136s,PASSED
+,,,,,,
+Test Cases/SMS/Configuration in Settings/TC11211,Chrome 73.0.3683.75,,2019-04-22 15:32:40,2019-04-22 15:32:43,2.682s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:41,2019-04-22 15:32:41,0.102s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:41,2019-04-22 15:32:42,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-04-22 15:32:42,2019-04-22 15:32:42,0.098s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:42,2019-04-22 15:32:43,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Api Settings/a_Configuration (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:43,2019-04-22 15:32:43,0.073s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Api Settings/span_Configuration (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:43,2019-04-22 15:32:43,0.135s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Api Settings/button_Edit""))",Chrome 73.0.3683.75,,2019-04-22 15:32:43,2019-04-22 15:32:43,0.108s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Api Settings/h3_Connect with Twilio""))",Chrome 73.0.3683.75,,2019-04-22 15:32:43,2019-04-22 15:32:43,0.093s,PASSED
+,,,,,,
+Test Cases/SMS/Configuration in Settings/TC11212,Chrome 73.0.3683.75,,2019-04-22 15:32:43,2019-04-22 15:33:07,24.191s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:32:43,2019-04-22 15:32:43,0.156s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:43,2019-04-22 15:32:44,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-04-22 15:32:44,2019-04-22 15:32:45,0.122s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:32:45,2019-04-22 15:32:46,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:46,2019-04-22 15:32:46,0.098s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:46,2019-04-22 15:32:46,0.090s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/button_Edit (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:46,2019-04-22 15:32:46,0.081s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:32:46,2019-04-22 15:32:46,0.206s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-22 15:32:46,2019-04-22 15:32:56,10.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:32:56,0.000s,PASSED
+"sid = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input""))",Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:32:56,0.016s,PASSED
+sid.clear(),Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:32:56,0.032s,PASSED
+"sid.sendKeys(""a"")",Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:32:56,0.033s,PASSED
+"token = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input""))",Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:32:56,0.016s,PASSED
+token.clear(),Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:32:56,0.032s,PASSED
+"token.sendKeys(""a"")",Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:32:56,0.034s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-22 15:32:56,2019-04-22 15:33:06,10.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/button_Submit (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:06,2019-04-22 15:33:06,0.085s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:06,2019-04-22 15:33:07,1.081s,PASSED
+,,,,,,
+Test Cases/SMS/Configuration in Settings/TC11213,Chrome 73.0.3683.75,,2019-04-22 15:33:07,2019-04-22 15:33:21,14.082s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:33:07,2019-04-22 15:33:08,0.138s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:33:08,2019-04-22 15:33:09,1.002s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-04-22 15:33:09,2019-04-22 15:33:09,0.123s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:33:09,2019-04-22 15:33:10,1.003s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:10,2019-04-22 15:33:10,0.111s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:10,2019-04-22 15:33:10,0.142s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/button_Edit (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:10,2019-04-22 15:33:10,0.114s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:10,2019-04-22 15:33:10,0.092s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-22 15:33:10,2019-04-22 15:33:20,10.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:33:20,2019-04-22 15:33:20,0.001s,PASSED
+"token = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input""))",Chrome 73.0.3683.75,,2019-04-22 15:33:20,2019-04-22 15:33:20,0.014s,PASSED
+token.clear(),Chrome 73.0.3683.75,,2019-04-22 15:33:20,2019-04-22 15:33:20,0.035s,PASSED
+"token.sendKeys(""a"")",Chrome 73.0.3683.75,,2019-04-22 15:33:20,2019-04-22 15:33:20,0.039s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/button_Submit (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:20,2019-04-22 15:33:20,0.082s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:20,2019-04-22 15:33:21,1.093s,PASSED
+,,,,,,
+Test Cases/SMS/Configuration in Settings/TC11214,Chrome 73.0.3683.75,,2019-04-22 15:33:21,2019-04-22 15:33:34,12.767s,ERROR
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:33:22,2019-04-22 15:33:22,0.144s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:33:22,2019-04-22 15:33:23,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-04-22 15:33:23,2019-04-22 15:33:23,0.107s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:33:23,2019-04-22 15:33:24,1.001s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/a_Configuration (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:24,2019-04-22 15:33:24,0.092s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:24,2019-04-22 15:33:24,0.103s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/button_Edit (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:24,2019-04-22 15:33:24,0.087s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:24,2019-04-22 15:33:24,0.101s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-22 15:33:24,2019-04-22 15:33:34,10.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:33:34,2019-04-22 15:33:34,0.000s,PASSED
+"sid = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input""))",Chrome 73.0.3683.75,,2019-04-22 15:33:34,2019-04-22 15:33:34,0.040s,ERROR
+,,,,,,
+Test Cases/SMS/Configuration in Settings/TC11215,Chrome 73.0.3683.75,,2019-04-22 15:33:34,2019-04-22 15:33:58,24.199s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Dashboard""))",Chrome 73.0.3683.75,,2019-04-22 15:33:34,2019-04-22 15:33:34,0.136s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:33:34,2019-04-22 15:33:35,1.001s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Dashboard/span_Settings""))",Chrome 73.0.3683.75,,2019-04-22 15:33:35,2019-04-22 15:33:36,0.143s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-22 15:33:36,2019-04-22 15:33:37,1.004s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/a_Configuration (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:37,2019-04-22 15:33:37,0.111s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/span_Configuration (1) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:37,2019-04-22 15:33:37,0.092s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/button_Edit (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:37,2019-04-22 15:33:37,0.149s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:37,2019-04-22 15:33:37,0.094s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-22 15:33:37,2019-04-22 15:33:47,10.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:47,0.001s,PASSED
+"sid = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input""))",Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:47,0.015s,PASSED
+sid.clear(),Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:47,0.050s,PASSED
+"sid.sendKeys(""a"")",Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:47,0.041s,PASSED
+"token = driver.findElement(By.xpath(""/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input""))",Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:47,0.012s,PASSED
+token.clear(),Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:47,0.029s,PASSED
+"token.sendKeys(""a"")",Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:47,0.032s,PASSED
+delay(10),Chrome 73.0.3683.75,,2019-04-22 15:33:47,2019-04-22 15:33:57,10.002s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/button_Submit (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:57,2019-04-22 15:33:57,0.082s,PASSED
+"click(findTestObject(""Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)""))",Chrome 73.0.3683.75,,2019-04-22 15:33:57,2019-04-22 15:33:58,1.099s,PASSED

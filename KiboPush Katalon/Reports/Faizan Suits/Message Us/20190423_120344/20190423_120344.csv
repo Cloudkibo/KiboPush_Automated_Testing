@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Message Us,Chrome 73.0.3683.75,,2019-04-23 12:03:52,2019-04-23 12:04:39,46.552s,PASSED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-23 12:03:53,2019-04-23 12:04:29,36.777s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-23 12:03:53,2019-04-23 12:03:54,1.198s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-23 12:03:54,2019-04-23 12:03:54,0.125s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-23 12:03:54,2019-04-23 12:04:04,9.348s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-23 12:04:04,2019-04-23 12:04:04,0.499s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-23 12:04:04,2019-04-23 12:04:05,0.841s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-23 12:04:05,2019-04-23 12:04:05,0.154s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-23 12:04:05,2019-04-23 12:04:05,0.124s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-23 12:04:05,2019-04-23 12:04:05,0.073s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-23 12:04:05,2019-04-23 12:04:26,20.662s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-23 12:04:26,2019-04-23 12:04:26,0.149s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-23 12:04:26,2019-04-23 12:04:29,3.194s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-23 12:04:29,2019-04-23 12:04:29,0.109s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-23 12:04:29,2019-04-23 12:04:29,0.073s,PASSED
+,,,,,,
+Test Cases/Invite subscribers/open growth tools,Chrome 73.0.3683.75,,2019-04-23 12:04:29,2019-04-23 12:04:32,2.203s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/span_Growth Tools (3)""))",Chrome 73.0.3683.75,,2019-04-23 12:04:30,2019-04-23 12:04:31,1.103s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-23 12:04:31,2019-04-23 12:04:32,1.002s,PASSED
+,,,,,,
+Test Cases/Message Us/TC11016,Chrome 73.0.3683.75,,2019-04-23 12:04:32,2019-04-23 12:04:33,1.304s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Message Us""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 12:04:32,2019-04-23 12:04:33,1.234s,PASSED
+,,,,,,
+Test Cases/Message Us/TC11021,Chrome 73.0.3683.75,,2019-04-23 12:04:33,2019-04-23 12:04:34,1.235s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Message Us""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 12:04:33,2019-04-23 12:04:34,1.145s,PASSED
+,,,,,,
+Test Cases/Message Us/TC11017,Chrome 73.0.3683.75,,2019-04-23 12:04:34,2019-04-23 12:04:35,1.218s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Message Us""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 12:04:34,2019-04-23 12:04:35,1.141s,PASSED
+,,,,,,
+Test Cases/Message Us/TC11018,Chrome 73.0.3683.75,,2019-04-23 12:04:35,2019-04-23 12:04:37,1.170s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Message Us""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 12:04:35,2019-04-23 12:04:37,1.112s,PASSED
+,,,,,,
+Test Cases/Message Us/TC11019,Chrome 73.0.3683.75,,2019-04-23 12:04:37,2019-04-23 12:04:38,1.172s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Message Us""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 12:04:37,2019-04-23 12:04:38,1.110s,PASSED
+,,,,,,
+Test Cases/Message Us/TC11020,Chrome 73.0.3683.75,,2019-04-23 12:04:38,2019-04-23 12:04:39,1.162s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Message Us""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-23 12:04:38,2019-04-23 12:04:39,1.111s,PASSED
