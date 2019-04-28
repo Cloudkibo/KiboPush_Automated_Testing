@@ -1,3 +1,0 @@
-"""
-Kibopush Automated Testing Application
-""" 
