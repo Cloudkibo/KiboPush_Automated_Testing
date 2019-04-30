@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="subscriber" time="518" tests="25" failures="0" errors="0">
+   <testsuite name="subscriber" tests="25" failures="0" errors="0" time="518" timestamp="2019-04-25 12:51:53" hostname="cloudkibo - 10.0.2.15" id="Test Suites/subscriber">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\subscriber\\20190425_125149"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\subscriber\\20190425_125149\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="9c3bb37666900730db3a87a1693d0fad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:51:54 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-25 12:51:56 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 12:52:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 12:52:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 12:52:03 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 12:52:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 12:52:22 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 12:52:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 12:52:23 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 12:52:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 12:52:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 12:52:25 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 12:52:25 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 12:52:25 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 12:52:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 12:52:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 12:52:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 12:52:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 12:53:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 12:53:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:53:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:53:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:53:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:53:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:53:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:53:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:53:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0649" classname="Test Cases/Subscriber TestCases/TC0649" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:53:15 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0649: Test Cases/Subscriber TestCases/TC0649
+
+2019-04-25 12:53:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:53:15 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:53:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:53:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:53:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:53:19 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:53:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:53:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:53:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:53:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:53:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:53:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/a_documentation' is clicked on
+
+2019-04-25 12:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_documentation' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0650" classname="Test Cases/Subscriber TestCases/TC0650" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:53:22 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0650: Test Cases/Subscriber TestCases/TC0650
+
+2019-04-25 12:53:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:53:23 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:53:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:53:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:53:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:53:35 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:53:36 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:53:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:53:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:53:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 12:53:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 12:53:44 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:53:44 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:53:44 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:53:44 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:53:44 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:53:44 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0651" classname="Test Cases/Subscriber TestCases/TC0651" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:53:44 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0651: Test Cases/Subscriber TestCases/TC0651
+
+2019-04-25 12:53:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:53:45 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:53:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:53:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:53:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:53:49 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:53:50 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:53:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:53:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:53:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:53:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:53:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/a_next (1)' is clicked on
+
+2019-04-25 12:53:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_next (1)' is clicked on
+
+2019-04-25 12:53:53 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 12:53:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 12:53:59 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:53:59 - [TEST_STEP][PASSED] - Statement - rows_table = driver.findElements(org.openqa.selenium.By.xpath("//table/tbody/tr")): null
+
+2019-04-25 12:53:59 - [TEST_STEP][PASSED] - Statement - println(rows_table.size()): null
+
+2019-04-25 12:53:59 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '12' is greater than or equal to expected number '1'
+
+2019-04-25 12:53:59 - [MESSAGE][PASSED] - Actual number '12' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0652" classname="Test Cases/Subscriber TestCases/TC0652" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:53:59 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0652: Test Cases/Subscriber TestCases/TC0652
+
+2019-04-25 12:53:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:53:59 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:53:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:53:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:54:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:54:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:02 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:03 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:54:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:54:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/a_next (1)' is clicked on
+
+2019-04-25 12:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_next (1)' is clicked on
+
+2019-04-25 12:54:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/a_previous (1)' is clicked on
+
+2019-04-25 12:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_previous (1)' is clicked on
+
+2019-04-25 12:54:06 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 12:54:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 12:54:11 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:54:11 - [TEST_STEP][PASSED] - Statement - rows_table = driver.findElements(org.openqa.selenium.By.xpath("//table/tbody/tr")): null
+
+2019-04-25 12:54:11 - [TEST_STEP][PASSED] - Statement - println(rows_table.size()): null
+
+2019-04-25 12:54:11 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '12' is greater than or equal to expected number '1'
+
+2019-04-25 12:54:11 - [MESSAGE][PASSED] - Actual number '12' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0653" classname="Test Cases/Subscriber TestCases/TC0653" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:54:11 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0653: Test Cases/Subscriber TestCases/TC0653
+
+2019-04-25 12:54:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:13 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:54:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:54:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:54:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:16 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:54:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:54:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/a_2' is clicked on
+
+2019-04-25 12:54:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/a_2' is clicked on
+
+2019-04-25 12:54:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 12:54:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 12:54:25 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:54:25 - [TEST_STEP][PASSED] - Statement - rows_table = driver.findElements(org.openqa.selenium.By.xpath("//table/tbody/tr")): null
+
+2019-04-25 12:54:25 - [TEST_STEP][PASSED] - Statement - println(rows_table.size()): null
+
+2019-04-25 12:54:25 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '12' is greater than or equal to expected number '1'
+
+2019-04-25 12:54:25 - [MESSAGE][PASSED] - Actual number '12' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0654" classname="Test Cases/Subscriber TestCases/TC0654" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:54:25 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0654: Test Cases/Subscriber TestCases/TC0654
+
+2019-04-25 12:54:25 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:25 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:54:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:54:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:54:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:33 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:33 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:33 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'male' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Gender...AllM'  using regular expression
+
+2019-04-25 12:54:34 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Gender...AllM'  using regular expression
+
+2019-04-25 12:54:34 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 12:54:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 12:54:39 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:54:39 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:54:39 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:54:39 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:54:39 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:54:39 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0655" classname="Test Cases/Subscriber TestCases/TC0655" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:54:39 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0655: Test Cases/Subscriber TestCases/TC0655
+
+2019-04-25 12:54:39 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:39 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:54:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:54:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:54:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:42 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:42 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/h3_Manage Subscribers (3) (1)' is clicked on
+
+2019-04-25 12:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/h3_Manage Subscribers (3) (1)' is clicked on
+
+2019-04-25 12:54:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:54:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:54:46 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:54:46 - [TEST_STEP][PASSED] - Statement - rows_table1 = driver.findElements(org.openqa.selenium.By.xpath("//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/div/div[2]/select/option")): null
+
+2019-04-25 12:54:46 - [TEST_STEP][PASSED] - Statement - println(rows_table1.size()): null
+
+2019-04-25 12:54:46 - [TEST_STEP][PASSED] - Statement - rows_table1[1].click(): null
+
+2019-04-25 12:54:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:54:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:54:49 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:54:49 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:54:49 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:54:49 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:54:49 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0656" classname="Test Cases/Subscriber TestCases/TC0656" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:54:49 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0656: Test Cases/Subscriber TestCases/TC0656
+
+2019-04-25 12:54:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/h3_Manage Subscribers (3) (1)' is clicked on
+
+2019-04-25 12:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/h3_Manage Subscribers (3) (1)' is clicked on
+
+2019-04-25 12:54:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:54:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:54:53 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:54:53 - [TEST_STEP][PASSED] - Statement - rows_table1 = driver.findElements(org.openqa.selenium.By.xpath("//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/div/div[2]/select/option")): null
+
+2019-04-25 12:54:53 - [TEST_STEP][PASSED] - Statement - println(rows_table1.size()): null
+
+2019-04-25 12:54:53 - [TEST_STEP][PASSED] - Statement - rows_table1[2].click(): null
+
+2019-04-25 12:54:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:54:56 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:54:56 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:54:56 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:54:56 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:54:56 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:54:56 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0657" classname="Test Cases/Subscriber TestCases/TC0657" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:54:56 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0657: Test Cases/Subscriber TestCases/TC0657
+
+2019-04-25 12:54:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:56 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:54:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:54:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:54:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:54:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:54:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:59 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:54:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:54:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:54:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:01 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'all' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Tags...ALLhel'  using regular expression
+
+2019-04-25 12:55:02 - [MESSAGE][PASSED] - All options with value 'all' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Tags...ALLhel'  using regular expression
+
+2019-04-25 12:55:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:04 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:55:04 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:55:04 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:55:04 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:55:04 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:55:04 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0658" classname="Test Cases/Subscriber TestCases/TC0658" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:55:04 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0658: Test Cases/Subscriber TestCases/TC0658
+
+2019-04-25 12:55:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:05 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:55:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:08 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:09 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'subscribed' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Status...ALLS'  using regular expression
+
+2019-04-25 12:55:09 - [MESSAGE][PASSED] - All options with value 'subscribed' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Status...ALLS'  using regular expression
+
+2019-04-25 12:55:09 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:11 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:55:11 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:55:11 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:55:11 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:55:11 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:55:11 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0659" classname="Test Cases/Subscriber TestCases/TC0659" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:55:11 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0659: Test Cases/Subscriber TestCases/TC0659
+
+2019-04-25 12:55:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:11 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:55:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:15 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'male' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Gender...AllM'  using regular expression
+
+2019-04-25 12:55:16 - [MESSAGE][PASSED] - All options with value 'male' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Gender...AllM'  using regular expression
+
+2019-04-25 12:55:16 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'subscribed' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Status...ALLS'  using regular expression
+
+2019-04-25 12:55:16 - [MESSAGE][PASSED] - All options with value 'subscribed' are selected in object 'Object Repository/Page_KiboPush  Subscribers/select_Filter by Status...ALLS'  using regular expression
+
+2019-04-25 12:55:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 12:55:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 12:55:21 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:55:21 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:55:22 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:55:22 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:55:22 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:55:22 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0660" classname="Test Cases/Subscriber TestCases/TC0660" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:55:22 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0660: Test Cases/Subscriber TestCases/TC0660
+
+2019-04-25 12:55:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:22 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:55:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:25 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:25 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:55:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:55:29 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:55:29 - [TEST_STEP][PASSED] - Statement - rows_table1 = driver.findElements(org.openqa.selenium.By.xpath("//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/div/div[2]/select/option")): null
+
+2019-04-25 12:55:29 - [TEST_STEP][PASSED] - Statement - println(rows_table1.size()): null
+
+2019-04-25 12:55:29 - [TEST_STEP][PASSED] - Statement - rows_table1[2].click(): null
+
+2019-04-25 12:55:29 - [TEST_STEP][PASSED] - setText: Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:55:29 - [MESSAGE][PASSED] - Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:55:29 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2019-04-25 12:55:44 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-04-25 12:55:44 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 12:55:45 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 12:55:45 - [TEST_STEP][PASSED] - Statement - size = rows_table.size(): null
+
+2019-04-25 12:55:45 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '2' is greater than or equal to expected number '1'
+
+2019-04-25 12:55:45 - [MESSAGE][PASSED] - Actual number '2' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0666" classname="Test Cases/Subscriber TestCases/TC0666" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:55:45 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0666: Test Cases/Subscriber TestCases/TC0666
+
+2019-04-25 12:55:45 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:45 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:55:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:48 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:48 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:48 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (1)' is clicked on
+
+2019-04-25 12:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (1)' is clicked on
+
+2019-04-25 12:55:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 12:55:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 12:55:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Edit' is clicked on
+
+2019-04-25 12:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Edit' is clicked on
+
+2019-04-25 12:55:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:54 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 12:55:54 - [TEST_STEP][PASSED] - Statement - tag = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="tagName"]")): null
+
+2019-04-25 12:55:54 - [TEST_STEP][PASSED] - Statement - tag.clear(): null
+
+2019-04-25 12:55:54 - [TEST_STEP][PASSED] - Statement - tag.sendKeys("hello"): null
+
+2019-04-25 12:55:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Save (1)' is clicked on
+
+2019-04-25 12:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Save (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0667" classname="Test Cases/Subscriber TestCases/TC0667" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:55:54 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0667: Test Cases/Subscriber TestCases/TC0667
+
+2019-04-25 12:55:54 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:54 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:55:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:55:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:55:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:55:57 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:57 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:55:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:55:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (4)' is clicked on
+
+2019-04-25 12:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (4)' is clicked on
+
+2019-04-25 12:55:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_hello (2)' is clicked on
+
+2019-04-25 12:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_hello (2)' is clicked on
+
+2019-04-25 12:55:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Edit (1)' is clicked on
+
+2019-04-25 12:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Edit (1)' is clicked on
+
+2019-04-25 12:55:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/button_Cancel' is clicked on
+
+2019-04-25 12:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/button_Cancel' is clicked on
+
+2019-04-25 12:55:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/span_hello (1)' is clicked on
+
+2019-04-25 12:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/span_hello (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0668" classname="Test Cases/Subscriber TestCases/TC0668" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:55:59 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0668: Test Cases/Subscriber TestCases/TC0668
+
+2019-04-25 12:55:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:55:59 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:55:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:55:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:56:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:56:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:56:02 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:56:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:56:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:56:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:56:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (2)' is clicked on
+
+2019-04-25 12:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (2)' is clicked on
+
+2019-04-25 12:56:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Delete (1)' is clicked on
+
+2019-04-25 12:56:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Delete (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0669" classname="Test Cases/Subscriber TestCases/TC0669" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:56:03 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0669: Test Cases/Subscriber TestCases/TC0669
+
+2019-04-25 12:56:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:56:03 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:56:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:56:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:56:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:56:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:56:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:56:08 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:56:08 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:56:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:56:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:56:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:56:08 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:56:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:56:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (3) (1)' is clicked on
+
+2019-04-25 12:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/a_Edit Tags (3) (1)' is clicked on
+
+2019-04-25 12:56:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_hello (1) (1)' is clicked on
+
+2019-04-25 12:56:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_hello (1) (1)' is clicked on
+
+2019-04-25 12:56:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Delete (2) (1)' is clicked on
+
+2019-04-25 12:56:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Delete (2) (1)' is clicked on
+
+2019-04-25 12:56:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:56:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:56:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/button_Cancel (1)' is clicked on
+
+2019-04-25 12:56:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/button_Cancel (1)' is clicked on
+
+2019-04-25 12:56:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:56:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:56:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/span_hello' is clicked on
+
+2019-04-25 12:56:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/span_hello' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0670" classname="Test Cases/Subscriber TestCases/TC0670" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:56:18 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0670: Test Cases/Subscriber TestCases/TC0670
+
+2019-04-25 12:56:19 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:56:19 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:56:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:56:20 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:56:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:56:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:56:22 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:56:23 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:56:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:56:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:56:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:56:23 - [TEST_STEP][PASSED] - setText: Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:56:24 - [MESSAGE][PASSED] - Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:56:24 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2019-04-25 12:56:39 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-04-25 12:56:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari' is clicked on
+
+2019-04-25 12:56:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari' is clicked on
+
+2019-04-25 12:56:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:56:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:56:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribed At' is clicked on
+
+2019-04-25 12:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribed At' is clicked on
+
+2019-04-25 12:56:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Facebook Page' is clicked on
+
+2019-04-25 12:56:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Facebook Page' is clicked on
+
+2019-04-25 12:56:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Source' is clicked on
+
+2019-04-25 12:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Source' is clicked on
+
+2019-04-25 12:56:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_' is clicked on
+
+2019-04-25 12:56:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_' is clicked on
+
+2019-04-25 12:56:53 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:56:56 - [MESSAGE][PASSED] - Delayed 3 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0672" classname="Test Cases/Subscriber TestCases/TC0672" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:56:57 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0672: Test Cases/Subscriber TestCases/TC0672
+
+2019-04-25 12:56:57 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:56:57 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:56:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:56:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:57:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:57:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:57:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:57:02 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:57:02 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:57:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:57:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:57:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:57:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:57:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:57:05 - [TEST_STEP][PASSED] - setText: Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:57:05 - [MESSAGE][PASSED] - Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:57:05 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2019-04-25 12:57:20 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-04-25 12:57:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari' is clicked on
+
+2019-04-25 12:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari' is clicked on
+
+2019-04-25 12:57:27 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:57:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:57:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/a_Assign Tags' is clicked on
+
+2019-04-25 12:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/a_Assign Tags' is clicked on
+
+2019-04-25 12:57:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_' is clicked on
+
+2019-04-25 12:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0676" classname="Test Cases/Subscriber TestCases/TC0676" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:57:32 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0676: Test Cases/Subscriber TestCases/TC0676
+
+2019-04-25 12:57:32 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:57:32 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:57:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:57:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:57:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:57:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:57:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:57:36 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:57:37 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:57:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:57:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:57:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:57:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:57:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:57:39 - [TEST_STEP][PASSED] - setText: Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:57:40 - [MESSAGE][PASSED] - Text 'Arveen' is set on object 'Object Repository/Page_KiboPush  Subscribers/input_generalSearch'
+
+2019-04-25 12:57:40 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2019-04-25 12:57:55 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-04-25 12:57:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari' is clicked on
+
+2019-04-25 12:57:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari' is clicked on
+
+2019-04-25 12:57:56 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:57:59 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:57:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_' is clicked on
+
+2019-04-25 12:57:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_' is clicked on
+
+2019-04-25 12:57:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:00 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:58:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:58:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers' is clicked on
+
+2019-04-25 12:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0678" classname="Test Cases/Subscriber TestCases/TC0678" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:58:02 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0678: Test Cases/Subscriber TestCases/TC0678
+
+2019-04-25 12:58:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:58:03 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:58:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:58:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:58:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:58:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:58:07 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:07 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:58:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:58:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:58:09 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:09 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0679" classname="Test Cases/Subscriber TestCases/TC0679" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:58:09 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0679: Test Cases/Subscriber TestCases/TC0679
+
+2019-04-25 12:58:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 12:58:09 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0678: Test Cases/Subscriber TestCases/TC0678
+
+2019-04-25 12:58:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:58:10 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:58:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:58:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:58:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:58:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:58:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:58:14 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:14 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:58:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:58:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:58:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:58:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 12:58:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/a_Click Here' is clicked on
+
+2019-04-25 12:58:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/a_Click Here' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0680" classname="Test Cases/Subscriber TestCases/TC0680" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:58:16 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0680: Test Cases/Subscriber TestCases/TC0680
+
+2019-04-25 12:58:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage' successfully
+
+2019-04-25 12:58:17 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-25 12:58:17 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 12:58:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-25 12:58:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 12:58:21 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 12:58:22 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 12:58:22 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 12:58:36 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 12:58:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 12:58:37 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 12:58:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 12:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 12:58:39 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 12:58:39 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 12:58:39 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 12:58:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 12:58:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 12:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 12:58:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 12:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 12:59:01 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 12:59:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 12:59:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:59:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:59:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:59:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:59:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 12:59:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:59:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:59:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage' successfully
+
+2019-04-25 12:59:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 12:59:09 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0678: Test Cases/Subscriber TestCases/TC0678
+
+2019-04-25 12:59:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:59:09 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:59:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:59:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:59:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:59:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:59:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:59:12 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:13 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:59:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:59:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:59:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 12:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/a_video tutorial' is clicked on
+
+2019-04-25 12:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/a_video tutorial' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0681" classname="Test Cases/Subscriber TestCases/TC0681" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:59:16 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0681: Test Cases/Subscriber TestCases/TC0681
+
+2019-04-25 12:59:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 12:59:16 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0678: Test Cases/Subscriber TestCases/TC0678
+
+2019-04-25 12:59:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:59:16 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 12:59:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:59:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 12:59:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 12:59:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 12:59:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 12:59:20 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:20 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 12:59:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 12:59:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:21 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:22 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 12:59:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 12:59:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 12:59:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/span_Share Page' is clicked on
+
+2019-04-25 12:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/span_Share Page' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Subscriber TestCases/TC0682" classname="Test Cases/Subscriber TestCases/TC0682" status="PASSED">
+         <system-out><![CDATA[2019-04-25 12:59:23 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0682: Test Cases/Subscriber TestCases/TC0682
+
+2019-04-25 12:59:24 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage' successfully
+
+2019-04-25 12:59:24 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-25 12:59:24 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 12:59:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-25 12:59:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 12:59:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 12:59:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 12:59:30 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 12:59:48 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 12:59:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 12:59:50 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 12:59:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 12:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 12:59:51 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 12:59:51 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 12:59:51 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 12:59:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 12:59:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 12:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 12:59:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 13:00:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 13:00:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 13:00:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 13:00:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 13:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 13:00:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 13:00:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 13:00:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 13:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 13:00:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 13:00:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 13:00:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage' successfully
+
+2019-04-25 13:00:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 13:00:23 - [TEST_CASE][PASSED] - Test Cases/Subscriber TestCases/TC0678: Test Cases/Subscriber TestCases/TC0678
+
+2019-04-25 13:00:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 13:00:23 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Subscriber: Test Cases/s-sidebar_navigation/individualAccount/Subscriber
+
+2019-04-25 13:00:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 13:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-25 13:00:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 13:00:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 13:00:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 13:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/span_Subscribers (5)' is clicked on
+
+2019-04-25 13:00:26 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 13:00:27 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 13:00:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 13:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/h3_Manage Subscribers (1)' is clicked on
+
+2019-04-25 13:00:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Subscriber' successfully
+
+2019-04-25 13:00:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 13:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Subscribers/button_Invite Subscribers' is clicked on
+
+2019-04-25 13:00:28 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 13:00:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 13:00:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 13:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers' is clicked on
+
+2019-04-25 13:00:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Subscriber TestCases/TC0678' successfully
+
+2019-04-25 13:00:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers (2)' is clicked on
+
+2019-04-25 13:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/h3_Invite Subscribers (2)' is clicked on
+
+2019-04-25 13:00:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/button_Copy Link (1)' is clicked on
+
+2019-04-25 13:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/button_Copy Link (1)' is clicked on
+
+2019-04-25 13:00:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Invite Subscribers/div_Link Copied Successfully' is clicked on
+
+2019-04-25 13:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Invite Subscribers/div_Link Copied Successfully' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 12:51:53 - [TEST_SUITE][PASSED] - subscriber: Test Cases/Subscriber TestCases/TC0682]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

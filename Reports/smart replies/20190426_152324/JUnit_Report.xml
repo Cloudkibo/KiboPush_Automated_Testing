@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="smart replies" time="412" tests="20" failures="0" errors="0">
+   <testsuite name="smart replies" tests="20" failures="0" errors="0" time="412" timestamp="2019-04-26 15:23:37" hostname="cloudkibo - 10.0.2.15" id="Test Suites/smart replies">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190426_152324"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\smart replies\\20190426_152324\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="d04f22a2c82be31cff27a16ab8074eb3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:23:38 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat
+
+2019-04-26 15:23:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-26 15:23:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 15:23:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-26 15:23:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-26 15:23:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-26 15:24:04 - [MESSAGE][PASSED] - Navigate to 'https://kibochat.cloudkibo.com/' successfully
+
+2019-04-26 15:24:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-26 15:24:05 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com' successfully
+
+2019-04-26 15:24:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-26 15:24:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/a_Login (10)' is clicked on
+
+2019-04-26 15:24:07 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-26 15:24:07 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-26 15:24:07 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-26 15:24:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-26 15:24:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-26 15:24:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (11)' is clicked on
+
+2019-04-26 15:24:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-26 15:24:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (58)' is clicked on
+
+2019-04-26 15:24:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:24:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:24:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-26 15:24:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)' is clicked on
+
+2019-04-26 15:24:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:24:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:24:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on
+
+2019-04-26 15:24:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger' is clicked on
+
+2019-04-26 15:24:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:24:39 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/open_automation" classname="Test Cases/Smart Replies/open_automation" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:24:39 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/open_automation: Test Cases/Smart Replies/open_automation
+
+2019-04-26 15:24:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-26 15:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)' is clicked on
+
+2019-04-26 15:24:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:24:41 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0618" classname="Test Cases/Smart Replies/TC0618" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:24:41 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:24:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:24:41 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:24:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:24:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:24:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:24:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:24:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:24:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:24:44 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:24:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:24:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:24:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:24:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:24:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:24:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:24:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:24:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:24:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:24:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:24:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:24:49 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0619" classname="Test Cases/Smart Replies/TC0619" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:24:49 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:24:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:24:50 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:24:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:24:50 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:24:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:24:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:24:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:24:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:24:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:24:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:24:52 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:24:52 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:24:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:24:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:24:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:24:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:24:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:24:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:24:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:24:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:24:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:24:57 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:24:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:24:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:24:58 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:24:58 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:24:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:24:59 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:24:59 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:24:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0621" classname="Test Cases/Smart Replies/TC0621" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:24:59 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0621: Test Cases/Smart Replies/TC0621
+
+2019-04-26 15:24:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:24:59 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:24:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:24:59 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:25:00 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:25:00 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:25:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:25:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:25:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:25:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:25:03 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:03 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:03 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:25:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:25:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:25:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:25:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:25:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:25:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:25:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:25:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:25:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:25:09 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:25:10 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:25:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:25:10 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:10 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:25:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:25:10 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:25:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:25:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0622" classname="Test Cases/Smart Replies/TC0622" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:25:11 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0622: Test Cases/Smart Replies/TC0622
+
+2019-04-26 15:25:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0622_n' successfully
+
+2019-04-26 15:25:11 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0622_n: Test Cases/Smart Replies/TC0622_n
+
+2019-04-26 15:25:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:25:12 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:25:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:25:12 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:25:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:25:12 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:25:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:25:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:25:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:25:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:25:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:25:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:25:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:25:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:25:21 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:25:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:25:22 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:25:22 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:25:22 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:25:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:25:23 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:23 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:25:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:25:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:25:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:25:24 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:26 - [TEST_STEP][PASSED] - setText: Text 'How are you?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question1'
+
+2019-04-26 15:25:27 - [MESSAGE][PASSED] - Text 'How are you?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question1'
+
+2019-04-26 15:25:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:29 - [TEST_STEP][PASSED] - setText: Text 'How are you doing?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question2'
+
+2019-04-26 15:25:30 - [MESSAGE][PASSED] - Text 'How are you doing?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question2'
+
+2019-04-26 15:25:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:32 - [TEST_STEP][PASSED] - setText: Text 'How are you feeling?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question3'
+
+2019-04-26 15:25:33 - [MESSAGE][PASSED] - Text 'How are you feeling?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question3'
+
+2019-04-26 15:25:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:36 - [TEST_STEP][PASSED] - setText: Text 'I am doing good.' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Answer Questions'
+
+2019-04-26 15:25:37 - [MESSAGE][PASSED] - Text 'I am doing good.' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Answer Questions'
+
+2019-04-26 15:25:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0622_n' successfully
+
+2019-04-26 15:25:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add More' is clicked on
+
+2019-04-26 15:25:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add More' is clicked on
+
+2019-04-26 15:25:39 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:42 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0622_n" classname="Test Cases/Smart Replies/TC0622_n" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:25:42 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0622_n: Test Cases/Smart Replies/TC0622_n
+
+2019-04-26 15:25:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:25:42 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:25:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:25:42 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:25:42 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:25:42 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:25:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:25:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:25:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:25:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:25:46 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:46 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:25:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:25:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:25:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:25:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:25:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:25:52 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:25:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:25:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:25:54 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:25:54 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:25:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:25:55 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:25:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:25:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:25:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:25:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:25:56 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:25:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:25:58 - [TEST_STEP][PASSED] - setText: Text 'How are you?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question1'
+
+2019-04-26 15:25:58 - [MESSAGE][PASSED] - Text 'How are you?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question1'
+
+2019-04-26 15:25:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:01 - [TEST_STEP][PASSED] - setText: Text 'How are you doing?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question2'
+
+2019-04-26 15:26:01 - [MESSAGE][PASSED] - Text 'How are you doing?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question2'
+
+2019-04-26 15:26:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:03 - [TEST_STEP][PASSED] - setText: Text 'How are you feeling?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question3'
+
+2019-04-26 15:26:04 - [MESSAGE][PASSED] - Text 'How are you feeling?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question3'
+
+2019-04-26 15:26:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:06 - [TEST_STEP][PASSED] - setText: Text 'I am doing good.' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Answer Questions'
+
+2019-04-26 15:26:07 - [MESSAGE][PASSED] - Text 'I am doing good.' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Answer Questions'
+
+2019-04-26 15:26:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:08 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0623" classname="Test Cases/Smart Replies/TC0623" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:26:08 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0623: Test Cases/Smart Replies/TC0623
+
+2019-04-26 15:26:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0622' successfully
+
+2019-04-26 15:26:09 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0622: Test Cases/Smart Replies/TC0622
+
+2019-04-26 15:26:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0622_n' successfully
+
+2019-04-26 15:26:09 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0622_n: Test Cases/Smart Replies/TC0622_n
+
+2019-04-26 15:26:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:26:09 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:26:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:26:09 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:26:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:09 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:26:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:12 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:26:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:26:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:26:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:26:17 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:26:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:26:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:26:18 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:26:18 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:26:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:26:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:26:18 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:26:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:26:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:26:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:26:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:21 - [TEST_STEP][PASSED] - setText: Text 'How are you?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question1'
+
+2019-04-26 15:26:21 - [MESSAGE][PASSED] - Text 'How are you?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question1'
+
+2019-04-26 15:26:21 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:23 - [TEST_STEP][PASSED] - setText: Text 'How are you doing?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question2'
+
+2019-04-26 15:26:23 - [MESSAGE][PASSED] - Text 'How are you doing?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question2'
+
+2019-04-26 15:26:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:25 - [TEST_STEP][PASSED] - setText: Text 'How are you feeling?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question3'
+
+2019-04-26 15:26:25 - [MESSAGE][PASSED] - Text 'How are you feeling?' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Question3'
+
+2019-04-26 15:26:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:27 - [TEST_STEP][PASSED] - setText: Text 'I am doing good.' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Answer Questions'
+
+2019-04-26 15:26:27 - [MESSAGE][PASSED] - Text 'I am doing good.' is set on object 'Object Repository/Page_KiboPush  Create Bot/Bot Answer Questions'
+
+2019-04-26 15:26:27 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0622_n' successfully
+
+2019-04-26 15:26:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add More' is clicked on
+
+2019-04-26 15:26:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add More' is clicked on
+
+2019-04-26 15:26:29 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0622' successfully
+
+2019-04-26 15:26:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/i_Enter several variations of' is clicked on
+
+2019-04-26 15:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/i_Enter several variations of' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0624" classname="Test Cases/Smart Replies/TC0624" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:26:31 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0624: Test Cases/Smart Replies/TC0624
+
+2019-04-26 15:26:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0621' successfully
+
+2019-04-26 15:26:31 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0621: Test Cases/Smart Replies/TC0621
+
+2019-04-26 15:26:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:26:31 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:26:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:26:31 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:26:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:31 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:26:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:34 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:34 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:34 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:36 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:26:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:26:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:26:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:26:38 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:26:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:26:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:26:39 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:26:40 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:26:40 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:40 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:26:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:26:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Add Questions' is clicked on
+
+2019-04-26 15:26:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0621' successfully
+
+2019-04-26 15:26:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/span_Question1_fa fa-times' is clicked on
+
+2019-04-26 15:26:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/span_Question1_fa fa-times' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/Test-Actions-Button" classname="Test Cases/Smart Replies/Test-Actions-Button" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:26:41 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-26 15:26:41 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:41 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:26:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:42 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:44 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:46 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:26:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:26:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:26:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0624 - delete" classname="Test Cases/Smart Replies/TC0624 - delete" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:26:49 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0624 - delete: Test Cases/Smart Replies/TC0624 - delete
+
+2019-04-26 15:26:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:26:50 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-26 15:26:50 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:50 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:26:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:26:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:26:52 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:52 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:26:52 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:26:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:26:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:26:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:26:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:26:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:26:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:26:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:26:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:26:58 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:27:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 15:27:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:27:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:27:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:27:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:27:06 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:27:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:27:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 15:27:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:27:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:27:15 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:27:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:27:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:27:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:27:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:27:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:27:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:27:24 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:27:30 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0625" classname="Test Cases/Smart Replies/TC0625" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:27:30 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0625: Test Cases/Smart Replies/TC0625
+
+2019-04-26 15:27:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:27:31 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:27:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:27:31 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:27:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:27:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:27:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:27:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:27:35 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:27:35 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:27:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:27:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:27:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:27:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:27:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:27:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:27:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:27:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:27:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:27:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:27:43 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2) (1)'
+
+2019-04-26 15:27:44 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2) (1)'
+
+2019-04-26 15:27:44 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:46 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value 'false' are selected in object 'Object Repository/Page_KiboPush  Dashboard/select_ActiveDisabled'  using regular expression
+
+2019-04-26 15:27:46 - [MESSAGE][PASSED] - All options with value 'false' are selected in object 'Object Repository/Page_KiboPush  Dashboard/select_ActiveDisabled'  using regular expression
+
+2019-04-26 15:27:46 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:49 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0626" classname="Test Cases/Smart Replies/TC0626" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:27:49 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0626: Test Cases/Smart Replies/TC0626
+
+2019-04-26 15:27:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:27:49 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:27:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:27:49 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:27:49 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:27:49 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:27:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:27:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:27:50 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:27:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:27:53 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:27:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:27:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:27:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:27:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:27:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:27:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:27:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:27:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:27:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:27:59 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:28:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:28:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:28:00 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:28:00 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:28:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:28:01 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:01 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:28:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:28:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Apply Politics Chat Bot' is clicked on
+
+2019-04-26 15:28:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Apply Politics Chat Bot' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0627" classname="Test Cases/Smart Replies/TC0627" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:28:01 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0627: Test Cases/Smart Replies/TC0627
+
+2019-04-26 15:28:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0626' successfully
+
+2019-04-26 15:28:02 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0626: Test Cases/Smart Replies/TC0626
+
+2019-04-26 15:28:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:28:02 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0619: Test Cases/Smart Replies/TC0619
+
+2019-04-26 15:28:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:28:02 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0618: Test Cases/Smart Replies/TC0618
+
+2019-04-26 15:28:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:28:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:02 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:05 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:05 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:28:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:28:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:28:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboChat  Bots/button_Create New' is clicked on
+
+2019-04-26 15:28:10 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:28:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:28:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0618' successfully
+
+2019-04-26 15:28:11 - [TEST_STEP][PASSED] - setText: Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:28:11 - [MESSAGE][PASSED] - Text 'Test' is set on object 'Object Repository/Page_KiboPush  Dashboard/input_form-control (2)'
+
+2019-04-26 15:28:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:28:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Create' is clicked on
+
+2019-04-26 15:28:11 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/h3_Create Bot' is clicked on
+
+2019-04-26 15:28:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0619' successfully
+
+2019-04-26 15:28:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Apply Politics Chat Bot' is clicked on
+
+2019-04-26 15:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Apply Politics Chat Bot' is clicked on
+
+2019-04-26 15:28:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/TC0626' successfully
+
+2019-04-26 15:28:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Bot/button_Create' is clicked on
+
+2019-04-26 15:28:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Bot/button_Create' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0629" classname="Test Cases/Smart Replies/TC0629" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:28:12 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0629: Test Cases/Smart Replies/TC0629
+
+2019-04-26 15:28:12 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:12 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:28:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:15 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:15 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:15 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:17 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:28:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:28:20 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-26 15:28:20 - [TEST_STEP][PASSED] - Statement - rows_table1 = driver.findElements(org.openqa.selenium.By.xpath("//*[@id="m_form_status"]/option")): null
+
+2019-04-26 15:28:20 - [TEST_STEP][PASSED] - Statement - println(rows_table1.size()): null
+
+2019-04-26 15:28:20 - [TEST_STEP][PASSED] - Statement - rows_table1[2].click(): null
+
+2019-04-26 15:28:20 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:28:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:28:22 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-26 15:28:22 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-26 15:28:22 - [TEST_STEP][PASSED] - Statement - rows_count = rows_table.size(): null
+
+2019-04-26 15:28:22 - [TEST_STEP][PASSED] - verifyEqual: Actual object '1' and expected object '1' are equal
+
+2019-04-26 15:28:22 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0632" classname="Test Cases/Smart Replies/TC0632" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:28:22 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0632: Test Cases/Smart Replies/TC0632
+
+2019-04-26 15:28:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:28:22 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-26 15:28:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:22 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:28:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:23 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:25 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:25 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:28:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:28:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:28:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:28:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:28:28 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:30 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0633" classname="Test Cases/Smart Replies/TC0633" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:28:30 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0633: Test Cases/Smart Replies/TC0633
+
+2019-04-26 15:28:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:28:30 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-26 15:28:30 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:30 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:28:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:30 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:32 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:32 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:32 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:34 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:28:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:28:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:28:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:28:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:28:38 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Edit' is clicked on
+
+2019-04-26 15:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Edit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0634" classname="Test Cases/Smart Replies/TC0634" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:28:40 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0634: Test Cases/Smart Replies/TC0634
+
+2019-04-26 15:28:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:28:40 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-26 15:28:40 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:40 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:28:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:28:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:28:43 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:43 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:28:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:28:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:28:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:28:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:28:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:28:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:28:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:28:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 15:28:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:28:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:28:53 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:28:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:28:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:28:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:28:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:28:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:28:59 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:29:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 15:29:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:04 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:29:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:29:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:05 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:29:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:29:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:29:12 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:29:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 15:29:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:18 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:29:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:29:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:19 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:29:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:29:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:29:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:29:26 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:29:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 15:29:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:29:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:29:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:29:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:29:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:29:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 15:29:49 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 15:29:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:29:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:29:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:29:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:29:51 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:29:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:29:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:29:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:29:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0635" classname="Test Cases/Smart Replies/TC0635" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:29:57 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0635: Test Cases/Smart Replies/TC0635
+
+2019-04-26 15:29:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:29:58 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-26 15:29:58 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:29:58 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:29:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:29:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:29:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:30:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:30:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:30:01 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:30:01 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:30:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:30:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:30:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:30:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:30:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:30:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:30:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:30:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:30:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:30:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:30:08 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:30:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Unanswered Queries (1) (1) (1)' is clicked on
+
+2019-04-26 15:30:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Unanswered Queries (1) (1) (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Smart Replies/TC0636" classname="Test Cases/Smart Replies/TC0636" status="PASSED">
+         <system-out><![CDATA[2019-04-26 15:30:09 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/TC0636: Test Cases/Smart Replies/TC0636
+
+2019-04-26 15:30:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:30:09 - [TEST_CASE][PASSED] - Test Cases/Smart Replies/Test-Actions-Button: Test Cases/Smart Replies/Test-Actions-Button
+
+2019-04-26 15:30:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:30:09 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/Smart Replies: Test Cases/s-sidebar_navigation/individualAccount/Smart Replies
+
+2019-04-26 15:30:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:30:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Dashboard' is clicked on
+
+2019-04-26 15:30:10 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:30:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:30:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:30:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Smart Replies' is clicked on
+
+2019-04-26 15:30:13 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:30:13 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:30:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:30:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:30:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Manage Bots' is clicked on
+
+2019-04-26 15:30:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/Smart Replies' successfully
+
+2019-04-26 15:30:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:30:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:30:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:30:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Smart Replies/Test-Actions-Button' successfully
+
+2019-04-26 15:30:18 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:30:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:30:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Waiting Subscribers (1)' is clicked on
+
+2019-04-26 15:30:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Waiting Subscribers (1)' is clicked on
+
+2019-04-26 15:30:20 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:30:21 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 15:30:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Subscribers waiting for res (1)' is clicked on
+
+2019-04-26 15:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Subscribers waiting for res (1)' is clicked on
+
+2019-04-26 15:30:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/a_Back (6)' is clicked on
+
+2019-04-26 15:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/a_Back (6)' is clicked on
+
+2019-04-26 15:30:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 15:30:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 15:30:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:30:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/i_la la-ellipsis-h (1)' is clicked on
+
+2019-04-26 15:30:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 15:30:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 15:30:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Delete' is clicked on
+
+2019-04-26 15:30:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:30:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/button_Delete (6)' is clicked on
+
+2019-04-26 15:30:25 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 15:30:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 15:30:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on
+
+2019-04-26 15:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/div_Bot deleted successfully' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 15:23:37 - [TEST_SUITE][PASSED] - smart replies: Test Cases/Smart Replies/TC0636]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
