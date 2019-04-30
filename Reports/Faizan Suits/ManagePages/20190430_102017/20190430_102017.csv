@@ -1,0 +1,124 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ManagePages,Chrome 73.0.3683.75,,2019-04-30 10:33:35,2019-04-30 10:36:17,2m - 42.026s,FAILED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-30 10:33:35,2019-04-30 10:34:13,37.712s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-30 10:33:35,2019-04-30 10:33:37,1.290s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-30 10:33:37,2019-04-30 10:33:37,0.120s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-30 10:33:37,2019-04-30 10:33:48,11.227s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-30 10:33:48,2019-04-30 10:33:49,0.767s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:33:49,2019-04-30 10:33:50,0.800s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-30 10:33:50,2019-04-30 10:33:50,0.134s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-30 10:33:50,2019-04-30 10:33:50,0.093s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-30 10:33:50,2019-04-30 10:33:50,0.052s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-30 10:33:50,2019-04-30 10:34:10,19.637s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-30 10:34:10,2019-04-30 10:34:10,0.105s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-30 10:34:10,2019-04-30 10:34:13,3.025s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:34:13,2019-04-30 10:34:13,0.156s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:34:13,2019-04-30 10:34:13,0.105s,PASSED
+,,,,,,
+Test Cases/Welcome messages/open Manage Pages,Chrome 73.0.3683.75,,2019-04-30 10:34:13,2019-04-30 10:34:14,1.270s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Manage Pages""))",Chrome 73.0.3683.75,,2019-04-30 10:34:13,2019-04-30 10:34:13,0.136s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-30 10:34:13,2019-04-30 10:34:14,1.002s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0402,Chrome 73.0.3683.75,Test documentation link,2019-04-30 10:34:14,2019-04-30 10:34:17,2.605s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:14,2019-04-30 10:34:17,2.417s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_documentation (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:34:17,2019-04-30 10:34:17,0.097s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0403,Chrome 73.0.3683.75,Test video tutorial,2019-04-30 10:34:17,2019-04-30 10:34:19,2.372s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:17,2019-04-30 10:34:19,2.217s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_video tutorial (1) (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:34:19,2019-04-30 10:34:19,0.096s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0404,Chrome 73.0.3683.75,View all pages,2019-04-30 10:34:19,2019-04-30 10:34:27,7.363s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:19,2019-04-30 10:34:21,2.236s,PASSED
+delay(5),Chrome 73.0.3683.75,,2019-04-30 10:34:21,2019-04-30 10:34:26,5.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:34:26,2019-04-30 10:34:27,0.010s,PASSED
+"Table = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 73.0.3683.75,,2019-04-30 10:34:27,2019-04-30 10:34:27,0.025s,PASSED
+"verifyGreaterThanOrEqual(Table.size(), 1)",Chrome 73.0.3683.75,,2019-04-30 10:34:27,2019-04-30 10:34:27,0.005s,PASSED
+println(Table.size()),Chrome 73.0.3683.75,,2019-04-30 10:34:27,2019-04-30 10:34:27,0.002s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0405,Chrome 73.0.3683.75,Search pages,2019-04-30 10:34:27,2019-04-30 10:34:31,4.604s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:27,2019-04-30 10:34:29,2.283s,PASSED
+"setText(findTestObject(""Object Repository/Page_KiboEngage  Page/input_generalSearch""), ""production new"")",Chrome 73.0.3683.75,,2019-04-30 10:34:29,2019-04-30 10:34:29,0.229s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:29,2019-04-30 10:34:31,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:34:31,2019-04-30 10:34:31,0.000s,PASSED
+"Table = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 73.0.3683.75,,2019-04-30 10:34:31,2019-04-30 10:34:31,0.012s,PASSED
+"verifyGreaterThanOrEqual(Table.size(), 1)",Chrome 73.0.3683.75,,2019-04-30 10:34:31,2019-04-30 10:34:31,0.002s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0406,Chrome 73.0.3683.75,Test pagination (next page),2019-04-30 10:34:31,2019-04-30 10:34:38,6.413s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:31,2019-04-30 10:34:33,2.248s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:33,2019-04-30 10:34:35,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_next""))",Chrome 73.0.3683.75,,2019-04-30 10:34:35,2019-04-30 10:34:36,0.063s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:36,2019-04-30 10:34:38,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:34:38,2019-04-30 10:34:38,0.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 73.0.3683.75,,2019-04-30 10:34:38,2019-04-30 10:34:38,0.015s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-04-30 10:34:38,2019-04-30 10:34:38,0.000s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-30 10:34:38,2019-04-30 10:34:38,0.002s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0407,Chrome 73.0.3683.75,Test pagination (previous page),2019-04-30 10:34:38,2019-04-30 10:34:42,4.481s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:38,2019-04-30 10:34:40,2.236s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_next""))",Chrome 73.0.3683.75,,2019-04-30 10:34:40,2019-04-30 10:34:40,0.090s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_previous""))",Chrome 73.0.3683.75,,2019-04-30 10:34:40,2019-04-30 10:34:40,0.062s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:40,2019-04-30 10:34:42,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:34:42,2019-04-30 10:34:42,0.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 73.0.3683.75,,2019-04-30 10:34:42,2019-04-30 10:34:42,0.014s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-04-30 10:34:42,2019-04-30 10:34:42,0.001s,PASSED
+"verifyEqual(rows_table.size(), 6)",Chrome 73.0.3683.75,,2019-04-30 10:34:42,2019-04-30 10:34:42,0.004s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0408,Chrome 73.0.3683.75,Test pagination (Jump to page n),2019-04-30 10:34:42,2019-04-30 10:34:48,6.412s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:42,2019-04-30 10:34:44,2.237s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:44,2019-04-30 10:34:46,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/a_next""))",Chrome 73.0.3683.75,,2019-04-30 10:34:46,2019-04-30 10:34:46,0.081s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:46,2019-04-30 10:34:48,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:34:48,2019-04-30 10:34:48,0.001s,PASSED
+"rows_table = driver.findElements(By.xpath(""//table/tbody/tr""))",Chrome 73.0.3683.75,,2019-04-30 10:34:48,2019-04-30 10:34:48,0.013s,PASSED
+println(rows_table.size()),Chrome 73.0.3683.75,,2019-04-30 10:34:48,2019-04-30 10:34:48,0.001s,PASSED
+"verifyGreaterThanOrEqual(rows_table.size(), 1)",Chrome 73.0.3683.75,,2019-04-30 10:34:48,2019-04-30 10:34:48,0.002s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0409,Chrome 73.0.3683.75,Test invite subscribers button,2019-04-30 10:34:48,2019-04-30 10:34:55,6.428s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:49,2019-04-30 10:34:51,2.208s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-30 10:34:51,2019-04-30 10:34:51,0.012s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:51,2019-04-30 10:34:53,2.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Invite Subscribers (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:34:53,2019-04-30 10:34:53,0.092s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:34:53,2019-04-30 10:34:55,2.001s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-30 10:34:55,2019-04-30 10:34:55,0.009s,PASSED
+"click(findTestObject(""Page_KiboPush  Invite Subscribers/h3_Invite Subscribers (5)""))",Chrome 73.0.3683.75,,2019-04-30 10:34:55,2019-04-30 10:34:55,0.050s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0410,Chrome 73.0.3683.75,Remove connected page,2019-04-30 10:34:55,2019-04-30 10:34:57,2.423s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:55,2019-04-30 10:34:57,2.230s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/button_Remove""))",Chrome 73.0.3683.75,,2019-04-30 10:34:57,2019-04-30 10:34:57,0.067s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/remove_button_pages""))",Chrome 73.0.3683.75,,2019-04-30 10:34:57,2019-04-30 10:34:57,0.063s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0411,Chrome 73.0.3683.75,Test connect Facebook pages button,2019-04-30 10:34:57,2019-04-30 10:35:02,4.507s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:34:57,2019-04-30 10:35:00,2.224s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-30 10:35:00,2019-04-30 10:35:00,0.008s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Connect New""))",Chrome 73.0.3683.75,,2019-04-30 10:35:00,2019-04-30 10:35:00,0.112s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Pages/h3_Manage Pages (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:35:00,2019-04-30 10:35:00,0.073s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:35:00,2019-04-30 10:35:02,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:35:02,2019-04-30 10:35:02,0.000s,PASSED
+"Table = driver.findElements(By.xpath(""//*[@id=""content""]/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/div""))",Chrome 73.0.3683.75,,2019-04-30 10:35:02,2019-04-30 10:35:02,0.020s,PASSED
+"verifyEqual(Table.size(), 1)",Chrome 73.0.3683.75,,2019-04-30 10:35:02,2019-04-30 10:35:02,0.002s,PASSED
+println(Table.size()),Chrome 73.0.3683.75,,2019-04-30 10:35:02,2019-04-30 10:35:02,0.000s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0412,Chrome 73.0.3683.75,Connect Facebook page,2019-04-30 10:35:02,2019-04-30 10:35:07,5.527s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:35:02,2019-04-30 10:35:04,2.256s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-30 10:35:04,2019-04-30 10:35:04,0.007s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Connect New""))",Chrome 73.0.3683.75,,2019-04-30 10:35:04,2019-04-30 10:35:04,0.083s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Pages/h3_Manage Pages (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:35:04,2019-04-30 10:35:04,0.043s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-30 10:35:04,2019-04-30 10:35:07,3.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Pages/button_Disconnect""))",Chrome 73.0.3683.75,,2019-04-30 10:35:07,2019-04-30 10:35:07,0.081s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0413,Chrome 73.0.3683.75,Connect already connected page,2019-04-30 10:35:07,2019-04-30 10:35:15,7.625s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:35:07,2019-04-30 10:35:10,2.234s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:35:10,2019-04-30 10:35:12,2.002s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-30 10:35:12,2019-04-30 10:35:12,0.015s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  Dashboard/button_Connect New""))",Chrome 73.0.3683.75,,2019-04-30 10:35:12,2019-04-30 10:35:12,0.128s,PASSED
+"scrollToPosition(0, 0)",Chrome 73.0.3683.75,,2019-04-30 10:35:12,2019-04-30 10:35:12,0.014s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Pages/h3_Manage Pages (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:35:12,2019-04-30 10:35:12,0.072s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-30 10:35:12,2019-04-30 10:35:15,3.002s,PASSED
+"click(findTestObject(""Page_KiboPush  Add Pages/button_Connect""))",Chrome 73.0.3683.75,,2019-04-30 10:35:15,2019-04-30 10:35:15,0.097s,PASSED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0414,Chrome 73.0.3683.75,Disconnect Facebook page,2019-04-30 10:35:15,2019-04-30 10:35:46,31.034s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:35:15,2019-04-30 10:35:46,30.977s,FAILED
+,,,,,,
+Test Cases/Manage Pages TestCases/TC0415,Chrome 73.0.3683.75,Test done button,2019-04-30 10:35:46,2019-04-30 10:36:17,30.951s,FAILED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Pages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:35:46,2019-04-30 10:36:17,30.874s,FAILED

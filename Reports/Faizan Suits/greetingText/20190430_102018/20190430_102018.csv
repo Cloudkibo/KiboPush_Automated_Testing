@@ -1,0 +1,63 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+greetingText,Chrome 73.0.3683.75,,2019-04-30 10:46:57,2019-04-30 10:48:02,1m - 5.228s,PASSED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-30 10:46:57,2019-04-30 10:47:31,33.829s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-30 10:46:58,2019-04-30 10:46:59,1.504s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-30 10:46:59,2019-04-30 10:46:59,0.118s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-30 10:46:59,2019-04-30 10:47:11,12.090s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-30 10:47:11,2019-04-30 10:47:12,0.746s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:47:12,2019-04-30 10:47:13,0.812s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-30 10:47:13,2019-04-30 10:47:13,0.176s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-30 10:47:13,2019-04-30 10:47:13,0.141s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-30 10:47:13,2019-04-30 10:47:13,0.079s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-30 10:47:13,2019-04-30 10:47:28,14.531s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-30 10:47:28,2019-04-30 10:47:28,0.094s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-30 10:47:28,2019-04-30 10:47:31,3.018s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:47:31,2019-04-30 10:47:31,0.104s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:47:31,2019-04-30 10:47:31,0.101s,PASSED
+,,,,,,
+Test Cases/Welcome messages/open Manage Pages,Chrome 73.0.3683.75,,2019-04-30 10:47:31,2019-04-30 10:47:34,2.282s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Manage Pages""))",Chrome 73.0.3683.75,,2019-04-30 10:47:31,2019-04-30 10:47:33,1.167s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-30 10:47:33,2019-04-30 10:47:34,1.012s,PASSED
+,,,,,,
+Test Cases/Greeting text/TC1027,Chrome 73.0.3683.75,Greeting text video tutorial,2019-04-30 10:47:34,2019-04-30 10:47:39,5.796s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Greeting Text""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:47:34,2019-04-30 10:47:36,2.506s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Greeting Message/a_video tutorial""))",Chrome 73.0.3683.75,,2019-04-30 10:47:36,2019-04-30 10:47:36,0.151s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-30 10:47:36,2019-04-30 10:47:39,3.008s,PASSED
+,,,,,,
+Test Cases/Greeting text/TC1028,Chrome 73.0.3683.75,Default greeting text,2019-04-30 10:47:39,2019-04-30 10:47:44,4.519s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Greeting Text""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:47:39,2019-04-30 10:47:42,2.317s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:47:42,2019-04-30 10:47:44,2.004s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:47:44,2019-04-30 10:47:44,0.005s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""exampleTextarea""]""))",Chrome 73.0.3683.75,,2019-04-30 10:47:44,2019-04-30 10:47:44,0.039s,PASSED
+"verifyNotEqual(textArea.getText(), """")",Chrome 73.0.3683.75,,2019-04-30 10:47:44,2019-04-30 10:47:44,0.028s,PASSED
+,,,,,,
+Test Cases/Greeting text/TC1029,Chrome 73.0.3683.75,Change greeting text,2019-04-30 10:47:44,2019-04-30 10:47:50,5.661s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Greeting Text""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:47:44,2019-04-30 10:47:46,2.273s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:47:46,2019-04-30 10:47:48,2.002s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:47:48,2019-04-30 10:47:48,0.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""exampleTextarea""]""))",Chrome 73.0.3683.75,,2019-04-30 10:47:48,2019-04-30 10:47:48,0.012s,PASSED
+"textArea.sendKeys(""Hello"")",Chrome 73.0.3683.75,,2019-04-30 10:47:48,2019-04-30 10:47:48,0.083s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  api_settings/button_Save (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:47:48,2019-04-30 10:47:48,0.101s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  api_settings/div_Greeting message saved suc""))",Chrome 73.0.3683.75,,2019-04-30 10:47:48,2019-04-30 10:47:50,1.100s,PASSED
+,,,,,,
+Test Cases/Greeting text/TC1030,Chrome 73.0.3683.75,Change greeting text (empty text),2019-04-30 10:47:50,2019-04-30 10:47:54,4.487s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Greeting Text""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:47:50,2019-04-30 10:47:52,2.267s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:47:52,2019-04-30 10:47:54,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:47:54,2019-04-30 10:47:54,0.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""exampleTextarea""]""))",Chrome 73.0.3683.75,,2019-04-30 10:47:54,2019-04-30 10:47:54,0.016s,PASSED
+textArea.clear(),Chrome 73.0.3683.75,,2019-04-30 10:47:54,2019-04-30 10:47:54,0.037s,PASSED
+,,,,,,
+Test Cases/Greeting text/TC1032,Chrome 73.0.3683.75,Add user name,2019-04-30 10:47:54,2019-04-30 10:48:00,5.725s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Greeting Text""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:47:54,2019-04-30 10:47:56,2.287s,PASSED
+delay(2),Chrome 73.0.3683.75,,2019-04-30 10:47:56,2019-04-30 10:47:58,2.001s,PASSED
+driver = getWebDriver(),Chrome 73.0.3683.75,,2019-04-30 10:47:58,2019-04-30 10:47:58,0.001s,PASSED
+"textArea = driver.findElement(By.xpath(""//*[@id=""exampleTextarea""]""))",Chrome 73.0.3683.75,,2019-04-30 10:47:58,2019-04-30 10:47:58,0.015s,PASSED
+"textArea.sendKeys(""arveen"")",Chrome 73.0.3683.75,,2019-04-30 10:47:58,2019-04-30 10:47:59,0.117s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  api_settings/button_Save (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:47:59,2019-04-30 10:47:59,0.103s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboPush  api_settings/div_Greeting message saved suc""))",Chrome 73.0.3683.75,,2019-04-30 10:47:59,2019-04-30 10:48:00,1.094s,PASSED
+,,,,,,
+Test Cases/Greeting text/TC1033,Chrome 73.0.3683.75,View greeting text,2019-04-30 10:48:00,2019-04-30 10:48:02,2.602s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Greeting Text""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:48:00,2019-04-30 10:48:02,2.290s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Greeting Message/a_See how it looks""))",Chrome 73.0.3683.75,,2019-04-30 10:48:02,2019-04-30 10:48:02,0.108s,PASSED
+"click(findTestObject(""Object Repository/Page_KiboEngage  Greeting Message/h3_Greeting Message Preview""))",Chrome 73.0.3683.75,,2019-04-30 10:48:02,2019-04-30 10:48:02,0.120s,PASSED

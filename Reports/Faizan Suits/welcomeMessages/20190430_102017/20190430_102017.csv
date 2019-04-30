@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+welcomeMessages,Chrome 73.0.3683.75,,2019-04-30 10:23:45,2019-04-30 10:24:39,53.871s,PASSED
+,,,,,,
+Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage,Chrome 73.0.3683.75,,2019-04-30 10:23:45,2019-04-30 10:24:23,38.012s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.75,,2019-04-30 10:23:45,2019-04-30 10:23:46,1.082s,PASSED
+maximizeWindow(),Chrome 73.0.3683.75,,2019-04-30 10:23:46,2019-04-30 10:23:46,0.116s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/"")",Chrome 73.0.3683.75,,2019-04-30 10:23:46,2019-04-30 10:23:58,11.797s,PASSED
+"navigateToUrl(""https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-30 10:23:58,2019-04-30 10:23:59,0.731s,PASSED
+"click(findTestObject(""Page_CloudKibo/a_Login (2) (1) (1)""))",Chrome 73.0.3683.75,,2019-04-30 10:23:59,2019-04-30 10:24:00,0.756s,PASSED
+"setText(findTestObject(""Page_KiboPush/input_email (10) (1) (1)""), ""faizan@cloudkibo.com"")",Chrome 73.0.3683.75,,2019-04-30 10:24:00,2019-04-30 10:24:00,0.222s,PASSED
+"setEncryptedText(findTestObject(""Page_CloudKibo/input_Sign In_password (7)""), ""qeJ0sjJnwEs="")",Chrome 73.0.3683.75,,2019-04-30 10:24:00,2019-04-30 10:24:00,0.168s,PASSED
+"click(findTestObject(""Page_KiboPush/button_Sign In (10) (1) (2)""))",Chrome 73.0.3683.75,,2019-04-30 10:24:00,2019-04-30 10:24:00,0.084s,PASSED
+"navigateToUrl(""https://kiboengage.cloudkibo.com/dashboard"")",Chrome 73.0.3683.75,,2019-04-30 10:24:00,2019-04-30 10:24:20,19.507s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/h3_Dashboard (57)""))",Chrome 73.0.3683.75,,2019-04-30 10:24:20,2019-04-30 10:24:20,0.145s,PASSED
+delay(3),Chrome 73.0.3683.75,,2019-04-30 10:24:20,2019-04-30 10:24:23,3.024s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:24:23,2019-04-30 10:24:23,0.113s,PASSED
+"click(findTestObject(""Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)""))",Chrome 73.0.3683.75,,2019-04-30 10:24:23,2019-04-30 10:24:23,0.093s,PASSED
+,,,,,,
+Test Cases/Welcome messages/open Manage Pages,Chrome 73.0.3683.75,,2019-04-30 10:24:23,2019-04-30 10:24:24,1.313s,PASSED
+"click(findTestObject(""Page_KiboPush  Dashboard/span_Manage Pages""))",Chrome 73.0.3683.75,,2019-04-30 10:24:23,2019-04-30 10:24:23,0.149s,PASSED
+delay(1),Chrome 73.0.3683.75,,2019-04-30 10:24:23,2019-04-30 10:24:24,1.011s,PASSED
+,,,,,,
+Test Cases/Welcome messages/TC1034,Chrome 73.0.3683.75,Welcome message documentation link,2019-04-30 10:24:24,2019-04-30 10:24:27,2.565s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Welcome Messages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:24:25,2019-04-30 10:24:27,2.474s,PASSED
+,,,,,,
+Test Cases/Welcome messages/TC1035,Chrome 73.0.3683.75,Welcome message video tutorial,2019-04-30 10:24:27,2019-04-30 10:24:29,2.319s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Welcome Messages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:24:27,2019-04-30 10:24:29,2.226s,PASSED
+,,,,,,
+Test Cases/Welcome messages/TC1036,Chrome 73.0.3683.75,Welcome messages list,2019-04-30 10:24:29,2019-04-30 10:24:32,2.369s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Welcome Messages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:24:29,2019-04-30 10:24:32,2.279s,PASSED
+,,,,,,
+Test Cases/Welcome messages/TC1037,Chrome 73.0.3683.75,View welcome message,2019-04-30 10:24:32,2019-04-30 10:24:34,2.374s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Welcome Messages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:24:32,2019-04-30 10:24:34,2.280s,PASSED
+,,,,,,
+Test Cases/Welcome messages/TC1038,Chrome 73.0.3683.75,Edit Welcome message,2019-04-30 10:24:34,2019-04-30 10:24:36,2.299s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Welcome Messages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:24:34,2019-04-30 10:24:36,2.219s,PASSED
+,,,,,,
+Test Cases/Welcome messages/TC1039,Chrome 73.0.3683.75,Test back button,2019-04-30 10:24:36,2019-04-30 10:24:39,2.368s,PASSED
+"callTestCase(findTestCase(""s-sidebar_navigation/individualAccount/Welcome Messages""), [:], STOP_ON_FAILURE)",Chrome 73.0.3683.75,,2019-04-30 10:24:36,2019-04-30 10:24:39,2.288s,PASSED
