@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="operationalDashboard" time="60" tests="1" failures="1" errors="0">
+   <testsuite name="operationalDashboard" tests="1" failures="1" errors="0" time="60" timestamp="2019-04-26 11:33:59" hostname="cloudkibo - 10.0.2.15" id="Test Suites/operationalDashboard">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\operationalDashboard\\20190426_113355"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\operationalDashboard\\20190426_113355\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\operationalDashboard\\20190426_113355\\1556260496979.png"/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="724656bf547573245f318b2c14cf7297"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-26 11:34:01 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-26 11:34:02 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-26 11:34:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 11:34:08 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-26 11:34:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-26 11:34:09 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-26 11:34:19 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-26 11:34:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-26 11:34:20 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-26 11:34:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-26 11:34:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-26 11:34:21 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-26 11:34:22 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-26 11:34:22 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-26 11:34:22 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-26 11:34:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-26 11:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-26 11:34:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-26 11:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-26 11:34:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 11:34:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 11:34:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-26 11:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-26 11:34:47 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 11:34:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 11:34:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-26 11:34:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-26 11:34:49 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 11:34:51 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operational_Dashboard/115" classname="Test Cases/Operational_Dashboard/115" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;h3 class=&quot;m-portlet__head-text&quot;>...&lt;/h3> is not clickable at point (359, 35). Other element would receive the click: &lt;span>...&lt;/span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)"/>
+         <system-out><![CDATA[2019-04-26 11:34:51 - [TEST_CASE][FAILED] - Test Cases/Operational_Dashboard/115: Test Cases/Operational_Dashboard/115 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)
+
+2019-04-26 11:34:52 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Operational_Dashboard/Login' (Root cause: Call Test Case 'Test Cases/Operational_Dashboard/Login' failed)
+
+2019-04-26 11:34:52 - [TEST_CASE][FAILED] - Test Cases/Operational_Dashboard/Login: Test Cases/Operational_Dashboard/Login FAILED because (of) Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)
+
+2019-04-26 11:34:53 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard' (Root cause: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard' failed)
+
+2019-04-26 11:34:53 - [TEST_CASE][FAILED] - Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard: Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard FAILED because (of) Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)
+
+2019-04-26 11:34:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Subscribers' is clicked on
+
+2019-04-26 11:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Subscribers' is clicked on
+
+2019-04-26 11:34:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Operational Dashboard (1)' is clicked on
+
+2019-04-26 11:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Operational Dashboard (1)' is clicked on
+
+2019-04-26 11:34:54 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 11:34:54 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 11:34:54 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)
+
+2019-04-26 11:34:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\operationalDashboard\\20190426_113355\\1556260496979.png]]
+
+2019-04-26 11:34:57 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard' (Root cause: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard' failed)
+
+2019-04-26 11:34:57 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Operational_Dashboard/Login' (Root cause: Call Test Case 'Test Cases/Operational_Dashboard/Login' failed)]]></system-out>
+         <system-err><![CDATA[2019-04-26 11:34:51 - [TEST_CASE][FAILED] - Test Cases/Operational_Dashboard/115: Test Cases/Operational_Dashboard/115 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 11:33:59 - [TEST_SUITE][FAILED] - operationalDashboard: Test Cases/Operational_Dashboard/115 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)]]></system-out>
+      <system-err><![CDATA[2019-04-26 11:33:59 - [TEST_SUITE][FAILED] - operationalDashboard: Test Cases/Operational_Dashboard/115 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <h3 class="m-portlet__head-text">...</h3> is not clickable at point (359, 35). Other element would receive the click: <span>...</span>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 724656bf547573245f318b2c14cf7297)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -33,7 +33,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next (1) (1)'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_Select a valid image'))
+WebUI.verifyTextPresent('SELECT A VALID IMAGE', false)
 

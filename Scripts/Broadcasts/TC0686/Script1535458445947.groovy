@@ -25,8 +25,6 @@ WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_
 
 WebUI.delay(2)
 
-WebUI.scrollToPosition(0, 0)
-
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/i_fa fa-times-circle-o (1)'))
 

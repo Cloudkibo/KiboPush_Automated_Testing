@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="broadcast" time="166" tests="8" failures="0" errors="0">
+   <testsuite name="broadcast" tests="8" failures="0" errors="0" time="166" timestamp="2019-04-26 17:29:21" hostname="cloudkibo - 10.0.2.15" id="Test Suites/broadcast">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\broadcast\\20190426_172918"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\broadcast\\20190426_172918\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="3cc4b7bc2d35df9bb7a9ae4c8c07e324"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:29:22 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-26 17:29:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-26 17:29:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-26 17:29:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-26 17:29:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-26 17:29:31 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-26 17:29:46 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-26 17:29:46 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-26 17:29:47 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-26 17:29:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-26 17:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-26 17:29:48 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-26 17:29:49 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-26 17:29:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-26 17:29:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-26 17:29:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-26 17:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-26 17:29:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-26 17:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-26 17:30:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 17:30:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 17:30:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-26 17:30:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-26 17:30:40 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:30:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 17:30:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-26 17:30:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-26 17:30:43 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:30:45 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/open_broadcast" classname="Test Cases/Broadcasts/open_broadcast" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:30:45 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/open_broadcast: Test Cases/Broadcasts/open_broadcast
+
+2019-04-26 17:30:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasting' is clicked on
+
+2019-04-26 17:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasting' is clicked on
+
+2019-04-26 17:30:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:30:47 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0132" classname="Test Cases/Broadcasts/TC0132" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:30:47 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0132: Test Cases/Broadcasts/TC0132
+
+2019-04-26 17:30:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:30:48 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-26 17:30:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:30:48 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-26 17:30:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:30:49 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:30:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:30:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:30:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:30:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:30:51 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:30:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:30:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:30:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:30:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:30:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:30:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:30:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:30:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:30:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:30:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:30:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text_1' is clicked on
+
+2019-04-26 17:30:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text_1' is clicked on
+
+2019-04-26 17:30:55 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:30:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:30:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 17:30:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 17:30:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2019-04-26 17:30:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2019-04-26 17:30:58 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:31:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 17:31:00 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'TEXT CANNOT BE EMPTY' is present on page 
+
+2019-04-26 17:31:00 - [MESSAGE][PASSED] - Text 'TEXT CANNOT BE EMPTY' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0153" classname="Test Cases/Broadcasts/TC0153" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:31:00 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0153: Test Cases/Broadcasts/TC0153
+
+2019-04-26 17:31:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Broadcasts/TC0150' successfully
+
+2019-04-26 17:31:01 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0150: Test Cases/Broadcasts/TC0150
+
+2019-04-26 17:31:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:01 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-26 17:31:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:01 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-26 17:31:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:02 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:04 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2019-04-26 17:31:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Gallery (1)' is clicked on
+
+2019-04-26 17:31:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:31:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 17:31:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Broadcasts/TC0150' successfully
+
+2019-04-26 17:31:09 - [TEST_STEP][PASSED] - setText: Text 'Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_S'
+
+2019-04-26 17:31:10 - [MESSAGE][PASSED] - Text 'Subtitle' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/textarea_S'
+
+2019-04-26 17:31:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2019-04-26 17:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2019-04-26 17:31:10 - [TEST_STEP][PASSED] - setText: Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2019-04-26 17:31:10 - [MESSAGE][PASSED] - Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2019-04-26 17:31:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2019-04-26 17:31:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Open a website' is clicked on
+
+2019-04-26 17:31:10 - [TEST_STEP][PASSED] - setText: Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_2'
+
+2019-04-26 17:31:11 - [MESSAGE][PASSED] - Text 'kibopush.com' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control_2'
+
+2019-04-26 17:31:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on
+
+2019-04-26 17:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is clicked on
+
+2019-04-26 17:31:11 - [TEST_STEP][PASSED] - Statement - img = com.kms.katalon.core.configuration.RunConfiguration.getProjectDir() + "/sample.jpg": null
+
+2019-04-26 17:31:11 - [TEST_STEP][PASSED] - uploadFile: File 'C:/Users/cloudkibo/Desktop/KiboPush_Automated_Testing/KiboPush Katalon/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2019-04-26 17:31:11 - [MESSAGE][PASSED] - File 'C:/Users/cloudkibo/Desktop/KiboPush_Automated_Testing/KiboPush Katalon/sample.jpg' sent to object: 'Object Repository/Page_KiboPush  Create Broadcast/input_file'
+
+2019-04-26 17:31:11 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-26 17:31:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-26 17:31:16 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-26 17:31:16 - [TEST_STEP][PASSED] - Statement - image_popup = driver.findElement(org.openqa.selenium.By.xpath("/html/body/div[5]/div/div[2]/div/a")): null
+
+2019-04-26 17:31:17 - [TEST_STEP][PASSED] - Statement - image_popup.click(): null
+
+2019-04-26 17:31:17 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:31:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 17:31:19 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2019-04-26 17:31:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2019-04-26 17:31:19 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:20 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'IN GALLERY MUST HAVE AT LEAST TWO FILLED CARDS.' is present on page 
+
+2019-04-26 17:31:20 - [MESSAGE][PASSED] - Text 'IN GALLERY MUST HAVE AT LEAST TWO FILLED CARDS.' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0189" classname="Test Cases/Broadcasts/TC0189" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:31:20 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0189: Test Cases/Broadcasts/TC0189
+
+2019-04-26 17:31:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Broadcasts/TC0175' successfully
+
+2019-04-26 17:31:21 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0175: Test Cases/Broadcasts/TC0175
+
+2019-04-26 17:31:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:22 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-26 17:31:22 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:22 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-26 17:31:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:24 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:25 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:25 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:26 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Media' is clicked on
+
+2019-04-26 17:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Media' is clicked on
+
+2019-04-26 17:31:27 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Page_KiboPush  Create Broadcast/div_Media_1' is present
+
+2019-04-26 17:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KiboPush  Create Broadcast/div_Media_1' is present
+
+2019-04-26 17:31:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 17:31:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 17:31:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Broadcasts/TC0175' successfully
+
+2019-04-26 17:31:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/i_fa fa-times fa-stack-2x' is clicked on
+
+2019-04-26 17:31:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/i_fa fa-times fa-stack-2x' is clicked on
+
+2019-04-26 17:31:31 - [TEST_STEP][PASSED] - verifyElementNotPresent: Web element with id: 'Object Repository/Page_KiboPush  Create Broadcast/div_Media_1' located by 'By.xpath: //div[(text() = ' Media ' or . = ' Media ')]' is not present after '5' second(s)
+
+2019-04-26 17:31:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_KiboPush  Create Broadcast/div_Media_1' located by 'By.xpath: //div[(text() = ' Media ' or . = ' Media ')]' is not present after '5' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0192" classname="Test Cases/Broadcasts/TC0192" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:31:31 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0192: Test Cases/Broadcasts/TC0192
+
+2019-04-26 17:31:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Broadcasts/TC0131' successfully
+
+2019-04-26 17:31:31 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0131: Test Cases/Broadcasts/TC0131
+
+2019-04-26 17:31:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:31 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-26 17:31:31 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:31 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-26 17:31:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:33 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:34 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:34 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:34 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:35 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text_1' is clicked on
+
+2019-04-26 17:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Text_1' is clicked on
+
+2019-04-26 17:31:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Broadcasts/TC0131' successfully
+
+2019-04-26 17:31:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2019-04-26 17:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button' is clicked on
+
+2019-04-26 17:31:37 - [TEST_STEP][PASSED] - setText: Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2019-04-26 17:31:37 - [MESSAGE][PASSED] - Text 'KiboPush' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/input_form-control'
+
+2019-04-26 17:31:37 - [TEST_STEP][PASSED] - verifyElementNotClickable: Object 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is NOT clickable
+
+2019-04-26 17:31:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KiboPush  Create Broadcast/button_Done' is NOT clickable]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0688" classname="Test Cases/Broadcasts/TC0688" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:31:38 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0688: Test Cases/Broadcasts/TC0688
+
+2019-04-26 17:31:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Broadcasts/TC0684' successfully
+
+2019-04-26 17:31:38 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0684: Test Cases/Broadcasts/TC0684
+
+2019-04-26 17:31:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:38 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-26 17:31:38 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:38 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-26 17:31:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:40 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:41 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:41 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:42 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_List' is clicked on
+
+2019-04-26 17:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_List' is clicked on
+
+2019-04-26 17:31:44 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button  Add Action' is clicked on
+
+2019-04-26 17:31:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button  Add Action' is clicked on
+
+2019-04-26 17:31:45 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:31:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 17:31:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Broadcasts/TC0684' successfully
+
+2019-04-26 17:31:47 - [TEST_STEP][PASSED] - setText: Text 'Title1' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/First_Card_List_Title'
+
+2019-04-26 17:31:48 - [MESSAGE][PASSED] - Text 'Title1' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/First_Card_List_Title'
+
+2019-04-26 17:31:48 - [TEST_STEP][PASSED] - setText: Text 'Title2' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/Second_Card_List_Title'
+
+2019-04-26 17:31:48 - [MESSAGE][PASSED] - Text 'Title2' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/Second_Card_List_Title'
+
+2019-04-26 17:31:48 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:48 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next (12) (1)' is clicked on
+
+2019-04-26 17:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next (12) (1)' is clicked on
+
+2019-04-26 17:31:49 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-26 17:31:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-26 17:31:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Element in list must have (1)' is clicked on
+
+2019-04-26 17:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_Element in list must have (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0692" classname="Test Cases/Broadcasts/TC0692" status="PASSED">
+         <system-out><![CDATA[2019-04-26 17:31:52 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0692: Test Cases/Broadcasts/TC0692
+
+2019-04-26 17:31:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Broadcasts/TC0684' successfully
+
+2019-04-26 17:31:52 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0684: Test Cases/Broadcasts/TC0684
+
+2019-04-26 17:31:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:52 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-26 17:31:52 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:52 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-26 17:31:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-26 17:31:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-26 17:31:54 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:55 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:55 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:31:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-26 17:31:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-26 17:31:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-26 17:31:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-26 17:31:56 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_List' is clicked on
+
+2019-04-26 17:31:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_List' is clicked on
+
+2019-04-26 17:31:58 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-26 17:31:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-26 17:31:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button  Add Action' is clicked on
+
+2019-04-26 17:31:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button  Add Action' is clicked on
+
+2019-04-26 17:31:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:32:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 17:32:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Broadcasts/TC0684' successfully
+
+2019-04-26 17:32:01 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-26 17:32:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-26 17:32:03 - [TEST_STEP][PASSED] - setText: Text 'Title1' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/First_Card_List_Title'
+
+2019-04-26 17:32:04 - [MESSAGE][PASSED] - Text 'Title1' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/First_Card_List_Title'
+
+2019-04-26 17:32:04 - [TEST_STEP][PASSED] - setText: Text 'Subtitle1' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/First_Card_Subtitle'
+
+2019-04-26 17:32:04 - [MESSAGE][PASSED] - Text 'Subtitle1' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/First_Card_Subtitle'
+
+2019-04-26 17:32:04 - [TEST_STEP][PASSED] - setText: Text 'Title2' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/Second_Card_List_Title'
+
+2019-04-26 17:32:05 - [MESSAGE][PASSED] - Text 'Title2' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/Second_Card_List_Title'
+
+2019-04-26 17:32:05 - [TEST_STEP][PASSED] - setText: Text 'Subtitle2' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/Second_Card_Subtitle'
+
+2019-04-26 17:32:06 - [MESSAGE][PASSED] - Text 'Subtitle2' is set on object 'Object Repository/Page_KiboPush  Create Broadcast/Second_Card_Subtitle'
+
+2019-04-26 17:32:06 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:32:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-26 17:32:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2019-04-26 17:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/button_Next' is clicked on
+
+2019-04-26 17:32:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/label_Select Segmentation' is clicked on
+
+2019-04-26 17:32:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/label_Select Segmentation' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-26 17:29:21 - [TEST_SUITE][PASSED] - broadcast: Test Cases/Broadcasts/TC0692]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

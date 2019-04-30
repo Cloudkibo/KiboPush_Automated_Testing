@@ -19,10 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.callTestCase(findTestCase('Operational_Dashboard/194'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Poll Details/button_Back'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Page_KiboEngage  Operational Dashbo/h3_Pages Info (3)'))
+WebUI.click(findTestObject('Page_KiboEngage  Operational Dashbo/h3_Pages Info (7)'))
+
