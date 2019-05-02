@@ -19,25 +19,23 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New'))
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)'), 'hi')
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey'))
+WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/input_form-control (2)'), 'hi')
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control (1) (1) (1) (1)'), '1')
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/textarea_form-control'), 'b')
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm_2 (1) (1) (1) (1)'), '2')
 
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Add Questions'))
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm (1) (1) (1) (1)'), '3')
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/input_form-control'), 'hu')
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/input_form-control input-sm'), 'arveen')
+WebUI.scrollToPosition(0, 0)
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/input_form-control input-sm_1'), 'arveen')
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Create Survey'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/div_Please fill all the fields'))
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Add Survey/button_Next (1)'))
 

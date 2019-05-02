@@ -19,21 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setting testcases/TC1055'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/span_Delete Information (1)'))
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/input_delChat'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Start Deletion Process'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Yes'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_KiboPush  api_settings/input_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Submit'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/div_Delete request has been se'))
+WebUI.delay(1)
 

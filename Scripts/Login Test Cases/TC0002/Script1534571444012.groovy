@@ -19,23 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/')
-
-WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
-
-WebUI.click(findTestObject('Page_KiboPush/a_Login (12) (2)'))
-
-WebUI.setText(findTestObject('Page_KiboPush/input_email (13) (2)'), 'team@cloudkibo.com')
-
-WebUI.setEncryptedText(findTestObject('Page_KiboPush/input_password (12) (2)'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CloudKibo/input_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/button_Sign In'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/h3_Dashboard'))
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Team Login Muzamil Staging'), [:], FailureHandling.STOP_ON_FAILURE)
 

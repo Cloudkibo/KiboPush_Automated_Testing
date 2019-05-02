@@ -14,7 +14,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/open_popover'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/input_Reply with a message_ope (4)'))
+/*WebUI.click(findTestObject('Page_KiboPush  Menu/input_Reply with a message_ope (4)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website (2)'))
 
@@ -22,3 +22,6 @@ WebUI.setText(findTestObject('Page_KiboPush  Menu/input_form-control (1)'), 'www
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done (6)'))
 
+WebUI.verifyElementNotPresent(findTestObject('Page_KiboPush  Menu/button_Done (6)'), 0)*/
+
+WebUI.delay(1)

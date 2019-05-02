@@ -19,9 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_View'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Polls'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_View (1)'))
 
 WebUI.scrollToPosition(0, 0)
 

@@ -26,12 +26,13 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Team'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Page_KiboPush  Broadcast/input_form-control m-input m-i'), 'TeamX')
-
-
 
 WebUI.delay(2)
 

@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dashboard'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (28)'))
+
+WebUI.delay(1)
 

@@ -12,8 +12,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0538'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Menu/input_Button Title_form-contro (2) (1)'), 'Button1')
@@ -31,4 +29,6 @@ WebUI.click(findTestObject('Page_KiboPush  Menu/button_Button1'))
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/button_Remove'))
 
 WebUI.delay(2)
+
+WebUI.verifyElementNotPresent(findTestObject('Page_KiboPush  Menu/button_Button1'), 0)
 

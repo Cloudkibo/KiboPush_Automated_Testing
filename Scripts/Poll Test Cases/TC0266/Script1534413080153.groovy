@@ -19,14 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Polls/a_Use Template'))
 
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Use Template'))
+WebUI.click(findTestObject('Page_KiboEngage  Show Templates/a_Create New Poll (4)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Create New Poll'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Poll/h3_Create Poll'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/a_Poll'))
 

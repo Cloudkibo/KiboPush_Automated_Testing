@@ -19,8 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Poll Test Cases/TC0285'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  View Poll/a_Back'))
 
 WebUI.scrollToPosition(0, 0)

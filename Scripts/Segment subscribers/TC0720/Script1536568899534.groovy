@@ -18,14 +18,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0712'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Create SubList of Subscribe (4) (1) (1)'))
+String list = WebUI.executeJavaScript('return (Math.floor(Math.random() * (+20 - +1)) + +1).toString()+ new Date().getHours().toString()+new Date().getMinutes().toString()+new Date().getSeconds().toString();;', 
+    null)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/input_segmentationType (3) (1) (1)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName (2) (1) (1)'), '27')
+WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName (2) (1) (1)'), list)
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select ConditionFirst N (7) (1)'), 'email', true)
 
@@ -33,9 +33,7 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/td_Select Criteriais'))
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select Criteriais'), 'is', true)
 
-WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_text (7)'), 'i141615@nu.edu.pk')
+WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_text (7)'), 'muzamil.bukhari.39@gmail.com')
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Save (11)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_New list is empty. Try cre (1)'))
 

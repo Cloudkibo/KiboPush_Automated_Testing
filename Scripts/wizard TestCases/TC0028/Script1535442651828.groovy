@@ -19,20 +19,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/Muzamil Profile button'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (4) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (4)'))
+WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (2) (1) (2)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (2) (1)'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/div_Invite Subscribers (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Getting Started/a_Share Page Link'))
 
-WebUI.click(findTestObject('Page_KiboPush  Getting Started/a_Share Page Link (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Getting Started/button_Copy Link'))
 
-WebUI.click(findTestObject('Page_KiboPush  Getting Started/span_Copy Link (1)'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Getting Started/div_Link Copied Successfully (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Getting Started/div_CopiedLink Copied Successfully'))
 

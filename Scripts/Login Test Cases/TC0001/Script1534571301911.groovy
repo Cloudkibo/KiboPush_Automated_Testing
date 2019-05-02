@@ -19,23 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://kibochat.cloudkibo.com/')
-
-WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com')
-
-WebUI.click(findTestObject('Page_KiboPush/a_Login (10)'))
-
-WebUI.setText(findTestObject('Page_KiboPush/input_email (11)'), 'individual@cloudkibo.com')
-
-WebUI.setEncryptedText(findTestObject('Page_KiboPush/input_password (10)'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
-WebUI.click(findTestObject('Page_KiboPush/button_Sign In (11)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (58)'))
-
-WebUI.delay(3)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 

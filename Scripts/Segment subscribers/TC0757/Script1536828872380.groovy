@@ -18,10 +18,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0756'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_listName (4)'), '39')
+String list = WebUI.executeJavaScript('return (Math.floor(Math.random() * (+20 - +1)) + +1).toString()+ new Date().getHours().toString()+new Date().getMinutes().toString()+new Date().getSeconds().toString();;', 
+    null)
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_listName (4)'), list)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Update'))
 

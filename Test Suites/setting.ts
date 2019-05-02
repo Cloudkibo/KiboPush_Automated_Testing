@@ -4,7 +4,6 @@
    <name>setting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-02-15T18:01:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -12,10 +11,10 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>bea2b214-adff-49f5-b6d0-8bae96b2acb3</testSuiteGuid>
    <testCaseLink>
-      <guid>5e5cffb1-f246-42c6-9487-03869f6c26b5</guid>
+      <guid>453f97bf-902b-4624-b5ce-84aa31725684</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Setting testcases/TC1014</testCaseId>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Login_Muzamil</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d23a8cf2-8ba9-4814-ba4c-98956613d65c</guid>

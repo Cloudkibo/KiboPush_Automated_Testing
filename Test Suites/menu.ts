@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>dc56c19b-3e46-4226-b3bb-449511843407</testSuiteGuid>
    <testCaseLink>
+      <guid>d23132ce-a2bf-4342-ac1b-e96c8656712f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Login_Muzamil</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>df166734-a530-4f67-b425-79f6414c5cf4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -163,67 +169,67 @@
    <testCaseLink>
       <guid>33790fb6-2883-416f-a27b-55909d6d235f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0558</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1e16b20e-26d4-48c5-a14f-1e3c85a4dfe1</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0559</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f0fa7900-2d51-4eff-83aa-881a048350be</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0560</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>485b478c-a1aa-4058-a0a7-9aef7b09a113</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0561</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33231e8b-14da-43bb-844a-02b808916719</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0562</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a53ddc1d-41a6-4cb9-bf56-d4a8a5d02a49</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0563</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6e061adf-7672-424a-a35e-8c87ae1b1df5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0564</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2407e181-8606-4ffa-8c21-9d84009c8db4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0565</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1f20562b-1c92-41c1-bdf3-3dc88164d44f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0566</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>09af11af-64fc-4224-9ef0-35bd4f5e88d3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0567</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>93ab9899-5757-43c9-a3ea-ef490fbfd02b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Persistent Menu/TC0568</testCaseId>
    </testCaseLink>
    <testCaseLink>

@@ -11,8 +11,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/h6_Card'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/i_Message_fa fa-times fa-stack-2x'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Menu/h6_Card (1)'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New card component added'))
 

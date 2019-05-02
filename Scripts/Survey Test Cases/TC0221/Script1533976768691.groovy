@@ -25,13 +25,17 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New'))
+/*WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New (4) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey'))
+WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey (2) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Add Questions'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Add Questions'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1) (2)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1) (2)'))
+
+WebUI.delay(2)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -43,5 +47,5 @@ List<WebElement> Table2 = driver.findElements(By.xpath('//*[@id=\'identity\']/di
 
 WebUI.verifyEqual(Table1.size().toString(), '2')
 
-WebUI.verifyEqual(Table2.size().toString(), '1')
+WebUI.verifyEqual(Table2.size().toString(), '1')*/
 

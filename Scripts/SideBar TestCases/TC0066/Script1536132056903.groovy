@@ -18,17 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.webui.driver.DriverFactory;
-import org.openqa.selenium.JavascriptExecutor;
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-import com.kms.katalon.core.logging.KeywordLogger
-WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.delay(3)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Automation (1) (1)'))
 
@@ -36,6 +34,5 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Sequence Messaging'))
 
-WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/h3_Sequence Messaging'))
-
+WebUI.delay(1)
 

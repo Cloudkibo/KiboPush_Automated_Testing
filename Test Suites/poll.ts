@@ -11,7 +11,13 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>32476eb4-b1cd-4330-af26-d9b508a826ff</testSuiteGuid>
    <testCaseLink>
-      <guid>21443495-29ab-4d18-9f5d-d03abf013361</guid>
+      <guid>c342f04c-3fb4-4c20-a6e3-2593ec4386b2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Login_Muzamil</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c6314a1-5c42-4b08-b211-cc33b957d59e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Poll Test Cases/TC0258</testCaseId>
@@ -37,19 +43,19 @@
    <testCaseLink>
       <guid>fb288317-95da-4a57-87a1-4e4c4e3a9054</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Poll Test Cases/TC0262</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5714f460-03ae-4eab-b3ca-b2fd3cdbeffe</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Poll Test Cases/TC0263</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>58cea0dc-67f8-4a19-a240-40e04d91f279</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Poll Test Cases/TC0264</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -67,7 +73,7 @@
    <testCaseLink>
       <guid>17954822-1c52-45c5-828d-479d8cbe1653</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Poll Test Cases/TC0267</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -147,12 +153,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Poll Test Cases/TC0290</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c0f62a2d-43d8-490f-acbe-ba63e8378e85</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Poll Test Cases/TC11046</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>918b7224-6246-474a-b712-37e4c9baf1ba</guid>
