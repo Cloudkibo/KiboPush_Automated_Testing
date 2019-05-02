@@ -18,34 +18,49 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Surveys'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New (4) (1)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey (2) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control_1 (1) (1)'), 'hi')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Add Questions (1) (1)'))
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)'), 'hi')
 
-WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control (1) (1)'), '1')
+WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Add Questions (1) (1) (1) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm_2 (1) (1)'), '2')
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control (1) (1) (1) (1)'), '1')
 
-WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm (1) (1)'), '3')
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm_2 (1) (1) (1) (1)'), '2')
 
-WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm_1 (1) (1)'), '4')
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm (1) (1) (1) (1)'), '3')
 
-
-WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Create Survey (1) (1)'))
-
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Add Survey/button_Save'))
-
-WebUI.scrollToPosition(0, 0)
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control input-sm_1 (1) (1) (1) (1)'), '4')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Survey/h3_Manage Surveys'))
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_Choices_form-control input-sm (1)'), '4')
+
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Next (1)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Create Survey (3)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboEngage  Add Survey/button_Save (2)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboEngage  Survey/h3_Manage Surveys (3)'))
 

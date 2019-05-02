@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="operationalDashboard" time="73" tests="2" failures="0" errors="0">
+   <testsuite name="operationalDashboard" tests="2" failures="0" errors="0" time="73" timestamp="2019-04-25 16:17:13" hostname="cloudkibo - 10.0.2.15" id="Test Suites/operationalDashboard">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\operationalDashboard\\20190425_161710"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\operationalDashboard\\20190425_161710\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="e9c32a1f52d6c3fbfe84e4a5d3d995f3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-25 16:17:15 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-25 16:17:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 16:17:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 16:17:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 16:17:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 16:17:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 16:17:38 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 16:17:38 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 16:17:39 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 16:17:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 16:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 16:17:41 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 16:17:42 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 16:17:42 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 16:17:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 16:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 16:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 16:17:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 16:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 16:18:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 16:18:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 16:18:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 16:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 16:18:11 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 16:18:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 16:18:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 16:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 16:18:13 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 16:18:15 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Operational_Dashboard/187" classname="Test Cases/Operational_Dashboard/187" status="PASSED">
+         <system-out><![CDATA[2019-04-25 16:18:15 - [TEST_CASE][PASSED] - Test Cases/Operational_Dashboard/187: Test Cases/Operational_Dashboard/187
+
+2019-04-25 16:18:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Operational_Dashboard/Login' successfully
+
+2019-04-25 16:18:16 - [TEST_CASE][PASSED] - Test Cases/Operational_Dashboard/Login: Test Cases/Operational_Dashboard/Login
+
+2019-04-25 16:18:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard' successfully
+
+2019-04-25 16:18:16 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard: Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard
+
+2019-04-25 16:18:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Subscribers' is clicked on
+
+2019-04-25 16:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Subscribers' is clicked on
+
+2019-04-25 16:18:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Operational Dashboard (1)' is clicked on
+
+2019-04-25 16:18:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Subscribers/span_Operational Dashboard (1)' is clicked on
+
+2019-04-25 16:18:18 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 16:18:18 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 16:18:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (4)' is clicked on
+
+2019-04-25 16:18:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Operational Dashbo/h3_Pages Info (4)' is clicked on
+
+2019-04-25 16:18:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/operationalDashboard' successfully
+
+2019-04-25 16:18:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Operational_Dashboard/Login' successfully
+
+2019-04-25 16:18:19 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 16:18:19 - [TEST_STEP][PASSED] - Statement - popup_poll = driver.findElement(org.openqa.selenium.By.xpath("//*[@id="content"]/div/div/div/div[2]/div[3]/div[7]/div/div/div/div[2]/ul/li[3]")): null
+
+2019-04-25 16:18:19 - [TEST_STEP][PASSED] - Statement - popup_poll.click(): null
+
+2019-04-25 16:18:20 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2019-04-25 16:18:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-25 16:18:25 - [TEST_STEP][PASSED] - Statement - rows_table = driver.findElements(org.openqa.selenium.By.xpath("//*[@id="content"]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[2]/table/tbody/tr")): null
+
+2019-04-25 16:18:25 - [TEST_STEP][PASSED] - Statement - rows_count = rows_table.size(): null
+
+2019-04-25 16:18:25 - [TEST_STEP][PASSED] - verifyGreaterThanOrEqual: Actual number '10' is greater than or equal to expected number '1'
+
+2019-04-25 16:18:25 - [MESSAGE][PASSED] - Actual number '10' is greater than or equal to expected number '1']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 16:17:13 - [TEST_SUITE][PASSED] - operationalDashboard: Test Cases/Operational_Dashboard/187]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

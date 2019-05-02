@@ -19,11 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setting testcases/TC1050'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboPush  api_settings/a_video tutorial (4)'))
-
-
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/a_documentation'))
 

@@ -23,24 +23,21 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://skiboengage.cloudkibo.com/')
+WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/')
 
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
+WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
 
-WebUI.click(findTestObject('Page_CloudKibo/a_Login (2) (1)'))
+WebUI.click(findTestObject('Page_KiboPush/a_Login (9) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush/input_email (10) (1) (1)'), 'faizanrasheed4@gmail.com')
+WebUI.setText(findTestObject('Page_KiboPush/input_email (10) (1)'), 'individual@cloudkibo.com')
 
-WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password (2)'), 'GYDmRgS5yd5PL6pQTxDpCg==')
+WebUI.setEncryptedText(findTestObject('Page_KiboPush/input_password (9) (1)'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Page_KiboPush/button_Sign In (10) (1) (2)'))
+WebUI.click(findTestObject('Page_KiboPush/button_Sign In (10) (1)'))
 
-WebUI.navigateToUrl('https://skiboengage.cloudkibo.com/dashboard')
+WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/dashboard')
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (57)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1)'))

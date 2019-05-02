@@ -14,11 +14,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0542'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Persistent Menu'))
+/*WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Persistent Menu'))
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/open popover'))
 
+WebUI.delay(2)*/
 WebUI.delay(2)
 

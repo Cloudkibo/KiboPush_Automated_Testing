@@ -18,10 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login-KiboEngage'), [:], FailureHandling.STOP_ON_FAILURE)
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Broadcasting'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Polls'))
 

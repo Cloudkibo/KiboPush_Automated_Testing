@@ -18,14 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Header TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo (2) (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_cloudkibo (2)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (2) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (2)'))
+WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (2) (1) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (2) (1)'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Getting Started/div_Invite Subscribers'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Getting Started/div_1Invite Subscribers'))
+
+WebUI.back()
+
+WebUI.delay(2)
 

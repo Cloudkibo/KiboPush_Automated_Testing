@@ -23,17 +23,11 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Setting testcases/TC1014'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement element1 = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[4]/div/div[1]/div/div/ul/li[14]/a/span'))
-
-element1.click()
-
-WebUI.scrollToPosition(0, 0)
-
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/span_Delete Information'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/input_Delete Information_delChat'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Start Deletion Process'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/h3_Confirmation'))
 

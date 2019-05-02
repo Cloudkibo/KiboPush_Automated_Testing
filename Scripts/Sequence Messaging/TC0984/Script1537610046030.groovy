@@ -18,6 +18,7 @@ WebUI.callTestCase(findTestCase('Sequence Messaging/TC0980'), [:], FailureHandli
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Sequence Messaging/Delete Sequence Icon (1)'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Sequence Messaging/button_Delete (2)'))
 

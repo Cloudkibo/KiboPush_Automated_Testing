@@ -19,20 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (6)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (9)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_4 (2)'))
-
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/span_Add Feeds (3)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Autoposting/input_form-control (2)'), 'https://www.facebook.com/Test-3-146690295986803')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Autoposting/input_form-control (2)'), 'https://www.facebook.com/Testing-Page-2117904648459079')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account (2)'))
 

@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>1055811e-5dbd-4f3b-946c-3f38454bad7e</testSuiteGuid>
    <testCaseLink>
+      <guid>f9016051-2fe7-4337-b850-66e2cf6abca4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Login_Muzamil</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>cec1850f-3947-4941-9edc-c51b85da700d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -25,31 +31,31 @@
    <testCaseLink>
       <guid>7a4c62d8-f527-45e5-96c2-ea2aff6e9f64</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0207</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1e48fd3b-1920-45a9-920c-231bf3fa4c7f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0208</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ffe1460b-13b8-4e05-9ea3-eacc806e449b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0209</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>922c9e52-6904-4e75-9d4e-0c4fadcbcf86</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0210</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>efc34252-4c12-4524-8fd8-546e9002a671</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0211</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -67,13 +73,13 @@
    <testCaseLink>
       <guid>5567d6e8-6715-4246-a6d9-35ede7efaa51</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0214</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>460f94b9-fbc7-4edc-abbd-9c6cb1d33cc9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0216</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -85,37 +91,37 @@
    <testCaseLink>
       <guid>b685b95a-997b-4bc1-8cc7-1b81421292ed</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0219</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>9f932fdb-2b78-48ef-8d1a-afc88f440932</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0220</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>ccbdc683-bc0b-48c4-8b1c-a08f233ad43c</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0221</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>63502680-2cd7-4aa3-8a67-0d27a786cad6</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0222</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>02a1dde3-4b2f-4c6f-8dbd-e2c49a5e2bee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0223</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d751b716-fbad-412e-8835-b15dc9460927</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Survey Test Cases/TC0224</testCaseId>
    </testCaseLink>
    <testCaseLink>

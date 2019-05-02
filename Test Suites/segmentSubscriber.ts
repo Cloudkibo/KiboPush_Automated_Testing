@@ -11,6 +11,12 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>92827d6d-519f-4f3d-9135-15e3e64c4621</testSuiteGuid>
    <testCaseLink>
+      <guid>583af2ad-db54-4f5b-bd15-e7c97b4c45e2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Login_Muzamil</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>58687fb7-ccbf-454b-91c8-c63a2ed8b149</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

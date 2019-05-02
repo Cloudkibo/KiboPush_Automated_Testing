@@ -32,11 +32,10 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Text_1'))
 WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Next'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Text cannot be empty'))
-
+WebUI.verifyTextPresent('TEXT CANNOT BE EMPTY', false)
 

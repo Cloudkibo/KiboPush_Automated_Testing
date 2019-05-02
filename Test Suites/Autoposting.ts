@@ -4,25 +4,13 @@
    <name>Autoposting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-04-25T09:49:38</lastRun>
+   <lastRun>2019-03-13T13:42:53</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>86d5c299-2ed8-4f47-b78a-2675f4fea9fa</testSuiteGuid>
-   <testCaseLink>
-      <guid>95ddafd4-1848-4154-8a19-fabe5f02d0d6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cdf0469c-a602-4a9b-aba4-ce039ef23975</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Autoposting TestCases/open automation</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>82f37d7f-4054-47da-92f3-f98745e235a2</guid>
       <isReuseDriver>false</isReuseDriver>

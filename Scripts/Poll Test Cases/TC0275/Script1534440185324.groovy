@@ -19,11 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1)'))
+WebUI.delay(2)
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Poll/textarea_form-control'), 'h')
 
@@ -31,7 +27,9 @@ WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control'), '
 
 WebUI.setText(findTestObject('Page_KiboPush  Create Poll/input_form-control_1'), 'hello')
 
-WebUI.click(findTestObject('Page_KiboPush  Create Poll/button_Create Poll'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Poll/div_You have either left one o'))
+WebUI.delay(2)
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Next'))
 

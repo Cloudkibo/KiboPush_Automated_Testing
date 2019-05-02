@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Survey/button_Report'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Survey/h4_Survey Questions'))
 

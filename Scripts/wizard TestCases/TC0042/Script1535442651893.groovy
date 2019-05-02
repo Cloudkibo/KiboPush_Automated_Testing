@@ -19,22 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_4'))
-
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/span_Add Feeds (2)'))
+WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Feeds (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Add Facebook Account (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/span_Incorrect Url'))
+
+WebUI.delay(2)
+
+WebUI.clickOffset(findTestObject('Object Repository/Page_KiboEngage  Autoposting/button_WordPress'), 1000, 1000)
 

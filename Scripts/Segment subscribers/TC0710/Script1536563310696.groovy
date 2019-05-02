@@ -27,8 +27,6 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Segment subsciber'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/a_next'))

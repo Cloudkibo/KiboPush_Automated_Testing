@@ -12,8 +12,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0582'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button1')

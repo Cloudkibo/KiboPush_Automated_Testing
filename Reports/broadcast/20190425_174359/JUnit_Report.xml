@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="broadcast" time="97" tests="4" failures="1" errors="0">
+   <testsuite name="broadcast" tests="4" failures="1" errors="0" time="97" timestamp="2019-04-25 18:06:04" hostname="cloudkibo - 10.0.2.15" id="Test Suites/broadcast">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\broadcast\\20190425_174359"/>
+         <property name="logFiles" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\broadcast\\20190425_174359\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\broadcast\\20190425_174359\\1556197646905.png"/>
+         <property name="hostName" value="cloudkibo - 10.0.2.15"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.0.2.15"/>
+         <property name="sessionId" value="a69280476292c0f26a4228c7cd9cffc6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" classname="Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage" status="PASSED">
+         <system-out><![CDATA[2019-04-25 18:06:05 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage: Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage
+
+2019-04-25 18:06:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2019-04-25 18:06:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-25 18:06:11 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2019-04-25 18:06:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-25 18:06:12 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 18:06:28 - [MESSAGE][PASSED] - Navigate to 'https://kiboengage.cloudkibo.com/' successfully
+
+2019-04-25 18:06:28 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 18:06:29 - [MESSAGE][PASSED] - Navigate to 'https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com' successfully
+
+2019-04-25 18:06:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 18:06:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CloudKibo/a_Login (2) (1) (1)' is clicked on
+
+2019-04-25 18:06:30 - [TEST_STEP][PASSED] - setText: Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 18:06:30 - [MESSAGE][PASSED] - Text 'individual@cloudkibo.com' is set on object 'Object Repository/Page_KiboPush/input_email (10) (1) (1)'
+
+2019-04-25 18:06:30 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 18:06:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CloudKibo/input_Sign In_password (7)'
+
+2019-04-25 18:06:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 18:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush/button_Sign In (10) (1) (2)' is clicked on
+
+2019-04-25 18:06:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 18:06:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/h3_Dashboard (57)' is clicked on
+
+2019-04-25 18:06:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2019-04-25 18:06:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-25 18:06:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 18:06:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (3)' is clicked on
+
+2019-04-25 18:06:55 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 18:06:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 18:06:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 18:06:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (3)' is clicked on
+
+2019-04-25 18:06:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 18:06:59 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/open_broadcast" classname="Test Cases/Broadcasts/open_broadcast" status="PASSED">
+         <system-out><![CDATA[2019-04-25 18:06:59 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/open_broadcast: Test Cases/Broadcasts/open_broadcast
+
+2019-04-25 18:06:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasting' is clicked on
+
+2019-04-25 18:07:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasting' is clicked on
+
+2019-04-25 18:07:00 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 18:07:02 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0125" classname="Test Cases/Broadcasts/TC0125" status="PASSED">
+         <system-out><![CDATA[2019-04-25 18:07:02 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0125: Test Cases/Broadcasts/TC0125
+
+2019-04-25 18:07:02 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-25 18:07:02 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-25 18:07:03 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-25 18:07:03 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-25 18:07:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-25 18:07:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-25 18:07:03 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-25 18:07:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-25 18:07:05 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:06 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 18:07:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 18:07:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-25 18:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-25 18:07:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-25 18:07:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-25 18:07:06 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - date_page1 = getFirstRowDate(): null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_2' is clicked on
+
+2019-04-25 18:07:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_2' is clicked on
+
+2019-04-25 18:07:07 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-25 18:07:11 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - date_page2 = getFirstRowDate(): null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_4' is clicked on
+
+2019-04-25 18:07:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_4' is clicked on
+
+2019-04-25 18:07:11 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-25 18:07:15 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 18:07:15 - [TEST_STEP][PASSED] - Statement - date_page4 = getFirstRowDate(): null
+
+2019-04-25 18:07:15 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 18:07:15 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2019-04-25 18:07:15 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 18:07:15 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - Statement - println("Testing next pages"): null
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Wed Apr 24 2019 2:04 PM' and expected text 'Mon Mar 11 2019 1:58 PM' are not matched 
+
+2019-04-25 18:07:16 - [MESSAGE][PASSED] - Actual text 'Wed Apr 24 2019 2:04 PM' and expected text 'Mon Mar 11 2019 1:58 PM' are not matched 
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Wed Apr 24 2019 2:04 PM' and expected text 'Thu Mar 07 2019 1:52 PM' are not matched 
+
+2019-04-25 18:07:16 - [MESSAGE][PASSED] - Actual text 'Wed Apr 24 2019 2:04 PM' and expected text 'Thu Mar 07 2019 1:52 PM' are not matched 
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Mon Mar 11 2019 1:58 PM' and expected text 'Thu Mar 07 2019 1:52 PM' are not matched 
+
+2019-04-25 18:07:16 - [MESSAGE][PASSED] - Actual text 'Mon Mar 11 2019 1:58 PM' and expected text 'Thu Mar 07 2019 1:52 PM' are not matched 
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_3' is clicked on
+
+2019-04-25 18:07:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_3' is clicked on
+
+2019-04-25 18:07:16 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 18:07:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - date_page3 = getFirstRowDate(): null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_1' is clicked on
+
+2019-04-25 18:07:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_1' is clicked on
+
+2019-04-25 18:07:18 - [TEST_STEP][PASSED] - delay: Delayed 4 second(s)
+
+2019-04-25 18:07:22 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - date_page1 = getFirstRowDate(): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - Try: null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - Table = driver.findElement(org.openqa.selenium.By.xpath("//table/tbody")): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - rows_table = Table.findElements(org.openqa.selenium.By.tagName("tr")): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - dates = new java.util.ArrayList(): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - date = rows_table.get(0).findElement(org.openqa.selenium.By.xpath(".//td[@data-field="datetime"]")).getText(): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - return date: null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - println("Testing previous pages"): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Thu Mar 07 2019 1:52 PM' and expected text 'Thu Mar 07 2019 2:15 PM' are not matched 
+
+2019-04-25 18:07:22 - [MESSAGE][PASSED] - Actual text 'Thu Mar 07 2019 1:52 PM' and expected text 'Thu Mar 07 2019 2:15 PM' are not matched 
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Thu Mar 07 2019 1:52 PM' and expected text 'Wed Apr 24 2019 2:04 PM' are not matched 
+
+2019-04-25 18:07:22 - [MESSAGE][PASSED] - Actual text 'Thu Mar 07 2019 1:52 PM' and expected text 'Wed Apr 24 2019 2:04 PM' are not matched 
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - verifyNotMatch: Actual text 'Thu Mar 07 2019 2:15 PM' and expected text 'Wed Apr 24 2019 2:04 PM' are not matched 
+
+2019-04-25 18:07:22 - [MESSAGE][PASSED] - Actual text 'Thu Mar 07 2019 2:15 PM' and expected text 'Wed Apr 24 2019 2:04 PM' are not matched 
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - dateFormat = new java.text.SimpleDateFormat(EEE MMM dd yyyy hh:mm aaa, java.util.Locale.ENGLISH): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - date4 = dateFormat.parse(date_page4): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - date3 = dateFormat.parse(date_page3): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - date1 = dateFormat.parse(date_page1): null
+
+2019-04-25 18:07:22 - [TEST_STEP][PASSED] - Statement - If (!(date1.after(date3) && date3.after(date4))): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0138" classname="Test Cases/Broadcasts/TC0138" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast (3)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element &lt;button class=&quot;btn btn-primary&quot; style=&quot;color: white;&quot;>...&lt;/button> is not clickable at point (607, 302). Other element would receive the click: &lt;div style=&quot;width: 100%; text-align: center;&quot;>...&lt;/div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a69280476292c0f26a4228c7cd9cffc6)"/>
+         <system-out><![CDATA[2019-04-25 18:07:22 - [TEST_CASE][FAILED] - Test Cases/Broadcasts/TC0138: Test Cases/Broadcasts/TC0138 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast (3)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" style="color: white;">...</button> is not clickable at point (607, 302). Other element would receive the click: <div style="width: 100%; text-align: center;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a69280476292c0f26a4228c7cd9cffc6)
+
+2019-04-25 18:07:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-25 18:07:23 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-25 18:07:23 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-25 18:07:23 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-25 18:07:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-25 18:07:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-25 18:07:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-25 18:07:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-25 18:07:25 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:26 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 18:07:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 18:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-25 18:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-25 18:07:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-25 18:07:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-25 18:07:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast (5)' is clicked on
+
+2019-04-25 18:07:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast (5)' is clicked on
+
+2019-04-25 18:07:26 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast (3)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" style="color: white;">...</button> is not clickable at point (607, 302). Other element would receive the click: <div style="width: 100%; text-align: center;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a69280476292c0f26a4228c7cd9cffc6)
+
+2019-04-25 18:07:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast (3)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" style="color: white;">...</button> is not clickable at point (607, 302). Other element would receive the click: <div style="width: 100%; text-align: center;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a69280476292c0f26a4228c7cd9cffc6)
+[[ATTACHMENT|C:\\Users\\cloudkibo\\Desktop\\KiboPush_Automated_Testing\\KiboPush Katalon\\Reports\\broadcast\\20190425_174359\\1556197646905.png]]]]></system-out>
+         <system-err><![CDATA[2019-04-25 18:07:22 - [TEST_CASE][FAILED] - Test Cases/Broadcasts/TC0138: Test Cases/Broadcasts/TC0138 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast (3)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" style="color: white;">...</button> is not clickable at point (607, 302). Other element would receive the click: <div style="width: 100%; text-align: center;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a69280476292c0f26a4228c7cd9cffc6)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Broadcasts/TC0686" classname="Test Cases/Broadcasts/TC0686" status="PASSED">
+         <system-out><![CDATA[2019-04-25 18:07:27 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0686: Test Cases/Broadcasts/TC0686
+
+2019-04-25 18:07:27 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Broadcasts/TC0684' successfully
+
+2019-04-25 18:07:27 - [TEST_CASE][PASSED] - Test Cases/Broadcasts/TC0684: Test Cases/Broadcasts/TC0684
+
+2019-04-25 18:07:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-25 18:07:28 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts: Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts
+
+2019-04-25 18:07:28 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-25 18:07:28 - [TEST_CASE][PASSED] - Test Cases/s-sidebar_navigation/individualAccount/broadcast: Test Cases/s-sidebar_navigation/individualAccount/broadcast
+
+2019-04-25 18:07:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-25 18:07:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Polls' is clicked on
+
+2019-04-25 18:07:29 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-25 18:07:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Dashboard/span_Broadcasts' is clicked on
+
+2019-04-25 18:07:30 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:31 - [TEST_STEP][PASSED] - scrollToPosition: Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 18:07:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-25 18:07:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-25 18:07:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/h3_Manage Broadcasts' is clicked on
+
+2019-04-25 18:07:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/individualAccount/broadcast' successfully
+
+2019-04-25 18:07:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/s-sidebar_navigation/TeamAccount/Broadcasts' successfully
+
+2019-04-25 18:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-25 18:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast' is clicked on
+
+2019-04-25 18:07:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-25 18:07:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast' is clicked on
+
+2019-04-25 18:07:32 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_List' is clicked on
+
+2019-04-25 18:07:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_List' is clicked on
+
+2019-04-25 18:07:34 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button  Add Action' is clicked on
+
+2019-04-25 18:07:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button  Add Action' is clicked on
+
+2019-04-25 18:07:35 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 18:07:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 18:07:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Broadcasts/TC0684' successfully
+
+2019-04-25 18:07:37 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2019-04-25 18:07:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-25 18:07:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboPush  Create Broadcast/i_fa fa-times-circle-o (1)' is clicked on
+
+2019-04-25 18:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboPush  Create Broadcast/i_fa fa-times-circle-o (1)' is clicked on
+
+2019-04-25 18:07:39 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2019-04-25 18:07:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-25 18:07:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KiboEngage  Create Broadcast/div_A List must have at least' is clicked on
+
+2019-04-25 18:07:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KiboEngage  Create Broadcast/div_A List must have at least' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-25 18:06:04 - [TEST_SUITE][FAILED] - broadcast: Test Cases/Broadcasts/TC0138 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast (3)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" style="color: white;">...</button> is not clickable at point (607, 302). Other element would receive the click: <div style="width: 100%; text-align: center;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a69280476292c0f26a4228c7cd9cffc6)]]></system-out>
+      <system-err><![CDATA[2019-04-25 18:06:04 - [TEST_SUITE][FAILED] - broadcast: Test Cases/Broadcasts/TC0138 FAILED because (of) Unable to click on object 'Object Repository/Page_KiboPush  Broadcast/a_Create New Broadcast (3)' (Root cause: org.openqa.selenium.WebDriverException: unknown error: Element <button class="btn btn-primary" style="color: white;">...</button> is not clickable at point (607, 302). Other element would receive the click: <div style="width: 100%; text-align: center;">...</div>
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-4M6R1V0', ip: '10.0.2.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\CLOUDK~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: a69280476292c0f26a4228c7cd9cffc6)]]></system-err>
+   </testsuite>
+</testsuites>

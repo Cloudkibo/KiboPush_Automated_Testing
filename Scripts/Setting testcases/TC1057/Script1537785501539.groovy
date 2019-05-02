@@ -19,11 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Setting testcases/TC1056'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Cancel Deletion Process'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/div_Request to cancel deletion'))
+WebUI.delay(1)
 

@@ -25,9 +25,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DateFormat as DateFormat
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0708'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_View'))
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_generalSearch'), 'a')
 
@@ -38,3 +36,4 @@ WebDriver driver = DriverFactory.getWebDriver()
 List<WebElement> rows_table = driver.findElements(By.xpath('//table/tbody/tr'))
 
 WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)
+

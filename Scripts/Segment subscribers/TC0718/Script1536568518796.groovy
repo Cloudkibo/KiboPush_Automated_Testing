@@ -18,21 +18,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0712'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(0)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/input_segmentationType'))
+String list = WebUI.executeJavaScript('return (Math.floor(Math.random() * (+20 - +1)) + +1).toString()+ new Date().getHours().toString()+new Date().getMinutes().toString()+new Date().getSeconds().toString();;', 
+    null)
 
-WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName'), '25')
+WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName'), list)
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select ConditionFirst N'), 'lastName', true)
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select Criteriaiscontai (5)'), 'contains', true)
 
-WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_text (6)'), 'sh')
-
+WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_text (6)'), 'b')
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Save'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully'))
 

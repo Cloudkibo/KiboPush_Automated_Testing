@@ -34,13 +34,13 @@ date_page1 = getFirstRowDate()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_2'))
 
-WebUI.delay(1)
+WebUI.delay(4)
 
 date_page2 = getFirstRowDate()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_4'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 date_page4 = getFirstRowDate()
 
@@ -60,7 +60,7 @@ date_page3 = getFirstRowDate()
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_1'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 date_page1 = getFirstRowDate()
 

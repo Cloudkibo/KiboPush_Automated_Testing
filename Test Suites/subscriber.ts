@@ -4,19 +4,13 @@
    <name>subscriber</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-04-25T12:51:49</lastRun>
+   <lastRun>2019-03-13T14:38:57</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>c848b4c8-8133-47b7-98bd-10bf8f7bf002</testSuiteGuid>
-   <testCaseLink>
-      <guid>db46c15c-9e21-4009-8f7e-3f52ec0cad6f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage</testCaseId>
-   </testCaseLink>
    <testCaseLink>
       <guid>9edf1479-5d4a-47c7-ac9e-dce5311560b0</guid>
       <isReuseDriver>false</isReuseDriver>

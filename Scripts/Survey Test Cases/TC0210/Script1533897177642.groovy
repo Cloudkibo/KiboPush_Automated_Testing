@@ -27,8 +27,6 @@ import org.openqa.selenium.By as By
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Survey/a_next'))

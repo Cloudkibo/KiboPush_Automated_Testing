@@ -4,6 +4,12 @@
    <name>span_cloudkibo (2)</name>
    <tag></tag>
    <elementGuidId>0b5b1812-8472-4c08-aa30-21dfe5c729d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(contains(text(), 'cloudkibo') or contains(., 'cloudkibo'))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -22,10 +28,10 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>cloudkibo </value>
+      <value>cloudkibo</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

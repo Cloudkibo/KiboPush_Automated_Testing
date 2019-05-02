@@ -122,7 +122,7 @@
       <guid>48498c11-3cf1-4e38-a3c5-68200e17b8b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Welcome Messages</testCaseId>
+      <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/welcome</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4b679386-221f-4bd3-98eb-cb7047acc3e0</guid>

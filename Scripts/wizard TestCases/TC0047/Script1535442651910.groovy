@@ -19,17 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (6)'))
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_5'))
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/button_Preview'))
 
+WebUI.clickOffset(findTestObject('Page_KiboPush  Menu/Preview Menu heading'), 1000, 1000)
 
+WebUI.delay(3)
 

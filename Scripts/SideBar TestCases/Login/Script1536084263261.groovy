@@ -19,18 +19,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login-KiboEngage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://staging.kibopush.com/')
-
-WebUI.click(findTestObject('Page_KiboPush  Sign In/a_Login (9)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Individual Account (5)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input (6)'), 'i141615@nu.edu.pk')
-
-WebUI.setEncryptedText(findTestObject('Page_KiboPush  Sign In/input_form-control m-input_1 (4)'), 'Sq3Tv/oKKfDNGi1QgSywNA==')
-
-WebUI.click(findTestObject('Page_KiboPush  Sign In/button_Sign In (5)'))

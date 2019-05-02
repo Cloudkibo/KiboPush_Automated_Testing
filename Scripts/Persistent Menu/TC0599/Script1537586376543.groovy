@@ -11,7 +11,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+/*
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0538'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
@@ -27,6 +27,6 @@ WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/button_Button1'))
-
+*/
 WebUI.delay(2)
 

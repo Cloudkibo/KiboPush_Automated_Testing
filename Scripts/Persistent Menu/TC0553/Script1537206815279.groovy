@@ -13,13 +13,5 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0548'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file'), img)
-
-WebUI.delay(10)
+WebUI.delay(2)
 
