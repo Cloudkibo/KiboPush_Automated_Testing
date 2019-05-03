@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast')
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Gallery (1)'))
 WebUI.delay(2)

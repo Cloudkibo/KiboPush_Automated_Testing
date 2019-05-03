@@ -4,6 +4,7 @@
    <name>seq_message</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-05-03T14:19:44</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

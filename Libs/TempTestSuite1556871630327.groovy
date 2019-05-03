@@ -3,6 +3,7 @@ import com.kms.katalon.core.exception.StepFailedException
 import com.kms.katalon.core.reporting.ReportUtil
 import com.kms.katalon.core.main.TestCaseMain
 import com.kms.katalon.core.testdata.TestDataColumn
+import groovy.lang.MissingPropertyException
 import com.kms.katalon.core.testcase.TestCaseBinding
 import com.kms.katalon.core.driver.internal.DriverCleanerCollector
 import com.kms.katalon.core.model.FailureHandling
@@ -24,11 +25,10 @@ suiteProperties.put('description', '')
 
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.webui.contribution.WebUiDriverCleaner())
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
-DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\Muzamil\\Desktop\\New folder\\git\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\operationalDashboard\\20190501_161348\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\cloudkibo\\Documents\\production\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\operationalDashboard\\20190503_132030\\execution.properties")
 
 TestCaseMain.beforeStart()
 

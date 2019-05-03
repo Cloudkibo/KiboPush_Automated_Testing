@@ -4,6 +4,7 @@
    <name>smart replies</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-05-02T16:51:48</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('Operational_Dashboard/Login'), [:], FailureHand
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/input_form-control m-input m-i'), 'cloudkibo')
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/input_form-control m-input m-i'), 'cloudkibo1')
 
 WebUI.delay(5)
 
