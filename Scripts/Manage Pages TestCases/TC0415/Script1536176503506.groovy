@@ -27,11 +27,11 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Connect New'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Connect'))
+//WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Connect'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Done'))
+//WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Done'))
 
-WebUI.scrollToPosition(0, 0)
+//WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/h3_Manage Pages'))
+//WebUI.click(findTestObject('Page_KiboPush  Add Pages/h3_Manage Pages'))
 

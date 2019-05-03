@@ -31,7 +31,7 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Add Pages/h3_Manage Pages (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Connect'))
+//WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Connect'))
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Disconnect'))
+//WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Disconnect'))
 
