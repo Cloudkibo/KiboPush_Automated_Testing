@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/Arveen suits/broadcast')
+suiteProperties.put('id', 'Test Suites/Arveen suits/seq_message')
 
-suiteProperties.put('name', 'broadcast')
+suiteProperties.put('name', 'seq_message')
 
 suiteProperties.put('description', '')
  
@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\cloudkibo\\Documents\\production\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\broadcast\\20190503_145825\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\cloudkibo\\Documents\\production\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\seq_message\\20190506_163702\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Arveen suits/broadcast', suiteProperties, [new TestCaseBinding('Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage', 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage',  null), new TestCaseBinding('Test Cases/Broadcasts/open_broadcast', 'Test Cases/Broadcasts/open_broadcast',  null), new TestCaseBinding('Test Cases/Broadcasts/TC0122', 'Test Cases/Broadcasts/TC0122',  null), new TestCaseBinding('Test Cases/Broadcasts/TC0185', 'Test Cases/Broadcasts/TC0185',  null)])
+TestCaseMain.startTestSuite('Test Suites/Arveen suits/seq_message', suiteProperties, [new TestCaseBinding('Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage', 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage',  null), new TestCaseBinding('Test Cases/Sequence Messaging/open_automation', 'Test Cases/Sequence Messaging/open_automation',  null), new TestCaseBinding('Test Cases/Sequence Messaging/TC0986', 'Test Cases/Sequence Messaging/TC0986',  null), new TestCaseBinding('Test Cases/Sequence Messaging/TC0987', 'Test Cases/Sequence Messaging/TC0987',  null), new TestCaseBinding('Test Cases/Sequence Messaging/TC0990', 'Test Cases/Sequence Messaging/TC0990',  null)])

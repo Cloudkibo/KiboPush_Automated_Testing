@@ -28,7 +28,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\cloudkibo\\Documents\\production\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\subscriber\\20190503_124137\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\cloudkibo\\Documents\\production\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\subscriber\\20190506_161551\\execution.properties")
 
 TestCaseMain.beforeStart()
 
