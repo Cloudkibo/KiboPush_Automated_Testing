@@ -36,5 +36,5 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Create Sublist/select
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sublist/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sublist/div_List created successfully'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sublist/div_List created successfully'))
 

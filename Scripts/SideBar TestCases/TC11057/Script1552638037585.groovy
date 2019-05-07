@@ -15,10 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Messenger Code'))
-
-WebUI.delay(1)
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KiboEngage  Messenger Code/button_Request Messenger Code'), 
-    0)
+//WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Messenger Code'))
+//
+//WebUI.delay(1)
+//
+//WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KiboEngage  Messenger Code/button_Request Messenger Code'), 
+//    0)
 

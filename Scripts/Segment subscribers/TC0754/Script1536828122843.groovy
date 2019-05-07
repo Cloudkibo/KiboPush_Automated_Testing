@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_View (1)'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Export Records in CSV Fil'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_View (1)'))
+//
+//WebUI.delay(1)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Export Records in CSV Fil'))
 
