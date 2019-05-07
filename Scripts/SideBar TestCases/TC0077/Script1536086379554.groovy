@@ -19,9 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_User Guide'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_User Guide'))
+WebUI.delay(2)
+//WebUI.switchToWindowTitle('User Guide – The Marketing Newsletter')
 
-WebUI.switchToWindowTitle('User Guide – The Marketing Newsletter')
-
-WebUI.click(findTestObject('Page_User Guide  The Marketing Newsletter/h2_User Guide'))
+//WebUI.click(findTestObject('Page_User Guide  The Marketing Newsletter/h2_User Guide'))
 
