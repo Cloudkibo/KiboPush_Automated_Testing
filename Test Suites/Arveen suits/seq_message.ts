@@ -4,7 +4,7 @@
    <name>seq_message</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-05-06T16:34:11</lastRun>
+   <lastRun>2019-05-07T13:23:55</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -62,25 +62,25 @@
    <testCaseLink>
       <guid>2b6a3961-47bf-4719-b19f-e2c61a9173f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC0986</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5702bc02-81f2-4a32-8779-7f5cc123ecd7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC0987</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>de764aa6-94f4-496c-b110-9341b04993f7</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC0990</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1e785dbd-3696-4da0-8deb-fc397492a4ea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC1001</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>85686c09-44f5-4d9c-91d2-55d447f73076</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC1011</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
