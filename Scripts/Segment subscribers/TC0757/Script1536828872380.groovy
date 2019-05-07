@@ -22,12 +22,12 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.delay(3)
 
-String list = WebUI.executeJavaScript('return (Math.floor(Math.random() * (+20 - +1)) + +1).toString()+ new Date().getHours().toString()+new Date().getMinutes().toString()+new Date().getSeconds().toString();;', 
-    null)
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_listName (4)'), list)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Update'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_List saved successfully'))
+//String list = WebUI.executeJavaScript('return (Math.floor(Math.random() * (+20 - +1)) + +1).toString()+ new Date().getHours().toString()+new Date().getMinutes().toString()+new Date().getSeconds().toString();;', 
+//    null)
+//
+//WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_listName (4)'), list)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Update'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_List saved successfully'))
 

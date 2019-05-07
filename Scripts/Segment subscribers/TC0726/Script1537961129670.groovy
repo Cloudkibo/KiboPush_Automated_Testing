@@ -36,5 +36,5 @@ WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_text (7)'), '+92334
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Save (7)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully (1)'))
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully (1)'))
 

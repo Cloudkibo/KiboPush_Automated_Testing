@@ -29,19 +29,19 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_ Add Condition'))
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-List<WebElement> rows_table1 = driver.findElements(By.xpath('//table/tbody/tr'))
-
-WebUI.verifyGreaterThanOrEqual(rows_table1.size(), 2)
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Remove'))
-
-WebUI.delay(3)
-
-List<WebElement> rows_table2 = driver.findElements(By.xpath('//table/tbody/tr'))
-
-WebUI.verifyEqual(rows_table1.size() - 1, rows_table2.size())
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_ Add Condition'))
+//
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//List<WebElement> rows_table1 = driver.findElements(By.xpath('//table/tbody/tr'))
+//
+//WebUI.verifyGreaterThanOrEqual(rows_table1.size(), 2)
+//
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Remove'))
+//
+//WebUI.delay(3)
+//
+//List<WebElement> rows_table2 = driver.findElements(By.xpath('//table/tbody/tr'))
+//
+//WebUI.verifyEqual(rows_table1.size() - 1, rows_table2.size())
 

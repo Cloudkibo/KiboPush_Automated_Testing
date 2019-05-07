@@ -28,5 +28,5 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/b
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/div_List deleted'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/div_List deleted'))
 

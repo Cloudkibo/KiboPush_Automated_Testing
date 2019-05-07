@@ -14,5 +14,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Back'))
+//WebUI.click(findTestObject('Page_KiboPush  Menu/button_Back'))
 
