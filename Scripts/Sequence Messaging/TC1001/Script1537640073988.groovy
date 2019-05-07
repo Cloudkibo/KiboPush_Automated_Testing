@@ -14,10 +14,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Sequence Messaging/TC0986'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Sequence Messaging/span_-- Edit (7)'))
+WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/span_-- Edit (7) (1)'))
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Sequence Messaging/select_Select Event seesclicks (2)'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Edit Sequence/select_Select Event seesclicks'), 
     'sees', true)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Edit Sequence/h3_Trigger Message'))
 

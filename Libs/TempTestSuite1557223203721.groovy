@@ -16,9 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 Map<String, String> suiteProperties = new HashMap<String, String>();
 
 
-suiteProperties.put('id', 'Test Suites/Arveen suits/subscriber')
+suiteProperties.put('id', 'Test Suites/Arveen suits/operationalDashboard')
 
-suiteProperties.put('name', 'subscriber')
+suiteProperties.put('name', 'operationalDashboard')
 
 suiteProperties.put('description', '')
  
@@ -28,8 +28,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("C:\\Users\\cloudkibo\\Documents\\production\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\subscriber\\20190503_143401\\execution.properties")
+RunConfiguration.setExecutionSettingFile("C:\\Users\\cloudkibo\\Documents\\production\\KiboPush_Automated_Testing\\Reports\\Arveen suits\\operationalDashboard\\20190507_150003\\execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Arveen suits/subscriber', suiteProperties, [new TestCaseBinding('Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage', 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage',  null), new TestCaseBinding('Test Cases/Subscriber TestCases/TC0669', 'Test Cases/Subscriber TestCases/TC0669',  null), new TestCaseBinding('Test Cases/Subscriber TestCases/TC0670', 'Test Cases/Subscriber TestCases/TC0670',  null)])
+TestCaseMain.startTestSuite('Test Suites/Arveen suits/operationalDashboard', suiteProperties, [new TestCaseBinding('Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage', 'Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage',  null), new TestCaseBinding('Test Cases/Operational_Dashboard/115', 'Test Cases/Operational_Dashboard/115',  null)])
