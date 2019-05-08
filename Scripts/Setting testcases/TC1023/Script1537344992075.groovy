@@ -34,5 +34,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_KiboPush  api_sett
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/div_New password cannot be same as current password'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/div_New password cannot be same as current password'))
 

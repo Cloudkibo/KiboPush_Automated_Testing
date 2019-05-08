@@ -27,5 +27,5 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Add Pages/a_Skip'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard'))
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard'))
 

@@ -13,6 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/small_Total Pages'))
 
 WebUI.delay(2)
