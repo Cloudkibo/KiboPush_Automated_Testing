@@ -27,11 +27,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add Text Component'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
 
-WebUI.delay(2)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New text component added'))
 
