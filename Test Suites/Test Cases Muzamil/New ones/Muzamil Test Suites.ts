@@ -4,6 +4,7 @@
    <name>Muzamil Test Suites</name>
    <tag></tag>
    <executionMode>SEQUENTIAL</executionMode>
+   <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
       <TestSuiteRunConfiguration>
          <configuration>

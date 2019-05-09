@@ -17,7 +17,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Growth Tools (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Invite Using Phone Numbers'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Invite Using Phone Numbers'))
 
 WebUI.delay(2)
 

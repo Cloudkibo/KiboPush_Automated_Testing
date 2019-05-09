@@ -48,7 +48,7 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/div_Text (2) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Edit Message/Set Text Component (2) (1)'), 'Text1')
+WebUI.setText(findTestObject('Page_KiboPush  Edit Message/Set Text Component'), 'Text1')
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/h6_ Add Button (1)'))
 

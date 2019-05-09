@@ -48,7 +48,7 @@ WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement image_popup = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/a'))
+WebElement image_popup = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/a'))
 
 image_popup.click()
 WebUI.delay(2)

@@ -20,5 +20,7 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Cr
 
 WebUI.scrollToPosition(0, 0)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Bot/h3_Create Bot'))
 
