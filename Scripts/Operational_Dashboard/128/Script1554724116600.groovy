@@ -25,6 +25,8 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/i_flaticon flaticon-more'))
 
+WebUI.delay(2)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/select_Filter by gender...AllM'), 
     'male', true)
 
