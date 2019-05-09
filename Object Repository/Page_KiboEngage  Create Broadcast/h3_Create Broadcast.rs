@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Broadcasts</name>
+   <name>h3_Create Broadcast</name>
    <tag></tag>
-   <elementGuidId>3b3bc301-719b-4334-b626-a8a223919240</elementGuidId>
+   <elementGuidId>a5ba1525-8421-4d2b-a508-38b7cabf4624</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-menu__link-text</value>
+      <value>m-portlet__head-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Broadcasts</value>
+      <value>Create Broadcast</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mCSB_2_container&quot;)/ul[@class=&quot;m-menu__nav  m-menu__nav--dropdown-submenu-arrow&quot;]/li[@class=&quot;m-menu__item m-menu__item--submenu m-menu__item--open&quot;]/div[@class=&quot;m-menu__submenu&quot;]/ul[@class=&quot;m-menu__subnav&quot;]/li[@class=&quot;m-menu__item&quot;]/a[@class=&quot;m-menu__link&quot;]/span[@class=&quot;m-menu__link-text&quot;]</value>
+      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;m-portlet m-portlet--mobile&quot;]/div[@class=&quot;m-portlet__head&quot;]/div[@class=&quot;m-portlet__head-caption&quot;]/div[@class=&quot;m-portlet__head-title&quot;]/h3[@class=&quot;m-portlet__head-text&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

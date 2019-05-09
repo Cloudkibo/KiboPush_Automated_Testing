@@ -19,22 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_staging_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Operational_Dashboard/Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/i_flaticon flaticon-more'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_Text'))
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/select_Filter by gender...AllM'), 
-    'male', true)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add Text Component'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
 
-WebUI.verifyTextPresent('male', false)
+WebUI.delay(2)
 
-WebUI.verifyTextNotPresent('female', false)
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New text component added'))
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Broadcasts</name>
+   <name>span_Create New (3)</name>
    <tag></tag>
-   <elementGuidId>3b3bc301-719b-4334-b626-a8a223919240</elementGuidId>
+   <elementGuidId>11ae3a2f-571f-40db-9150-0d6b5398b53f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,24 +14,17 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>m-menu__link-text</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Broadcasts</value>
+      <value>Create New</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mCSB_2_container&quot;)/ul[@class=&quot;m-menu__nav  m-menu__nav--dropdown-submenu-arrow&quot;]/li[@class=&quot;m-menu__item m-menu__item--submenu m-menu__item--open&quot;]/div[@class=&quot;m-menu__submenu&quot;]/ul[@class=&quot;m-menu__subnav&quot;]/li[@class=&quot;m-menu__item&quot;]/a[@class=&quot;m-menu__link&quot;]/span[@class=&quot;m-menu__link-text&quot;]</value>
+      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-12&quot;]/div[@class=&quot;m-portlet&quot;]/div[@class=&quot;m-portlet__head&quot;]/div[@class=&quot;m-portlet__head-tools&quot;]/button[@class=&quot;btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill&quot;]/span[1]/span[1]</value>
    </webElementProperties>
 </WebElementEntity>

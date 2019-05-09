@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Broadcasts</name>
+   <name>span_Test6</name>
    <tag></tag>
-   <elementGuidId>3b3bc301-719b-4334-b626-a8a223919240</elementGuidId>
+   <elementGuidId>e52d75db-4534-4def-bb2d-1fc34562d633</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,20 +18,34 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-menu__link-text</value>
+      <value>select2-selection__rendered</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>select2-selectPages-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Test6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Broadcasts</value>
+      <value>×Test6</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mCSB_2_container&quot;)/ul[@class=&quot;m-menu__nav  m-menu__nav--dropdown-submenu-arrow&quot;]/li[@class=&quot;m-menu__item m-menu__item--submenu m-menu__item--open&quot;]/div[@class=&quot;m-menu__submenu&quot;]/ul[@class=&quot;m-menu__subnav&quot;]/li[@class=&quot;m-menu__item&quot;]/a[@class=&quot;m-menu__link&quot;]/span[@class=&quot;m-menu__link-text&quot;]</value>
+      <value>id(&quot;select2-selectPages-container&quot;)</value>
    </webElementProperties>
 </WebElementEntity>
