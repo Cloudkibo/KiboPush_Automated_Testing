@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Broadcasts</name>
+   <name>span_Broadcasts (3)</name>
    <tag></tag>
-   <elementGuidId>3b3bc301-719b-4334-b626-a8a223919240</elementGuidId>
+   <elementGuidId>4d644d3e-b900-45b0-9f3e-2533cbcbb652</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

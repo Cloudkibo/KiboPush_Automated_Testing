@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Broadcasts</name>
+   <name>button_Create New Broadcast (2)</name>
    <tag></tag>
-   <elementGuidId>3b3bc301-719b-4334-b626-a8a223919240</elementGuidId>
+   <elementGuidId>3027b18b-aa1d-4907-9a78-a09b2c5aff8f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-menu__link-text</value>
+      <value>btn btn-primary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Broadcasts</value>
+      <value>Create New Broadcast</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mCSB_2_container&quot;)/ul[@class=&quot;m-menu__nav  m-menu__nav--dropdown-submenu-arrow&quot;]/li[@class=&quot;m-menu__item m-menu__item--submenu m-menu__item--open&quot;]/div[@class=&quot;m-menu__submenu&quot;]/ul[@class=&quot;m-menu__subnav&quot;]/li[@class=&quot;m-menu__item&quot;]/a[@class=&quot;m-menu__link&quot;]/span[@class=&quot;m-menu__link-text&quot;]</value>
+      <value>/html[@class=&quot;wf-poppins-n3-active wf-poppins-n4-active wf-poppins-n5-active wf-poppins-n6-active wf-poppins-n7-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-roboto-n6-active wf-roboto-n7-active wf-active&quot;]/body[@class=&quot;m-page--fluid m--skin- m-content--skin-light2 m-aside-left--fixed m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default&quot;]/div[3]/div[1]/div[2]/div[@class=&quot;narcissus_17w311v&quot;]/div[1]/div[2]/button[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

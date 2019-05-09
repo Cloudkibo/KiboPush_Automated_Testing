@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Create New</name>
+   <name>h3_Add Text Component</name>
    <tag></tag>
-   <elementGuidId>42d63c8c-a7b5-428f-8d6e-160e10ed3d9d</elementGuidId>
+   <elementGuidId>53babce7-5a30-48ec-a522-80b65e5b3453</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,20 +11,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>h3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create New</value>
+      <value>Add Text Component</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-12&quot;]/div[@class=&quot;m-portlet&quot;]/div[@class=&quot;m-portlet__head&quot;]/div[@class=&quot;m-portlet__head-tools&quot;]/button[@class=&quot;btn btn-primary m-btn m-btn--custom m-btn--icon m-btn--air m-btn--pill&quot;]/span[1]/span[1]</value>
+      <value>/html[@class=&quot;wf-poppins-n3-active wf-poppins-n4-active wf-poppins-n5-active wf-poppins-n6-active wf-poppins-n7-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-roboto-n6-active wf-roboto-n7-active wf-active&quot;]/body[@class=&quot;m-page--fluid m--skin- m-content--skin-light2 m-aside-left--fixed m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default&quot;]/div[3]/div[1]/div[2]/div[@class=&quot;narcissus_17w311v&quot;]/h3[1]</value>
    </webElementProperties>
 </WebElementEntity>
