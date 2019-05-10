@@ -3,7 +3,11 @@
    <description></description>
    <name>button_Add (3)</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>80bff49e-95b1-4128-b2e8-84391b387b7a</elementGuidId>
+=======
+   <elementGuidId>c436b8e8-689d-46ad-833c-3d10ad724f0c</elementGuidId>
+>>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -44,7 +48,11 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+<<<<<<< HEAD
       <value>(.//*[normalize-space(text()) and normalize-space(.)='STD_UNOF_TRN.pdf'])[2]/following::button[2]</value>
+=======
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element #2 Title'])[1]/following::button[2]</value>
+>>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

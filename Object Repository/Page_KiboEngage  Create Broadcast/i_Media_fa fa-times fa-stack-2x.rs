@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h6_ Add Button (5)</name>
+   <name>i_Media_fa fa-times fa-stack-2x</name>
    <tag></tag>
-<<<<<<< HEAD
-   <elementGuidId>cc6b7a8d-9ea3-4ded-a798-c1308a986cd6</elementGuidId>
-=======
-   <elementGuidId>e44dd65c-0d95-4b76-80b7-429b2cf28398</elementGuidId>
->>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
+   <elementGuidId>21fc937a-b6b4-4426-8a4c-195224382fd8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,68 +11,56 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h6</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> + Add Button </value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-times fa-stack-2x</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;buttonTarget-undefined&quot;)/h6[1]</value>
+      <value>id(&quot;List1&quot;)/div[@class=&quot;draggable&quot;]/div[@class=&quot;broadcast-component&quot;]/div[1]/span[@class=&quot;fa-stack&quot;]/i[@class=&quot;fa fa-times fa-stack-2x&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='buttonTarget-undefined']/h6</value>
+      <value>//div[@id='List1']/div/div/div/span/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buttons:'])[1]/following::h6[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media'])[1]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-<<<<<<< HEAD
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Message'])[1]/following::h6[1]</value>
-=======
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='video.mp4'])[1]/following::h6[1]</value>
->>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[1]/following::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview:'])[1]/preceding::h6[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element #1 Title'])[1]/preceding::i[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-<<<<<<< HEAD
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test Message'])[2]/preceding::h6[1]</value>
-=======
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::h6[1]</value>
->>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element #2 Title'])[1]/preceding::i[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-<<<<<<< HEAD
-      <value>//div[2]/div/div/div/div/div/div/h6</value>
-=======
-      <value>//div[2]/div/div/div/div[2]/div/div/h6</value>
->>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
+      <value>//div/div/span/i</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -3,7 +3,11 @@
    <description></description>
    <name>h3_Create Broadcast (1)</name>
    <tag></tag>
+<<<<<<< HEAD
    <elementGuidId>36fe2172-f0e5-473e-ad60-dd6de534832d</elementGuidId>
+=======
+   <elementGuidId>0898ed20-7691-41cd-b6f9-2f3be221f93f</elementGuidId>
+>>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -34,6 +38,7 @@
       <type>Main</type>
       <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;m-portlet m-portlet--mobile&quot;]/div[@class=&quot;m-portlet__head&quot;]/div[@class=&quot;m-portlet__head-caption&quot;]/div[@class=&quot;m-portlet__head-title&quot;]/h3[@class=&quot;m-portlet__head-text&quot;]</value>
    </webElementProperties>
+<<<<<<< HEAD
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
@@ -70,4 +75,6 @@
       <name>xpath:position</name>
       <value>//h3</value>
    </webElementXpaths>
+=======
+>>>>>>> f578004a464388bc30d99cd65a53bd5de5c4c5ed
 </WebElementEntity>
