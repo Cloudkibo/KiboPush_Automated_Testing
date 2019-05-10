@@ -32,17 +32,21 @@ WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_password (4)'), 'Sq3
 
 WebUI.click(findTestObject('Page_CloudKibo/button_Sign In (12)'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (4)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (57)'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasts (3)'))
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Broadcast/span_Create New (3)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcast/button_Create New Broadcast (2)'))
-
-WebUI.delay(2)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Create Broadcast'))
-
+//WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (4)'))
+//
+//WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasts (3)'))
+//
+//WebUI.click(findTestObject('Page_KiboEngage  Broadcast/span_Create New (3)'))
+//
+//WebUI.click(findTestObject('Page_KiboEngage  Broadcast/button_Create New Broadcast (2)'))
+//
+//WebUI.delay(2)
+//
+//WebUI.scrollToPosition(0, 0)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Create Broadcast'))
+//

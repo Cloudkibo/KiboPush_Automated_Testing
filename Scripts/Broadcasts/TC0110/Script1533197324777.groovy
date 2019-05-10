@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), 
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Broadcast/select_Filter by type...textim'), 'image', true)
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_image'))
 

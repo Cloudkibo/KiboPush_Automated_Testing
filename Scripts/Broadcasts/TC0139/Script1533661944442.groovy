@@ -33,19 +33,7 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Image (1)'))
-
-WebUI.delay(1)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement upload = driver.findElement(By.xpath('//input[@type=\'file\']'))
-
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-upload.sendKeys(img)
-
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0139'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
 

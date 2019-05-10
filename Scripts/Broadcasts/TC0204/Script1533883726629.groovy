@@ -18,18 +18,30 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Broadcasts/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Broadcasts/TC0131'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Text'))
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/text_component'), 'X')
+WebUI.delay(1)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_X'), 'XY')
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_XY'), 'XYZ')
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_Test Message (1)'))
+
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Next (5)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Previous'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_Test Message (1)'))
+
+WebUI.delay(2)
 

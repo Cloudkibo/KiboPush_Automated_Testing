@@ -38,33 +38,7 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Card (3) (1)'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0145'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement upload = driver.findElement(By.xpath('//input[@type=\'file\']'))
-
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-upload.sendKeys(img)
-
-WebUI.delay(5)
-
-WebElement image_popup = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/a'))
-
-image_popup.click()
-WebUI.delay(2)
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control (4) (1)'), 'Card Title')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_form-control'), 'Card Subtitle')
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Next (4) (1)'))
-WebUI.delay(1)
-
-WebUI.verifyTextPresent('CARD MUST HAVE AT LEAST ONE BUTTON.', false)
 
 

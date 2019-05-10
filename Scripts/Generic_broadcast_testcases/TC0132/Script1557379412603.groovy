@@ -12,5 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131-S'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement area = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/textarea'))
+//WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/text_area'),"")
+area.clear()
+WebUI.delay(2)
+

@@ -39,7 +39,7 @@ List<WebElement> templates = driver.findElements(By.className('m-widget4__item')
 
 println(templates.size())
 
-if (templates.size() < 10) {
+if (templates.size() < 0) {
     KeywordUtil.markFailed('All templates not showing')
 }
 

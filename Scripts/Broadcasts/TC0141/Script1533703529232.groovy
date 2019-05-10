@@ -28,6 +28,6 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card'))
 
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0141'), [:], FailureHandling.STOP_ON_FAILURE)
 

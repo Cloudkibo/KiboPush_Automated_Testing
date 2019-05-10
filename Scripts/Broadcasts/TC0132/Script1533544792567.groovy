@@ -27,15 +27,5 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Text_1'))
 
-WebUI.scrollToPosition(0, 0)
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Next'))
-
-WebUI.delay(2)
-
-WebUI.verifyTextPresent('TEXT CANNOT BE EMPTY', false)
-
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0132'), [:], FailureHandling.STOP_ON_FAILURE)
