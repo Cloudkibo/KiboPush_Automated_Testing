@@ -12,35 +12,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.By as By
-import org.openqa.selenium.WebDriver as WebDriver
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0175-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/circle (4)'))
+WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement upload = driver.findElement(By.xpath('//input[@type=\'file\']'))
-
-String video = RunConfiguration.getProjectDir() + '/video.mp4'
-
-upload.sendKeys(video)
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/h6_ Add Button (5)'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a website'))
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'), 'google.com')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h5_Button 1'))
-
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h3_Create Broadcast'))
