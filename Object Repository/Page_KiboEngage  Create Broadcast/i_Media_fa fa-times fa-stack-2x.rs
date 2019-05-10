@@ -4,6 +4,12 @@
    <name>i_Media_fa fa-times fa-stack-2x</name>
    <tag></tag>
    <elementGuidId>21fc937a-b6b4-4426-8a4c-195224382fd8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;tab_1&quot;]/div/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div[1]/span/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;List1&quot;)/div[@class=&quot;draggable&quot;]/div[@class=&quot;broadcast-component&quot;]/div[1]/span[@class=&quot;fa-stack&quot;]/i[@class=&quot;fa fa-times fa-stack-2x&quot;]</value>
+      <value>//*[@id=&quot;tab_1&quot;]/div/div[3]/div/div/div/div/div/div[2]/div/div/div/div/div[1]/span/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

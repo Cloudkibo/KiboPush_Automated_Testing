@@ -15,18 +15,16 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_ Add Button (5)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_ Add Button'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h7_Open a website'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_Open a website'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'), 'google.com')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'), 
+    'gooogle.com')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add (1)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_Button 1'))
 
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New text component added (1)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/button_Add'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_Test Message'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_Button 1'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_New text component added'))
 

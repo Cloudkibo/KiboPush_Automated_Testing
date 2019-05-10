@@ -21,5 +21,6 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/video_Media_media'))
 
+WebUI.delay(2)
 
 WebUI.verifyTextPresent("Button 1", false)

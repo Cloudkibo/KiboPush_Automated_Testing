@@ -27,11 +27,7 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_List'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0684'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_ Add Button  Add Action'))
-
-WebUI.delay(2)
 

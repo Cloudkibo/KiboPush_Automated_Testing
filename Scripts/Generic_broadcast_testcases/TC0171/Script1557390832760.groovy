@@ -30,7 +30,7 @@ upload.sendKeys(audio)
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add (3)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New file component added'))

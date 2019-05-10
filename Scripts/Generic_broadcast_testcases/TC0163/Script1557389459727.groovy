@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0163-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -28,6 +29,6 @@ String audio = RunConfiguration.getProjectDir() + '/audio.mp3'
 upload.sendKeys(audio)
 
 WebUI.delay(10)
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New audio component added'))

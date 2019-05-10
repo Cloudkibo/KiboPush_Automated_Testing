@@ -20,21 +20,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 
-WebUI.callTestCase(findTestCase('Broadcasts/TC0684'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/First_Card_List_Title'), 'Title1')
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/First_Card_Subtitle'), 'Subtitle1')
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/Second_Card_List_Title'), 'Title2')
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0692'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/Second_Card_Subtitle'), 'Subtitle2')
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Next'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/label_Select Segmentation'))
 
