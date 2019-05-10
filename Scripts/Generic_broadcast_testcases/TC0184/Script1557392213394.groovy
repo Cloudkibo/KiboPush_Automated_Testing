@@ -18,4 +18,4 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0141-S'), [:], Fa
 WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/circle (4)'))
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/h3_Create Broadcast (1)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h3_Create Broadcast'))

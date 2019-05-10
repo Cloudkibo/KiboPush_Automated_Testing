@@ -21,5 +21,5 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/video_Media_media'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_Button 1'))
 
+WebUI.verifyTextPresent("Button 1", false)

@@ -13,35 +13,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://skiboengage.cloudkibo.com/')
-
-WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
-
-WebUI.click(findTestObject('Page_CloudKibo/a_Login (6)'))
-
-WebUI.setText(findTestObject('Page_CloudKibo/input_email (1)'), 'arveen@arveen.com')
-
-WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_password (4)'), 'Sq3Tv/oKKfCfT8/WA5LKPA==')
-
-WebUI.click(findTestObject('Page_CloudKibo/button_Sign In (12)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (4)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasts (3)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcast/span_Create New (3)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcast/button_Create New Broadcast (2)'))
-
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_staging_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(2)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Create Broadcast (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_List'))
 
