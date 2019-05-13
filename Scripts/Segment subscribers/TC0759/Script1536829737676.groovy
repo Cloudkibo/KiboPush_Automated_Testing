@@ -18,13 +18,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0708'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/button_Delete'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/button_delete_1'))
 
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/div_List deleted'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/div_List deleted'))
 

@@ -14,7 +14,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0613'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/button_Preview'))
+/*WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/button_Preview'))
 
-WebUI.delay(2)
+WebUI.delay(2)*/
 

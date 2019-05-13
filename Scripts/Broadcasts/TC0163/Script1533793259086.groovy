@@ -27,7 +27,4 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/div_Audio'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/h4_Audio'), 5)
-
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0163'), [:], FailureHandling.STOP_ON_FAILURE)

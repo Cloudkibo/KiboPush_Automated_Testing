@@ -12,11 +12,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0603'), [:], FailureHandling.STOP_ON_FAILURE)
+/*WebUI.callTestCase(findTestCase('Persistent Menu/TC0603'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/open popover'))
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Website URL to open_form'), 'www.kibopush.com')
+WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Website URL to open_form'), 'www.kibopush.com')*/
 
+WebUI.delay(2)

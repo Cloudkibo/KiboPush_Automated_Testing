@@ -4,6 +4,12 @@
    <name>small_Total Pages</name>
    <tag></tag>
    <elementGuidId>3a1dd519-da58-4eab-9bbe-197c2b1e4168</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//small[(contains(text(), 'Total Pages') or contains(., 'Total Pages'))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -15,7 +21,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Total Pages</value>

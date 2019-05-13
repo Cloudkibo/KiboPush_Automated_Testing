@@ -27,13 +27,6 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/i_convoTitle'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0190'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control (10)'), 'TitleX')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_Save'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/h3_TitleX'))
 

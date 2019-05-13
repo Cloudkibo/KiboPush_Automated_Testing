@@ -18,15 +18,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_Use Template'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Broadcast/select_Filter by Category...Al'), 'Customer Behavior', 
-    true)
+
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="m_form_status"]/option'))
+
+println(rows_table1.size())
+
+rows_table1[3].click()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_Category Customer Behavio'))
 

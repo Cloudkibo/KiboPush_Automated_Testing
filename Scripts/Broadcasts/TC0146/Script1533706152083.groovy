@@ -32,13 +32,8 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card (3) (1)'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0146'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
-
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-WebUI.uploadFile(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_file'), img)
 
 
 

@@ -13,12 +13,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0574'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(2)
 
 String img = RunConfiguration.getProjectDir() + '/video.mp4'
 
 WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file'), img)
 
-WebUI.delay(7)
+WebUI.delay(15)
+

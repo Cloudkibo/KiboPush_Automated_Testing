@@ -23,5 +23,5 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Pages'),
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Remove'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/remove_button_pages'))
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/remove_button_pages'))
 

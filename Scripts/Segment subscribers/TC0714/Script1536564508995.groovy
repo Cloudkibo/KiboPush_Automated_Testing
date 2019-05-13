@@ -12,8 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0712'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h3_Create SubList of Subscribe (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_segmentationType'))

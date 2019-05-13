@@ -22,20 +22,10 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-WebUI.callTestCase(findTestCase('Setting testcases/TC1014'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Settings'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/span_Change Password'))
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Save'))
 
-WebElement button = driver.findElement(By.xpath('//*[@id="m_user_profile_tab_1"]/form/div/div[4]/div[2]/button'))
-
-if(button.isEnabled())
-{
-  WebUI.verifyEqual("1", '0')
-
-}
-else
-{
-	WebUI.verifyEqual("0", '0')
-}

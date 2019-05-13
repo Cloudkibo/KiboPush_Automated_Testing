@@ -19,26 +19,30 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('wizard TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
+WebUI.click(findTestObject('Page_KiboEngage  Getting Started/span_4'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_cloudkibo'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/span_Add Feeds'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Setup Using Wizard (9)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/a_Continue (10)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/span_4 (3)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/button_WordPress'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Add Feeds'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/button_View Integration Guidelines'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_WordPress'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/a_WordPresscom'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_View Integration Guidel'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/h4_Guielines for integrating WordPress blogs'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/a_WordPress.com'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/div_If you have admin rights o'))
+WebUI.clickOffset(findTestObject('Object Repository/Page_KiboEngage  Autoposting/h4_Guielines for integrating WordPress blogs'), 
+    1000, 1000)
+
+WebUI.delay(2)
+
+WebUI.clickOffset(findTestObject('Object Repository/Page_KiboEngage  Autoposting/button_WordPress'), 1000, 1000)
+
+WebUI.delay(2)
 

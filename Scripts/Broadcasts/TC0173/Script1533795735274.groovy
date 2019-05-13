@@ -20,9 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Broadcasts/TC0171'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String file = RunConfiguration.getProjectDir() + '/sampleFile.csv'
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
 
-WebUI.uploadFile(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_file'), file)
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
+
+WebUI.delay(1)
+
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0173'), [:], FailureHandling.STOP_ON_FAILURE)
 

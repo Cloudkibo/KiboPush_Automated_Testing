@@ -27,17 +27,6 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Card (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control (3)'), 'Card Title')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/textarea_form-control'), 'Card Subtitle')
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Next (2)'))
-
-WebUI.delay(1)
-
-WebUI.verifyTextPresent('CARD MUST HAVE AN IMAGE', false)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0142'), [:], FailureHandling.STOP_ON_FAILURE)
 

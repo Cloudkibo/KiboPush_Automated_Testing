@@ -23,17 +23,15 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(1)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+WebElement Table = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody'))
 
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
 int rows_count = rows_table.size()
 
-WebUI.verifyGreaterThanOrEqual(rows_count,1)
+WebUI.verifyGreaterThanOrEqual(rows_count, 1)
 

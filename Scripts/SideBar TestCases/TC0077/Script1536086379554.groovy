@@ -19,13 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('SideBar TestCases/Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_User Guide'))
+WebUI.delay(2)
+//WebUI.switchToWindowTitle('User Guide – The Marketing Newsletter')
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_User Guide'))
-
-WebUI.switchToWindowTitle('Getting Started - KiboPush')
-
-WebUI.navigateToUrl('http://kibopush.com/user-guide/')
-
-WebUI.click(findTestObject('Page_Getting Started - KiboPush/h1_Getting Started'))
+//WebUI.click(findTestObject('Page_User Guide  The Marketing Newsletter/h2_User Guide'))
 

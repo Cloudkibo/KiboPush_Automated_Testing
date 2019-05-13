@@ -18,11 +18,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New (1) (3)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Create New'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1) (1) (3)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Create New Poll (1)'))
+WebUI.delay(2)
 
+WebUI.setText(findTestObject('Page_KiboPush  Create Poll/textarea_form-control'), 'h')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Poll/input_Response1_form-control'), '1')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Poll/input_Response2_form-control'), '2')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Poll/input_Response3_form-control (1)'), '3')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Next (1)'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/a_See Segmentation Here'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboEngage  Segmented Lists/h3_Subscribers Segmentation Lists (2)'))
 

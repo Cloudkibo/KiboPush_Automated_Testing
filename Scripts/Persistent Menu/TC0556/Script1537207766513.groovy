@@ -12,44 +12,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
-
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0548'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file'), img)
-
-WebUI.delay(8)
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Message_form-control'), 'Main')
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/Card Sub Title'), 'Sub')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button1')
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/div_Open a website'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.google.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button2')
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/div_Open a website'))
+WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.dawn.com')
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
 
@@ -61,9 +38,11 @@ WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
 
+WebUI.scrollToPosition(0, 0)
+
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (3)'))
 
 WebUI.delay(2)
 

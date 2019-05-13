@@ -13,9 +13,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0570'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(2)
 
+String audio = RunConfiguration.getProjectDir() + '/audio.mp3'
 
+WebUI.delay(3)
 
+WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), audio)
+
+WebUI.delay(10)

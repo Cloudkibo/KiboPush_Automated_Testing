@@ -23,8 +23,6 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(1)
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -37,5 +35,5 @@ int rows_count = rows_table.size()
 
 WebUI.verifyGreaterThanOrEqual(rows_count, 1)
 
-WebUI.closeBrowser()
+WebUI.delay(1)
 

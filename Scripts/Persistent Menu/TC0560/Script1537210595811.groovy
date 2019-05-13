@@ -13,8 +13,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0557'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.delay(3)
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'

@@ -25,12 +25,14 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DateFormat as DateFormat
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0712'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/input_segmentationType (4) (1)'))
+String list = WebUI.executeJavaScript('return (Math.floor(Math.random() * (+20 - +1)) + +1).toString()+ new Date().getHours().toString()+new Date().getMinutes().toString()+new Date().getSeconds().toString();;', 
+    null)
 
-WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName (3) (1)'), '33')
+WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_listName (3) (1)'), list)
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select ConditionFirst N (12)'), 'subscriptionDate', 
     true)
@@ -38,10 +40,12 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select CriteriaonBefore (1)'), 'on', true)
 
 WebDriver driver = DriverFactory.getWebDriver()
+
 WebElement date = driver.findElement(By.xpath('.//*[@id="text"]'))
 
-date.sendKeys('02/07/2018')
+date.sendKeys('04/09/2019')
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Save'))
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully'))
+

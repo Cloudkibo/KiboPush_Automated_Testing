@@ -18,12 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Delete (8)'))
+WebUI.click(findTestObject('Page_KiboEngage  Polls/button_Delete'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Delete (7)'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_Poll deleted successfully (2)'))
+WebUI.click(findTestObject('Page_KiboEngage  Polls/Delete 2'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboEngage  Polls/div_Poll deleted successfully'))
+
+WebUI.delay(2)
 

@@ -25,25 +25,3 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Create New (2)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Use Template (1) (1) (1) (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_Edit Template'))
-
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-try {
-	WebElement data = driver.findElement(By.xpath('.//*[@id=\'question\']/textarea'))
-
-	println(data.getText())
-
-	WebUI.verifyNotEqual(data.getText(), '') //println(rows_table.get(0).getText())
-}
-catch (Exception e) {
-	e.printStackTrace()
-}
-

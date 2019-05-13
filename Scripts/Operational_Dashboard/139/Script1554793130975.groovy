@@ -39,7 +39,7 @@ WebUI.scrollToPosition(0, 0)
 
 WebDriver driver = DriverFactory.getWebDriver()
 WebElement input_search_page = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[1]/div/div/div[2]/div/div/div[1]/input'))
-input_search_page.sendKeys("test2")
+input_search_page.sendKeys("AutoPosting Testing Page")
 WebUI.delay(5)
 
 WebElement Table = driver.findElement(By.xpath('//table/tbody'))

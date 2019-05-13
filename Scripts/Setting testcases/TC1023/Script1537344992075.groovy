@@ -22,18 +22,17 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-WebUI.callTestCase(findTestCase('Setting testcases/TC1014'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/span_Change Password'))
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_KiboPush  api_settings/input_Current Password_form-control m-input'), 
+    'ZOMPkeJIpHVS6OGLcNHjig==')
 
-WebElement element1 = driver.findElement(By.xpath('//*[@id="m_user_profile_tab_1"]/form/div/div[2]/div/input'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_KiboPush  api_settings/input_Retype Password_form-control m-input'), 
+    'ZOMPkeJIpHVS6OGLcNHjig==')
 
-WebElement element2 = driver.findElement(By.xpath('//*[@id="m_user_profile_tab_1"]/form/div/div[3]/div/input'))
- 
-WebElement element3 = driver.findElement(By.xpath('//*[@id="m_user_profile_tab_1"]/form/div/div[4]/div[1]/input'))
- 
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_KiboPush  api_settings/input_New Password_form-control m-input'), 
+    'ZOMPkeJIpHVS6OGLcNHjig==')
 
-element1.sendKeys('Langhanii141615')
-element2.sendKeys('Langhanii141615')
-element3.sendKeys('Langhanii141615')
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/button_Save'))
+
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  api_settings/div_New password cannot be same as current password'))
+

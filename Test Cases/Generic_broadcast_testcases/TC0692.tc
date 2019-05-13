@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;Add list without image
+on both cards&quot;</description>
+   <name>TC0692</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b642b10-e3f8-4eb5-8531-7a90f801ffeb</testCaseGuid>
+</TestCaseEntity>

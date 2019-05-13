@@ -19,11 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Broadcasts/TC0133'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/button_KiboPush (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
 
-WebUI.doubleClick(findTestObject('Object Repository/Page_KiboPush  Create Broadcast/input_form-control (11)'))
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_KiboPush  Create Broadcast/input_form-control'), 'value', 'KiboPush', 5)
+WebUI.delay(1)
+
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0193'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -33,5 +33,5 @@ WebUI.click(findTestObject('Page_KiboPush  Add Pages/h3_Manage Pages (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Connect'))
+//WebUI.click(findTestObject('Page_KiboPush  Add Pages/button_Connect'))
 

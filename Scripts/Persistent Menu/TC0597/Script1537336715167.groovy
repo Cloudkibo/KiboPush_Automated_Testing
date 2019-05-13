@@ -12,7 +12,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Persistent Menu/TC0538'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/div_Text'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
 
@@ -21,4 +23,8 @@ WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
 WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.google.com')
 
 WebUI.delay(2)
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboPush  Menu/button_Done'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/i_Message_fa fa-times fa-stack-2x'))
 

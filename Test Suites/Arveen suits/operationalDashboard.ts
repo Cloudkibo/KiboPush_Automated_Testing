@@ -4,6 +4,7 @@
    <name>operationalDashboard</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2019-05-07T15:05:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

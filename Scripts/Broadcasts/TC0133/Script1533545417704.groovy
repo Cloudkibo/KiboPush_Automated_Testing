@@ -27,15 +27,6 @@ WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Text'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0133'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_ Add Button'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control (9)'), 'KiboPush')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Open a website (5)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast/input_form-control_1 (5)'), 'kibopush.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/button_Done (5)'))
 

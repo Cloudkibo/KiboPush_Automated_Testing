@@ -26,9 +26,9 @@ import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DateFormat as DateFormat
 
-WebUI.callTestCase(findTestCase('Segment subscribers/TC0708'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_View'))
+/*WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_View'))
 
 WebUI.delay(1)
 
@@ -41,4 +41,4 @@ WebDriver driver = DriverFactory.getWebDriver()
 List<WebElement> rows_table = driver.findElements(By.xpath('//table/tbody/tr'))
 
 WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)
-
+*/

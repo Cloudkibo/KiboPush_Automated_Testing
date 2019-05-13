@@ -27,9 +27,9 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+/*WebUI.delay(5)
 
 String date_page1 = getFirstRowDate()
 
@@ -84,5 +84,5 @@ String getFirstRowDate() {
     catch (Exception e) {
         KeywordUtil.markFailed('ERROR: No Table Present')
     } 
-}
+}*/
 

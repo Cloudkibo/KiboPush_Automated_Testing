@@ -19,19 +19,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/survey'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New'))
+WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_form-control_1 (1) (1) (1) (1)'), 'hi')
 
-WebUI.click(findTestObject('Page_KiboPush  Survey/button_Create New Survey'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/input_form-control'), 'hi')
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/textarea_form-control'), 'h')
-
-WebUI.setText(findTestObject('Page_KiboPush  Add Survey/textarea_h'), 'hi')
-
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/button_Create Survey'))
-
-WebUI.click(findTestObject('Page_KiboPush  Add Survey/div_A survey form requires atl'))
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Add Survey/button_Next (1)'))
 
