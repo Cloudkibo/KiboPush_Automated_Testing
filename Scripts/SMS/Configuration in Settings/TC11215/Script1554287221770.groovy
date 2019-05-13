@@ -38,13 +38,13 @@ WebUI.delay(10)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement sid = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input'))
+WebElement sid = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[1]/input'))
 
 sid.clear()
 
 sid.sendKeys('a')
 
-WebElement token = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input'))
+WebElement token = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[2]/input'))
 
 token.clear()
 
