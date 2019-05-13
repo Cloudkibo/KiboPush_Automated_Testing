@@ -17,7 +17,6 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
 
 WebUI.delay(1)
@@ -38,13 +37,13 @@ WebUI.delay(10)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement sid = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input'))
+WebElement sid = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[1]/input'))
 
 sid.clear()
 
 sid.sendKeys('a')
 
-WebElement token = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input'))
+WebElement token = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[2]/input'))
 
 token.clear()
 

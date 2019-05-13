@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Whatsapp/WhatsApp Livechat/go to live chat'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Whatsapp/Dashboard/open Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboChat  Live Chat/input_documentation_generalSearch'), 'aizan')
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/small_Subscribers (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/span_923333739566'))
+WebUI.click(findTestObject('Page_KiboEngage  Subscribers/h3_Manage Subscribers (6)'))
 
