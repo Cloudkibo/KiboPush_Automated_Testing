@@ -12,21 +12,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/h6_ Add Button'))
+WebUI.delay(3)
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Persistent Menu/Go_to_menu_item'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button1')
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/h7_Open a website'))
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Text (3) (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.google.com')
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (6)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/button_Done'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h7_Open a website (1)'))
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Open Website_form-control (1)'), 'google.com')
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add (1)'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New text component added'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Button 1'))
 
