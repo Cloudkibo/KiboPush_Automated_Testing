@@ -13,17 +13,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/Card Sub Title'), 'Sub')
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Title_form-control'), 'title')
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
 
-WebUI.scrollToPosition(0, 0)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (3)'))
+String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_card must have a button'))
+WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
+
+WebUI.delay(10)
+
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add (3)'))
 

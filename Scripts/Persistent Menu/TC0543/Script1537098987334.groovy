@@ -24,6 +24,8 @@ WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Text (3) (1) (1)'))
 
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/textarea_Text_form-control'), 'Text')
+
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h6_ Add Button (6) (1)'))
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h7_Open a website (1) (1)'))

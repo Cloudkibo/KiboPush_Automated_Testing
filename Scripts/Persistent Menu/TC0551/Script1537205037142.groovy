@@ -16,6 +16,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Title_form-control'), 'title')
+
 WebUI.delay(3)
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
@@ -26,13 +28,5 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
 
 WebUI.delay(10)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Title_form-control (1)'), Keys.chord(
-        Keys.CONTROL, 'a'))
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Title_form-control (1)'), Keys.chord(
-        Keys.BACK_SPACE))
-
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add (3)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Subtitle_form-control'), '')
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add (3)'))
 

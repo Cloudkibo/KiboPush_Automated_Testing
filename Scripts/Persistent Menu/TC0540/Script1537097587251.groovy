@@ -11,6 +11,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -23,6 +24,8 @@ WebUI.delay(3)
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Text (3) (1)'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/textarea_Text_form-control'), 'Text')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (6)'))
 

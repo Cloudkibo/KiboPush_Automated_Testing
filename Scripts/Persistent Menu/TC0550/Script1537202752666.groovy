@@ -18,6 +18,8 @@ WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.
 
 WebUI.delay(3)
 
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
+
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
 WebUI.delay(3)
@@ -26,7 +28,5 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
 
 WebUI.delay(10)
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Title_form-control'), Keys.chord(Keys.CONTROL, 'a'))
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add'))
 
-WebUI.sendKeys(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Title_form-control'), Keys.chord(Keys.BACK_SPACE))
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
