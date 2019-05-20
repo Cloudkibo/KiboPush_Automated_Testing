@@ -49,7 +49,15 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/div_Text'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Edit Message/Set Text Component'), 'Text1')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/textarea_t'), 
+    'testing')
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
+
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New text component added'))
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Save_1'))
 
