@@ -21,3 +21,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0777'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category (1)'))
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior (1)'))
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)'))
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)'))
