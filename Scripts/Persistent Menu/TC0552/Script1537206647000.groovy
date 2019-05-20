@@ -29,5 +29,3 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
 
 WebUI.delay(10)
 
-WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add (3)'))
-
