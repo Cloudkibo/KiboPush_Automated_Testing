@@ -48,17 +48,20 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/div_Text (2) (1)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Edit Message/Set Text Component'), 'Text1')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/textarea_t'),
+	't')
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_ Add Button'))
 
-WebUI.click(findTestObject('Page_KiboPush  Edit Message/h6_ Add Button (1)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_Open a website'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Edit Message/input_Button Title_form-contro (1)'), 'Button1')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'), 
+    'gooogle.com')
 
-WebUI.click(findTestObject('Page_KiboPush  Edit Message/h7_Open a website'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_Button 1'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Edit Message/input_form-control'), 'www.google.com')
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/button_Add'))
 
-WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Done (1)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_New text component added'))
 
 WebUI.scrollToPosition(0, 0)
 

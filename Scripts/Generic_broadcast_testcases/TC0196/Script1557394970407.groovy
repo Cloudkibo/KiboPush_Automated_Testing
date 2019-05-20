@@ -18,5 +18,5 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131'), [:], Fail
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Reset'))
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Yes'))
-WebUI.delay(2)
-WebUI.verifyTextNotPresent("Test Message", false)
+WebUI.delay(3)
+WebUI.verifyTextNotPresent("testing", false)
