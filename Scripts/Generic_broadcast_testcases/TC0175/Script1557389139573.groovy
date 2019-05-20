@@ -18,9 +18,3 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0177'), [:], Fail
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add (1) (1) (1) (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New media component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/video_Media_media'))
-
-WebUI.delay(2)
-
-WebUI.verifyTextPresent("Button 1", false)

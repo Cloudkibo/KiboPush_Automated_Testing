@@ -18,13 +18,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0801'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String audio = RunConfiguration.getProjectDir() + '/audio.mp3'
-
-WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/audio_file'), audio)
-
-WebUI.delay(10)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0163'), [:], FailureHandling.STOP_ON_FAILURE)
 
