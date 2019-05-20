@@ -17,5 +17,3 @@ WebUI.callTestCase(findTestCase('Whatsapp/WhatsApp Livechat/go to live chat'), [
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboChat  Live Chat/input_documentation_generalSearch'), 'aizan')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/span_923333739566'))
-

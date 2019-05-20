@@ -77,6 +77,18 @@
       <testCaseId>Test Cases/Whatsapp/Dashboard/open Dashboard</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>1025ccbe-5033-496f-8cff-5f7ce1544178</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11279</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>260226fb-9b70-4a00-ab39-ee3e84849c95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11281</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>e44d60a2-ccec-4ea7-a876-db391e935954</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

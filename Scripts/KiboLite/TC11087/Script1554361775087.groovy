@@ -23,37 +23,3 @@ WebUI.click(findTestObject('Page_ Dashboard/span_Broadcast'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/a_Create Push Message (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_Image'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New image component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_Card'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New card component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_Gallery'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New gallery component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_Audio'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New audio component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_Video'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New video component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_File'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New file component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_List'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New list component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/h6_Media'))
-
-WebUI.click(findTestObject('Object Repository/Page_ Business Gateway/div_New media component added'))
-
