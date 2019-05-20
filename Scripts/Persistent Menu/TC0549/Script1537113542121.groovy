@@ -12,19 +12,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0548'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Message_form-control (1)'), 'Main')
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h6_ Add Button (8)'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h7_Add Share button (3)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/Card Sub Title (1)'), 'Sub')
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (3)'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Card must have an image'))
-
+WebUI.delay(3)

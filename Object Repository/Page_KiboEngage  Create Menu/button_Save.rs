@@ -61,13 +61,13 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Image'])[1]/preceding::button[1]</value>
+      <name>xpath:position</name>
+      <value>//button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <value>//button[2]</value>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Image'])[1]/preceding::button[1]</value>
    </webElementXpaths>
 </WebElementEntity>

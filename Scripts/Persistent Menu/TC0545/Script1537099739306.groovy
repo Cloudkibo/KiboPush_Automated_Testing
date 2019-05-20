@@ -12,11 +12,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0544'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (1) (2)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Select a valid image'))
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add (2)'))
 

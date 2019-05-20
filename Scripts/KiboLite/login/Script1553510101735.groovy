@@ -33,7 +33,3 @@ WebUI.click(findTestObject('Page_ Dashboard/h3_Dashboard (1)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/a_SMS (2) (1) (1) (1) (1)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Messenger (1) (1) (1) (1)'))
-
