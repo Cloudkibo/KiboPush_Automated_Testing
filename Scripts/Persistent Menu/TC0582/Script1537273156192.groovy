@@ -11,6 +11,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -24,9 +25,13 @@ WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_Media'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h3_Add Media Component'))
+String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Media'))
+WebUI.delay(3)
+
+WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
+
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button'))
 
@@ -37,6 +42,8 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/inp
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New media component added'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save'))
 

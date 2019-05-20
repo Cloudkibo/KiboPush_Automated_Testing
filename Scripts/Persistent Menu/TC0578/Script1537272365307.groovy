@@ -26,13 +26,3 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_Fi
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h3_Add File Component'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_File'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New file component added'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Message Saved Successfully'))
-
