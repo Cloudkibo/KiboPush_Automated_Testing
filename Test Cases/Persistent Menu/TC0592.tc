@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test remove gallery component</description>
-   <name>TC0592</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>344c2b86-c411-471e-8305-507b07e9c5d6</testCaseGuid>
-</TestCaseEntity>

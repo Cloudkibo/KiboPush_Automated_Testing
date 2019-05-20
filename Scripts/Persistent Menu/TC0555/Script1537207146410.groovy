@@ -14,11 +14,25 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.scrollToPosition(0, 0)
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (3)'))
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Title_form-control'), 'test')
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
+
+String img = RunConfiguration.getProjectDir() + '/sample.jpg'
+
+WebUI.delay(3)
+
+WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/button_Add'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_New card component added'))
 

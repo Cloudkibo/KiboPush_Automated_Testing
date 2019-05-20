@@ -13,11 +13,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.scrollToPosition(0, 0)
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0580'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (3)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New file component added'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Message Saved Successfully (3)'))
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Message Saved Successfully'))
 
