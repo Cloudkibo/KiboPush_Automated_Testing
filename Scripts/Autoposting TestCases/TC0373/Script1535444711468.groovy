@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autopost
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Add Feed (2)'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_Auto Posting - KiboPush/circle_cross'))
 
 WebUI.scrollToPosition(0, 0)

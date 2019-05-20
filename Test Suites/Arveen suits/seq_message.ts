@@ -4,7 +4,6 @@
    <name>seq_message</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-05-08T15:54:19</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -62,7 +61,7 @@
    <testCaseLink>
       <guid>2b6a3961-47bf-4719-b19f-e2c61a9173f3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC0986</testCaseId>
    </testCaseLink>
    <testCaseLink>
