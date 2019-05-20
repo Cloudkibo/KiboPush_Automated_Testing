@@ -25,47 +25,9 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
-
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/img'), img)
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/svg'))
-
-WebUI.delay(3)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement title = driver.findElement(By.xpath('//*[@id="List1"]/div[1]/div/div[3]/div[2]/input'))
-
-title.sendKeys('hello')
-
-WebUI.delay(1)
-
-WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[3]/div[2]/textarea'))
-
-textArea.sendKeys('hello')
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (8)'))
+WebUI.callTestCase(findTestCase('Template testcases/TC0785'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
-
-WebUI.verifyTextPresent('google', false)
-
-WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category (1)'))
 
@@ -74,5 +36,3 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Beha
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)'))
-
-

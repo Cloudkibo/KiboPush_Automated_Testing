@@ -18,20 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (7) (1)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (7)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done (8)'))
-
-WebUI.delay(2)
-
-WebUI.verifyTextPresent('google', false)
-
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0147'), [:], FailureHandling.STOP_ON_FAILURE)
