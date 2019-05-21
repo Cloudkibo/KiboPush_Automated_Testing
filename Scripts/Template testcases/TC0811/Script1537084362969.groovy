@@ -20,11 +20,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0809'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0173'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/image_file'), img)
-
-WebUI.delay(10)
 

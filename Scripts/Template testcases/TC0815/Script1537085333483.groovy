@@ -19,18 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0813'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0177'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done'))
-
-WebUI.delay(2)
-WebUI.verifyTextPresent('google', false)
 

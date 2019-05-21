@@ -19,17 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0142'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (1) (1)'), 'hello')
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (6)'), 'hello')
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/button_Create (12)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card must have an image'))
 

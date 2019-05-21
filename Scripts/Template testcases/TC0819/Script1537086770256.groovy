@@ -18,42 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0817'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0178'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h6_Media'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add (1) (1) (1) (1)'))
 
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/media_file'), img)
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done'))
-
-WebUI.delay(2)
-
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (8)'), 'www.google.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Done'))
 
 WebUI.delay(2)
 
@@ -66,4 +37,5 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Beha
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
+
 

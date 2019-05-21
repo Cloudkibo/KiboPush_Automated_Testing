@@ -25,29 +25,6 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0779'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
-
-String img = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-WebUI.uploadFile(findTestObject('Page_KiboPush  Create Broadcast Tem/img'), img)
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/svg'))
-
-WebUI.delay(3)
-
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/textarea_form-control (6)'), 'hello')
-
-WebUI.delay(1)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (3)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Card must have a Title'))
-
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0144'), [:], FailureHandling.STOP_ON_FAILURE)
