@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>LiveChat</name>
+   <name>TC0292</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c3b37597-c791-4899-835d-8abd1951a1b6</testCaseGuid>
+   <testCaseGuid>936d5d55-aee4-45c1-b2a3-1599f02996e4</testCaseGuid>
 </TestCaseEntity>
