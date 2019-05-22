@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Save</name>
+   <name>button_Add category (1)</name>
    <tag></tag>
-   <elementGuidId>f3a73d7d-fa11-4863-83ea-30a606615d0e</elementGuidId>
+   <elementGuidId>b992282b-d1c2-4847-b26e-ed2afdccc697</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,20 +18,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-sm</value>
+      <value>m-btn m-btn--pill m-btn--hover-brand btn btn-sm btn-secondary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Save</value>
+      <value>Add category</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;wf-poppins-n3-active wf-poppins-n4-active wf-poppins-n5-active wf-poppins-n6-active wf-poppins-n7-active wf-roboto-n3-active wf-roboto-n4-active wf-roboto-n5-active wf-roboto-n6-active wf-roboto-n7-active wf-active&quot;]/body[@class=&quot;m-page--fluid m--skin- m-content--skin-light2 m-aside-left--fixed m-header--fixed m-header--fixed-mobile m-aside-left--enabled m-aside-left--skin-dark m-aside-left--offcanvas m-footer--push m-aside--offcanvas-default&quot;]/div[3]/div[1]/div[2]/div[@class=&quot;narcissus_17w311v&quot;]/button[@class=&quot;btn btn-primary btn-sm&quot;]</value>
+      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12&quot;]/div[@class=&quot;m-portlet m-portlet--mobile&quot;]/div[@class=&quot;m-portlet__body&quot;]/div[@class=&quot;col-xl-12&quot;]/div[@id=&quot;desc&quot;]/div[@class=&quot;m-form&quot;]/div[@class=&quot;form-group m-form__group&quot;]/button[@class=&quot;m-btn m-btn--pill m-btn--hover-brand btn btn-sm btn-secondary&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

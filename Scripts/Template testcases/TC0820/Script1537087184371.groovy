@@ -22,7 +22,9 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0182'), [:], FailureHandling.STOP_ON_FAILURE)
+

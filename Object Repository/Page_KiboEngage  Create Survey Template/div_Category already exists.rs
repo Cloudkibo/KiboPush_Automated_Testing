@@ -1,72 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_Media_fa fa-times fa-stack-2x</name>
+   <name>div_Category already exists</name>
    <tag></tag>
-   <elementGuidId>21fc937a-b6b4-4426-8a4c-195224382fd8</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;List1&quot;]/div/div/div[1]/span/i</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>e25d66b5-fb6f-4201-910d-d03a0438ca69</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-times fa-stack-2x</value>
+      <value>css-6bx4c3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Category already exists</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;List1&quot;]/div/div/div[1]/span/i</value>
+      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;css-132hx50&quot;]/span[1]/div[@class=&quot;css-1vm9g5e&quot;]/div[@class=&quot;css-6bx4c3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='List1']/div/div/div/span/i</value>
+      <value>//div[@id='content']/div/div/div/div[2]/div/span/div/div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Media'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Guide'])[1]/following::div[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='List'])[1]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::div[16]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element #1 Title'])[1]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create Template Survey'])[1]/preceding::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element #2 Title'])[1]/preceding::i[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div/div/span/i</value>
+      <value>//span/div/div[2]</value>
    </webElementXpaths>
 </WebElementEntity>
