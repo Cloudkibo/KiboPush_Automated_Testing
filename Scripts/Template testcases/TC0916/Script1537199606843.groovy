@@ -21,12 +21,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0913'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Categories (1) (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Edit (1)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Categories/input_form'), 'Research-1')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Categories/button_Save'))
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Categories (1) (1)'))
+//
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Edit (1)'))
+//
+//WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Categories/input_form'), 'Research-1')
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Categories/button_Save'))
 
 

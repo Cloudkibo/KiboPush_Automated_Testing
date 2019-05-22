@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Save</name>
+   <name>button_Save (3)</name>
    <tag></tag>
-   <elementGuidId>f3a73d7d-fa11-4863-83ea-30a606615d0e</elementGuidId>
+   <elementGuidId>cc2f6fb0-aedd-4067-858d-70fc3ae92b6b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

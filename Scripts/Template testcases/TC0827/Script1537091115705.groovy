@@ -25,5 +25,5 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0184'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0189'), [:], FailureHandling.STOP_ON_FAILURE)
 

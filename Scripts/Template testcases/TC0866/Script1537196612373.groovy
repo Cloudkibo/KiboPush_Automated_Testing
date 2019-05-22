@@ -22,24 +22,21 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+
 WebUI.callTestCase(findTestCase('Template testcases/TC0761'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
 WebElement input = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[1]/input'))
 
-input.sendKeys('Customer Satisfaction Survey')
-
+input.sendKeys('1')
 
 WebUI.delay(3)
- 
+
 WebElement element = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody/tr[1]/td[1]'))
 
 println(element.getText())
 
-WebUI.verifyEqual(element.getText(), 'Customer Satisfaction Survey')
-
-
-
-//*[@id="m-datatable--27866229129"]/tbody/tr[1]/td[1]
+WebUI.verifyEqual(element.getText(), '1')
 
