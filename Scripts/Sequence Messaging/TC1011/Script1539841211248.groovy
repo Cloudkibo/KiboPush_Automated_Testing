@@ -26,6 +26,9 @@ WebUI.delay(4)
 
 WebUI.scrollToPosition(0, 0)
 
+WebUI.delay(3)
+
+
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)'))
 
 WebUI.delay(2)
