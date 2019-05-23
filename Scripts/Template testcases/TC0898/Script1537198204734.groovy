@@ -23,18 +23,19 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 WebUI.callTestCase(findTestCase('Template testcases/TC0761'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
 WebUI.delay(3)
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-
-WebElement element = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/ul/li[3]/a'))
-
-element.click()
- 
-List <WebElement> rows = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr'))
- 
-WebUI.verifyGreaterThanOrEqual(rows.size(), 1)
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//
+//WebElement element = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/ul/li[3]/a'))
+//
+//element.click()
+// 
+//List <WebElement> rows = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr'))
+// 
+//WebUI.verifyGreaterThanOrEqual(rows.size(), 1)

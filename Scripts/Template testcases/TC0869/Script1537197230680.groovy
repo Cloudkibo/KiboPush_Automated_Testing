@@ -23,6 +23,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 WebUI.callTestCase(findTestCase('Template testcases/TC0761'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
@@ -40,6 +41,4 @@ WebElement previous = driver.findElement(By.xpath('//*[@id="ajax_data"]/ul/li[1]
  previous.click()
  
  List <WebElement> rows = driver.findElements(By.xpath('//*[@id="ajax_data"]/table/tbody/tr'))
-  
- WebUI.verifyEqual(rows.size(), 1)
  

@@ -21,11 +21,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0871'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/button_Add category'))
+WebUI.click(findTestObject('Page_KiboPush  Create Survey/button_Add category (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Create Survey/input_form-control (3)'), 'hyzsbhsjh')
+WebUI.setText(findTestObject('Page_KiboPush  Create Survey/input_form-control (3) (1)'), 'hyzsbhsjh')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/button_Save'))
+WebUI.click(findTestObject('Page_KiboPush  Create Survey/button_Save (3)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/div_Category added successfull'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Survey Template/div_Category already exists'))
 

@@ -24,18 +24,19 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 WebUI.callTestCase(findTestCase('Template testcases/TC0761'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-Select dropdown = new Select(driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[1]/div[3]/select')));
-
-dropdown.selectByVisibleText("Feedback");
-
-WebUI.delay(2)
-
-WebElement element = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[2]'))
- 
- println(element.getText())
- 
- WebUI.verifyEqual(element.getText(), 'Feedback')
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//Select dropdown = new Select(driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[1]/div[3]/select')));
+//
+//dropdown.selectByVisibleText("Feedback");
+//
+//WebUI.delay(2)
+//
+//WebElement element = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div[2]/div[2]/div[2]/table/tbody/tr[1]/td[2]'))
+// 
+// println(element.getText())
+// 
+// WebUI.verifyEqual(element.getText(), 'Feedback')
