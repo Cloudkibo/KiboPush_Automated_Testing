@@ -20,6 +20,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0145'), [:], FailureHandling.STOP_ON_FAILURE)
 
+
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h7_Add Share button'))
