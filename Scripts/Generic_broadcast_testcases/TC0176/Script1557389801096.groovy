@@ -16,5 +16,5 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0175-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add (1) (1) (1)'))
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add YouTube video component</description>
+   <name>TC11291</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6ae1c3b5-249c-4f65-8cd4-c5bae8704f5c</testCaseGuid>
+</TestCaseEntity>

@@ -26,8 +26,9 @@ WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEn
 WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Subtitle_form-control'), 
     'Subtitle')
 
+
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[4]/div/button[2]'))
+WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div[2]/div/button[2]'))
 
 println(button.isEnabled())
 

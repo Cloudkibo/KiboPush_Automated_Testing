@@ -30,5 +30,5 @@ WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_New text compo
 
 WebUI.delay(2)
 WebUI.scrollToPosition(0, 0)
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_Button 1 (1)'))
+WebUI.delay(2)
 
