@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_Image (1)'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add Image Component (1)'))
 

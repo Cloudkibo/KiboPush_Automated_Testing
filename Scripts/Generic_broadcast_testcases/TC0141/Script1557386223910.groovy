@@ -16,10 +16,16 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0141-S'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[4]/div/button[2]'))
+
+WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div[2]/div/button[2]'))
 
 println(button.isEnabled())
 
 WebUI.verifyEqual(false, button.isEnabled())
+
+
+
