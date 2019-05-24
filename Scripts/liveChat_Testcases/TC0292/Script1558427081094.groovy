@@ -16,6 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
-
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Click Here'))
 
+WebUI.delay(2)
