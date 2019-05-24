@@ -4,7 +4,17 @@
    <name>h6_ Add Button</name>
    <tag></tag>
    <elementGuidId>a6e505b3-dbcc-4baa-8e70-bfbd920e44e4</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='buttonTarget-undefined']/h6</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//h6[(text() = ' + Add Button ' or . = ' + Add Button ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
