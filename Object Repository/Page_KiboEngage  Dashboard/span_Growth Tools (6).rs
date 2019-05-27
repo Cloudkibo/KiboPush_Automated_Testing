@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Messenger</name>
+   <name>span_Growth Tools (6)</name>
    <tag></tag>
-   <elementGuidId>1cd4a4c8-7a09-4a84-8c5e-3bee40ca1935</elementGuidId>
+   <elementGuidId>132c11f4-79a4-4190-9f9f-d0e551190319</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,62 +18,62 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-nav__link-text</value>
+      <value>m-menu__link-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Messenger</value>
+      <value>Growth Tools</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;m_header_menu&quot;)/ul[@class=&quot;m-menu__nav  m-menu__nav--submenu-arrow&quot;]/li[@class=&quot;m-menu__item m-menu__item--submenu m-menu__item--relm-portlet__nav-item m-dropdown m-dropdown--inline m-dropdown--arrow m-dropdown--align-right m-dropdown--align-push m-dropdown--open&quot;]/div[@class=&quot;m-dropdown__wrapper&quot;]/div[@class=&quot;m-dropdown__inner&quot;]/div[@class=&quot;m-dropdown__body&quot;]/div[@class=&quot;m-dropdown__content&quot;]/ul[@class=&quot;m-nav&quot;]/li[@class=&quot;m-nav__item&quot;]/a[@class=&quot;m-nav__link&quot;]/span[@class=&quot;m-nav__link-text&quot;]</value>
+      <value>id(&quot;mCSB_2_container&quot;)/ul[@class=&quot;m-menu__nav  m-menu__nav--dropdown-submenu-arrow&quot;]/li[@class=&quot;m-menu__item  m-menu__item--submenu&quot;]/a[@class=&quot;m-menu__link m-menu__toggle&quot;]/span[@class=&quot;m-menu__link-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='m_header_menu']/ul/li/div/div/div/div/ul/li/a/span</value>
+      <value>//div[@id='mCSB_2_container']/ul/li[6]/a/span</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SMS'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sequence Messaging'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select Platform:'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Autoposting'])[1]/following::span[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='SMS'])[2]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Growth Tools'])[2]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plans &amp; Permissions'])[1]/preceding::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment Capture'])[1]/preceding::span[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li/a/span</value>
+      <value>//div/div/div/div/div/ul/li[6]/a/span</value>
    </webElementXpaths>
 </WebElementEntity>
