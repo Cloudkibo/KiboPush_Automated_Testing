@@ -31,5 +31,9 @@ WebElement button = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbod
 
 button.click()
 
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/h4_Survey Questions'))
 

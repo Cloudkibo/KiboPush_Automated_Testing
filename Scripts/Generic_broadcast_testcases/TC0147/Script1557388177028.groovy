@@ -23,6 +23,8 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0145'), [:], Fail
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
 
+WebUI.executeJavaScript("document.querySelector('body > div:nth-child(13) > div > div:nth-child(2) > div > div:nth-child(4) > div.col-6').scrollTop =400", null)
+
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h7_Add Share button'))
 
 

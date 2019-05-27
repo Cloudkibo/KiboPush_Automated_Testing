@@ -27,7 +27,16 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0785'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.delay(3)
+
+WebUI.executeJavaScript("document.querySelector('body > div:nth-child(13) > div > div:nth-child(2)').scrollTop =400", null)
+
+WebDriver driver = DriverFactory.getWebDriver()
+WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div[2]/div/button[2]'))
+
+button.click()
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category (1)'))
 
@@ -36,3 +45,4 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Beha
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (1) (1)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf (1)'))
+
