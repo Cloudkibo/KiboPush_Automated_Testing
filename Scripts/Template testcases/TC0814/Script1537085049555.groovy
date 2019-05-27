@@ -19,9 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0813'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (12) (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Select an image or video'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0175'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -209,6 +209,30 @@
       <testCaseId>Test Cases/SMS/sms broadcast/TC11187</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>ef815a3e-f8c0-46cd-a195-5927d6b01697</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SMS/Dashboard/open Dashboard</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ff3a1b8a-0917-4105-a2e9-5b27a640a7f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SMS/Dashboard/TC11287</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40f99674-4801-4cc3-95a8-a8833fae6fbc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SMS/Dashboard/TC11289</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>845970c9-7075-4dcc-8f2f-b1d33a5c2f98</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SMS/Dashboard/TC11290</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>953bf262-9695-49a2-bd9e-81365a01b227</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

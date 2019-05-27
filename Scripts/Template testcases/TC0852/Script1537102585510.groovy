@@ -23,14 +23,4 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/h6_ Add Element'))
-
-WebUI.delay(2)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-List <WebElement> element = driver.findElements(By.xpath('//*[@id="List1"]/div/div/div[3]/div'))
-
-WebUI.verifyEqual(element.size(), 5)
+WebUI.callTestCase(findTestCase('Template testcases/TC0835'), [:], FailureHandling.STOP_ON_FAILURE)

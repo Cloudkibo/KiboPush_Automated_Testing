@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test change active session</description>
+   <name>TC0302</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d70b14e8-6380-4302-853c-e090c14bb2e2</testCaseGuid>
+</TestCaseEntity>

@@ -17,5 +17,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_List'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add List Component'))
 
+WebUI.delay(2)

@@ -43,13 +43,10 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 WebElement element = driver.findElement(By.xpath('//*[@id="desc"]/div/div/span/span[1]/span/ul/li/input'))
 
-element.click()
+element.sendKeys('Customer Behavior')
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
+//WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/button_Create Survey'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/h3_Templates'))
-

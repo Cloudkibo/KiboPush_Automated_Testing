@@ -19,7 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0803'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0163'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
@@ -31,6 +34,4 @@ WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Beha
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
 
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
-
 

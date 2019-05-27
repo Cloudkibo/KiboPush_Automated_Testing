@@ -14,8 +14,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0163-S'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/circle (4)'))
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h3_Create Broadcast'))

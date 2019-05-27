@@ -24,13 +24,14 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 WebUI.callTestCase(findTestCase('Template testcases/TC0761'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
 Select dropdown = new Select(driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[2]/div[2]/div/div[2]/div[2]/div[1]/div[3]/select')));
 
-dropdown.selectByVisibleText("Research");
+dropdown.selectByVisibleText("Customer Behavior");
 
 WebUI.delay(2)
 
@@ -38,4 +39,4 @@ WebElement element = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbo
  
  println(element.getText())
  
- WebUI.verifyEqual(element.getText(), 'Research,Customer Behavior')
+ WebUI.verifyEqual(element.getText(), 'Customer Behavior')

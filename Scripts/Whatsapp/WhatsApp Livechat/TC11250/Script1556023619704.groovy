@@ -15,7 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Whatsapp/WhatsApp Livechat/go to live chat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboChat  Live Chat/input_documentation_generalSearch'), '3333739')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/span_923333739566'))
+WebUI.setText(findTestObject('Object Repository/Page_KiboChat  Live Chat/input_documentation_generalSearch'), 'aizan')
 

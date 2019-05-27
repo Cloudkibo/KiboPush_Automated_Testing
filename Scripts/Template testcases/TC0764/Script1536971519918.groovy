@@ -26,24 +26,28 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import org.openqa.selenium.By as By
 import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Template'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Templates/select option research'), 'Research', 
+WebUI.delay(2)
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Templates/select_Filter by Category'), 'Research', 
     true)
 
 WebUI.delay(2)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-List<WebElement> rows_table  = driver.findElements(By.xpath('//*[@id="local_data"]/table/tbody/tr'))
+List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="local_data"]/table/tbody/tr'))
 
-  String category= rows_table.get(0).findElement(By.xpath('.//td[4]')).getText()
+String category = rows_table.get(0).findElement(By.xpath('.//td[4]')).getText()
 
-  println(category)
+println(category)
 
-  if(category == 'Research')
-	 WebUI.verifyEqual(1, 1)
-  else
-	WebUI.verifyEqual(0, 1)
+if (category == 'Research') {
+    WebUI.verifyEqual(1, 1)
+} else {
+    WebUI.verifyEqual(0, 1)
+}
 

@@ -29,5 +29,3 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/button_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Poll/div_Category added successfull'))
-

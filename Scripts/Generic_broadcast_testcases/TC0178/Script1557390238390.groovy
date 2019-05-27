@@ -32,5 +32,5 @@ upload.sendKeys(video)
 
 WebUI.delay(10)
 
-WebUI.verifyElementPresent((findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add (1) (1) (1) (1)')), 0)
+WebUI.verifyElementPresent((findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add')), 0)
 

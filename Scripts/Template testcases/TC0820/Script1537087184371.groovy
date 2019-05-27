@@ -22,23 +22,9 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0769'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/i_fa fa-times fa-stack-2x (1)'))
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0182'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement button = driver.findElement(By.xpath('//*[@id="send"]'))
-
-if(button.isEnabled())
-{
-  WebUI.verifyEqual("1", '0')
-
-}
-else
-{
-	WebUI.verifyEqual("0", '0')
-}

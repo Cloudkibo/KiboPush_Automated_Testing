@@ -27,5 +27,5 @@ WebUI.setText(findTestObject('Page_KiboPush  Dashboard/input_form-control'), 'he
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/button_Save (5)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Category added successfull'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Category added successfull'))
 
