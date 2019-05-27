@@ -29,7 +29,16 @@ WebUI.callTestCase(findTestCase('Template testcases/TC0785'), [:], FailureHandli
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category (1)'))
+WebUI.executeJavaScript("document.querySelector('body > div:nth-child(13) > div > div:nth-child(2)').scrollTop =400", null)
+
+WebDriver driver = DriverFactory.getWebDriver()
+WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div[2]/div/button[2]'))
+
+button.click()
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
 
 WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior (1)'))
 
