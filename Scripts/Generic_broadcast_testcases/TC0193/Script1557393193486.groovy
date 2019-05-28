@@ -18,11 +18,24 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131'), [:], Fail
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/i_Media_fa fa-pencil-square-o'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/h6_ Add Button (7)'))
+//WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/h6_ Add Button (7)'))
+//
+////WebUI.delay(2)
+////WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h7_Add Share button'))
+////
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_Open a website'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_ Add Button'))
 
-WebUI.setText(findTestObject('Page_KiboEngage  Create Broadcast/input_Open Website_form-control (2)'), 'google.com')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Button Title_form-control'),
+	'Button 1')
+
+
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_Open a website'))
+
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'),
+	'gooogle.com')
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/button_Edit'))
 
