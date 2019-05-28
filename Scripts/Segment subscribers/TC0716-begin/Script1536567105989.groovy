@@ -22,7 +22,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.delay(2)
 
-WebUI.scrollToPosition(0, 0)
+/*WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/input_segmentationType (6)'))
 
@@ -43,3 +43,4 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully (2)'))
 
+*/

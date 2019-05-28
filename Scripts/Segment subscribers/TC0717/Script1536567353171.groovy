@@ -37,5 +37,5 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/button_Save (10)'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully (4)'))
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/div_List created successfully (4)'))
 

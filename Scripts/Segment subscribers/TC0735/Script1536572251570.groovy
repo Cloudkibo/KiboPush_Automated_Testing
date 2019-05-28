@@ -32,9 +32,9 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Dashboard/select_Select Criteriais (4) (1) (1)'), 'is', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Create Sublist/select_Select a Taghellostar'), 'hello', true)
+//WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Create Sublist/select_Select a Taghellostar'), 'hello', true)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sublist/button_Save'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sublist/button_Save'))
 
 //WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sublist/div_List created successfully'))
 

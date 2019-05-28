@@ -15,7 +15,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Title_form-control'), 'title')
+/*WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Title_form-control'), 'title')
 
 WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
 
@@ -29,3 +29,4 @@ WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
 
 WebUI.delay(10)
 
+*/

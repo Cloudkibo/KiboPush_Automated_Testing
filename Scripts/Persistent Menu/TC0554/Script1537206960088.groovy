@@ -19,7 +19,7 @@ WebUI.delay(3)
 
 WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Title_form-control'), 'test')
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
+/*WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
@@ -31,3 +31,4 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Share'))
 
+*/

@@ -4,6 +4,12 @@
    <name>button_Add (3)</name>
    <tag></tag>
    <elementGuidId>27766b67-9d41-4f9c-aae4-d989571c37b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Next' or . = 'Next')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add</value>
+      <value>Next</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

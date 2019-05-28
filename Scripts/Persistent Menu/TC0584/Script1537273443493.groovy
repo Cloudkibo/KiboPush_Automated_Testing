@@ -13,7 +13,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(3)
 
@@ -24,9 +27,11 @@ WebUI.delay(3)
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_Media'))
+
 String img = RunConfiguration.getProjectDir() + '/video.mp4'
 
 WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file'), img)
+
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button'))

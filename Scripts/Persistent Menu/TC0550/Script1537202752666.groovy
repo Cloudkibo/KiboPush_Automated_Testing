@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
+/*WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
@@ -30,3 +30,4 @@ WebUI.delay(10)
 
 WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add'))
 
+*/
