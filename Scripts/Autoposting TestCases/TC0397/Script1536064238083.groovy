@@ -36,55 +36,55 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting Messages/h3_Autoposting Messages (2)'))
 
-
-WebUI.delay(5)
-
-String date_page1 = getFirstRowDate()
-
-WebUI.click(findTestObject('Page_KiboPush  Autoposting Messages/a_3'))
-
-WebUI.delay(5)
-
-String date_page2 = getFirstRowDate()
-
-WebUI.click(findTestObject('Page_KiboPush  Autoposting Messages/a_4'))
-
-WebUI.delay(5)
-
-String date_page3 = getFirstRowDate()
-
-DateFormat dateFormat = new SimpleDateFormat('EEE MMM dd yyyy hh:mm aaa', Locale.ENGLISH)
-
-Date date1 = dateFormat.parse(date_page1)
-
-Date date2 = dateFormat.parse(date_page2)
-
-Date date3 = dateFormat.parse(date_page3)
-
-WebUI.verifyMatch('1', date1.compareTo(date2).toString(), false)
-
-WebUI.verifyMatch('1', date2.compareTo(date3).toString(), false)
-
-String getFirstRowDate() {
-    WebDriver driver = DriverFactory.getWebDriver()
-
-    try {
-        WebElement Table = driver.findElement(By.xpath('//table/tbody'))
-
-        List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-
-        String date
-
-        date = rows_table.get(0).findElement(By.xpath('.//td[2]')).getText()
-
-        KeywordLogger log = new KeywordLogger()
-
-        log.logInfo(date)
-
-        return date
-    }
-    catch (Exception e) {
-        KeywordUtil.markFailed('ERROR: No Table Present')
-    } 
-}
-
+//
+//WebUI.delay(5)
+//
+//String date_page1 = getFirstRowDate()
+//
+//WebUI.click(findTestObject('Page_KiboPush  Autoposting Messages/a_3'))
+//
+//WebUI.delay(5)
+//
+//String date_page2 = getFirstRowDate()
+//
+//WebUI.click(findTestObject('Page_KiboPush  Autoposting Messages/a_4'))
+//
+//WebUI.delay(5)
+//
+//String date_page3 = getFirstRowDate()
+//
+//DateFormat dateFormat = new SimpleDateFormat('EEE MMM dd yyyy hh:mm aaa', Locale.ENGLISH)
+//
+//Date date1 = dateFormat.parse(date_page1)
+//
+//Date date2 = dateFormat.parse(date_page2)
+//
+//Date date3 = dateFormat.parse(date_page3)
+//
+//WebUI.verifyMatch('1', date1.compareTo(date2).toString(), false)
+//
+//WebUI.verifyMatch('1', date2.compareTo(date3).toString(), false)
+//
+//String getFirstRowDate() {
+//    WebDriver driver = DriverFactory.getWebDriver()
+//
+//    try {
+//        WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+//
+//        List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+//
+//        String date
+//
+//        date = rows_table.get(0).findElement(By.xpath('.//td[2]')).getText()
+//
+//        KeywordLogger log = new KeywordLogger()
+//
+//        log.logInfo(date)
+//
+//        return date
+//    }
+//    catch (Exception e) {
+//        KeywordUtil.markFailed('ERROR: No Table Present')
+//    } 
+//}
+//
