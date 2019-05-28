@@ -22,11 +22,11 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/button_Delete'))
+/*WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/button_Delete'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/button_delete_1'))
 
-WebUI.delay(3)
+WebUI.delay(3)*/
 
 //WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Segmented Lists/div_List deleted'))
 

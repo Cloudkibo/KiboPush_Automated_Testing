@@ -18,7 +18,7 @@ WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h6_ Add Button'))
+/*WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h6_ Add Button'))
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h7_Open a website'))
 
@@ -46,3 +46,4 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/butto
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New card component added'))
 
+*/
