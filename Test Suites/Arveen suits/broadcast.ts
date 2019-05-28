@@ -424,16 +424,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC11291</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>33e9936e-f7a2-4c42-8f95-a3da37770a51</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/TC11293</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>9e431854-21d8-44b1-815b-6ef0c1eef601</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/TC11294</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

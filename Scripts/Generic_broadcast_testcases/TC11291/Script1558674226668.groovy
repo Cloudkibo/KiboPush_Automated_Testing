@@ -17,9 +17,9 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11290'), [:], Fai
 
 WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/input_YouTube Link_form-control'), 
     'https://www.youtube.com/watch?v=KhX4CfqRSrI')
-WebUI.delay(20)
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_New media component added'))
+//WebUI.delay(20)
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
+//
+//WebUI.delay(1)
+//
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_New media component added'))
