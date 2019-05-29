@@ -13,6 +13,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Sequence Messaging/TC0980'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/span_Edit (1) (1)'))
 
