@@ -46,5 +46,5 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/inpu
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/span_Send (5)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/div_Broadcast sent successfully'))
 
