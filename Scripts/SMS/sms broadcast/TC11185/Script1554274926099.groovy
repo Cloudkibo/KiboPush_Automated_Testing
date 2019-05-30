@@ -55,5 +55,5 @@ WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Remove_text'), '
 
 WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/span_Send (6)'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (1)'))
+//WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (1)'))
 

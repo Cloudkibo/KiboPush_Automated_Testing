@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Whatsapp/Dashboard/open Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/small_Broadcasts (1)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/h3_Manage Broadcasts (2)'))
+//WebUI.click(findTestObject('Page_KiboEngage  Dashboard/small_Broadcasts (1)'))
+//
+//WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/h3_Manage Broadcasts (2)'))
 

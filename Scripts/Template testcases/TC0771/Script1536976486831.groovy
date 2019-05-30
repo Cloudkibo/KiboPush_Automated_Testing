@@ -25,6 +25,3 @@ WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandli
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_ Add Button (3)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast Template/div_Button 1'))
-

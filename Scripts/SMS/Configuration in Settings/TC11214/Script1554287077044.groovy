@@ -35,15 +35,15 @@ WebUI.click(findTestObject('Page_KiboEngage  Api Settings/h3_Connect with Twilio
 
 WebUI.delay(10)
 
-WebDriver driver = DriverFactory.getWebDriver()
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//WebElement sid = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[1]/input'))
+//
+//sid.clear()
+//
+//sid.sendKeys('a')
+//
+//WebUI.click(findTestObject('Page_KiboEngage  Api Settings/button_Submit (1)'))
 
-WebElement sid = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[1]/input'))
-
-sid.clear()
-
-sid.sendKeys('a')
-
-WebUI.click(findTestObject('Page_KiboEngage  Api Settings/button_Submit (1)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)'))
+//WebUI.click(findTestObject('Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (1)'))
 
