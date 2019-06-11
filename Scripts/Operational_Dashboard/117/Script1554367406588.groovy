@@ -25,6 +25,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Operational_Dashboard/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

@@ -6,12 +6,12 @@
    <elementGuidId>dfd84f4f-c04f-4669-9e25-8f9ce0553f3d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/div/div[1]/input[2]</value>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;collapse1&quot;]/div/div/div[2]/input[2]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>/html/body/div[2]/div/div[2]/div/div[1]/div[1]/div/div[1]/div[2]/input[2]</value>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[2]/div/div/div[1]/input[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html/body/div[2]/div/div[2]/div/div[1]/div[1]/div/div[1]/div[2]/input[2]</value>
+      <value>//*[@id=&quot;collapse1&quot;]/div/div/div[2]/input[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

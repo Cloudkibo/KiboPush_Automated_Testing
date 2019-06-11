@@ -37,7 +37,8 @@ WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEn
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/button_Edit'))
+//WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/button_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_New text component added (2)'))
 
