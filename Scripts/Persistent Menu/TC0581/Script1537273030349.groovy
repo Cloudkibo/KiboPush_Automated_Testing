@@ -16,6 +16,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0580'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New file component added'))
 

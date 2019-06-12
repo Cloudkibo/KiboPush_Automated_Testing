@@ -14,7 +14,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard (1)'))
 
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
@@ -26,23 +27,23 @@ WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Text (3) (1)'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Text (3) (1) (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/textarea_Text_form-control'), 'Text')
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/textarea_Text_form-control (2)'), 'Text')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (6)'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h6_ Add Button (6) (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h7_Open a website (1)'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h7_Open a website (1) (2)'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Open Website_form-control (1)'), 'google.com')
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Button Title_form-control'), 'testt')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add (1)'))
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Open Website_form-control (1) (2)'), 'google.com')
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New text component added'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/button_Add (1) (1)'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Button 1'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_New text component added (1)'))
+
+WebUI.delay(1)
 

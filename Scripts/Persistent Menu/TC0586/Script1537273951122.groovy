@@ -15,8 +15,8 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
+
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(3)
@@ -39,9 +39,13 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ A
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h7_Open a website'))
 
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Button Title_form-control'), 'testt')
+
 WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Open Website_form-control'), 'google.com')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_New media component added'))
 
