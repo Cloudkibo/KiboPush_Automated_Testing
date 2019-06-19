@@ -27,5 +27,5 @@ WebUI.setText(findTestObject('Page_KiboPush  Create Survey/input_form-control (4
 
 WebUI.click(findTestObject('Page_KiboPush  Create Survey/button_Save (2)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/div_Survey edited successfully'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/div_Survey edited successfully'))
 

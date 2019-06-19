@@ -32,6 +32,7 @@ WebUI.delay(3)
 WebUI.executeJavaScript("document.querySelector('body > div:nth-child(13) > div > div:nth-child(2)').scrollTop =400", null)
 
 WebDriver driver = DriverFactory.getWebDriver()
+
 WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div[2]/div/button[2]'))
 
 button.click()
