@@ -29,10 +29,10 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0133'), [:], Fail
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
+//WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
+//
+//WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
