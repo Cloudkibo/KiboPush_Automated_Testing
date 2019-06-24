@@ -39,10 +39,9 @@ WebUI.delay(3)
 
 //WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/button_Edit'))
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
+WebUI.delay(1)
+WebUI.verifyTextPresent("TEXT COMPONENT EDITED", false)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_New text component added (2)'))
-
-WebUI.delay(2)
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
