@@ -20,6 +20,3 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Sequence Messaging/sele
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Edit Sequence/select_Select Criteriais (1)'), 'is', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Edit Sequence/select_Select a Taghello (1)'), '5ce649e6d52d731245949812', 
-    true)
-
