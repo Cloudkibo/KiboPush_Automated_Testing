@@ -6,15 +6,19 @@
    <elementGuidId>4bb409f6-f6c2-4461-b922-9442f20c6c6d</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Create Custom Field' or . = 'Create Custom Field')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;cf_modal&quot;]/div/div/div[1]/button[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'Create Custom Field' or . = 'Create Custom Field')]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
