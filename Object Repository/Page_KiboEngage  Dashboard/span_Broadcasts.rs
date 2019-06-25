@@ -4,6 +4,12 @@
    <name>span_Broadcasts</name>
    <tag></tag>
    <elementGuidId>3b3bc301-719b-4334-b626-a8a223919240</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//small[(text() = 'Broadcasts' or . = 'Broadcasts')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>small</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
