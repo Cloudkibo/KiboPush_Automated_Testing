@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_generalSearch</name>
+   <name>input_generalSearch (1)</name>
    <tag></tag>
-   <elementGuidId>42641ef6-5eda-43e6-8c9a-e70f8a41abb0</elementGuidId>
+   <elementGuidId>af115a26-14cd-45b6-aeb6-b1854bf41db5</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

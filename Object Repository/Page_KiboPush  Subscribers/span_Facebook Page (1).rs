@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Facebook Page</name>
+   <name>span_Facebook Page (1)</name>
    <tag></tag>
-   <elementGuidId>1360251f-096e-4648-b2ad-543b3958bc0e</elementGuidId>
+   <elementGuidId>aadd541c-a1b5-46df-862a-d57cb4ff85fd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
