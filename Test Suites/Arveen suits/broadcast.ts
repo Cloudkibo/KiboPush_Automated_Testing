@@ -413,15 +413,27 @@
       <testCaseId>Test Cases/Broadcasts/TC11290</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>d3a06514-2563-4b86-ae99-bd957afb3a38</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11291</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>f8ec2fe7-0c1f-40e5-83ef-dd22d9fdda7d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC11292</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d3a06514-2563-4b86-ae99-bd957afb3a38</guid>
+      <guid>a38e6429-891c-460e-8963-ff0c20db6a04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/TC11291</testCaseId>
+      <testCaseId>Test Cases/Broadcasts/TC11293</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>34867470-ad4a-4e36-952d-96d749357dc9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11294</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
