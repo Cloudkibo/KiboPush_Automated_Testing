@@ -13,26 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Faizan_staging_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Create Custom Field (1)'))
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/div_Faizan RasheeddsdsdProductiona few seconds ago'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h5_Create New Custom Field (3)'))
+WebUI.click(findTestObject('Page_KiboEngage  Subscribers/a_Manage Fields (1)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Subscribers/select_SelectTextNumberDateDate and TimeTrueFalse (2)'), 
-    'text', true)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Create (4)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h5_Create New Custom Field (3)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Clear'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_ (1) (1)'))
+WebUI.click(findTestObject('Page_KiboEngage  Subscribers/h5_Custom Fields (1)'))
 

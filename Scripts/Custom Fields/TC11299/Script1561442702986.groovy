@@ -19,4 +19,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h5_Create New Custom Field'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_KiboEngage  Subscribers/button_ (1)'))

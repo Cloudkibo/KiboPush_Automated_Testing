@@ -13,26 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Create Custom Field (1)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h5_Create New Custom Field (3)'))
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Subscribers/select_SelectTextNumberDateDate and TimeTrueFalse (2)'), 
-    'text', true)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Create (4)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h5_Create New Custom Field (3)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Clear'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_ (1) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/div_date  Not Set'))
 

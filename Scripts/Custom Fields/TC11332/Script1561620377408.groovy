@@ -12,27 +12,20 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Page_KiboEngage  Subscribers/h5_Custom Fields (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Create Custom Field (1)'))
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.delay(2)
+WebElement Table = driver.findElement(By.xpath('//*[@id="m-datatable--27866229129"]/tbody'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h5_Create New Custom Field (3)'))
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Subscribers/select_SelectTextNumberDateDate and TimeTrueFalse (2)'), 
-    'text', true)
+int size = rows_table.size()
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Create (4)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/h5_Create New Custom Field (3)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_Clear'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_ (1) (1)'))
-
+WebUI.verifyGreaterThanOrEqual(size, 5)
