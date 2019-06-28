@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11290'), [:], Fai
 
 
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement input = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/input'))
+WebElement input = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/input'))
 
 input.sendKeys('https://www.youtube.com/watch?v=TZmBoMZFC8g')
 

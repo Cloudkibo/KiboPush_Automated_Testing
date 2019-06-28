@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131-S'), [:], Fa
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement area = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/textarea'))
+WebElement area = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/textarea'))
 //WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/text_area'),"")
 area.clear()
 WebUI.delay(2)

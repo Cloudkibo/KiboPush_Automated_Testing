@@ -22,7 +22,7 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0141-S'), [:], Fa
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div[2]/div/button[2]'))
+WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div[2]/div/button[2]'))
 
 println(button.isEnabled())
 

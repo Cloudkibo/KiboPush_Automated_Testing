@@ -73,6 +73,8 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 
 WebUI.scrollToPosition(0, 0)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Save_1 (3)'))
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/a_Back (3)'))

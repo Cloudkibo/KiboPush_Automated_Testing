@@ -22,13 +22,13 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0684-S'), [:], Fa
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement title1 = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/input[1]'))
+WebElement title1 = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/input[1]'))
 
-WebElement title2 = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[2]/div[2]/div[2]/input[1]'))
+WebElement title2 = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/div[2]/div[2]/div[2]/input[1]'))
 
-WebElement subtitle1 = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/input[2]'))
+WebElement subtitle1 = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[2]/input[2]'))
 
-WebElement subtitle2 = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[2]/div[2]/div[2]/input[2]'))
+WebElement subtitle2 = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/div[2]/div[2]/div[2]/input[2]'))
 
 title1.sendKeys('title1')
 

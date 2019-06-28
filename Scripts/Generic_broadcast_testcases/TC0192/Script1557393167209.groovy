@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 
 
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[4]/div/button[2]'))
+WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]'))
 
 println(button.isEnabled())
 
