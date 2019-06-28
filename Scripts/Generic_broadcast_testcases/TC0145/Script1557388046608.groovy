@@ -37,7 +37,7 @@ upload.sendKeys(img)
 
 WebUI.delay(10)
 
-WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div[2]/div/button[2]'))
+WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div[2]/div/button[2]'))
 
 println(button.isEnabled())
 
