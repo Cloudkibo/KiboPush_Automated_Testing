@@ -11,6 +11,12 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+
+//import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Sequence Messaging/open_automation'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Sequence Messaging/TC0980'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -18,14 +24,13 @@ WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/span_Edit (1)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/Delete Message Icon'))
-
-WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Delete (3)'))
-
-WebUI.delay(4)
+//WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/Delete Message Icon'))
+//
+//WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Delete (3)'))
+//
+//WebUI.delay(4)
 
 WebUI.scrollToPosition(0, 0)
-WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1)'))
 
@@ -49,19 +54,20 @@ WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/div_Text'))
 
-WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/textarea_t'), 
-    'testing')
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/textarea_t'), 't')
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/button_Next'))
 
 WebUI.delay(2)
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New text component added'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_New text component added'))
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Save_1'))
 
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/a_Back'))
+
 
