@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check default moderation status (facebook/wordpress)</description>
+   <name>TC0414-N</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71b0ec1b-7ae0-4b44-9f26-8ea38e9ab362</testCaseGuid>
+</TestCaseEntity>

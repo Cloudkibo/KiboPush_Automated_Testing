@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check default moderation status (twitter)</description>
+   <name>TC0413-N</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ca6283c2-3471-49a7-a65d-b7107989411c</testCaseGuid>
+</TestCaseEntity>

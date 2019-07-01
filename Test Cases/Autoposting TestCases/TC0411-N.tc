@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check default filter status (twitter)</description>
+   <name>TC0411-N</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d354f3c3-ac39-4748-9410-8e16365a4c8d</testCaseGuid>
+</TestCaseEntity>
