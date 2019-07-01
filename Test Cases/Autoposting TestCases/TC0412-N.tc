@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check default filter status (facebook/wordpress)</description>
+   <name>TC0412-N</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b72d5ba8-a83d-43a6-bb56-ebf7d48a8f06</testCaseGuid>
+</TestCaseEntity>
