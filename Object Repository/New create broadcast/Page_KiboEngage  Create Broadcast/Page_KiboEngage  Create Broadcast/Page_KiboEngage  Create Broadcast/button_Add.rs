@@ -7,15 +7,31 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value>//*[(text() = 'Next' or . = 'Next')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]</value>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Next</value>
+   </webElementProperties>
 </WebElementEntity>

@@ -121,7 +121,7 @@
    <testCaseLink>
       <guid>8e5ab7ef-0126-4f9b-9338-6b7df1e633f9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0123</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -133,7 +133,7 @@
    <testCaseLink>
       <guid>a640196b-70e9-4122-8048-a513dd3b8d1e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0125</testCaseId>
    </testCaseLink>
    <testCaseLink>
