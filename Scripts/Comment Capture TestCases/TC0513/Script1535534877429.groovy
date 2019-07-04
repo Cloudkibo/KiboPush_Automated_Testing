@@ -20,21 +20,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Invite subscribers/open growth tools'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/button_Delete (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Comment Capture/cross_button'))
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/h3_Comment Capture'))
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.scrollToPosition(0, 0)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/button_Delete (1)'))
+//
+//WebUI.click(findTestObject('Page_KiboPush  Comment Capture/cross_button'))
+//
+//WebUI.scrollToPosition(0, 0)
+//
+//WebUI.delay(2)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/h3_Comment Capture'))
 

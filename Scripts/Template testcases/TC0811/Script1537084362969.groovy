@@ -22,6 +22,6 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0173'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases_templates/TC0173'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
