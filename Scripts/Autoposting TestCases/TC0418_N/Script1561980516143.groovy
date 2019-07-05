@@ -22,7 +22,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_staging_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_staging_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.callTestCase(findTestCase('Autoposting TestCases/open automation'), [:], FailureHandling.STOP_ON_FAILURE)
 //
@@ -35,6 +35,8 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_s
 //WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control (4)'), 'https://twitter.com/arveenkumar55')
 //
 //WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Twitter Account (1)'))
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autoposting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/i_la la-gear (3)'))
 
 WebUI.scrollToPosition(0, 0)
@@ -59,3 +61,5 @@ List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/
  
  rows_table1[2].click()
 WebUI.delay(2)
+
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Page_KiboEngage  Item Settings/button_Subscribe'), 15)
