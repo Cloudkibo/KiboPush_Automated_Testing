@@ -202,4 +202,58 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Autoposting TestCases/TC0406-N</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>58f97615-43fe-409b-b7a7-f47d73df25ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0411-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c7af2a3-551f-4f65-909e-43839d5595fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0412-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2ffa6cb-85a1-4be9-a749-7c07eaf2df14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0413-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>614c4c91-a929-423b-94eb-0c7992e940bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0414-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>57ad5775-8a90-4e0e-acbd-2c1c4c293cc0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0415-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09cd4c5d-36bf-4083-b3a1-7735eab9d751</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0417_N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3fa8ad4-bf9a-43a3-91a9-f455dbfaefed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0416_N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6b19bfb-6ec8-4957-a3ec-e906498417b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0418_N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4eccd41e-2022-4dbb-9616-3a8b9324f993</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0420-N</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

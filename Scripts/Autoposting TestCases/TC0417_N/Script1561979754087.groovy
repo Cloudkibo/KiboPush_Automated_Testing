@@ -57,7 +57,7 @@ List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/
  
  println(rows_table1.size())
  
- rows_table1[1].click()
+ rows_table1[5].click()
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Item Settings/label_You are not subscribed to selected page In order to receive approval messages you need to become a subscriber'))
 

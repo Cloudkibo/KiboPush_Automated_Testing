@@ -25,6 +25,8 @@ WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control'), '
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Facebook Account'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/i_la la-gear (3)'))
 
 WebUI.scrollToPosition(0, 0)
