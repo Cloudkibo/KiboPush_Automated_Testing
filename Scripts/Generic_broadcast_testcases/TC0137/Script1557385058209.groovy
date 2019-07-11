@@ -29,7 +29,7 @@ upload.sendKeys(img)
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/button_Add'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
 
 WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New image component added'))

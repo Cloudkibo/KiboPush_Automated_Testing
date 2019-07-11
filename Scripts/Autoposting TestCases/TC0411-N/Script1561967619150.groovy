@@ -33,6 +33,8 @@ WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control (4)'
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Twitter Account (1)'))
 
+WebUI.delay(5)
+
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/i_la la-gear (3)'))
 
 WebUI.scrollToPosition(0, 0)

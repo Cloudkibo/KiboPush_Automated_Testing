@@ -34,13 +34,13 @@ String date_page1 = getFirstRowDate()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_next (1)'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 String date_page2 = getFirstRowDate()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_next (1)'))
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 String date_page3 = getFirstRowDate()
 

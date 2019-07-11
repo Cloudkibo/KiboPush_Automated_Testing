@@ -36,6 +36,7 @@ import org.openqa.selenium.interactions.Actions;
 //
 //WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Twitter Account (1)'))
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autoposting'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/i_la la-gear (3)'))
 
