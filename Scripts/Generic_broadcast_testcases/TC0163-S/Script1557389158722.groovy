@@ -15,7 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_Audio'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_Audio'))
+
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_Audio'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add Audio Component'))
 

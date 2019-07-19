@@ -13,9 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_Card'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_Card'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_Gallery'))
 
 WebUI.delay(2)
 
