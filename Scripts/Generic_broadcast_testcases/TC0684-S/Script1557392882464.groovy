@@ -15,7 +15,8 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_List'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_List'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_List'))
 
 WebUI.delay(2)
 

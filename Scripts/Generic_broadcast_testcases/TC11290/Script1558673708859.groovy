@@ -20,7 +20,7 @@ WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h6_YouTube'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_YouTube Video'))
 
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h3_Add Video from YouTube'))

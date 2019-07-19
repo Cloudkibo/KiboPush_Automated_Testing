@@ -50,7 +50,7 @@ WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Save (3) (1)'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Edit Message/div_Text (2) (1)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_Text'))
 
 WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/textarea_t'),
 	't')
@@ -69,6 +69,8 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/button_Next'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_New text component added'))
 
 WebUI.scrollToPosition(0, 0)
@@ -76,6 +78,9 @@ WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Save_1 (3)'))
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/a_Back (3)'))
 
