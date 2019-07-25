@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test deleting article link</description>
+   <name>TC11301</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>74befff9-8564-4fe2-bb76-e1621a63d041</testCaseGuid>
+</TestCaseEntity>
