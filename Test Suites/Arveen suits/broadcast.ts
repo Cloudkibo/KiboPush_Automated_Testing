@@ -223,7 +223,7 @@
    <testCaseLink>
       <guid>7c25dac7-5bef-4d5e-8838-e95e6fbdbf21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0147</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -411,5 +411,47 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC11294</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8bc2d6eb-2618-44ee-95a2-0b954b9d9da6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11297</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>60796364-d38b-4eca-a6ec-376cf106168e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11298</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7179ae7d-6d7a-42c3-ad70-70240ba12652</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11299</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cca90a3-1710-4138-bde7-e2742806f3af</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11300</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1abaa318-9a54-44d7-a6ca-4b7599429631</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11301</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>06226bcc-1188-46cc-97d8-ef523905de48</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11302</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f1fba5eb-7637-4985-80fe-8999c426f6bc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/TC11303</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

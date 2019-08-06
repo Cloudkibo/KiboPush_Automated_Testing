@@ -22,7 +22,7 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11297'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement textBox1 = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/input"))
+WebElement textBox1 = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/input"))
 textBox1.sendKeys('https://www.dawn.com/news/149609')
 
 WebUI.delay(3)
@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 WebUI.delay(2)
 
 
-WebElement textBox2 = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/input"))
+WebElement textBox2 = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/input"))
 textBox2.sendKeys('https://www.dawn.com/news/149609')
 
 WebUI.delay(3)
@@ -43,7 +43,7 @@ textBox2.sendKeys('3')
 WebUI.delay(3)
 
 
-WebElement button1 = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[4]/div/button[2]"))
+WebElement button1 = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]"))
 
 button1.click()
 WebUI.scrollToPosition(0, 0)

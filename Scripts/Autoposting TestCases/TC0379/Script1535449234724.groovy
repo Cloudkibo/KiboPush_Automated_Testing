@@ -28,5 +28,6 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Facebook Accou
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Incorrect Url'))
+//WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Incorrect Url'))
 
+WebUI.verifyTextPresent("Incorrect Url. Please make sure it includes http(s)", false)
