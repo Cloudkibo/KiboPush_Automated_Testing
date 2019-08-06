@@ -28,7 +28,7 @@ WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEn
 WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement textBox = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/input"))
+WebElement textBox = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/input"))
 textBox.sendKeys('3')
 //WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'),
 //	'3')
@@ -38,7 +38,7 @@ textBox.sendKeys('3')
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_Link is valid'))
 
-WebElement button = driver.findElement(By.xpath("/html/body/div[5]/div/div[2]/div/div/div[4]/div/button[2]"))
+WebElement button = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]"))
 
 button.click()
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_New card component added'))
