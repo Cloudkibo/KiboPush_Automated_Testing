@@ -36,3 +36,5 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/a_'))
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Delete'))
+
+WebUI.delay(2)

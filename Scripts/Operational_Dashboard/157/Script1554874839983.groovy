@@ -43,6 +43,5 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 
 List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[4]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
-
 int rows_count = rows_table.size()
 WebUI.verifyGreaterThanOrEqual(rows_count,1)
