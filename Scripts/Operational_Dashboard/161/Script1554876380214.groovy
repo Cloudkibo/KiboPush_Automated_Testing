@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Operational_Dashboard/157'), [:], FailureHandli
 
 WebDriver driver = DriverFactory.getWebDriver()
 WebElement input_search_page = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[4]/div/div/div[2]/div/div/div[1]/div[1]/input'))
-input_search_page.sendKeys("2")
+input_search_page.sendKeys("1")
 WebUI.delay(5)
 
 List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[4]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))

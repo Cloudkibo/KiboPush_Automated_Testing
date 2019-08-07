@@ -28,7 +28,7 @@ WebUI.callTestCase(findTestCase('Operational_Dashboard/Login'), [:], FailureHand
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/select_Filter by lastAll10 day'), 
     '30', true)
 
-WebUI.delay(2)
+WebUI.delay(20)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
