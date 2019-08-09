@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzA5MDE5ZDEyNzZlZjQ4MWE3MTU5MDkiLCJpYXQiOjE1NjUzNDAwMzQsImV4cCI6MTU2NTY4NTYzNH0.4ffW2hyjt1wR9vz2PSSeh8U_PoEizBbr76AAjag9jb0'</initValue>
+      <name>Token</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

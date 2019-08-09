@@ -25,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
-      <value>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzA5MDE5ZDEyNzZlZjQ4MWE3MTU5MDkiLCJpYXQiOjE1NjQ5ODA0OTEsImV4cCI6MTU2NTMyNjA5MX0.4m0km4qma7If6YJVvxiBJVj2U77-fIQkoFm-Sv79Wc0</value>
+      <value>Bearer ${Token}</value>
    </httpHeaderProperties>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
@@ -35,6 +35,13 @@
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceFunction></soapServiceFunction>
+   <variables>
+      <defaultValue>GlobalVariable.Token</defaultValue>
+      <description></description>
+      <id>b5489036-9922-4b9f-8e11-c683427ad3b3</id>
+      <masked>false</masked>
+      <name>Token</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
