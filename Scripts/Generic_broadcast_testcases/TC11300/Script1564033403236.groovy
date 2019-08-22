@@ -48,6 +48,6 @@ WebElement button1 = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/d
 button1.click()
 WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.verifyTextPresent("NEW GALLERY COMPONENT ADDED", true)
