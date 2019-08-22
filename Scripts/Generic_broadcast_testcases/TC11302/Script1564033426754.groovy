@@ -14,6 +14,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11298'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/i_Link Carousel_fa fa-pencil-square-o'))
 WebUI.delay(2)

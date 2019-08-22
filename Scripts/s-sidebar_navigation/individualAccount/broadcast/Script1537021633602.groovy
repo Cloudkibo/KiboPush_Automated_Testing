@@ -29,5 +29,13 @@ WebUI.delay(1)
 
 WebUI.scrollToPosition(0, 0)
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/h3_Manage Broadcasts'))
+
+
 
