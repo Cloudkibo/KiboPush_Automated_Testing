@@ -15,5 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Checkbox Plugin/TC11288'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Checkbox Plugin/select_whitelistdomain'), 'https://kiboengage.cloudkibo.com/',
-	true)
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Checkbox Plugin/select_whitelistdomain'), 'https://kiboengage.cloudkibo.com/',
+//	true)
