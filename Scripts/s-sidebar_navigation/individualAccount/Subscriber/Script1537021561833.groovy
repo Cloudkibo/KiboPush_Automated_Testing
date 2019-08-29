@@ -29,5 +29,13 @@ WebUI.click(findTestObject('Page_KiboPush  Subscribers/span_Subscribers (5)'))
 
 WebUI.scrollToPosition(0, 0)
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_As per the New Facebook Policy you will not be able to send messages to your subscribers_close'))
+
+WebUI.delay(2)
+
+
 WebUI.click(findTestObject('Page_KiboPush  Subscribers/h3_Manage Subscribers (1)'))
+WebUI.delay(2)
 

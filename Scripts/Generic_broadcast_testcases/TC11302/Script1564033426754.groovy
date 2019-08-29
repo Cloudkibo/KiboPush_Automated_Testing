@@ -16,11 +16,11 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11298'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/i_Link Carousel_fa fa-pencil-square-o'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/h3_Create Carousel using Links'))
-
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/button_Edit'))
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/div_card component edited'))
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/i_Link Carousel_fa fa-pencil-square-o'))
+//WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/h3_Create Carousel using Links'))
+//
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/button_Edit'))
+//WebUI.delay(2)
+//
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/div_card component edited'))
