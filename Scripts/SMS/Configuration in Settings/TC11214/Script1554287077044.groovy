@@ -29,11 +29,11 @@ WebUI.click(findTestObject('Page_KiboEngage  Api Settings/a_Configuration (1) (1
 
 WebUI.click(findTestObject('Page_KiboEngage  Api Settings/span_Configuration (1) (1) (1)'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Api Settings/button_Edit (1) (1)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)'))
-
-WebUI.delay(10)
+//WebUI.click(findTestObject('Page_KiboEngage  Api Settings/button_Edit (1) (1)'))
+//
+//WebUI.click(findTestObject('Page_KiboEngage  Api Settings/h3_Connect with Twilio (1) (1)'))
+//
+//WebUI.delay(10)
 
 //WebDriver driver = DriverFactory.getWebDriver()
 //
