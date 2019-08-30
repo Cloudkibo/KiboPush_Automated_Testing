@@ -39,6 +39,6 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 List<WebElement> Table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[2]/div[2]/div/div/div[2]/div'))
 
-WebUI.verifyEqual(Table.size(), 1)
+WebUI.verifyEqual(Table.size(), 0)
 
 println(Table.size())

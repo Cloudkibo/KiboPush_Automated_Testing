@@ -25,5 +25,5 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/h3_Cr
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/button_Create Survey (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/div_Please add a title'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Survey/div_Please add a title'))
 

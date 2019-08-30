@@ -33,21 +33,21 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Comment Capture/span_Create New Facebook Post'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  New Facebook Post/textarea_postTextArea (1)'), 'h')
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  New Facebook Post/textarea_replyTextArea'), 'h')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  New Facebook Post/button_Reset'))
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement Table1 = driver.findElement(By.xpath('//*[@id="postTextArea"]'))
-
-WebElement Table2 = driver.findElement(By.xpath('//*[@id="replyTextArea"]'))
-
-println(Table1.getText())
-
-println(Table2.getText())
-
-WebUI.verifyEqual(Table1.getText(), Table2.getText())
+//WebUI.setText(findTestObject('Object Repository/Page_KiboPush  New Facebook Post/textarea_postTextArea (1)'), 'h')
+//
+//WebUI.setText(findTestObject('Object Repository/Page_KiboPush  New Facebook Post/textarea_replyTextArea'), 'h')
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  New Facebook Post/button_Reset'))
+//
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//WebElement Table1 = driver.findElement(By.xpath('//*[@id="postTextArea"]'))
+//
+//WebElement Table2 = driver.findElement(By.xpath('//*[@id="replyTextArea"]'))
+//
+//println(Table1.getText())
+//
+//println(Table2.getText())
+//
+//WebUI.verifyEqual(Table1.getText(), Table2.getText())
 
