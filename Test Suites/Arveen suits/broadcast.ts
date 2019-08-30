@@ -223,13 +223,13 @@
    <testCaseLink>
       <guid>7c25dac7-5bef-4d5e-8838-e95e6fbdbf21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0147</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>971c5132-da17-4b2d-b604-b782920c101b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0150</testCaseId>
    </testCaseLink>
    <testCaseLink>
