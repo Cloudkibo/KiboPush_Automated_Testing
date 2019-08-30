@@ -35,6 +35,7 @@ textBox.sendKeys('3')
 
 
 //WebUI.modifyObjectProperty(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'), 'value', 'equals', 'https://www.dawn.com/news/1496093', true)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_Link is valid'))
 

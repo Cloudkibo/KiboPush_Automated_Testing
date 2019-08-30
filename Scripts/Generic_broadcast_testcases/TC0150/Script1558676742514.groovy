@@ -20,6 +20,7 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add Card Component'))
+WebUI.delay(2)
 
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h6_ Add Card'))

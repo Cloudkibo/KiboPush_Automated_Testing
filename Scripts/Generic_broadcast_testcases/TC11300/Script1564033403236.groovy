@@ -27,6 +27,7 @@ textBox1.sendKeys('https://www.dawn.com/news/149609')
 
 WebUI.delay(3)
 textBox1.sendKeys('3')
+WebUI.delay(6)
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_Link is valid'))
 
