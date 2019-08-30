@@ -12,6 +12,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
+
+WebUI.delay(1)
+
+WebUI.callTestCase(findTestCase('Persistent Menu/Go_to_menu_item'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Page_KiboPush  Menu/open popover'))
 
 WebUI.delay(3)

@@ -18,9 +18,7 @@ WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
 
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
-WebUI.delay(3)
-
-WebUI.callTestCase(findTestCase('Persistent Menu/Go_to_menu_item'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(3)
 
@@ -41,6 +39,4 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h7_Op
 WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Button Title_form-control'), 'testt')
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Open Website_form-control'), 'google.com')
-
-//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Button 1'))
 

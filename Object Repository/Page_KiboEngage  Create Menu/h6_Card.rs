@@ -4,6 +4,12 @@
    <name>h6_Card</name>
    <tag></tag>
    <elementGuidId>80a57d56-d826-47aa-9849-89fb82b2132e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Media' or . = 'Media')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,14 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h6</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Card</value>
+      <value>Media</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

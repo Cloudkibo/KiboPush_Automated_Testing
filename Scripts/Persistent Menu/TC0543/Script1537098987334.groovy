@@ -17,15 +17,15 @@ WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
 
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-WebUI.callTestCase(findTestCase('Persistent Menu/Go_to_menu_item'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Text (3) (1) (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Text'))
 
 WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/textarea_Text_form-control'), 'Text')
 

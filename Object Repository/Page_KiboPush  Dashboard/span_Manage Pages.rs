@@ -4,6 +4,12 @@
    <name>span_Manage Pages</name>
    <tag></tag>
    <elementGuidId>5174f8d6-7a73-42be-8a1d-f85477c45d1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(contains(text(), 'Manage Pages') or contains(., 'Manage Pages'))]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -22,7 +28,7 @@
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Manage Pages</value>
