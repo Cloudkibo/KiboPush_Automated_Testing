@@ -14,11 +14,8 @@ import internal.GlobalVariable as GlobalVariable
 
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
+
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
-
-WebUI.delay(3)
-
-WebUI.callTestCase(findTestCase('Persistent Menu/Go_to_menu_item'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 

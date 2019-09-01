@@ -4,6 +4,12 @@
    <name>h6_File</name>
    <tag></tag>
    <elementGuidId>766f6f7b-985b-425a-ba4f-2cdf4b442a67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'File' or . = 'File')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h6</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

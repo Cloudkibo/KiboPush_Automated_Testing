@@ -4,6 +4,12 @@
    <name>h6_Audio</name>
    <tag></tag>
    <elementGuidId>2ebac8b2-4895-4c99-9739-832f25744762</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Audio' or . = 'Audio')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h6</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

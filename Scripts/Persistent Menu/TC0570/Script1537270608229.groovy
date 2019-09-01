@@ -15,8 +15,10 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
+
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(3)

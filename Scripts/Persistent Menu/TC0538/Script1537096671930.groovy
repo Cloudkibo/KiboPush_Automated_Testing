@@ -12,9 +12,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/div_Text'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Text'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h3_Add Text Component'))
 

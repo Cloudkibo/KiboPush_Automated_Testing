@@ -16,17 +16,16 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(3)
 
-WebUI.callTestCase(findTestCase('Persistent Menu/Go_to_menu_item'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
 
 WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Text (3) (2)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Text'))
 
 WebUI.sendKeys(findTestObject('Page_KiboEngage  Create Menu/textarea_Text_form-control (1)'), Keys.chord(Keys.CONTROL, 'a'))
 

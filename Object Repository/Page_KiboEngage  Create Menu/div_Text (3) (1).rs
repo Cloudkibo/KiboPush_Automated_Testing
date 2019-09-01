@@ -4,6 +4,12 @@
    <name>div_Text (3) (1)</name>
    <tag></tag>
    <elementGuidId>e79fe007-5a3c-43a0-8afa-21e97e18a428</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Text' or . = 'Text')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
