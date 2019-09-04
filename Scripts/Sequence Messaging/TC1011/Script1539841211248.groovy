@@ -31,8 +31,25 @@ WebUI.delay(3)
 
 
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Add Message (1) (1)'))
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_Text'))
+
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/textarea_t'), 't')
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/button_Next'))
 
 WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_New text component added'))
+
+WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Save_1'))
+
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/span_New Message (4) (1)'))
 

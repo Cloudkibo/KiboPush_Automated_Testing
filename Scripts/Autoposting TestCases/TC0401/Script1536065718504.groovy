@@ -29,7 +29,8 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Autoposting/input
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Add WordPress Channel (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/h4_WordPress Channel'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/h4_WordPress Channel'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/a_'))
 
