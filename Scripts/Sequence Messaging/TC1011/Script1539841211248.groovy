@@ -99,5 +99,5 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Edit Message/a_Back (3)'))
+//WebUI.click(findTestObject('Page_KiboPush  Edit Message/a_Back (3)'))
 

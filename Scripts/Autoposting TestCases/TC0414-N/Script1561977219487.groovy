@@ -25,7 +25,7 @@ WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control'), '
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Facebook Account'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/i_la la-gear (3)'))
 
@@ -58,4 +58,4 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Delete'))
 
-WebUI.delay(2)
+WebUI.delay(3)

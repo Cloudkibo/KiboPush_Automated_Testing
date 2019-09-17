@@ -169,7 +169,7 @@
    <testCaseLink>
       <guid>fc83983c-85da-424d-aac9-b7be45db5aa0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Autoposting TestCases/TC0401</testCaseId>
    </testCaseLink>
    <testCaseLink>

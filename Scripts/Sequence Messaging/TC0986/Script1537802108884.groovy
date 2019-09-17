@@ -85,8 +85,8 @@ WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/div_New text compo
 
 WebUI.click(findTestObject('Page_KiboPush  Edit Message/button_Save_1'))
 
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboPush  Edit Message/a_Back'))
+//WebUI.scrollToPosition(0, 0)
+//
+//WebUI.click(findTestObject('Page_KiboPush  Edit Message/a_Back'))
 
 
