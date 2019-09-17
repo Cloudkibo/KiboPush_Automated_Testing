@@ -79,7 +79,7 @@
    <testCaseLink>
       <guid>1e785dbd-3696-4da0-8deb-fc397492a4ea</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC1001</testCaseId>
    </testCaseLink>
    <testCaseLink>
