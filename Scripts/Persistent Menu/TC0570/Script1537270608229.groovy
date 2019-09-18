@@ -14,9 +14,22 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.scrollToPosition(0, 0)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/i_Message_fa fa-times fa-stack-2x'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_Audio'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
+
+WebUI.delay(3)
+
+WebUI.callTestCase(findTestCase('Persistent Menu/Go_to_menu_item'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(3)
+
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_Audio'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h3_Add Audio Component'))
 

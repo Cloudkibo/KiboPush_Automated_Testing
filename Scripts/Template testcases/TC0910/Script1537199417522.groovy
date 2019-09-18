@@ -22,19 +22,20 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Template'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement button = driver.findElement(By.xpath('//*[@id="m-datatable--27866229129"]/tbody/tr[2]/td[4]/span/button'))
-
-button.click()
-
-WebUI.delay(3)
-
-WebElement delete = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/button'))
- 
- delete.click()
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Poll template deleted'))
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//WebElement button = driver.findElement(By.xpath('//*[@id="m-datatable--27866229129"]/tbody/tr[2]/td[4]/span/button'))
+//
+//button.click()
+//
+//WebUI.delay(3)
+//
+//WebElement delete = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/button'))
+// 
+// delete.click()
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/div_Poll template deleted'))
 

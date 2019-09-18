@@ -14,7 +14,11 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(3)
+
+/*WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
 
 String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
@@ -22,25 +26,8 @@ WebUI.delay(3)
 
 WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
 
-WebUI.delay(15)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/h4_KIBOPUSH'))
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add'))
 
-WebUI.sendKeys(findTestObject('Page_KiboPush  Menu/input_Message_form-control (1)'), Keys.chord(Keys.CONTROL, 'a'))
-
-WebUI.sendKeys(findTestObject('Page_KiboPush  Menu/input_Message_form-control (1)'), Keys.chord(Keys.BACK_SPACE))
-
-WebUI.delay(2)
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/Card Sub Title (2)'), 'Sub Title')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save (3)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_card must have a title'))
-
-WebUI.delay(2)
-
+*/

@@ -13,7 +13,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_Image'))
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0547'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 

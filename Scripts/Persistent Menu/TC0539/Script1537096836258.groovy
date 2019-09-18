@@ -11,10 +11,27 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.delay(2)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Save'))
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Text cannot be empty'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
+
+WebUI.delay(3)
+
+
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Text'))
+
+WebUI.sendKeys(findTestObject('Page_KiboEngage  Create Menu/textarea_Text_form-control (1)'), Keys.chord(Keys.CONTROL, 'a'))
+
+WebUI.sendKeys(findTestObject('Page_KiboEngage  Create Menu/textarea_Text_form-control (1)'), Keys.chord(Keys.BACK_SPACE))
+
+WebUI.verifyElementNotClickable(findTestObject('Page_KiboEngage  Create Menu/button_Add (4)'))
+
+WebUI.delay(3)
 

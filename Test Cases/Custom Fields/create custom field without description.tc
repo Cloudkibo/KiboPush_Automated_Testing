@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>create custom field without description</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9261f7d-a715-44d5-b154-55b4edd49f1f</testCaseGuid>
+</TestCaseEntity>

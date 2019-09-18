@@ -31,5 +31,7 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/a_WordP
 
 WebUI.scrollToPosition(0, 0)
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/h4_Guidelines for integrating'))
 

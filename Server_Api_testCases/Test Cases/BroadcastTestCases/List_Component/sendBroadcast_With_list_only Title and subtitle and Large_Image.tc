@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sendBroadcast_With_list_only Title and subtitle and Large_Image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5a18a2f-3eb2-44f8-b2ca-0deeb6bd7c39</testCaseGuid>
+</TestCaseEntity>

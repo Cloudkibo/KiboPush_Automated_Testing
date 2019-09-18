@@ -4,7 +4,17 @@
    <name>h6_Text</name>
    <tag></tag>
    <elementGuidId>938e781b-322c-4444-a6a5-5928eb6df71f</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h6[(text() = 'Text' or . = 'Text')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;text&quot;]/div/div[2]/h5</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

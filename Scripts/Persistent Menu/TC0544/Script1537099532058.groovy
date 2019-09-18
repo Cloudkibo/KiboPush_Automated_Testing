@@ -12,13 +12,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/i_Message_fa fa-times fa-stack-2x'))
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_Image'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_New image component added'))
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_Image (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h3_Add Image Component'))
 

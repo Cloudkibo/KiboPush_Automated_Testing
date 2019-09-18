@@ -11,20 +11,28 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Menu/div_Text'))
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/div_Text (3) (1)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/textarea_Text_form-control'), 'Text')
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.google.com')
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button (6)'))
 
-WebUI.delay(2)
+WebUI.sendKeys(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Button Title_form-control'), Keys.chord(
+        Keys.CONTROL, 'a'))
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboPush  Menu/button_Done'))
+WebUI.sendKeys(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Button Title_form-control'), Keys.chord(
+        Keys.BACK_SPACE))
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/i_Message_fa fa-times fa-stack-2x'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h7_Open a website (1)'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Open Website_form-control (1)'), 'google.com')
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Create Menu/button_Add'))
 

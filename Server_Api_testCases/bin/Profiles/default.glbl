@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzA5MDE5ZDEyNzZlZjQ4MWE3MTU5MDkiLCJpYXQiOjE1NjYxOTY4OTEsImV4cCI6MTU2NjU0MjQ5MX0.8xEx8O9HKFfNaVsai0PM7vjsov9ZcM_XA1dFuh18Evs'</initValue>
+      <name>Token</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

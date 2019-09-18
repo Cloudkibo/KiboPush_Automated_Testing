@@ -23,33 +23,16 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0771'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(1)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement textArea = driver.findElement(By.xpath('//*[@id="List1"]/div/div/div[2]/textarea'))
-
-textArea.sendKeys('h')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button (8)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_1 (7)'), 'google')
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h7_Open a website (6)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control_2 (2)'), 'www.google.com')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Done'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
-
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
-
-
+//WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0133'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.delay(2)
+//
+//WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
+//
+//WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))

@@ -23,12 +23,12 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), 
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
 
-WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/button_Create New Broadcast'))
 
-WebUI.delay(3)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast/div_Gallery (1)'))
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0150'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 
 

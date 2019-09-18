@@ -36,23 +36,23 @@ WebUI.click(findTestObject('Page_KiboEngage  Api Settings/h3_Connect with Twilio
 
 WebUI.delay(10)
 
-WebDriver driver = DriverFactory.getWebDriver()
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//WebElement sid = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[1]/input'))
+//
+//sid.clear()
+//
+//sid.sendKeys('a')
+//
+//WebElement token = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/div[2]/input'))
+//
+//token.clear()
+//
+//token.sendKeys('a')
+//
+//WebUI.delay(10)
+//
+//WebUI.click(findTestObject('Page_KiboEngage  Api Settings/button_Submit (2)'))
 
-WebElement sid = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/div/div[1]/div[1]/input'))
-
-sid.clear()
-
-sid.sendKeys('a')
-
-WebElement token = driver.findElement(By.xpath('/html/body/div[5]/div/div[2]/div/div/div[1]/div[2]/input'))
-
-token.clear()
-
-token.sendKeys('a')
-
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Page_KiboEngage  Api Settings/button_Submit (2)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)'))
+//WebUI.click(findTestObject('Page_KiboEngage  Api Settings/div_Twilio account not found Please enter correct details (2)'))
 

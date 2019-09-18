@@ -191,6 +191,30 @@
       <testCaseId>Test Cases/Whatsapp/broadcast/TC11245</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>6d42d491-fc25-4290-9ea9-d3aa1aea8aaf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/open Dashboard</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e255a6c9-7e90-432e-bd74-6261daafc704</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11279</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3e5c32fd-ac13-4fff-afbb-af59f25e26b5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11281</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d78b30a6-331f-4211-a09f-c77d0c688af4</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11282</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>80c9e2c8-6d53-4833-b8e1-45ad50ba9c0c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

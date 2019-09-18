@@ -37,4 +37,3 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/span_Fa
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/span_Source'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/button_'))
-WebUI.delay(3)

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>sendBroadcast_With_Onecard_MultipleButton</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c62c9fb9-89de-442b-89ec-0cd15711ad92</testCaseGuid>
+</TestCaseEntity>

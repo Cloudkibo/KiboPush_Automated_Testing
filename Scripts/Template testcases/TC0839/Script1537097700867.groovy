@@ -18,10 +18,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/button_Create (14) (1)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/div_A list must have atleast 2 (2)'))
-
+WebUI.callTestCase(findTestCase('Template testcases/TC0835'), [:], FailureHandling.STOP_ON_FAILURE)

@@ -12,9 +12,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_Card (1)'))
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0555'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+/*WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboEngage  Create Menu/i_Message_fa fa-times fa-stack-2x'))
 
@@ -22,3 +22,4 @@ WebUI.delay(2)
 
 WebUI.verifyElementNotPresent(findTestObject('Page_KiboEngage  Create Menu/i_Message_fa fa-times fa-stack-2x'), 0)
 
+*/

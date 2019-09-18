@@ -11,7 +11,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 WebUI.callTestCase(findTestCase('Sequence Messaging/TC1002'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Sequence Messaging/select_Select ConditionFirst N (2) (1) (1)'), 
@@ -19,8 +23,13 @@ WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Sequence Messaging/sele
 
 WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Sequence Messaging/select_Select Criteriais (1) (1)'), 'is', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Edit Sequence/select_Select a PageTest5Educa'), 
-    '2090553931018635', true)
+WebDriver driver = DriverFactory.getWebDriver()
+
+List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="m-datatable--27866229129"]/tbody/tr/td[3]/select/option'))
+
+println(rows_table1.size())
+
+rows_table1[2].click()
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Edit Sequence/button_Save'))
 

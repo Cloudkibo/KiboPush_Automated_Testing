@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Change moderation status (become subscriber button)</description>
+   <name>TC0417_N</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35c190a3-98db-4cbd-a641-91974838bf2b</testCaseGuid>
+</TestCaseEntity>

@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), 
 
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast (5)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_Create New Broadcast (3)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/button_Create New Broadcast'))
 
 WebUI.delay(1)
 

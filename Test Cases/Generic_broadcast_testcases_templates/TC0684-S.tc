@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test PopUp broadcast component</description>
+   <name>TC0684-S</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8c6e690-81aa-441f-95f8-7312a86db60c</testCaseGuid>
+</TestCaseEntity>

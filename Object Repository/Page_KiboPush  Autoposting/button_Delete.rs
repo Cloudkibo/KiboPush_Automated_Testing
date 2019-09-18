@@ -6,12 +6,12 @@
    <elementGuidId>34c620e9-aad5-49d0-a0da-9c172e4e05eb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = 'Delete' or . = 'Delete')]</value>
+         <key>XPATH</key>
+         <value>/html/body/div[5]/div/div[2]/div/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[2]/div/div[2]/div/button</value>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Delete' or . = 'Delete')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

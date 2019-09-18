@@ -11,16 +11,32 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button1')
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.google.com')
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_Media'))
+
+String img = RunConfiguration.getProjectDir() + '/video.mp4'
+
+WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file'), img)
+
+WebUI.delay(10)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h6_ Add Button'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h7_Open a website'))
+
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Button Title_form-control'), 'testt')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Open Website_form-control'), 'google.com')
 

@@ -12,25 +12,38 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.delay(2)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/span_Dashboard'))
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button (2)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro (3)'), 'Button2')
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website (3)'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro (3)'), 'www.kibopush.com')
-
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done (7)'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/button_Save (1) (1)'))
+WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasting (5)'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Menu/div_Message Saved Successfully (1)'))
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0537'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Text'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/textarea_Text_form-control'), 'Text')
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h6_ Add Button (6) (1)'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h7_Open a website (1) (1)'))
+
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Open Website_form-control (1) (1)'), 'google.com')
+
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Open Website_form-control (2)'), 'google.com')
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h6_ Add Button (7)'))
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/h7_Open a website (2)'))
+
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Open Website_form-control (2)'), 'fb.com')
+
+WebUI.click(findTestObject('Page_KiboEngage  Create Menu/button_Add (2)'))
+
+WebUI.delay(3)
 

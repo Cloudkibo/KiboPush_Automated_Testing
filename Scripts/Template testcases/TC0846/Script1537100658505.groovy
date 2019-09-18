@@ -23,25 +23,6 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Template testcases/TC0834'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Template testcases/TC0835'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/h6_ Add Button'))
-
-WebUI.setText(findTestObject('Page_KiboPush  Create Broadcast Tem/input_form-control (16)'), 'google')
-
-WebUI.delay(2)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement button = driver.findElement(By.xpath('/html/body/div[5]/div/div/div/div/div[2]/button[1]'))
-
-if(button.isEnabled())
-{
-  WebUI.verifyEqual("1", '0')
-
-}
-else
-{
-	WebUI.verifyEqual("0", '0')
-}
 

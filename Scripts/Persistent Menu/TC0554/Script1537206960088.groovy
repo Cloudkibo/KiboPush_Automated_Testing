@@ -11,18 +11,24 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+WebUI.callTestCase(findTestCase('Persistent Menu/TC0549'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h6_ Add Button'))
+WebUI.setText(findTestObject('Page_KiboEngage  Create Menu/input_Title_form-control'), 'test')
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Button Title_form-contro'), 'Button1')
+/*WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Menu/input_Subtitle_form-control'), 'sub')
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/h7_Open a website'))
+String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 
-WebUI.setText(findTestObject('Page_KiboPush  Menu/input_Open Website_form-contro'), 'www.google.com')
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Menu/button_Done'))
+WebUI.uploadFile(findTestObject('Page_KiboPush  Menu/upload_file (1)'), img)
 
-WebUI.delay(2)
+WebUI.delay(10)
 
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Menu/h5_Share'))
+
+*/

@@ -17,6 +17,7 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0141-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -28,11 +29,10 @@ String img = RunConfiguration.getProjectDir() + '/sample.jpg'
 upload.sendKeys(img)
 
 WebUI.delay(10)
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Title_form-control'),
+	'Helloo')
 
-WebElement title = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[1]/input[1]'))
-
-title.clear()
-WebElement button = driver.findElement(By.xpath('/html/body/div[2]/div/div[2]/div/div/div[4]/div/button[2]'))
+WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div[2]/div/button[2]'))
 
 println(button.isEnabled())
 

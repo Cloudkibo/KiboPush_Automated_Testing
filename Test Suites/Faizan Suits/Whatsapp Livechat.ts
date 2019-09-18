@@ -23,6 +23,12 @@
       <testCaseId>Test Cases/Whatsapp/WhatsappPlatformChat</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>9a355758-81fd-4b99-8d19-ab814a66924a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/go to live chat</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>3c7f4c93-3101-463f-8e57-8cc0a88b166d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -63,5 +69,29 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11252</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>33d22771-68b6-4d38-874f-173e641a20c0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/open Dashboard</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1025ccbe-5033-496f-8cff-5f7ce1544178</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11279</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>260226fb-9b70-4a00-ab39-ee3e84849c95</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11281</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e44d60a2-ccec-4ea7-a876-db391e935954</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11282</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

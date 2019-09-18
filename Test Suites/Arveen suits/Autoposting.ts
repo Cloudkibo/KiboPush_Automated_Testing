@@ -4,7 +4,6 @@
    <name>Autoposting</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2019-05-08T15:54:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -170,7 +169,91 @@
    <testCaseLink>
       <guid>fc83983c-85da-424d-aac9-b7be45db5aa0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Autoposting TestCases/TC0401</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7e01f662-f0fd-47f3-9548-db4831b2a535</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0402-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e52e9c2d-c99a-4012-a328-6a59357b3414</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0403-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bcba7afd-5e6b-4195-81dc-62562963414a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0404-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cf119d28-f579-4550-bb9a-13c2e1b921d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0405-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bf07013c-5b20-455c-83d0-0afd409a864d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0406-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>58f97615-43fe-409b-b7a7-f47d73df25ed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0411-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6c7af2a3-551f-4f65-909e-43839d5595fa</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0412-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2ffa6cb-85a1-4be9-a749-7c07eaf2df14</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0413-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>614c4c91-a929-423b-94eb-0c7992e940bd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0414-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>57ad5775-8a90-4e0e-acbd-2c1c4c293cc0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0415-N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>09cd4c5d-36bf-4083-b3a1-7735eab9d751</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0417_N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3fa8ad4-bf9a-43a3-91a9-f455dbfaefed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0416_N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f6b19bfb-6ec8-4957-a3ec-e906498417b3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0418_N</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4eccd41e-2022-4dbb-9616-3a8b9324f993</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Autoposting TestCases/TC0420-N</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

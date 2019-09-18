@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Add RSS Feed with correct url</description>
+   <name>0003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a32670bf-feab-4fb1-b9f7-289d4e0c0344</testCaseGuid>
+</TestCaseEntity>

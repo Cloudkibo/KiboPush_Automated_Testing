@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add card in gallery component</description>
+   <name>TC0160</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c3606d2f-2d30-4776-aed2-3340cfd23987</testCaseGuid>
+</TestCaseEntity>
