@@ -23,6 +23,12 @@
       <testCaseId>Test Cases/Sequence Messaging/open_automation</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>272936ff-233d-490f-bfac-ffe5d56f7ae6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/Go_to_Seq_Messaging</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>de905a02-524b-4eec-a4ce-6fd84f5873cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -135,5 +141,59 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Sequence Messaging/TC1011</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>092aa400-72c1-4205-ac9b-dbc0a576e2a3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1017</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>19bf6d9a-4c87-45ee-80ad-d12a3ed12d51</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1018</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b10c2d36-729d-4ce3-8bc4-fef692d7d2d6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1019</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3527132c-483c-4826-9317-4a3b2afb6679</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1020</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ec3e57a-0b91-4550-b8f2-6eb3f88b89e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1021</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6557adbd-c20d-426e-98db-b334da5cc7e8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1022</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6f6b3b7f-de28-4f8b-a619-0712fde4e1a2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1024</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ec642267-3d5f-4016-a92b-992f100875de</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1025</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a894ed6a-e72a-41e0-9a9d-7aa9b2848932</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Sequence Messaging/TC1027</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
