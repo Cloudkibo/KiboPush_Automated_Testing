@@ -28,6 +28,8 @@ WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password (7)
 
 WebUI.click(findTestObject('Page_KiboPush/button_Sign In (10) (1) (2)'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (57)'))
 
 WebUI.delay(3)
