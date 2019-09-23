@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Twitter (1) (1)'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control (4)'), 'https://twitter.com/arveenkumar55')
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Twitter Account (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/button_Add Twitter Feed'))
 
 WebUI.delay(2)
 

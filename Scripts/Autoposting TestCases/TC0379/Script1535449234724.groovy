@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autopost
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Add Feed'))
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Add Facebook Account'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/button_Add Facebook Feed'))
 
 WebUI.delay(2)
 
