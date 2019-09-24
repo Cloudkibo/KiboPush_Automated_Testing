@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Text Area is enabled</description>
+   <name>TC11304</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb99bfef-92a9-4643-b9b1-7f30907619ac</testCaseGuid>
+</TestCaseEntity>
