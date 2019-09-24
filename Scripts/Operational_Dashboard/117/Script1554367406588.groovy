@@ -29,8 +29,8 @@ WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement subscriber = driver.findElement(By.xpath('//*[@id="m_widget5_tab1_content"]/div/div[1]/div[1]/div/div[4]/span/a'))
-
+WebElement subscriber = driver.findElement(By.xpath('//*[@id="m_widget5_tab1_content"]/div/div[1]/div[1]/div/div[3]/span[3]/a'))
+                                        
 subscriber.click()
 
 WebUI.scrollToPosition(0, 0)

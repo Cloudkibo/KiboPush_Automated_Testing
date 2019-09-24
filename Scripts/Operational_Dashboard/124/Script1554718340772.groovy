@@ -32,8 +32,14 @@ WebElement previous = driver.findElement(By.xpath('//*[@id="ajax_data"]/ul/li[1]
 previous.click()
 
 WebUI.delay(5)
+WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 
-WebUI.verifyTextPresent('Zain Majid', false)
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
-WebUI.verifyTextNotPresent('Imran Bhatti', false)
+int rows_count_before = rows_table.size()
+
+WebUI.verifyEqual(10, rows_count_before)
+//WebUI.verifyTextPresent('Zain Majid', false)
+//
+//WebUI.verifyTextNotPresent('Imran Bhatti', false)
 
