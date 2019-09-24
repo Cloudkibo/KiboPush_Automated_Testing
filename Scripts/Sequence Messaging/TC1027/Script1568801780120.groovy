@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence M
 WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/input_Button Title_form-control'), 
     '1')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Sequence/button_next'))
 
 WebUI.scrollToPosition(0, 0)
 

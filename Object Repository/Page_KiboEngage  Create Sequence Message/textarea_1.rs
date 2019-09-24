@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//textarea[@placeholder = 'Please type here...' and (text() = '1' or . = '1')]</value>
+         <value>//textarea[@placeholder = 'Please type here...']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/div/div[2]/div/div/div[1]/textarea</value>
+         <value>/html/body/div[6]/div/div[2]/div/div/div[1]/textarea</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

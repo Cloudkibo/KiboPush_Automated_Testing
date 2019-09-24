@@ -4,6 +4,12 @@
    <name>div_TextEnter Text Message (up to 2000 characters) (1)</name>
    <tag></tag>
    <elementGuidId>9491c1b6-089f-48f4-b4db-915f97c40f03</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id = 'text' and (text() = 'TextEnter Text Message (up to 2000 characters)' or . = 'TextEnter Text Message (up to 2000 characters)')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

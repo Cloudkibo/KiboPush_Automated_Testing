@@ -4,7 +4,17 @@
    <name>span_Create New Sequence (2)</name>
    <tag></tag>
    <elementGuidId>bbe9db06-77f1-450c-bae1-bda0e3a86fe1</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Create New Sequence' or . = 'Create New Sequence')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;content&quot;]/div/div/div/div[2]/div[4]/div[2]/div/div/div[1]/div[2]/a/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

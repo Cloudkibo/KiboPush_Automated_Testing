@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Page_KiboPush  Sequence Messaging/button_Create (3)'
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboEngage  Edit Sequence/button_Back'))
+WebUI.click(findTestObject('Page_KiboEngage  Sequence/button_Back'))
 
 WebUI.delay(2)
 
