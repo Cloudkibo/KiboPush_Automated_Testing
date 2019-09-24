@@ -124,4 +124,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Comment Capture TestCases/TC0531</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4d13f243-5efd-45c4-9449-f98dd884ccf7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Comment Capture TestCases/TC11304</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d6d9ed42-9855-47f6-9c97-696d0acc3e71</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Comment Capture TestCases/TC11305</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ae3b04f0-543b-4acd-9b19-4142bdb4ab57</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Comment Capture TestCases/TC11306</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
