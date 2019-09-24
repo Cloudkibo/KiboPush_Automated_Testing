@@ -29,15 +29,14 @@ WebUI.click(findTestObject('Page_KiboEngage  Edit Sequence/button_Add Message'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/div_TextEnter Text Message (up to 2000 characters)'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/textarea_1'), '1')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Sequence/button_next'))
 
 WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Sequence Message/button_Save'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Edit Sequence/button_Back'))
-

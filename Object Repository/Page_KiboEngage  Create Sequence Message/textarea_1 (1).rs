@@ -6,11 +6,15 @@
    <elementGuidId>f250d717-cb0f-4530-9eff-a4dcf4de70db</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//textarea[@placeholder = 'Please type here...']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>/html/body/div[5]/div/div[2]/div/div/div[1]/textarea</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +38,7 @@
       <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
