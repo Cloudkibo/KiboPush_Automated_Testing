@@ -25,7 +25,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Operational_Dashboard/117'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyTextPresent('Zain Majid', false)
+//WebUI.verifyTextPresent('Zain Majid', false)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -37,7 +37,14 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(5)
 
-WebUI.verifyTextPresent('Imran Bhatti', false)
+WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 
-WebUI.verifyTextNotPresent('Zain Majid', false)
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+int rows_count_before = rows_table.size()
+
+WebUI.verifyEqual(10, rows_count_before)
+//WebUI.verifyTextPresent('Imran Bhatti', false)
+//
+//WebUI.verifyTextNotPresent('Zain Majid', false)
 
