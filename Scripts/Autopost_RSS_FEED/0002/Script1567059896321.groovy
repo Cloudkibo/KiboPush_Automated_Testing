@@ -23,5 +23,5 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 WebUI.delay(2)
 
 //WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/div_Failed to craete autoposting'))
-WebUI.verifyTextPresent('FAILED TO CREATE AUTOPOSTING', true)
+WebUI.verifyTextPresent('Incorrect Url', true)
 

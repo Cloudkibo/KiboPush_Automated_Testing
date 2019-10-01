@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Broadcast/select_Filter by type...textim (6)'), 
-    'list', true)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_list'))
+//WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Broadcast/select_Filter by type...textim (6)'), 
+//    'list', true)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_list'))
 
 

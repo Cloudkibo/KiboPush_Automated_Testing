@@ -27,6 +27,6 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 
 WebUI.delay(1)
 
-WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0685'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0685'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
