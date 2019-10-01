@@ -11,217 +11,157 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>22cfa004-d20d-4eb2-9855-7dbf0eea3130</testSuiteGuid>
    <testCaseLink>
-      <guid>a31f135f-b684-41f3-8827-a70d52f5b0ce</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/Audio_Component/sendBroadcast_audio</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7253691b-6eb9-4116-b2b0-c5d8de388235</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/FileComponent/send_boradcast_file</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>2a6202fa-674d-4308-ad64-2cfc1532a403</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Card/sendBroadcast_With_Onecard</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6f1f0d15-e288-4a6b-8015-49b0dcd6d1f3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Card/sendBroadcast_With_Onecard_MultipleButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>42a2938c-2a93-44f0-9a49-33fcdec29d5d</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Card/sendBroadcast_With_Onecard_MultipltShareButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4d62dc3b-0ebe-406c-9bdb-4adb3ce405b5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Card/sendBroadcast_With_Onecard_ShareButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>cb6c9244-824b-45b7-b602-05ddf4322c2c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Gallery/sendBroadcast_With_ShareButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5fec1fbb-dbfc-4445-86e1-c99da609dfcc</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Gallery/sendBroadcast_With_TwoCards _withTwoButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>143fb41e-42df-4e43-9b4a-4ae1cc4de62b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Gallery/sendBroadcast_With_TwoCards</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>07adbc9e-619b-4bcd-a639-5ebda7041d5b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/LinkCrousal_component/sendBroadcast_With_OneLink</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f2840d3a-e585-4abf-8f29-74255f0ed771</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/LinkCrousal_component/sendBroadcast_With_TwoLink</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>58520cc6-737e-48d6-9351-328ec50367d1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/List_Component/sendBroadcast_With_all_items</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c0fd9439-5447-4b7f-8f03-067635fa4baf</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/List_Component/sendBroadcast_With_list_only Title and subtitle and image</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6682847b-f6ce-46a0-89e5-c9e58e32d695</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/List_Component/sendBroadcast_With_list_only Title and subtitle and Large_Image</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f2631893-c2eb-42d4-974b-cc108d7d8544</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/List_Component/sendBroadcast_With_list_only Title and subtitle</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>dfaafb09-98be-489d-b269-8a4508a08dd5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/image/sendBroadcast_image</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>459ef23a-bb71-4eb9-b32c-a7e832d9069c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/image/sendBroadcast_imageWithButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>555ae8f6-40e2-4d58-8ecf-ce10320c4031</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/image/sendBroadcast_imageWithMultipleButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>51421fe4-fbac-4b9a-a8d9-ae3f2d82228b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/image/sendBroadcast_imageWithShareButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f2a41d0e-8bc9-4176-9c9b-6c585d544fb1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/video/sendBroadcast_video</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>d3fc1f66-2525-4fe0-8eac-4c72df66bbc2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/video/sendBroadcast_videoWithButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f206f8c2-3b46-4bcd-adc4-ff9ca82424ca</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/video/sendBroadcast_videoWithMultipleButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6fa2053f-1b8e-4876-9045-4495b15f640e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/video/sendBroadcast_videoWithShareButton</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>95826a43-1112-455f-909c-c8252fedc757</guid>
+      <guid>8ddd66e5-0078-4617-88b5-043d2065b151</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/text_Component/sendBroadcast_text</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>eec17ff3-651b-41a9-8996-07a593d07b1c</guid>
+      <guid>e6fea57c-7d76-4fb0-9301-7ad4ec25f3dc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/text_Component/sendBroadcast_text_WithButton</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fed48fb9-4ba1-4b1e-9feb-c0dcf599a63d</guid>
+      <guid>82a277d2-9b46-4033-b732-4ed644cf9e72</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/text_Component/sendBroadcast_text_WithMultipleButton</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>aef9e10b-c317-4be6-b5dc-b7d54f51ec3b</guid>
+      <guid>191a13d7-8092-4c05-a9c2-ba53360da20c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/youTubeComponent/sendBroadcast_video _with_Button</testCaseId>
+      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/image/sendBroadcast_image</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c9feb415-63c9-42d7-925a-779d2ddf9f54</guid>
+      <guid>7bcbd385-15c8-4592-9d04-6293f1c8e81c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/youTubeComponent/sendBroadcast_video _with_MultipleButton</testCaseId>
+      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/image/sendBroadcast_imageWithButton</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>fc6fe5a9-21af-4051-8047-30f0dce99d27</guid>
+      <guid>c4b39598-7c16-46d4-8032-c445b14b5610</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BroadcastTestCases/youTubeComponent/sendBroadcast_video _with_ShareButton</testCaseId>
+      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/image/sendBroadcast_imageWithMultipleButton</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>84bc09b5-ff5a-410d-b4ba-cad58552ae8b</guid>
+      <guid>517212ec-c800-4ce0-b4bf-c4e02b741458</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/video/sendBroadcast_video</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>99a1d440-ff1e-4835-9469-cf93a897c30c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/video/sendBroadcast_videoWithButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab6978c4-9b44-4d5c-ad35-893f188d09a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/MediaComponent/video/sendBroadcast_videoWithMultipleButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>97f25cf1-f087-4bd5-a209-cb6472a6b04c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Card/sendBroadcast_With_Onecard</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>ab965477-1bc3-482a-9ce0-a737bb74aaf3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Card/sendBroadcast_With_Onecard_MultipleButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>90d82e53-b134-424b-8a2f-7c675da5c413</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Gallery/sendBroadcast_With_TwoCards</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>46646632-2081-4dc2-82d9-ed5f6de6ae24</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/GalleryComponent/Gallery/sendBroadcast_With_TwoCards _withTwoButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02e52957-4257-45a8-947e-1d4c92ab5ec9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/Audio_Component/sendBroadcast_audio</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4437ecbe-4327-4f57-bb00-4f5a3113fdea</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/FileComponent/send_boradcast_file</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4bdeea9e-f3e3-42bc-8c81-e5f330befab5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/youTubeComponent/sendBroadcast_video</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>15676282-3eaa-497d-b3ec-ef44338b2654</guid>
+      <guid>4cdb43aa-192e-4b24-8f83-19e44bead143</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/youTubeComponent/sendBroadcast_video _with_Button</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9e20cc34-096e-4fb2-b1fe-ecd766c16abf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/youTubeComponent/sendBroadcast_video _with_MultipleButton</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa56cc14-634f-4965-b24b-cdb88646166e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/LinkCrousal_component/sendBroadcast_With_TwoLink</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>16663b12-2377-4bee-b978-969391d2c5e1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BroadcastTestCases/LinkCrousal_component/sendBroadcast_With_OneLink</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9c2c9e78-36a0-47e7-b953-04b3cfffe523</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/Segmentation/All/sendBroadcast_text_with_All</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4bf8a7d5-1527-4b7c-90ce-1ba15394ecec</guid>
+      <guid>1998ac1d-8008-49c0-83d4-d954fa5bea4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/Segmentation/gender/sendBroadcast_text_with_female</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>e3120354-d245-4d97-9b70-09c0d7810612</guid>
+      <guid>dd9db120-5d51-4c1d-b20b-16ca615f7e24</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/Segmentation/gender/sendBroadcast_text_with_Male</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>a2154084-b47c-4ce1-a37e-f302390bf35b</guid>
+      <guid>57eb8c60-e8a7-40ce-b65c-a715d349829b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/Segmentation/Locale/sendBroadcast_text_with_Locale</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d26cab66-3843-48b2-936f-bc37ae7a1770</guid>
+      <guid>1bd2823b-b1f1-4f7c-8d13-53ebd352fa37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/Segmentation/SegmentedList/sendBroadcast_text_with_segmentedList</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb8897ad-e364-4e92-8280-bf00c942efe0</guid>
+      <guid>610fb007-36eb-4ba9-9ddb-e27c128443b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BroadcastTestCases/Segmentation/tag/sendBroadcast_text_with_Tag</testCaseId>
