@@ -13,34 +13,28 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11231'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11236'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/h5_Text'))
 
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1) (1) (1) (1) (1) (1)'), 
-    'title')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/textarea_t'), 't')
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Next'))
 
 WebUI.scrollToPosition(0, 0)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (5) (1) (1) (1)'), 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Next_1'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber'), 
     'number', true)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (5) (1) (1) (1)'), 
-    'contains', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with'), 
+    'is', true)
 
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Value_text (6) (1) (1) (1)'), '3739')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/input_Value_targetingText'), 
+    '+92')
 
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/button_ Add Condition (3) (1) (1)'))
-
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (6) (1) (1)'), 'number', 
-    true)
-
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (6) (1) (1)'), 
-    'contains', true)
-
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Remove_text (3) (1) (1)'), '566')
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/button_Remove (1) (1)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/button_Reset (1)'))
-
+WebUI.delay(2)
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Send'))

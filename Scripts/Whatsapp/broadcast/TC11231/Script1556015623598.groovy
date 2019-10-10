@@ -12,12 +12,26 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+////WebUI.callTestCase(findTestCase('Whatsapp/Whatsapp Platform'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Whatsapp/broadcast/go to broadcasting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Whatsapp/broadcast/open broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/span_Create New (2)'))
+WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Broadcast/input_form-control'), 'Broadcast Title')
+WebUI.delay(2)
 
-WebUI.scrollToPosition(0, 0)
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/h3_Create Broadcast'))
+WebElement Table = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody'))
 
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)

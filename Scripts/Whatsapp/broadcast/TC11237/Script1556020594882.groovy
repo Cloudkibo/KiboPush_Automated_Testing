@@ -13,19 +13,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11231'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11236'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Broadcasts/h5_Text'))
 
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (1)'), 'title')
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Broadcasts/textarea_t'), 
+    't')
 
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Next'))
 WebUI.scrollToPosition(0, 0)
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Next_1'))
 
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (4)'), 'title')
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Send'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/span_Order Notifications'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/span_Send (10)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (4)'))
-
+WebUI.delay(2)
+WebUI.verifyTextPresent('BROADCAST SENT SUCCESSFULLY', true)

@@ -12,23 +12,38 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11236'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11231'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.delay(3)
 
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1) (2) (1) (1) (1)'), 
-    'title')
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_File'))
 
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_File'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add File Component'))
+
+WebUI.delay(2)
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement upload = driver.findElement(By.xpath('//input[@type=\'file\']'))
+
+String pdf_file = RunConfiguration.getProjectDir() + '/sample.pdf'
+
+upload.sendKeys(pdf_file)
+
+WebUI.delay(10)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Next'))
 WebUI.scrollToPosition(0, 0)
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Next_1'))
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber (4) (1)'), 'name', 
-    true)
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Send'))
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with (4) (1)'), 
-    'is', true)
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/span_Send (14)'))
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/span_Please choose a valid value (1)'))
-
+WebUI.delay(2)
+WebUI.verifyTextPresent('BROADCAST SENT SUCCESSFULLY', true)

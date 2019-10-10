@@ -13,17 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11231'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11227'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1)'), 'title')
-
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/button_Create New'))
 WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/span_Send (9) (1)'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (3)'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/h3_Create Broadcast'))
 

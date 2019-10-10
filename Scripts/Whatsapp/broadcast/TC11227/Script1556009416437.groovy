@@ -17,9 +17,15 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+////WebUI.callTestCase(findTestCase('Whatsapp/Whatsapp Platform'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Whatsapp/broadcast/go to broadcasting'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Whatsapp/broadcast/open broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
+WebUI.delay(2)
 WebDriver driver = DriverFactory.getWebDriver()
 
 WebElement Table = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody'))
