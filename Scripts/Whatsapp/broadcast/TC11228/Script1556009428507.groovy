@@ -12,5 +12,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11227'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_next (1)'))
+WebUI.delay(2)
+
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement Table = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody'))
+
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)

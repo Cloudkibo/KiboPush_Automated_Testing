@@ -17,9 +17,9 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/span_Dashboard'))
 
-WebUI.delay(1)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Broadcasts'))
 
-WebUI.delay(10)
+WebUI.delay(3)
 

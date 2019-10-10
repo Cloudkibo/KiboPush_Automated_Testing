@@ -12,18 +12,26 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11231'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Whatsapp/broadcast/TC11227'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (3) (1)'), 'title')
-
-WebUI.scrollToPosition(0, 0)
-
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/span_Send (9) (1)'))
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Broadcast/input_form-control'), 'Broadcast Title')
+WebUI.delay(2)
+WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcasts/select_Filter by typetextaudiofilemediamiscellaneousall'),
+	'text', true)
+WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcasts/input_Show records for last_example-text-input'), 
+    '7')
 
 WebUI.delay(2)
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('Page_KiboEngage  Broadcasts/div_Broadcast sent successfully (3)'))
+WebElement Table = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody'))
 
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)
