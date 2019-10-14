@@ -46,6 +46,3 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Set Action (1)'))
 
 WebUI.delay(2)
-
-
-

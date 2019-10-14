@@ -46,5 +46,3 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_Choices_form-control input-sm (1)'), '4')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Set Action'))
-
-

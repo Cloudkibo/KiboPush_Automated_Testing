@@ -50,4 +50,3 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/butto
 WebUI.delay(2)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_KiboEngage  Create Poll/i_Subscribe to Sequence_la la-plus'), 1)
-
