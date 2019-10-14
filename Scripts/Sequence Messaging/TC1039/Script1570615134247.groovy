@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Whatsapp/broadcast/go to broadcasting'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('Whatsapp/broadcast/go to broadcasting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Sequence Messaging/go to surveys'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -46,5 +46,3 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Page_KiboEngage  Add Survey/input_Choices_form-control input-sm (1)'), '4')
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/button_Set Action'))
-
-
