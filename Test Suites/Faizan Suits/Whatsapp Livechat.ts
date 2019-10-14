@@ -41,24 +41,6 @@
       <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11247</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>079c59f8-1a22-4f1d-9c9d-965df2ac1a98</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11248</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>07e18389-d4b1-4b60-a342-d698cdcdcae1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11249</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>7da23a8d-b60f-489f-b42e-b7d1b4c07768</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11250</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>1d2ae72a-380c-4b0e-8d7d-a71db508a823</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -69,6 +51,30 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11252</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2aec3a5a-ca6b-4e49-8c57-5a21d44ba040</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11253</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0419c934-8294-4bf0-91a7-35a2dfe3b845</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11254</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc38bbc7-c989-4d59-801f-7f5982c3cc48</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11255</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>53352b8d-a1ec-4dbb-97c5-3c007fc9cabf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/WhatsApp Livechat/TC11256</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>33d22771-68b6-4d38-874f-173e641a20c0</guid>

@@ -15,5 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Whatsapp/WhatsApp Livechat/go to live chat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
+WebUI.click(findTestObject('Page_KiboChat  Live Chat/a_video tutorial (1)'))
 
