@@ -13,11 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+
+
 WebUI.callTestCase(findTestCase('Whatsapp/WhatsApp Livechat/go to live chat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Page_KiboChat  Live Chat/input_Click here_generalSearch (1)'), 'faizan')
+WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/i_Click here_la la-ellipsis-h (1) (1) (1) (1) (1)'))
 
-WebUI.click(findTestObject('Page_KiboChat  Live Chat/img (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Remove Filters'))
 
-WebUI.click(findTestObject('Page_KiboChat  Live Chat/span_Faizan (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/img (3)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/span_arveen'))
 

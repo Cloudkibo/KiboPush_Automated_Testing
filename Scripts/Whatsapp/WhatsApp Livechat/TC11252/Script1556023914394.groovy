@@ -15,5 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Whatsapp/WhatsApp Livechat/go to live chat'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Page_KiboChat  Live Chat/i_Click here_la la-ellipsis-h (1)'))
 
+WebUI.click(findTestObject('Page_KiboChat  Live Chat/span_Oldest to Newest'))
+
+WebUI.click(findTestObject('Page_KiboChat  Live Chat/img (2)'))
+
+WebUI.click(findTestObject('Page_KiboChat  Live Chat/span_Faizan (2)'))
 

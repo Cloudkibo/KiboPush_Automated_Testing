@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Click here_generalSearch</name>
+   <name>input_Click here_generalSearch (1)</name>
    <tag></tag>
-   <elementGuidId>1b5a872c-ef35-4ac3-b9fe-3956b8633006</elementGuidId>
+   <elementGuidId>6e7c0485-bc73-49f0-9dac-a79b8e41f95f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -58,7 +58,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='content']/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div/input</value>
+      <value>//div[@id='content']/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

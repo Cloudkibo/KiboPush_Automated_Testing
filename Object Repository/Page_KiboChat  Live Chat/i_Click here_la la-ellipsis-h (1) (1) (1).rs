@@ -1,60 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h5_Search</name>
+   <name>i_Click here_la la-ellipsis-h (1) (1) (1)</name>
    <tag></tag>
-   <elementGuidId>65e0b74d-60ff-4a90-be54-d995d0c0398b</elementGuidId>
+   <elementGuidId>abddfd2e-eea7-4da6-8ccb-5dfbf7fa60bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/ul/li/a/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h5</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Search</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>la la-ellipsis-h</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-3&quot;]/div[@class=&quot;m-portlet m-portlet--full-height&quot;]/div[@class=&quot;m-portlet__body&quot;]/div[1]/h5[1]</value>
+      <value>//*[@id=&quot;content&quot;]/div/div/div/div[2]/div[2]/div[2]/div[1]/div/div[1]/div/div[2]/div/ul/li/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='content']/div/div/div/div[2]/div/div[2]/div[3]/div/div/div/h5</value>
+      <value>//div[@id='content']/div/div/div/div[2]/div[2]/div[2]/div/div/div/div/div[2]/div/ul/li/a/i</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='hi'])[3]/following::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Click here.'])[1]/following::i[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='You replied'])[18]/following::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open'])[1]/preceding::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go!'])[1]/preceding::h5[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Closed'])[1]/preceding::i[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//h5</value>
+      <value>//div/div/div/div[2]/div/ul/li/a/i</value>
    </webElementXpaths>
 </WebElementEntity>
