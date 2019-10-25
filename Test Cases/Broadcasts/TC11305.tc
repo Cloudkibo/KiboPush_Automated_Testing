@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by message type promotion</description>
+   <name>TC11305</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7303efc3-22cd-45ae-87bf-f6019f8f5301</testCaseGuid>
+</TestCaseEntity>

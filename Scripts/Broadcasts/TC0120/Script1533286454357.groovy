@@ -21,6 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Page_KiboPush  Broadcast/select_Filter by type...textim'), 'all', true)
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+    'all', true)
 

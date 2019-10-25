@@ -26,11 +26,33 @@ WebUI.callTestCase(findTestCase('Broadcasts/open_broadcast'), [:], FailureHandli
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboEngage  Broadcast/button_Create New Broadcast'))
+//WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Create New Broadcast'))
+//
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/button_Create New Broadcast'))
+//WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+//    'text', true)
+//
+//WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+//    'image', true)
+//
+//WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+//    'card', true)
+//
+//WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+//    'gallery', true)
+//
+//WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+//    'audio', true)
+//
+//WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+//    'video', true)
+//
+//WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+//    'file', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryaudiovideofilemediamiscellaneousall'), 
+    'media', true)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/button_Yes'))
-
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/button_Cancel'))
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Broadcast/span_media'))
 
