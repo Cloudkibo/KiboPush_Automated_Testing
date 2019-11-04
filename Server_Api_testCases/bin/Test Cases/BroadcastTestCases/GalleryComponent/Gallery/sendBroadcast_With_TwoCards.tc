@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>sendBroadcast_With_TwoCards</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1fea9c95-9a3a-40c0-bbe1-973cd8d8874c</testCaseGuid>
-</TestCaseEntity>

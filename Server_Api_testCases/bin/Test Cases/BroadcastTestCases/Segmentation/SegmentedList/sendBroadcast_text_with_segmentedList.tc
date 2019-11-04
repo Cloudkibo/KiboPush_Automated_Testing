@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>sendBroadcast_text_with_segmentedList</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>067f2c27-5517-4fc2-b917-173d42e47a6d</testCaseGuid>
-</TestCaseEntity>

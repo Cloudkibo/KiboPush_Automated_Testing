@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>sendBroadcast_With_TwoLink</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d4cc376a-9137-4f04-a291-1e65497e6e77</testCaseGuid>
-</TestCaseEntity>

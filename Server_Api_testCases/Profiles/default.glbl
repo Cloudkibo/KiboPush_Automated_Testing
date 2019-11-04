@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzA5MDE5ZDEyNzZlZjQ4MWE3MTU5MDkiLCJpYXQiOjE1Njk5MjAyMjAsImV4cCI6MTU3MDI2NTgyMH0.2HXZePTNC1gjRmfUPf5eetFQUAIYDUa0deAvJ4JPrdw'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YzA5MDE5ZDEyNzZlZjQ4MWE3MTU5MDkiLCJpYXQiOjE1NzI4NDE4NDksImV4cCI6MTU3MzE4NzQ0OX0.STsu6ZwpSnMlTkdQuPR5irIk8medOdyVi7nKtd9sXzQ'</initValue>
       <name>Token</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
