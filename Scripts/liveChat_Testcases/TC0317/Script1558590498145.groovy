@@ -33,7 +33,7 @@ WebUI.delay(2)
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/i_StatusUnassigned_fa fa-envelope-open-o'))
+WebUI.click(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/i_StatusUnassigned_fa fa-envelope-open-o'))
 
 WebUI.scrollToPosition(0, 0)
 
