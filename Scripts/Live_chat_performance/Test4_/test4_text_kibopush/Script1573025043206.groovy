@@ -34,18 +34,17 @@ List<WebElement> live_chat_subscribers = driver.findElements(By.xpath('//*[@id="
 
 live_chat_subscribers[0].click()
 
-//WebUI.delay(3)
-WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message'), 'value', 'congrats32',30)
-WebUI.setText(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'), 
-    'congrats33')
-WebUI.sendKeys(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'), 
-    Keys.chord(Keys.ENTER))
+WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message'), 'value', 'congrats32',60, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message1'), 'value', 'congrats50',60, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message2'), 'value', 'congrats51',60, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message3'), 'value', 'congrats52',60, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message4'), 'value', 'congrats53',60, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message2'), 'value', 'congrats28',30, FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message3'), 'value', 'congrats29',30, FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message4'), 'value', 'congrats30',30, FailureHandling.STOP_ON_FAILURE)
-WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message5'), 'value', 'congrats31',30, FailureHandling.STOP_ON_FAILURE)
-
+WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
+	'congrats33')
+WebUI.sendKeys(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
+	Keys.chord(Keys.ENTER))
 WebUI.setText(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
 	'congrats34')
 WebUI.sendKeys(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
@@ -54,19 +53,13 @@ WebUI.setText(findTestObject('Object Repository/livechat_test/Page_KiboChat  Liv
 	'congrats35')
 WebUI.sendKeys(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
 	Keys.chord(Keys.ENTER))
-
-WebUI.waitForElementHasAttribute(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message8'), 'src', 60, FailureHandling.STOP_ON_FAILURE)
-
-WebElement upload = driver.findElement(By.xpath('//input[@type=\'file\']'))
-
-String image = RunConfiguration.getProjectDir() + '/sample.jpg'
-
-upload.sendKeys(image)
-
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
+	'congrats36')
 WebUI.sendKeys(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
 	Keys.chord(Keys.ENTER))
-WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
+	'congrats37')
+WebUI.sendKeys(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
+	Keys.chord(Keys.ENTER))
+WebUI.delay(5)
 
-
-//WebUI.verifyTextPresent("congrats11", true)
