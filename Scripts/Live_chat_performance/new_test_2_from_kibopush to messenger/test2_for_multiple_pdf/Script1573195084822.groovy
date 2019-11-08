@@ -40,7 +40,7 @@ String pdf = RunConfiguration.getProjectDir() + '/sample.pdf'
 
 upload.sendKeys(pdf)
 
-WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message'), 'value', 'congrats32',1000, FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementAttributeValue(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/send_message'), 'value', 'congrats32',3000, FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(5)
 WebUI.sendKeys(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/input_Ok_m-messenger__form-input'),
 	Keys.chord(Keys.ENTER))
