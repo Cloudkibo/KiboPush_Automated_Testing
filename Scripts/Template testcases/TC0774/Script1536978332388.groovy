@@ -23,16 +23,28 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
-//WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0133'), [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
-//
-//WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
+WebUI.callTestCase(findTestCase('Template testcases/TC0768'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0133'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/category'))
+
+WebUI.click(findTestObject('Page_KiboPush  Create Broadcast Tem/li_Customer Behavior'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/button_Create (1)'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Create Broadcast Tem/div_Broadcast created successf'))
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Templates'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Dashboard/input_form-control m-input m-i'), 'Broadcast Title')
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Templates/button_Delete'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Templates/button_delete_modal'))
