@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test removing quick reply</description>
+   <name>TC011318</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b61603de-bc27-402b-bb6a-0aa258ff5c7b</testCaseGuid>
+</TestCaseEntity>

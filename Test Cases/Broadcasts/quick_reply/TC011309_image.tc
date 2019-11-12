@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test adding quick reply with image</description>
+   <name>TC011309_image</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd2583cf-e37d-4d0d-b55e-7ac9ac5658c7</testCaseGuid>
+</TestCaseEntity>

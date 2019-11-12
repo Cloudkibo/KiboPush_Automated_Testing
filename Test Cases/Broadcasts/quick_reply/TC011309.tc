@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test adding multiple quick replies</description>
+   <name>TC011309</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d7be255-3133-46f1-b34a-c5b29df7675b</testCaseGuid>
+</TestCaseEntity>
