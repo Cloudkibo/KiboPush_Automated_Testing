@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test editing quick reply action</description>
+   <name>TC011316</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1fdc1d2-72a0-4a92-9de0-c2492d272d56</testCaseGuid>
+</TestCaseEntity>

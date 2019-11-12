@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC0131</name>
+   <name>Add_quickReply_func1_imageand Title</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>cf9642bb-6db2-405d-9a0b-321e5bc45e94</testCaseGuid>
+   <testCaseGuid>0954fad7-bb9a-40f7-8cb4-f3e9a4330e01</testCaseGuid>
 </TestCaseEntity>

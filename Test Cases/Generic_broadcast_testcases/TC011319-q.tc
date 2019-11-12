@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test adding quick reply to multiple broadcast components</description>
+   <name>TC011319-q</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5a48df0-60dd-409a-853f-3f4d1f230f2e</testCaseGuid>
+</TestCaseEntity>

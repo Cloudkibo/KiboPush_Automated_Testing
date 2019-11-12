@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Add</name>
+   <name>UnAssignTag</name>
    <tag></tag>
-   <elementGuidId>2beec39b-985e-4af7-bbf9-dd8c3699fb22</elementGuidId>
+   <elementGuidId>4c72b08a-3b5b-4c5c-9823-a293ff96dd30</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[(text() = 'Next' or . = 'Next')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]</value>
+         <value>/html/body/div[7]/div/div/div/div/div[2]/select/option[6]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
