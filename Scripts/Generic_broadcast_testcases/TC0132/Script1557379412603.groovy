@@ -18,10 +18,12 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebDriver driver = DriverFactory.getWebDriver()
+//WebDriver driver = DriverFactory.getWebDriver()
+//
+//WebElement area = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/textarea'))
+////WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/text_area'),"")
+//area.clear()
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/textarea_t'),   '')
 
-WebElement area = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/textarea'))
-//WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/text_area'),"")
-area.clear()
 WebUI.delay(2)
 

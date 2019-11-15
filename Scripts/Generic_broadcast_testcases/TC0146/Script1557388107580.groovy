@@ -30,3 +30,5 @@ upload.sendKeys(img)
 
 WebUI.delay(10)
 
+WebUI.delay(2)
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))

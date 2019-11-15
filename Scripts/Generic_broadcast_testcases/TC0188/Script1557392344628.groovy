@@ -16,8 +16,9 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0171-S'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/circle (4)'))
-
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_'))
 WebUI.scrollToPosition(0, 0)
-
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h3_Create Broadcast'))
+

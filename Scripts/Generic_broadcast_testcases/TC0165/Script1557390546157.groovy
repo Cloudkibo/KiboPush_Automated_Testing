@@ -28,3 +28,5 @@ String audio = RunConfiguration.getProjectDir() + '/audio.mp3'
 upload.sendKeys(audio)
 
 WebUI.delay(10)
+
+WebUI.verifyElementClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))

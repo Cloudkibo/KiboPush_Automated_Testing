@@ -37,7 +37,7 @@ List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="m_form_sta
 
 println(rows_table1.size())
 
-rows_table1[3].click()
+rows_table1[7].click()
 
 WebUI.delay(3)
 

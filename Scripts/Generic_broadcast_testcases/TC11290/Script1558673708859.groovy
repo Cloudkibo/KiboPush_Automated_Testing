@@ -23,7 +23,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_YouTube Video'))
 
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h3_Add Video from YouTube'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Add Video from YouTube'))
 WebUI.delay(2)
 //WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_YouTube Link_form-control'), 
 //    'https://www.youtube.com/watch?v=KhX4CfqRSrI')

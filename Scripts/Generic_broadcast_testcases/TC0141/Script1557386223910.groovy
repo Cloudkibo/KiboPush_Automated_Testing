@@ -19,12 +19,6 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0141-S'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div[2]/div/button[2]'))
-
-println(button.isEnabled())
-
-WebUI.verifyEqual(false, button.isEnabled())
+WebUI.delay(2)
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))
 
