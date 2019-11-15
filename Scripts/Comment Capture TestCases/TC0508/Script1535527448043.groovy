@@ -24,12 +24,15 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Comment Capture/input_form-control'), 'hi')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Comment Capture/input_form-control'), 'test')
 
 WebUI.delay(2)
 
@@ -37,5 +40,5 @@ WebDriver driver = DriverFactory.getWebDriver()
 
 WebElement Table = driver.findElement(By.xpath('//table/tbody/tr[1]/td[1]/span'))
 
-WebUI.verifyEqual(Table.getText(), 'hi')
+WebUI.verifyEqual(Table.getText(), 'test')
 

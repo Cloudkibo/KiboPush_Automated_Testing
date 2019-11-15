@@ -29,16 +29,3 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Comment Capture/a_Edit'))
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement postTextArea = driver.findElement(By.xpath('//*[@id="postTextArea"]'))
-
-WebElement replyTextArea = driver.findElement(By.xpath('//*[@id="replyTextArea"]'))
-
-if (((postTextArea.isEnabled() && replyTextArea.isEnabled()) && (postTextArea.getText() == '')) && (replyTextArea.getText() == 
-'')) {
-    WebUI.verifyEqual('1', '0')
-} else {
-    WebUI.verifyEqual('0', '0')
-}
-
