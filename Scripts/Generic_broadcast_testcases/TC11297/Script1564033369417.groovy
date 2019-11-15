@@ -15,6 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_Link Carousel'))
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h3_Create Carousel using Links'))
+WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Create Carousel using Links'))
 
 WebUI.delay(3)

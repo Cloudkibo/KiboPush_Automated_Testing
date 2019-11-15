@@ -19,5 +19,5 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add Media Component'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Add Media Component'))
 

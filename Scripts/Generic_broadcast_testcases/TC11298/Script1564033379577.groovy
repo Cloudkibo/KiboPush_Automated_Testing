@@ -22,26 +22,27 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11297'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'), 
-    'https://www.dawn.com/news/149609')
-
-WebUI.delay(5)
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'),
+	'https://images.dawn.com/news/118402')
+WebUI.delay(10)
 
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement textBox = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/input"))
-textBox.sendKeys('3')
+WebElement textBox = driver.findElement(By.xpath("//*[@id='singleModal']/div/div/div[2]/div/div[1]/div[1]/div[1]/div[1]/input"))
+textBox.sendKeys('6')
+
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_New card component added'))
+
+
+
+
+
+
 //WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'),
 //	'3')
 
 
 //WebUI.modifyObjectProperty(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'), 'value', 'equals', 'https://www.dawn.com/news/1496093', true)
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_Link is valid'))
-
-WebElement button = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]"))
-
-button.click()
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_New card component added'))
-
-

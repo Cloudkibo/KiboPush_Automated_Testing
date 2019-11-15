@@ -30,10 +30,8 @@ upload.sendKeys(img)
 
 WebUI.delay(10)
 
-WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Subtitle_form-control'), 
-    'Subtitle')
-WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div[2]/div/button[2]'))
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/subtitle'),
+	'subtitle')
 
-println(button.isEnabled())
-
-WebUI.verifyEqual(false, button.isEnabled())
+WebUI.delay(2)
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))

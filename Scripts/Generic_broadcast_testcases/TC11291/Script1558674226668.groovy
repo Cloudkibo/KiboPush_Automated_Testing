@@ -18,12 +18,10 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11290'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebDriver driver = DriverFactory.getWebDriver()
-WebElement input = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[1]/input'))
-
-input.sendKeys('https://www.youtube.com/watch?v=V_bFT_T3f80')
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_YouTube Link_form-control'), 
+    'https://www.youtube.com/watch?v=rZkpCEDIGMo')
 WebUI.delay(20)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_New media component added'))

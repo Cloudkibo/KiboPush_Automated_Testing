@@ -16,14 +16,15 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_Gallery'))
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Gallery'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add Card Component'))
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Add Card Component'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h6_ Add Card'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/a_Card 2'))
 
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h6_ Add Card'))
-WebUI.delay(3)
-//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h6_Card 2'))
-WebUI.verifyTextPresent("Card #2", true)

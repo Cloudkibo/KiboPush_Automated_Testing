@@ -21,22 +21,13 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0145'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
-
-WebUI.delay(2)
-
-//WebUI.executeJavaScript("document.querySelector('body > div:nth-child(13) > div > div:nth-child(2) > div > div:nth-child(4) > div.col-6').scrollTop =400", null)
-
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h7_Add Share button'))
-
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/button_Cancel'))
-
-//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/button_Add'))
-WebUI.delay(2)
-WebDriver driver = DriverFactory.getWebDriver()
-WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div[2]/div/button[2]'))
-
-println(button.isEnabled())
-
-WebUI.verifyEqual(true, button.isEnabled())
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
+//
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Button Title_form-control'),'google')
+//
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h7_Open a website'))
+//
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'),
+	'google.com')
+//
+WebUI.verifyElementClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))

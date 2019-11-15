@@ -20,15 +20,14 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131-S'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/h6_ Add Button (6)'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/h7_Open a website (1)'))
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Button Title_form-control'),'google')
+WebUI.delay(1)
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h7_Open a website'))
+WebUI.delay(1)
 
-WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]'))
-
-println(button.isEnabled())
-
-WebUI.verifyEqual(false, button.isEnabled())
+WebUI.verifyElementClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
 

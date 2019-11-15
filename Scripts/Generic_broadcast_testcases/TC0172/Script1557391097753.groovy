@@ -18,9 +18,4 @@ import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0171-S'), [:], FailureHandling.STOP_ON_FAILURE)
-WebDriver driver = DriverFactory.getWebDriver()
-WebElement button = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]'))
-
-println(button.isEnabled())
-
-WebUI.verifyEqual(false, button.isEnabled())
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))

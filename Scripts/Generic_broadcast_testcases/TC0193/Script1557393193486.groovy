@@ -24,21 +24,23 @@ WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/i_Media_fa fa-penc
 ////WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h7_Add Share button'))
 ////
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_ Add Button'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/input_Button Title_form-control'),
-	'Button 1')
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
+WebUI.delay(1)
 
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Button Title_form-control'),'google')
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/div_Open a website'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h7_Open a website'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'),
-	'gooogle.com')
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'),
+    'google.com')
 
-WebUI.delay(3)
-
-//WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/button_Edit'))
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Add'))
+WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)
 WebUI.verifyTextPresent("TEXT COMPONENT EDITED", false)
 

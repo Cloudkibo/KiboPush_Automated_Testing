@@ -12,15 +12,28 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11298'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(2)
 
-//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/i_Link Carousel_fa fa-pencil-square-o'))
-//WebUI.delay(2)
-//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/h3_Create Carousel using Links'))
-//
-//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/button_Edit'))
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/div_card component edited'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/i_Cancel_fa fa-pencil-square-o'))
+
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'),
+	'https://images.dawn.com/news/118402')
+WebUI.delay(10)
+
+WebDriver driver = DriverFactory.getWebDriver()
+WebElement textBox = driver.findElement(By.xpath("//*[@id='singleModal']/div/div/div[2]/div/div[1]/div[1]/div[1]/div[1]/input"))
+textBox.sendKeys('7')
+
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/div_card component edited'))

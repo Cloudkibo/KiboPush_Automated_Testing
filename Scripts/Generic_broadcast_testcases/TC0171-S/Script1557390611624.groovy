@@ -19,8 +19,9 @@ WebUI.delay(2)
 //WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h6_File'))
 
 WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h5_File'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_Add File Component'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Add File Component'))
 
 WebUI.delay(2)
 

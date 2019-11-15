@@ -21,22 +21,22 @@ import java.text.DateFormat as DateFormat
 import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11297'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebDriver driver = DriverFactory.getWebDriver()
-WebElement textBox1 = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[1]/div[1]/div[1]/div[1]/input"))
-textBox1.sendKeys('https://www.dawn.com/news/149609')
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'),
+	'https://images.dawn.com/news/118402')
+WebUI.delay(10)
 
-WebUI.delay(3)
-textBox1.sendKeys('3')
+WebDriver driver = DriverFactory.getWebDriver()
+WebElement textBox = driver.findElement(By.xpath("//*[@id='singleModal']/div/div/div[2]/div/div[1]/div[1]/div[1]/div[1]/input"))
+textBox.sendKeys('6')
 WebUI.delay(6)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_Link is valid'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/div_Link is valid'))
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/h6_ Add Link'))
-
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h6_ Add Link'))
 WebUI.delay(2)
 
 
-WebElement textBox2 = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[1]/div[2]/div[1]/div[1]/input"))
+WebElement textBox2 = driver.findElement(By.xpath("//*[@id='singleModal']/div/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/input"))
 textBox2.sendKeys('https://www.dawn.com/news/149609')
 
 WebUI.delay(3)
@@ -44,11 +44,9 @@ textBox2.sendKeys('3')
 WebUI.delay(3)
 
 
-WebElement button1 = driver.findElement(By.xpath("/html/body/div[6]/div/div[2]/div/div/div[4]/div/button[2]"))
-
-button1.click()
+WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
 WebUI.scrollToPosition(0, 0)
-
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.verifyTextPresent("NEW GALLERY COMPONENT ADDED", true)
