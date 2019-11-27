@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>&quot;This has no comments&quot; must be shown on zero comments for a post</description>
+   <name>0003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59f8da4a-d726-48a9-88d2-83af97cebc41</testCaseGuid>
+</TestCaseEntity>
