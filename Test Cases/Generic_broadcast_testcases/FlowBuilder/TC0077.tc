@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test adding quick reply with subscribe to sequence action</description>
+   <name>TC0077</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a54654ff-41dd-458c-abdd-bd5ab7c03f0e</testCaseGuid>
+</TestCaseEntity>

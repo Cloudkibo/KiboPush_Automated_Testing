@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove media component</description>
+   <name>TC0062</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c382c01e-a707-4682-9ad5-05c9356da894</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test video validation</description>
+   <name>TC0041</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fa81020d-d3e1-4946-baac-1c611f80f008</testCaseGuid>
+</TestCaseEntity>

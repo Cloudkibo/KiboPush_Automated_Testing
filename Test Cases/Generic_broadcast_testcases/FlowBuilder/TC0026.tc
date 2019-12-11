@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test upload card image</description>
+   <name>TC0026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>87ac96ea-38a6-427f-afe8-00d20b6689f9</testCaseGuid>
+</TestCaseEntity>

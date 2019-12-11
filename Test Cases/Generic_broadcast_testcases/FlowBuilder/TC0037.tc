@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test audio validation</description>
+   <name>TC0037</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08a453a9-52f7-4288-8b5c-0ca15ee2f2c7</testCaseGuid>
+</TestCaseEntity>

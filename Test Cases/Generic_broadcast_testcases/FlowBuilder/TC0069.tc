@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test editing article link</description>
+   <name>TC0069</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>244575ea-ea0f-4391-8e81-8d1aede2a8c2</testCaseGuid>
+</TestCaseEntity>

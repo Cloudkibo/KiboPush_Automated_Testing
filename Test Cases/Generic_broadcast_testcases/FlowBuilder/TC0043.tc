@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test send video component</description>
+   <name>TC0043</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fbd4d57e-4f51-48c2-a2cc-cf2b9adbacad</testCaseGuid>
+</TestCaseEntity>

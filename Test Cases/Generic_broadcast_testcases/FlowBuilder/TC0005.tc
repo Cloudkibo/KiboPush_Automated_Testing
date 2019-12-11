@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete Starting Block</description>
+   <name>TC0005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e74582ab-24ea-472b-a267-b66dc349a5ef</testCaseGuid>
+</TestCaseEntity>

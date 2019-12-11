@@ -4,6 +4,12 @@
    <name>button_ Add Quick Reply (1)</name>
    <tag></tag>
    <elementGuidId>471c7ba3-7640-4bc2-8551-2a15ae42898e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[(text() = '+ Add Quick Reply' or . = '+ Add Quick Reply')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,7 +20,7 @@
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

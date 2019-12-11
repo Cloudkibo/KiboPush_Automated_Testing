@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Previous Button - Basic Builder</description>
+   <name>TC0002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cb8c887a-c86d-4b4f-9c7c-75a178172764</testCaseGuid>
+</TestCaseEntity>

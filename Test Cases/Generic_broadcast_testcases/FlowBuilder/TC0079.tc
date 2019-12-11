@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test adding quick reply with assign tag action</description>
+   <name>TC0079</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d7dd735-76a5-42ba-be73-59c9a4128f45</testCaseGuid>
+</TestCaseEntity>
