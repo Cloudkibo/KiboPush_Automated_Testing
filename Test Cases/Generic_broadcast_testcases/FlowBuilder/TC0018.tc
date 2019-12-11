@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test send text component with button</description>
+   <name>TC0018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>803e43fd-970d-405c-b5d1-4582cf0c5cf9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test adding quick reply with unassign tag action</description>
+   <name>TC0080</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>997497d1-02f9-4f61-b913-357ca9540135</testCaseGuid>
+</TestCaseEntity>

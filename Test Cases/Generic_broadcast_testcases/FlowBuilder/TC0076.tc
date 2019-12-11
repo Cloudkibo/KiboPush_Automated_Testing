@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test adding quick reply with send new message action</description>
+   <name>TC0076</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8f4e936-4d5f-4a57-8a82-9fe227890f95</testCaseGuid>
+</TestCaseEntity>

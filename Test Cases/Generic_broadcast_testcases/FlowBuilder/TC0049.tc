@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test send file component</description>
+   <name>TC0049</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a266800c-30be-48d9-be59-a5fb79b0d0a5</testCaseGuid>
+</TestCaseEntity>

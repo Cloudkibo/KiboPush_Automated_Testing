@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add Links Carousel component</description>
+   <name>TC0065</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b57a0034-2ee4-485b-8165-228d8e1f5cfe</testCaseGuid>
+</TestCaseEntity>

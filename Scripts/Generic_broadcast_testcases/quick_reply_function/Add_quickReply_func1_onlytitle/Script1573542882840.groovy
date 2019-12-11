@@ -17,7 +17,7 @@ WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create
 
 WebUI.setText(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/input_Upload Image_form-control (1)'),
 	'zindgi')
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_Save (1)'))
 
