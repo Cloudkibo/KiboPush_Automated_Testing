@@ -19,7 +19,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/FlowBuilder/TC0020'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0141-S'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/FlowBuilder/TC0020'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
