@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Apply Filter on Comments</description>
+   <name>0022</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a11d6c2-e550-49f3-8a8d-6949446d9b51</testCaseGuid>
+</TestCaseEntity>
