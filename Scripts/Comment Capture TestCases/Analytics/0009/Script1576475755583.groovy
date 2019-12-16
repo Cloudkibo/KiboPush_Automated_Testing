@@ -24,29 +24,8 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment 
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/input_To_form-control'),
-	'zameen')
-
+WebUI.setText(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/input_To_form-control'), 
+    'zameen')
 WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/button_View'))
-
-WebUI.scrollToPosition(0, 0)
-WebUI.delay(2)
-
-
-WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/h3_Title  zameen'))
-WebUI.delay(1)
-
-//WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/a_httpsfacebookcom2090553931018635_31269196_e99dd9'))
-
-
-//WebUI.switchToWindowUrl('https://www.facebook.com/permalink.php?story_fbid=3126919677382050&id=2090553931018635')
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_Test5 - demo post  Facebook/p_demo post'))
-//
-//WebUI.switchToWindowUrl('https://kiboengage.cloudkibo.com/PostResult')
-//WebUI.delay(2)
-
+WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/span_zameen'))
 

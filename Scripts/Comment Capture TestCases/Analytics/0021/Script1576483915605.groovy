@@ -16,27 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('Invite subscribers/open growth tools'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Comment Capture TestCases/Analytics/0018'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Comment capture'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.delay(3)
-
-WebUI.setText(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/input_To_form-control'),
-	'zameen')
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/button_View'))
-
-WebUI.scrollToPosition(0, 0)
+WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/a_Show More Posts'))
 WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/p_arveenkumar55 tweetedAutopost from twitte_92bedd'))
 
-
-WebUI.click(findTestObject('Object Repository/comment_capture_Analytics/Page_KiboEngage  Comment Capture/h3_Title  zameen'))
-WebUI.delay(1)
-
-WebUI.verifyTextPresent('Wed Nov 27 2019 3:19 PM'
-, true)
