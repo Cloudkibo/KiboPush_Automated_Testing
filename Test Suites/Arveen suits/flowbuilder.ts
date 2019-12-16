@@ -11,16 +11,16 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>012637bf-6b01-409c-9e9b-e795e1943944</testSuiteGuid>
    <testCaseLink>
-      <guid>dada6a70-5984-4097-b31d-da80441ca653</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/open_broadcast</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>bbf0f9bd-be4f-4f41-b0e4-242908400638</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dada6a70-5984-4097-b31d-da80441ca653</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/open_broadcast</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>445c4444-b325-4d12-b3db-2b4e1ddd91f3</guid>

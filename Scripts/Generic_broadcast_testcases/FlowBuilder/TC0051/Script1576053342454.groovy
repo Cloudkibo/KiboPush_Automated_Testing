@@ -31,7 +31,9 @@ String video = RunConfiguration.getProjectDir() + '/video.mp4'
 upload.sendKeys(video)
 
 WebUI.delay(20)
-
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New media component added'))
 
