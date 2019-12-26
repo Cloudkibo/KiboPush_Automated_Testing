@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Getting a contact from HubSpot (must have info in hubspot for this test)</description>
+   <name>TC0003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5d271b2-f93d-4289-999e-634163ac7272</testCaseGuid>
+</TestCaseEntity>

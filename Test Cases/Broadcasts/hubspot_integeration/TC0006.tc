@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>arveen_staging_login_kiboengage</name>
+   <name>TC0006</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>4c15e4f2-8348-4f7b-9178-2d903eea9f26</testCaseGuid>
+   <testCaseGuid>32983ba3-b475-4967-9012-36bb45fccdfb</testCaseGuid>
 </TestCaseEntity>
