@@ -17,4 +17,11 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Smart Re
 
 WebUI.click(findTestObject('Object Repository/smart_replies/Page_KiboChat  Bots/a_video tutorial'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/smart_replies/Page_KiboChat  Bots/h5_Dashboard Video Tutorial'), 1)
+WebUI.verifyElementPresent(findTestObject('Object Repository/smart_replies/Page_KiboChat  Bots/h5_Dashboard Video Tutorial'), 
+    1)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/smart_replies/Page_KiboChat  Bots/button_close_videomodal'))
+
+WebUI.delay(2)

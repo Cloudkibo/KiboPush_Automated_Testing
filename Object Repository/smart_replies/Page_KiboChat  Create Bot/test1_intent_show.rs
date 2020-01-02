@@ -4,6 +4,12 @@
    <name>test1_intent_show</name>
    <tag></tag>
    <elementGuidId>03d4e673-e0e5-40ee-a5a4-b88f7591a128</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;collapse_5e0c425ab1ea110b9bc2ef96&quot;)/div[@class=&quot;card-body&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;collapse_5e0b37c7e551e4327ac96fa0&quot;)/div[@class=&quot;card-body&quot;]</value>
+      <value>id(&quot;collapse_5e0c425ab1ea110b9bc2ef96&quot;)/div[@class=&quot;card-body&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

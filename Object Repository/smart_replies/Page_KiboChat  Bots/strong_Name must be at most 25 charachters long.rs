@@ -4,6 +4,12 @@
    <name>strong_Name must be at most 25 charachters long</name>
    <tag></tag>
    <elementGuidId>81df334d-3e9a-4223-b43f-9a086bb45e18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//strong[(text() = 'Please enter a valid name (Name must be at most 25 charachters long)' or . = 'Please enter a valid name (Name must be at most 25 charachters long)')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,7 +24,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Name must be at most 25 charachters long</value>
+      <value>Please enter a valid name (Name must be at most 25 charachters long)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
