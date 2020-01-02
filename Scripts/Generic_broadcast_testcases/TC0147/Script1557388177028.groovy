@@ -29,5 +29,5 @@ WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_Kibo
 
 WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'),
 	'google.com')
-
+WebUI.delay(4)
 WebUI.verifyElementClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))

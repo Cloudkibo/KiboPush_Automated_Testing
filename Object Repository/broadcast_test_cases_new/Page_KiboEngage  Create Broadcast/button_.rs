@@ -6,15 +6,15 @@
    <elementGuidId>9b669e62-a387-4076-8cd9-f1fce019482f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and @class = 'close' and @aria-label = 'Close']</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;singleModal&quot;]/div/div/div[1]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;singleModal&quot;]/div/div/div[2]/button</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @class = 'close' and @aria-label = 'Close' and (text() = '×' or . = '×')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <value>Close</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
