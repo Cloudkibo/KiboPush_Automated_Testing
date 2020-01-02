@@ -6,12 +6,12 @@
    <elementGuidId>6c267941-b021-4b42-9bf9-784c2b4ac608</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;List1&quot;)/div[@class=&quot;draggable&quot;]/div[@class=&quot;broadcast-component&quot;]/i[@class=&quot;fa fa-pencil-square-o&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;tab_1&quot;]/div/div/div/div/div/div/div/div[2]/div/div/div[1]/div/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;tab_1&quot;]/div/div[3]/div/div/div/div/div/div[2]/div[5]/div/div[1]/div/i</value>
+         <key>BASIC</key>
+         <value>id(&quot;List1&quot;)/div[@class=&quot;draggable&quot;]/div[@class=&quot;broadcast-component&quot;]/i[@class=&quot;fa fa-pencil-square-o&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

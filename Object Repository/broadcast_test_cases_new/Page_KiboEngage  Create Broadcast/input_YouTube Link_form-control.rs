@@ -4,6 +4,12 @@
    <name>input_YouTube Link_form-control</name>
    <tag></tag>
    <elementGuidId>538bf60a-b17c-4799-b57b-3467b1d1ae51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;singleModal&quot;]/div/div/div[2]/div/div[1]/div/div[1]/div/input</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;singleModal&quot;)/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-6&quot;]/input[@class=&quot;form-control&quot;]</value>
+      <value>//*[@id=&quot;singleModal&quot;]/div/div/div[2]/div/div[1]/div/div[1]/div/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
