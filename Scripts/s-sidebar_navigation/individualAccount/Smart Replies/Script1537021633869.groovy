@@ -31,4 +31,3 @@ WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Manage Bots'))
-

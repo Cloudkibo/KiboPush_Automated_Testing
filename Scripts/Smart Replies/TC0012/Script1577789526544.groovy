@@ -30,14 +30,16 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Smart Replies'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Object Repository/smart_replies/Page_KiboChat  Bots/input_Create New_form-control m-input m-input--solid (1)'), 
     'paper')
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/smart_replies/Page_KiboChat  Bots/select_Filter by PagesProduction newUnofficial 5Unofficial 4Unofficial 2Unofficial 1Unofficial 3All'), 
     '5c89f19885bb2a67e0a149cf', true)
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/smart_replies/Page_KiboChat  Bots/h4_Papertrail'), 1)

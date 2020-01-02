@@ -18,3 +18,5 @@ WebUI.callTestCase(findTestCase('Smart Replies/TC0025'), [:], FailureHandling.ST
 WebUI.delay(2)
 
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/smart_replies/Page_KiboChat  Create Bot/button_Save_intent_name'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2)
