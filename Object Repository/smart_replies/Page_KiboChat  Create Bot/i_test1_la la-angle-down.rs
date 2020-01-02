@@ -4,6 +4,12 @@
    <name>i_test1_la la-angle-down</name>
    <tag></tag>
    <elementGuidId>2a5b5bd2-e4b5-4c48-8c63-a06603486810</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;heading5e0c425ab1ea110b9bc2ef96&quot;)/h4[@class=&quot;mb-0&quot;]/div[@class=&quot;btn pull-right&quot;]/i[@class=&quot;la la-angle-down&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;heading5e0b37c7e551e4327ac96fa0&quot;)/h4[@class=&quot;mb-0&quot;]/div[@class=&quot;btn pull-right&quot;]/i[@class=&quot;la la-angle-down&quot;]</value>
+      <value>id(&quot;heading5e0c425ab1ea110b9bc2ef96&quot;)/h4[@class=&quot;mb-0&quot;]/div[@class=&quot;btn pull-right&quot;]/i[@class=&quot;la la-angle-down&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
