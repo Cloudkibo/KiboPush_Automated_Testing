@@ -19,5 +19,6 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/FlowBuilder/TC0064'
 WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'),
 	'https://www.dawn.com/new')
 
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/div_Please enter a valid article link'))
+WebUI.delay(5)
+
+WebUI.verifyTextPresent('Invalid website link', true)

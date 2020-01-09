@@ -6,11 +6,11 @@
    <elementGuidId>3a76acff-72ec-4f9d-888a-d81e48eac5de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;addFeed&quot;]/div/div/div[1]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[5]/div/div[2]/div/a</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

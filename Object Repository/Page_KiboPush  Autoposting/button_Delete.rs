@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[5]/div/div[2]/div/button</value>
+         <value>//*[@id=&quot;deleteFeed&quot;]/div/div/div[2]/button</value>
       </entry>
       <entry>
          <key>BASIC</key>

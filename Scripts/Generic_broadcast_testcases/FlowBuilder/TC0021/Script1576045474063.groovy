@@ -46,7 +46,7 @@ WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_Ki
 	'google.com')
 
 WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/button_Cancel'))
+//WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/button_Cancel'))
 
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))
 WebUI.scrollToPosition(0, 0)

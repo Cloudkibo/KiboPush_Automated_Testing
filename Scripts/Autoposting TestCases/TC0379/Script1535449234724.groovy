@@ -24,7 +24,7 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autoposting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Add Feed'))
-
+WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Facebook'))
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/button_Add Facebook Feed'))
 
 WebUI.delay(2)

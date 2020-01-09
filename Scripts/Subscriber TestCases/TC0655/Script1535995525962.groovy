@@ -33,7 +33,7 @@ WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[3]/div[2]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/div/div[2]/select/option'))
+List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[4]/div[4]/div[2]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/div/div[2]/select/option'))
 
 println(rows_table1.size())
 

@@ -11,9 +11,30 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[@href = 'http://kibopush.com/auto-posting/' and (text() = 'documentation' or . = 'documentation')]</value>
+         <value>//a[(text() = 'documentation' or . = 'documentation') and @href = 'https://kibopush.com/autoposting/']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>documentation</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://kibopush.com/autoposting/</value>
+   </webElementProperties>
 </WebElementEntity>

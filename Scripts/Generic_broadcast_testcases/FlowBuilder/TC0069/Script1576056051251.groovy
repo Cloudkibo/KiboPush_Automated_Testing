@@ -26,6 +26,8 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/edit_module_button'))
 
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/i_Cancel_fa fa-pencil-square-o'))
+
 WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Create Carousel using Links_form-control'),
 	'https://images.dawn.com/news/118402')
 WebUI.delay(10)
@@ -38,4 +40,5 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/div_card component edited'))
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Broadcast/Page_KiboEngage  Create Broadcast/div_card component edited'))
+WebUI.verifyTextPresent("LINKS CAROUSEL COMPONENT EDITED", true)

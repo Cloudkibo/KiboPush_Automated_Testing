@@ -4,6 +4,12 @@
    <name>h4_Guidelines for integrating</name>
    <tag></tag>
    <elementGuidId>302b8a93-0f4e-40a0-b6b4-04a4c5d47f79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Guidelines for integrating WordPress blogs' or . = 'Guidelines for integrating WordPress blogs')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

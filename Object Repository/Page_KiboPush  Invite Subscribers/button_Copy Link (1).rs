@@ -6,12 +6,12 @@
    <elementGuidId>b2c1683c-e595-4d88-8f32-be4c0a7378a9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@type = 'button' and (text() = 'Copy Link' or . = 'Copy Link')]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;content&quot;]/div/div/div/div[2]/div[3]/div[2]/div/div[2]/div[2]/div/form/div/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;content&quot;]/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/form/div/button</value>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Copy Link' or . = 'Copy Link')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

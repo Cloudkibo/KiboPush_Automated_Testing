@@ -25,6 +25,7 @@ WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control m-in
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Back (1) (1)'))
 
+WebUI.delay(2)
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting (1)'))

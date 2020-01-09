@@ -29,7 +29,7 @@ WebUI.delay(2)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement model = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/a'))
+WebElement model = driver.findElement(By.xpath('//*[@id="messengerModal"]/div/div/div[1]/button'))
 
 model.click()
 
@@ -46,19 +46,19 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting (1)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
-
-
-WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+//
+//
+//WebUI.delay(2)
 
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/a_'))
 
 WebUI.delay(3)
 
-//WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Delete'))
+WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Delete'))
 //
-WebElement delete_model = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/button'))
-
-delete_model.click()
-WebUI.delay(2)
+//WebElement delete_model = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/button'))
+//
+//delete_model.click()
+//WebUI.delay(2)

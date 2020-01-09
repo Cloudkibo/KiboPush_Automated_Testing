@@ -43,16 +43,16 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
-
-WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+//
+//WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Feed Settings'))
 
 WebUI.delay(2)
 
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement oRadioButton = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[2]/div[3]/div/form/div[1]/div[7]/div[2]/div[2]/div/label[2]/input"))
+WebElement oRadioButton = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[2]/div[4]/div/form/div[1]/div[7]/div[2]/div[2]/div/label[2]/input"))
 
 Actions actions = new Actions(driver);
 
@@ -61,11 +61,11 @@ actions.moveToElement(oRadioButton).click().perform();
 WebUI.delay(2)
 
 
-List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div/form/div[1]/div[7]/div[2]/div[2]/div/div/select/option'))
+List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[4]/div/form/div[1]/div[7]/div[2]/div[2]/div/div/select/option'))
  
  println(rows_table1.size())
  
- rows_table1[5].click()
+ rows_table1[6].click()
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Item Settings/label_You are not subscribed to selected page In order to receive approval messages you need to become a subscriber'))
 

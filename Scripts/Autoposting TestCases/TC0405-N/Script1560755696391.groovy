@@ -25,7 +25,7 @@ import org.openqa.selenium.interactions.Actions;
 WebUI.callTestCase(findTestCase('Autoposting TestCases/TC0404-N'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
-WebElement oRadioButton = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[2]/div[3]/div/form/div[1]/div[3]/div[2]/div[2]/div/label[2]/input"))
+WebElement oRadioButton = driver.findElement(By.xpath("//*[@id='content']/div/div/div/div[2]/div[4]/div/form/div[1]/div[3]/div[2]/div[2]/div/label[2]/input"))
 
 Actions actions = new Actions(driver);
 
@@ -45,9 +45,9 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting (1)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
-
-WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+//
+//WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/i_la la-gear (3)'))
 
@@ -55,9 +55,9 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
-
-WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+//
+//WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Feed Settings'))
 

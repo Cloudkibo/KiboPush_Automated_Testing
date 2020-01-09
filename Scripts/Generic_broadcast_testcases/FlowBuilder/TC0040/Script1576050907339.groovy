@@ -22,8 +22,10 @@ WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_Kibo
 
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_ Add YouTube Video Component'))
 
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Add Video from YouTube'))
+WebUI.verifyTextPresent('YouTube video', true)
 WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Add Video from YouTube'))
+//WebUI.delay(2)
 //WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_ Add File Component'))
 //
 //WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_ Add Media Component'))

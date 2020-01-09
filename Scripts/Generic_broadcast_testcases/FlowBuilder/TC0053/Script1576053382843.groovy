@@ -49,5 +49,4 @@ WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/div_New media component added'))
-
 WebUI.delay(1)

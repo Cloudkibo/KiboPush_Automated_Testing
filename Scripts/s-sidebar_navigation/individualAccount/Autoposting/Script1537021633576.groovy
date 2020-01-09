@@ -33,6 +33,6 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
-
-WebUI.delay(5)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+//
+//WebUI.delay(5)

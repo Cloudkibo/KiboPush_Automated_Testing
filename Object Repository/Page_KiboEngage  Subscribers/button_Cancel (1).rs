@@ -6,12 +6,12 @@
    <elementGuidId>0e38c45d-6eec-45aa-8d72-f57c358c39b5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = 'Cancel' or . = 'Cancel')]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;deleteTag&quot;]/div/div/div[2]/button[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[6]/div/div[2]/div/button[2]</value>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Cancel' or . = 'Cancel')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

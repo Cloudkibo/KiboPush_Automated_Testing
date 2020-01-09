@@ -33,9 +33,9 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
-
-WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+//
+//WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Feed Settings'))
 
@@ -53,10 +53,10 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting (1)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
-
-
-WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Autoposting/button_User Guide_close'))
+//
+//
+//WebUI.delay(2)
 
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/a_'))

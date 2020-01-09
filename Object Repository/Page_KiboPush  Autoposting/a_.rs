@@ -4,7 +4,17 @@
    <name>a_</name>
    <tag></tag>
    <elementGuidId>dcac4519-125b-4593-a3cb-90e377bc4a63</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;content&quot;]/div/div/div/div[2]/div[8]/div[3]/div[2]/div[3]/div/div/div[2]/div/span[2]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = '  ' or . = '  ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

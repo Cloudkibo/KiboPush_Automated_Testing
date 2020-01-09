@@ -39,11 +39,11 @@ WebUI.delay(2)
 
 
 WebElement textBox2 = driver.findElement(By.xpath("//*[@id='singleModal']/div/div/div[2]/div/div[1]/div[2]/div[1]/div[1]/input"))
-textBox2.sendKeys('https://www.dawn.com/news/149609')
+textBox2.sendKeys('https://www.google.com')
 
 WebUI.delay(3)
-textBox2.sendKeys('3')
-WebUI.delay(3)
+//textBox2.sendKeys('3')
+//WebUI.delay(3)
 
 
 WebUI.delay(3)
@@ -51,4 +51,4 @@ WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_Kibo
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)
 
-WebUI.verifyTextPresent("NEW GALLERY COMPONENT ADDED", true)
+WebUI.verifyTextPresent('NEW LINKS CAROUSEL COMPONENT ADDED', true)
