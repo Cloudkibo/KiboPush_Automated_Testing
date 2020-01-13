@@ -11,7 +11,8 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='singleModal']/div/div/div[2]/div/div[4]/div/button[2]</value>
+         <value>//div[@id='singleModal']/div/div/div[2]/div/div[4]/div/button[2]
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -30,7 +30,7 @@ String video = RunConfiguration.getProjectDir() + '/video.mp4'
 
 upload.sendKeys(video)
 
-WebUI.delay(10)
+WebUI.delay(20)
 
 
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
@@ -44,6 +44,8 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'),
 	'google.com')
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)
