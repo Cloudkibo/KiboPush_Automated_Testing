@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test text validation</description>
+   <name>TC0004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>305e8ed0-e6d6-47cf-846b-638c633a2aa7</testCaseGuid>
+</TestCaseEntity>
