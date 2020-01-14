@@ -4,10 +4,16 @@
    <name>h5_Add Text Component</name>
    <tag></tag>
    <elementGuidId>4f09eedc-cee8-4762-9fff-e6d26ff72252</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[@id = 'exampleModalLabel' and (text() = 'Add Text Component' or . = 'Add Text Component')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
