@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test reply type validation</description>
+   <name>TC0005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfdae5f5-145a-4335-b8a7-b9bba1a1531c</testCaseGuid>
+</TestCaseEntity>
