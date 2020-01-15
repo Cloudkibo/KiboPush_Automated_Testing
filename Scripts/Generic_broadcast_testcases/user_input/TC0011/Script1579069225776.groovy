@@ -16,21 +16,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('Broadcasts/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast'))
-//
-//WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Broadcast/button_Create New Broadcast'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/h3_Create Broadcast'))
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/user_input/TC0002'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/div_testing'))
 
-WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/h5_User Input'))
+WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/i_User Input_fa fa-times fa-stack-2x'))
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/h5_User Input_1'))
-
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+WebUI.verifyElementNotVisible(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/div_testing'))

@@ -22,11 +22,15 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/user_input/TC0001'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/textarea_Question 1 for User_form-control'), 
-    'testing')
+WebUI.setText(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/textarea_Question 1 for User_form-control (1)'), 
+    'g')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/select_Select a Reply TypeTextNumberEmailPh_d1a2b6'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/select_Select a Reply TypeTextNumberEmailPh_d1a2b6 (1)'), 
     'text', true)
+
+WebUI.setText(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/textarea_Please enter some valid text'), 
+    '')
+
 
 WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/h6_ Add Action'))
 
@@ -35,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create
 WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/h6_Assign User Responses to Custom Fields'))
 
 WebUI.delay(5)
-//WebUI.selectOptionByValue(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/select_Select a Custom Fieldcitydobfefe'), 
+//WebUI.selectOptionByValue(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/select_Select a Custom Fieldcitydobfefe'),
 //    '5c7e527d90c12d2af1a2a8fc', true)
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -47,7 +51,6 @@ List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="ActionModa
 
 WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/user_input/Page_KiboEngage  Create Broadcast/div_New User Input component added'))
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
 

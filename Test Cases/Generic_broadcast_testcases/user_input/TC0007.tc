@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Retry Message validation</description>
+   <name>TC0007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34539b4e-dcae-413d-84a9-f3e4f57ec99b</testCaseGuid>
+</TestCaseEntity>
