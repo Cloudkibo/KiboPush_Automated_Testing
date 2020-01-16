@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test default values in settings</description>
-   <name>0007</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6cdd6be4-021e-46cb-abc8-e298a0c15462</testCaseGuid>
-</TestCaseEntity>

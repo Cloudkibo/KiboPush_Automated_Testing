@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test Add RSS Feed with empty url</description>
-   <name>0001</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>fa9d1916-615e-46c4-ad0d-e186082c9e3a</testCaseGuid>
-</TestCaseEntity>
