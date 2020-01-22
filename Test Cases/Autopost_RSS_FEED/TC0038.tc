@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete Feed</description>
+   <name>TC0038</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1e3d9ef5-de15-41bd-a7c2-3feb95c46166</testCaseGuid>
+</TestCaseEntity>
