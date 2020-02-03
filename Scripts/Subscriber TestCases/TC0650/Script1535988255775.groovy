@@ -30,7 +30,7 @@ WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+WebElement Table = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[2]/div[4]/div[2]/div/div/div[2]/div/div[2]/table/tbody'))
 
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 

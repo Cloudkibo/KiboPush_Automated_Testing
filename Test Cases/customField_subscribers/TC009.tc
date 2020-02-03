@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>custom fields documentation link</description>
+   <name>TC009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0b57a5d-b984-418e-a642-ccaa22170015</testCaseGuid>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Test cancel delete tag</description>
-   <name>TC0669</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>8bd2b28b-bcb4-4385-a636-8b5e3b3aed23</testCaseGuid>
-</TestCaseEntity>

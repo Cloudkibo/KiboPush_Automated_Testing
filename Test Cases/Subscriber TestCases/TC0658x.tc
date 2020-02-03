@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test stacked filter</description>
+   <name>TC0658x</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4dc8e97e-e39f-42de-80a9-bc2023da2aab</testCaseGuid>
+</TestCaseEntity>

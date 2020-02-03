@@ -18,16 +18,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(2)
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Subscribers/input_generalSearch'), 'Arveen')
-WebUI.delay(15)
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/span_Arveen Maheshwari'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Subscribers/button_'))
+WebUI.callTestCase(findTestCase('Subscriber TestCases/TC0670'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToPosition(0, 0)
 

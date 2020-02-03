@@ -17,6 +17,12 @@
       <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>24f23cad-61ff-4c40-8945-9786c697d8b8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Subscriber TestCases/open_sidebar</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>9edf1479-5d4a-47c7-ac9e-dce5311560b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -67,7 +73,7 @@
    <testCaseLink>
       <guid>fa5fcde5-0da0-4782-bcff-efc72283bad8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Subscriber TestCases/TC0657</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -80,7 +86,7 @@
       <guid>10e4f9b5-d3b6-4e30-8418-d1653a2b3dc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Subscriber TestCases/TC0659</testCaseId>
+      <testCaseId>Test Cases/Subscriber TestCases/TC0658x</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d54faebd-8253-42a1-ac25-0231742e14cc</guid>
@@ -89,40 +95,10 @@
       <testCaseId>Test Cases/Subscriber TestCases/TC0660</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb0502ae-ddce-4243-a724-5391d621c35a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Subscriber TestCases/TC0666</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>221c19c7-90e7-419e-927a-8f219a0417d2</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Subscriber TestCases/TC0667</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>96b03af7-7a2d-4d3c-8052-c00e0a4f0013</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Subscriber TestCases/TC0668</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>baeede71-3222-4617-bf19-27e5343668c3</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Subscriber TestCases/TC0669</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e17d2931-39ec-4575-8e55-be096d83bff1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Subscriber TestCases/TC0670</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>6fed77b8-dd11-4aed-b43e-030bcdc3b667</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Subscriber TestCases/TC0672</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>92177d53-fee8-4fc2-a167-d63c230973d0</guid>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cancel delete existing tag</description>
+   <name>TC005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d466638a-5cb7-4c88-b9e7-b0ed3799e17c</testCaseGuid>
+</TestCaseEntity>

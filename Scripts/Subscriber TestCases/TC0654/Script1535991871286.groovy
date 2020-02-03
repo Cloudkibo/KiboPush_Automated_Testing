@@ -23,21 +23,22 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Subscribers/select_Filter by Gender...AllM'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/subscribers/Page_KiboEngage  Subscribers/select_Filter by GenderAllMaleFemaleOther'), 
     'male', true)
-
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[2]/div[4]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr'))
 
-List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+println(rows_table.size())
 
-int size = rows_table.size()
-
-WebUI.verifyGreaterThanOrEqual(size, 1)
+WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)
 
