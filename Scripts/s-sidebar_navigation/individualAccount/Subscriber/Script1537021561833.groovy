@@ -21,21 +21,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
 
+
+WebUI.click(findTestObject('Object Repository/subscribers/Page_KiboEngage  Dashboard/span_Custom Fields'))
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboPush  Subscribers/span_Subscribers (5)'))
-
-WebUI.scrollToPosition(0, 0)
-
+WebUI.click(findTestObject('Object Repository/subscribers/Page_KiboEngage  Custom Fields/span_Subscribers'))
 WebUI.delay(2)
 
-//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/button_As per the New Facebook Policy you will not be able to send messages to your subscribers_close'))
-//
-//WebUI.delay(2)
-
-
-WebUI.click(findTestObject('Page_KiboPush  Subscribers/h3_Manage Subscribers (1)'))
+WebUI.click(findTestObject('Object Repository/subscribers/Page_KiboEngage  Subscribers/h3_Manage Subscribers'))
 WebUI.delay(2)
 

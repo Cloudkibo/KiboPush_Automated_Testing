@@ -29,7 +29,6 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/a_next (1)'))
@@ -38,7 +37,7 @@ WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-List<WebElement> rows_table = driver.findElements(By.xpath('//table/tbody/tr'))
+List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[2]/div[4]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr'))
 
 println(rows_table.size())
 

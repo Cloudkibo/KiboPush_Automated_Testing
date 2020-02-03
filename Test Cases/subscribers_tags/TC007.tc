@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tags documentation link</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e6d060e-617a-4b0e-a954-739bfd4b58fd</testCaseGuid>
+</TestCaseEntity>

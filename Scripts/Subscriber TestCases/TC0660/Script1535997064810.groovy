@@ -23,29 +23,29 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Object Repository/subscribers/Page_KiboEngage  Subscribers/input_Filters_generalSearch'), 
+    'Maheshwari')
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[4]/div[4]/div[2]/div/div/div[2]/div/div[1]/div/div/div[1]/div[2]/div/div[2]/select/option'))
+List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[2]/div[4]/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr'))
 
-println(rows_table1.size())
+println(rows_table.size())
 
-rows_table1[2].click()
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Subscribers/input_generalSearch'), 'Arveen')
-
-WebUI.delay(15)
-
-WebElement Table = driver.findElement(By.xpath('//table/tbody'))
-
-List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
-
-int size = rows_table.size()
-
-WebUI.verifyGreaterThanOrEqual(size, 1)
-
+WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)
