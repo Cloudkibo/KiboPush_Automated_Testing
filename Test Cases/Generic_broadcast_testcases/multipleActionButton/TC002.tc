@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select one of the actions</description>
+   <name>TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cab80ce9-be5d-4583-8e4a-2317db269781</testCaseGuid>
+</TestCaseEntity>

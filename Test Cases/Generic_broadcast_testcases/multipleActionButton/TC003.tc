@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test open with website or webview</description>
+   <name>TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>271a84b4-87c1-442f-9b77-065a19e5c04b</testCaseGuid>
+</TestCaseEntity>

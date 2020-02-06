@@ -12,7 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -23,27 +24,19 @@ WebUI.click(findTestObject('Page_KiboEngage  Create Broadcast/i_Media_fa fa-penc
 ////WebUI.delay(2)
 ////WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/Page_KiboEngage  Create Broadcast/h7_Add Share button'))
 ////
-
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h6_ Add Button'))
-WebUI.delay(1)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/button_action_function'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Button Title_form-control'),'google')
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h7_Open a website'))
-WebUI.delay(1)
-
-WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_Open Website_form-control'),
-    'google.com')
-
-WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
-WebUI.scrollToPosition(0, 0)
-WebUI.delay(1)
-WebUI.verifyTextPresent("TEXT COMPONENT EDITED", false)
 
 WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(1)
+
+WebUI.verifyTextPresent('TEXT COMPONENT EDITED', false)
+
+WebUI.scrollToPosition(0, 0)
+
 WebUI.delay(2)
 
