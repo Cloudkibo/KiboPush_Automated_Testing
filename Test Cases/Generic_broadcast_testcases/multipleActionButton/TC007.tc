@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add Reply with Message Action</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6cf31e4-99c6-48cc-a873-241b3dd794f3</testCaseGuid>
+</TestCaseEntity>
