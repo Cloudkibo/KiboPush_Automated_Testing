@@ -4,10 +4,16 @@
    <name>select_Filter by SourceAllDirect MessagePho_0991bb</name>
    <tag></tag>
    <elementGuidId>4ad383a2-d00c-4516-8010-8fd4a5a33099</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[@id = 'm_form_status' and (text() = 'Filter by Source...AllDirect MessagePhone NumberChat PluginShopify' or . = 'Filter by Source...AllDirect MessagePhone NumberChat PluginShopify')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
