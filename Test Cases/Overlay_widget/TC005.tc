@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>List the created widgets</description>
+   <name>TC005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59613637-7960-4d67-9eeb-5ce844b2d749</testCaseGuid>
+</TestCaseEntity>

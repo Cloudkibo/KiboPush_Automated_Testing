@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>create modal overlay widget</description>
+   <name>TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e6480608-3a27-485f-83df-94ff7543d095</testCaseGuid>
+</TestCaseEntity>
