@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Edit button should let edit the widget</description>
+   <name>TC006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc03c1ff-45c2-4fd0-8dd2-d39505ba1d7f</testCaseGuid>
+</TestCaseEntity>

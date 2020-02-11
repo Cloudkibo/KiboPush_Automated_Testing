@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Setup for overlay widget to get the installation code</description>
+   <name>TC009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f76cff36-9b80-4c16-a529-4acab72f896b</testCaseGuid>
+</TestCaseEntity>

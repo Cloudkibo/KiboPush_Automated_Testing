@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Delete button should let delete the widgets</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea6b73e3-5097-4fec-a7f2-15c6f5c923fe</testCaseGuid>
+</TestCaseEntity>
