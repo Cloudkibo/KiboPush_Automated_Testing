@@ -14,23 +14,33 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Broadcasts/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast'))
+//
+//WebUI.click(findTestObject('Object Repository/quickreplies/Page_KiboEngage  Broadcast/button_Create New Broadcast'))
+//
+//WebUI.delay(1)
 
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC011310-q'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.click(findTestObject('Object Repository/quick_reply_broadcast/Page_KiboEngage  Create Broadcast/button_zindgi'))
+
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_zindgi'))
+
 WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/remove_click'))
-WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
 
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/assignTag'))
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/p_Do you want to delete this quick reply'))
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select a messageStep by step help fo_135ba4'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_Save (1)'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.delay(2)
-//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
-WebUI.verifyTextPresent("zindgi", false)
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/quick_reply_function/title_with_action'), [:], FailureHandling.STOP_ON_FAILURE)
+

@@ -100,4 +100,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/quick_reply/TC011319</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>81fd9e31-46bc-4b8e-925b-28fea16eb95b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Broadcasts/quick_reply/TC011320</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

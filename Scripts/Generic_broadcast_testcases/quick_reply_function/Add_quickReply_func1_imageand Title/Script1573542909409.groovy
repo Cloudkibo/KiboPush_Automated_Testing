@@ -36,7 +36,7 @@ upload.sendKeys(image)
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_Save (1)'))
-
+WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 //WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
 WebUI.verifyTextPresent("zindgi", false)

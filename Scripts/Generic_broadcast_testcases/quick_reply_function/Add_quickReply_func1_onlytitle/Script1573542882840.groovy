@@ -22,5 +22,10 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_Save (1)'))
 
 WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
+
 //WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
-WebUI.verifyTextPresent("zindgi", true)
+WebUI.verifyTextPresent("zindgi", false)

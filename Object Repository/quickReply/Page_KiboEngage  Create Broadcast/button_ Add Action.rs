@@ -4,6 +4,16 @@
    <name>button_ Add Action</name>
    <tag></tag>
    <elementGuidId>388c215f-7530-4562-ae5d-5dac5d53d560</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'addActionButton' and @class = 'btn m-btn--pill btn-sm m-btn hoverbordercomponent' and (text() = '+ Add Action' or . = '+ Add Action')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;quickReplyPopover&quot;]/div/div/div/div/div/div[3]/button</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -21,7 +31,7 @@
       <value>addActionButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

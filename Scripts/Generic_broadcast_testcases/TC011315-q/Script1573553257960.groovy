@@ -15,28 +15,44 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Broadcasts/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_Create New Broadcast'))
+//
+//WebUI.click(findTestObject('Object Repository/quickreplies/Page_KiboEngage  Broadcast/button_Create New Broadcast'))
+//
+//WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.delay(1)
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0131'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Quick Reply (1)'))
 
-WebUI.setText(findTestObject('Object Repository/reply/Page_KiboEngage  Create Broadcast/input_Upload Image_form-control (1)'),
-	'zindgi')
+WebUI.setText(findTestObject('Object Repository/reply/Page_KiboEngage  Create Broadcast/input_Upload Image_form-control (1)'), 
+    'zindgi')
+
+WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/quick_reply_function/ScrollToButton'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
+WebUI.click(findTestObject('Object Repository/quickreplies/Page_KiboEngage  Create Broadcast/button_ Add Action'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select an actionsend new messagesubs_789dbf'))
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select a messageStep by step help fo_135ba4'))
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/mutliple_select1'))
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/multiple_select2'))
+WebUI.click(findTestObject('Object Repository/quick_reply_broadcast/Page_KiboEngage  Create Broadcast/button_Reply with a message'))
+
+WebUI.click(findTestObject('Object Repository/quick_reply_broadcast/Page_KiboEngage  Create Broadcast/div_New message will be created when you cl_d0a0b7'))
+
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_Save (1)'))
 
 WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
 //WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
-WebUI.verifyTextPresent("zindgi", false)
+WebUI.verifyTextPresent('zindgi', true)
+

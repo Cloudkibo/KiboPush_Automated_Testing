@@ -26,14 +26,13 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select an actionsend new messagesubs_789dbf'))
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/quick_reply_broadcast/Page_KiboEngage  Create Broadcast/button_Reply with a message'))
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select a messageStep by step help fo_135ba4'))
+WebUI.click(findTestObject('Object Repository/quick_reply_broadcast/Page_KiboEngage  Create Broadcast/div_New message will be created when you cl_d0a0b7'))
 
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/save_button_1'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/save_button'))
 
 WebUI.delay(2)
 //WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
