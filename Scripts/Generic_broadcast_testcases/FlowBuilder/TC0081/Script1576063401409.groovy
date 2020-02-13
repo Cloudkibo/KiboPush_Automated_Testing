@@ -25,18 +25,18 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select an actionsend new messagesubs_789dbf'))
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select a messageStep by step help fo_135ba4'))
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/mutliple_select1'))
-WebUI.delay(5)
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/multiple_select2'))
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/save_button_1'))
-
 WebUI.delay(2)
-//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
-WebUI.verifyTextPresent("zindgi", true)
+
+//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select an actionsend new messagesubs_789dbf'))
+//WebUI.delay(5)
+//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select a messageStep by step help fo_135ba4'))
+//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
+//WebUI.delay(5)
+//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/mutliple_select1'))
+//WebUI.delay(5)
+//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/multiple_select2'))
+//WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/save_button_1'))
+//
+//WebUI.delay(2)
+////WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
+//WebUI.verifyTextPresent("zindgi", true)

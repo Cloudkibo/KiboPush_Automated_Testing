@@ -26,15 +26,8 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_ Add Action'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/unsub_to_seq'))
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/quick_reply_broadcast/Page_KiboEngage  Create Broadcast/button_Unsubscribe from sequence'))
 
-WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/select_Select a messageStep by step help fo_135ba4'))
-
-WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/save_button_1'))
-
-WebUI.delay(2)
-//WebUI.click(findTestObject('Object Repository/quickReply/Page_KiboEngage  Create Broadcast/button_zindgi'))
-WebUI.verifyTextPresent("zindgi", true)
+WebUI.click(findTestObject('Object Repository/quick_reply_broadcast/Page_KiboEngage  Create Broadcast/h5_Unsubscribe from sequence'))
