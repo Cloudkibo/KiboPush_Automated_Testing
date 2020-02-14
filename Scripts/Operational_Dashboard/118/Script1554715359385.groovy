@@ -25,11 +25,11 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Operational_Dashboard/117'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Page Subscribers/input_form-control m-input m-i'), 'Zain Majid')
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Page Subscribers/input_form-control m-input m-i'), 'Asifa Waseem')
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 

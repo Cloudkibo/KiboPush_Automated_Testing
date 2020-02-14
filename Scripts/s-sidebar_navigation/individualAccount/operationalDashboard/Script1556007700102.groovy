@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(2)
-WebUI.click(findTestObject('Page_KiboEngage  Subscribers/span_Subscribers (1)'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Dashboard/span_Dashboard'))
 
 WebUI.click(findTestObject('Page_KiboEngage  Subscribers/span_Operational Dashboard (1) (1)'))
 

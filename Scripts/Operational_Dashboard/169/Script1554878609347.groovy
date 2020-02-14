@@ -29,14 +29,14 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('Operational_Dashboard/168'), [:], FailureHandling.STOP_ON_FAILURE)
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement PREVIOUS = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[5]/div/div/div[2]/div/div/div[2]/ul/li[1]/a'))
+WebElement PREVIOUS = driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[2]/ul/li[1]/a'))
 
 PREVIOUS.click()
 
 WebUI.delay(5)
 
 
-List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[5]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
+List<WebElement> rows_table = driver.findElements(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
 
 int rows_count = rows_table.size()
 WebUI.verifyGreaterThanOrEqual(rows_count,1)

@@ -26,12 +26,12 @@ WebUI.callTestCase(findTestCase('Operational_Dashboard/167'), [:], FailureHandli
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement search_text = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[5]/div/div/div[2]/div/div/div[1]/div[1]/input'))
+WebElement search_text = driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[1]/div[1]/input'))
 search_text.sendKeys("test")
 WebUI.delay(5)
 
 
-List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[5]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
+List<WebElement> rows_table = driver.findElements(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
 
 int rows_count = rows_table.size()
 WebUI.verifyGreaterThanOrEqual(rows_count,1)

@@ -25,7 +25,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('Operational_Dashboard/177'), [:], FailureHandling.STOP_ON_FAILURE)
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement popDown_survey = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[6]/div/div/div[1]/div[2]/ul/li[3]'))
+WebElement popDown_survey = driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[8]/div/div/div[1]/div[2]/ul/li[3]/a'))
  popDown_survey.click()
  
  WebUI.delay(5)
