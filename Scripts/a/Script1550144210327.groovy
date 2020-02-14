@@ -18,6 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -29,17 +33,18 @@ WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage
 
 WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kiboengage.cloudkibo.com')
 
-WebUI.click(findTestObject('Page_CloudKibo/a_Login'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_CloudKibo/a_Login'))
 
-WebUI.setText(findTestObject('Page_CloudKibo/input_email'), 'individual@cloudkibo.com')
+WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_CloudKibo/input_email'), 'individual@cloudkibo.com')
 
-WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_password (3)'), 'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/broadcast_test_cases_new/Page_CloudKibo/input_password (3)'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Page_CloudKibo/button_Sign In (3)'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_CloudKibo/button_Sign In (3)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Broadcasting'))
+WebUI.navigateToUrl('https://kiboengage.cloudkibo.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Surveys'))
+WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Dashboard/span_Dashboard'))
 
-WebUI.click(findTestObject('Page_KiboEngage  Survey/h3_Manage Surveys (1)'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Operational Dashboard/select_Filter by LocaleALLEnglish UNITED ST_7d80dd'), 
+    'en_US', true)
 

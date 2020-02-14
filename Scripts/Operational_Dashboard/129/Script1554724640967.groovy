@@ -25,9 +25,9 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/i_flaticon flaticon-more (1)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/select_Filter by Locale...ALLe'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Operational Dashboard/select_Filter by LocaleALLEnglish UNITED ST_7d80dd'), 
     'en_US', true)
 WebUI.delay(5)
 
-WebUI.verifyTextPresent('en_US', false)
+WebUI.verifyTextPresent('English, UNITED STATES', false)
 

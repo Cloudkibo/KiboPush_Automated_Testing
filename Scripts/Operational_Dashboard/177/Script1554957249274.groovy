@@ -27,12 +27,12 @@ WebUI.callTestCase(findTestCase('Operational_Dashboard/Login'), [:], FailureHand
 WebDriver driver = DriverFactory.getWebDriver()
 
 
-WebElement popup_survey = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[6]/div/div/div/div[2]/ul/li[3]'))
+WebElement popup_survey = driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[8]/div/div/div[1]/div[2]/ul/li[3]'))
 popup_survey.click()
 
 WebUI.delay(5)
 
-List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[6]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
+List<WebElement> rows_table = driver.findElements(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[8]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
 
 int rows_count = rows_table.size()
 

@@ -34,7 +34,7 @@ WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-List<WebElement> users = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[4]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div'))
+List<WebElement> users = driver.findElements(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[5]/div[2]/div/div[2]/div/div/div/div/div/div/div/div/div'))
 
 println(users.size())
 

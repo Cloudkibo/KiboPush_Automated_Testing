@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Operational_Dashboard/187'), [:], FailureHandli
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement popDown_survey = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[7]/div/div/div[1]/div[2]/ul/li[3]'))
+WebElement popDown_survey = driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[9]/div/div/div[1]/div[2]/ul/li[3]'))
 
 popDown_survey.click()
 

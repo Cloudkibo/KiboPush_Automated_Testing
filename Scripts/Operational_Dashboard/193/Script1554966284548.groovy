@@ -27,18 +27,18 @@ WebUI.callTestCase(findTestCase('Operational_Dashboard/187'), [:], FailureHandli
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement search_text = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[1]/div[1]/input'))
+WebElement search_text = driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[9]/div/div/div[2]/div/div/div[1]/div[1]/input'))
 search_text.clear()
 search_text.sendKeys("1")
 WebUI.delay(5)
 
-WebElement search =driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[1]/div[2]/div/input'))
+WebElement search =driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[9]/div/div/div[2]/div/div/div[1]/div[2]/div/input'))
  search.clear()
  search.sendKeys("10")
  WebUI.delay(5)
  
  
-List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/div/div/div/div[2]/div[3]/div[7]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
+List<WebElement> rows_table = driver.findElements(By.xpath('/html/body/div[2]/div/div/div/div[2]/div[3]/div[9]/div/div/div[2]/div/div/div[2]/table/tbody/tr'))
  
  int rows_count = rows_table.size()
  WebUI.verifyGreaterThanOrEqual(rows_count,1)
