@@ -4,7 +4,17 @@
    <name>i_flaticon flaticon-more</name>
    <tag></tag>
    <elementGuidId>81504bae-9723-4b5e-9a33-28995b0496b2</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;target&quot;)/a[1]/i[@class=&quot;flaticon flaticon-more&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;target&quot;]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
