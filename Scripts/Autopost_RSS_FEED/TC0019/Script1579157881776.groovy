@@ -20,12 +20,12 @@ WebUI.callTestCase(findTestCase('Autopost_RSS_FEED/TC0001'), [:], FailureHandlin
 
 WebUI.setText(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/input_Note_form-control'), 
     'test')
-WebUI.delay(2)
+WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/div_No records found'))
 
 WebUI.setText(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/input_Note_form-control'), 
     'Rss Feed')
-WebUI.delay(2)
+WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/h3_Rss Feed'))
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/a_httpsfeedsadjcomrssWSJcomUSBusinessxml'))
 
