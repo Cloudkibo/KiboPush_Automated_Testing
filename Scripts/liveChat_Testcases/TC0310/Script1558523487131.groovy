@@ -37,5 +37,3 @@ WebUI.verifyNotEqual(var[2], "")
 WebUI.verifyNotEqual(var[3], "")
 
 //WebUI.verifyNotEqual(var[3], "")
-
-WebUI.closeBrowser()
