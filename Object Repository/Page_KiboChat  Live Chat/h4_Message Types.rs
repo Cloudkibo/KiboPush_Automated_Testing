@@ -4,6 +4,12 @@
    <name>h4_Message Types</name>
    <tag></tag>
    <elementGuidId>cbb1c532-ee65-43d8-b55c-3580e61368a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Message Types' or . = 'Message Types')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,7 +17,7 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h4</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -12,11 +12,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Click Here'))
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/livechat_testcases/Page_KiboChat  Live Chat/a_Click Here'))
+
+WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/livechat_testcases/Page_KiboChat  Live Chat/a_video tutorial'))
+//
+//WebUI.click(findTestObject('Object Repository/livechat_testcases/Page_KiboChat  Live Chat/h5_Livechat Video Tutorial'))
+//

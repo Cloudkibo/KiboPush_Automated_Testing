@@ -19,3 +19,4 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat
 
 WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_video tutorial'))
 
+WebUI.delay(2)

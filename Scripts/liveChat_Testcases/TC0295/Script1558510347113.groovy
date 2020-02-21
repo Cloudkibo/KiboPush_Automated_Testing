@@ -24,6 +24,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat
 
 WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Open'))
 
+WebUI.delay(3)
 WebDriver driver = DriverFactory.getWebDriver()
 
 List<WebElement> live_chat_subscribers = driver.findElements(By.xpath('//*[@id="m_widget4_tab1_content"]/div/div'))

@@ -24,17 +24,18 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat
 
 WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Open'))
 
-WebUI.delay(2)
+WebUI.delay(3)
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement live_chat_subscribers = driver.findElement(By.xpath('//*[@id="m_widget4_tab1_content"]/div/div[1]/div/div[2]/span[3]'))
+WebElement live_chat_subscribers = driver.findElement(By.xpath('//*[@id="m_widget4_tab1_content"]/div/div[1]/div[2]/div[2]/span[2]'))
 
 String [] var = live_chat_subscribers.getText().trim().split("\\s+")
-
 
 WebUI.verifyNotEqual(var[0], "")
 WebUI.verifyNotEqual(var[1], "")
 WebUI.verifyNotEqual(var[2], "")
 WebUI.verifyNotEqual(var[3], "")
+
+//WebUI.verifyNotEqual(var[3], "")
 
 WebUI.closeBrowser()

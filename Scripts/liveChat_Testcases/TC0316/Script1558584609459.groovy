@@ -16,7 +16,7 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -30,17 +30,17 @@ List<WebElement> live_chat_subscribers = driver.findElements(By.xpath('//*[@id="
 
 live_chat_subscribers[0].click()
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.scrollToPosition(0, 0)
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/i_StatusUnassigned_la la-check'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/button_Yes'))
-WebUI.delay(5)
+//WebUI.click(findTestObject('Object Repository/livechat_test/Page_KiboChat  Live Chat/button_Yes'))
+//WebUI.delay(5)
 
 
 WebUI.scrollToPosition(0, 0)

@@ -28,7 +28,7 @@ List<WebElement> live_chat_subscribers = driver.findElements(By.xpath('//*[@id="
 
 live_chat_subscribers[0].click()
 
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)

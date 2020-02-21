@@ -4,6 +4,12 @@
    <name>h3_Voice Recording</name>
    <tag></tag>
    <elementGuidId>21770d38-eb1c-43a3-b280-32a85555ccc5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h5[(text() = 'Voice Recording' or . = 'Voice Recording')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,14 +17,14 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Voice Recording</value>
+      <value>Voice Recordings</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
