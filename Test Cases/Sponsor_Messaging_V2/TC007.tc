@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by page</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8eeba56-82fe-42b3-9eba-5de31e38fd90</testCaseGuid>
+</TestCaseEntity>

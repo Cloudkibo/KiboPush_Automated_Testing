@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test list sponsored messages</description>
+   <name>TC004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecf138d5-04c8-49d1-95b3-2dcfa8c4df99</testCaseGuid>
+</TestCaseEntity>

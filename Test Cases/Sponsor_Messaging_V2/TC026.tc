@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test select campaign filter</description>
+   <name>TC026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cfbc5757-dc31-46b0-8b56-56d1f19bd6a5</testCaseGuid>
+</TestCaseEntity>

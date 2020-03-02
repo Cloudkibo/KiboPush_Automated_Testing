@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back button of campaign</description>
+   <name>TC029</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c5e6e049-3837-4b4a-9f20-665796a56eea</testCaseGuid>
+</TestCaseEntity>

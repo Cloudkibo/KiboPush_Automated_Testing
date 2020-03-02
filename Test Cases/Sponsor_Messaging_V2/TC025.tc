@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test radio buttons in campaign</description>
+   <name>TC025</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df10a41b-6a84-4923-a923-d373b28487d2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test back button of ad set</description>
+   <name>TC034</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7ff68a4f-ee22-4c0e-b388-b49b0432b1e0</testCaseGuid>
+</TestCaseEntity>
