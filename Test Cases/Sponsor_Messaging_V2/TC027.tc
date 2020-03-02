@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test campaign name input box</description>
+   <name>TC027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc0d641c-3d4c-455e-b8b1-3c9e82ed3317</testCaseGuid>
+</TestCaseEntity>

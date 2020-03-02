@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test save button</description>
+   <name>TC038</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f104f6ab-c93c-4abd-bf7b-5b390913850e</testCaseGuid>
+</TestCaseEntity>

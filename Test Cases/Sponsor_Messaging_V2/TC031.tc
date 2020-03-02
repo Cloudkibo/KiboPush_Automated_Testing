@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test select ad sets</description>
+   <name>TC031</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4944731-7709-4109-9fb3-37945386af05</testCaseGuid>
+</TestCaseEntity>
