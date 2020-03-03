@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cancel Delete</description>
+   <name>TC0032</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbc738d9-f90f-4b11-97e5-7fbe94874e80</testCaseGuid>
+</TestCaseEntity>
