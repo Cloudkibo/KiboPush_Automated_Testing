@@ -23,12 +23,19 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
+
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Subscriber TestCases/open_sidebar'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/subscribers/Page_KiboEngage  Subscribers/select_Filter by SourceAllDirect MessagePho_0991bb'),
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Subscribers/Page_KiboEngage  Subscribers/select_Filter by SourceAllDirect MessagePho_e971e3'), 
     'direct_message', true)
-
 WebUI.delay(3)
 
 WebDriver driver = DriverFactory.getWebDriver()

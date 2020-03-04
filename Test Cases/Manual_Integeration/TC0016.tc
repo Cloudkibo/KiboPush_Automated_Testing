@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filter By Status</description>
+   <name>TC0016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>19d08e6a-d5d9-4d86-8cf4-35297872946c</testCaseGuid>
+</TestCaseEntity>

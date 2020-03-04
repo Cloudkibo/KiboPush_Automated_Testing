@@ -28,10 +28,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import org.openqa.selenium.Keys as Keys
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Subscriber TestCases/open_sidebar'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/subscribers/Page_KiboEngage  Subscribers/select_Select a PageTest5Education123AutoPo_3a34bd'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Subscribers/Page_KiboEngage  Subscribers/select_Select a PageTest5Education123AutoPo_887ab3'), 
     '5c090d111276ef481a715939', true)
 
 WebUI.delay(3)
@@ -43,4 +46,3 @@ List<WebElement> rows_table = driver.findElements(By.xpath('//*[@id="content"]/d
 println(rows_table.size())
 
 WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)
-

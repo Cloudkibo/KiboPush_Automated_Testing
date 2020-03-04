@@ -22,8 +22,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Subscriber'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/subscribers/Page_KiboEngage  Subscribers/select_Select a PageTest5Education123AutoPo_3a34bd'),
-	'5c090d111276ef481a715939', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Subscribers/Page_KiboEngage  Subscribers/select_Select a PageTest5Education123AutoPo_887ab3'), 
+    '5c090d111276ef481a715939', true)
 WebUI.delay(3)
 WebUI.setText(findTestObject('Object Repository/Page_KiboPush  Subscribers/input_generalSearch'), 'Arveen')
 WebUI.delay(3)

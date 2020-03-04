@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>News Section Title Validation</description>
+   <name>TC0006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e879e7d8-7fde-4492-90b9-2b1f2c6b15ec</testCaseGuid>
+</TestCaseEntity>
