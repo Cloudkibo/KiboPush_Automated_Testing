@@ -29,7 +29,11 @@ WebUI.setText(findTestObject('Object Repository/RSS_Feed/Page_ Rss Feeds/input_R
 
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_ Rss Feeds/button_Save (1)'))
 
-WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_ Rss Feeds/div_Rss feed saved successfully (1)'))
+WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_ Rss Feeds/div_Feed saved successfully'))
+
+//WebUI.verifyTextPresent('FEED SAVED SUCCESSFULLY', false)
+//WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_ Rss Feeds/div_Rss feed saved successfully (1)'))
+//WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_ Rss Feeds/div_Rss feed saved successfully (1)'))
 
 WebUI.setText(findTestObject('Object Repository/RSS_Feed/Page_ Rss Feeds/input_Rss Feed Url_form-control m-input (1)'), 
     'https://kiboengage.cloudkibo.com/')

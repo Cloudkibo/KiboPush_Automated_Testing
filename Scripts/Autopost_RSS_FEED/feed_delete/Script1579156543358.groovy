@@ -22,4 +22,4 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/button_Delete'))
 WebUI.delay(1)
-WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/div_Rss feed has been deleted successfully'))
+WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/div_Feed has been deleted successfully'))

@@ -43,7 +43,7 @@
    <testCaseLink>
       <guid>d334014f-0e23-4104-b6a6-51673f65e86d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Autopost_RSS_FEED/TC0005</testCaseId>
    </testCaseLink>
    <testCaseLink>

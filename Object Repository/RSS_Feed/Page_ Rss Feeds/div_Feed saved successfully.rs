@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Rss feed saved successfully (1)</name>
+   <name>div_Feed saved successfully</name>
    <tag></tag>
-   <elementGuidId>a9f7569c-ccad-4a41-be9f-05b7bb99dbb7</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'feed saved successfully' or . = 'feed saved successfully')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>1d16214b-9e14-4556-b66b-1842552dae5b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -31,7 +25,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>feed saved successfully</value>
+      <value>Feed saved successfully</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

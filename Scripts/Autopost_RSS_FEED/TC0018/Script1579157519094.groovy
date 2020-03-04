@@ -19,6 +19,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Autopost_RSS_FEED/TC0017'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/button_Enabled'))
+WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/h5_Disable Integration'))
+
+WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/button_Yes'))
+
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/div_Feed has been updated successfully'))
 
 WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/button_Disabled'))
