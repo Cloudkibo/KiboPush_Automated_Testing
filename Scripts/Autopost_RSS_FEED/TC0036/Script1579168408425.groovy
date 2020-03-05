@@ -26,5 +26,5 @@ WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Rss Integration for News P_8908ba/h5_Delete Integration'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Rss Integration for News P_8908ba/p_Are you sure you want to delete this Rss _dc9c63'))
+WebUI.click(findTestObject('Object Repository/RSS_Feed/Page_KiboEngage  Rss Integration for News P_8908ba/p_If you remove the default rss feed your s_e84ba2'))
 

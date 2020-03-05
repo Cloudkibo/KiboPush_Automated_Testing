@@ -23,13 +23,13 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_CloudKibo/a_Login (4) (2)'))
 
-WebUI.setText(findTestObject('Page_CloudKibo/input_Sign In_email (4)'), 'muzamil.abbas@khi.iba.edu.pk')
+WebUI.setText(findTestObject('Page_CloudKibo/input_Sign In_email (4)'), 'team@cloudkibo.com')
 
-WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password (4)'), 'ZOMPkeJIpHVS6OGLcNHjig==')
+WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password (4)'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
 WebUI.click(findTestObject('Page_CloudKibo/button_Sign In (8)'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/h4_KIBOPUSH (3)'))
+WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (58)'))
 

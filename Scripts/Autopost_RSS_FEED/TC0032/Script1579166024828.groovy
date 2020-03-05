@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('Autopost_RSS_FEED/TC0029'), [:], FailureHandlin
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-WebElement rows_table1 = driver.findElement(By.xpath('//*[@id="content"]/div/div/div/div[2]/div/div/div[2]/div[1]/div[2]/input'))
+WebElement rows_table1 = driver.findElement(By.xpath('/html/body/div[2]/div/div/div/div[2]/div/div/div[2]/div[1]/div[2]/div[2]/input'))
 
 rows_table1.sendKeys('2020-01-16')
 

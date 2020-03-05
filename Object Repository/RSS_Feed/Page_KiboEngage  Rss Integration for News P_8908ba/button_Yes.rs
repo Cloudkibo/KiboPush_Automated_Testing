@@ -4,17 +4,23 @@
    <name>button_Yes</name>
    <tag></tag>
    <elementGuidId>9054a082-6aa8-48bc-bee1-d122c05a9a48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;disableDefault&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/button[@class=&quot;btn btn-primary btn-sm&quot;][count(. | //button[@class = 'btn btn-primary btn-sm' and (text() = 'Yes' or . = 'Yes')]) = count(//button[@class = 'btn btn-primary btn-sm' and (text() = 'Yes' or . = 'Yes')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -28,7 +34,7 @@
       <value>Yes</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

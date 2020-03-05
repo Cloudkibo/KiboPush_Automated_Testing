@@ -18,6 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -27,9 +31,5 @@ WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboenga
 
 WebUI.navigateToUrl('https://saccounts.cloudkibo.com/?continue=https://skiboengage.cloudkibo.com')
 
-WebUI.click(findTestObject('Object Repository/Page_CloudKibo/a_Visit FAQ page'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/Page_Faq  The Marketing Newsletter/h2_Do you have a question'))
+WebUI.click(findTestObject('Page_CloudKibo/a_Visit FAQ page (1)'))
 

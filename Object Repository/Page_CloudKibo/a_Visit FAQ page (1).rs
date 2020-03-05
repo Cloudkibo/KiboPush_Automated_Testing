@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Visit FAQ page</name>
+   <name>a_Visit FAQ page (1)</name>
    <tag></tag>
-   <elementGuidId>fc2708f6-f2dc-4ef2-82fa-d95c14f86dc1</elementGuidId>
+   <elementGuidId>fc06fe7f-769d-469e-9965-3a9b3a111b4e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -18,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://kibopush.com/faq/</value>
+      <value>http://kibopush.com/faqs/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -95,16 +95,9 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'm_login_signup', '&quot;', ')')])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://kibopush.com/faq/']</value>
+      <value>//a[@href='http://kibopush.com/faqs/']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
