@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test closed sessions</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>86841446-a12e-4d27-b3bd-823f6480cbc7</testCaseGuid>
+</TestCaseEntity>

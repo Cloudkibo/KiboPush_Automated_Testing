@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Show last message on each chat session</description>
-   <name>TC0309</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3aaa1312-0ee1-4e09-b25c-21b2fa6aeff9</testCaseGuid>
-</TestCaseEntity>

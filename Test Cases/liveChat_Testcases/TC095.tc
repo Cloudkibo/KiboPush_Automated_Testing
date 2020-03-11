@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Assign a new custom field value</description>
+   <name>TC095</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90fc8f5b-a5de-43f5-a82b-f76962b55488</testCaseGuid>
+</TestCaseEntity>

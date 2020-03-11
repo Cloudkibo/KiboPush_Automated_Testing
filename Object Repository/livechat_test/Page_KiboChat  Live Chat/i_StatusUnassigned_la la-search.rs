@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//i[@data-tip = 'Search' and @class = 'la la-search' and @currentitem = 'false']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;_chat_area&quot;]/div[4]/div/i[2]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,32 +51,4 @@
       <type>Main</type>
       <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-5&quot;]/div[@class=&quot;m-portlet m-portlet--mobile&quot;]/div[1]/div[1]/i[@class=&quot;la la-search&quot;]</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='content']/div/div/div/div[2]/div[2]/div[2]/div[2]/div[4]/div/div/i[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::i[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='JUL 2TH, 10:11AM'])[1]/preceding::i[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/i[2]</value>
-   </webElementXpaths>
 </WebElementEntity>
