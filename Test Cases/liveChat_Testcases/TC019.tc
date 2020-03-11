@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Show last activity time on each chat session</description>
+   <name>TC019</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cdeaf890-e9e7-416a-a051-f4a496bc9795</testCaseGuid>
+</TestCaseEntity>

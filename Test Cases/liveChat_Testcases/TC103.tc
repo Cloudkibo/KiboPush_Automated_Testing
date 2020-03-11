@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Validate set custom field with no field</description>
+   <name>TC103</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d647173f-5079-4e15-82e7-c40229fab4e0</testCaseGuid>
+</TestCaseEntity>

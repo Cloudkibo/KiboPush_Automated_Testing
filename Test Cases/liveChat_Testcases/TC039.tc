@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mark as resolved from chat area</description>
+   <name>TC039</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9e2e83f7-bc69-48ff-9dbf-daeb802b26a9</testCaseGuid>
+</TestCaseEntity>

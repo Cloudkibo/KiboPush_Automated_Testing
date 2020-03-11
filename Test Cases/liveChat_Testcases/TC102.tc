@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Save button should be disabled</description>
+   <name>TC102</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dabab50b-64b0-47ce-a68c-307deece875a</testCaseGuid>
+</TestCaseEntity>
