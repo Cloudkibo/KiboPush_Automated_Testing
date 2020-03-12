@@ -18,10 +18,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/a_video tutorial'))
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Login_Muzamil'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Polls'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/updated_polls/Page_KiboEngage  Polls/a_video tutorial'))
+
+WebUI.click(findTestObject('Object Repository/updated_polls/Page_KiboEngage  Polls/h5_Polls Video Tutorial'))
+
+WebUI.click(findTestObject('Object Repository/updated_polls/Page_KiboEngage  Polls/button_'))
+WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/h4_KIBOPUSH (4)'))
+WebUI.click(findTestObject('Object Repository/updated_polls/Page_KiboEngage  Polls/h3_Manage Polls'))
 

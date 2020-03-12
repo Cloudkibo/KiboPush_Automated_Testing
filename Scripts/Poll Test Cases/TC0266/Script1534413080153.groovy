@@ -29,5 +29,6 @@ WebUI.click(findTestObject('Page_KiboEngage  Show Templates/a_Create New Poll (4
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/a_Poll'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Poll/a_Poll'))
 
+WebUI.verifyTextPresent('Ask Facebook Subscribers a Question', false)

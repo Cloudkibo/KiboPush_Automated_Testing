@@ -31,7 +31,7 @@
    <testCaseLink>
       <guid>1ea4a5e0-d929-4a78-a7e7-c0fc1418fc16</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0107</testCaseId>
    </testCaseLink>
    <testCaseLink>
