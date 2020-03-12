@@ -25,7 +25,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.setText(findTestObject('Page_KiboPush  Survey/input_example-text-input'), '5')
 
-WebUI.delay(1)
+WebUI.delay(7)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

@@ -24,8 +24,7 @@ WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Polls/button_Crea
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Polls/h3_Create Poll'))
-
+WebUI.verifyTextPresent('Create Poll', false)
 WebUI.delay(1)
 
 WebUI.back()
