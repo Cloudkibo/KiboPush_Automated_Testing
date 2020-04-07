@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Isolation
+quick replies</description>
+   <name>TC018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a0417e3-5076-4983-9939-729baa4ac561</testCaseGuid>
+</TestCaseEntity>

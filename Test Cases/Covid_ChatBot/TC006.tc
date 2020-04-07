@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test protect others
+quick replies button</description>
+   <name>TC006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2759377b-c913-47ca-8a87-b320fd7930e5</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test symptoms
+quick replies</description>
+   <name>TC021</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8d2b1466-2b4b-4b35-b3cb-fe50ad2a8132</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Avoid close contact
+quick replies</description>
+   <name>TC005_N</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8bd91915-2409-435b-811b-372b99ce73e3</testCaseGuid>
+</TestCaseEntity>

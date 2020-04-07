@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test if you are a 
+sick quick replies</description>
+   <name>TC028</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c7626cf-c6a8-4c64-9574-1528ac9181c6</testCaseGuid>
+</TestCaseEntity>

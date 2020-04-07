@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test home
+quick replies</description>
+   <name>TC017</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59d975e8-f24c-40dc-b8b3-c2f2a5b21604</testCaseGuid>
+</TestCaseEntity>

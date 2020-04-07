@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Home button</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cbc385c-c401-472d-8f35-9c6bed72c1c4</testCaseGuid>
+</TestCaseEntity>
