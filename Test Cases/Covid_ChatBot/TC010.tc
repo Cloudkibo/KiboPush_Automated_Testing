@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Stay home
+quick replies</description>
+   <name>TC010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5c07b6b2-12fb-4262-a99a-5af5dfeaafa9</testCaseGuid>
+</TestCaseEntity>

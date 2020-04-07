@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>messener login</description>
+   <name>Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aa1e2be5-d74e-4c00-8b3a-6788adf84a27</testCaseGuid>
+</TestCaseEntity>

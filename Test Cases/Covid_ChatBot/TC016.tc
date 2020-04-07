@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Hand Washing
+quick replies</description>
+   <name>TC016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42329e36-c08f-4964-8190-84e26656d862</testCaseGuid>
+</TestCaseEntity>
