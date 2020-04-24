@@ -37,8 +37,7 @@ WebUI.setText(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEn
 WebUI.setText(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/budget'),
 	'5000')
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/button_Next'))
-
+WebUI.delay(4)
 WebUI.scrollToPosition(0, 0)
-WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/h5_Step 04'))
 

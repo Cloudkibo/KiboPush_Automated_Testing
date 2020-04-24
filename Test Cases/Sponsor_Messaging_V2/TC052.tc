@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test close Cancel Schedule modal</description>
+   <name>TC052</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>57a5b97f-6091-4b72-ac24-86dc7c9a5be4</testCaseGuid>
+</TestCaseEntity>

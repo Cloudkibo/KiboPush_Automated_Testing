@@ -21,4 +21,5 @@ WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEnga
 WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/h3_Create Sponsored Message'))
 WebUI.delay(2)
-WebUI.verifyElementNotPresent(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/button_Back'), 5)
+//WebUI.verifyElementNotPresent(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/button_Back'), 5)
+WebUI.verifyTextPresent('Select the Ad Account from which you want to create Sponsored Message', false)

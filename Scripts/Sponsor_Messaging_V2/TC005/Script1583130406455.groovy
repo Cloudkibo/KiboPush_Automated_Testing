@@ -33,7 +33,7 @@ WebUI.delay(2)
 
 WebUI.setText(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/input_Create New_form-control'), 
     'test1')
-WebUI.delay(2)
+WebUI.delay(5)
 
 WebDriver driver = DriverFactory.getWebDriver()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Schedule button in create new sponsored message</description>
+   <name>TC045</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b15bea99-cc79-4b31-ae8f-4cf2dac6abd7</testCaseGuid>
+</TestCaseEntity>
