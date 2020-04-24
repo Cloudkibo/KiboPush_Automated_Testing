@@ -14,11 +14,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Sponsor_Messaging_V2/TC021'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/button_'))
 
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/h3_Manage Sponsored Messages'))
+

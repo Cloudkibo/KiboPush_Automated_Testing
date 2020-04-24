@@ -26,8 +26,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/button_Edit'))
 
-WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Edit Sponsored Message/button_Next'))
-
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Edit Sponsored Message/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/h3_Manage Sponsored Messages'))

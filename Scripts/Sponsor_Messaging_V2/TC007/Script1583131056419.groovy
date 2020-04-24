@@ -31,7 +31,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Sponsor_
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/select_Filter by PageAllTest5Education123Au_49c07f'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponsored Messaging/select_Filter by PageAllTest5Education123Au_49c07f'), 
     '5c090d111276ef481a715931', true)
 WebUI.delay(2)
 WebDriver driver = DriverFactory.getWebDriver()

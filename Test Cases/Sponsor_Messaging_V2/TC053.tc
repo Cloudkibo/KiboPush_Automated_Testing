@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test yes button in Cancel Schedule modal</description>
+   <name>TC053</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d4c467d-f17e-4f2f-9554-b0d8977f6dc6</testCaseGuid>
+</TestCaseEntity>

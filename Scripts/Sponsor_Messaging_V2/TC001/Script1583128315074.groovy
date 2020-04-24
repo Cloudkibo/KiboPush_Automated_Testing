@@ -19,8 +19,18 @@ import org.openqa.selenium.Keys as Keys
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
 //
 //WebUI.callTestCase(findTestCase('Sponsor_Messaging_V2/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('Sponsor_Messaging_V2/open_broadcast'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Sponsor_message_v2'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/a_documentation'))
+WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponsored Messaging/a_documentation'))
 
+//WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponsored Messaging/a_video tutorial'))
+
+
+//WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponsored Messaging/h5_Sponsored Broadcast Video Tutorial'))
+//
+//WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponsored Messaging/button_'))
+//

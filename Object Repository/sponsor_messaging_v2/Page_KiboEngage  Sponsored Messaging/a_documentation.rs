@@ -4,10 +4,16 @@
    <name>a_documentation</name>
    <tag></tag>
    <elementGuidId>ba3d0a23-55bc-4117-95a6-caa364429196</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = 'https://kibopush.com/sponsored-broadcast/' and @target = '_blank' and (text() = 'documentation' or . = 'documentation')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -21,7 +27,7 @@
       <value>https://kibopush.com/sponsored-broadcast/</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>target</name>
       <type>Main</type>

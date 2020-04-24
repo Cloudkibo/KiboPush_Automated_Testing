@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Save button in schedule modal</description>
+   <name>TC049</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>16663f2b-25ff-4bc8-8c08-371de1112240</testCaseGuid>
+</TestCaseEntity>

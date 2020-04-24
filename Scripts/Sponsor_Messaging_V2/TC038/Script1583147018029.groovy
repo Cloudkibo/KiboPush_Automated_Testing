@@ -18,4 +18,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Sponsor_Messaging_V2/TC036'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/button_Save'))
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(7)
+
+WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Create Sponsored Message/Page_KiboEngage  Create Sponsored Message/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Sponsored Messaging/h3_Manage Sponsored Messages'))
+
+WebUI.delay(2)
