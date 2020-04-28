@@ -25,7 +25,14 @@ import org.openqa.selenium.interactions.Actions;
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_staging_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
 //
 //WebUI.callTestCase(findTestCase('Autoposting TestCases/open automation'), [:], FailureHandling.STOP_ON_FAILURE)
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autoposting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.click(findTestObject('Page_KiboPush  Autoposting/span_Add Feed (4) (1)'))
@@ -65,10 +72,16 @@ List<WebElement> rows_table1 = driver.findElements(By.xpath('//*[@id="content"]/
  
  println(rows_table1.size())
  
- rows_table1[6].click()
+ rows_table1[7].click()
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Item Settings/label_You are not subscribed to selected page In order to receive approval messages you need to become a subscriber'))
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Item Settings/button_Subscribe'))
 
+WebUI.delay(3)
 
+WebElement element = driver.findElement(By.xpath('//*[@id="messengerModal"]/div/div/div[1]/button'))
+
+element.click()
+
+WebUI.delay(2)

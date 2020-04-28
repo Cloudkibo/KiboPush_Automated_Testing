@@ -25,12 +25,15 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Feed Settings (4)'))
 
 WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control m-input (3)'), 'Facebook')
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Save Changes (2)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/div_Changes saved successfully (1)'))
-
 WebUI.setText(findTestObject('Page_KiboPush  Autoposting/input_form-control m-input (3)'), 'Facebook Page')
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Save Changes (2)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/div_Changes saved successfully (1)'))
+WebUI.delay(2)
+
+WebUI.scrollToPosition(0, 0)
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting'))
+//WebUI.click(findTestObject('Page_KiboPush  Autoposting/div_Changes saved successfully (1)'))

@@ -31,3 +31,7 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Autoposting/span_Incorrect Url Please make sure it includes http(s)'))
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Auto Posting - KiboPush/circle_cross'))
+WebUI.delay(2)

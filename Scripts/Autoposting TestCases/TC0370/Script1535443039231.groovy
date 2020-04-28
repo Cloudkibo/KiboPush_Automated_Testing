@@ -18,8 +18,23 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/Autoposting'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/a_video tutorial'))
 
+WebUI.delay(3)
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement element = driver.findElement(By.xpath('//*[@id="videoAutoposting"]/div/div/div[1]/button'))
+
+element.click()
+
+WebUI.delay(2)

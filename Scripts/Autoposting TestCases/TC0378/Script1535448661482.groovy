@@ -25,6 +25,10 @@ WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/span_Ad
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_WordPress (1) (1)'))
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Auto Posting - KiboPush/circle_cross'))
+WebUI.delay(2)
 //WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_View Integration Guidel (1) (1)'))
 //
 //WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/a_WordPress.com (1) (1)'))

@@ -62,8 +62,15 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Item Settings/i
     'hello')
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Save Changes (2)'))
+WebUI.delay(3)
+WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/div_Changes saved successfully (1)'))
+WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting (1)'))
+
+WebUI.delay(2)
+
+
+//WebUI.click(findTestObject('Page_KiboPush  Autoposting/div_Changes saved successfully (1)'))
 
 //
 //WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Back (1) (1)'))

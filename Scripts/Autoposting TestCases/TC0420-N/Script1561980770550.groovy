@@ -25,21 +25,13 @@ import org.openqa.selenium.interactions.Actions as Actions
 
 WebUI.callTestCase(findTestCase('Autoposting TestCases/TC0417_N'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
 
-WebDriver driver = DriverFactory.getWebDriver()
-
-WebElement model = driver.findElement(By.xpath('//*[@id="messengerModal"]/div/div/div[1]/button'))
-
-model.click()
 
 WebUI.delay(2)
 
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Save Changes (2)'))
-
-WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Back (1) (1)'))
-
+WebUI.delay(3)
 WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting (1)'))
@@ -57,6 +49,8 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/a_'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Delete'))
+
+WebUI.delay(3)
 //
 //WebElement delete_model = driver.findElement(By.xpath('/html/body/div[6]/div/div[2]/div/button'))
 //
