@@ -14,13 +14,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/i_Broadcast Title_convoTitle'))
+WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/input_Rename_form-control'), 'broadcast')
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/i_Broadcast Title_convoTitle'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/button_Save'))
+WebUI.setText(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/input_Rename_form-control'), 
+    'Broadcast Title1')
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Create Broadcast/h3_broadcast'))
 

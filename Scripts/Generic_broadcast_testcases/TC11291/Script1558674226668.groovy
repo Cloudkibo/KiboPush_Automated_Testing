@@ -20,7 +20,7 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11290'), [:], Fai
 
 WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_YouTube Link_form-control'), 
     'https://www.youtube.com/watch?v=rZkpCEDIGMo')
-WebUI.delay(5)
+WebUI.delay(15)
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
 WebUI.scrollToPosition(0, 0)
 WebUI.delay(1)

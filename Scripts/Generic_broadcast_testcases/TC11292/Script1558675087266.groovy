@@ -26,8 +26,13 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC11290'), [:], Fai
 
 WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/input_YouTube Link_form-control'),
 	'https://www.youtube.com/watch?v=V_bFT_T3f8')
-WebUI.delay(5)
+WebUI.delay(15)
 
-WebUI.verifyTextPresent("*Please enter a valid YouTube link", false)
+WebUI.verifyTextPresent("*Please enter a valid YouTube video link", false)
 
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_'))
+
+WebUI.delay(2)
+

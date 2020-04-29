@@ -19,3 +19,7 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/h5_Create Carousel using Links'))
 
 WebUI.delay(3)
+
+//WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_'))
+//
+//WebUI.delay(2)

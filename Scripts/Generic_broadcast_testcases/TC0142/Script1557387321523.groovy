@@ -28,3 +28,8 @@ WebUI.setText(findTestObject('Object Repository/broadcast_test_cases_new/Page_Ki
 
 WebUI.delay(2)
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_'))
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_Yes'))
+WebUI.delay(2)

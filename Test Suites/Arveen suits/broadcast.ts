@@ -29,12 +29,6 @@
       <testCaseId>Test Cases/Broadcasts/TC0106</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>1ea4a5e0-d929-4a78-a7e7-c0fc1418fc16</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Broadcasts/TC0107</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c29ad344-4aa3-4a9a-9f22-a421be8fe595</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -223,7 +217,7 @@
    <testCaseLink>
       <guid>7c25dac7-5bef-4d5e-8838-e95e6fbdbf21</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0147</testCaseId>
    </testCaseLink>
    <testCaseLink>
@@ -291,12 +285,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC0176</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>be8fd97d-dd49-4308-b4f8-b92303b7abd0</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/TC0177</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>413a4ddc-fc80-40b9-97e4-2ba67bfc4455</guid>
@@ -371,12 +359,6 @@
       <testCaseId>Test Cases/Broadcasts/TC0204</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>8fc6a533-e634-4726-af60-0fcde2723436</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/TC11290</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>d3a06514-2563-4b86-ae99-bd957afb3a38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -399,12 +381,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Broadcasts/TC11294</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>8bc2d6eb-2618-44ee-95a2-0b954b9d9da6</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Broadcasts/TC11297</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>60796364-d38b-4eca-a6ec-376cf106168e</guid>
