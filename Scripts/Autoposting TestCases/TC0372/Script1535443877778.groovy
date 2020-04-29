@@ -29,3 +29,7 @@ WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_Twitter'))
 
 WebUI.click(findTestObject('Page_KiboPush  Autoposting/button_WordPress'))
 
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_Auto Posting - KiboPush/circle_cross'))
+WebUI.delay(2)

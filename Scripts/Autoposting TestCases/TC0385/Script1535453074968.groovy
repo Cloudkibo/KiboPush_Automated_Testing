@@ -26,12 +26,13 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Autop
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Save Changes (3)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (2)'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboPush  Autoposting/select_ActiveDisabled (1)'), 'Active', 
-    true)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/button_Save Changes (3)'))
+WebUI.scrollToPosition(0, 0)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (2)'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Page_KiboPush  Autoposting/h3_Auto Posting'))
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush  Autoposting/div_Changes saved successfully (2)'))
 
