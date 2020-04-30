@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove youtube video component</description>
+   <name>TC11295</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9a2b4a25-c8fb-4dc6-a2ea-a7331f19646d</testCaseGuid>
+</TestCaseEntity>
