@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove facebook video component</description>
+   <name>TC11326</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c624c141-aa95-4e8b-abd2-325fb753023b</testCaseGuid>
+</TestCaseEntity>

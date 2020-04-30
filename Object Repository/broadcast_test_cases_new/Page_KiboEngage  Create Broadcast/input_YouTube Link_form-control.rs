@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;singleModal&quot;]/div/div/div[2]/div/div[1]/div/div[1]/div/input</value>
+         <value>//*[@id=&quot;singleModal&quot;]/div/div/div[2]/div/div[1]/div[2]/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;singleModal&quot;]/div/div/div[2]/div/div[1]/div/div[1]/div/input</value>
+      <value>//*[@id=&quot;singleModal&quot;]/div/div/div[2]/div/div[1]/div[2]/input</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

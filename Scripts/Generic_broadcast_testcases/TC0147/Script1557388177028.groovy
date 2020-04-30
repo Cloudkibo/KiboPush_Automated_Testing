@@ -33,3 +33,10 @@ WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/button_action_funct
 
 WebUI.delay(4)
 WebUI.verifyElementClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next_Card'))
+
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_Yes'))
+WebUI.delay(2)

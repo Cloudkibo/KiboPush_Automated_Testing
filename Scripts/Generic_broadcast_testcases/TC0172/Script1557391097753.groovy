@@ -19,3 +19,6 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 WebUI.callTestCase(findTestCase('Generic_broadcast_testcases/TC0171-S'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.verifyElementNotClickable(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Create Broadcast/button_Next'))
+WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_'))
+
+WebUI.delay(2)
