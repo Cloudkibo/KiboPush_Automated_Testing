@@ -37,5 +37,6 @@ WebUI.click(findTestObject('Object Repository/New create broadcast/Page_KiboEnga
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/button_Yes'))
+WebUI.setText(findTestObject('Object Repository/simplify_broadcast/Page_KiboEngage  Create Broadcast/input_Please enter a valid YouTube video li_a7b52c'), 
+    'yes')
 
