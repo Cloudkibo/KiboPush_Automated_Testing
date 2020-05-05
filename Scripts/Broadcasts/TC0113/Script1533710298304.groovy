@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), 
 
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryau_ee8050'),
-	'gallery', true)
+	'gallery', false)
 
 WebUI.delay(2)
 

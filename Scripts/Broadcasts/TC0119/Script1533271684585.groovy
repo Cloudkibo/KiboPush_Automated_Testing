@@ -26,7 +26,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryau_ee8050'),
-	'miscellaneous', true)
+	'miscellaneous', false)
 WebUI.delay(2)
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_Miscellaneous'))
 

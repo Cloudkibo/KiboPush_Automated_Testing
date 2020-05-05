@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by youtube video</description>
+   <name>TC11289-N2</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>31f818f5-7872-4a07-8dbb-8d93f1aa34f7</testCaseGuid>
+</TestCaseEntity>

@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), 
 
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryau_ee8050'),
-	'file', true)
+	'file', false)
 
 WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/span_file'))

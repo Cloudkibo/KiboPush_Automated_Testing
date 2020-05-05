@@ -24,7 +24,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/TeamAccount/Broadcasts'), 
 
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Broadcast/select_Filter by typetextimagecardgalleryau_ee8050'),
-	'audio', true)
+	'audio', false)
 
 WebUI.delay(2)
 WebUI.click(findTestObject('Page_KiboPush  Broadcast/span_audio'))
