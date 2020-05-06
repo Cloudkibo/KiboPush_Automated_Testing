@@ -3,15 +3,11 @@
    <description></description>
    <name>select_Filter by typetextimagecardgalleryau_ee8050</name>
    <tag></tag>
-   <elementGuidId>685e30b8-de1e-4f48-967c-750ff26d022c</elementGuidId>
+   <elementGuidId>ddcf74db-8272-42bd-8fb9-8836a7476ed9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='content']/div/div/div/div[2]/div[7]/div[2]/div/div/div[2]/div[2]/div[2]/select</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

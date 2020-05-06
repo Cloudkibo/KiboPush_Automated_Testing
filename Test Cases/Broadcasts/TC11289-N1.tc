@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by facebook video</description>
+   <name>TC11289-N1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2570531-0ac4-4014-bcb7-9494269f0c73</testCaseGuid>
+</TestCaseEntity>
