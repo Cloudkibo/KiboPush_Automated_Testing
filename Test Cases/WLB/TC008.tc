@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add url button 
+(validation)</description>
+   <name>TC008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f53cf60b-66f3-404f-868b-8610af172ed3</testCaseGuid>
+</TestCaseEntity>

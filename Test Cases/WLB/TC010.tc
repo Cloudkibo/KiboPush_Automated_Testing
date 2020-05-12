@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add only base group</description>
+   <name>TC010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7295c2ac-0e54-49a6-a4e8-09c06d858eb6</testCaseGuid>
+</TestCaseEntity>

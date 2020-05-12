@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add url button
+(popup)</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edf32eda-65cf-48ea-8546-95e8d90d5294</testCaseGuid>
+</TestCaseEntity>

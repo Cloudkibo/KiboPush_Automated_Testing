@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add url button 
+( base group count
+validation)</description>
+   <name>TC011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7971d814-9779-4e4c-bbc2-872d9bae652c</testCaseGuid>
+</TestCaseEntity>
