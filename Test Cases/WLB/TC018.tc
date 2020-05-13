@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test ignore button</description>
+   <name>TC018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a74db419-c7f8-4a05-9dd1-89ec597fe3b2</testCaseGuid>
+</TestCaseEntity>

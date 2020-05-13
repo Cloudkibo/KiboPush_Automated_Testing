@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test delete button(Yes)</description>
+   <name>TC016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eeaaf739-dc91-4824-9474-869b34106ac0</testCaseGuid>
+</TestCaseEntity>

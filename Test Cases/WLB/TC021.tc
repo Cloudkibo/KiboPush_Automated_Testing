@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test copy redirect 
+button</description>
+   <name>TC021</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>23a5db09-09ac-485c-9204-722b559b3ab7</testCaseGuid>
+</TestCaseEntity>

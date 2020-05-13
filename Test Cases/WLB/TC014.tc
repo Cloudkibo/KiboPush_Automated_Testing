@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test add alternate
+ group</description>
+   <name>TC014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f63757a5-c28d-420d-b1e6-a2110ecb7b3f</testCaseGuid>
+</TestCaseEntity>
