@@ -23,6 +23,12 @@
       <testCaseId>Test Cases/WLB/TC006_N2</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>87b02da8-26b6-4456-9130-ec4fb23aa525</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WLB/TC006_N3</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>69ac3363-7fd9-4413-97cb-25b2c69724c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -33,6 +39,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WLB/TC008</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fdf8ff0e-067d-4207-a0ce-e5544ca21f3a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WLB/TC008_N1</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5aecde70-1114-4de0-b3f5-f6dbd32a1f0a</guid>
@@ -111,6 +123,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/WLB/TC021_N1</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>652375b9-a4d5-43d6-946a-9a4f9f9a4f06</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/WLB/TC021_N2</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a436d76a-befe-49ba-9e11-78c3f70ab965</guid>
