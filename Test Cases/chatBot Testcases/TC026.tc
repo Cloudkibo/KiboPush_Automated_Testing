@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>create new backup</description>
+   <name>TC026</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0f6f553-71c9-45da-b4dd-61d1fd9f69c9</testCaseGuid>
+</TestCaseEntity>

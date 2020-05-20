@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Back button should take you to the previous block</description>
+   <name>TC018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95749d4f-edec-4beb-b546-63009d6fc55b</testCaseGuid>
+</TestCaseEntity>
