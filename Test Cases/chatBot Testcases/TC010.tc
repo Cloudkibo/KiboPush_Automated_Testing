@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Attachment: Add text with video and test it</description>
+   <name>TC010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a8e4ee7e-b9aa-4295-b429-a4172d22cc0f</testCaseGuid>
+</TestCaseEntity>

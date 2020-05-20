@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test video tuteriol</description>
+   <name>TC001_N1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e43045f6-f559-46b5-8110-cb3d84e5978a</testCaseGuid>
+</TestCaseEntity>

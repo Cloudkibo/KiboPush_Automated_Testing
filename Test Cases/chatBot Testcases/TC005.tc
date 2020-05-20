@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test the chatbot using test button</description>
+   <name>TC005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ded37a35-46e2-4598-a8eb-b76b9ef02109</testCaseGuid>
+</TestCaseEntity>

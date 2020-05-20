@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add and remove triggers</description>
+   <name>TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6e0e51a-40cf-445d-aaa2-00f2420ea3c4</testCaseGuid>
+</TestCaseEntity>
