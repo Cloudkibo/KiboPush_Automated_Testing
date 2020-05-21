@@ -43,5 +43,5 @@ List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
 int rows_count_before = rows_table.size()
 
-WebUI.verifyEqual(rows_count_before, 1)
+WebUI.verifyGreaterThanOrEqual(rows_count_before, 1)
 
