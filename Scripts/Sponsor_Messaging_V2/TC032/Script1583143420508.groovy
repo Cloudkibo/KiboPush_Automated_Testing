@@ -20,11 +20,11 @@ WebUI.callTestCase(findTestCase('Sponsor_Messaging_V2/TC024'), [:], FailureHandl
 
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/button_Next'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/button_Next'))
 
-WebUI.delay(2)
+WebUI.delay(4)
 
 WebUI.click(findTestObject('Object Repository/sponsor_messaging_v2/Page_KiboEngage  Create Sponsored Message/input'))
 
