@@ -42,3 +42,6 @@ WebElement element = driver.findElement(By.xpath('//*[@id="sponsoredMessage"]/di
 element.sendKeys('2025-04-24')
 
 WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponsored Messaging/Page_KiboEngage  Create Sponsored Message/button_'))
+
+

@@ -29,7 +29,3 @@ WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponso
 WebUI.delay(2)
 
 WebUI.verifyTextPresent('Cancel Schedule', false)
-
-WebUI.click(findTestObject('Object Repository/sponsor_v2/Page_KiboEngage  Sponsored Messaging/Page_KiboEngage  Create Sponsored Message/Page_KiboEngage  Edit Sponsored Message/button_'))
-
-WebUI.delay(3)
