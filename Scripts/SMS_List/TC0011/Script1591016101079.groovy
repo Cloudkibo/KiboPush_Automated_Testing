@@ -14,4 +14,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dashboard'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts'))
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input'), 'Faizan')
+
+WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input_1'), '+923333739566')
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Add Manually'))
+
+WebUI.delay(6)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_0'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/div_No data to display'))
 
