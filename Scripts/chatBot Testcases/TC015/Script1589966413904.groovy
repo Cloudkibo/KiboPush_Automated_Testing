@@ -30,5 +30,16 @@ WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure C
 
 WebUI.verifyTextPresent('child3', false)
 
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/i_child1__chatbot_message_area_header_edit_title'))
+
+WebUI.setText(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/input_Backup__chatbot_message_area_header_t_cae3de'),
+	'child1')
+
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Backup__chatbot_message_area_header__8276c4'))
+
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/div_Saved successfully'))
+
 WebUI.callTestCase(findTestCase('chatBot Testcases/backFunction'), [:], FailureHandling.STOP_ON_FAILURE)
 
