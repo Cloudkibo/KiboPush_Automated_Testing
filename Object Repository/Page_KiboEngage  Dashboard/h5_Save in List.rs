@@ -1,85 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h3_Upload Contacts</name>
+   <name>h5_Save in List</name>
    <tag></tag>
-   <elementGuidId>1cc2c4ae-1f1e-4272-a06f-3019077a46a1</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//h3[(text() = 'Upload Contacts' or . = 'Upload Contacts')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>227a4d40-6e48-4c66-9396-df3190fd5855</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
+      <value>h5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>m-portlet__head-text</value>
+      <value>modal-title</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>exampleModalLabel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Upload Contacts</value>
+      <value>Save in List</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-12&quot;]/div[@class=&quot;m-portlet&quot;]/div[@class=&quot;m-portlet__head&quot;]/div[@class=&quot;m-portlet__head-caption&quot;]/div[@class=&quot;m-portlet__head-title&quot;]/h3[@class=&quot;m-portlet__head-text&quot;]</value>
+      <value>id(&quot;_contact_lists&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/h5[@id=&quot;exampleModalLabel&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//h5[@id='exampleModalLabel'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='content']/div/div/div/div[2]/div[3]/div/div/div/div/div/div/h3</value>
+      <value>//div[@id='_contact_lists']/div/div/div/h5</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Base'])[1]/following::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Guide'])[1]/following::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Guide'])[1]/following::h3[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/following::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter phone numbers manually'])[1]/preceding::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Merge these subscribers into an existing list'])[1]/preceding::h5[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='OR'])[1]/preceding::h3[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create new list and save these subscribers in that list'])[1]/preceding::h5[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save in List']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/div/div/div/h3</value>
+      <value>//div[2]/div/div/div/h5</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -12,11 +12,15 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Subscribers (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
 
 WebUI.delay(1)
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Submit'))
