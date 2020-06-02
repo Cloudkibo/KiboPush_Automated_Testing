@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Project>
-   <description>Automated Testing for KiboPush</description>
-   <name>KiboPush</name>
-   <tag></tag>
-   <UUID>a852ffcb-5e4e-4608-9937-3f128e93545c</UUID>
-   <migratedVersion>5.4.0</migratedVersion>
-   <pageLoadTimeout>0</pageLoadTimeout>
-</Project>

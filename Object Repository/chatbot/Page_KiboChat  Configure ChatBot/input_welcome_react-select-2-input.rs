@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//input[@id = 'react-select-2-input' and @type = 'text']</value>
+         <value>//input[@id = 'react-select-4-input' and @type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>react-select-2-input</value>
+      <value>react-select-4-input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

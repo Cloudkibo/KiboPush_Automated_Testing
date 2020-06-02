@@ -18,7 +18,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('chatBot Testcases/MainPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
 WebUI.setText(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/input_welcome_react-select-2-input'), 
     'ok')
 
@@ -27,5 +26,9 @@ WebUI.sendKeys(findTestObject('Object Repository/chatbot/Page_KiboChat  Configur
 
 WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/path'))
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/div_Saved successfully'))
+
 WebUI.callTestCase(findTestCase('chatBot Testcases/backFunction'), [:], FailureHandling.STOP_ON_FAILURE)
 
