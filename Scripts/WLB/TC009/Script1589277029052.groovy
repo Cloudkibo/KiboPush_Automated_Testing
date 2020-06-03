@@ -19,7 +19,14 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('WLB/TC007'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_React App/button_Add Group'))
+
 WebUI.click(findTestObject('Object Repository/Page_React App/addURl'))
 
 WebUI.click(findTestObject('Object Repository/Page_React App/div_Base Group URL is required and can not _d99dcf'))
+
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/button_Ignore'))
+
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/h5_Warning'))
+
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/button_Yes'))
 

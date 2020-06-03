@@ -18,9 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 //WebUI.callTestCase(findTestCase('WLB/TC006'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.refresh()
+WebUI.callTestCase(findTestCase('WLB/Switch Window'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_React App/span_edit'))
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/i_httpsbitly3cvoWIQ_la la-edit'))
 
 WebUI.click(findTestObject('Object Repository/Page_React App/span_delete_forever'))
 
@@ -30,10 +30,5 @@ WebUI.click(findTestObject('Object Repository/Page_React App/button_Delete'))
 WebUI.delay(2)
 
 WebUI.verifyTextPresent('Email did not matched.', false)
-//WebUI.click(findTestObject('Object Repository/Page_React App/div_Email did not matched'))
 
-//WebUI.click(findTestObject('Object Repository/Page_React App/button_Delete'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_React App/button_Close'))
-//
-//WebUI.click(findTestObject('Object Repository/Page_React App/h5_Edit Whatsapp Invitation URL'))
+WebUI.refresh()

@@ -16,12 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('WLB/TC006'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.refresh()
+WebUI.callTestCase(findTestCase('WLB/Switch Window'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_React App/span_person'))
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/span_Arveen1 Kumar'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/a_Log Out'))
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/a_Logout'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/h3_Sign In'))
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/h3_Sign In'))
 

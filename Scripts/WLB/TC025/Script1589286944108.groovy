@@ -17,21 +17,13 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.callTestCase(findTestCase('WLB/TC006'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.refresh()
+//WebUI.callTestCase(findTestCase('WLB/TC006'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_React App/span_person'))
+WebUI.callTestCase(findTestCase('WLB/Switch Window'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_React App/a_User Profile'))
+WebUI.delay(2)
 
-//WebUI.navigateToUrl('https://swlb.cloudkibo.com/accountInformation')
-WebUI.setText(findTestObject('Object Repository/Page_React App/input_Account Information_fName'), 'Arveen1')
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/span_Settings'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/button_Edit'))
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/span_arveencloudkibocom'))
 
-WebUI.click(findTestObject('Object Repository/Page_React App/div_update information successfully'))
-
-WebUI.click(findTestObject('Object Repository/Page_React App/form_Account InformationEditBack'))
-
-WebUI.click(findTestObject('Object Repository/Page_React App/a_Back'))
-
-WebUI.delay(3)

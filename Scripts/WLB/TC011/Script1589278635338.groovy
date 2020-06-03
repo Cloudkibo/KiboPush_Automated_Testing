@@ -28,3 +28,7 @@ WebUI.click(findTestObject('Object Repository/Page_React App/addURl'))
 
 WebUI.click(findTestObject('Object Repository/Page_React App/div_Base Group count should be between 0-250'))
 
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/button_Ignore'))
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/h5_Warning'))
+
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/button_Yes'))

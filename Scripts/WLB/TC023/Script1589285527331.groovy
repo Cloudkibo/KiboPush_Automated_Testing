@@ -16,8 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('WLB/TC006'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.refresh()
+
+WebUI.callTestCase(findTestCase('WLB/Switch Window'), [:], FailureHandling.STOP_ON_FAILURE)
+
 
 WebUI.click(findTestObject('Object Repository/WLB/Page_React App/span_delete_outline'))
 
@@ -29,6 +30,8 @@ WebUI.setText(findTestObject('Object Repository/WLB/Page_React App/input_Are you
 WebUI.click(findTestObject('Object Repository/WLB/Page_React App/button_Delete'))
 
 WebUI.click(findTestObject('Object Repository/WLB/Page_React App/div_Deleted URL Successfully'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/WLB/Page_React App/span_delete_outline'))
 

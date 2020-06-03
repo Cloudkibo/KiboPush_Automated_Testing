@@ -29,12 +29,6 @@
       <testCaseId>Test Cases/WLB/TC006_N3</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>69ac3363-7fd9-4413-97cb-25b2c69724c1</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/WLB/TC007</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>87155aad-84e5-4cd2-8d1d-1c737b7ab0bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

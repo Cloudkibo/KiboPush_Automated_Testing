@@ -4,10 +4,16 @@
    <name>input_documentation_form-control</name>
    <tag></tag>
    <elementGuidId>8ca3be91-b4a2-4149-9014-954b18f35df2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'text' and @placeholder = 'Search Group...']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -32,7 +38,7 @@
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Search</value>
+      <value>Search Group...</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

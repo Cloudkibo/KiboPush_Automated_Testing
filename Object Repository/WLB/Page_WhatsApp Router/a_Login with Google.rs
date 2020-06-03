@@ -3,13 +3,7 @@
    <description></description>
    <name>a_Login with Google</name>
    <tag></tag>
-   <elementGuidId>81ef8518-a174-4b6d-94e0-f3879729a17a</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = ' Login with Google' or . = ' Login with Google')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>77eedcbb-1457-4b19-8b13-78a9ee5ff03b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -20,7 +14,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -31,35 +25,28 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>google btn</value>
+      <value>btn btn-danger m-btn m-btn--icon m-login__head m-login__title</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Login with Google</value>
+      <value>Login with Google</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[1]/div[@class=&quot;auth-wrapper&quot;]/div[@class=&quot;auth-inner&quot;]/a[@class=&quot;google btn&quot;]</value>
+      <value>id(&quot;m_login&quot;)/div[@class=&quot;m-grid__item m-grid__item--order-tablet-and-mobile-2 m-login__aside&quot;]/div[@class=&quot;m-stack m-stack--hor m-stack--desktop&quot;]/div[@class=&quot;m-stack__item m-stack__item--fluid&quot;]/div[@class=&quot;m-login__wrapper&quot;]/div[@class=&quot;m-login__signin&quot;]/a[@class=&quot;btn btn-danger m-btn m-btn--icon m-login__head m-login__title&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/a</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
-      <type>Main</type>
-      <value>//a[contains(text(),'Login with Google')]</value>
+      <value>//div[@id='m_login']/div/div/div/div/div[2]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,14 +60,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signup'])[1]/preceding::a[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login with Google']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Don', &quot;'&quot;, 't have an account yet ?')])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +74,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a</value>
+      <value>//div[2]/a</value>
    </webElementXpaths>
 </WebElementEntity>
