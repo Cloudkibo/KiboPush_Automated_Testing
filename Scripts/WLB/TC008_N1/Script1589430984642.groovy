@@ -26,3 +26,8 @@ WebUI.setText(findTestObject('Object Repository/Page_React App/input_Participant
 WebUI.click(findTestObject('Object Repository/Page_React App/addURl'))
 
 WebUI.verifyTextPresent('Base Group invalid URL', false)
+
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/button_Ignore'))
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/h5_Warning'))
+
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/button_Yes'))

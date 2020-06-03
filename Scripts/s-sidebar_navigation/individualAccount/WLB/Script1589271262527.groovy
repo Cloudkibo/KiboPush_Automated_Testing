@@ -22,7 +22,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://swlb.cloudkibo.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_React App/a_Login with Google'))
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/a_Login with Google'))
 
 WebUI.setText(findTestObject('Object Repository/Page_Sign in - Google Accounts/input_Enter your email_Email'), 'arveen@cloudkibo.com')
 
@@ -35,4 +35,5 @@ WebUI.click(findTestObject('Object Repository/Page_Google Accounts/input_Enter y
 //WebUI.click(findTestObject('Object Repository/Page_Request for Permission/button_Allow'))
 
 WebUI.click(findTestObject('Object Repository/Page_React App/div_Need help in understanding WLB Here is _a4fa14'))
+
 

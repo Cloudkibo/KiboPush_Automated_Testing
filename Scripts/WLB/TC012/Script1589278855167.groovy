@@ -26,3 +26,7 @@ WebUI.click(findTestObject('Object Repository/Page_React App/addURl'))
 
 WebUI.click(findTestObject('Object Repository/Page_React App/div_Base Group name is required and can not_e41356'))
 
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/button_Ignore'))
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/h5_Warning'))
+
+WebUI.click(findTestObject('Object Repository/Page_WhatsApp Router/button_Yes'))

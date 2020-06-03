@@ -14,10 +14,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('WLB/TC006'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('WLB/Switch Window'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/span_Settings'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/WLB/Page_React App/a_documentation'))
-
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/span_Manage Urls'))
+WebUI.delay(2)

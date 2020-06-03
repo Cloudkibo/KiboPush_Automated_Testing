@@ -22,3 +22,4 @@ WebUI.click(findTestObject('Object Repository/Page_React App/addURl'))
 
 WebUI.click(findTestObject('Object Repository/Page_React App/div_Base Group URL is required and can not _d99dcf'))
 
+WebUI.click(findTestObject('Object Repository/WLB/Page_WhatsApp Router/button_Ignore'))
