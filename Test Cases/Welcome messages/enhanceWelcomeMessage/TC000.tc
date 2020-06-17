@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>See phone number and email quick reply</description>
+   <name>TC000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>baf73693-77d1-4713-a9a9-a91ca403c342</testCaseGuid>
+</TestCaseEntity>
