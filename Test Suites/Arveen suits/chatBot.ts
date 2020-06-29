@@ -17,6 +17,12 @@
       <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/arveen_production_login_kibochat</testCaseId>
    </testCaseLink>
    <testCaseLink>
+      <guid>675625d3-b1a4-41b9-9beb-d44399d78ee6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/chatBot Testcases/open_automation</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>1c04a7e2-624f-47c7-859e-46e982dd6e50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -105,5 +111,23 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot Testcases/TC028</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1ed3900d-358a-42fd-a880-bd92e52200dc</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/chatBot Testcases/TC033</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0c030f9c-931f-4970-93e5-80027ac45a9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/chatBot Testcases/TC034</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c2aa9cc4-072d-4b33-84eb-0811d576292a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/chatBot Testcases/TC035</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

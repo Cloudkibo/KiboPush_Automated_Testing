@@ -39,9 +39,9 @@ WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (58)'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)'))
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Messenger'))
-WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)'))
+//WebUI.delay(2)
+//
+//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Messenger'))
+//WebUI.delay(2)
 
