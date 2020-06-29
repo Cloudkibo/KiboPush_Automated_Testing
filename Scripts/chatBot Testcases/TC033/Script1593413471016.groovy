@@ -14,21 +14,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('chatBot Testcases/MainPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/span_Backup'))
-WebUI.delay(5)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Analytics'), 5)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Restore Backup'))
-
-
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_No'))
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/h5_Chatbot Backup'))
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Restore Backup'))
-
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Yes'))
-
-
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/div_Backup restored successfully'))
 WebUI.callTestCase(findTestCase('chatBot Testcases/backFunction'), [:], FailureHandling.STOP_ON_FAILURE)
+

@@ -17,18 +17,16 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('chatBot Testcases/MainPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/span_Backup'))
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Publish'))
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Restore Backup'))
+WebUI.delay(4)
 
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Analytics'))
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_No'))
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/h5_Chatbot Backup'))
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Restore Backup'))
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/h3_Thar needs halp Chat Bot Analytics'))
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Yes'))
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Times bot started using triggers_m-p_c8d8ae'))
 
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Test Chatbot_m-portlet__nav-link btn_841cec'))
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/div_Backup restored successfully'))
 WebUI.callTestCase(findTestCase('chatBot Testcases/backFunction'), [:], FailureHandling.STOP_ON_FAILURE)
