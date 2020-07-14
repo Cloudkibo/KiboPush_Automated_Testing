@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test pagination (previous page) in all chatbots</description>
+   <name>207</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>383c9f29-8ef1-4adf-ae10-2bc98f140ace</testCaseGuid>
+</TestCaseEntity>

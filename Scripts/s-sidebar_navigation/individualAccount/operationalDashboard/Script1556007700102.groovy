@@ -24,6 +24,8 @@ WebUI.click(findTestObject('Object Repository/broadcast_test_cases_new/Page_Kibo
 
 WebUI.click(findTestObject('Page_KiboEngage  Subscribers/span_Operational Dashboard (1) (1)'))
 
+WebUI.delay(3)
+
 WebUI.scrollToPosition(0, 0)
 
 WebUI.delay(2)

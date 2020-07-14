@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test pagination (next page) in all comment captures</description>
+   <name>199</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0d78d0cd-b27f-4b8d-a690-84a7aafa18ea</testCaseGuid>
+</TestCaseEntity>
