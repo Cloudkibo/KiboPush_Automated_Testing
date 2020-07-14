@@ -18,16 +18,24 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('Operational_Dashboard/Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/i_flaticon flaticon-more (1)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Operational Dashbo/i_flaticon flaticon-more'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/broadcast_test_cases_new/Page_KiboEngage  Operational Dashboard/select_Filter by LocaleALLEnglish UNITED ST_7d80dd'), 
-    'en_US', true)
+WebDriver driver = DriverFactory.getWebDriver()
+
+WebElement textBox = driver.findElement(By.xpath('//*[@id="m_form_type"]/option[119]'))
+
+
+textBox.click()
+
 WebUI.delay(5)
 
 WebUI.verifyTextPresent('English, UNITED STATES', false)
-

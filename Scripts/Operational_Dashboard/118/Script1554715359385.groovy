@@ -36,4 +36,4 @@ WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
 int rows_count = rows_table.size()
-WebUI.verifyEqual(rows_count,1)
+WebUI.verifyGreaterThanOrEqual(rows_count, 1)
