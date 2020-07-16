@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Deleting the canned response</description>
+   <name>TC012</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>feebfe15-b8d1-459f-96f5-d05dbfea315e</testCaseGuid>
+</TestCaseEntity>
