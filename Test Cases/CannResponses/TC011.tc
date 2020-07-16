@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test updating a canned response</description>
+   <name>TC011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af081b8f-9441-4887-aa95-31de0885a32d</testCaseGuid>
+</TestCaseEntity>

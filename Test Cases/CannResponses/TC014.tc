@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Searching Canned Responses</description>
+   <name>TC014</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b263d8da-4cab-422f-ba7c-b94041cdfba7</testCaseGuid>
+</TestCaseEntity>
