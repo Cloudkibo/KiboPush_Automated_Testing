@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test sort by newest to oldest</description>
+   <name>TC008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f68f3e19-3806-487d-a160-899a3148a37b</testCaseGuid>
+</TestCaseEntity>

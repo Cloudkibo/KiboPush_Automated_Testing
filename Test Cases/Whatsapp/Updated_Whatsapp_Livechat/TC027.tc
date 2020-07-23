@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mark session as resolved modal</description>
+   <name>TC027</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ed166e32-191c-499e-9b30-1fe001486369</testCaseGuid>
+</TestCaseEntity>

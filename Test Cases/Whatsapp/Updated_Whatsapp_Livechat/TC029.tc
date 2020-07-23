@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Do not Mark session as resolved</description>
+   <name>TC029</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7a1b90eb-22a4-4a3c-b78b-5c6d31bee919</testCaseGuid>
+</TestCaseEntity>

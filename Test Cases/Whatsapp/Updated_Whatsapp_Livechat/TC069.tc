@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Reset message when sending template to whatsapp number</description>
+   <name>TC069</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b8e72892-8a3a-4775-bfef-e9b166753dc3</testCaseGuid>
+</TestCaseEntity>
