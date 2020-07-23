@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Disconnect</name>
+   <tag></tag>
+   <elementGuidId>16e4a0d1-e13d-407b-8438-cfd1f74f1a45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='m_widget4_tab1_content']/div/div[3]/div[3]/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>m-btn m-btn--pill m-btn--hover-danger btn btn-danger</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Disconnect</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;m_widget4_tab1_content&quot;)/div[@class=&quot;m-widget4&quot;]/div[@class=&quot;m-widget4__item&quot;]/div[@class=&quot;m-widget4__ext&quot;]/button[@class=&quot;m-btn m-btn--pill m-btn--hover-danger btn btn-danger&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

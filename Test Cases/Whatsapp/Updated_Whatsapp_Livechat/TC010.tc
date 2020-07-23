@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test filter by pending sessions</description>
+   <name>TC010</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>adbd968d-2762-4bf3-9b6a-123738d42342</testCaseGuid>
+</TestCaseEntity>

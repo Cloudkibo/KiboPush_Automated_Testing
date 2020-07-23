@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enter invalid template when sending template to whatsapp number</description>
+   <name>TC068</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>92797f8f-0d16-4737-bd1f-0c414ee00b1e</testCaseGuid>
+</TestCaseEntity>

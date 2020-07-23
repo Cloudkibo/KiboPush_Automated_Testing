@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test remove filters</description>
+   <name>TC011</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>154ebb79-65a1-4459-8d53-49a1a421e29a</testCaseGuid>
+</TestCaseEntity>
