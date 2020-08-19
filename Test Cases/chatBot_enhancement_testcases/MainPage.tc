@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Modify existing bot</description>
+   <name>MainPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ba2d1583-0b2c-45a6-995c-cb48729a0a58</testCaseGuid>
+</TestCaseEntity>
