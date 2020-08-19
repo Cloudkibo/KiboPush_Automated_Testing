@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Publish the bot to messenger</description>
+   <name>TC018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1a973a69-a83c-4090-bfb7-c2baace7d691</testCaseGuid>
+</TestCaseEntity>
