@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select Assigned Members for Unresolved Session</description>
+   <name>TC009</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e04c68a1-54d4-4090-b38a-b42f76cdaf09</testCaseGuid>
+</TestCaseEntity>

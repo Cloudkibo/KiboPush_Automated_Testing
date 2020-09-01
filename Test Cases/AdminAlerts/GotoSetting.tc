@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login-KiboChat</name>
+   <name>GotoSetting</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>eb62a8ed-7110-4258-9cc7-f7a2225548c5</testCaseGuid>
+   <testCaseGuid>ecdd60d5-b117-4817-b9b0-aca3b6281704</testCaseGuid>
 </TestCaseEntity>

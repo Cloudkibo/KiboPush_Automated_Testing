@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Set Notification time for unresolved session alert</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4d16cae2-2d5c-4951-ab52-1bc8a520a1d6</testCaseGuid>
+</TestCaseEntity>
