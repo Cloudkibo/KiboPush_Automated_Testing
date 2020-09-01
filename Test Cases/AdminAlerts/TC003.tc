@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Set Notification time for pending session alert</description>
+   <name>TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb9c0972-ace5-420a-afab-fdec9b62e318</testCaseGuid>
+</TestCaseEntity>

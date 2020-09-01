@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enable/Disable Unresolved Session Alert</description>
+   <name>TC006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>398f3d67-643e-4817-9b37-1a16686bb8ad</testCaseGuid>
+</TestCaseEntity>
