@@ -14,9 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/TC027'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/button_Yes'))
+WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Dashboard/button_Yes'))
 
-WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/div_Session has been marked as resoleved su_86da30'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Dashboard/div_Session has been marked as resoleved su_86da30'))
+
+//WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Dashboard/div_Session has been reopened successfully'))
+

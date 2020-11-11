@@ -34,4 +34,4 @@ List<WebElement> live_chat_subscribers = driver.findElements(By.xpath('//*[@id="
 
 //println(live_chat_subscribers.size())
 
-WebUI.verifyEqual(live_chat_subscribers.size(), 50)
+WebUI.verifyGreaterThanOrEqual(live_chat_subscribers.size(), 25)

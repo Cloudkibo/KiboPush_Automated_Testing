@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send whatsapp message to new number</description>
+   <name>TC066</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>587fe6e8-301d-43eb-9efb-a05684079c9a</testCaseGuid>
+</TestCaseEntity>

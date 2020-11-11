@@ -4,6 +4,18 @@
    <name>i_Arveen Kumar_la la-search</name>
    <tag></tag>
    <elementGuidId>228cb1fc-d90a-416f-b7cf-98e056885310</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='_chat_area']/div[5]/div/i[2]
+
+//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[2]/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +51,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;_chat_area&quot;)/div[5]/div[1]/i[@class=&quot;la la-search&quot;]</value>
+      <value>//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[2]/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

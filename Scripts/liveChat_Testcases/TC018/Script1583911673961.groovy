@@ -22,7 +22,7 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Open'))
+WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Live Chat/span_Open'))
 
 WebUI.delay(3)
 WebDriver driver = DriverFactory.getWebDriver()

@@ -6,11 +6,15 @@
    <elementGuidId>dc486dfa-2f24-4925-ae0e-02a07078e6e8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[@id='load-more-chat-sessions']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//button[@id = 'load-more-chat-sessions' and (text() = 'Load More' or . = 'Load More')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -19,5 +19,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Closed'))
+WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Live Chat/span_Closed'))
 WebUI.click(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Api Settings/p_Please select a session to view its chat'))

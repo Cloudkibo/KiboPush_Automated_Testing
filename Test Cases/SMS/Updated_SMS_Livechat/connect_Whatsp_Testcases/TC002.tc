@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Submit with empty fields</description>
+   <name>TC002</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5aab7947-001c-472a-829d-b4b808edaa80</testCaseGuid>
+</TestCaseEntity>

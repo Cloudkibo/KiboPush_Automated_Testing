@@ -16,11 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/go to live chat'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/span_Arveen Kumar'))
+WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/sessionClick'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/i_Arveen Kumar_la la-check'))
 
