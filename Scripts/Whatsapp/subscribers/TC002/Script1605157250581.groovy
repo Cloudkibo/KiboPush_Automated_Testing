@@ -12,13 +12,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Whatsapp/subscribers/open subscribers'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_KiboChat  Upload Contacts/span_Subscribers'))
+WebUI.delay(2)
 
-WebUI.delay(1)
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/span_Dashboard'))
+WebElement Table = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody'))
 
-WebUI.delay(1)
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)

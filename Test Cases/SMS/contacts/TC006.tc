@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>open Dashboard</name>
+   <name>TC006</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>10fe1823-0d14-4cae-9a70-8cafe3dadfac</testCaseGuid>
+   <testCaseGuid>ca7d24a4-7f08-4ab8-9acc-b024ea6a17ae</testCaseGuid>
 </TestCaseEntity>

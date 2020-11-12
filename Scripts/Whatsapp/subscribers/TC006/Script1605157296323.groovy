@@ -15,10 +15,15 @@ import internal.GlobalVariable as GlobalVariable
 
 
 
-WebUI.click(findTestObject('Page_KiboChat  Upload Contacts/span_Subscribers'))
+WebUI.callTestCase(findTestCase('Whatsapp/subscribers/open subscribers'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/W_subscriber/Page_KiboChat  Subscribers/i_Subscribed_la la-edit'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/span_Dashboard'))
+WebUI.click(findTestObject('Object Repository/W_subscriber/Page_KiboChat  Subscribers/h5_Edit Subscriber'))
 
-WebUI.delay(1)
+WebUI.setText(findTestObject('Object Repository/W_subscriber/Page_KiboChat  Subscribers/input_Edit Subscriber_form-control m-input'), 
+    'Anisha chatwani')
+
+WebUI.click(findTestObject('Object Repository/W_subscriber/Page_KiboChat  Subscribers/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/W_subscriber/Page_KiboChat  Subscribers/div_Subscriber updated successfully'))

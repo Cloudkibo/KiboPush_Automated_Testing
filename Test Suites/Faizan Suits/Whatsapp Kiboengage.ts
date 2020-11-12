@@ -17,40 +17,22 @@
       <testCaseId>Test Cases/s-sidebar_navigation/individualAccount/Faizan_production_login_kiboengage</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>5eb29f30-4941-4f8a-a2e0-e4ed60bb6500</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Whatsapp/Whatsapp Platform</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>324ea1a8-bede-4cbc-b0e5-5b58bf99aaaf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/subscribers/TC11219</testCaseId>
+      <testCaseId>Test Cases/Whatsapp/subscribers/TC001</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4bf1abc1-ac91-4c1a-959d-a8ddfc5dcc6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/subscribers/TC11220</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4bcfbe0e-d372-42e5-82cf-c0e6d8603351</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/subscribers/TC11221</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>5fdbde56-427c-4a59-bee4-33fd08fe73f7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/subscribers/TC11222</testCaseId>
+      <testCaseId>Test Cases/Whatsapp/subscribers/TC002</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>dabf5754-154f-4e25-9861-ba3cc743cac4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/subscribers/TC11223</testCaseId>
+      <testCaseId>Test Cases/Whatsapp/subscribers/TC006</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>6df30df6-3fc7-48d5-8f5d-ae3b67fb2e01</guid>
@@ -200,24 +182,18 @@
       <guid>e255a6c9-7e90-432e-bd74-6261daafc704</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11279</testCaseId>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC001</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3e5c32fd-ac13-4fff-afbb-af59f25e26b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11281</testCaseId>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC003</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d78b30a6-331f-4211-a09f-c77d0c688af4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/Dashboard/TC11282</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>80c9e2c8-6d53-4833-b8e1-45ad50ba9c0c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Whatsapp/Configuration in Settings/TC11271</testCaseId>
+      <testCaseId>Test Cases/Whatsapp/Dashboard/TC004</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
