@@ -26,31 +26,31 @@
       <guid>14b1a6ae-ce6d-428a-ab81-33009987cb74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/contacts/TC11149</testCaseId>
+      <testCaseId>Test Cases/SMS/contacts/TC001</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>b21fc956-d7aa-4868-89ab-27774ef4796e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/contacts/TC11150</testCaseId>
+      <testCaseId>Test Cases/SMS/contacts/TC002</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d642197a-f72c-44f6-99fc-9c1e7349d28c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/contacts/TC11151</testCaseId>
+      <testCaseId>Test Cases/SMS/contacts/TC004</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>cf85abb6-d252-4250-81e0-54a952c8c611</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/contacts/TC11152</testCaseId>
+      <testCaseId>Test Cases/SMS/contacts/TC005</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c0bd92c2-710f-4028-8803-3f7d3eef10a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/contacts/TC11153</testCaseId>
+      <testCaseId>Test Cases/SMS/contacts/TC006</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>32fa4b2f-8cf0-438a-b83c-7e247023b627</guid>
@@ -218,19 +218,19 @@
       <guid>ff3a1b8a-0917-4105-a2e9-5b27a640a7f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/Dashboard/TC11287</testCaseId>
+      <testCaseId>Test Cases/SMS/Dashboard/TC001</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>40f99674-4801-4cc3-95a8-a8833fae6fbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/Dashboard/TC11289</testCaseId>
+      <testCaseId>Test Cases/SMS/Dashboard/TC003</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>845970c9-7075-4dcc-8f2f-b1d33a5c2f98</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/Dashboard/TC11290</testCaseId>
+      <testCaseId>Test Cases/SMS/Dashboard/TC004</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>953bf262-9695-49a2-bd9e-81365a01b227</guid>

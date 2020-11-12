@@ -4,10 +4,16 @@
    <name>span_(Unsubscribe)</name>
    <tag></tag>
    <elementGuidId>4335a696-e080-4c43-9fe3-877e60ac0714</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = '(Unsubscribe)' or . = '(Unsubscribe)')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

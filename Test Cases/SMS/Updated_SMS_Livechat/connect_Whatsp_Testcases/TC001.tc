@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Connect Button of whatsapp</description>
+   <name>TC001</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ff6fa917-d1bd-4c29-9085-ed8981c47668</testCaseGuid>
+</TestCaseEntity>

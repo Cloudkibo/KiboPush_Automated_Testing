@@ -34,9 +34,10 @@ live_chat_subscribers[0].click()
 
 WebUI.click(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Api Settings/span_Custom Fields'))
 
+WebUI.click(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Api Settings/span_ Set Custom Field'))
 
 WebUI.setText(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Api Settings/input_City_form-control m-input'), 
     'khi')
 
-WebUI.verifyElementNotClickable(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Api Settings/button_Save'))
+//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Api Settings/button_Save'))
 

@@ -13,11 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_KiboEngage  Dashboard/span_Upload Contacts (3)'))
+
+
+WebUI.click(findTestObject('Page_KiboChat  Upload Contacts/span_Subscribers'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Subscribers/span_Dashboard'))
 
 WebUI.delay(1)
-

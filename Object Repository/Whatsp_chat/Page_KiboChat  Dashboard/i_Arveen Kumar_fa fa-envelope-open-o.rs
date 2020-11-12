@@ -4,7 +4,17 @@
    <name>i_Arveen Kumar_fa fa-envelope-open-o</name>
    <tag></tag>
    <elementGuidId>56986449-5fd8-4112-ac1d-d2974ab3f9d3</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[3]/i</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[3]/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,20 +49,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;_chat_area&quot;)/div[5]/div[1]/i[@class=&quot;fa fa-envelope-open-o&quot;]</value>
+      <value>//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[3]/i</value>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='_chat_area']/div[5]/div/i[3]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div/i[3]</value>
-   </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Submit with empty Access Token</description>
+   <name>TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb6127ca-518c-49e4-87b9-d7ff1a73b6fd</testCaseGuid>
+</TestCaseEntity>

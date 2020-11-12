@@ -18,6 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
@@ -27,21 +31,16 @@ WebUI.navigateToUrl('https://kibochat.cloudkibo.com/')
 
 WebUI.navigateToUrl('https://accounts.cloudkibo.com/?continue=https://kibochat.cloudkibo.com')
 
-WebUI.click(findTestObject('Page_KiboPush/a_Login (10)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush/a_Login (10)'))
 
-WebUI.setText(findTestObject('Page_KiboPush/input_email (10) (1) (1)'), 'individual@cloudkibo.com')
+WebUI.setText(findTestObject('Object Repository/Page_KiboPush/input_email (10) (1) (1)'), 'individual@cloudkibo.com')
 
-WebUI.setEncryptedText(findTestObject('Page_CloudKibo/input_Sign In_password (7)'), 'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_CloudKibo/input_Sign In_password (7)'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-WebUI.click(findTestObject('Page_KiboPush/button_Sign In (11)'))
+WebUI.click(findTestObject('Object Repository/Page_KiboPush/button_Sign In (11)'))
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (58)'))
-
+//WebUI.click(findTestObject('Page_KiboPush  Dashboard/h3_Dashboard (58)'))
 WebUI.delay(5)
 
-//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/a_SMS (2)'))
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Messenger'))
-//WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/Page_KiboPush/span_SMS'))
 

@@ -23,10 +23,11 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/span_Closed'))
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/span_Arveen Kumar'))
+WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/sessionClick'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
 WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/i_Arveen Kumar_fa fa-envelope-open-o'))
 
+WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/div_Session has been reopened successfully'))
 

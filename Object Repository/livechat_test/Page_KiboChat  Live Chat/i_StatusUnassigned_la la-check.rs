@@ -6,12 +6,12 @@
    <elementGuidId>7cfece08-eddc-48af-b966-96e16e06bd5d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-5&quot;]/div[@class=&quot;m-portlet m-portlet--mobile&quot;]/div[1]/div[1]/i[@class=&quot;la la-check&quot;]</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;_chat_area&quot;]/div/div[4]/div/button[3]/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;_chat_area&quot;]/div[4]/div/i[3]</value>
+         <key>BASIC</key>
+         <value>id(&quot;content&quot;)/div[1]/div[1]/div[@class=&quot;m-grid__item m-grid__item--fluid m-grid m-grid--ver-desktop m-grid--desktop m-body&quot;]/div[@class=&quot;m-grid__item m-grid__item--fluid m-wrapper&quot;]/div[@class=&quot;m-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-xl-5&quot;]/div[@class=&quot;m-portlet m-portlet--mobile&quot;]/div[1]/div[1]/i[@class=&quot;la la-check&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test submit with entered fields</description>
+   <name>TC005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>26f74f9a-46f5-4372-b918-8f6f395005b2</testCaseGuid>
+</TestCaseEntity>

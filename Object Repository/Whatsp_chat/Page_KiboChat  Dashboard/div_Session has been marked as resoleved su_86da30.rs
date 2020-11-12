@@ -4,6 +4,12 @@
    <name>div_Session has been marked as resoleved su_86da30</name>
    <tag></tag>
    <elementGuidId>5dfc6fbc-e117-4e54-a2e5-0bec67dbcd57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'SESSION HAS BEEN MARKED AS RESOLEVED SUCCESSFULLY' or . = 'SESSION HAS BEEN MARKED AS RESOLEVED SUCCESSFULLY')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -25,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Session has been marked as resoleved successfully</value>
+      <value>SESSION HAS BEEN MARKED AS RESOLEVED SUCCESSFULLY</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

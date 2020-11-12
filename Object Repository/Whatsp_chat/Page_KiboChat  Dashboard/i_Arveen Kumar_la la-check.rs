@@ -4,6 +4,12 @@
    <name>i_Arveen Kumar_la la-check</name>
    <tag></tag>
    <elementGuidId>6af215e2-5167-4411-9a23-73cbde3c82fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[3]/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -53,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;_chat_area&quot;)/div[5]/div[1]/i[@class=&quot;la la-check&quot;]</value>
+      <value>//*[@id=&quot;_chat_area&quot;]/div/div[5]/div/button[3]/i</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

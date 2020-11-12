@@ -4,10 +4,16 @@
    <name>span_WhatsApp</name>
    <tag></tag>
    <elementGuidId>b6e3ff62-7e79-4591-83d9-4476c480b58b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'WhatsApp' or . = 'WhatsApp')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

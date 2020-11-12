@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test update correct subscriber name</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6b37f4d-d010-4740-a663-5fa034b2fc1e</testCaseGuid>
+</TestCaseEntity>

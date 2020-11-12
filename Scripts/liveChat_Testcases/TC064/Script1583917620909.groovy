@@ -25,7 +25,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboChat  Live Chat/a_Open'))
+WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Live Chat/span_Open'))
 
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -36,7 +36,8 @@ live_chat_subscribers[0].click()
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Live Chat/Page_KiboChat  Api Settings/span_(Unsubscribe)'))
+WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Live Chat/span_(Block User)'))
+
 
 WebUI.click(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Live Chat/Page_KiboChat  Api Settings/p_Are you sure you want to Unsubscribe this_7759c9'))
 

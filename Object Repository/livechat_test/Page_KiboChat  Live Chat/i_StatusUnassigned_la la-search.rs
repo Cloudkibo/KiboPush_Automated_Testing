@@ -6,12 +6,12 @@
    <elementGuidId>9c3f9934-080f-4bc0-89b4-fe2956741996</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//i[@data-tip = 'Search' and @class = 'la la-search' and @currentitem = 'false']</value>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;_chat_area&quot;]/div/div[4]/div/button[2]/i</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;_chat_area&quot;]/div[4]/div/i[2]</value>
+         <key>BASIC</key>
+         <value>//i[@data-tip = 'Search' and @class = 'la la-search' and @currentitem = 'false']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

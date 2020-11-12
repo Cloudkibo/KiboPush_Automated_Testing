@@ -20,11 +20,9 @@ WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/go to live c
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/span_Arveen Kumar'))
+WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/sessionClick'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/i_Arveen Kumar_la la-search'))
 
 WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/h5_Search Chat'))
-
-//WebUI.click(findTestObject('Object Repository/Whatsp_chat/Page_KiboChat  Dashboard/i_Search Chat_la la-close'))
 

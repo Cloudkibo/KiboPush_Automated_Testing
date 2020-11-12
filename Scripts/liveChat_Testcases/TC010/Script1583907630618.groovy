@@ -25,7 +25,7 @@ WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Live Chat/a_Open'))
+WebUI.click(findTestObject('Object Repository/new_livechat/Page_KiboChat  Live Chat/span_Open'))
 
 WebUI.setText(findTestObject('Object Repository/Updated_liveChat/Page_KiboChat  Api Settings/input_Video Tutorial_generalSearch'), 
     'arveen')
