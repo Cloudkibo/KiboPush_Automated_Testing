@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Duplicate names for blocks should not be allowed in same parent</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f6a2a6b3-b514-4861-a818-4e53c5163365</testCaseGuid>
+</TestCaseEntity>
