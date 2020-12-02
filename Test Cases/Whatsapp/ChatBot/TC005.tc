@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add the text response of the chatbot</description>
+   <name>TC005</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>81180fea-a9af-4116-b0b1-e056b2d57de7</testCaseGuid>
+</TestCaseEntity>
