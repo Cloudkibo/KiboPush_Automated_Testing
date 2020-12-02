@@ -16,8 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Whatsapp/ChatBot/TC017'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Whatsp_chatBot/Page_KiboPush/span_Automation'))
+WebUI.click(findTestObject('Object Repository/Whatsp_chatBot/Page_KiboChat  WhatsApp Commerce Chatbot/Page_KiboChat  Configure ChatBot/button_Yes'))
 
+WebUI.click(findTestObject('Object Repository/Whatsp_chatBot/Page_KiboChat  WhatsApp Commerce Chatbot/Page_KiboChat  Configure ChatBot/div_Message block deleted successfully'))
+
+WebUI.callTestCase(findTestCase('Whatsapp/ChatBot/back_button'), [:], FailureHandling.STOP_ON_FAILURE)
 

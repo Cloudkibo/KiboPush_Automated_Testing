@@ -3,13 +3,7 @@
    <description></description>
    <name>button_Delete</name>
    <tag></tag>
-   <elementGuidId>d5aa2131-1abb-403a-b997-8f7ffff1ff0f</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = '_chatbot_message_area_header_delete' and @type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>bb6ef5f7-46d7-477f-9d05-71f8bb8c7a32</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
