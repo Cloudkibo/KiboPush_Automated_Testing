@@ -16,23 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/TC002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/input_welcome_react-select-2-input'),
-	'ok')
+WebUI.setText(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/input_welcome_react-select-2-input'), 
+    'ok')
 
-WebUI.sendKeys(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/input_welcome_react-select-2-input'),
-	Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/input_welcome_react-select-2-input'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/path'))
+
 WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/span_Save'))
 
 WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/div_Saved successfully'))
 
-WebUI.delay(2)
+WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/backButton'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Test Chatbot_m-portlet__nav-link btn_841cec'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/new_chatBot/Page_KiboChat  ChatBot Automation/h3_Chatbot Automation'))

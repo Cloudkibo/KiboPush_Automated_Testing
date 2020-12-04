@@ -6,12 +6,12 @@
    <elementGuidId>a166e4ab-1690-4374-bab5-84a43405723e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;_chatbot_message_area&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[1]/div[@class=&quot;css-2b097c-container&quot;]/div[@class=&quot;css-1pahdxg-control&quot;]/div[@class=&quot;css-1swufzi&quot;]/div[@class=&quot;css-1rhbuit-multiValue&quot;]/div[@class=&quot;css-xb97g8&quot;]/svg[@class=&quot;css-19bqh2r&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;_chatbot_message_area&quot;]/div[1]/div/div/div/div/div[1]/div[2]/div[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;_chatbot_message_area&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[1]/div[@class=&quot;css-2b097c-container&quot;]/div[@class=&quot;css-1pahdxg-control&quot;]/div[@class=&quot;css-1swufzi&quot;]/div[@class=&quot;css-1rhbuit-multiValue&quot;]/div[@class=&quot;css-xb97g8&quot;]/svg[@class=&quot;css-19bqh2r&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

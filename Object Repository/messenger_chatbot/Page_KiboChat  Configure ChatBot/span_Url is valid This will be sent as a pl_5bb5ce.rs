@@ -3,13 +3,7 @@
    <description></description>
    <name>span_Url is valid This will be sent as a pl_5bb5ce</name>
    <tag></tag>
-   <elementGuidId>5199d718-86cc-48fb-a947-7b3305f9e827</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//div[@id = '_cb_ma_attachment_hm' and (text() = 'Url is valid. Video size is greater than 25MB and it will be sent as a card.' or . = 'Url is valid. Video size is greater than 25MB and it will be sent as a card.')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>ea9c41d5-31fa-4209-a109-bb2a595c6cd3</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
