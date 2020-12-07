@@ -17,12 +17,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/TC002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/textarea_I am your virtual assistant to giv_bed246'), 
-    'I am your virtual \nassistant to give \nyou tips and \neducation on \nCoronaVirus \n(Covid19). ')
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/span_Basic Builder'))
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/span_Save'))
+WebUI.delay(5)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/div_Saved successfully'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/li_Advanced Builder'))
+
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h5_Warning'))
+
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_'))
 
 WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/backButton'), [:], FailureHandling.STOP_ON_FAILURE)
-

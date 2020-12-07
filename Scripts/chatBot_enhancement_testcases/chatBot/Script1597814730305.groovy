@@ -24,7 +24,9 @@ WebUI.click(findTestObject('Object Repository/new_chatBot/Page_KiboChat  ChatBot
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/new_chatBot/Page_KiboChat  Bots/span_Chatbot Automation (NEW)'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Live Chat/span_Chatbot Automation'))
 
 WebUI.click(findTestObject('Object Repository/new_chatBot/Page_KiboChat  ChatBot Automation/h3_Chatbot Automation'))
+
+WebUI.delay(2)
 

@@ -19,6 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Automation (1) (1)'))
+WebUI.click(findTestObject('Object Repository/Whatsp_chatBot/Page_KiboPush/span_Automation'))
 
 WebUI.delay(1)

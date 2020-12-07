@@ -25,8 +25,16 @@ WebUI.setText(findTestObject('Object Repository/new_chatBot/Page_KiboChat  Confi
 
 WebUI.click(findTestObject('Object Repository/new_chatBot/Page_KiboChat  Configure ChatBot/button_Add'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Whatsp_chatBot/Page_KiboChat  WhatsApp Commerce Chatbot/Page_KiboChat  Configure ChatBot/span_child1'))
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/button_Test Chatbot_m-portlet__nav-link btn_841cec'))
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/new_chatBot/Page_KiboChat  ChatBot Automation/h3_Chatbot Automation'))
+
+WebUI.setText(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/textarea_I am your virtual assistant to giv_bed246'),
+	'I am your virtual \nassistant to give \nyou tips and \neducation on \nCoronaVirus \n(Covid19). ')
+
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/span_Save'))
+
+WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  Configure ChatBot/div_Saved successfully'))
+
+
+WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/backButton'), [:], FailureHandling.STOP_ON_FAILURE)
+

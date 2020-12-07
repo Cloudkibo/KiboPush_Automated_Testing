@@ -6,12 +6,12 @@
    <elementGuidId>5ca13a5e-654f-4aa4-8b69-cfede184704c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@id = 'react-select-4-input' and @type = 'text']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;_chatbot_message_area&quot;]/div[3]/div/div/div/div/div[1]/div[2]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@id = 'react-select-4-input' and @type = 'text']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
