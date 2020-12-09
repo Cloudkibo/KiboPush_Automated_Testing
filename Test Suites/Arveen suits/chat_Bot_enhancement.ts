@@ -128,12 +128,12 @@
       <guid>8220d586-08e2-47a0-ba53-7c305c46956a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/chatBot_enhancement_testcases/TC037</testCaseId>
+      <testCaseId>Test Cases/chatBot_enhancement_testcases/TC038</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>3b3db688-6d84-47bc-983a-50dd48d60695</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/chatBot_enhancement_testcases/TC038</testCaseId>
+      <testCaseId>Test Cases/chatBot_enhancement_testcases/TC039</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
