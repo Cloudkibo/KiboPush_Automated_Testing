@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add subtitle in carousel</description>
+   <name>TC045</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c625966c-ae6e-441a-a546-c8eb24626521</testCaseGuid>
+</TestCaseEntity>

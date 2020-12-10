@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Upload image in carousel</description>
+   <name>TC046</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0abf385f-8c1b-4998-bc18-afea5183f534</testCaseGuid>
+</TestCaseEntity>
