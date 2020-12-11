@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Add invalid link in link carousel</description>
+   <name>TC066</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bea11463-d4c6-4c67-8e42-92005ae810f9</testCaseGuid>
+</TestCaseEntity>

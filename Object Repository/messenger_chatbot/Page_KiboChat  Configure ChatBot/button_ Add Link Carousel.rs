@@ -4,6 +4,12 @@
    <name>button_ Add Link Carousel</name>
    <tag></tag>
    <elementGuidId>58f81f0f-5cae-4cf1-bff7-3cb0a0971346</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '_add_link_carousel_selection' and (text() = '+ Add Link Carousel' or . = '+ Add Link Carousel')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -81,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Add'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='test'])[2]/preceding::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,5 +95,12 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/button[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='+ Add'])[1]/preceding::button[1]</value>
    </webElementXpaths>
 </WebElementEntity>

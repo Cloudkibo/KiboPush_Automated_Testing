@@ -22,8 +22,6 @@ WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  C
 
 WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h5_Edit Link Carousel'))
 
-WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Cancel'))
-
 WebUI.delay(2)
 
 //WebUI.click(findTestObject('Object Repository/new_chatBot/Page_KiboChat  Configure ChatBot/h3_Welcome'))

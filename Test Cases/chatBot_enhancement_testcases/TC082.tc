@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Remove Attachment</description>
+   <name>TC082</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fcbd04e9-f0c4-4cc7-8fc1-840e39fcc06c</testCaseGuid>
+</TestCaseEntity>

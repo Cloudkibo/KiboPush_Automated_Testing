@@ -4,10 +4,16 @@
    <name>h6_ Add Card</name>
    <tag></tag>
    <elementGuidId>bda55cd6-6f8b-403c-8603-dbe6b869d175</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//h6[(text() = ' + Add Card ' or . = ' + Add Card ')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -48,4 +48,8 @@ WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  C
 
 WebUI.verifyElementClickable(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Next'), FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/button_'))
+
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Yes'))
+
 //WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Cancel'))
