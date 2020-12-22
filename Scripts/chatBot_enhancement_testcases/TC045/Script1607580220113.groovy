@@ -16,14 +16,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
-//WebUI.callTestCase(findTestCase('chatBot Testcases/open_automation'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/chatBot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/TC042'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  ChatBot Automation/span_Thar needs halp'))
+WebUI.setText(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/input_Subtitle_form-control'), 
+    'subtitle')
 
-WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h3_Welcome'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/button_'))
 
-WebUI.delay(3)
-
-
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Yes'))

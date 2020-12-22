@@ -16,14 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
-//WebUI.callTestCase(findTestCase('chatBot Testcases/open_automation'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/chatBot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/TC043'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  ChatBot Automation/span_Thar needs halp'))
+WebUI.setText(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/input_Link_form-control'),
+	'http://www.newslink.org/')
 
-WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h3_Welcome'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/div_Link is valid'))
 
-WebUI.delay(3)
+//WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Cancel'))
+
+//WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/div_Invalid or private website link'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/button_'))
+
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Yes'))
 
 

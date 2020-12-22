@@ -14,16 +14,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
-//WebUI.callTestCase(findTestCase('chatBot Testcases/open_automation'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/chatBot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/button_ Add Attachment'))
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  ChatBot Automation/span_Thar needs halp'))
+WebUI.setText(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/input_Attachment__attachment_in_chatbot'),
+  'http://www.newslink.org/')
 
-WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h3_Welcome'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/div_Url is valid This will be sent as a card'))
 
-WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/i_Carousel_flaticon-circle'))
 
-
+WebUI.delay(2)

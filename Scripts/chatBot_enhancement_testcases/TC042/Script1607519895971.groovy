@@ -16,14 +16,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
-//WebUI.callTestCase(findTestCase('chatBot Testcases/open_automation'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/chatBot'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/MainPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  ChatBot Automation/span_Thar needs halp'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_ Add Carousel'))
 
-WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h3_Welcome'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h5_Edit Carousel'))
 
-WebUI.delay(3)
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Next'), 
+    FailureHandling.STOP_ON_FAILURE)
 
+//WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Next_1'))
+
+//WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Edit Carousel'))
 

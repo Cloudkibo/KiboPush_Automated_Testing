@@ -16,14 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
-//WebUI.callTestCase(findTestCase('chatBot Testcases/open_automation'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/chatBot'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('chatBot_enhancement_testcases/TC042'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/chatbot/Page_KiboChat  ChatBot Automation/span_Thar needs halp'))
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_ Add Button'))
 
-WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/h3_Welcome'))
+WebUI.setText(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/input_Button Title_form-control m-input'), 
+    'title')
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/input_Create new block_form-control m-input'), 
+    'A')
 
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Save'))
+
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Next'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/Page_KiboChat  Configure ChatBot/button_'))
+
+WebUI.click(findTestObject('Object Repository/messenger_chatbot/Page_KiboChat  Configure ChatBot/button_Yes'))
 

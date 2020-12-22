@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Save carousel and move to next block and go back</description>
+   <name>TC063</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edf773d5-ee10-4a96-a082-ae6bdd677f70</testCaseGuid>
+</TestCaseEntity>

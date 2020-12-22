@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Save carousel and save chatbot and reopen chatbot</description>
+   <name>TC064</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb8c36b4-b202-4773-a672-ec7c61a0c81e</testCaseGuid>
+</TestCaseEntity>
