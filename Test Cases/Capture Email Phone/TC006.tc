@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Preview in Ask for Subscriber's Email Popover</description>
+   <name>TC006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0a381571-b511-43df-a3b5-fc19ce6f71cd</testCaseGuid>
+</TestCaseEntity>

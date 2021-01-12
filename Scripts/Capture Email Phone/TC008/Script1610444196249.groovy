@@ -22,12 +22,8 @@ WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  L
 
 WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/h5_Ask for Subscribers Email'))
 
-WebUI.setText(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/textarea_Please provide your email'), 
-    'email')
+WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/button_Send'))
 
-WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/div_email'))
-
-//WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/input'))
-
-WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/button_Cancel'))
+WebUI.delay(3)
+WebUI.verifyElementNotPresent(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/h5_Ask for Subscribers Email'), 3)
 

@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h6_Ask for Phone Number</name>
+   <name>h6_Ask for Email (1)</name>
    <tag></tag>
-   <elementGuidId>31e1df53-6582-4535-a491-1b5ce112be86</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//h6[(text() = ' Ask for Phone Number ' or . = ' Ask for Phone Number ')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>21aca57d-d159-4db6-8f05-a09fc0c3e8ee</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -24,7 +18,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Ask for Phone Number </value>
+      <value> Ask for Email </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,27 +32,20 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[1]/following::h6[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ask for Phone Number'])[1]/following::h6[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat'])[1]/following::h6[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ask for Email'])[1]/preceding::h6[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered by'])[1]/following::h6[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[7]/div/div/div/div/div/div/h6</value>
+      <value>//div[2]/div/h6</value>
    </webElementXpaths>
 </WebElementEntity>

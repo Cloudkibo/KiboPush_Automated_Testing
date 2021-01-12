@@ -16,18 +16,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Capture Email Phone/TC001'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh()
 
-WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/h6_Ask for Email'))
+WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/LiveChat'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/h5_Ask for Subscribers Email'))
+WebUI.callTestCase(findTestCase('Capture Email Phone/sessionClick'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/textarea_Please provide your email'), 
-    'email')
+WebUI.callTestCase(findTestCase('Capture Email Phone/TC013'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/div_email'))
+WebUI.setText(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/textarea_Please provide your phone number'), 
+    'phone number')
 
-//WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/input'))
+WebUI.delay(3)
 
+WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/input'))
+
+WebUI.delay(3)
+
+//WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/div_subscribers phone numberskip'))
 WebUI.click(findTestObject('Object Repository/Email_phoneNumber/Page_KiboChat  Live Chat/button_Cancel'))
 

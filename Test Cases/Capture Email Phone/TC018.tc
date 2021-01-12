@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Cancel in Ask for Subscriber's Phone Number Popover</description>
+   <name>TC018</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ddfca0e1-4338-47ed-9402-7ce0268e9284</testCaseGuid>
+</TestCaseEntity>
