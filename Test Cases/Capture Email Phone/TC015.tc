@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Allow Keyboard input in Ask for Subscriber's Phone Popover</description>
+   <name>TC015</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>edb80b5e-e593-4fc2-97b5-b16f08fd83de</testCaseGuid>
+</TestCaseEntity>

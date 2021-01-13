@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Allow Skip in Ask for Subscriber's Phone number Popover</description>
+   <name>TC016</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b8d3cc2-d997-41b4-b1c3-507a4b976298</testCaseGuid>
+</TestCaseEntity>

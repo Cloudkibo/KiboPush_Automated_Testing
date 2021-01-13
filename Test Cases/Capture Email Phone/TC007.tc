@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Cancel in Ask for Subscriber's Email Popover</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb76722b-eb57-4d10-8004-cfb4e736cbb3</testCaseGuid>
+</TestCaseEntity>

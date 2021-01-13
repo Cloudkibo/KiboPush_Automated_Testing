@@ -253,79 +253,79 @@
    <testCaseLink>
       <guid>c6ab7573-a658-47af-915b-063b2904e468</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC065</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>1449f89c-4a69-4710-8f03-794ff19836a8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC066</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d5a121cb-e840-4423-ac18-1d04a5935a11</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC067</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a696c3b2-d7e4-4409-b281-fa414ac1e81f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC068</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4a0601ba-bff5-4639-aaaa-e435b22d14c4</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC069</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>5a20b80a-1e0d-442e-b09a-ac923d3e378a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC070</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>a227503d-136f-4b0b-bdfc-87c8aa147deb</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC075</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>4defa398-686e-46c3-8d30-53f80bd7d5d9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC076</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>986a0fe9-ad27-4b97-bc1b-c80d6a31ca2e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC080</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>28fd509d-fe34-404d-a55a-fc6e15c7015b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC081</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>8f077018-a876-4187-b42c-a553ea0c6ee0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC082</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>545200c4-9d05-43b3-8f9f-369d0efb503e</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC083</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>f4e5fdea-34ee-46a7-9b71-c272fdffcab3</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/chatBot_enhancement_testcases/TC084</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
