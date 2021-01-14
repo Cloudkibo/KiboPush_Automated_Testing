@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Disable the chatbot</description>
+   <name>TC004</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>982745bf-005e-4326-8e31-0b3a1da74863</testCaseGuid>
+</TestCaseEntity>
