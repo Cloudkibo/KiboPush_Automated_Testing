@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Enable the chatbot</description>
+   <name>TC003</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04c7c6d4-94af-4900-8d92-9cda1f59f0c6</testCaseGuid>
+</TestCaseEntity>
