@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Create new chatbot</description>
+   <name>TC000</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e6a2f0b-1375-44cd-ba69-2bbbae13a16f</testCaseGuid>
+</TestCaseEntity>
