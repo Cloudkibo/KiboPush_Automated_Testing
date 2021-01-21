@@ -12,36 +12,32 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1) (1)'))
+WebUI.callTestCase(findTestCase('SMS/sms broadcast/TC11176'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1) (1)'))
+WebUI.setText(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/input_Title_form-control m-input'), 
+    'ok')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1) (1)'))
+WebUI.setText(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/textarea_Message_postTextArea'), 
+    'm')
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/input_Select Segmentation_basicSegmentation'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/input_Push Message_form-control m-input (1)'), 
-    'faizan')
+//WebUI.selectOptionByValue(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/select_Select Conditionnamenumber'), 
+//    'name', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/textarea_HELLO (1)'), 'HELLO')
+WebUI.selectOptionByValue(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with'), 
+    'contains', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/select_Select Criteriaiscontainsbegins with'), 
-    'is', true)
+WebUI.setText(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/input_Value_targetingText'), 'vishal')
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/input_Value_text'), 'ok')
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/span_Send (3)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/span_Please choose a valid condition'))
+WebUI.scrollToPosition(0, 0)
+WebUI.delay(3)
+WebUI.verifyElementNotClickable(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/button_Send'))
 

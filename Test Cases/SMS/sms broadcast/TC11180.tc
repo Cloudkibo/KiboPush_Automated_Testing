@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Send broadcast with correct values</description>
+   <name>TC11180</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3545b833-b7cf-4ef8-badc-5545f7b21e00</testCaseGuid>
+</TestCaseEntity>

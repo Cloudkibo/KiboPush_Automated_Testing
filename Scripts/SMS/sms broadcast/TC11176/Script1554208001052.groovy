@@ -12,20 +12,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.callTestCase(findTestCase('SMS/sms broadcast/broadcasting'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/a_Create New'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts'))
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/span_New Broadcast'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/h5_Create Broadcast'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts (1) (1) (1)'))
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/button_Create New Broadcast'))
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/span_Create New (1) (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/button_Create New Broadcast (1) (1)'))
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/h3_Create Broadcast'))
 

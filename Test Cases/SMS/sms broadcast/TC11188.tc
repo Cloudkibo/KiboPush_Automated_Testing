@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test select broadcast type modal</description>
+   <name>TC11188</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>669d9402-0362-4e3e-be55-e4c733916862</testCaseGuid>
+</TestCaseEntity>

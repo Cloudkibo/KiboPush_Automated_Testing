@@ -16,16 +16,20 @@ import org.openqa.selenium.By as By
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.WebElement as WebElement
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.callTestCase(findTestCase('SMS/sms broadcast/TC11172'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/Page_KiboPush  Broadcast/a_next (1)'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts'))
+WebUI.delay(4)
 
-WebUI.delay(1)
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Broadcasts/h3_Broadcasts'))
+WebElement Table = driver.findElement(By.xpath('//*[@id="ajax_data"]/table/tbody'))
 
-WebUI.delay(1)
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
+
+WebUI.verifyGreaterThanOrEqual(rows_table.size(), 1)
 

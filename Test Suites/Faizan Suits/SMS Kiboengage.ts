@@ -191,18 +191,6 @@
       <testCaseId>Test Cases/SMS/sms broadcast/TC11184</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>57c39d78-547c-4421-8578-f5de721c52c7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/sms broadcast/TC11185</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>4a29e43c-9187-49b4-b9bb-5501e1cca587</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/SMS/sms broadcast/TC11186</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b1fa0af6-65c7-49b8-a009-8d7d57a6d255</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
