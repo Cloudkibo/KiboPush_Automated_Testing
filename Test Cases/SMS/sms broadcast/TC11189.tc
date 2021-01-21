@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>select broadcast type</description>
+   <name>TC11189</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eaf46949-bfbd-42bb-8569-3f62f90599a1</testCaseGuid>
+</TestCaseEntity>
