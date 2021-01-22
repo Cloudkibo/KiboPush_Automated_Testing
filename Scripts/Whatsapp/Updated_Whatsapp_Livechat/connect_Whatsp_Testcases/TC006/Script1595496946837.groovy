@@ -19,9 +19,14 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/connect_Whatsp_Testcases/RedirectTowhtspScreen'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Edit'))
+WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Connect'))
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Submit'))
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/div_Saved Successfully'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/select_Select a WhatsApp ProviderFlockSendT_1bdeaa'), 
+    'cequens', false)
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/span_Note Please add this webhook url'))
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/span_httpswebhookcloudkibocomwebhookscequen_539929'))
 

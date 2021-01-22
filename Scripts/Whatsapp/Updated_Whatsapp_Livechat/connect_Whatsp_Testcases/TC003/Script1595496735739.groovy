@@ -22,18 +22,28 @@ WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/connect_What
 WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Connect'))
 
 WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/h5_Connect with FlockSend WhatsApp'))
 
-WebUI.setText(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/input_WhatsApp Number_form-control'),
-	'+1(425)626-6670')
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Submit'))
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h5_Connect with WhatsApp'))
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/div_Access Token cannot be empty'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/select_Select a WhatsApp ProviderFlockSendT_1bdeaa'),
+	'flockSend', false)
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_'))
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_'))
 
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/h3_Settings'))
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h3_Settings'))
+
+
+//WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/h5_Connect with FlockSend WhatsApp'))
+//
+//WebUI.setText(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/input_WhatsApp Number_form-control'),
+//	'+1(425)626-6670')
+//WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Submit'))
+//
+//WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h5_Connect with WhatsApp'))
+//
+//WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_'))
+//
+//WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h3_Settings'))
 
 
 
