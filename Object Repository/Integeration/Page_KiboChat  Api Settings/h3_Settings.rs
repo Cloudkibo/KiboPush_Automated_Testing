@@ -4,6 +4,12 @@
    <name>h3_Settings</name>
    <tag></tag>
    <elementGuidId>01c68ba1-d278-4030-80dd-f6e79eafb355</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Settings' or . = 'Settings')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test edit whatsapp</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a4c092ba-ec76-4cbe-a522-7cd89a97310e</testCaseGuid>
+</TestCaseEntity>

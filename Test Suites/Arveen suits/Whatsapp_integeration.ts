@@ -64,4 +64,22 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Whatsapp/Updated_Whatsapp_Livechat/connect_Whatsp_Testcases/TC006</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>1565fa9f-97dc-4f88-9a39-cf9edf5262b6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Updated_Whatsapp_Livechat/connect_Whatsp_Testcases/TC007</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2fc0a16d-18dd-4707-b964-9fe906a55452</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Updated_Whatsapp_Livechat/connect_Whatsp_Testcases/TC008</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>bc9da1fa-c50d-421d-a2cf-98a5ea8c589b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Whatsapp/Updated_Whatsapp_Livechat/connect_Whatsp_Testcases/TC009</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
