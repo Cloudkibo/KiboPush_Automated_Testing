@@ -29,7 +29,3 @@ WebUI.setEncryptedText(findTestObject('Object Repository/livechat_test/Page_Clou
 
 WebUI.click(findTestObject('Object Repository/livechat_test/Page_CloudKibo/button_Sign In'))
 WebUI.delay(3)
-
-WebUI.click(findTestObject('Object Repository/livechat_test/Page_KiboChat  Dashboard/h3_Dashboard'))
-
-WebUI.delay(3)

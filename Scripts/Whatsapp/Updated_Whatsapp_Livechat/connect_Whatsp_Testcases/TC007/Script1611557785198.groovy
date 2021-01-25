@@ -19,13 +19,27 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/connect_Whatsp_Testcases/RedirectTowhtspScreen'), [:], 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_Disconnect'))
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_Connect'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h5_Disconnect WhatsApp Account'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/select_Select a WhatsApp ProviderFlockSendT_1bdeaa'), 
+    'flockSend', false)
 
-WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_ (1)'))
+WebUI.setText(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/input_FlockSend Access Token_form-control'), 
+    '5ef497d3f5ced46d5016a442')
 
-WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h3_Settings (1)'))
+WebUI.setText(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/input_WhatsApp Number_form-control'), 
+    '+14256266671')
 
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_Edit'))
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h5_Connect with WhatsApp'))
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/div_Saved Successfully'))
+
+WebUI.delay(2)

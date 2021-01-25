@@ -23,17 +23,31 @@ WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/h5_Connect with FlockSend WhatsApp'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/select_Select a WhatsApp ProviderFlockSendT_1bdeaa'),
+	'flockSend', false)
 
-WebUI.setText(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/input_FlockSend Access Token_form-control'), 
-    '5ef497d3f5ced46d5016a442')
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Submit'))
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/div_Invalid Number'))
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/button_'))
+
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/h3_Settings'))
 
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_'))
-
-WebUI.delay(2)
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/h3_Settings'))
+//WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/h5_Connect with FlockSend WhatsApp'))
+//
+//WebUI.setText(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/input_FlockSend Access Token_form-control'), 
+//    '5ef497d3f5ced46d5016a442')
+//
+//WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_Submit'))
+//
+//WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/div_Invalid Number'))
+//
+//
+//WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/button_'))
+//
+//WebUI.delay(2)
+//WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/h3_Settings'))

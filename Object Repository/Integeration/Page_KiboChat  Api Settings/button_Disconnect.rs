@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Submit</name>
+   <name>button_Disconnect</name>
    <tag></tag>
-   <elementGuidId>c88ae8d2-3b66-4cca-9b4d-fa6046012654</elementGuidId>
+   <elementGuidId>c62ab2ec-1404-463d-955f-833c0599d510</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//button[@class = 'btn btn-primary' and (text() = ' Submit' or . = ' Submit')]</value>
+         <key>XPATH</key>
+         <value>//div[@id='m_widget4_tab1_content']/div/div[3]/div[3]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;connectWapp&quot;]/div/div/div[2]/form/div/div[2]/button</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Disconnect' or . = 'Disconnect')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
+      <value>m-btn m-btn--pill m-btn--hover-danger btn btn-danger</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Submit</value>
+      <value>Disconnect</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;connectWapp&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/div[@class=&quot;m-form&quot;]/div[@class=&quot;m-portlet__foot m-portlet__foot--fit&quot;]/div[@class=&quot;m-form__actions&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
+      <value>id(&quot;m_widget4_tab1_content&quot;)/div[@class=&quot;m-widget4&quot;]/div[@class=&quot;m-widget4__item&quot;]/div[@class=&quot;m-widget4__ext&quot;]/button[@class=&quot;m-btn m-btn--pill m-btn--hover-danger btn btn-danger&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

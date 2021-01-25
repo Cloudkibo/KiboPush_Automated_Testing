@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test Submit with empty fields</description>
+   <description>Test select provider list</description>
    <name>TC002</name>
    <tag></tag>
    <comment></comment>

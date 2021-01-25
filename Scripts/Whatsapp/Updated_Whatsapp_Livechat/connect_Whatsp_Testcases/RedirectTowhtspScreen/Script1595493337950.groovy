@@ -14,16 +14,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
+//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_staging_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
+//
 //WebUI.callTestCase(findTestCase('Whatsapp/Updated_Whatsapp_Livechat/connect_Whatsp_Testcases/settingscreen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/span_Account Settings'))
 
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboChat  Api Settings/span_Change Password'))
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/span_Configuration'))
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/connect_whastp/Page_KiboPush  api_settings/span_Configuration'))
-
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Integeration/Page_KiboChat  Api Settings/div_Connect your business identity'))
 

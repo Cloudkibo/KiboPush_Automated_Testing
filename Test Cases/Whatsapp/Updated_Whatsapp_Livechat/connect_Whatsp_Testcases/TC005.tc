@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Test submit with entered fields</description>
+   <description>Test submit button</description>
    <name>TC005</name>
    <tag></tag>
    <comment></comment>
