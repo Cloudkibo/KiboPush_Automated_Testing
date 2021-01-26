@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>edit endpoint</description>
+   <name>TC006</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9f272d9-adc4-43c5-badf-9d75bf2d8ee6</testCaseGuid>
+</TestCaseEntity>
