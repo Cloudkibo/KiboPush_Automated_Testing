@@ -14,16 +14,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-//WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kibochat'), [:], FailureHandling.STOP_ON_FAILURE)
-//
-//WebUI.callTestCase(findTestCase('WebHook/settingscreen'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WebHook/RedirectTowhtspScreen'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Webhook/Page_KiboChat  Api Settings/span_Account Settings'))
+WebUI.click(findTestObject('Object Repository/Webhook/Page_KiboChat  Api Settings/button_Enable'))
 
-WebUI.click(findTestObject('Object Repository/Webhook/Page_KiboChat  Api Settings/span_Webhooks'))
-
-WebUI.delay(3)
-WebUI.click(findTestObject('Object Repository/Webhook/Page_KiboChat  Api Settings/span_Webhooks'))
+WebUI.click(findTestObject('Object Repository/Webhook/Page_KiboChat  Api Settings/div_Webhook Enabled'))
 

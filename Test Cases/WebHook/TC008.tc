@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>enable endpoint</description>
+   <name>TC008</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2a64ae9-8d1f-4ea0-91af-7c5106b4e8e5</testCaseGuid>
+</TestCaseEntity>

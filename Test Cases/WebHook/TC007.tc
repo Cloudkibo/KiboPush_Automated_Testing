@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>disable endpoint</description>
+   <name>TC007</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>13ba17b8-33c8-4704-9663-2f84b888027a</testCaseGuid>
+</TestCaseEntity>
