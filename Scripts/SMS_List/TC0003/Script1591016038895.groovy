@@ -24,5 +24,5 @@ WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Add Manually'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Enter a valid number of format E164'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/div_Please enter a valid number of format E164'))
 
