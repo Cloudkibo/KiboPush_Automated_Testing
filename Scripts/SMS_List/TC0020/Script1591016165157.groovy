@@ -15,22 +15,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
+WebUI.callTestCase(findTestCase('SMS_List/TC0018'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.click(findTestObject('Page_KiboPush  Broadcast/a_previous'))
 
-WebUI.delay(1)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
+WebDriver driver = DriverFactory.getWebDriver()
 
-WebUI.delay(1)
+WebElement Table = driver.findElement(By.xpath('//table/tbody'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts'))
+List<WebElement> rows_table = Table.findElements(By.tagName('tr'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input'), 'Faizan')
+int rows_count = rows_table.size()
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input_1'), '+92333')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Add Manually'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Enter a valid number of format E164'))
-
+WebUI.verifyGreaterThanOrEqual(rows_count, 1)

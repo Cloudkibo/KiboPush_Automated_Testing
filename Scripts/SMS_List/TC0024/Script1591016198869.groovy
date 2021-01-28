@@ -14,13 +14,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.callTestCase(findTestCase('SMS_List/TC0002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_Reset'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/h5_Reset Data'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/p_Are you sure you want to reset data'))
 
-//WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Submit'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_No'))
+
+

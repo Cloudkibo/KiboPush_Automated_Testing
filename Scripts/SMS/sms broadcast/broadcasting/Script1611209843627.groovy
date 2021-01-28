@@ -16,16 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
 //WebUI.callTestCase(findTestCase('s-sidebar_navigation/individualAccount/arveen_production_login_kiboengage'), [:], FailureHandling.STOP_ON_FAILURE)
+//
+//WebUI.callTestCase(findTestCase('SMS/sms broadcast/goToBroadcast'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dashboard'))
 
 WebUI.delay(1)
-
-
 
 WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Broadcasts'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/h3_Broadcasts'))
+
 WebUI.delay(1)
+

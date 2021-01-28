@@ -16,14 +16,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SMS_List/TC0002'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('SMS/sms broadcast/TC11176'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/i_Valid Records_la la-angle-down'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_Actions_m-portlet__nav-link btn m-bt_ab6a3a'))
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/input_Apply Basic Segmentation_listSegmentation'))
 
-WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/i_Actions_la la-close'))
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/label_Use Subscriber Lists'))
 
+WebUI.click(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/div_Select List'))
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/input_Select List_react-select-2-input'), 
+    'list1')
+//
+//WebUI.sendKeys(findTestObject('Object Repository/SMS_broadcast/Page_KiboEngage  Broadcasts/input_Select List_react-select-2-input'), 
+//    Keys.chord(Keys.ENTER))
+//
+//WebUI.delay(2)
+

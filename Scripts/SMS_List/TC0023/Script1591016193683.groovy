@@ -16,21 +16,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.callTestCase(findTestCase('SMS_List/TC0002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/h5_Save in List'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/span_Merge these subscribers into an existing list'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input'), 'Faizan')
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input_1'), '+92333')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Add Manually'))
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Enter a valid number of format E164'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/h3_Upload Contacts'))
 

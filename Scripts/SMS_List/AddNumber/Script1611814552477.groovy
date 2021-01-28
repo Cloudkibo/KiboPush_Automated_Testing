@@ -14,16 +14,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('SMS_List/TC0002'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/input_Submit_form-control m-input'),
+	'Faizan')
 
-WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/i_Valid Records_la la-angle-down'))
+WebUI.setText(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/input_Submit_form-control m-input_1'),
+	'+923333739566')
 
-WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_Actions_m-portlet__nav-link btn m-bt_ab6a3a'))
-WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_Add Manually'))
 
-WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/i_Actions_la la-close'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/div_Record added successfully'))
 
-
-WebUI.delay(2)

@@ -15,12 +15,11 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.click(findTestObject('Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.callTestCase(findTestCase('SMS_List/TC0002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/i_Valid Records_la la-angle-down'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/i_Actions_la la-trash'))
 
-WebUI.delay(1)
 
 //WebUI.verifyElementNotClickable(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Submit'))

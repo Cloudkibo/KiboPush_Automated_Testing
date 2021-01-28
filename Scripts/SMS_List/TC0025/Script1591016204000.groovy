@@ -1,8 +1,3 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -15,24 +10,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.callTestCase(findTestCase('SMS_List/TC0024'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts'))
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input'), 'Faizan')
-
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input_1'), '+923333739566')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Add Manually'))
-
-WebUI.delay(6)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_1'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/h3_Upload Contacts'))
 
