@@ -3,13 +3,7 @@
    <description></description>
    <name>button_Add Manually</name>
    <tag></tag>
-   <elementGuidId>1d0f33e0-f9ba-40c3-971e-7d5ea3d3f0c3</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//button[(text() = 'Add Manually' or . = 'Add Manually')]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>4e2d51a8-25cc-4619-b980-8f2542434533</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

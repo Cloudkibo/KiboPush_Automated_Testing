@@ -16,23 +16,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_KiboPush  Dashboard/span_Dashboard'))
+WebUI.callTestCase(findTestCase('SMS_List/TC0002'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_Reset'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_Upload Contacts'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/h5_Reset Data'))
 
-WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/p_Are you sure you want to reset data'))
 
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Upload Contacts/h3_Upload Contacts'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/button_Yes'))
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input'), 'Faizan')
+//WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/span_1'))
+WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Page_KiboEngage  Dashboard/input_Submit_form-control m-input_1'), '+923333739566')
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/button_Add Manually'))
-
-WebUI.delay(6)
-
-WebUI.click(findTestObject('Object Repository/Page_KiboEngage  Dashboard/span_0'))
+WebUI.click(findTestObject('Object Repository/uploadContact/Page_KiboEngage  Dashboard/div_No data to display'))
 

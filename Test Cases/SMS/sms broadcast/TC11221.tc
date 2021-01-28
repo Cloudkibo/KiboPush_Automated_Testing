@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test targeting radio buttons</description>
+   <name>TC11221</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ec52e156-319c-4811-92a2-69450e4d367d</testCaseGuid>
+</TestCaseEntity>
